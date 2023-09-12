@@ -7,6 +7,10 @@ const youtube = google.youtube("v3");
 // Set your API key or OAuth 2.0 credentials
 const API_KEY = "YOUR_API_KEY"; // Replace with your API key
 
+// Import the sources from sources.json
+const sourcesData = require("./sources.json");
+const outputFilename = "output.json";
+
 // Function to retrieve all video data from a playlist
 async function getAllVideosFromPlaylist(playlistId) {
   try {
@@ -26,7 +30,13 @@ async function getAllVideosFromPlaylist(playlistId) {
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
-        videos.push(...videoItems);
+        videos.push(
+          ...videoItems.map((item) => ({
+            title: item.snippet.title,
+            description: item.snippet.description,
+            thumbnails: item.snippet.thumbnails,
+          }))
+        );
       }
     } while (nextPageToken);
 
@@ -61,7 +71,13 @@ async function getAllVideosFromChannel(channelId) {
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
-        videos.push(...videoItems);
+        videos.push(
+          ...videoItems.map((item) => ({
+            title: item.snippet.title,
+            description: item.snippet.description,
+            thumbnails: item.snippet.thumbnails,
+          }))
+        );
       }
     } while (nextPageToken);
 
@@ -78,9 +94,6 @@ async function getAllVideosFromChannel(channelId) {
 // Main function to retrieve data from both playlist and channel sources
 async function main() {
   try {
-    // Read sources from sources.json
-    const sourcesData = JSON.parse(fs.readFileSync("sources.json", "utf8"));
-
     const allVideos = [];
 
     for (const source of sourcesData) {
@@ -99,10 +112,10 @@ async function main() {
 
     // Process the combined video data as needed
     console.log(`Total videos retrieved: ${allVideos.length}`);
-    fs.writeFileSync(
-      "combined_videos.json",
-      JSON.stringify(allVideos, null, 2)
-    );
+
+    // Write the combined video data to output.json
+    fs.writeFileSync(outputFilename, JSON.stringify(allVideos, null, 2));
+    console.log(`Video data written to ${outputFilename}`);
   } catch (error) {
     console.error("Error:", error.message);
   }
