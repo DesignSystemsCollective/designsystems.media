@@ -2,10 +2,10 @@
 
 ## Requirements
 
-A Google API key is needed in `index.js`
+A Google API key is needed in a local `.env` file
 
 ```
-const API_KEY = "YOUR_API_KEY"; // Replace with your API key
+API_KEY="YOUR_API_KEY" // Replace with your API key
 ```
 
 ## How to run
