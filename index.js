@@ -7,12 +7,8 @@ const youtube = google.youtube("v3");
 // Set your API key or OAuth 2.0 credentials
 const API_KEY = "YOUR_API_KEY"; // Replace with your API key
 
-// Set the playlist ID and channel ID
-const PLAYLIST_ID = "YOUR_PLAYLIST_ID"; // Replace with the playlist ID
-const CHANNEL_ID = "YOUR_CHANNEL_ID"; // Replace with the channel ID
-
 // Function to retrieve all video data from a playlist
-async function getAllVideosFromPlaylist() {
+async function getAllVideosFromPlaylist(playlistId) {
   try {
     const videos = [];
     let nextPageToken = null;
@@ -20,7 +16,7 @@ async function getAllVideosFromPlaylist() {
     do {
       const response = await youtube.playlistItems.list({
         auth: API_KEY,
-        playlistId: PLAYLIST_ID,
+        playlistId: playlistId,
         maxResults: 50, // Adjust the number of results per page as needed
         pageToken: nextPageToken,
         part: "snippet",
@@ -36,13 +32,16 @@ async function getAllVideosFromPlaylist() {
 
     return videos;
   } catch (error) {
-    console.error("Error retrieving playlist videos:", error.message);
+    console.error(
+      `Error retrieving playlist videos for playlist ${playlistId}:`,
+      error.message
+    );
     return [];
   }
 }
 
 // Function to retrieve all video data from a channel
-async function getAllVideosFromChannel() {
+async function getAllVideosFromChannel(channelId) {
   try {
     const videos = [];
     let nextPageToken = null;
@@ -50,7 +49,7 @@ async function getAllVideosFromChannel() {
     do {
       const response = await youtube.search.list({
         auth: API_KEY,
-        channelId: CHANNEL_ID,
+        channelId: channelId,
         maxResults: 50, // Adjust the number of results per page as needed
         pageToken: nextPageToken,
         order: "date", // You can change the order if needed (e.g., 'viewCount', 'relevance')
@@ -68,25 +67,48 @@ async function getAllVideosFromChannel() {
 
     return videos;
   } catch (error) {
-    console.error("Error retrieving channel videos:", error.message);
+    console.error(
+      `Error retrieving channel videos for channel ${channelId}:`,
+      error.message
+    );
     return [];
   }
 }
 
-// Main function to retrieve data from both playlist and channel
+// Main function to retrieve data from both playlist and channel sources
 async function main() {
-  const playlistVideos = await getAllVideosFromPlaylist();
-  const channelVideos = await getAllVideosFromChannel();
+  try {
+    // Read sources from sources.json
+    const sourcesData = JSON.parse(fs.readFileSync("sources.json", "utf8"));
 
-  // Combine and process the video data as needed
-  const allVideos = [...playlistVideos, ...channelVideos];
+    const allVideos = [];
 
-  // Process the video data or save it to a file as needed
-  console.log(`Total videos retrieved: ${allVideos.length}`);
-  fs.writeFileSync("combined_videos.json", JSON.stringify(allVideos, null, 2));
+    for (const source of sourcesData) {
+      if (source.type === "youtube-channel") {
+        const channelUrl = source.url;
+        const channelId = channelUrl.split("/").pop(); // Extract channel ID from URL
+        const channelVideos = await getAllVideosFromChannel(channelId);
+        allVideos.push(...channelVideos);
+      } else if (source.type === "youtube-playlist") {
+        const playlistUrl = source.url;
+        const playlistId = playlistUrl.split("list=")[1]; // Extract playlist ID from URL
+        const playlistVideos = await getAllVideosFromPlaylist(playlistId);
+        allVideos.push(...playlistVideos);
+      }
+    }
+
+    // Process the combined video data as needed
+    console.log(`Total videos retrieved: ${allVideos.length}`);
+    fs.writeFileSync(
+      "combined_videos.json",
+      JSON.stringify(allVideos, null, 2)
+    );
+  } catch (error) {
+    console.error("Error:", error.message);
+  }
 }
 
 console.log("Gathering youtube video data... 📹");
 
 // Call the main function to start retrieving data
-// main();
+main();
