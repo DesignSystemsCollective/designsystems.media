@@ -1,0 +1,34 @@
+[
+  {
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/@DesignSystems/videos"
+  },
+  {
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/@zeroheighthq/videos"
+  },
+  {
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/@Supernova-io/videos"
+  },
+  {
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLXDU_eVOJTx6vqOWJSWH87Zb5-riiG63A"
+  },
+  {
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLeWHfyz6lrQW2xdG_Hj-GhFIbMuOdy4TK"
+  },
+  {
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PL6De8qQmbLATIpLPNqsrTuoPOkOvCCpHA"
+  },
+  {
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_"
+  },
+  {
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?app=desktop&list=PLMGy4p_QbO8zsUMBkcKsEm7kmAP2CWI2l"
+  }
+]

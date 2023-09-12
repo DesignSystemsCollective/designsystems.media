@@ -1,0 +1,13 @@
+{
+  "name": "design-systems-video-aggregator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Frank Congson",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "googleapis": "^126.0.1"
+  }
+}
