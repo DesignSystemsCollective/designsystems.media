@@ -30,13 +30,15 @@ async function getAllVideosFromPlaylist(playlistId) {
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
-        videos.push(
-          ...videoItems.map((item) => ({
+        videoItems.forEach((item) => {
+          const videoData = {
             title: item.snippet.title,
             description: item.snippet.description,
             thumbnails: item.snippet.thumbnails,
-          }))
-        );
+            videoUrl: `https://www.youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
+          };
+          videos.push(videoData);
+        });
       }
     } while (nextPageToken);
 
@@ -71,13 +73,15 @@ async function getAllVideosFromChannel(channelId) {
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
-        videos.push(
-          ...videoItems.map((item) => ({
+        videoItems.forEach((item) => {
+          const videoData = {
             title: item.snippet.title,
             description: item.snippet.description,
             thumbnails: item.snippet.thumbnails,
-          }))
-        );
+            videoUrl: `https://www.youtube.com/watch?v=${item.id.videoId}`,
+          };
+          videos.push(videoData);
+        });
       }
     } while (nextPageToken);
 
