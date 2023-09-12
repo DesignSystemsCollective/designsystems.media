@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { google } = require("googleapis");
 const fs = require("fs");
 
@@ -5,7 +6,7 @@ const fs = require("fs");
 const youtube = google.youtube("v3");
 
 // Set your API key or OAuth 2.0 credentials
-const API_KEY = "YOUR_API_KEY"; // Replace with your API key
+const API_KEY = process.env.API_KEY; // Replace with your API key
 
 // Import the sources from sources.json
 const sourcesData = require("./sources.json");
