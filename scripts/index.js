@@ -10,8 +10,8 @@ const API_KEY = process.env.API_KEY; // Replace with your API key
 
 // Import the sources from sources.json
 const sourcesData = require("./sources.json");
-const outputFilename = "output.json";
-const outputMdFilename = "output.md";
+const outputFilename = "data/output.json";
+const outputMdFilename = "data/output.md";
 
 // Function to retrieve all video data from a playlist
 async function getAllVideosFromPlaylist(playlistId) {
@@ -32,15 +32,28 @@ async function getAllVideosFromPlaylist(playlistId) {
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
-        videoItems.forEach((item) => {
+        for (const item of videoItems) {
           const videoData = {
             title: item.snippet.title,
-            description: item.snippet.description,
+            description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
           };
+
+          // Retrieve the full video description
+          const videoDetailsResponse = await youtube.videos.list({
+            auth: API_KEY,
+            id: item.snippet.resourceId.videoId,
+            part: "snippet",
+          });
+
+          const videoDetails = videoDetailsResponse.data.items[0].snippet;
+          if (videoDetails && videoDetails.description) {
+            videoData.description = videoDetails.description;
+          }
+
           videos.push(videoData);
-        });
+        }
       }
     } while (nextPageToken);
 
@@ -75,15 +88,28 @@ async function getAllVideosFromChannel(channelId) {
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
-        videoItems.forEach((item) => {
+        for (const item of videoItems) {
           const videoData = {
             title: item.snippet.title,
-            description: item.snippet.description,
+            description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${item.id.videoId}`,
           };
+
+          // Retrieve the full video description
+          const videoDetailsResponse = await youtube.videos.list({
+            auth: API_KEY,
+            id: item.id.videoId,
+            part: "snippet",
+          });
+
+          const videoDetails = videoDetailsResponse.data.items[0].snippet;
+          if (videoDetails && videoDetails.description) {
+            videoData.description = videoDetails.description;
+          }
+
           videos.push(videoData);
-        });
+        }
       }
     } while (nextPageToken);
 
