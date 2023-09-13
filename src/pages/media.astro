@@ -1,5 +1,5 @@
 ---
-import Layout from "../layouts/BlogPost.astro";
+import Layout from "../layouts/MediaPost.astro";
 
 import { getEntry } from "astro:content";
 
@@ -11,8 +11,8 @@ const { Content } = await media.render();
 <Layout
   title="Media"
   description="Lorem ipsum dolor sit amet"
-  pubDate={new Date("August 08 2021")}
-  heroImage="/blog-placeholder-about.jpg"
+  publishedAt={new Date("August 08 2021")}
+  image="/blog-placeholder-about.jpg"
 >
   <Content />
 </Layout>
