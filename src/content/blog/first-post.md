@@ -309,7 +309,7 @@ Presented by Diana Mounter at Clarity 2021, on October 29th, 2021. Ends with an 
 
 ![Thumbnail](https://i.ytimg.com/vi/AOyHnhVIxxs/hqdefault.jpg)
 
-## [Ayesha Mazrana: “No Need for Bridges: How Design Technologists dissolve design &amp; engineering gap”](https://www.youtube.com/watch?v=AOyHnhVIxxs)
+## [Ayesha Mazrana: “No Need for Bridges: How Design Technologists dissolve design & engineering gap”](https://www.youtube.com/watch?v=AOyHnhVIxxs)
 
 At this point, we’ve probably all frequently heard the phrase “design and engineering gap”, especially in the world of design systems. There are tools, books, blog posts, and talks all built around trying to bridge this gap, but what if the key to creating more cohesive and inclusive teams is really the people within those teams? Instead of bridging a gap, what if we eliminate it altogether with a group of people called Design Technologists. They’re typically familiar with design and research best practices, yet also talented at creating accessible, scalable components with APIs that engineering teams can easily understand and utilize. They understand the language of both worlds already, so why not lean into this role and mindset when creating design systems with a shared language.
 
@@ -481,7 +481,7 @@ Presented by Alison Shaw at Clarity 2020, on September 2nd, 2020. Ends with an i
 
 ![Thumbnail](https://i.ytimg.com/vi/pW1YL4YMG_M/hqdefault.jpg)
 
-## [Natalya &amp; Tim Shelburne: “Design Systems, or: How I learned to stop fighting and love the team”](https://www.youtube.com/watch?v=pW1YL4YMG_M)
+## [Natalya & Tim Shelburne: “Design Systems, or: How I learned to stop fighting and love the team”](https://www.youtube.com/watch?v=pW1YL4YMG_M)
 
 Why do we still hear about the gap between design and engineering, given that design systems exist? Because, like any other partnership, design systems take work. Natalya (designer!) and Tim (engineer...) have worked together for over a decade, and are still married!
 
@@ -567,7 +567,7 @@ Presented by Harry Roberts at Clarity 2019, on August 21st, 2019. Ends with an i
 
 ![Thumbnail](https://i.ytimg.com/vi/TQg-sQYTY5A/hqdefault.jpg)
 
-## [Stephanie Rewis &amp; Brandon Ferrua: “Designing Standard Systems” — Clarity 2019](https://www.youtube.com/watch?v=TQg-sQYTY5A)
+## [Stephanie Rewis & Brandon Ferrua: “Designing Standard Systems” — Clarity 2019](https://www.youtube.com/watch?v=TQg-sQYTY5A)
 
 Is your Design System mature and hard to maintain? In this talk we’ll discuss how web components can help us manage the overhead of a design system — freeing us from the dependencies we have become so accustomed to having. Come with us as we move into a leaner world and build on more primitive/fundamentals of the standardized web.
 
@@ -609,7 +609,7 @@ Presented by Ethan Marcotte at Clarity 2019, on August 20th, 2019.
 
 ![Thumbnail](https://i.ytimg.com/vi/50KYvl5phBo/hqdefault.jpg)
 
-## [Teresa Aguilera &amp; Nicole Torgersen: “Partnership &amp; Trust to Fuel Growth” — Clarity 2019](https://www.youtube.com/watch?v=50KYvl5phBo)
+## [Teresa Aguilera & Nicole Torgersen: “Partnership & Trust to Fuel Growth” — Clarity 2019](https://www.youtube.com/watch?v=50KYvl5phBo)
 
 A journey through our collaboration model within Gap inc that helped build Stitch Design System.
 
@@ -641,7 +641,7 @@ Presented by Marcy Sutton at Clarity 2019, on August 20th, 2019. Ends with an in
 
 ![Thumbnail](https://i.ytimg.com/vi/hFACFx6bmbg/hqdefault.jpg)
 
-## [Rune Madsen &amp; Martin Bravo: ”Code is a Material” — Clarity 2019](https://www.youtube.com/watch?v=hFACFx6bmbg)
+## [Rune Madsen & Martin Bravo: ”Code is a Material” — Clarity 2019](https://www.youtube.com/watch?v=hFACFx6bmbg)
 
 Talk previously called "Graphic Design Systems".
 
@@ -685,7 +685,7 @@ Presented by John Maeda at Clarity 2018, on December 12th, 2018. Ends with an in
 
 ![Thumbnail](https://i.ytimg.com/vi/vMDOZ05CVTU/hqdefault.jpg)
 
-## [Yasmine Evjen &amp; Michelle Alvarez: ”Material Theming: Building an Expressive Design …” — Clarity 2018](https://www.youtube.com/watch?v=vMDOZ05CVTU)
+## [Yasmine Evjen & Michelle Alvarez: ”Material Theming: Building an Expressive Design …” — Clarity 2018](https://www.youtube.com/watch?v=vMDOZ05CVTU)
 
 How Google made Material more expressive, giving teams the ability to customize Material Design to better reflect their product’s brand.
 
@@ -705,7 +705,7 @@ Presented by Dan Mall at Clarity 2018, on December 12th, 2018. Ends with an inte
 
 ![Thumbnail](https://i.ytimg.com/vi/RDYtfmDOnGY/hqdefault.jpg)
 
-## [Jesse Reed &amp; Hamish Smyth: ”Preserving Legacy Design Systems” — Clarity 2018](https://www.youtube.com/watch?v=RDYtfmDOnGY)
+## [Jesse Reed & Hamish Smyth: ”Preserving Legacy Design Systems” — Clarity 2018](https://www.youtube.com/watch?v=RDYtfmDOnGY)
 
 Why legacy design systems are important and what we're doing to preserve them.
 
@@ -959,7 +959,7 @@ I held an AMA with Kaelig Deloumeau-Prigent over Zoom at 9am PDT April 28, 2020.
 
 ![Thumbnail](https://i.ytimg.com/vi/2fGeGiW1XYo/hqdefault.jpg)
 
-## [Abi Jones: “For &amp; Against Consistency” — Clarity 2017](https://www.youtube.com/watch?v=2fGeGiW1XYo)
+## [Abi Jones: “For & Against Consistency” — Clarity 2017](https://www.youtube.com/watch?v=2fGeGiW1XYo)
 
 Note: We were having A/V issues which unfortunately had sound playing during a part of Abi's talk. Please be kind. :)
 
@@ -1112,7 +1112,7 @@ Presented by Rachel Nabors at Clarity 2016, on April 1st, 2016. Ends with an int
 
 ![Thumbnail](https://i.ytimg.com/vi/W3oTgxsFH5M/hqdefault.jpg)
 
-## [Stephanie Rewis &amp; Brandon Ferrua: “Crawl, Walk, Run – The Evolution of a Design Sys…” — Clarity 2016](https://www.youtube.com/watch?v=W3oTgxsFH5M)
+## [Stephanie Rewis & Brandon Ferrua: “Crawl, Walk, Run – The Evolution of a Design Sys…” — Clarity 2016](https://www.youtube.com/watch?v=W3oTgxsFH5M)
 
 If change isn’t built into the process, a “Living Design System” can’t evolve. In this talk we'll discuss the lessons learned, and the challenges faced, as our system went from crawling to running. Refactoring, versioning, and deprecation are but a few of the growing pains we've experienced on our journey to build a stable but incredibly flexible Design System.
 
@@ -1132,7 +1132,7 @@ Presented by Miriam Suzanne at Clarity 2016, on March 31st, 2016. Ends with an i
 
 ![Thumbnail](https://i.ytimg.com/vi/F6R_lDOgtns/hqdefault.jpg)
 
-## [Nathan Curtis: “Beyond the Toolkit: Spreading a System Across People &amp; Products” — Clarity 2016](https://www.youtube.com/watch?v=F6R_lDOgtns)
+## [Nathan Curtis: “Beyond the Toolkit: Spreading a System Across People & Products” — Clarity 2016](https://www.youtube.com/watch?v=F6R_lDOgtns)
 
 A design system is made up of parts: visual style, UI components, code, editorial, and often more. We know how to design, build, deliver them is like any other digital product development process. And there’s the rub: your system is a product in and of itself, applied to an enterprise's ecosystem of other products built by autonomous teams of designers and developers.
 
@@ -1156,7 +1156,7 @@ I held an AMA with Nathan Curtis over Zoom at 9am PDT April 14, 2020.
 
 ![Thumbnail](https://i.ytimg.com/vi/uS_8N-hGF10/hqdefault.jpg)
 
-## [Donna Chan &amp; Isaak Hayes: “Building Empowering Style Guides with Practical Research” — Clarity 2016](https://www.youtube.com/watch?v=uS_8N-hGF10)
+## [Donna Chan & Isaak Hayes: “Building Empowering Style Guides with Practical Research” — Clarity 2016](https://www.youtube.com/watch?v=uS_8N-hGF10)
 
 As builders and makers in tech, we strive to create useful, empowering products for our users. A style guide is no different. Done well, it’s a product that all of its users — e.g. developers, designers, customers, partners, and more — find useful and empowering to use. Where should a team start? It begins with understanding your users and the different things they need from style guides. Whether your team is small or large, we’ll share practical research methods for gathering and translating these different needs into building useful and empowering style guides.
 
@@ -1385,7 +1385,7 @@ Instagram: https://www.instagram.com/zeroheighthq
 
 ![Thumbnail](https://i.ytimg.com/vi/QsBDzIKLVy0/hqdefault.jpg)
 
-## [How We Document Webinar #4: Deep dive, Hot takes, Q&amp;A with Dan Mall and Michelle Chin](https://www.youtube.com/watch?v=QsBDzIKLVy0)
+## [How We Document Webinar #4: Deep dive, Hot takes, Q&A with Dan Mall and Michelle Chin](https://www.youtube.com/watch?v=QsBDzIKLVy0)
 
 Coming off the Dan Mall’s review video of How We Document, we invited Dan for a deeper discussion on some of the How We Document findings. Michelle Chin, our design advocate, and Dan talk about what they found interesting, hot takes based on survey results, and potentially new approaches for documenting, communicating, and positioning design systems.
 
@@ -1984,7 +1984,7 @@ Instagram: https://www.instagram.com/zeroheighthq
 
 ![Thumbnail](https://i.ytimg.com/vi/kI-NH3AEX_o/hqdefault.jpg)
 
-## [Beyond Launch: Nurturing &amp; Sustaining Design Systems — Panel Discussion, presented by Supernova](https://www.youtube.com/watch?v=kI-NH3AEX_o)
+## [Beyond Launch: Nurturing & Sustaining Design Systems — Panel Discussion, presented by Supernova](https://www.youtube.com/watch?v=kI-NH3AEX_o)
 
 Supernova hosted a panel on how to best maintain your design system.
 

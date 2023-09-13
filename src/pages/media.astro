@@ -1,18 +1,91 @@
 ---
-import Layout from "../layouts/BlogPost.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import Layout from "../layouts/MediaPost.astro";
 
-import { getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
-// Get a single entry from a collection.
-const media = await getEntry("media", "videos");
-const { Content } = await media.render();
+const media = (await getCollection("media")).sort(
+  (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+);
 ---
+<style>
 
+/* Mobile layout - 1 column */
+.media-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Tablet layout - 2 columns */
+@media screen and (min-width: 768px) {
+  .media-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Larger screens - 3 columns */
+@media screen and (min-width: 1024px) {
+  .media-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Style for each media item */
+.media-item {
+  margin: 0;
+}
+
+.media-link {
+  text-decoration: none;
+}
+
+.media-content {
+}
+
+.media-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+</style>
 <Layout
   title="Media"
   description="Lorem ipsum dolor sit amet"
-  pubDate={new Date("August 08 2021")}
-  heroImage="/blog-placeholder-about.jpg"
+  publishedAt={new Date("August 08 2021")}
+  image="/blog-placeholder-about.jpg"
 >
-  <Content />
+<section>
+  <div class="media-grid">
+    {media.map((media) => (
+      <div key={media.data.id} class="media-item">
+        <a href={media.data.videoUrl} class="media-link">
+          <div class="media-content">
+            <img
+              width={720}
+              height={360}
+              src={media.data.image}
+              alt=""
+              className="media-image"
+            />
+            <h4 class="title">{media.data.title}</h4>
+            <p class="date">
+              <FormattedDate date={media.data.publishedAt} />
+            </p>
+          </div>
+        </a>
+      </div>
+    ))}
+  </div>
+</section>
 </Layout>

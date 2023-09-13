@@ -1,17 +1,20 @@
 require("dotenv").config();
 const { google } = require("googleapis");
 const fs = require("fs");
+const path = require("path");
+const slugify = require("slugify");
 
 // Initialize the YouTube Data API client
 const youtube = google.youtube("v3");
 
 // Set your API key or OAuth 2.0 credentials
-const API_KEY = process.env.API_KEY; // Replace with your API key
+const API_KEY = process.env.API_KEY;
+const outputFilename = "data/output.json";
+const outputMdFilename = "data/output.md";
+const outputDir = "../src/content/media/";
 
 // Import the sources from sources.json
 const sourcesData = require("./sources.json");
-const outputFilename = "data/output.json";
-const outputMdFilename = "data/output.md";
 
 // Function to retrieve all video data from a playlist
 async function getAllVideosFromPlaylist(playlistId) {
@@ -125,40 +128,100 @@ async function getAllVideosFromChannel(channelId) {
   }
 }
 
-// Function to generate an MD file with video data
-function generateMdFile(videos) {
-  let mdContent = "";
+// Function to generate an MDX file with video data
+function generateMdxFile(video, folderPath) {
+  const thumbnailUrl = video.thumbnails.high.url;
+  const videoTitle = video.title;
+  const videoUrl = video.videoUrl;
+  const videoDescription = video.description;
 
-  videos.forEach((video, index) => {
-    const thumbnailUrl = video.thumbnails.high.url;
-    const videoTitle = video.title;
-    const videoUrl = video.videoUrl;
-    const videoDescription = video.description;
+  // Define a function to remove special characters from a string
+  function removeSpecialCharacters(str) {
+    return str
+      .replace(/[^\w\s-:"#]/g, "")
+      .replace(/[\s-:"#]+/g, "-")
+      .trim();
+  }
 
-    mdContent += `![Thumbnail](${thumbnailUrl})\n\n`;
-    mdContent += `## [${videoTitle}](${videoUrl})\n\n`;
-    mdContent += `${videoDescription}\n\n---\n\n`;
-  });
+  // Remove characters like :, ", and # from the title
+  const sanitizedTitle = videoTitle.replace(/[:"#]/g, "");
 
-  return mdContent;
+  // Generate a folder name without special characters
+  const folderName = removeSpecialCharacters(
+    slugify(sanitizedTitle, { lower: true })
+  )
+    .split("-")
+    .slice(0, 5)
+    .join("-");
+
+  // Define the file path for the index.mdx file
+  const indexPath = path.join(folderPath, "index.mdx");
+
+  // Create a folder if it doesn't exist
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+  }
+
+  // Write the frontmatter and description to the index.mdx file
+  fs.writeFileSync(
+    indexPath,
+    `---
+layout: '../layouts/MediaPost.astro'
+title: >
+  "${videoTitle}"
+publishedAt: "${video.publishedAt}"
+image: "${thumbnailUrl}"
+videoUrl: "${videoUrl}"
+---
+${videoDescription}\n`
+  );
+
+  console.log(`Created folder and index.mdx file for ${sanitizedTitle}`);
 }
 
 // Main function to retrieve data and generate output files
 async function main() {
   try {
+    console.log("Start: Gathering youtube video data... 📹");
+
     const allVideos = [];
 
     for (const source of sourcesData) {
       if (source.type === "youtube-channel") {
         const channelUrl = source.url;
-        const channelId = channelUrl.split("/").pop(); // Extract channel ID from URL
+        const channelId = channelUrl.split("/").pop();
+        console.log(`Fetching videos from channel ${channelId}...`);
         const channelVideos = await getAllVideosFromChannel(channelId);
-        allVideos.push(...channelVideos);
+
+        for (const video of channelVideos) {
+          const sanitizedTitle = video.title.replace(
+            /[:"“”#'‘’!?@_^%()]/gi,
+            ""
+          );
+          const folderName = slugify(sanitizedTitle, { lower: true })
+            .split("-")
+            .slice(0, 5)
+            .join("-");
+          const folderPath = path.join(__dirname, outputDir, folderName);
+          generateMdxFile(video, folderPath);
+          allVideos.push(video);
+        }
       } else if (source.type === "youtube-playlist") {
         const playlistUrl = source.url;
-        const playlistId = playlistUrl.split("list=")[1]; // Extract playlist ID from URL
+        const playlistId = playlistUrl.split("list=")[1];
+        console.log(`Fetching videos from playlist ${playlistId}...`);
         const playlistVideos = await getAllVideosFromPlaylist(playlistId);
-        allVideos.push(...playlistVideos);
+
+        for (const video of playlistVideos) {
+          const sanitizedTitle = video.title.replace(/[:"#]/g, "");
+          const folderName = slugify(sanitizedTitle, { lower: true })
+            .split("-")
+            .slice(0, 5)
+            .join("-");
+          const folderPath = path.join(__dirname, outputDir, folderName);
+          generateMdxFile(video, folderPath);
+          allVideos.push(video);
+        }
       }
     }
 
@@ -177,15 +240,15 @@ async function main() {
     console.log(`Video data written to ${outputFilename}`);
 
     // Generate the output.md file with video data
-    const mdContent = generateMdFile(allVideos);
+    const mdContent = generateMdxFile(allVideos);
     fs.writeFileSync(outputMdFilename, mdContent);
     console.log(`Markdown data written to ${outputMdFilename}`);
+
+    console.log("End: Gathering youtube video data. ✅");
   } catch (error) {
     console.error("Error:", error.message);
   }
 }
-
-console.log("Gathering youtube video data... 📹");
 
 // Call the main function to start retrieving data
 main();
