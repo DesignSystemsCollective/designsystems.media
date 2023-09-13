@@ -11,6 +11,7 @@ const API_KEY = process.env.API_KEY; // Replace with your API key
 // Import the sources from sources.json
 const sourcesData = require("./sources.json");
 const outputFilename = "output.json";
+const outputMdFilename = "output.md";
 
 // Function to retrieve all video data from a playlist
 async function getAllVideosFromPlaylist(playlistId) {
@@ -96,7 +97,25 @@ async function getAllVideosFromChannel(channelId) {
   }
 }
 
-// Main function to retrieve data from both playlist and channel sources
+// Function to generate an MD file with video data
+function generateMdFile(videos) {
+  let mdContent = "";
+
+  videos.forEach((video, index) => {
+    const thumbnailUrl = video.thumbnails.high.url;
+    const videoTitle = video.title;
+    const videoUrl = video.videoUrl;
+    const videoDescription = video.description;
+
+    mdContent += `![Thumbnail](${thumbnailUrl})\n\n`;
+    mdContent += `## [${videoTitle}](${videoUrl})\n\n`;
+    mdContent += `${videoDescription}\n\n---\n\n`;
+  });
+
+  return mdContent;
+}
+
+// Main function to retrieve data and generate output files
 async function main() {
   try {
     const allVideos = [];
@@ -121,6 +140,11 @@ async function main() {
     // Write the combined video data to output.json
     fs.writeFileSync(outputFilename, JSON.stringify(allVideos, null, 2));
     console.log(`Video data written to ${outputFilename}`);
+
+    // Generate the output.md file with video data
+    const mdContent = generateMdFile(allVideos);
+    fs.writeFileSync(outputMdFilename, mdContent);
+    console.log(`Markdown data written to ${outputMdFilename}`);
   } catch (error) {
     console.error("Error:", error.message);
   }
