@@ -1,6 +1,10 @@
 # design-systems-video-aggregator
 
-## Requirements
+## Video aggregator
+
+Located in `/scripts/index.js`, the video aggregrator is what retrieves data from the video sources defined in `/scripts/sources.json`.
+
+### Requirements
 
 A Google API key is needed in a local `.env` file
 
@@ -8,14 +12,14 @@ A Google API key is needed in a local `.env` file
 API_KEY="YOUR_API_KEY" // Replace with your API key
 ```
 
-## How to run the aggregator
+### How to run the aggregator
 
 ```
 yarn
 yarn aggregate
 ```
 
-## What it's doing
+### What the aggregator is doing
 
 The `scripts/sources.json` file contains a list of sources, currently YouTube channels or playlists, and their corresponding urls.
 
@@ -59,6 +63,10 @@ Once video data retrieval has completed, the data collected will get output to `
 ]
 ```
 
-## Markdown
+### Markdown output
 
 The aggregator also creates a markdown file output to `data/output.md`. This markdown content will be used with an astro site where the video data will be hosted.
+
+## Astro content site
+
+[Astro](https://astro.build/) provides the web experience
