@@ -1,18 +1,18 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Layout from "../layouts/BlogPost.astro";
 
-import { getCollection, getEntry } from 'astro:content';
+import { getEntry } from "astro:content";
 
 // Get a single entry from a collection.
-const media = await getEntry('media', 'videos');
+const media = await getEntry("media", "videos");
 const { Content } = await media.render();
 ---
 
 <Layout
-	title="Media"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage="/blog-placeholder-about.jpg"
+  title="Media"
+  description="Lorem ipsum dolor sit amet"
+  pubDate={new Date("August 08 2021")}
+  heroImage="/blog-placeholder-about.jpg"
 >
-	<Content />
+  <Content />
 </Layout>
