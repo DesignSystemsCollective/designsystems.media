@@ -8,11 +8,11 @@ A Google API key is needed in a local `.env` file
 API_KEY="YOUR_API_KEY" // Replace with your API key
 ```
 
-## How to run
+## How to run the aggregator
 
 ```
 yarn
-yarn start
+yarn aggregate
 ```
 
 ## What it's doing
