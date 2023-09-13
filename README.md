@@ -17,11 +17,11 @@ yarn aggregate
 
 ## What it's doing
 
-The `sources.json` file contains a list of sources, currently YouTube channels or playlists, and their corresponding urls.
+The `scripts/sources.json` file contains a list of sources, currently YouTube channels or playlists, and their corresponding urls.
 
-`index.js` will use the `googleapis` to retrieve video data from those sources.
+`scripts/index.js` will use the `googleapis` to retrieve video data from those sources.
 
-Once video data retrieval has completed, the data collected will get output to `output.json` in the following format:
+Once video data retrieval has completed, the data collected will get output to `data/output.json` in the following format:
 
 ```
 [
@@ -58,3 +58,7 @@ Once video data retrieval has completed, the data collected will get output to `
   // ... (more video objects)
 ]
 ```
+
+## Markdown
+
+The aggregator also creates a markdown file output to `data/output.md`. This markdown content will be used with an astro site where the video data will be hosted.
