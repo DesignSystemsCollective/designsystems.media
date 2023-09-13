@@ -69,4 +69,11 @@ The aggregator also creates a markdown file output to `data/output.md`. This mar
 
 ## Astro content site
 
-[Astro](https://astro.build/) provides the web experience
+[Astro](https://astro.build/) provides the web experience for the sourced video data.
+
+### How to run Astro
+
+```
+yarn
+yarn dev
+```
