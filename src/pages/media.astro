@@ -1,11 +1,12 @@
 ---
+import FormattedDate from "../components/FormattedDate.astro";
 import Layout from "../layouts/MediaPost.astro";
 
-import { getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
-// Get a single entry from a collection.
-const media = await getEntry("media", "videos");
-const { Content } = await media.render();
+const media = (await getCollection("media")).sort(
+  (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+);
 ---
 
 <Layout
@@ -14,5 +15,21 @@ const { Content } = await media.render();
   publishedAt={new Date("August 08 2021")}
   image="/blog-placeholder-about.jpg"
 >
-  <Content />
+  <section>
+    <ul>
+      {
+        media.map((media) => (
+          <li>
+            <a href={media.data.videoUrl}>
+              <img width={720} height={360} src={media.data.image} alt="" />
+              <h4 class="title">{media.data.title}</h4>
+              <p class="date">
+                <FormattedDate date={media.data.publishedAt} />
+              </p>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 </Layout>
