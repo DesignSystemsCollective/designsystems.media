@@ -1,3 +1,61 @@
+![Thumbnail](https://i.ytimg.com/vi/kI-NH3AEX_o/hqdefault.jpg)
+
+## [Beyond Launch: Nurturing &amp; Sustaining Design Systems — Panel Discussion, presented by Supernova](https://www.youtube.com/watch?v=kI-NH3AEX_o)
+
+Supernova hosted a panel on how to best maintain your design system.
+
+Panelists Bethany Sonefeld, Henry Daggett, and Jeremy Dizon talked about:
+🔹 What maintaining their design systems look like and how their teams are structured
+🔹 How to prioritize updating and maintaining your design system with requests for new components
+🔹 How to version or deprecate a part of your design system and when to communicate those changes
+🔹 Celebrating contributors and maintainers to recognize their work and encourage them to continue participating
+
+
+A full transcript is available on the following link - https://bit.ly/3L4Unhg
+--------
+
+⭐️ Want to speak on Supernova's next panel? 
+Share your detail  👉  https://bit.ly/3qRWGNX
+
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter 👉  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supe...
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/d5EvWO2Saok/hqdefault.jpg)
+
+## [zeroheight team: Community-Driven Design Systems – Expanding Your Impact!](https://www.youtube.com/watch?v=d5EvWO2Saok)
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/xcuK3PkFM4c/hqdefault.jpg)
+
+## [zeroheight team: Hot takes on design system trends](https://www.youtube.com/watch?v=xcuK3PkFM4c)
+
+On August 2, 2023, the zeroheight team gave their thoughts on current design system trends - where we think the community is headed, what’s been great, what teams are struggling with, and how teams can approach moving forward as design systems evolve. Check out the recording featuring the people that make zeroheight:
+• Nef Dukes, Sr. Product Marketing Manager (host)
+• Rosie Watson, Sr. Product Engineer
+• Rob Whitfield, Sr. Product Designer
+• Michelle Chin, Design Advocate
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/qMGjS7fVu1k/hqdefault.jpg)
 
 ## [Clarity 2023 Promo #clarity2023 #designsystems #designconference #techevent](https://www.youtube.com/watch?v=qMGjS7fVu1k)
@@ -32,16 +90,6 @@ Presented by Amy Hupe at Clarity 2022, on November 10th, 2022. Ends with an inte
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/TunUx0a363o/hqdefault.jpg)
-
-## [Ben Callahan: “Design Systems Culture” — Clarity 2022](https://www.youtube.com/watch?v=TunUx0a363o)
-
-The culture around your design system is greatly impacted by the culture of your organization. In this presentation, Ben will share how this understanding will impact the way you approach creating a sustainable systematic design practice. We'll examine the various types of organizational cultures and consider how they work together (and how they don't). The hardest work we have to do is the cultural work. This presentation will help you face that challenge head-on and shape your approach, making things more likely to succeed.
-
-Presented by Ben Callahan at Clarity 2022, on November 11th, 2022. Ends with an interview with Jeremy Keith.
-
----
-
 ![Thumbnail](https://i.ytimg.com/vi/SJ1tkV5fbdY/hqdefault.jpg)
 
 ## [Ashleigh Axios: “Confronting Stigma Traps in Healthcare” — Clarity 2022](https://www.youtube.com/watch?v=SJ1tkV5fbdY)
@@ -56,13 +104,13 @@ Presented by Ashleigh Axios at Clarity 2022, on November 11th, 2022. Ends with a
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/1cuCjiEuGvQ/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/TunUx0a363o/hqdefault.jpg)
 
-## [Natalie Weizenbaum: “Good Design is Anti-Capitalist” — Clarity 2022](https://www.youtube.com/watch?v=1cuCjiEuGvQ)
+## [Ben Callahan: “Design Systems Culture” — Clarity 2022](https://www.youtube.com/watch?v=TunUx0a363o)
 
-A discussion of the way the capitalist context prevents designers from doing their best work. Capitalism demands the extraction of ever-growing profits from the user, which inevitably leads to their exploitation. As designers, we strive to give users agency, but our jobs can demand that we strip it away. How can we advocate for our users' needs when the forces of capital have stacked the deck against them?
+The culture around your design system is greatly impacted by the culture of your organization. In this presentation, Ben will share how this understanding will impact the way you approach creating a sustainable systematic design practice. We'll examine the various types of organizational cultures and consider how they work together (and how they don't). The hardest work we have to do is the cultural work. This presentation will help you face that challenge head-on and shape your approach, making things more likely to succeed.
 
-Presented by Natalie Weizenbaum at Clarity 2022, on November 11th, 2022. Ends with an interview with Sam Kapila.
+Presented by Ben Callahan at Clarity 2022, on November 11th, 2022. Ends with an interview with Jeremy Keith.
 
 ---
 
@@ -96,6 +144,16 @@ Presented by Hayley Hughes at Clarity 2022, on November 11th, 2022. Ends with an
 
 ---
 
+![Thumbnail](https://i.ytimg.com/vi/1cuCjiEuGvQ/hqdefault.jpg)
+
+## [Natalie Weizenbaum: “Good Design is Anti-Capitalist” — Clarity 2022](https://www.youtube.com/watch?v=1cuCjiEuGvQ)
+
+A discussion of the way the capitalist context prevents designers from doing their best work. Capitalism demands the extraction of ever-growing profits from the user, which inevitably leads to their exploitation. As designers, we strive to give users agency, but our jobs can demand that we strip it away. How can we advocate for our users' needs when the forces of capital have stacked the deck against them?
+
+Presented by Natalie Weizenbaum at Clarity 2022, on November 11th, 2022. Ends with an interview with Sam Kapila.
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/MbPks4x4ZlI/hqdefault.jpg)
 
 ## [Valerie Phoenix: “Future of Work, Future of Management” — Clarity 2022](https://www.youtube.com/watch?v=MbPks4x4ZlI)
@@ -116,16 +174,6 @@ Presented by Dan Mall at Clarity 2022, on November 10th, 2022. Ends with an inte
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/-sUHZjOWd10/hqdefault.jpg)
-
-## [Anna E. Cook: “Auditing Design Systems for Accessibility” — Clarity 2022](https://www.youtube.com/watch?v=-sUHZjOWd10)
-
-Design systems are a crucial part of building accessible experiences. Each atom, molecule, and organism we create in our systems affects our ability to scale across our product offerings and meet disabled people’s needs. In this session, learn how to audit components for accessibility issues from design to code using plugins, best practices, and testing tools. Walk away from this session empowered to make your design systems accessible sooner!
- 
-Presented by Anna Cook at Clarity 2022, on November 10th, 2022. Ends with an interview with Jeremy Keith.
-
----
-
 ![Thumbnail](https://i.ytimg.com/vi/N9IaKlD2UAQ/hqdefault.jpg)
 
 ## [Esther Cheran: “Charting a Path from CSS Zen Garden to Token Zen Garden” — Clarity 2022](https://www.youtube.com/watch?v=N9IaKlD2UAQ)
@@ -133,6 +181,16 @@ Presented by Anna Cook at Clarity 2022, on November 10th, 2022. Ends with an int
 CSS Zen Garden sparked the imagination of designers and developers by allowing users to drastically change a webpage using a css stylesheet. What would a Token Zen Garden look like in the context of multi-brand design systems? And could we approach theming in a more visual way?
 
 Presented by Esther Cheran at Clarity 2022, on November 10th, 2022. Ends with an interview with Sam Kapila.
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/-sUHZjOWd10/hqdefault.jpg)
+
+## [Anna E. Cook: “Auditing Design Systems for Accessibility” — Clarity 2022](https://www.youtube.com/watch?v=-sUHZjOWd10)
+
+Design systems are a crucial part of building accessible experiences. Each atom, molecule, and organism we create in our systems affects our ability to scale across our product offerings and meet disabled people’s needs. In this session, learn how to audit components for accessibility issues from design to code using plugins, best practices, and testing tools. Walk away from this session empowered to make your design systems accessible sooner!
+ 
+Presented by Anna Cook at Clarity 2022, on November 10th, 2022. Ends with an interview with Jeremy Keith.
 
 ---
 
@@ -160,11 +218,1073 @@ https://www.clarityconf.com
 
 ---
 
+![Thumbnail](https://i.ytimg.com/vi/fK5D_PdQuVI/hqdefault.jpg)
+
+## [&quot;Design System Documentation is a Moving Target&quot; — Panel Discussion, presented by Supernova](https://www.youtube.com/watch?v=fK5D_PdQuVI)
+
+Supernova brought to you design system industry experts Romina Kavcic, Alberto Calvo and Luke Finch to discuss best practices for updating and maintaining your design system documentation.
+
+During the 1 hour panel session we explored topics, including:
+🔹 Challenges faced when creating & maintaining documentation
+🔹 Strategies & tips for overcoming them
+🔹 Communicating documentation updates to feature teams
+🔹 Getting feedback about your documentation
+
+A full transcript is available on the following link - https://bit.ly/3NIIyxU
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter 👉  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supe...
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/1ONxxlJnvdM/hqdefault.jpg)
+
+## [Figma tutorial: Intro to variables](https://www.youtube.com/watch?v=1ONxxlJnvdM)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+By definition, a variable is something that can vary in value or take on multiple values. Variables in Figma store reusable values, like color values and numbers, that can be applied to all kinds of design properties and even prototypes! A variable’s values can also reference other variables, making updating design systems a breeze. In this video, we’ll cover how variables work, and how to use them to represent design tokens and account for different modes and themes.
+
+* Update: When following along with the tutorial at 10:30,  the variable called ".5" will no longer work.  This is due to our alignment with the W3C spec which doesn't allow periods in names.  Calling the variable "spacing/half" will work, instead.
+We are doing a follow-up in the next coming months where we’ll be separating out the “figma name” from the code syntax, which may let us loosen these restrictions.  Keep an eye out for additional syntax support in the future.
+
+Follow along with the file: https://bit.ly/44bHgC2
+
+Learn about prototyping with variables with our other tutorial: https://bit.ly/3pfKk1h
+
+Learn more about variables in Figma with our additional playground file: https://bit.ly/4490iJc
+
+Learn more about design systems in Figma: https://bit.ly/3os0Afc
+
+Help center articles:
+Guide to variables: https://bit.ly/3Nh7JaK
+Overview of variables: https://bit.ly/44bD2dG
+Create and manage variables: https://bit.ly/447B9im
+Apply variables to designs: https://bit.ly/3qVsnWo
+Modes for variables: https://bit.ly/3qS3GKk
+
+For more information on using variables with API and development, check out the links here:
+- REST API: https://www.figma.com/developers/api#variables
+- Plugin API docs: https://www.figma.com/plugin-docs/working-with-variables
+- Import/export variables code sample https://github.com/figma/plugin-samples/tree/master/variables-import-export
+- Styles to variables convert code sample https://github.com/figma/plugin-samples/tree/master/styles-to-variables
+
+Chapters: 
+00:00 - Intro
+01:17 - Color variables
+03:55 - Create tokens
+06:00 - Apply variables
+07:13 - Styles vs variables
+08:17 - Modes
+10:12 - Number variables
+12:35 - Themes
+14:11 - Wrap up
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+#Figma #Config #Config2023 #Variables #Designtokens #Tutorial #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/2xvq7CLlEkw/hqdefault.jpg)
+
+## [Converge London 2022 - Amy Hupe: Your design system contribution practice is doomed to fail](https://www.youtube.com/watch?v=2xvq7CLlEkw)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+Here is Amy Hupe, discussing design system contribution. 
+
+Contribution is considered an essential part of most design systems. Inviting insights and improvements from a design system's community of users is what makes it reliable and representative. So why do so many of us find it so hard to achieve and sustain? Are we going about it all wrong, or is there something more insidious at play here? Amy explains why she thinks design systems contribution is ultimately destined to fail and why - against the odds - we should keep going anyway.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/e8KVFYxJusY/hqdefault.jpg)
+
+## [Converge London 2022 - Dan Mall: Your Next Component](https://www.youtube.com/watch?v=e8KVFYxJusY)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+No matter where you are in your design system journey, your next component can make all the difference. Dan discusses the importance of choosing your next component and how that shouldn’t be the easiest one. In fact, you should tackle the most challenging complex work first to make the future easier.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/blt-dKZAR7k/hqdefault.jpg)
+
+## [Converge London 2022 - Imran Azfal - Reflective Practice](https://www.youtube.com/watch?v=blt-dKZAR7k)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+In this talk, Imran Afzal talks about reflective practice. 
+
+Whatever role we play, it’s critical that we stay relevant. Continuous learning is a must. There’s very little allowance for our approach or knowledge to stagnate in UX. However, we all lead busy lives in a fast-paced society. Rarely is there a moment to stop and think. If we’re not jumping from one product release to another, we’re feeling the pressure of delivering high-quality work, quickly. This can harm our long-term success and impact.
+
+However, reflective practice can help. By taking time out to think about our actions, we can learn from our experiences and use that knowledge to evolve our mindset. Imran discusses what it means to reflect on our experiences and the impact of that process on our future. The talk explores the benefits of taking time to reflect, while also providing guidance on introducing reflective practice into your work.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/nkVqvz2DtMs/hqdefault.jpg)
+
+## [Converge London 2022 - Inayaili León: DesignOps - The API of Design Teams](https://www.youtube.com/watch?v=nkVqvz2DtMs)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+Here is Inayaili León from GitHub, discussing the API of design teams. 
+
+DesignOps is the glue that keeps a design org together, and the connective tissue that links design to other disciplines across the company, and beyond. Even if your company doesn’t have a formal DesignOps team, this work is likely being done by someone. 
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/KhE-yrweR3Q/hqdefault.jpg)
+
+## [Converge London 2022 - Dave House: Industrial Design Systems](https://www.youtube.com/watch?v=KhE-yrweR3Q)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+Dave House delved into design systems and design language. 
+
+Industrial design systems explores the boundaries between design systems and design language. Could the lens of automotive design and manufacture change how you think about the remit of your design system team?
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/Boom9YvKIJc/hqdefault.jpg)
+
+## [Converge London 2022 - Dan Donald: Anatomy of Themed Design System Components](https://www.youtube.com/watch?v=Boom9YvKIJc)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+In this talk, Dan Donald explores how you can introduce design tokens. 
+
+As a design system matures, we come across new concepts that help us make it better. There’s new requirements that come along, design changes we couldn’t anticipate. Design systems support consistency but also vehicles for communication and change. Here we look at how you can introduce design tokens considering theming and really bring out the power of what your system can be.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/QXjji-XP-io/hqdefault.jpg)
+
+## [Converge London 2022 - Lily Dart: Design Systems: The Good, The Bad, The Culture](https://www.youtube.com/watch?v=QXjji-XP-io)
+
+The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
+
+Watch Lily Dart discuss the culture and good and bad aspects of design systems. 
+
+If you’re interested in design systems, you’ve no doubt dreamt of the kind of design system you’d like to build. Perhaps you know precisely what tooling you’d use or how you’d structure the components. A design system that is elegant, easy to use, and produces beautiful results. But if you’ve tried creating a design system, you’ll know it’s unlikely you’ll achieve your original aspirations. Arguments over standards, complexity in tooling and abuses, and mis-uses of the libraries are all common pitfalls for new systems. 
+
+So why is it so hard to build a great design system? A successful system is more than UI and code. What underpins every system - good or bad -  is culture. And without the right culture, your beautiful design system will fail. Based on her experience running the first-ever design systems team at Lloyds Banking Group, Lily will be talking about the relationship between design systems and organizational culture. How to identify yours, when to design for it, and when to fight against it.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/bJTCjH5I_dY/hqdefault.jpg)
+
+## [Supernova 101: Elevating Your Documentation Game Webinar](https://www.youtube.com/watch?v=bJTCjH5I_dY)
+
+Supernova 101 webinar to learn best practices for how to document your design system.
+
+🗂️ Check out the Figma file with an example library in our community 👉 https://www.figma.com/community/file/1250444869106029387
+
+*You can duplicate the file, publish the library, and import it into Supernova (https://cloud.supernova.io/signup) to explore the different content blocks. 
+
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/dV-qvJ-F48Q/hqdefault.jpg)
+
+## [UnConference: Design Systems Culture with Ben Callahan](https://www.youtube.com/watch?v=dV-qvJ-F48Q)
+
+A design system is often an expression (for better or worse) of the values of the people that build it. This is why design systems flounder—they are often launched as a bridge between teams without an understanding of the various subcultures of those teams. When companies align their design system with and make them work for their existing company culture, the goals for that system are more easily realized.
+
+If you feel like you’re swimming upstream with your design system, it could be the result of a cultural problem—not a technical one. It’s time for you to look at your design system from a different angle.
+
+In this virtual learning event, Ben Callahan will show you how design systems and company culture are inextricably linked and how a deeper understanding of each is necessary to get you where you want to go.
+
+00:00 A Quick Story
+04:11 A Framework for Organizational Culture
+08:52 A Framework for Competing Values
+18:18 The Healthy or Unhealthy Design System Subculture
+32:01 Cultural Compatibilities
+38:27 Can a Design System Subculture Change Organizational Culture?
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/0XSLMGh8yhM/hqdefault.jpg)
+
+## [Build your design system - Lesson 3 : Introduction to design systems](https://www.youtube.com/watch?v=0XSLMGh8yhM)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+
+Written course: https://bit.ly/3MvUvX1
+
+In this lesson, we’ll join Kai and the Habitz team as they build their design system. We’ll focus on some core design system features in Figma: styles and components. As well as some tips for defining and organizing your system.
+
+
+____________________________________________________
+
+Resources:
+
+Best Practices: Components, Styles, And Shared Libraries: https://bit.ly/433Zjdg
+Figma Component Library Structure Twitter Thread: https://bit.ly/3orGCRS
+Atomic Design by Brad Frost: https://bit.ly/43mZFvu
+Best Practices: Component Architecture In Figma: https://bit.ly/3MyrwlH
+Best Practices: Creating and Organizing Variants https://bit.ly/3BOips2
+Figma Help Center: Auto Layout: https://bit.ly/4229f5K
+Figma Help Center: Nudge Values: https://bit.ly/42itdcR
+Figma Help Center: Styles: https://bit.ly/427hIoe
+Figma Help Center: Components: https://bit.ly/3OuMLr4
+Figma Help Center: Add Style And Component Descriptions: https://bit.ly/3OyQzr8
+Figma Help Center: Component Properties: https://bit.ly/3WsTbJ8
+Space Grotesk: https://bit.ly/3BOje46
+DM Sans: https://bit.ly/3ouGtx6
+Smooch Sans: https://bit.ly/3IDQ3Vg
+Google Material Design: https://bit.ly/3IBbfuN
+
+____________________________________________________
+
+00:00 - Introduction
+00:24 - Styles
+01:02 - Components
+01:33 - Libraries
+03:23 - Set up the file
+03:42 - Audit breakdown
+04:15 - Atomic design
+05:56 - Audit breakdown
+6:50 - Spacing
+07:19 - Creating styles: Layout grids
+08:47 - Autolayout
+09:11 - Nudge settings
+09:25 - Creating styles: Colors
+09:55 - Creating styles: Organizing colors
+10:29 - Creating styles: Naming conventions
+11:00 - Creating styles : Slash naming
+11:30 - Creating styles: Typography
+13:50 - Creating styles: Elevation
+14:25 - Creating styles: Additional styles
+15:08 - Creating styles: Create shadows
+15:46 - Creating styles: Create shadow styles
+16:18 - Create components: Icons
+17:33 : Create components: Illustrations
+19:14 - Create components: Day toggle
+20:55 - Create components: Action presentation card
+23:10 - Patterns
+23:19 - Create patterns: Day selector
+24:39 - Create patterns: Navigation
+25:21 - Summary
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/8bP77VC1zPg/hqdefault.jpg)
+
+## [Creating an Integrated Design System — Tokens Studio + Supernova](https://www.youtube.com/watch?v=8bP77VC1zPg)
+
+Supernova hosted an exciting webinar introducing the Supernova and Tokens Studio integration. The one-hour session was hosted by Tokens Studio CEO Mike Kamminga and Supernova CEO Jiri Trecak, and Laura Silvani SICPA Design Systems Manager as a moderator.
+
+They share the details on the new Supernova + Tokens Studio integration and dive into the future of design systems, exploring topics like multi-brand tokens, best practices for documentation, and creating an end-to-end ecosystem.
+
+Learn more about the integration  👉 https://www.supernova.io/supernova-tokens-studio
+
+--------
+Get started with Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/Dtd40cHQQlk/hqdefault.jpg)
+
+## [Course overview : Introduction to design systems](https://www.youtube.com/watch?v=Dtd40cHQQlk)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+
+Written course: https://bit.ly/3ODSB9A
+
+Design systems are a vast and ever-evolving concept, it can be difficult even for an experienced designer to know where to begin! 
+
+Whether you’re about to build your first design system or just curious about them, check out Figma’s new course, Introduction to Design Systems!
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/_sTWtnNU1L0/hqdefault.jpg)
+
+## [Document, improve and update your design system - Lesson 4 : Introduction to design systems](https://www.youtube.com/watch?v=_sTWtnNU1L0)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+
+Written course: https://bit.ly/3MrJE0m
+
+In this lesson, let’s learn a few ways to support the ongoing success of your design system, like:
+
+- effective documentation,
+- improving your system through testing, feedback, and contributions,
+- how to manage updates,
+- and how to make sure people are using it.
+
+____________________________________________________
+
+Resources:
+
+Google Material Design: https://bit.ly/3IBbfuN
+Atlassian Design System: https://bit.ly/45qn68O
+Storybook: https://bit.ly/3IZ6FXN
+Notion: https://bit.ly/3q8JT9e
+Design Lint by Daniel Destefanis: https://bit.ly/3WsWyQc
+Roller Design Linter by Contrast: https://bit.ly/433HGdD
+User Interview Templates: https://bit.ly/42TH5Lz
+Design Research: https://bit.ly/43hBxLf
+Semantic Versioning 2.0.0: https://bit.ly/3MPFRvg
+Figma Help Center: Guide To Branch and Merging: https://bit.ly/3MRHh8v
+
+____________________________________________________
+
+00:00 - Introduction
+00:23 - Documentation
+01:13 - Documentation setups
+01:49 - Component documentation link tip
+02:00 - Habitz team documentation
+02:35 - Spacer example
+03:21 - Design linter tip
+03:38 - Improve your design system
+04:10 - User testing
+04:48 - User testing tips
+05:34 - Habitz user testing example
+06:03 - Feedback
+07:08 - Design system analytics tip
+07:21 - Contributions
+08:26 - Habitz team contribution example
+08:57 - Versioning and change logs
+09:24 - Semantic versioning
+10:31 - Branching and merging
+11:28 - Habitz team branching and merging example
+11:55 - Advocacy
+12:46 - Wrap up
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/NGGMGybuOwg/hqdefault.jpg)
+
+## [Define your design system's processes - Lesson 2 part 4 : Introduction to design systems](https://www.youtube.com/watch?v=NGGMGybuOwg)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+
+Written course: https://bit.ly/3Oz6nKH
+
+Processes are just as important as the tools and assets within the system. It’s important to establish these with your contributors before a design system goes live.
+
+They capture the mechanics and governance for managing a design system:
+
+- How to make updates to a system and share them with others
+- Who to give feedback to and how
+- How to get changes to the system approved
+- How to collaborate with cross-functional teams
+- How to provide training to new members of the team
+- and more
+
+____________________________________________________
+
+00:00 - Introduction
+00:16 - Processes
+01:05 - Development considerations
+01:26 - Path to successful collaboration
+02:06 - Try it out
+02:46 - Wrap up
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/sHF6JSPWbzM/hqdefault.jpg)
+
+## [Define your design system's documentation - Lesson 2 part 3 : Introduction to design systems](https://www.youtube.com/watch?v=sHF6JSPWbzM)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+
+Written course: https://bit.ly/3Oz6nKH
+
+Documentation is the how. It communicates the purpose of all these aspects of your design system and how best to apply them.
+
+Documentation can look like:
+
+- On-canvas annotations for components in design files
+- Style and component descriptions in Figma
+- Naming-structures in a library or codebase
+- Written articles and guides
+- or dedicated websites and tools
+
+____________________________________________________
+
+00:00- Introduction
+00:36 - What documentations looks like
+01:28 - Documentation tips
+02:50 - Naming conventions
+02:59 - Semantic naming
+03:24 - Component naming
+04:55 - Naming example
+05:25 - Wrap up
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/o9CloFonY0E/hqdefault.jpg)
+
+## [Define your design system's foundations - Lesson 2 part 2 : Introduction to design systems](https://www.youtube.com/watch?v=o9CloFonY0E)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+
+Written course: https://bit.ly/3Oz6nKH
+
+Foundations are the what of your design system. The building blocks you'll use to create product experiences, like visual styles, colors, typography, and components. As well as patterns, like structures, behaviors, and conventions.
+
+____________________________________________________
+
+Resources:
+
+Accessibility:
+
+The Book on Accessibility: https://bit.ly/3WC50gb
+Web Accessibility Checklist: Magenta a11y.com: https://bit.ly/3Ow00ru
+Color Blind Accessibility Manifesto.com: https://bit.ly/43oIuJO
+Adhoc Accessibility Playbook: https://bit.ly/3BP9eHR
+Universal Music: Creative Differences Handbook: https://bit.ly/424EM7g
+Stark's Public Library: https://bit.ly/3MuiUwf
+Book: Accessibility for Everyone: https://bit.ly/3q5KZm6
+Fable: Accessible Usability Scale: https://bit.ly/45rZQHB
+
+Color:
+
+WCAG 1.4.1 Use Of Color: https://bit.ly/3OxeqaT
+WCAG 1.4.4 Color Contrast: https://bit.ly/3ODYyDp
+Figma Community: Plugins For Color Contrast: https://bit.ly/3MS5Kuo
+Nielsen Norman Group: Using Color To Enhance Your Designs: https://bit.ly/42TCARb
+Color From DesignSystems.com: https://bit.ly/42XuMhg
+Figma Community: Resources For Color Palettes: https://bit.ly/43hxP4h
+Hubspot’s Color Theory 101: https://bit.ly/3OxkDDx
+
+Type:
+
+Typescale by Sam Smith: https://bit.ly/3WsNmLM
+Scaaale by Nicolas Massi: https://bit.ly/3BXDXlP
+Kick Start Your Typographic System by Tom Lowry: https://bit.ly/45oGfYW
+Typescale.com: https://bit.ly/45upBr0
+
+Other: 
+
+A Complete Guide To Iconography: https://bit.ly/432HH1A
+Spacing. Grids, and Layouts:  https://bit.ly/3ozKTCF
+
+____________________________________________________
+
+00:00 - Introduction
+00:08 - Foundations
+00:35 - Accessibility
+01:39 - Color
+02:50 - Try it out
+03:08 - 60 / 30 / 10 Rule
+03:36 - Accessibility considerations for color
+03:58 - Web Content Accessibility Guidelines
+04:42 - Typography
+05:01 - Choosing a font
+05:42 - Type scale
+06:32 - Typography grid tip
+06:46 - Type scale hierarchy
+07:43 - Limits to a type scale
+08:19 - Try out an audit
+8:43 - Elevation
+9:12 - Elevation Tip
+9:32 - Bonus elevation tip
+9:45 - Iconography
+10:01 - Icon system styles
+10:37 - Testing an icon
+11:12 Try out search terms for icons
+11:36 - Icon size, container and padding
+11:58 - Icon styles needs
+12:15 - Icon grid
+12:22 - Grids, layouts and spacing
+12:51 - Layouts and breakpoints
+14:13 - Responsive or fluid breakpoints
+14:28 - Grids
+14:39 - Column grids
+15:20 - Baseline grids
+16:05 - Modular grids
+16:36 - Spacing
+17:33 - Inconsistency  
+17:56 - Systematic thinking
+18:10 - Patterns
+19:14 - Wrap up
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/pwzYVIgga2c/hqdefault.jpg)
+
+## [Define your design system's principles - Lesson 2 part 1 : Introduction to design systems](https://www.youtube.com/watch?v=pwzYVIgga2c)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+Written course: https://bit.ly/3Oz6nKH
+
+In this lesson, we’ll dig into four key parts of a successful design system.
+
+1. Principles
+2. Foundations
+3. Documentation
+4. Processes
+
+____________________________________________________
+
+Resources:
+Figma Design Principles: https://bit.ly/3owJCw7
+Principles of Headspace: https://bit.ly/43jbi6y
+Design principles workshop: https://bit.ly/43meL4d
+How to Meet WCAG: https://bit.ly/3OB0nBa
+
+____________________________________________________
+
+00:00 - Introduction
+00:37 - Principles
+01:11 - Creating principles
+01:25 - What a principle might have
+02:35 - Try it yourself
+03:00 - Wrap up
+
+____________________________________________________
+
+Resources:
+Shopify Polaris: https://bit.ly/3BUpSpv
+Figma community wireframes: https://bit.ly/3osd8TP
+Sparkbox: Design Systems Survey 2022: https://bit.ly/3Ww6cl5
+Knapsak's Design System ROI Calculator: https://bit.ly/3MRQnSE
+Design Systems Repo: https://bit.ly/3MNMjCV
+Sparkbox: Anatomy of a Design System: https://bit.ly/420KKpK
+Spectrum of maturity for design systems: https://bit.ly/3WwjLAZ
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/YLo6g58vUm0/hqdefault.jpg)
+
+## [Welcome to design systems - Lesson 1 : Introduction to design systems](https://www.youtube.com/watch?v=YLo6g58vUm0)
+
+Figma is free to use. Sign up here: https://bit.ly/3msp0OV
+ 
+Habitz design system Community file: https://bit.ly/3BVcql4
+
+Video course: https://bit.ly/3WwqzyI
+Written course: https://bit.ly/3OC58u0
+
+There are millions of websites and applications that are endlessly evolving, many of which are operating on different systems and devices. 
+
+Most products aren’t creating static, cookie-cutter experiences. They’re creating complex universes of interconnected ones. Growing organizations need tools and processes that empower teams to scale consistent experiences. Many of them are turning to design systems as a potential solution.
+
+In this lesson, we’ll:
+
+- Learn what a design system is and what’s included in one;
+- Explore the problems a design system can help solve;
+- Help you identify when you need one;
+- And highlight a few things to consider as you start your design systems journey.
+
+____________________________________________________
+
+Resources:
+
+Shopify Polaris: https://bit.ly/3BUpSpv
+Figma community wireframes: https://bit.ly/3osd8TP
+Sparkbox: Design Systems Survey 2022: https://bit.ly/3Ww6cl5
+Knapsak's Design System ROI Calculator: https://bit.ly/3MRQnSE
+Design Systems Repo: https://bit.ly/3MNMjCV
+Sparkbox: Anatomy of a Design System: https://bit.ly/420KKpK
+Spectrum of maturity for design systems: https://bit.ly/3WwjLAZ
+
+____________________________________________________
+
+00:00 - Introduction
+00:32 - What is a design system?
+01:13 - Resources a design system might include
+01:56 - No one size fits all
+02:06 - Do you need a design system?
+02:55 - When to implement a design system
+03:09 - Benefits of a design system
+04:25 - Signs you might need a design system
+05:53 - Not everyone needs a design system
+06:05 - Challenges of a design system
+07:03 - Audit
+07:59 - Perform an audit
+09:51 - Overview of the design system process
+10:18 - Steps in the process
+11:37 - Considerations
+12:30 - Audience
+13:09 - Implementation
+14:19 - Other questions
+15:07 - Wrap up
+
+____________________________________________________
+
+Find us on ⬇️
+Twitter: https://twitter.com/figma
+Instagram: https://www.instagram.com/figma
+LinkedIn: https://www.linkedin.com/company/figma
+Figma forum: https://forum.figma.com/
+
+____________________________________________________
+
+
+#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/CrK3BcjXA-Y/hqdefault.jpg)
+
+## [Design smarter, not harder. Halve your design workload in one year with Supernova + Tokens Studio](https://www.youtube.com/watch?v=CrK3BcjXA-Y)
+
+NEW Tokens Studio and Supernova integration for seamless tokens synchronization between your Figma, documentation, and code.
+
+🚀 Manage your design tokens like never before, enhance collaboration elevate your design system 🚀
+
+Push and pull your styles and design token values from Tokens Studio (Formerly Figma Tokens Plugin), with only a couple of simple steps.
+
+Learn more about the integration  👉 https://www.supernova.io/supernova-tokens-studio
+
+--------
+Get started with Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/EvqO1HP9oEM/hqdefault.jpg)
+
+## [Supernova integration with Token Studio via CLI](https://www.youtube.com/watch?v=EvqO1HP9oEM)
+
+The Supernova command-line interface (CLI) enables you to run specific tasks connected with Supernova from your CI/CD pipelines, from your action triggers (GitHub Actions and similar), or from your command line as well. The Supernova CLI is powered by the Supernova SDK, which allows access to many lower-level operations.
+
+In this video, we walk you through the CLI setup that automatically syncs Tokens Studio through GitHub Actions to Supernova.io when token data changes
+
+More details can be found here 👉 https://developers.supernova.io/latest/command-line-interface/syncing-with-token-studio.html
+
+--------
+⏱️ Process steps ⏱️
+00:00 Syncing with Token Studio
+00:05 Forking the repository for the CLI
+00:34 Adding the secret key and mapping
+01:15 Mapping a single file
+02:29 Running the actions and checking if it works
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/ApvQZvHxNtA/hqdefault.jpg)
+
+## [Supernova 101 - Company Plan Overview](https://www.youtube.com/watch?v=ApvQZvHxNtA)
+
+Want to get the most out of the Supernova Company plan?
+
+In this webinar recording, we're going over the benefits of using the Supernova Company plan and practical tips and tricks for using it effectively.
+
+A full review of our Company plan features is available at the following link - https://www.supernova.io/pricing
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/QsBDzIKLVy0/hqdefault.jpg)
+
+## [How We Document Webinar #4: Deep dive, Hot takes, Q&amp;A with Dan Mall and Michelle Chin](https://www.youtube.com/watch?v=QsBDzIKLVy0)
+
+Coming off the Dan Mall’s review video of How We Document, we invited Dan for a deeper discussion on some of the How We Document findings. Michelle Chin, our design advocate, and Dan talk about what they found interesting, hot takes based on survey results, and potentially new approaches for documenting, communicating, and positioning design systems.
+
+Follow Dan Mall: https://www.twitter.com/danmall
+Follow Michelle Chin: https://www.twitter.com/soysaucechin
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/mEtytXNYTaI/hqdefault.jpg)
+
+## [Supernova 101 Team Plan Overview](https://www.youtube.com/watch?v=mEtytXNYTaI)
+
+Want to get the most out of the Supernova Team plan?
+
+In this webinar recording, we are giving a comprehensive understanding of the benefits of using the Supernova Team plan and practical tips and tricks for using it effectively.
+
+A full review of our team plan features is available at the following link - https://www.supernova.io/pricing
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/qjvcRCuv6FQ/hqdefault.jpg)
+
+## [Automatically create a changelog for your design system](https://www.youtube.com/watch?v=qjvcRCuv6FQ)
+
+We've added a "What's new" block that automatically generates a list of pages that have been added, changed, or deleted. You can show any changes from the last 30 days or since your last release. 
+
+This should make it a lot easier to maintain a changelog, create release notes, or keep styleguide viewers up to date on how your documentation is evolving. 
+
+Learn more: https://learninghub.zeroheight.com/hc/en-us/articles/13767774904219-Announce-what-s-new
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/HcxckpdOVpM/hqdefault.jpg)
+
+## [Render Live React, Vue, and Angular Components (+ more frameworks) in your design system](https://www.youtube.com/watch?v=HcxckpdOVpM)
+
+We've added support for more frameworks! Now, you can render Live components in Angular, React, React Typescript, SolidJS, Svelte, Vanilla TypeScript, Vanilla JavaScript, Vue, Vue3, and Vue3 Typescript.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/6LQIQjvMnGE/hqdefault.jpg)
+
+## [How DesignOps helps Design Systems gain traction - Panel with DesignOps experts powered by Supernova](https://www.youtube.com/watch?v=6LQIQjvMnGE)
+
+Supernova brought to you the DesignOps experts Jose Coronado, Karolina Boremalm, Patrizia Bertini, Farid Sabitov, and Andrew Evans, who talked about collaboration levels between DesignOps practitioners and design systems teams, how design operations can drive greater adoption of design systems, and the ideal collaboration model for a design systems team.
+
+The panel was live-streamed on April 4th, 2022, and we had a fun FigJam board (http://bit.ly/3GiKzxU), still open for you to engage, reflect and contribute.
+
+A full transcript is available at the following link - http://bit.ly/3m54KbU
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/Nza9Fz7cPZ8/hqdefault.jpg)
+
+## [Webinar Replay: Meet the new Design Tokens Manager](https://www.youtube.com/watch?v=Nza9Fz7cPZ8)
+
+Join the zeroheight team for a first look at the new design tokens manager. It allows you to manage, document, and display your design tokens in one place.
+
+Create tokens in zeroheight with no-code
+Import tokens from GitHub or in a JSON file
+Edit tokens with no-code
+Display tokens in an easy-to-read table
+Export tokens to GitHub as a PR or in a JSON file
+
+Get started with zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/HYhZ4exUyiQ/hqdefault.jpg)
+
+## [Amplify Webinar: Women in Tech Wikipedia Edit-a-thon](https://www.youtube.com/watch?v=HYhZ4exUyiQ)
+
+For International Women’s Day, the theme is #EmbraceEquity, which inspired us to host an edit-a-thon this month. In this recording, our Design Advocate Michelle walks you through the basics of editing Wikipedia, identifies great places for beginners to edit, and provides a list of pages that could be improved or created. 
+
+We decided to host this because there’s a huge gender gap on Wikipedia. In less than 19% of biographies on Wikipedia are about women. Wikipedia is a data source on many things we rely on - from Google’s knowledge panels to what teaches AI systems. When women aren’t represented in Wikipedia, we’re omitted from people’s knowledge and discussion, and our accomplishments go unknown.
+
+This will be an ongoing project for her and some friends. So if you missed the webinar, you can catch up on this recording and join in a future edit-a-thon session. 
+
+Editing Wikipedia is more user-friendly now, making creating and editing pages even easier. By embracing this learning curve, we can work toward better equity and representation of women in Wikipedia and beyond.
+
+Link to slides: https://bit.ly/amp-wit-slides
+
+Link to wiki project page: https://bit.ly/amp-wit-wiki
+
+Reach out to Michelle on Twitter: https://twitter.com/soysaucechin
+LinkedIn: https://www.linkedin.com/in/michelletchin
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/YH85EEGhi4Y/hqdefault.jpg)
+
+## [Set up SSO in zeroheight](https://www.youtube.com/watch?v=YH85EEGhi4Y)
+
+Learn how to set up SSO and secure your design system for your team.
+
+Find out more in our Learning Hub: 
+Get started with SSO: https://learninghub.zeroheight.com/hc/en-us/articles/6163356067483
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/CjD8GZOTh2o/hqdefault.jpg)
+
+## [How We Document Webinar 3: Scaling Design Systems - Growing your design system team](https://www.youtube.com/watch?v=CjD8GZOTh2o)
+
+In our How We Document 2023 report, we noticed the traction design systems teams are gaining in their organization. Teams are growing in size and are no longer just made of designers and developers. In this webinar, our panelists discussed what to consider when growing your design system team, including essential roles for successful design system teams, workarounds for managing without additional roles, and the benefits of growing a design system team.
+Download the report today! https://hubs.li/Q01H5L_00
+
+Michelle Chin, Design Advocate at zeroheight.
+Diana Thompson - UX Design Manager at Nordstrom, Design Language System.
+Tri Persaud - User Experience Lead, Design Systems at ZS.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/oL5pv1LDLwk/hqdefault.jpg)
+
+## [Elevate your DesignOps — Streamline your design processes, with Supernova](https://www.youtube.com/watch?v=oL5pv1LDLwk)
+
+Design operations and design systems go hand-in-hand when it comes to improving the efficiency and effectiveness of your design process.  A well-designed design system can be vital to a successful DesignOps strategy because it provides a framework for designers to work within and reduces the time they need to spend on repetitive tasks like creating new UI components.  Once it is well-implemented, a design system continues to help DesignOps ensure the needs of the design team and organization as a whole.
+
+--------
+Things you can do with Supernova:
+
+⭐️ Organize your design operations strategy from one place and ensure consistency
+
+⭐️ Connect Figma down to your code repositories without having to build a service delivery infrastructure on your own
+
+⭐️ Automatically update your documentation with the industry’s most customizable and extensible design system
+
+⭐️ Utilize the most flexible and powerful code export pipelines for any platform
+
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/4tKdt9vcJXo/hqdefault.jpg)
 
 ## [Sound sensitive. Looks yummy tho! #neurodivergent](https://www.youtube.com/watch?v=4tKdt9vcJXo)
 
 
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/3L3xUkNZ2sA/hqdefault.jpg)
+
+## [Create releases in zeroheight](https://www.youtube.com/watch?v=3L3xUkNZ2sA)
+
+Learn how to create a release and see past versions of your zeroheight styleguide!
+
+Find out more in our Learning Hub: 
+Releases: https://learninghub.zeroheight.com/hc/en-us/articles/4874068778651
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
 
 ---
 
@@ -184,6 +1304,26 @@ https://www.clarityconf.com
 
 ---
 
+![Thumbnail](https://i.ytimg.com/vi/n-1S0gidN9E/hqdefault.jpg)
+
+## [How We Document Webinar 2: Adapting Design Systems - Transitioning Tools](https://www.youtube.com/watch?v=n-1S0gidN9E)
+
+As the design system space continues to evolve, so do the tools that support it. From our How We Document 2023 report, we get a sense that the tools landscape is adapting. This webinar addresses how to transition tools with your design system team.  
+
+Speakers: 
+Sarrah Vesselov - Director of Design, Honeycomb.io, Author of Building Design Systems (https://twitter.com/SVesselov)
+Luke Murphy - Moderator, Design Advocacy Lead, zeroheight (https://twitter.com/lurkmoophy) 
+Michelle Chin - Design Advocate, zeroheight (https://twitter.com/soysaucechin)
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/-0S5pB0NA30/hqdefault.jpg)
 
 ## [#blackwardrobe #black #allblackeverything](https://www.youtube.com/watch?v=-0S5pB0NA30)
@@ -197,6 +1337,433 @@ https://www.clarityconf.com
 ## [#capcut #bengal #catsofyoutube](https://www.youtube.com/watch?v=N_a0BafOLhw)
 
 
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/wvrnzn3zBYQ/hqdefault.jpg)
+
+## [Invite your team to zeroheight](https://www.youtube.com/watch?v=wvrnzn3zBYQ)
+
+Learn about team roles and responsibilities as well as how to invite people to your zeroheight team! 
+
+Find out more on our Learning Hub: 
+User Roles: https://learninghub.zeroheight.com/hc/en-us/articles/4946980980635-User-roles
+Invite Editors: https://learninghub.zeroheight.com/hc/en-us/articles/4946858186651-Invite-editors
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/wvwscunUtu4/hqdefault.jpg)
+
+## [How We Document Webinar 1: Starting Design Systems - Navigating the beginning](https://www.youtube.com/watch?v=wvwscunUtu4)
+
+From our How We Document 2023 report, most respondents are in the early stages of design system creation. Starting design systems isn’t just a matter of designing a few components. These days it’s much more than that. Teams are documenting sooner and including tokens earlier. 
+
+Learn from our amazing panelists, Lily Dart and Julien Vanière about how they’ve approached starting a design system. When should you start documenting? How soon should you include tokens? What are common mistakes and how can we avoid them?
+
+Jules Mahé, Design Advocate at zeroheight: https://twitter.com/julesmahe
+Lily Dart, Group Design Director at Photobox: https://twitter.com/lily_dart
+Julien Vanière, Senior Director at Sage: https://twitter.com/julienvaniere
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/mRk6H9Y1AqI/hqdefault.jpg)
+
+## [Scaling accessibility through design systems — Panel with a11y experts, powered by Supernova](https://www.youtube.com/watch?v=mRk6H9Y1AqI)
+
+Supernova brought to you the a11y experts Geri Reid, Lauren Beatty, and Stéphanie Walter to learn from them about incorporating accessibility into design systems, measuring its impact, and educating companies on its importance.
+
+The panel was live-streamed on Feb.16th, 2022 as they shared insights and best practices about scaling accessibility through design systems.
+
+A full transcript is available on the following link - http://bit.ly/3Krt55a
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/8oJ5GlXypQM/hqdefault.jpg)
+
+## [Create custom domains in zeroheight](https://www.youtube.com/watch?v=8oJ5GlXypQM)
+
+You can add a custom domain to your zeroheight styleguide to personalize it to your company branding. 
+
+To have a custom domain, you must secure your own domain before requesting zeroheight to connect it to your styleguide.
+
+Find out more about the feature: https://bit.ly/3E7ICTW
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/juU2G9Kx0C8/hqdefault.jpg)
+
+## [DesignOps Island Discs S030 E05 - Sheena Lydon, Wise](https://www.youtube.com/watch?v=juU2G9Kx0C8)
+
+DesignOps Island Discs is a live-recorded, interactive podcast, looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs.
+
+For episode 5, we welcome Sheena Lydon, DPM on Design Systems at Wise. We're going to talk to Sheena about being a DPM... what the essential skills for a DPM are, why they're important, both on product and design system teams, and why designops is hands down the best timeline to live in.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/O9SBIgn5jqg/hqdefault.jpg)
+
+## [Design Systems Essentials: Running your design system like a product](https://www.youtube.com/watch?v=O9SBIgn5jqg)
+
+On the 24th January 2023, we talked about how teams can run their design systems like products—complete with roadmaps, stakeholder pitches, trackers, planning, surveys, and more. 
+
+Catch the recording of our webinar with:
+Michelle Chin, Design Advocate at zeroheight
+Jack Reeves, Digital Director at Mates, Inc. and Design System Strategist for Helly Hansen
+Morgane Peng, Design Director at Societe Generale Corporate & Investment Banking
+Ellis Capon, Senior Product Manager, Design Systems at Just Eat Takeaway.com
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/ELJomALRgKA/hqdefault.jpg)
+
+## [We&#39;ve revamped our Storybook integration!](https://www.youtube.com/watch?v=ELJomALRgKA)
+
+Our newest release should make it way easier to use zeroheight with Storybook.
+
+➡️ Connect Storybook to zeroheight once in the styleguide settings.
+➡️ Add new stories using the brand-new Storybook block.
+➡️ Choose the story to display on a page from the new modal that displays all of your available stories.
+➡️ Component previews are now shown in an iframe with controls on the page
+
+Learn more about using zeroheight with Storybook: https://learninghub.zeroheight.com/hc/en-us/sections/4869251371547-Storybook
+
+-----
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/P2ZOlbrnllc/hqdefault.jpg)
+
+## [The Future of Design Tokens — Fireside chat with the top design tokens experts, powered by Supernova](https://www.youtube.com/watch?v=P2ZOlbrnllc)
+
+Supernova brought to you the top design system experts to discuss the future of design tokens 
+🔹 Donna Vitan
+🔹 Jina Anne
+🔹 Kaelig Deloumeau-Prigent
+🔹 Nathan Curtis and 
+🔹 moderator Dan Mall 
+
+The panel was live-streamed on Dec.13th, 2022 as they chat about their visions for the future of design tokens and how individuals can put them into practice.
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/Bc4GPtKHVMU/hqdefault.jpg)
+
+## [DesignOps Island Discs S03E04 - Heydon Pickering, Consultant](https://www.youtube.com/watch?v=Bc4GPtKHVMU)
+
+DesignOps Island Discs is a live-recorded, interactive podcast, looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs.
+
+For episode 4, we welcome Heydon Pickering, design and engineering consultant, who has worked with Springer Nature, The Paciello Group, BBC, Smashing Mag, and Bulb. We're going to talk to Heydon about being a front-end engineer on design systems... what the challenges are from an engineering point of view with design systems, what makes a good engineer on design systems, and where we need to be heading.
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/-GbIY6B9R2Y/hqdefault.jpg)
+
+## [Expand on what&#39;s possible with design tokens with themes in Supernova](https://www.youtube.com/watch?v=-GbIY6B9R2Y)
+
+Themes are value overrides for your tokens.
+
+With Supernova you can now define an unlimited number of themes, with each theme representing a specific view of your design system.
+
+Themes have various purposes, but the main one is obvious: Different color schemes for your design system, such as light and dark mode.
+
+Learn what else you can do with the new Design Token management 👉 https://www.supernova.io/design-tokens
+
+---
+
+⏱️ TIMESTAMPS ⏱️
+
+0:00 Introduction
+0:30 Importing and connecting your Figma file with Supernova
+2:20 Your Figma content presented in the new design token manager
+3:00 Creating a new theme
+5:50 Adding metadata on top of the tokens
+7:20 Documenting your design tokens
+10:20 Documenting themes
+13:05 Automating the token changes
+
+---
+
+Follow Supernova on Twitter: https://twitter.com/supernova_io
+Follow Supernova on LinkedIn: https://www.linkedin.com/company/supernova-io/
+Contact our sales team: sales@supernova.io
+Join our Discord Community: https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/w2Khzhg1Vic/hqdefault.jpg)
+
+## [The Next Generation of Design Token Management by Supernova.io](https://www.youtube.com/watch?v=w2Khzhg1Vic)
+
+The next generation of design token management is here 🎉
+👉 https://www.producthunt.com/posts/supernova-5
+
+With Supernova, you can connect, manage, document, and deliver your design tokens with ease. 
+
+Now, you can also import your tokens from Figma Tokens plugin and manage themes directly from a new Tokens view.
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/vgcimPpB6nc/hqdefault.jpg)
+
+## [DesignOps Island Discs S03E02 - Amy Hupe, Content Specialist](https://www.youtube.com/watch?v=vgcimPpB6nc)
+
+DesignOps Island Discs is a live-recorded, interactive podcast, looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs. 
+
+For episode three, we welcome (back) Amy Hupe! Amy is a content specialist and design system consultant, having worked on design systems from Springer Nature, to BT, to Babylon Health, to Gov.uk. Luke and Amy chat about what a content specialist actually does, why they're the essential third pillar of a design system, what makes a good design system content person, and some of the things that are exciting Amy about the future of content design in design systems (hello structured content), before answering super interesting questions from the live audience!
+
+zeroheight: https://www.zeroheight.com/podcast
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/lOac4PhWsj0/hqdefault.jpg)
+
+## [Sync markdown from GitHub with zeroheight](https://www.youtube.com/watch?v=lOac4PhWsj0)
+
+We just made a big update! Now, you can add both public and private repos from GitHub to zeroheight. Once added, you can sync markdown on any page. To styleguide viewers, the content will appear natively (just like anything else on zeroheight). And after making changes in GitHub, you can display them in zeroheight with a quick refresh.
+
+This new feature is available on our Pro and Enterprise plans. Get in touch with us and we'd be happy to tell you more about it: https://zeroheight.com/inquire/professional
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/G0IiKUoS-Cg/hqdefault.jpg)
+
+## [zeroheight can render React components!](https://www.youtube.com/watch?v=G0IiKUoS-Cg)
+
+We just unveiled live React components in zeroheight. Now, you can import public NPM packages. Once imported, entered code will automatically render the design. And for styleguide viewers, they can make edits to see how changes in code affect the rendered design (no worries - changes made by styleguide viewers won't change it for everyone!).
+
+Learn more: https://learninghub.zeroheight.com/hc/en-us/articles/9785888508059-React-component-previews
+
+Get started with zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/gjiCGKUYtqY/hqdefault.jpg)
+
+## [ConvergeLDN 2022](https://www.youtube.com/watch?v=gjiCGKUYtqY)
+
+In September, the design systems community joined together in London for the first Converge conference celebrating World Design Systems Week. Speakers Amy Hupe, Lily Dart, Inayaili León, Dave House, Dan Donald, Imran Afzal and Dan Mall spoke at Conway Hall in London. 
+
+🎥 Filming by: Danny Barnes 
+Follow him on Twitter: https://twitter.com/thedannybarnes
+Website: www.dannybarnes.photo
+
+Find out more about Converge: https://hubs.li/Q01rLW6H0
+
+zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/3u3UBLXDWDU/hqdefault.jpg)
+
+## [Introducing the new Supernova.io website! Check it out 👀](https://www.youtube.com/watch?v=3u3UBLXDWDU)
+
+👉 https://www.supernova.io
+The single platform to manage all your design decisions
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/_cWXGyohk8k/hqdefault.jpg)
+
+## [Design systems made easy — Supernova.io](https://www.youtube.com/watch?v=_cWXGyohk8k)
+
+Supernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design system management, it's the ideal end-to-end platform that grows with your design system.
+--------
+🔹 Design System Management
+🔹 Documentation
+🔹 Code and Asset Delivery
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/_RwOEAMTB04/hqdefault.jpg)
+
+## [Design Systems Essentials:  Contribution Process](https://www.youtube.com/watch?v=_RwOEAMTB04)
+
+On the 20th October 2022, we talked about contribution process. 
+
+What are some best practices for small orgs? What works better for larger orgs? Multiple brands? We'll dig into things a bit deeper with design system experts.
+
+Catch the recording of our webinar with Jules Mahé, Teddy Voisin, Senior Product Designer at Back Market and Mark Caron UX/Design Systems Manager at Red Hat.
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/y_AKAKXbzkA/hqdefault.jpg)
+
+## [DesignOps Island Discs S03E02 - Arielle Benedek, Spotify](https://www.youtube.com/watch?v=y_AKAKXbzkA)
+
+DesignOps Island Discs is a live-recorded, interactive podcast from @zeroheight looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs. 
+
+For our first episode, we welcome Arielle Benedek, one of the Product Managers on Encore, Spotify's design system, on what a product manager on a design system actually does, what the biggest challenges are, how we need to change what we do, and answers a whole bunch of interesting questions from the live audience.
+
+To check out zeroheight (for free), head to https://www.zeroheight.com/podcast
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/8-J07lcC6wg/hqdefault.jpg)
+
+## [DesignOps Island Discs S03E01 - Geri Reid, News UK](https://www.youtube.com/watch?v=8-J07lcC6wg)
+
+DesignOps Island Discs is a live-recorded, interactive podcast from @zeroheight9269 looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs. 
+
+For our first episode, we welcome Geri Reid, lead designer on Newskit, the News UK design system. We'll talk about what a lead designer does in the context of design systems, the challenges, what could change, and when you might think about hiring your first lead designer. 
+
+To check out zeroheight (for free), head to https://www.zeroheight.com/podcast
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/0i0W7XQEp2E/hqdefault.jpg)
+
+## [Design Systems Essentials: Hiring for Design Systems](https://www.youtube.com/watch?v=0i0W7XQEp2E)
+
+On the 23rd August 2022, we talked about hiring for design systems roles. 
+
+Catch the recording of our webinar with Jules Mahé, Audrey Hacq, Product Design Director at OpenClassrooms, Julien Vanière Design Systems Director at Sage and Jeannie Servaas Creative Director, Carbon Design System and Design Principal at IBM on best practices to recruit and/or apply for design systems positions.
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/XWs9pyXMeOI/hqdefault.jpg)
+
+## [Design Systems, Diners, and Drives with Teladoc Health](https://www.youtube.com/watch?v=XWs9pyXMeOI)
+
+In this episode, three members of the Teladoc Health design system team walked us through Pulse – their design system. They go over their team organization, design tokens and semantic colors, Figma file architecture, Component documentation, and component governance.
+
+Want to have your team featured at an upcoming Design Systems, Diners, and Drives? Reach out to us at community@zeroheight.com
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/N_wJWTqpVWU/hqdefault.jpg)
+
+## [Helen Hou-Sandi: “Where Design Systems meet Editorial Experiences”](https://www.youtube.com/watch?v=N_wJWTqpVWU)
+
+Design systems aren't just for software and product teams—they're for content websites, too. But it's one thing to come up with a design system for a website, and another to translate it for the people who manage the content that goes into your carefully crafted design system. They say software is eating the world, but I would venture to say that even more people are involved in the care and maintenance of websites, and it's important that they're remembered as the standards rise ever higher.
+
+Let's explore some strategies for translating parts of a design system for editorial needs - the functional spec, if you will - and take a look at some real-world examples of how powerful that can be in a visual editing experience in a popular CMS.
+
+Presented by Helen Hou-Sandi at Clarity 2021, on October 27th, 2021. Ends with an interview with Mina Markham.
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/GsbviQkKRtU/hqdefault.jpg)
+
+## [Michael Bierut: “The Worst Advice I Ever Gave” — Clarity 2021](https://www.youtube.com/watch?v=GsbviQkKRtU)
+
+Michael Bierut Partner Pentagram
+
+In 2005, I was asked by the AIGA what advice I had for someone beginning a career in design. I responded with a 541-word essay that became one of the most popular things I’ve ever written. It was widely quoted. A few people even told me it has changed their lives. But here’s the catch: fifteen years later, I’ve begun to realize I was wrong.
+
+How wrong? Well, that’s for you to decide. Now that I’m at the far end of a 40-year career, I hope this will be a chance for you (and me) to learn from my mistakes.
+
+Presented by Michael Bierut at Clarity 2021, on October 29th, 2021. Ends with an interview with Mina Markham.
 
 ---
 
@@ -229,33 +1796,15 @@ Presented by Donna Vitan at Clarity 2021, on October 29th, 2021. Ends with an in
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/N_wJWTqpVWU/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/AOyHnhVIxxs/hqdefault.jpg)
 
-## [Helen Hou-Sandi: “Where Design Systems meet Editorial Experiences”](https://www.youtube.com/watch?v=N_wJWTqpVWU)
+## [Ayesha Mazrana: “No Need for Bridges: How Design Technologists dissolve design &amp; engineering gap”](https://www.youtube.com/watch?v=AOyHnhVIxxs)
 
-Design systems aren't just for software and product teams—they're for content websites, too. But it's one thing to come up with a design system for a website, and another to translate it for the people who manage the content that goes into your carefully crafted design system. They say software is eating the world, but I would venture to say that even more people are involved in the care and maintenance of websites, and it's important that they're remembered as the standards rise ever higher.
+At this point, we’ve probably all frequently heard the phrase “design and engineering gap”, especially in the world of design systems. There are tools, books, blog posts, and talks all built around trying to bridge this gap, but what if the key to creating more cohesive and inclusive teams is really the people within those teams? Instead of bridging a gap, what if we eliminate it altogether with a group of people called Design Technologists. They’re typically familiar with design and research best practices, yet also talented at creating accessible, scalable components with APIs that engineering teams can easily understand and utilize. They understand the language of both worlds already, so why not lean into this role and mindset when creating design systems with a shared language. 
 
-Let's explore some strategies for translating parts of a design system for editorial needs - the functional spec, if you will - and take a look at some real-world examples of how powerful that can be in a visual editing experience in a popular CMS.
+Let’s discuss what exactly Design Technology entails, how this role creates stronger teams and tighter connections across an organization, and how everyone can think like a Design Technologist, regardless of their title.
 
-Presented by Helen Hou-Sandi at Clarity 2021, on October 27th, 2021. Ends with an interview with Mina Markham.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/0tZEbitbMrM/hqdefault.jpg)
-
-## [Jen Cotton: “Cross Device: The Future of Design Systems” — Clarity 2021](https://www.youtube.com/watch?v=0tZEbitbMrM)
-
-Jen Cotton Head of Design & Research Modern Health
-
-People are using more devices than ever. The median US household contains at least 5 devices, with similar trends across comparable markets. For a large part this is due to innovation in the devices space over the past 5 years. New hardware categories like smart speakers have been created, while other categories have gained broader adoption due to category leaders, such as AirPods driving wearables growth.
-
-At the same time the capabilities of our devices are more inclusive, opening up new ways for people to interact using voice and gesture for the first time. Better still, the more ambient nature of devices like speakers or displays create the possibility for better digital wellbeing and point towards what a post-mobile future might look like.
-
-Yet most of our design systems only focus on phones and computers.
-
-Let’s explore how cross-device hardware trends and use cases can help drive our design systems towards a truly responsive and inclusive future.
-
-Presented by Jen Cotton at Clarity 2021, on October 28th, 2021. Ends with an interview with Mina Markham.
+Presented by Ayesha Mazrana at Clarity 2021, on October 28th, 2021. Ends with an interview with Mina Markham.
 
 ---
 
@@ -280,6 +1829,36 @@ Digital product teams have a problem with addiction: we see it as a product stra
 By adopting the language of addiction in our process, we embed harmful patterns of thought in the patterns we design. These become harmful patterns of behavior in the people who use our products. It’s time to break the cycle.
 
 Presented by John Voss at Clarity 2021, on October 28th, 2021. Ends with an interview with Mina Markham.
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/d22qO_RvaQc/hqdefault.jpg)
+
+## [Lauren LoPrete: “Design Systems Burnout” — Clarity 2021](https://www.youtube.com/watch?v=d22qO_RvaQc)
+
+Building design systems is a thankless job. It feels like some days the quality of the product's UI is weighing on your shoulders and others like you're being critiqued for stifling the design team's creativity. When you build an internal product for your peers, critical feedback becomes personal and can demotivate or derail your team. It can feel like sprints and quarters are spent reacting to the needs of others, and your roadmap is commanded by the teams you support. Acting in a support role means you're responsible for defining your team's motivation, milestones, success... and how your work impacts the business overall. 
+
+Writing this talk began as a way to cope with burnout after 4 years of working on design systems. Intended as a cathartic moment of self-reflection, this talk will pull from personal experiences [in hope of] providing practical strategies that break the cycles of fatigue, stress, and overwhelm; empowering design systems leaders to define their focus and what really matters.
+
+Presented by Lauren LoPrete at Clarity 2021, on October 27th, 2021. Ends with an interview with Mina Markham.
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/0tZEbitbMrM/hqdefault.jpg)
+
+## [Jen Cotton: “Cross Device: The Future of Design Systems” — Clarity 2021](https://www.youtube.com/watch?v=0tZEbitbMrM)
+
+Jen Cotton Head of Design & Research Modern Health
+
+People are using more devices than ever. The median US household contains at least 5 devices, with similar trends across comparable markets. For a large part this is due to innovation in the devices space over the past 5 years. New hardware categories like smart speakers have been created, while other categories have gained broader adoption due to category leaders, such as AirPods driving wearables growth.
+
+At the same time the capabilities of our devices are more inclusive, opening up new ways for people to interact using voice and gesture for the first time. Better still, the more ambient nature of devices like speakers or displays create the possibility for better digital wellbeing and point towards what a post-mobile future might look like.
+
+Yet most of our design systems only focus on phones and computers.
+
+Let’s explore how cross-device hardware trends and use cases can help drive our design systems towards a truly responsive and inclusive future.
+
+Presented by Jen Cotton at Clarity 2021, on October 28th, 2021. Ends with an interview with Mina Markham.
 
 ---
 
@@ -310,41 +1889,128 @@ Presented by Diana Mounter at Clarity 2021, on October 29th, 2021. Ends with an 
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/AOyHnhVIxxs/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/AwsRI0Tb80c/hqdefault.jpg)
 
-## [Ayesha Mazrana: “No Need for Bridges: How Design Technologists dissolve design &amp; engineering gap”](https://www.youtube.com/watch?v=AOyHnhVIxxs)
+## [Supernova.io Workshop “Building a multi-branded design system” @ Into Design Systems Conference](https://www.youtube.com/watch?v=AwsRI0Tb80c)
 
-At this point, we’ve probably all frequently heard the phrase “design and engineering gap”, especially in the world of design systems. There are tools, books, blog posts, and talks all built around trying to bridge this gap, but what if the key to creating more cohesive and inclusive teams is really the people within those teams? Instead of bridging a gap, what if we eliminate it altogether with a group of people called Design Technologists. They’re typically familiar with design and research best practices, yet also talented at creating accessible, scalable components with APIs that engineering teams can easily understand and utilize. They understand the language of both worlds already, so why not lean into this role and mindset when creating design systems with a shared language. 
+Building design systems is hard as it is - but building design systems for multiple brands is next-level complicated. In this workshop, we'll talk about strategies for how to structure the design system for multi-brand environments, how to document them, and how to use smart documentation systems to remove tedious tasks connected with this process.
 
-Let’s discuss what exactly Design Technology entails, how this role creates stronger teams and tighter connections across an organization, and how everyone can think like a Design Technologist, regardless of their title.
+--------
+⏱️ TIMESTAMPS ⏱️
 
-Presented by Ayesha Mazrana at Clarity 2021, on October 28th, 2021. Ends with an interview with Mina Markham.
+Part 1: What, when, and how (lite guide) to start a multi-brand design system
+0:00 Introduction
+3:00 What challenges do large companies face?
+7:10 What are the advantages of a multi-brand design system?
+13:10 Starting with a multi-brand design system
+16:35 “System separation” approach
+18:50 “Brand alignment” approach
+21:45 “Common ground” approach and main phases
+
+36:30 Q&A Session 
+
+Part 2: Managing and documenting multi-brand design system with Supernova.io
+44:00 Introduction to Supernova.io native support for a multi-brand design system
+45:40 Setting up a multi-branded design system in Supernova.io
+59:45 Managing and documenting tokens, assets, components, guides
+1:12:14 Automating delivery of styles and assets
+1:17:40 Structuring the documentation
+1:33:00 Rendering components in your documentation
+1:39:19 Managing multi-brand components
+
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/GsbviQkKRtU/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/W8RWBd5_9Y8/hqdefault.jpg)
 
-## [Michael Bierut: “The Worst Advice I Ever Gave” — Clarity 2021](https://www.youtube.com/watch?v=GsbviQkKRtU)
+## [&quot;Killing the spreadsheet behind every design system&quot; by Jiri Trecak @ Into Design Systems Conference](https://www.youtube.com/watch?v=W8RWBd5_9Y8)
 
-Michael Bierut Partner Pentagram
+Each design system consists of many moving parts - some live in Figma, some live in our codebases, and some.. in Spreadsheets, that are used to track everything from links to health statuses to information about changes to specific elements. It is time we remove this last broken part completely.
 
-In 2005, I was asked by the AIGA what advice I had for someone beginning a career in design. I responded with a 541-word essay that became one of the most popular things I’ve ever written. It was widely quoted. A few people even told me it has changed their lives. But here’s the catch: fifteen years later, I’ve begun to realize I was wrong.
+--------
+Supernova.io new components system reimagines what it means to manage your design system data in one place.
+The Components tab inside the platform is now the replacement for all of your "design system spreadsheets" - bringing together the constellation of data that represents all of the facets of your components in one place - from design components to code components, to metadata used to govern processes around them.
 
-How wrong? Well, that’s for you to decide. Now that I’m at the far end of a 40-year career, I hope this will be a chance for you (and me) to learn from my mistakes.
+Read More in our release notes  👉 https://learn.supernova.io/latest/releases/release-69.html
 
-Presented by Michael Bierut at Clarity 2021, on October 29th, 2021. Ends with an interview with Mina Markham.
+--------
+⏱️ TIMESTAMPS ⏱️
+
+Part 1: Keynote - “Killing the Design System Spreadsheet”
+0:00 Introduction
+1:15 What are design systems?
+3:05 Design System is a product
+4:00 Tools used to track Design Systems
+7:00 Spreadsheets run the (design system) world
+11:45 Why Spreadsheets are the pain?
+15:45 What does the ideal Design System contain?
+
+Part 2: Supernova presents a new way of managing your design system metadata and components
+19:00 Real example of how spreadsheets are being used in practice
+23:15 Get started with the new Supernova component system
+27:15 Measure components readiness
+29:30 Create a control dashboard for your design system
+34:10 Document your design system components
+
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/d22qO_RvaQc/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/9C4Y_1XmSoI/hqdefault.jpg)
 
-## [Lauren LoPrete: “Design Systems Burnout” — Clarity 2021](https://www.youtube.com/watch?v=d22qO_RvaQc)
+## [Supernova - The world&#39;s first Design System as a Service Platform](https://www.youtube.com/watch?v=9C4Y_1XmSoI)
 
-Building design systems is a thankless job. It feels like some days the quality of the product's UI is weighing on your shoulders and others like you're being critiqued for stifling the design team's creativity. When you build an internal product for your peers, critical feedback becomes personal and can demotivate or derail your team. It can feel like sprints and quarters are spent reacting to the needs of others, and your roadmap is commanded by the teams you support. Acting in a support role means you're responsible for defining your team's motivation, milestones, success... and how your work impacts the business overall. 
+Supernova enables you to build, manage and share design systems coherently across all disciplines, build fully customizable documentation sites with absolute ease and automate tedious delivery of design system assets to your codebases.
+--------
+🔹 Design System Management
+🔹 Documentation
+🔹 Code and Asset Delivery
+🔹 Process and Metadata Management
 
-Writing this talk began as a way to cope with burnout after 4 years of working on design systems. Intended as a cathartic moment of self-reflection, this talk will pull from personal experiences [in hope of] providing practical strategies that break the cycles of fatigue, stress, and overwhelm; empowering design systems leaders to define their focus and what really matters.
+--------
+Learn more about Supernova 👉 https://supernova.io
+Follow Supernova on Twitter  https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
+Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
 
-Presented by Lauren LoPrete at Clarity 2021, on October 27th, 2021. Ends with an interview with Mina Markham.
+---
+
+![Thumbnail](https://i.ytimg.com/vi/uEGX2135z9k/hqdefault.jpg)
+
+## [How We Document Webinar #3: Design Tokens](https://www.youtube.com/watch?v=uEGX2135z9k)
+
+Download the How We Document Report: https://bit.ly/3uRz6A6
+
+This is the third of our webinars surrounding the How We Document report. This time the focus was on Design Tokens. On the 24th May, we had our lead design advocate Luke Murphy alongside special guests, Dan Donald and Kaelig Deloumeau-Prigent, chat about everything tokens! From governance, definition, naming conventions right through to other areas automation could help.
+
+The ‘how we document’ survey was conducted from Sep to Oct 2021 across social media, industry Slack channels and in emails to design system professionals.
+
+Design system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.
+
+Panelists:
+
+Luke Murphy: https://twitter.com/lurkmoophy
+Dan Donald: https://twitter.com/hereinthehive
+Kaelig Deloumeau-Prigent: https://twitter.com/kaelig
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
 
 ---
 
@@ -360,6 +2026,595 @@ https://www.clarityconf.com
 
 ---
 
+![Thumbnail](https://i.ytimg.com/vi/UpsSbEwAIyc/hqdefault.jpg)
+
+## [How We Document Webinar #2: Design System Maturity](https://www.youtube.com/watch?v=UpsSbEwAIyc)
+
+Download the How We Document Report: https://bit.ly/3uRz6A6
+
+This is the second of our webinars surrounding the How We Document report. This time the focus was on design system maturity. On the 10th May, we had our lead design advocate Luke Murphy alongside special guests, Chase McCoy and Laura Kennedy chat all about it! What does a 'mature' design system look like? Find out, as our panel talked about everything from defining maturity, to how teams change over time, to measuring maturity, to deprioritization. As a bonus, they answered some incredible questions from the audience too 😊
+
+The ‘how we document’ survey was conducted from Sep to Oct 2021 across social media, industry Slack channels and in emails to design system professionals.
+
+Design system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.
+
+Panelists:
+
+Luke Murphy: https://twitter.com/lurkmoophy
+Chase McCoy: https://twitter.com/chase_mccoy
+Laura Kennedy: https://twitter.com/Lelaura
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero...
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/DUQzEA_ahyc/hqdefault.jpg)
+
+## [UnConference: The Anatomy of a Design System with Ben Callahan](https://www.youtube.com/watch?v=DUQzEA_ahyc)
+
+Design systems have different meanings and purposes to different people, even within the same organization. In this talk, Ben defines each part of a design system to give you and your team a shared understanding of how these systems connect core brand elements with digital interfaces, enable consistent brand expression, and much more.
+
+
+0:00 Intro
+1:29 Takeaway #1
+2:18 Takeaway #2
+5:17 The Anatomy of a Design System
+6:12 The Foundations Layer
+8:19 The Tokens Layer
+12:06 The Core Systems Layer
+13:05 The Fundamental Layers
+13:32 The Components Layers
+15:27 The Three Parts of Every Layer
+15:42 Assets
+17:59 Processes
+24:45 Documentation
+27:20 The Design System as a Whole
+29:47 Takeaway #1 (Recap)
+30:59 Takeaway #2 (Recap)
+31:12 Consistency
+33:35 Efficiency
+36:31 Conclusion
+
+Learn more about The Anatomy of a Design System here: https://sparkbox.com/foundry/design_system_makeup_design_system_layers_parts_of_a_design_system
+
+Want more design systems advice? Check out https://sparkbox.com/foundry/category/design_systems
+
+Sparkbox partners with complex organizations to create user-driven web experiences. Would you like to talk about how we can work together? Visit https://www.sparkbox.com
+
+Resources
+2021 Design Systems Survey: https://bit.ly/ds-survey-results-2021
+Design System Calendar:  https://bit.ly/ds-sb-calendar
+Selling Design Systems: https://bit.ly/selling-design-systems
+Maturity Assessment: https://bit.ly/ds-maturity-assessment
+Carbon Design System - https://carbondesignsystem.com
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/-X4gT3mcb0M/hqdefault.jpg)
+
+## [UnConference: Design Systems in the Wild with Kasey Bonifacio](https://www.youtube.com/watch?v=-X4gT3mcb0M)
+
+Note: If you haven't watched "The Anatomy of a Design System," please do so before watching this. Find that video here: https://youtu.be/DUQzEA_ahyc
+
+In this video, Kasey applies Ben's Anatomy of a Design System to the systems of some of the world's most successful companies, so you and your team can practically apply these ideas to your design system.
+
+0:00 Intro
+1:37 Example 1: IBM Carbon / IBM Design Language
+5:42 Example 2: Atlassian 
+9:27 Example 3: Gusto Workbench
+13:42 What Can We Learn From These Examples?
+14:30 Takeaway 1:Identify the Problems
+20:11 Takeaway 2: Identify Your Gaps
+23:31 Takeaway 3: Start with a Good Foundation
+26:04 Takeaway 4: Document Your Design System Language
+28:30 Takeaway 5: Have the Right People Do the Right Things
+
+Learn more about The Anatomy of a Design System here: https://sparkbox.com/foundry/design_system_makeup_design_system_layers_parts_of_a_design_system
+
+Want more design systems advice? Check out https://sparkbox.com/foundry/category/design_systems
+
+Sparkbox partners with complex organizations to create user-driven web experiences. Would you like to talk about how we can work together? Visit https://www.sparkbox.com
+
+Design Systems
+Carbon Design System - https://carbondesignsystem.com
+IBM Design Language - https://ibm.com/design/language
+Atlassian Design System - https://atlassian.design
+Workbench Design System - https://workbench.gusto.com
+
+References
+The Product Book - https://productschool.com/the-product-book
+“How Great Leaders Inspire Action” by Simon Sinek
+“Pausing on Pain Points to Improve Projects” by Austin Munhofen - https://sparkbox.com/foundry/solving_customer_problems_and_pain_points
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/2Wvcve8T760/hqdefault.jpg)
+
+## [How We Document Webinar #1: Design System Team Happiness](https://www.youtube.com/watch?v=2Wvcve8T760)
+
+Download the How We Document Report: https://bit.ly/3uRz6A6
+
+Design system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.
+
+In this webinar, our panel talks all about what makes a happy design systems team with zeroheight's very own Luke Murphy and Michelle Chin and the incredible Dan Mall. They answer questions from what’s the right size for a design system team to what’s essential for a team’s happiness.
+
+The How We Document survey was conducted from Sep to Oct 2021 across social media, industry Slack channels, and emails to design system professionals.
+
+Panelists:
+Luke Murphy: https://twitter.com/lurkmoophy
+Dan Mall: https://twitter.com/danmall
+Michelle Chin: https://twitter.com/soysaucechin
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+Join our exclusive Slack channel zheroes: https://t.co/kQwvTgxly3
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero-height
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/aCGk6D70BII/hqdefault.jpg)
+
+## [Design system adoption is hard. Let’s solve it with better tools - like Supernova](https://www.youtube.com/watch?v=aCGk6D70BII)
+
+The world’s most complete design system solution
+Learn more.  https://supernova.io/
+
+---
+
+Current tooling is disjointed and requires a lot of custom, tedious work to get all team members onboard with the idea of using (and liking!) design systems - and with Supernova we turn that idea into a reality
+
+👉 In September 2021, during the Into Design Systems conference we presented our design-system-as-a-service platform.
+
+Get Started with Supernova for FREE: https://bit.ly/3AeHlFS
+
+---
+
+⏱️ TIMESTAMPS ⏱️
+
+Part 1: Why is adoption of design systems so hard?
+0:00 Introduction
+1:30 The chasm
+3:48 Adoption issues we face
+14:02 Success stories
+
+Part 2: Supernova as answer to adoption problems
+18:02 Supernova Demo
+18:56 Managing design system
+22:22 Creating documentation
+32:35 Custom documentation using exporters
+39:46 Automated delivery of token, styles, assets and code 
+
+Part 3: QA
+42:28 Into Design Systems Conference QA
+
+---
+
+Follow Supernova on Twitter: https://twitter.com/supernova_io
+Follow Supernova on LinkedIn: https://www.linkedin.com/company/supernova-io/
+Contact our sales team: sales@supernova.io
+Join our Discord Community: https://discord.com/invite/9Au3xFTG7x/
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/0xOfPSqqgrQ/hqdefault.jpg)
+
+## [Building a Design System with Supernova.io (Product Hunt speedrun)](https://www.youtube.com/watch?v=0xOfPSqqgrQ)
+
+Welcome, Supernova.io, the futuristic design system platform that makes managing, building, and maintaining design systems easier for everyone involved. 
+
+Supernova is free for individuals. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+💥We are LIVE on Product Hunt 👉 https://www.producthunt.com/posts/supernova-io
+
+--------
+
+⏱️ TIMESTAMPS ⏱️
+
+0:00 Supernova Introduction
+00:30 Link Figma Design Files
+1:50 Managing design system
+2:29 Creating documentation
+8:07 Automated delivery of token, styles, assets, and code
+
+--------
+Related Tutorials:
+
+How to import design files from Figma 👉
+https://www.youtube.com/watch?v=aW0ytHaPxAs
+
+How to manage your design system documentation 👉
+https://www.youtube.com/watch?v=0QkffH56lj0
+
+How to manage your design tokens 👉
+https://www.youtube.com/watch?v=r0RkrarSgZI
+
+How to import design system assets 👉
+https://www.youtube.com/watch?v=KlmWHukPjYk
+
+How to create continuous design system delivery 👉 
+https://www.youtube.com/watch?v=LGVE6q8l23k
+
+📮SUBSCRIBE for NEW VIDEOS!
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/MvqYTV26_ac/hqdefault.jpg)
+
+## [Design System Discussions: Measurement](https://www.youtube.com/watch?v=MvqYTV26_ac)
+
+Design systems provide companies a tremendous amount of value, eliminating inconsistency, time spent on design, development, improving user experience and so much more. The question is, how can you measure its impact? How can you show the value a Design System is creating?
+
+A zeroheight series, Design System Discussions is a chance for us to gather the brightest minds in design systems and design system documentation to discuss pressing issues that face us as design orgs with our design system implementation.
+
+From adoption to measurement to documentation to contribution, each panel is designed to answer your questions on how to make your design system the best it can be.
+
+Panelists: 
+Nathan Curtis: https://twitter.com/nathanacurtis
+Gabby Hon: https://twitter.com/gabbyhon
+Maya Hampton: https://twitter.com/himaya 
+
+Moderator: 
+Katrina Dargel: https://twitter.com/katrinadargel
+
+Find out more about zeroheight: https://bit.ly/3DEvORN
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero-height
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/6eVuYg2jTek/hqdefault.jpg)
+
+## [UnConference: Introduction to the Design System Maturity Model](https://www.youtube.com/watch?v=6eVuYg2jTek)
+
+In this session, Sparkbox President, Ben Callahan, introduces you to the Design System Maturity Model and its potential impact. He outlines the stages of maturity from the earliest days of development to a mature product. This is a great opportunity for design system owners, stakeholders, or contributors to understand how to set priorities and meet challenges for their systems.
+
+0:00 Intro
+4:40 Sparkbox Design System Research
+09:50 Defining a Design System
+12:28 The Value of a Design System
+20:30 The Four Stages
+24:20 Origin Stories
+29:58 How to Mature
+34:17 Stage One Maturity
+37:21 Stage Two Maturity
+41:41 Stage Three Maturity
+46:10 Stage Four Maturity
+49:08 System Stability
+56:39 Future Research
+59:50 Resources
+
+Resources from the session:
+2021 Design Systems Survey: https://bit.ly/ds-survey-results-2021
+Design System Calendar:  https://bit.ly/ds-sb-calendar
+Selling Design Systems: https://bit.ly/selling-design-systems
+Maturity Assessment: https://bit.ly/ds-maturity-assessment
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/r0RkrarSgZI/hqdefault.jpg)
+
+## [Managing tokens | Supernova.io](https://www.youtube.com/watch?v=r0RkrarSgZI)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover creation and management of design tokens and some crazy operations you can do with them, using Supernova.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/qpR3FOnU16A/hqdefault.jpg)
+
+## [Versioning design system | Supernova.io](https://www.youtube.com/watch?v=qpR3FOnU16A)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover creation and distribution of specific versions of your design system.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/KlmWHukPjYk/hqdefault.jpg)
+
+## [Importing design system assets | Supernova.io](https://www.youtube.com/watch?v=KlmWHukPjYk)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover asset management and how to export assets from your design system.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/0QkffH56lj0/hqdefault.jpg)
+
+## [Managing design system documentation | Supernova.io](https://www.youtube.com/watch?v=0QkffH56lj0)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video deep dives into everything-documentation and how to use your design system elements to make your documentation site amazing. 
+
+--------
+
+⭐️ Building and managing your design system documentation using your own design system data
+
+0:00 - Overview
+0:57 - Access to Documentation Editor
+2:45 - Create an Introduction Page
+3:28 - Adding Text Blocks
+4:34 - Adding Token Blocks
+5:38 - Visualize your documentation
+7:20 - Create a Styleguide
+8:15 - Adding Collor Pallets or Styles
+11:10 - Adding Text Styles
+12:00 - Adding Assets
+13:08 - Adding Components
+21:30 - Customise your documentation 
+23:47 - Extend the functionality with custom solutions
+
+--------
+
+Related Tutorials:
+
+How to document and maintain your design system tokens 👉https://www.youtube.com/watch?v=ircUjtjIPE8
+
+How to document components and render live code 👉https://www.youtube.com/watch?v=v0vL0DSar6o
+
+How to use content from Figma inside Supernova documentation 👉https://www.youtube.com/watch?v=RZ1uWeNoqWg
+
+How to customize your documentation template that powers the front-end view  👉https://www.youtube.com/watch?v=bKqR77QV-Xk
+
+How to extend the functionality of the default documentation editor 👉
+https://www.youtube.com/watch?v=wQRpMHqpbCw
+
+📮SUBSCRIBE for NEW VIDEOS!
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/ircUjtjIPE8/hqdefault.jpg)
+
+## [Documenting design tokens | Supernova.io](https://www.youtube.com/watch?v=ircUjtjIPE8)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover design tokens and how to use them inside your documentation site.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/Q4luzoFV5U4/hqdefault.jpg)
+
+## [Extending design tokens with custom data | Supernova.io](https://www.youtube.com/watch?v=Q4luzoFV5U4)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will dive deeper into design tokens and customization options available.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/v0vL0DSar6o/hqdefault.jpg)
+
+## [Documenting components | Supernova.io](https://www.youtube.com/watch?v=v0vL0DSar6o)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover documentation of components using live code from your codebases. Buckle up, this is a wild one.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/bKqR77QV-Xk/hqdefault.jpg)
+
+## [Custom documentation templates | Supernova.io](https://www.youtube.com/watch?v=bKqR77QV-Xk)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will show you how you can customize your documentation site beyond your wildest dreams.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/RZ1uWeNoqWg/hqdefault.jpg)
+
+## [Using Figma content | Supernova.io](https://www.youtube.com/watch?v=RZ1uWeNoqWg)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will teach you to use Figma content inside your documentation site - from components to frames to any other content you have available in any of your design files.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/wQRpMHqpbCw/hqdefault.jpg)
+
+## [Custom documentation blocks | Supernova.io](https://www.youtube.com/watch?v=wQRpMHqpbCw)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will explain how you can extend the default functionality of the documentation editor with features of your choosing (and of your own creation).
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/LGVE6q8l23k/hqdefault.jpg)
+
+## [Continuous design system delivery | Supernova.io](https://www.youtube.com/watch?v=LGVE6q8l23k)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover automatic delivery of design system elements into your codebases with a simple click of a button.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/aW0ytHaPxAs/hqdefault.jpg)
+
+## [Importing design files | Supernova.io](https://www.youtube.com/watch?v=aW0ytHaPxAs)
+
+Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
+Read everything about Supernova here: https://supernova.io
+
+In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover importing design files and connecting your design systems from Figma.
+
+--------
+
+Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
+Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
+Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
+Contact our sales team 👉 sales@supernova.io
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/NNCLXM58vLA/hqdefault.jpg)
+
+## [Design System Discussions: Adoption](https://www.youtube.com/watch?v=NNCLXM58vLA)
+
+A zeroheight series, Design System Discussions is a chance for us to gather the brightest minds in design systems and design system documentation to discuss pressing issues that face us as design orgs with our design system implementation.
+
+From adoption to measurement to documentation to contribution, each panel is designed to answer your questions on how to make your design system the best it can be.
+
+According to the Sparkbox Design System Survey 2021, adoption is one of the biggest problems facing design systems teams across the world. Optimizing your system for adoption, avoiding common pitfalls and defining what good adoption is are all on the table for our expert panel in our first webinar event.
+
+Panelists: 
+Michael Haggerty-Villa: https://twitter.com/HaggertyVilla
+Amy Hupe: https://twitter.com/Amy_Hupe
+Josh Clark: https://twitter.com/bigmediumjosh
+
+Moderator: 
+Luke Murphy: https://twitter.com/lurkmoophy
+
+Find out more about zeroheight: https://bit.ly/3qWr2N5
+
+Find us on social:
+Twitter: https://twitter.com/zeroheight
+LinkedIn: https://www.linkedin.com/company/zero-height
+Instagram: https://www.instagram.com/zeroheighthq
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/rz1byNE4MI4/hqdefault.jpg)
+
+## [Managing A Design System -  Kevin Dreher 🟢  Live at Into Design Systems Conference](https://www.youtube.com/watch?v=rz1byNE4MI4)
+
+#DesignSystem #DesignSystems #Figma #DesignOps
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/sTGa0HVv5Ng/hqdefault.jpg)
 
 ## [Unboxing the Clarity kit](https://www.youtube.com/watch?v=sTGa0HVv5Ng)
@@ -368,11 +2623,294 @@ https://vm.tiktok.com/ZM8krvDyn/
 
 ---
 
+![Thumbnail](https://i.ytimg.com/vi/C8TK8B-pa5I/hqdefault.jpg)
+
+## [How we migrated to Figma and what we've learned - Alexander Fandén live - Into Figma Design Systems](https://www.youtube.com/watch?v=C8TK8B-pa5I)
+
+#Figma #Sketch #DesignSystem #IntoDesignSystems
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/Gyco5qmlG7w/hqdefault.jpg)
 
 ## [Loki interrupted](https://www.youtube.com/watch?v=Gyco5qmlG7w)
 
 
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/m1i_PVwtL7o/hqdefault.jpg)
+
+## [Design Systems - What is Semantic Versioning?](https://www.youtube.com/watch?v=m1i_PVwtL7o)
+
+#DesignSystem #DesignSystems
+Versioning Design Systems - Gijora Dammann live at Into Design Systems, March 2021
+
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/oNbf3AZBR0M/hqdefault.jpg)
+
+## [Structuring Multi Product Design Systems - Sergej Spomer 🟢live Into Design Systems Conference & Q&A](https://www.youtube.com/watch?v=oNbf3AZBR0M)
+
+#DesignSystem #DesignSystems #IntoDesignSystems #DesignOps
+⚡️Join our next Design Systems conference:
+🛸 The Future of Design Systems - Online
+🗓 23-24-25 May (online)
+🔥3-day of insights from experts, live talks, demos, Q&As & more
+👩🏻‍🎨20+ speakers from companies like Volkswagen, Deutsche Telekom, GitHub & more
+🪄30+ hours of content 
+🎨 3 hands-on Design System Workshops
+👉🏻👉🏻👉🏻 Tickets: https://intodesignsystems.com
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/RrfOS-02kT0/hqdefault.jpg)
+
+## [Networking at Into Design Systems](https://www.youtube.com/watch?v=RrfOS-02kT0)
+
+Interact with hosts, speakers and the audience - live on zoom, Miro or Chat. 
+
+⚡️Join our next Design Systems conference:
+🛸The Future of Design Systems, May 23-25 2022 - Online
+Speakers from Volkswagen AG, Deutsche Telekom, Citrix & more.
+
+🔥Topics:
+- Multibrand Design Systems
+- Design Tokens 
+- Automation of creating Design System Libraries
+- Design Ops
+& more.
+
+🔥3-day of insights from experts, live talks, demos, Q&As & more
+👩🏻‍🎨20+ speakers
+❤️500 #DesignSystem Friends
+👉🏻Tickets: https://bit.ly/futureofds
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/mDPbLJSQYdo/hqdefault.jpg)
+
+## [What are Design Tokens in Figma?](https://www.youtube.com/watch?v=mDPbLJSQYdo)
+
+#FigmaTokens #DesignTokens #Figma #DesignSystem
+⚡️Full workshop with Jan Six (recording):
+👉🏻 https://bit.ly/figmatokens-workshop
+
+What's included in the full workshop:
+🎬 What's new in Figma Tokens
+🎬 How to create Design Tokens in Figma:
+- Color Tokens
+- Spacing Tokens
+- Radius Tokens 
+- References
+- Math
+- Typography Tokens 
+- Shadow Tokens
+
+🎬 Token-sets and Theming
+- What are Design Tokens?
+- Naming Conventions
+- Light Theme & Dark Theme
+- Simple Tokens Sets
+- Complex Token Sets
+- Sets vs. Themes in Figma Tokens
+
+🎬 How to create token sets & themes
+- How to do cross-file theming 
+- Getting tokens across files 
+- Enable GitHub & use tokens 
+
+🎬 Component tokens & collaboration
+- Component Tokens
+- Create & apply component tokens 
+- Communicating applied design tokens
+- Handoff
+- Getting tokens to developers
+- Exporting Tokens 
+- Transforming Design Tokens
+- Style Dictionary
+
+
+
+🎬 Best Practices
+- Convert your existing design system
+- Use the Multi Inspector
+- Create fluid scales
+- Create theme independent shadows
+- Use branching
+- Approval / Review
+- How to document
+- Encourage contributions 
+
+🎬 Q&A with Jan 
+👉🏻 https://bit.ly/figmatokens-workshop
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/3bBWYDvaONY/hqdefault.jpg)
+
+## [Mastering design systems components in Figma - Jan Toman - Design System Lead @ Productboard](https://www.youtube.com/watch?v=3bBWYDvaONY)
+
+#Figma #DesignSystem #UIKit #UIDesign 
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/5GPx3aqXeL0/hqdefault.jpg)
+
+## [Moving from Sketch to Figma](https://www.youtube.com/watch?v=5GPx3aqXeL0)
+
+#Sketch #Figma #DesignSystem
+Collaboration-First: Moving from Sketch, Abstract and InVision to Figma - Gui Schmitt 
+
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/LkQi6h2eXKs/hqdefault.jpg)
+
+## [Managing A Design System - Kevin Dreher](https://www.youtube.com/watch?v=LkQi6h2eXKs)
+
+Managing A Design System - Kevin Dreher
+
+If you missed the conference:
+🎙 13 talks from Design System Experts
+📹 15 hours of video content
+🎨 Design Systems Roundtable
+🧑🏼‍💻 Access to the community (Networking board, Resources, Jobs)
+
+🔥Get it here: https://gum.co/HlJq​
+
+Next Event: Into Figma Design Systems:
+https://bit.ly/into-figmads
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/eWT394G04Os/hqdefault.jpg)
+
+## [Communicating design system decisions with design tokens -  Lukas Oppermann Live](https://www.youtube.com/watch?v=eWT394G04Os)
+
+#DesignTokens #Figma #DesignSystem #DesignSystems
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/OeK7DoeEeuE/hqdefault.jpg)
+
+## [Designing Adaptive Components, Beyond Responsive Breakpoints -  Stéphanie Walter](https://www.youtube.com/watch?v=OeK7DoeEeuE)
+
+⚡️Ready to take your design system skills to the next level? 
+Join the biggest virtual, interactive Design Systems conference worldwide.
+
+The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+
+🗓️June 8-9 Online 🌎worldwide
+⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+
+👋🏻 800 Design System Friends
+🎨 14 hours of content
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
 
 ---
 
@@ -404,6 +2942,18 @@ Presented by Alison Rand at Clarity 2020, on September 4th, 2020. Ends with an i
 
 ---
 
+![Thumbnail](https://i.ytimg.com/vi/KVg45nQmn3I/hqdefault.jpg)
+
+## [Brittney Ball: “Creating Inclusive Content: Why it Matters” — Clarity 2020](https://www.youtube.com/watch?v=KVg45nQmn3I)
+
+Have you ever attempted to learn something new only to find that most of the content was either too hard to follow/understand and or left you more confused than when you first started, too technical, or doesn’t hold your attention? 
+
+This talk will get into why inclusive content is important, how to make sure the content creating is inclusive, and how creators, learners, and companies can all benefit from inclusive content.
+
+Presented by Brittney Ball at Clarity 2020, on September 4th, 2020. Ends with an interview with Dan Mall.
+
+---
+
 ![Thumbnail](https://i.ytimg.com/vi/jqZulIrWaAU/hqdefault.jpg)
 
 ## [Farai Madzima: “Designing Systems. Designing Teams.” — Clarity 2020](https://www.youtube.com/watch?v=jqZulIrWaAU)
@@ -419,18 +2969,6 @@ I’d like to convince you otherwise. In this talk I’ll share practical tips o
 You don’t have to be a lead or a manager to make your team more inclusive and effective. You just need to care about design, systems, and people. That’s why you’re here right?
 
 Presented by Farai Madzima at Clarity 2020, on September 4th, 2020. Ends with an interview with Dan Mall.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/KVg45nQmn3I/hqdefault.jpg)
-
-## [Brittney Ball: “Creating Inclusive Content: Why it Matters” — Clarity 2020](https://www.youtube.com/watch?v=KVg45nQmn3I)
-
-Have you ever attempted to learn something new only to find that most of the content was either too hard to follow/understand and or left you more confused than when you first started, too technical, or doesn’t hold your attention? 
-
-This talk will get into why inclusive content is important, how to make sure the content creating is inclusive, and how creators, learners, and companies can all benefit from inclusive content.
-
-Presented by Brittney Ball at Clarity 2020, on September 4th, 2020. Ends with an interview with Dan Mall.
 
 ---
 
@@ -496,16 +3034,6 @@ Presented by Nataya & Tim Shelburne at Clarity 2020, on September 3rd, 2020. End
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/Eh9Rdh2x4wM/hqdefault.jpg)
-
-## [Ben Colar: “The Importance of Perspective” — Clarity 2020](https://www.youtube.com/watch?v=Eh9Rdh2x4wM)
-
-While in the weeds of a design project, it’s easy to lose track of an overall objective. Especially if you’re only responsible for a small piece of that objective. But design should always come from a perspective. Usually that perspective is developed at the origin of the brand. In this session, Ben will go through the process of developing a brand perspective, and how that can affect design decisions down the road.
-
-Presented by Ben Colar at Clarity 2020, on September 2nd, 2020. Ends with an interview with Dan Mall.
-
----
-
 ![Thumbnail](https://i.ytimg.com/vi/buaqa-ZnOfM/hqdefault.jpg)
 
 ## [Jina Anne: “The Design Systems Spiral” — Clarity 2020](https://www.youtube.com/watch?v=buaqa-ZnOfM)
@@ -515,6 +3043,16 @@ In many tutorials about design systems, the process to begin shows a linear, ste
 Jina will discuss her thoughts on how we talk about design systems, and reconciling that with the real-world realities of what we really face when we do this work.
 
 Presented by Jina Anne at Clarity 2020, on September 2nd, 2020. Ends with an interview with Dan Mall.
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/Eh9Rdh2x4wM/hqdefault.jpg)
+
+## [Ben Colar: “The Importance of Perspective” — Clarity 2020](https://www.youtube.com/watch?v=Eh9Rdh2x4wM)
+
+While in the weeds of a design project, it’s easy to lose track of an overall objective. Especially if you’re only responsible for a small piece of that objective. But design should always come from a perspective. Usually that perspective is developed at the origin of the brand. In this session, Ben will go through the process of developing a brand perspective, and how that can affect design decisions down the road.
+
+Presented by Ben Colar at Clarity 2020, on September 2nd, 2020. Ends with an interview with Dan Mall.
 
 ---
 
@@ -1223,2383 +3761,19 @@ https://designsystems.nyc/
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/d5EvWO2Saok/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/jnB_3pVLsCI/hqdefault.jpg)
 
-## [zeroheight team: Community-Driven Design Systems – Expanding Your Impact!](https://www.youtube.com/watch?v=d5EvWO2Saok)
+## [Best Starter Kit for a New Design System? - Design Tool Tuesday, Ep37](https://www.youtube.com/watch?v=jnB_3pVLsCI)
 
-zeroheight: https://bit.ly/3DEvORN
+Episode 37: Best Starter Kit for a New Design System?
 
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
+This week’s pick: Details design system. A kit that I've used to start scalable and powerful UI and product design systems in an Atomic Design framework for quite some time. Details kit provides a simple yet structured starter for any designer to customise. Better yet, you can download Sketch and/or Figma version of their Atoms (and some of the molecules) for free. It doesn't get better than this, especially if you've been planning to create a decent system for one of your products or services.
 
----
+Note: we're not affiliated with the tool makers. It's just a great UX tool you should know about.
 
-![Thumbnail](https://i.ytimg.com/vi/xcuK3PkFM4c/hqdefault.jpg)
+In this new weekly UX design, user research and product design tools series I'll share some of the best picks I've encountered to date. You'll find out about the best apps, extensions, websites and other helpful tools.
 
-## [zeroheight team: Hot takes on design system trends](https://www.youtube.com/watch?v=xcuK3PkFM4c)
-
-On August 2, 2023, the zeroheight team gave their thoughts on current design system trends - where we think the community is headed, what’s been great, what teams are struggling with, and how teams can approach moving forward as design systems evolve. Check out the recording featuring the people that make zeroheight:
-• Nef Dukes, Sr. Product Marketing Manager (host)
-• Rosie Watson, Sr. Product Engineer
-• Rob Whitfield, Sr. Product Designer
-• Michelle Chin, Design Advocate
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Boom9YvKIJc/hqdefault.jpg)
-
-## [Converge London 2022 - Dan Donald: Anatomy of Themed Design System Components](https://www.youtube.com/watch?v=Boom9YvKIJc)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-In this talk, Dan Donald explores how you can introduce design tokens. 
-
-As a design system matures, we come across new concepts that help us make it better. There’s new requirements that come along, design changes we couldn’t anticipate. Design systems support consistency but also vehicles for communication and change. Here we look at how you can introduce design tokens considering theming and really bring out the power of what your system can be.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/2xvq7CLlEkw/hqdefault.jpg)
-
-## [Converge London 2022 - Amy Hupe: Your design system contribution practice is doomed to fail](https://www.youtube.com/watch?v=2xvq7CLlEkw)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-Here is Amy Hupe, discussing design system contribution. 
-
-Contribution is considered an essential part of most design systems. Inviting insights and improvements from a design system's community of users is what makes it reliable and representative. So why do so many of us find it so hard to achieve and sustain? Are we going about it all wrong, or is there something more insidious at play here? Amy explains why she thinks design systems contribution is ultimately destined to fail and why - against the odds - we should keep going anyway.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/QXjji-XP-io/hqdefault.jpg)
-
-## [Converge London 2022 - Lily Dart: Design Systems: The Good, The Bad, The Culture](https://www.youtube.com/watch?v=QXjji-XP-io)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-Watch Lily Dart discuss the culture and good and bad aspects of design systems. 
-
-If you’re interested in design systems, you’ve no doubt dreamt of the kind of design system you’d like to build. Perhaps you know precisely what tooling you’d use or how you’d structure the components. A design system that is elegant, easy to use, and produces beautiful results. But if you’ve tried creating a design system, you’ll know it’s unlikely you’ll achieve your original aspirations. Arguments over standards, complexity in tooling and abuses, and mis-uses of the libraries are all common pitfalls for new systems. 
-
-So why is it so hard to build a great design system? A successful system is more than UI and code. What underpins every system - good or bad -  is culture. And without the right culture, your beautiful design system will fail. Based on her experience running the first-ever design systems team at Lloyds Banking Group, Lily will be talking about the relationship between design systems and organizational culture. How to identify yours, when to design for it, and when to fight against it.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/e8KVFYxJusY/hqdefault.jpg)
-
-## [Converge London 2022 - Dan Mall: Your Next Component](https://www.youtube.com/watch?v=e8KVFYxJusY)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-No matter where you are in your design system journey, your next component can make all the difference. Dan discusses the importance of choosing your next component and how that shouldn’t be the easiest one. In fact, you should tackle the most challenging complex work first to make the future easier.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/KhE-yrweR3Q/hqdefault.jpg)
-
-## [Converge London 2022 - Dave House: Industrial Design Systems](https://www.youtube.com/watch?v=KhE-yrweR3Q)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-Dave House delved into design systems and design language. 
-
-Industrial design systems explores the boundaries between design systems and design language. Could the lens of automotive design and manufacture change how you think about the remit of your design system team?
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/blt-dKZAR7k/hqdefault.jpg)
-
-## [Converge London 2022 - Imran Azfal - Reflective Practice](https://www.youtube.com/watch?v=blt-dKZAR7k)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-In this talk, Imran Afzal talks about reflective practice. 
-
-Whatever role we play, it’s critical that we stay relevant. Continuous learning is a must. There’s very little allowance for our approach or knowledge to stagnate in UX. However, we all lead busy lives in a fast-paced society. Rarely is there a moment to stop and think. If we’re not jumping from one product release to another, we’re feeling the pressure of delivering high-quality work, quickly. This can harm our long-term success and impact.
-
-However, reflective practice can help. By taking time out to think about our actions, we can learn from our experiences and use that knowledge to evolve our mindset. Imran discusses what it means to reflect on our experiences and the impact of that process on our future. The talk explores the benefits of taking time to reflect, while also providing guidance on introducing reflective practice into your work.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/nkVqvz2DtMs/hqdefault.jpg)
-
-## [Converge London 2022 - Inayaili León: DesignOps - The API of Design Teams](https://www.youtube.com/watch?v=nkVqvz2DtMs)
-
-The first ever ConvergeLDN took place on 21st September as part of World Design Systems Week. Hosted by us, zeroheight, we had some incredible experts talking all about design systems! 
-
-Here is Inayaili León from GitHub, discussing the API of design teams. 
-
-DesignOps is the glue that keeps a design org together, and the connective tissue that links design to other disciplines across the company, and beyond. Even if your company doesn’t have a formal DesignOps team, this work is likely being done by someone. 
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/QsBDzIKLVy0/hqdefault.jpg)
-
-## [How We Document Webinar #4: Deep dive, Hot takes, Q&amp;A with Dan Mall and Michelle Chin](https://www.youtube.com/watch?v=QsBDzIKLVy0)
-
-Coming off the Dan Mall’s review video of How We Document, we invited Dan for a deeper discussion on some of the How We Document findings. Michelle Chin, our design advocate, and Dan talk about what they found interesting, hot takes based on survey results, and potentially new approaches for documenting, communicating, and positioning design systems.
-
-Follow Dan Mall: https://www.twitter.com/danmall
-Follow Michelle Chin: https://www.twitter.com/soysaucechin
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/qjvcRCuv6FQ/hqdefault.jpg)
-
-## [Automatically create a changelog for your design system](https://www.youtube.com/watch?v=qjvcRCuv6FQ)
-
-We've added a "What's new" block that automatically generates a list of pages that have been added, changed, or deleted. You can show any changes from the last 30 days or since your last release. 
-
-This should make it a lot easier to maintain a changelog, create release notes, or keep styleguide viewers up to date on how your documentation is evolving. 
-
-Learn more: https://learninghub.zeroheight.com/hc/en-us/articles/13767774904219-Announce-what-s-new
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/HcxckpdOVpM/hqdefault.jpg)
-
-## [Render Live React, Vue, and Angular Components (+ more frameworks) in your design system](https://www.youtube.com/watch?v=HcxckpdOVpM)
-
-We've added support for more frameworks! Now, you can render Live components in Angular, React, React Typescript, SolidJS, Svelte, Vanilla TypeScript, Vanilla JavaScript, Vue, Vue3, and Vue3 Typescript.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Nza9Fz7cPZ8/hqdefault.jpg)
-
-## [Webinar Replay: Meet the new Design Tokens Manager](https://www.youtube.com/watch?v=Nza9Fz7cPZ8)
-
-Join the zeroheight team for a first look at the new design tokens manager. It allows you to manage, document, and display your design tokens in one place.
-
-Create tokens in zeroheight with no-code
-Import tokens from GitHub or in a JSON file
-Edit tokens with no-code
-Display tokens in an easy-to-read table
-Export tokens to GitHub as a PR or in a JSON file
-
-Get started with zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/HYhZ4exUyiQ/hqdefault.jpg)
-
-## [Amplify Webinar: Women in Tech Wikipedia Edit-a-thon](https://www.youtube.com/watch?v=HYhZ4exUyiQ)
-
-For International Women’s Day, the theme is #EmbraceEquity, which inspired us to host an edit-a-thon this month. In this recording, our Design Advocate Michelle walks you through the basics of editing Wikipedia, identifies great places for beginners to edit, and provides a list of pages that could be improved or created. 
-
-We decided to host this because there’s a huge gender gap on Wikipedia. In less than 19% of biographies on Wikipedia are about women. Wikipedia is a data source on many things we rely on - from Google’s knowledge panels to what teaches AI systems. When women aren’t represented in Wikipedia, we’re omitted from people’s knowledge and discussion, and our accomplishments go unknown.
-
-This will be an ongoing project for her and some friends. So if you missed the webinar, you can catch up on this recording and join in a future edit-a-thon session. 
-
-Editing Wikipedia is more user-friendly now, making creating and editing pages even easier. By embracing this learning curve, we can work toward better equity and representation of women in Wikipedia and beyond.
-
-Link to slides: https://bit.ly/amp-wit-slides
-
-Link to wiki project page: https://bit.ly/amp-wit-wiki
-
-Reach out to Michelle on Twitter: https://twitter.com/soysaucechin
-LinkedIn: https://www.linkedin.com/in/michelletchin
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/YH85EEGhi4Y/hqdefault.jpg)
-
-## [Set up SSO in zeroheight](https://www.youtube.com/watch?v=YH85EEGhi4Y)
-
-Learn how to set up SSO and secure your design system for your team.
-
-Find out more in our Learning Hub: 
-Get started with SSO: https://learninghub.zeroheight.com/hc/en-us/articles/6163356067483
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/CjD8GZOTh2o/hqdefault.jpg)
-
-## [How We Document Webinar 3: Scaling Design Systems - Growing your design system team](https://www.youtube.com/watch?v=CjD8GZOTh2o)
-
-In our How We Document 2023 report, we noticed the traction design systems teams are gaining in their organization. Teams are growing in size and are no longer just made of designers and developers. In this webinar, our panelists discussed what to consider when growing your design system team, including essential roles for successful design system teams, workarounds for managing without additional roles, and the benefits of growing a design system team.
-Download the report today! https://hubs.li/Q01H5L_00
-
-Michelle Chin, Design Advocate at zeroheight.
-Diana Thompson - UX Design Manager at Nordstrom, Design Language System.
-Tri Persaud - User Experience Lead, Design Systems at ZS.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/3L3xUkNZ2sA/hqdefault.jpg)
-
-## [Create releases in zeroheight](https://www.youtube.com/watch?v=3L3xUkNZ2sA)
-
-Learn how to create a release and see past versions of your zeroheight styleguide!
-
-Find out more in our Learning Hub: 
-Releases: https://learninghub.zeroheight.com/hc/en-us/articles/4874068778651
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/n-1S0gidN9E/hqdefault.jpg)
-
-## [How We Document Webinar 2: Adapting Design Systems - Transitioning Tools](https://www.youtube.com/watch?v=n-1S0gidN9E)
-
-As the design system space continues to evolve, so do the tools that support it. From our How We Document 2023 report, we get a sense that the tools landscape is adapting. This webinar addresses how to transition tools with your design system team.  
-
-Speakers: 
-Sarrah Vesselov - Director of Design, Honeycomb.io, Author of Building Design Systems (https://twitter.com/SVesselov)
-Luke Murphy - Moderator, Design Advocacy Lead, zeroheight (https://twitter.com/lurkmoophy) 
-Michelle Chin - Design Advocate, zeroheight (https://twitter.com/soysaucechin)
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/wvrnzn3zBYQ/hqdefault.jpg)
-
-## [Invite your team to zeroheight](https://www.youtube.com/watch?v=wvrnzn3zBYQ)
-
-Learn about team roles and responsibilities as well as how to invite people to your zeroheight team! 
-
-Find out more on our Learning Hub: 
-User Roles: https://learninghub.zeroheight.com/hc/en-us/articles/4946980980635-User-roles
-Invite Editors: https://learninghub.zeroheight.com/hc/en-us/articles/4946858186651-Invite-editors
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/wvwscunUtu4/hqdefault.jpg)
-
-## [How We Document Webinar 1: Starting Design Systems - Navigating the beginning](https://www.youtube.com/watch?v=wvwscunUtu4)
-
-From our How We Document 2023 report, most respondents are in the early stages of design system creation. Starting design systems isn’t just a matter of designing a few components. These days it’s much more than that. Teams are documenting sooner and including tokens earlier. 
-
-Learn from our amazing panelists, Lily Dart and Julien Vanière about how they’ve approached starting a design system. When should you start documenting? How soon should you include tokens? What are common mistakes and how can we avoid them?
-
-Jules Mahé, Design Advocate at zeroheight: https://twitter.com/julesmahe
-Lily Dart, Group Design Director at Photobox: https://twitter.com/lily_dart
-Julien Vanière, Senior Director at Sage: https://twitter.com/julienvaniere
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/8oJ5GlXypQM/hqdefault.jpg)
-
-## [Create custom domains in zeroheight](https://www.youtube.com/watch?v=8oJ5GlXypQM)
-
-You can add a custom domain to your zeroheight styleguide to personalize it to your company branding. 
-
-To have a custom domain, you must secure your own domain before requesting zeroheight to connect it to your styleguide.
-
-Find out more about the feature: https://bit.ly/3E7ICTW
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/juU2G9Kx0C8/hqdefault.jpg)
-
-## [DesignOps Island Discs S030 E05 - Sheena Lydon, Wise](https://www.youtube.com/watch?v=juU2G9Kx0C8)
-
-DesignOps Island Discs is a live-recorded, interactive podcast, looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs.
-
-For episode 5, we welcome Sheena Lydon, DPM on Design Systems at Wise. We're going to talk to Sheena about being a DPM... what the essential skills for a DPM are, why they're important, both on product and design system teams, and why designops is hands down the best timeline to live in.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/O9SBIgn5jqg/hqdefault.jpg)
-
-## [Design Systems Essentials: Running your design system like a product](https://www.youtube.com/watch?v=O9SBIgn5jqg)
-
-On the 24th January 2023, we talked about how teams can run their design systems like products—complete with roadmaps, stakeholder pitches, trackers, planning, surveys, and more. 
-
-Catch the recording of our webinar with:
-Michelle Chin, Design Advocate at zeroheight
-Jack Reeves, Digital Director at Mates, Inc. and Design System Strategist for Helly Hansen
-Morgane Peng, Design Director at Societe Generale Corporate & Investment Banking
-Ellis Capon, Senior Product Manager, Design Systems at Just Eat Takeaway.com
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/ELJomALRgKA/hqdefault.jpg)
-
-## [We&#39;ve revamped our Storybook integration!](https://www.youtube.com/watch?v=ELJomALRgKA)
-
-Our newest release should make it way easier to use zeroheight with Storybook.
-
-➡️ Connect Storybook to zeroheight once in the styleguide settings.
-➡️ Add new stories using the brand-new Storybook block.
-➡️ Choose the story to display on a page from the new modal that displays all of your available stories.
-➡️ Component previews are now shown in an iframe with controls on the page
-
-Learn more about using zeroheight with Storybook: https://learninghub.zeroheight.com/hc/en-us/sections/4869251371547-Storybook
-
------
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Bc4GPtKHVMU/hqdefault.jpg)
-
-## [DesignOps Island Discs S03E04 - Heydon Pickering, Consultant](https://www.youtube.com/watch?v=Bc4GPtKHVMU)
-
-DesignOps Island Discs is a live-recorded, interactive podcast, looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs.
-
-For episode 4, we welcome Heydon Pickering, design and engineering consultant, who has worked with Springer Nature, The Paciello Group, BBC, Smashing Mag, and Bulb. We're going to talk to Heydon about being a front-end engineer on design systems... what the challenges are from an engineering point of view with design systems, what makes a good engineer on design systems, and where we need to be heading.
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/vgcimPpB6nc/hqdefault.jpg)
-
-## [DesignOps Island Discs S03E02 - Amy Hupe, Content Specialist](https://www.youtube.com/watch?v=vgcimPpB6nc)
-
-DesignOps Island Discs is a live-recorded, interactive podcast, looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs. 
-
-For episode three, we welcome (back) Amy Hupe! Amy is a content specialist and design system consultant, having worked on design systems from Springer Nature, to BT, to Babylon Health, to Gov.uk. Luke and Amy chat about what a content specialist actually does, why they're the essential third pillar of a design system, what makes a good design system content person, and some of the things that are exciting Amy about the future of content design in design systems (hello structured content), before answering super interesting questions from the live audience!
-
-zeroheight: https://www.zeroheight.com/podcast
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/lOac4PhWsj0/hqdefault.jpg)
-
-## [Sync markdown from GitHub with zeroheight](https://www.youtube.com/watch?v=lOac4PhWsj0)
-
-We just made a big update! Now, you can add both public and private repos from GitHub to zeroheight. Once added, you can sync markdown on any page. To styleguide viewers, the content will appear natively (just like anything else on zeroheight). And after making changes in GitHub, you can display them in zeroheight with a quick refresh.
-
-This new feature is available on our Pro and Enterprise plans. Get in touch with us and we'd be happy to tell you more about it: https://zeroheight.com/inquire/professional
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/G0IiKUoS-Cg/hqdefault.jpg)
-
-## [zeroheight can render React components!](https://www.youtube.com/watch?v=G0IiKUoS-Cg)
-
-We just unveiled live React components in zeroheight. Now, you can import public NPM packages. Once imported, entered code will automatically render the design. And for styleguide viewers, they can make edits to see how changes in code affect the rendered design (no worries - changes made by styleguide viewers won't change it for everyone!).
-
-Learn more: https://learninghub.zeroheight.com/hc/en-us/articles/9785888508059-React-component-previews
-
-Get started with zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/gjiCGKUYtqY/hqdefault.jpg)
-
-## [ConvergeLDN 2022](https://www.youtube.com/watch?v=gjiCGKUYtqY)
-
-In September, the design systems community joined together in London for the first Converge conference celebrating World Design Systems Week. Speakers Amy Hupe, Lily Dart, Inayaili León, Dave House, Dan Donald, Imran Afzal and Dan Mall spoke at Conway Hall in London. 
-
-🎥 Filming by: Danny Barnes 
-Follow him on Twitter: https://twitter.com/thedannybarnes
-Website: www.dannybarnes.photo
-
-Find out more about Converge: https://hubs.li/Q01rLW6H0
-
-zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/_RwOEAMTB04/hqdefault.jpg)
-
-## [Design Systems Essentials:  Contribution Process](https://www.youtube.com/watch?v=_RwOEAMTB04)
-
-On the 20th October 2022, we talked about contribution process. 
-
-What are some best practices for small orgs? What works better for larger orgs? Multiple brands? We'll dig into things a bit deeper with design system experts.
-
-Catch the recording of our webinar with Jules Mahé, Teddy Voisin, Senior Product Designer at Back Market and Mark Caron UX/Design Systems Manager at Red Hat.
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/y_AKAKXbzkA/hqdefault.jpg)
-
-## [DesignOps Island Discs S03E02 - Arielle Benedek, Spotify](https://www.youtube.com/watch?v=y_AKAKXbzkA)
-
-DesignOps Island Discs is a live-recorded, interactive podcast from @zeroheight looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs. 
-
-For our first episode, we welcome Arielle Benedek, one of the Product Managers on Encore, Spotify's design system, on what a product manager on a design system actually does, what the biggest challenges are, how we need to change what we do, and answers a whole bunch of interesting questions from the live audience.
-
-To check out zeroheight (for free), head to https://www.zeroheight.com/podcast
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/8-J07lcC6wg/hqdefault.jpg)
-
-## [DesignOps Island Discs S03E01 - Geri Reid, News UK](https://www.youtube.com/watch?v=8-J07lcC6wg)
-
-DesignOps Island Discs is a live-recorded, interactive podcast from @zeroheight9269 looking at what's coming up in the world of designops and design systems. For season three, we're focussing on the roles that make up designops and design systems, from content designers to leads to engineers to accessibility specialists to DPMs. 
-
-For our first episode, we welcome Geri Reid, lead designer on Newskit, the News UK design system. We'll talk about what a lead designer does in the context of design systems, the challenges, what could change, and when you might think about hiring your first lead designer. 
-
-To check out zeroheight (for free), head to https://www.zeroheight.com/podcast
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/0i0W7XQEp2E/hqdefault.jpg)
-
-## [Design Systems Essentials: Hiring for Design Systems](https://www.youtube.com/watch?v=0i0W7XQEp2E)
-
-On the 23rd August 2022, we talked about hiring for design systems roles. 
-
-Catch the recording of our webinar with Jules Mahé, Audrey Hacq, Product Design Director at OpenClassrooms, Julien Vanière Design Systems Director at Sage and Jeannie Servaas Creative Director, Carbon Design System and Design Principal at IBM on best practices to recruit and/or apply for design systems positions.
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/XWs9pyXMeOI/hqdefault.jpg)
-
-## [Design Systems, Diners, and Drives with Teladoc Health](https://www.youtube.com/watch?v=XWs9pyXMeOI)
-
-In this episode, three members of the Teladoc Health design system team walked us through Pulse – their design system. They go over their team organization, design tokens and semantic colors, Figma file architecture, Component documentation, and component governance.
-
-Want to have your team featured at an upcoming Design Systems, Diners, and Drives? Reach out to us at community@zeroheight.com
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/uEGX2135z9k/hqdefault.jpg)
-
-## [How We Document Webinar #3: Design Tokens](https://www.youtube.com/watch?v=uEGX2135z9k)
-
-Download the How We Document Report: https://bit.ly/3uRz6A6
-
-This is the third of our webinars surrounding the How We Document report. This time the focus was on Design Tokens. On the 24th May, we had our lead design advocate Luke Murphy alongside special guests, Dan Donald and Kaelig Deloumeau-Prigent, chat about everything tokens! From governance, definition, naming conventions right through to other areas automation could help.
-
-The ‘how we document’ survey was conducted from Sep to Oct 2021 across social media, industry Slack channels and in emails to design system professionals.
-
-Design system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.
-
-Panelists:
-
-Luke Murphy: https://twitter.com/lurkmoophy
-Dan Donald: https://twitter.com/hereinthehive
-Kaelig Deloumeau-Prigent: https://twitter.com/kaelig
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/UpsSbEwAIyc/hqdefault.jpg)
-
-## [How We Document Webinar #2: Design System Maturity](https://www.youtube.com/watch?v=UpsSbEwAIyc)
-
-Download the How We Document Report: https://bit.ly/3uRz6A6
-
-This is the second of our webinars surrounding the How We Document report. This time the focus was on design system maturity. On the 10th May, we had our lead design advocate Luke Murphy alongside special guests, Chase McCoy and Laura Kennedy chat all about it! What does a 'mature' design system look like? Find out, as our panel talked about everything from defining maturity, to how teams change over time, to measuring maturity, to deprioritization. As a bonus, they answered some incredible questions from the audience too 😊
-
-The ‘how we document’ survey was conducted from Sep to Oct 2021 across social media, industry Slack channels and in emails to design system professionals.
-
-Design system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.
-
-Panelists:
-
-Luke Murphy: https://twitter.com/lurkmoophy
-Chase McCoy: https://twitter.com/chase_mccoy
-Laura Kennedy: https://twitter.com/Lelaura
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero...
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/2Wvcve8T760/hqdefault.jpg)
-
-## [How We Document Webinar #1: Design System Team Happiness](https://www.youtube.com/watch?v=2Wvcve8T760)
-
-Download the How We Document Report: https://bit.ly/3uRz6A6
-
-Design system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.
-
-In this webinar, our panel talks all about what makes a happy design systems team with zeroheight's very own Luke Murphy and Michelle Chin and the incredible Dan Mall. They answer questions from what’s the right size for a design system team to what’s essential for a team’s happiness.
-
-The How We Document survey was conducted from Sep to Oct 2021 across social media, industry Slack channels, and emails to design system professionals.
-
-Panelists:
-Luke Murphy: https://twitter.com/lurkmoophy
-Dan Mall: https://twitter.com/danmall
-Michelle Chin: https://twitter.com/soysaucechin
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-Join our exclusive Slack channel zheroes: https://t.co/kQwvTgxly3
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero-height
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/MvqYTV26_ac/hqdefault.jpg)
-
-## [Design System Discussions: Measurement](https://www.youtube.com/watch?v=MvqYTV26_ac)
-
-Design systems provide companies a tremendous amount of value, eliminating inconsistency, time spent on design, development, improving user experience and so much more. The question is, how can you measure its impact? How can you show the value a Design System is creating?
-
-A zeroheight series, Design System Discussions is a chance for us to gather the brightest minds in design systems and design system documentation to discuss pressing issues that face us as design orgs with our design system implementation.
-
-From adoption to measurement to documentation to contribution, each panel is designed to answer your questions on how to make your design system the best it can be.
-
-Panelists: 
-Nathan Curtis: https://twitter.com/nathanacurtis
-Gabby Hon: https://twitter.com/gabbyhon
-Maya Hampton: https://twitter.com/himaya 
-
-Moderator: 
-Katrina Dargel: https://twitter.com/katrinadargel
-
-Find out more about zeroheight: https://bit.ly/3DEvORN
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero-height
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/NNCLXM58vLA/hqdefault.jpg)
-
-## [Design System Discussions: Adoption](https://www.youtube.com/watch?v=NNCLXM58vLA)
-
-A zeroheight series, Design System Discussions is a chance for us to gather the brightest minds in design systems and design system documentation to discuss pressing issues that face us as design orgs with our design system implementation.
-
-From adoption to measurement to documentation to contribution, each panel is designed to answer your questions on how to make your design system the best it can be.
-
-According to the Sparkbox Design System Survey 2021, adoption is one of the biggest problems facing design systems teams across the world. Optimizing your system for adoption, avoiding common pitfalls and defining what good adoption is are all on the table for our expert panel in our first webinar event.
-
-Panelists: 
-Michael Haggerty-Villa: https://twitter.com/HaggertyVilla
-Amy Hupe: https://twitter.com/Amy_Hupe
-Josh Clark: https://twitter.com/bigmediumjosh
-
-Moderator: 
-Luke Murphy: https://twitter.com/lurkmoophy
-
-Find out more about zeroheight: https://bit.ly/3qWr2N5
-
-Find us on social:
-Twitter: https://twitter.com/zeroheight
-LinkedIn: https://www.linkedin.com/company/zero-height
-Instagram: https://www.instagram.com/zeroheighthq
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/kI-NH3AEX_o/hqdefault.jpg)
-
-## [Beyond Launch: Nurturing &amp; Sustaining Design Systems — Panel Discussion, presented by Supernova](https://www.youtube.com/watch?v=kI-NH3AEX_o)
-
-Supernova hosted a panel on how to best maintain your design system.
-
-Panelists Bethany Sonefeld, Henry Daggett, and Jeremy Dizon talked about:
-🔹 What maintaining their design systems look like and how their teams are structured
-🔹 How to prioritize updating and maintaining your design system with requests for new components
-🔹 How to version or deprecate a part of your design system and when to communicate those changes
-🔹 Celebrating contributors and maintainers to recognize their work and encourage them to continue participating
-
-
-A full transcript is available on the following link - https://bit.ly/3L4Unhg
---------
-
-⭐️ Want to speak on Supernova's next panel? 
-Share your detail  👉  https://bit.ly/3qRWGNX
-
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter 👉  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supe...
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/fK5D_PdQuVI/hqdefault.jpg)
-
-## [&quot;Design System Documentation is a Moving Target&quot; — Panel Discussion, presented by Supernova](https://www.youtube.com/watch?v=fK5D_PdQuVI)
-
-Supernova brought to you design system industry experts Romina Kavcic, Alberto Calvo and Luke Finch to discuss best practices for updating and maintaining your design system documentation.
-
-During the 1 hour panel session we explored topics, including:
-🔹 Challenges faced when creating & maintaining documentation
-🔹 Strategies & tips for overcoming them
-🔹 Communicating documentation updates to feature teams
-🔹 Getting feedback about your documentation
-
-A full transcript is available on the following link - https://bit.ly/3NIIyxU
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter 👉  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supe...
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/bJTCjH5I_dY/hqdefault.jpg)
-
-## [Supernova 101: Elevating Your Documentation Game Webinar](https://www.youtube.com/watch?v=bJTCjH5I_dY)
-
-Supernova 101 webinar to learn best practices for how to document your design system.
-
-🗂️ Check out the Figma file with an example library in our community 👉 https://www.figma.com/community/file/1250444869106029387
-
-*You can duplicate the file, publish the library, and import it into Supernova (https://cloud.supernova.io/signup) to explore the different content blocks. 
-
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/8bP77VC1zPg/hqdefault.jpg)
-
-## [Creating an Integrated Design System — Tokens Studio + Supernova](https://www.youtube.com/watch?v=8bP77VC1zPg)
-
-Supernova hosted an exciting webinar introducing the Supernova and Tokens Studio integration. The one-hour session was hosted by Tokens Studio CEO Mike Kamminga and Supernova CEO Jiri Trecak, and Laura Silvani SICPA Design Systems Manager as a moderator.
-
-They share the details on the new Supernova + Tokens Studio integration and dive into the future of design systems, exploring topics like multi-brand tokens, best practices for documentation, and creating an end-to-end ecosystem.
-
-Learn more about the integration  👉 https://www.supernova.io/supernova-tokens-studio
-
---------
-Get started with Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/CrK3BcjXA-Y/hqdefault.jpg)
-
-## [Design smarter, not harder. Halve your design workload in one year with Supernova + Tokens Studio](https://www.youtube.com/watch?v=CrK3BcjXA-Y)
-
-NEW Tokens Studio and Supernova integration for seamless tokens synchronization between your Figma, documentation, and code.
-
-🚀 Manage your design tokens like never before, enhance collaboration elevate your design system 🚀
-
-Push and pull your styles and design token values from Tokens Studio (Formerly Figma Tokens Plugin), with only a couple of simple steps.
-
-Learn more about the integration  👉 https://www.supernova.io/supernova-tokens-studio
-
---------
-Get started with Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/EvqO1HP9oEM/hqdefault.jpg)
-
-## [Supernova integration with Token Studio via CLI](https://www.youtube.com/watch?v=EvqO1HP9oEM)
-
-The Supernova command-line interface (CLI) enables you to run specific tasks connected with Supernova from your CI/CD pipelines, from your action triggers (GitHub Actions and similar), or from your command line as well. The Supernova CLI is powered by the Supernova SDK, which allows access to many lower-level operations.
-
-In this video, we walk you through the CLI setup that automatically syncs Tokens Studio through GitHub Actions to Supernova.io when token data changes
-
-More details can be found here 👉 https://developers.supernova.io/latest/command-line-interface/syncing-with-token-studio.html
-
---------
-⏱️ Process steps ⏱️
-00:00 Syncing with Token Studio
-00:05 Forking the repository for the CLI
-00:34 Adding the secret key and mapping
-01:15 Mapping a single file
-02:29 Running the actions and checking if it works
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/ApvQZvHxNtA/hqdefault.jpg)
-
-## [Supernova 101 - Company Plan Overview](https://www.youtube.com/watch?v=ApvQZvHxNtA)
-
-Want to get the most out of the Supernova Company plan?
-
-In this webinar recording, we're going over the benefits of using the Supernova Company plan and practical tips and tricks for using it effectively.
-
-A full review of our Company plan features is available at the following link - https://www.supernova.io/pricing
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/mEtytXNYTaI/hqdefault.jpg)
-
-## [Supernova 101 Team Plan Overview](https://www.youtube.com/watch?v=mEtytXNYTaI)
-
-Want to get the most out of the Supernova Team plan?
-
-In this webinar recording, we are giving a comprehensive understanding of the benefits of using the Supernova Team plan and practical tips and tricks for using it effectively.
-
-A full review of our team plan features is available at the following link - https://www.supernova.io/pricing
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/6LQIQjvMnGE/hqdefault.jpg)
-
-## [How DesignOps helps Design Systems gain traction - Panel with DesignOps experts powered by Supernova](https://www.youtube.com/watch?v=6LQIQjvMnGE)
-
-Supernova brought to you the DesignOps experts Jose Coronado, Karolina Boremalm, Patrizia Bertini, Farid Sabitov, and Andrew Evans, who talked about collaboration levels between DesignOps practitioners and design systems teams, how design operations can drive greater adoption of design systems, and the ideal collaboration model for a design systems team.
-
-The panel was live-streamed on April 4th, 2022, and we had a fun FigJam board (http://bit.ly/3GiKzxU), still open for you to engage, reflect and contribute.
-
-A full transcript is available at the following link - http://bit.ly/3m54KbU
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/oL5pv1LDLwk/hqdefault.jpg)
-
-## [Elevate your DesignOps — Streamline your design processes, with Supernova](https://www.youtube.com/watch?v=oL5pv1LDLwk)
-
-Design operations and design systems go hand-in-hand when it comes to improving the efficiency and effectiveness of your design process.  A well-designed design system can be vital to a successful DesignOps strategy because it provides a framework for designers to work within and reduces the time they need to spend on repetitive tasks like creating new UI components.  Once it is well-implemented, a design system continues to help DesignOps ensure the needs of the design team and organization as a whole.
-
---------
-Things you can do with Supernova:
-
-⭐️ Organize your design operations strategy from one place and ensure consistency
-
-⭐️ Connect Figma down to your code repositories without having to build a service delivery infrastructure on your own
-
-⭐️ Automatically update your documentation with the industry’s most customizable and extensible design system
-
-⭐️ Utilize the most flexible and powerful code export pipelines for any platform
-
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/mRk6H9Y1AqI/hqdefault.jpg)
-
-## [Scaling accessibility through design systems — Panel with a11y experts, powered by Supernova](https://www.youtube.com/watch?v=mRk6H9Y1AqI)
-
-Supernova brought to you the a11y experts Geri Reid, Lauren Beatty, and Stéphanie Walter to learn from them about incorporating accessibility into design systems, measuring its impact, and educating companies on its importance.
-
-The panel was live-streamed on Feb.16th, 2022 as they shared insights and best practices about scaling accessibility through design systems.
-
-A full transcript is available on the following link - http://bit.ly/3Krt55a
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/P2ZOlbrnllc/hqdefault.jpg)
-
-## [The Future of Design Tokens — Fireside chat with the top design tokens experts, powered by Supernova](https://www.youtube.com/watch?v=P2ZOlbrnllc)
-
-Supernova brought to you the top design system experts to discuss the future of design tokens 
-🔹 Donna Vitan
-🔹 Jina Anne
-🔹 Kaelig Deloumeau-Prigent
-🔹 Nathan Curtis and 
-🔹 moderator Dan Mall 
-
-The panel was live-streamed on Dec.13th, 2022 as they chat about their visions for the future of design tokens and how individuals can put them into practice.
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/-GbIY6B9R2Y/hqdefault.jpg)
-
-## [Expand on what&#39;s possible with design tokens with themes in Supernova](https://www.youtube.com/watch?v=-GbIY6B9R2Y)
-
-Themes are value overrides for your tokens.
-
-With Supernova you can now define an unlimited number of themes, with each theme representing a specific view of your design system.
-
-Themes have various purposes, but the main one is obvious: Different color schemes for your design system, such as light and dark mode.
-
-Learn what else you can do with the new Design Token management 👉 https://www.supernova.io/design-tokens
-
----
-
-⏱️ TIMESTAMPS ⏱️
-
-0:00 Introduction
-0:30 Importing and connecting your Figma file with Supernova
-2:20 Your Figma content presented in the new design token manager
-3:00 Creating a new theme
-5:50 Adding metadata on top of the tokens
-7:20 Documenting your design tokens
-10:20 Documenting themes
-13:05 Automating the token changes
-
----
-
-Follow Supernova on Twitter: https://twitter.com/supernova_io
-Follow Supernova on LinkedIn: https://www.linkedin.com/company/supernova-io/
-Contact our sales team: sales@supernova.io
-Join our Discord Community: https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/w2Khzhg1Vic/hqdefault.jpg)
-
-## [The Next Generation of Design Token Management by Supernova.io](https://www.youtube.com/watch?v=w2Khzhg1Vic)
-
-The next generation of design token management is here 🎉
-👉 https://www.producthunt.com/posts/supernova-5
-
-With Supernova, you can connect, manage, document, and deliver your design tokens with ease. 
-
-Now, you can also import your tokens from Figma Tokens plugin and manage themes directly from a new Tokens view.
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/3u3UBLXDWDU/hqdefault.jpg)
-
-## [Introducing the new Supernova.io website! Check it out 👀](https://www.youtube.com/watch?v=3u3UBLXDWDU)
-
-👉 https://www.supernova.io
-The single platform to manage all your design decisions
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/_cWXGyohk8k/hqdefault.jpg)
-
-## [Design systems made easy — Supernova.io](https://www.youtube.com/watch?v=_cWXGyohk8k)
-
-Supernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design system management, it's the ideal end-to-end platform that grows with your design system.
---------
-🔹 Design System Management
-🔹 Documentation
-🔹 Code and Asset Delivery
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/AwsRI0Tb80c/hqdefault.jpg)
-
-## [Supernova.io Workshop “Building a multi-branded design system” @ Into Design Systems Conference](https://www.youtube.com/watch?v=AwsRI0Tb80c)
-
-Building design systems is hard as it is - but building design systems for multiple brands is next-level complicated. In this workshop, we'll talk about strategies for how to structure the design system for multi-brand environments, how to document them, and how to use smart documentation systems to remove tedious tasks connected with this process.
-
---------
-⏱️ TIMESTAMPS ⏱️
-
-Part 1: What, when, and how (lite guide) to start a multi-brand design system
-0:00 Introduction
-3:00 What challenges do large companies face?
-7:10 What are the advantages of a multi-brand design system?
-13:10 Starting with a multi-brand design system
-16:35 “System separation” approach
-18:50 “Brand alignment” approach
-21:45 “Common ground” approach and main phases
-
-36:30 Q&A Session 
-
-Part 2: Managing and documenting multi-brand design system with Supernova.io
-44:00 Introduction to Supernova.io native support for a multi-brand design system
-45:40 Setting up a multi-branded design system in Supernova.io
-59:45 Managing and documenting tokens, assets, components, guides
-1:12:14 Automating delivery of styles and assets
-1:17:40 Structuring the documentation
-1:33:00 Rendering components in your documentation
-1:39:19 Managing multi-brand components
-
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/W8RWBd5_9Y8/hqdefault.jpg)
-
-## [&quot;Killing the spreadsheet behind every design system&quot; by Jiri Trecak @ Into Design Systems Conference](https://www.youtube.com/watch?v=W8RWBd5_9Y8)
-
-Each design system consists of many moving parts - some live in Figma, some live in our codebases, and some.. in Spreadsheets, that are used to track everything from links to health statuses to information about changes to specific elements. It is time we remove this last broken part completely.
-
---------
-Supernova.io new components system reimagines what it means to manage your design system data in one place.
-The Components tab inside the platform is now the replacement for all of your "design system spreadsheets" - bringing together the constellation of data that represents all of the facets of your components in one place - from design components to code components, to metadata used to govern processes around them.
-
-Read More in our release notes  👉 https://learn.supernova.io/latest/releases/release-69.html
-
---------
-⏱️ TIMESTAMPS ⏱️
-
-Part 1: Keynote - “Killing the Design System Spreadsheet”
-0:00 Introduction
-1:15 What are design systems?
-3:05 Design System is a product
-4:00 Tools used to track Design Systems
-7:00 Spreadsheets run the (design system) world
-11:45 Why Spreadsheets are the pain?
-15:45 What does the ideal Design System contain?
-
-Part 2: Supernova presents a new way of managing your design system metadata and components
-19:00 Real example of how spreadsheets are being used in practice
-23:15 Get started with the new Supernova component system
-27:15 Measure components readiness
-29:30 Create a control dashboard for your design system
-34:10 Document your design system components
-
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supe...
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/9C4Y_1XmSoI/hqdefault.jpg)
-
-## [Supernova - The world&#39;s first Design System as a Service Platform](https://www.youtube.com/watch?v=9C4Y_1XmSoI)
-
-Supernova enables you to build, manage and share design systems coherently across all disciplines, build fully customizable documentation sites with absolute ease and automate tedious delivery of design system assets to your codebases.
---------
-🔹 Design System Management
-🔹 Documentation
-🔹 Code and Asset Delivery
-🔹 Process and Metadata Management
-
---------
-Learn more about Supernova 👉 https://supernova.io
-Follow Supernova on Twitter  https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉https://www.linkedin.com/company/supernova-io
-Join our amazing Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/aCGk6D70BII/hqdefault.jpg)
-
-## [Design system adoption is hard. Let’s solve it with better tools - like Supernova](https://www.youtube.com/watch?v=aCGk6D70BII)
-
-The world’s most complete design system solution
-Learn more.  https://supernova.io/
-
----
-
-Current tooling is disjointed and requires a lot of custom, tedious work to get all team members onboard with the idea of using (and liking!) design systems - and with Supernova we turn that idea into a reality
-
-👉 In September 2021, during the Into Design Systems conference we presented our design-system-as-a-service platform.
-
-Get Started with Supernova for FREE: https://bit.ly/3AeHlFS
-
----
-
-⏱️ TIMESTAMPS ⏱️
-
-Part 1: Why is adoption of design systems so hard?
-0:00 Introduction
-1:30 The chasm
-3:48 Adoption issues we face
-14:02 Success stories
-
-Part 2: Supernova as answer to adoption problems
-18:02 Supernova Demo
-18:56 Managing design system
-22:22 Creating documentation
-32:35 Custom documentation using exporters
-39:46 Automated delivery of token, styles, assets and code 
-
-Part 3: QA
-42:28 Into Design Systems Conference QA
-
----
-
-Follow Supernova on Twitter: https://twitter.com/supernova_io
-Follow Supernova on LinkedIn: https://www.linkedin.com/company/supernova-io/
-Contact our sales team: sales@supernova.io
-Join our Discord Community: https://discord.com/invite/9Au3xFTG7x/
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/0xOfPSqqgrQ/hqdefault.jpg)
-
-## [Building a Design System with Supernova.io (Product Hunt speedrun)](https://www.youtube.com/watch?v=0xOfPSqqgrQ)
-
-Welcome, Supernova.io, the futuristic design system platform that makes managing, building, and maintaining design systems easier for everyone involved. 
-
-Supernova is free for individuals. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-💥We are LIVE on Product Hunt 👉 https://www.producthunt.com/posts/supernova-io
-
---------
-
-⏱️ TIMESTAMPS ⏱️
-
-0:00 Supernova Introduction
-00:30 Link Figma Design Files
-1:50 Managing design system
-2:29 Creating documentation
-8:07 Automated delivery of token, styles, assets, and code
-
---------
-Related Tutorials:
-
-How to import design files from Figma 👉
-https://www.youtube.com/watch?v=aW0ytHaPxAs
-
-How to manage your design system documentation 👉
-https://www.youtube.com/watch?v=0QkffH56lj0
-
-How to manage your design tokens 👉
-https://www.youtube.com/watch?v=r0RkrarSgZI
-
-How to import design system assets 👉
-https://www.youtube.com/watch?v=KlmWHukPjYk
-
-How to create continuous design system delivery 👉 
-https://www.youtube.com/watch?v=LGVE6q8l23k
-
-📮SUBSCRIBE for NEW VIDEOS!
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/ircUjtjIPE8/hqdefault.jpg)
-
-## [Documenting design tokens | Supernova.io](https://www.youtube.com/watch?v=ircUjtjIPE8)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover design tokens and how to use them inside your documentation site.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Q4luzoFV5U4/hqdefault.jpg)
-
-## [Extending design tokens with custom data | Supernova.io](https://www.youtube.com/watch?v=Q4luzoFV5U4)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will dive deeper into design tokens and customization options available.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/r0RkrarSgZI/hqdefault.jpg)
-
-## [Managing tokens | Supernova.io](https://www.youtube.com/watch?v=r0RkrarSgZI)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover creation and management of design tokens and some crazy operations you can do with them, using Supernova.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/KlmWHukPjYk/hqdefault.jpg)
-
-## [Importing design system assets | Supernova.io](https://www.youtube.com/watch?v=KlmWHukPjYk)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover asset management and how to export assets from your design system.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/qpR3FOnU16A/hqdefault.jpg)
-
-## [Versioning design system | Supernova.io](https://www.youtube.com/watch?v=qpR3FOnU16A)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover creation and distribution of specific versions of your design system.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/0QkffH56lj0/hqdefault.jpg)
-
-## [Managing design system documentation | Supernova.io](https://www.youtube.com/watch?v=0QkffH56lj0)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video deep dives into everything-documentation and how to use your design system elements to make your documentation site amazing. 
-
---------
-
-⭐️ Building and managing your design system documentation using your own design system data
-
-0:00 - Overview
-0:57 - Access to Documentation Editor
-2:45 - Create an Introduction Page
-3:28 - Adding Text Blocks
-4:34 - Adding Token Blocks
-5:38 - Visualize your documentation
-7:20 - Create a Styleguide
-8:15 - Adding Collor Pallets or Styles
-11:10 - Adding Text Styles
-12:00 - Adding Assets
-13:08 - Adding Components
-21:30 - Customise your documentation 
-23:47 - Extend the functionality with custom solutions
-
---------
-
-Related Tutorials:
-
-How to document and maintain your design system tokens 👉https://www.youtube.com/watch?v=ircUjtjIPE8
-
-How to document components and render live code 👉https://www.youtube.com/watch?v=v0vL0DSar6o
-
-How to use content from Figma inside Supernova documentation 👉https://www.youtube.com/watch?v=RZ1uWeNoqWg
-
-How to customize your documentation template that powers the front-end view  👉https://www.youtube.com/watch?v=bKqR77QV-Xk
-
-How to extend the functionality of the default documentation editor 👉
-https://www.youtube.com/watch?v=wQRpMHqpbCw
-
-📮SUBSCRIBE for NEW VIDEOS!
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/bKqR77QV-Xk/hqdefault.jpg)
-
-## [Custom documentation templates | Supernova.io](https://www.youtube.com/watch?v=bKqR77QV-Xk)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will show you how you can customize your documentation site beyond your wildest dreams.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/v0vL0DSar6o/hqdefault.jpg)
-
-## [Documenting components | Supernova.io](https://www.youtube.com/watch?v=v0vL0DSar6o)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover documentation of components using live code from your codebases. Buckle up, this is a wild one.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/wQRpMHqpbCw/hqdefault.jpg)
-
-## [Custom documentation blocks | Supernova.io](https://www.youtube.com/watch?v=wQRpMHqpbCw)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will explain how you can extend the default functionality of the documentation editor with features of your choosing (and of your own creation).
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/aW0ytHaPxAs/hqdefault.jpg)
-
-## [Importing design files | Supernova.io](https://www.youtube.com/watch?v=aW0ytHaPxAs)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover importing design files and connecting your design systems from Figma.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/LGVE6q8l23k/hqdefault.jpg)
-
-## [Continuous design system delivery | Supernova.io](https://www.youtube.com/watch?v=LGVE6q8l23k)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will cover automatic delivery of design system elements into your codebases with a simple click of a button.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/RZ1uWeNoqWg/hqdefault.jpg)
-
-## [Using Figma content | Supernova.io](https://www.youtube.com/watch?v=RZ1uWeNoqWg)
-
-Supernova is free to use. Sign up here: https://cloud.supernova.io/signup
-Read everything about Supernova here: https://supernova.io
-
-In this series, we walk you through Supernova fundamentals while building your next design system - from tokens, to components, to assets, to building documentation and handing-off resources to your developers, automatically. This video will teach you to use Figma content inside your documentation site - from components to frames to any other content you have available in any of your design files.
-
---------
-
-Follow Supernova on Twitter 👉 https://twitter.com/supernova_io
-Follow Supernova on LinkedIn 👉  https://www.linkedin.com/company/supernova-io
-Join our Discord Community 👉 https://discord.com/invite/9Au3xFTG7x/
-Contact our sales team 👉 sales@supernova.io
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Dtd40cHQQlk/hqdefault.jpg)
-
-## [Course overview : Introduction to design systems](https://www.youtube.com/watch?v=Dtd40cHQQlk)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-
-Written course: https://bit.ly/3ODSB9A
-
-Design systems are a vast and ever-evolving concept, it can be difficult even for an experienced designer to know where to begin! 
-
-Whether you’re about to build your first design system or just curious about them, check out Figma’s new course, Introduction to Design Systems!
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/YLo6g58vUm0/hqdefault.jpg)
-
-## [Welcome to design systems - Lesson 1 : Introduction to design systems](https://www.youtube.com/watch?v=YLo6g58vUm0)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
- 
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-Written course: https://bit.ly/3OC58u0
-
-There are millions of websites and applications that are endlessly evolving, many of which are operating on different systems and devices. 
-
-Most products aren’t creating static, cookie-cutter experiences. They’re creating complex universes of interconnected ones. Growing organizations need tools and processes that empower teams to scale consistent experiences. Many of them are turning to design systems as a potential solution.
-
-In this lesson, we’ll:
-
-- Learn what a design system is and what’s included in one;
-- Explore the problems a design system can help solve;
-- Help you identify when you need one;
-- And highlight a few things to consider as you start your design systems journey.
-
-____________________________________________________
-
-Resources:
-
-Shopify Polaris: https://bit.ly/3BUpSpv
-Figma community wireframes: https://bit.ly/3osd8TP
-Sparkbox: Design Systems Survey 2022: https://bit.ly/3Ww6cl5
-Knapsak's Design System ROI Calculator: https://bit.ly/3MRQnSE
-Design Systems Repo: https://bit.ly/3MNMjCV
-Sparkbox: Anatomy of a Design System: https://bit.ly/420KKpK
-Spectrum of maturity for design systems: https://bit.ly/3WwjLAZ
-
-____________________________________________________
-
-00:00 - Introduction
-00:32 - What is a design system?
-01:13 - Resources a design system might include
-01:56 - No one size fits all
-02:06 - Do you need a design system?
-02:55 - When to implement a design system
-03:09 - Benefits of a design system
-04:25 - Signs you might need a design system
-05:53 - Not everyone needs a design system
-06:05 - Challenges of a design system
-07:03 - Audit
-07:59 - Perform an audit
-09:51 - Overview of the design system process
-10:18 - Steps in the process
-11:37 - Considerations
-12:30 - Audience
-13:09 - Implementation
-14:19 - Other questions
-15:07 - Wrap up
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/pwzYVIgga2c/hqdefault.jpg)
-
-## [Define your design system's principles - Lesson 2 part 1 : Introduction to design systems](https://www.youtube.com/watch?v=pwzYVIgga2c)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-Written course: https://bit.ly/3Oz6nKH
-
-In this lesson, we’ll dig into four key parts of a successful design system.
-
-1. Principles
-2. Foundations
-3. Documentation
-4. Processes
-
-____________________________________________________
-
-Resources:
-Figma Design Principles: https://bit.ly/3owJCw7
-Principles of Headspace: https://bit.ly/43jbi6y
-Design principles workshop: https://bit.ly/43meL4d
-How to Meet WCAG: https://bit.ly/3OB0nBa
-
-____________________________________________________
-
-00:00 - Introduction
-00:37 - Principles
-01:11 - Creating principles
-01:25 - What a principle might have
-02:35 - Try it yourself
-03:00 - Wrap up
-
-____________________________________________________
-
-Resources:
-Shopify Polaris: https://bit.ly/3BUpSpv
-Figma community wireframes: https://bit.ly/3osd8TP
-Sparkbox: Design Systems Survey 2022: https://bit.ly/3Ww6cl5
-Knapsak's Design System ROI Calculator: https://bit.ly/3MRQnSE
-Design Systems Repo: https://bit.ly/3MNMjCV
-Sparkbox: Anatomy of a Design System: https://bit.ly/420KKpK
-Spectrum of maturity for design systems: https://bit.ly/3WwjLAZ
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/o9CloFonY0E/hqdefault.jpg)
-
-## [Define your design system's foundations - Lesson 2 part 2 : Introduction to design systems](https://www.youtube.com/watch?v=o9CloFonY0E)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-
-Written course: https://bit.ly/3Oz6nKH
-
-Foundations are the what of your design system. The building blocks you'll use to create product experiences, like visual styles, colors, typography, and components. As well as patterns, like structures, behaviors, and conventions.
-
-____________________________________________________
-
-Resources:
-
-Accessibility:
-
-The Book on Accessibility: https://bit.ly/3WC50gb
-Web Accessibility Checklist: Magenta a11y.com: https://bit.ly/3Ow00ru
-Color Blind Accessibility Manifesto.com: https://bit.ly/43oIuJO
-Adhoc Accessibility Playbook: https://bit.ly/3BP9eHR
-Universal Music: Creative Differences Handbook: https://bit.ly/424EM7g
-Stark's Public Library: https://bit.ly/3MuiUwf
-Book: Accessibility for Everyone: https://bit.ly/3q5KZm6
-Fable: Accessible Usability Scale: https://bit.ly/45rZQHB
-
-Color:
-
-WCAG 1.4.1 Use Of Color: https://bit.ly/3OxeqaT
-WCAG 1.4.4 Color Contrast: https://bit.ly/3ODYyDp
-Figma Community: Plugins For Color Contrast: https://bit.ly/3MS5Kuo
-Nielsen Norman Group: Using Color To Enhance Your Designs: https://bit.ly/42TCARb
-Color From DesignSystems.com: https://bit.ly/42XuMhg
-Figma Community: Resources For Color Palettes: https://bit.ly/43hxP4h
-Hubspot’s Color Theory 101: https://bit.ly/3OxkDDx
-
-Type:
-
-Typescale by Sam Smith: https://bit.ly/3WsNmLM
-Scaaale by Nicolas Massi: https://bit.ly/3BXDXlP
-Kick Start Your Typographic System by Tom Lowry: https://bit.ly/45oGfYW
-Typescale.com: https://bit.ly/45upBr0
-
-Other: 
-
-A Complete Guide To Iconography: https://bit.ly/432HH1A
-Spacing. Grids, and Layouts:  https://bit.ly/3ozKTCF
-
-____________________________________________________
-
-00:00 - Introduction
-00:08 - Foundations
-00:35 - Accessibility
-01:39 - Color
-02:50 - Try it out
-03:08 - 60 / 30 / 10 Rule
-03:36 - Accessibility considerations for color
-03:58 - Web Content Accessibility Guidelines
-04:42 - Typography
-05:01 - Choosing a font
-05:42 - Type scale
-06:32 - Typography grid tip
-06:46 - Type scale hierarchy
-07:43 - Limits to a type scale
-08:19 - Try out an audit
-8:43 - Elevation
-9:12 - Elevation Tip
-9:32 - Bonus elevation tip
-9:45 - Iconography
-10:01 - Icon system styles
-10:37 - Testing an icon
-11:12 Try out search terms for icons
-11:36 - Icon size, container and padding
-11:58 - Icon styles needs
-12:15 - Icon grid
-12:22 - Grids, layouts and spacing
-12:51 - Layouts and breakpoints
-14:13 - Responsive or fluid breakpoints
-14:28 - Grids
-14:39 - Column grids
-15:20 - Baseline grids
-16:05 - Modular grids
-16:36 - Spacing
-17:33 - Inconsistency  
-17:56 - Systematic thinking
-18:10 - Patterns
-19:14 - Wrap up
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/sHF6JSPWbzM/hqdefault.jpg)
-
-## [Define your design system's documentation - Lesson 2 part 3 : Introduction to design systems](https://www.youtube.com/watch?v=sHF6JSPWbzM)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-
-Written course: https://bit.ly/3Oz6nKH
-
-Documentation is the how. It communicates the purpose of all these aspects of your design system and how best to apply them.
-
-Documentation can look like:
-
-- On-canvas annotations for components in design files
-- Style and component descriptions in Figma
-- Naming-structures in a library or codebase
-- Written articles and guides
-- or dedicated websites and tools
-
-____________________________________________________
-
-00:00- Introduction
-00:36 - What documentations looks like
-01:28 - Documentation tips
-02:50 - Naming conventions
-02:59 - Semantic naming
-03:24 - Component naming
-04:55 - Naming example
-05:25 - Wrap up
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/NGGMGybuOwg/hqdefault.jpg)
-
-## [Define your design system's processes - Lesson 2 part 4 : Introduction to design systems](https://www.youtube.com/watch?v=NGGMGybuOwg)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-
-Written course: https://bit.ly/3Oz6nKH
-
-Processes are just as important as the tools and assets within the system. It’s important to establish these with your contributors before a design system goes live.
-
-They capture the mechanics and governance for managing a design system:
-
-- How to make updates to a system and share them with others
-- Who to give feedback to and how
-- How to get changes to the system approved
-- How to collaborate with cross-functional teams
-- How to provide training to new members of the team
-- and more
-
-____________________________________________________
-
-00:00 - Introduction
-00:16 - Processes
-01:05 - Development considerations
-01:26 - Path to successful collaboration
-02:06 - Try it out
-02:46 - Wrap up
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/0XSLMGh8yhM/hqdefault.jpg)
-
-## [Build your design system - Lesson 3 : Introduction to design systems](https://www.youtube.com/watch?v=0XSLMGh8yhM)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-
-Written course: https://bit.ly/3MvUvX1
-
-In this lesson, we’ll join Kai and the Habitz team as they build their design system. We’ll focus on some core design system features in Figma: styles and components. As well as some tips for defining and organizing your system.
-
-
-____________________________________________________
-
-Resources:
-
-Best Practices: Components, Styles, And Shared Libraries: https://bit.ly/433Zjdg
-Figma Component Library Structure Twitter Thread: https://bit.ly/3orGCRS
-Atomic Design by Brad Frost: https://bit.ly/43mZFvu
-Best Practices: Component Architecture In Figma: https://bit.ly/3MyrwlH
-Best Practices: Creating and Organizing Variants https://bit.ly/3BOips2
-Figma Help Center: Auto Layout: https://bit.ly/4229f5K
-Figma Help Center: Nudge Values: https://bit.ly/42itdcR
-Figma Help Center: Styles: https://bit.ly/427hIoe
-Figma Help Center: Components: https://bit.ly/3OuMLr4
-Figma Help Center: Add Style And Component Descriptions: https://bit.ly/3OyQzr8
-Figma Help Center: Component Properties: https://bit.ly/3WsTbJ8
-Space Grotesk: https://bit.ly/3BOje46
-DM Sans: https://bit.ly/3ouGtx6
-Smooch Sans: https://bit.ly/3IDQ3Vg
-Google Material Design: https://bit.ly/3IBbfuN
-
-____________________________________________________
-
-00:00 - Introduction
-00:24 - Styles
-01:02 - Components
-01:33 - Libraries
-03:23 - Set up the file
-03:42 - Audit breakdown
-04:15 - Atomic design
-05:56 - Audit breakdown
-6:50 - Spacing
-07:19 - Creating styles: Layout grids
-08:47 - Autolayout
-09:11 - Nudge settings
-09:25 - Creating styles: Colors
-09:55 - Creating styles: Organizing colors
-10:29 - Creating styles: Naming conventions
-11:00 - Creating styles : Slash naming
-11:30 - Creating styles: Typography
-13:50 - Creating styles: Elevation
-14:25 - Creating styles: Additional styles
-15:08 - Creating styles: Create shadows
-15:46 - Creating styles: Create shadow styles
-16:18 - Create components: Icons
-17:33 : Create components: Illustrations
-19:14 - Create components: Day toggle
-20:55 - Create components: Action presentation card
-23:10 - Patterns
-23:19 - Create patterns: Day selector
-24:39 - Create patterns: Navigation
-25:21 - Summary
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/_sTWtnNU1L0/hqdefault.jpg)
-
-## [Document, improve and update your design system - Lesson 4 : Introduction to design systems](https://www.youtube.com/watch?v=_sTWtnNU1L0)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-Habitz design system Community file: https://bit.ly/3BVcql4
-
-Video course: https://bit.ly/3WwqzyI
-
-Written course: https://bit.ly/3MrJE0m
-
-In this lesson, let’s learn a few ways to support the ongoing success of your design system, like:
-
-- effective documentation,
-- improving your system through testing, feedback, and contributions,
-- how to manage updates,
-- and how to make sure people are using it.
-
-____________________________________________________
-
-Resources:
-
-Google Material Design: https://bit.ly/3IBbfuN
-Atlassian Design System: https://bit.ly/45qn68O
-Storybook: https://bit.ly/3IZ6FXN
-Notion: https://bit.ly/3q8JT9e
-Design Lint by Daniel Destefanis: https://bit.ly/3WsWyQc
-Roller Design Linter by Contrast: https://bit.ly/433HGdD
-User Interview Templates: https://bit.ly/42TH5Lz
-Design Research: https://bit.ly/43hBxLf
-Semantic Versioning 2.0.0: https://bit.ly/3MPFRvg
-Figma Help Center: Guide To Branch and Merging: https://bit.ly/3MRHh8v
-
-____________________________________________________
-
-00:00 - Introduction
-00:23 - Documentation
-01:13 - Documentation setups
-01:49 - Component documentation link tip
-02:00 - Habitz team documentation
-02:35 - Spacer example
-03:21 - Design linter tip
-03:38 - Improve your design system
-04:10 - User testing
-04:48 - User testing tips
-05:34 - Habitz user testing example
-06:03 - Feedback
-07:08 - Design system analytics tip
-07:21 - Contributions
-08:26 - Habitz team contribution example
-08:57 - Versioning and change logs
-09:24 - Semantic versioning
-10:31 - Branching and merging
-11:28 - Habitz team branching and merging example
-11:55 - Advocacy
-12:46 - Wrap up
-
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/1ONxxlJnvdM/hqdefault.jpg)
-
-## [Figma tutorial: Intro to variables](https://www.youtube.com/watch?v=1ONxxlJnvdM)
-
-Figma is free to use. Sign up here: https://bit.ly/3msp0OV
-
-By definition, a variable is something that can vary in value or take on multiple values. Variables in Figma store reusable values, like color values and numbers, that can be applied to all kinds of design properties and even prototypes! A variable’s values can also reference other variables, making updating design systems a breeze. In this video, we’ll cover how variables work, and how to use them to represent design tokens and account for different modes and themes.
-
-* Update: When following along with the tutorial at 10:30,  the variable called ".5" will no longer work.  This is due to our alignment with the W3C spec which doesn't allow periods in names.  Calling the variable "spacing/half" will work, instead.
-We are doing a follow-up in the next coming months where we’ll be separating out the “figma name” from the code syntax, which may let us loosen these restrictions.  Keep an eye out for additional syntax support in the future.
-
-Follow along with the file: https://bit.ly/44bHgC2
-
-Learn about prototyping with variables with our other tutorial: https://bit.ly/3pfKk1h
-
-Learn more about variables in Figma with our additional playground file: https://bit.ly/4490iJc
-
-Learn more about design systems in Figma: https://bit.ly/3os0Afc
-
-Help center articles:
-Guide to variables: https://bit.ly/3Nh7JaK
-Overview of variables: https://bit.ly/44bD2dG
-Create and manage variables: https://bit.ly/447B9im
-Apply variables to designs: https://bit.ly/3qVsnWo
-Modes for variables: https://bit.ly/3qS3GKk
-
-For more information on using variables with API and development, check out the links here:
-- REST API: https://www.figma.com/developers/api#variables
-- Plugin API docs: https://www.figma.com/plugin-docs/working-with-variables
-- Import/export variables code sample https://github.com/figma/plugin-samples/tree/master/variables-import-export
-- Styles to variables convert code sample https://github.com/figma/plugin-samples/tree/master/styles-to-variables
-
-Chapters: 
-00:00 - Intro
-01:17 - Color variables
-03:55 - Create tokens
-06:00 - Apply variables
-07:13 - Styles vs variables
-08:17 - Modes
-10:12 - Number variables
-12:35 - Themes
-14:11 - Wrap up
-____________________________________________________
-
-Find us on ⬇️
-Twitter: https://twitter.com/figma
-Instagram: https://www.instagram.com/figma
-LinkedIn: https://www.linkedin.com/company/figma
-Figma forum: https://forum.figma.com/
-
-____________________________________________________
-
-#Figma #Config #Config2023 #Variables #Designtokens #Tutorial #design #tips #DesignSystems
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/6Pof8_yOHBk/hqdefault.jpg)
-
-## [Design Systems: Mastering Design at Scale - Episode 6 Trailer](https://www.youtube.com/watch?v=6Pof8_yOHBk)
-
-Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
-
-Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
-
-Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/6Q_9vWvfj1s/hqdefault.jpg)
-
-## [Design Systems: Mastering Design at Scale - Episode 5 Trailer](https://www.youtube.com/watch?v=6Q_9vWvfj1s)
-
-Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
-
-Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
-
-Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/mdK6svwojoM/hqdefault.jpg)
-
-## [Design Systems: Mastering Design at Scale - Episode 4 Trailer](https://www.youtube.com/watch?v=mdK6svwojoM)
-
-Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
-
-Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
-
-Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/kelWRYDbwHs/hqdefault.jpg)
-
-## [Design Systems: Mastering Design at Scale - Episode 3 Trailer](https://www.youtube.com/watch?v=kelWRYDbwHs)
-
-Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
-
-Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
-
-Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/9cQbRwgACzk/hqdefault.jpg)
-
-## [Design Systems: Mastering Design at Scale - Episode 2 Trailer](https://www.youtube.com/watch?v=9cQbRwgACzk)
-
-Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
-
-Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
-
-Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Z-3ygFVPBFM/hqdefault.jpg)
-
-## [Design Systems: Mastering Design at Scale - Series Trailer](https://www.youtube.com/watch?v=Z-3ygFVPBFM)
-
-Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
-
-Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
-
-Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/vmkKQNJjOKA/hqdefault.jpg)
-
-## [Your Design System Team Is Part of the Product](https://www.youtube.com/watch?v=vmkKQNJjOKA)
-
-There is an important principle of design system teams that is easy to overlook. Drew shares from Sparkbox’s experience.
-
-Want to see more? Read the accompanying article: https://seesparkbox.com/foundry/design_systems_teams_are_part_of_the_product
-
-New to the concept of design systems and want to learn more? 
-We have a great resource for you on The Foundry: https://seesparkbox.com/foundry/lets_talk_design_system
-You can also check out the results from our 2018 Design Systems Survey: 
-https://designsystemssurvey.seesparkbox.com/2018
-
-Read more by Drew: https://seesparkbox.com/foundry/author/drew_clemens
-
-Learn more about how Sparkbox can help bring your web project to life: https://seesparkbox.com/what-we-do
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/wBAdjwGBHZ4/hqdefault.jpg)
-
-## [When and Why to Unit Test Your Sass | Sparkbox Web Development](https://www.youtube.com/watch?v=wBAdjwGBHZ4)
-
-Want to ensure your code is compiling as expected? In this video clip from her CodeMash presentation, Sparkerboxer Lindsay Wild explains how unit testing your Sass can help.
-
-Learn more about unit testing your Sass, including best practices: https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass
-
-Learn more about how Sparkbox can help bring your web project to life: https://seesparkbox.com/what-we-do
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/6eVuYg2jTek/hqdefault.jpg)
-
-## [UnConference: Introduction to the Design System Maturity Model](https://www.youtube.com/watch?v=6eVuYg2jTek)
-
-In this session, Sparkbox President, Ben Callahan, introduces you to the Design System Maturity Model and its potential impact. He outlines the stages of maturity from the earliest days of development to a mature product. This is a great opportunity for design system owners, stakeholders, or contributors to understand how to set priorities and meet challenges for their systems.
-
-0:00 Intro
-4:40 Sparkbox Design System Research
-09:50 Defining a Design System
-12:28 The Value of a Design System
-20:30 The Four Stages
-24:20 Origin Stories
-29:58 How to Mature
-34:17 Stage One Maturity
-37:21 Stage Two Maturity
-41:41 Stage Three Maturity
-46:10 Stage Four Maturity
-49:08 System Stability
-56:39 Future Research
-59:50 Resources
-
-Resources from the session:
-2021 Design Systems Survey: https://bit.ly/ds-survey-results-2021
-Design System Calendar:  https://bit.ly/ds-sb-calendar
-Selling Design Systems: https://bit.ly/selling-design-systems
-Maturity Assessment: https://bit.ly/ds-maturity-assessment
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/-X4gT3mcb0M/hqdefault.jpg)
-
-## [UnConference: Design Systems in the Wild with Kasey Bonifacio](https://www.youtube.com/watch?v=-X4gT3mcb0M)
-
-Note: If you haven't watched "The Anatomy of a Design System," please do so before watching this. Find that video here: https://youtu.be/DUQzEA_ahyc
-
-In this video, Kasey applies Ben's Anatomy of a Design System to the systems of some of the world's most successful companies, so you and your team can practically apply these ideas to your design system.
-
-0:00 Intro
-1:37 Example 1: IBM Carbon / IBM Design Language
-5:42 Example 2: Atlassian 
-9:27 Example 3: Gusto Workbench
-13:42 What Can We Learn From These Examples?
-14:30 Takeaway 1:Identify the Problems
-20:11 Takeaway 2: Identify Your Gaps
-23:31 Takeaway 3: Start with a Good Foundation
-26:04 Takeaway 4: Document Your Design System Language
-28:30 Takeaway 5: Have the Right People Do the Right Things
-
-Learn more about The Anatomy of a Design System here: https://sparkbox.com/foundry/design_system_makeup_design_system_layers_parts_of_a_design_system
-
-Want more design systems advice? Check out https://sparkbox.com/foundry/category/design_systems
-
-Sparkbox partners with complex organizations to create user-driven web experiences. Would you like to talk about how we can work together? Visit https://www.sparkbox.com
-
-Design Systems
-Carbon Design System - https://carbondesignsystem.com
-IBM Design Language - https://ibm.com/design/language
-Atlassian Design System - https://atlassian.design
-Workbench Design System - https://workbench.gusto.com
-
-References
-The Product Book - https://productschool.com/the-product-book
-“How Great Leaders Inspire Action” by Simon Sinek
-“Pausing on Pain Points to Improve Projects” by Austin Munhofen - https://sparkbox.com/foundry/solving_customer_problems_and_pain_points
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/DUQzEA_ahyc/hqdefault.jpg)
-
-## [UnConference: The Anatomy of a Design System with Ben Callahan](https://www.youtube.com/watch?v=DUQzEA_ahyc)
-
-Design systems have different meanings and purposes to different people, even within the same organization. In this talk, Ben defines each part of a design system to give you and your team a shared understanding of how these systems connect core brand elements with digital interfaces, enable consistent brand expression, and much more.
-
-
-0:00 Intro
-1:29 Takeaway #1
-2:18 Takeaway #2
-5:17 The Anatomy of a Design System
-6:12 The Foundations Layer
-8:19 The Tokens Layer
-12:06 The Core Systems Layer
-13:05 The Fundamental Layers
-13:32 The Components Layers
-15:27 The Three Parts of Every Layer
-15:42 Assets
-17:59 Processes
-24:45 Documentation
-27:20 The Design System as a Whole
-29:47 Takeaway #1 (Recap)
-30:59 Takeaway #2 (Recap)
-31:12 Consistency
-33:35 Efficiency
-36:31 Conclusion
-
-Learn more about The Anatomy of a Design System here: https://sparkbox.com/foundry/design_system_makeup_design_system_layers_parts_of_a_design_system
-
-Want more design systems advice? Check out https://sparkbox.com/foundry/category/design_systems
-
-Sparkbox partners with complex organizations to create user-driven web experiences. Would you like to talk about how we can work together? Visit https://www.sparkbox.com
-
-Resources
-2021 Design Systems Survey: https://bit.ly/ds-survey-results-2021
-Design System Calendar:  https://bit.ly/ds-sb-calendar
-Selling Design Systems: https://bit.ly/selling-design-systems
-Maturity Assessment: https://bit.ly/ds-maturity-assessment
-Carbon Design System - https://carbondesignsystem.com
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/dV-qvJ-F48Q/hqdefault.jpg)
-
-## [UnConference: Design Systems Culture with Ben Callahan](https://www.youtube.com/watch?v=dV-qvJ-F48Q)
-
-A design system is often an expression (for better or worse) of the values of the people that build it. This is why design systems flounder—they are often launched as a bridge between teams without an understanding of the various subcultures of those teams. When companies align their design system with and make them work for their existing company culture, the goals for that system are more easily realized.
-
-If you feel like you’re swimming upstream with your design system, it could be the result of a cultural problem—not a technical one. It’s time for you to look at your design system from a different angle.
-
-In this virtual learning event, Ben Callahan will show you how design systems and company culture are inextricably linked and how a deeper understanding of each is necessary to get you where you want to go.
-
-00:00 A Quick Story
-04:11 A Framework for Organizational Culture
-08:52 A Framework for Competing Values
-18:18 The Healthy or Unhealthy Design System Subculture
-32:01 Cultural Compatibilities
-38:27 Can a Design System Subculture Change Organizational Culture?
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/l6YuGE6EjJA/hqdefault.jpg)
-
-## [Design Systems: What are They and How to Get Started](https://www.youtube.com/watch?v=l6YuGE6EjJA)
-
-If you're thinking to scale a UX team, assure consistency across the range of products, or need a better all-round collaboration enhancement -- design systems are an invaluable asset. It can save tremendous amounts of time, allow for easy handovers to development, as well as keep the brand new feature development smooth. In this video I'll walk you through some examples of great design systems, show you how to get started and 2 key strategies to make it successful.
-
-⚒️Tools to get started: 
-Invision Design System Manager (DSM): https://www.invisionapp.com/design-system-manager/
-Figma: https://www.figma.com/
-Zeplin: https://zeplin.io/
-
-🔄System examples:
-Gov.uk design system: https://design-system.service.gov.uk/
-Google's material design system: https://material.io/design/
-Lego design system: bricks!
-
-👍SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ
-
----
-👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
-
-👨More:
-Blog: http://blog.vaexperience.com
-Instagram: http://instagram.com/vaexperience
-Twitter: http://twitter.com/vytautasalech
-Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
-#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/D3eVHGTIzTI/hqdefault.jpg)
-
-## [Getting Started with Design Systems | Create a Design System in Sketch, Ep1](https://www.youtube.com/watch?v=D3eVHGTIzTI)
-
-Episode 1: Getting Started with Design Systems
-
-Note: apologies for potato sound quality... microphones are still tricky to get right.
-
-This video will kickstart the new mini-tutorial series on creating your own design system using Sketch app. I’ll walk you through key steps, caveats, pros and cons to making a design system and more. 
-
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
-
-📹Stay tuned for more sessions in this playlist:
-https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
-
-📹New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
+More Design Tool Tuesday videos on this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2Cp2lG7wKaYGg3TIk6GP14S6
 
 🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
 
@@ -3614,15 +3788,42 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/c6Rh3CPvsP0/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/Sod5l0leBMM/hqdefault.jpg)
 
-## [Set Up an Atomic Design System Structure - Create a Design System in Sketch, Ep2](https://www.youtube.com/watch?v=c6Rh3CPvsP0)
+## [Making Design System a Success - Create a Design System in Sketch, Ep9](https://www.youtube.com/watch?v=Sod5l0leBMM)
 
-Episode 2: Set up an Atomic Design Structure
+Episode 9: Making Design System a Success
 
-In this episode, I'll show you how to quickly set up your Sketch file to better accommodate the Atomic Design steps (atoms, molecules, organisms, templates and pages). This is one of the most important steps while creating an easy to maintain and experiment with design pattern library. 
+In this episode for creating fully functional atomic design systems from scratch, I'll talk about 2 vital parts making this effort a success. Too often efforts that are done in isolation and that lack necessary buy-ins tend to end up collecting dust. What was meant to be transformative new living product design system becomes a crutch? This video will help you understand how to set up the right structures for people and underlying process so that you can start a system, but also ensure it will become an integral part of new feature design and development. 
 
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
+
+📹 Stay tuned for more sessions in this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
+
+📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
+
+🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
+
+👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
+
+👨More from V:
+Blog: http://blog.vaexperience.com
+Instagram: http://instagram.com/vaexperience
+Twitter: http://twitter.com/vytautasalech
+Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
+#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/tlBziCCzHuk/hqdefault.jpg)
+
+## [Design Systems: Getting Business Buy-in - Create a Design System in Sketch, Ep8](https://www.youtube.com/watch?v=tlBziCCzHuk)
+
+Episode 8: Design Systems: Getting Business Buy-in 
+
+In this video, I'll discuss the biggest issue that designers and engineers alike face when trying to introduce the very first atomic design system -- getting the buy-in from the business. Some designers don't even know where to start, others continuously struggle to convey design system value. There is one simple (not easy) workaround to conveying the value the businesses seek immediately. And it doesn't matter if you are using Sketch or Figma or what sort of organisation you're part of. If this is your first initiative with design systems - check the video. These principles will work for almost any design based initiative.
+
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organisations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
 
 📹 Stay tuned for more sessions in this playlist:
 https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
@@ -3642,18 +3843,17 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/ZDpUOcfxXDI/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/Lgz4KiC2Bjw/hqdefault.jpg)
 
-## [Atoms - Create a Design System in Sketch, Ep3](https://www.youtube.com/watch?v=ZDpUOcfxXDI)
+## [Developer Handovers with Zeplin - Create a Design System in Sketch, Ep7](https://www.youtube.com/watch?v=Lgz4KiC2Bjw)
 
-Episode 3: Atoms
+Episode 7: Developer Handovers with Zeplin
 
-In this session, we will start deconstructing a proven UI mockup into the smallest UI particles - atoms. This is a first step at defining a new Atomic Design system in Sketch. We'll use existing Sketch symbol features as well as previously (ep2) defined system structure. 
+If you're a Sketch user and have been following along this design system tutorial series you probably have already noticed the gradual transition from the smallest atoms to pages that need to be somehow implemented. Too often expectations and design details get lost in the weeds because of the lack of a common environment to retain all the UI patterns. In this video on design systems, I'll share some of the easiest ways to perform design asset handovers to your front-end developers - Zeplin. 
 
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organisations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
 
-📹 Stay tuned for more sessions in this playlist:
-https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
+📹 Stay tuned for more sessions in this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
 
 📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
 
@@ -3670,13 +3870,69 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/4ZYji8vIi5c/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/_E940UPw57U/hqdefault.jpg)
 
-## [Molecules - Create a Design System in Sketch, Ep4](https://www.youtube.com/watch?v=4ZYji8vIi5c)
+## [Templates and Pages in Design Systems - Create a Design System in Sketch, Ep6](https://www.youtube.com/watch?v=_E940UPw57U)
 
-Episode 4: Molecules
+Episode 6: Templates and Pages in Design Systems
 
-In this session, I'll show how previously discussed Atomic Design system atoms scale to make more complex functional patterns - molecules. I'll show the key steps when it comes to this pattern morphing and highlight all caveats when working with UX and UI pattern libraries and design systems.
+In this video, we'll continue where we left off by setting up the initial atomic design system template. We already covered atoms, molecules and organisms in the previous videos. Now's the time to finalise the technical aspects of maintaining the design system and introducing flexible UX templates and pages structure. I'll show you not only how to port existing components, but also what you should do if you plan to introduce new UI patterns: update, maintain and roll out your design system in Sketch app.
+
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
+
+📹 Stay tuned for more sessions in this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
+
+📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
+
+🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
+
+👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
+
+👨More from V:
+Blog: http://blog.vaexperience.com
+Instagram: http://instagram.com/vaexperience
+Twitter: http://twitter.com/vytautasalech
+Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
+#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/jPn_YTOAhMo/hqdefault.jpg)
+
+## [Best Design Systems Examples and Tools - Design Tool Tuesday, Ep21](https://www.youtube.com/watch?v=jPn_YTOAhMo)
+
+Episode 21: Best Design Systems Examples and Tools
+
+This week’s pick: Design Systems Repo. A design tool-index directory for everything design systems. In this free web app, you'll find a collection of some of the best design systems to date, as well as series of articles, books, tools and everything to help you understand, get started and get inspired from the best. In this video, I'll share my experience with design systems repo, atomic design principles and how most of the design systems there use it etc.
+
+In this new weekly UX design, user research and product design tools series I'll share some of the best picks I've encountered to date. You'll find out about the best apps, extensions, websites and other helpful tools.
+
+Note: we're not affiliated with the tool makers. It's just a great UX tool you should know about.
+
+More Design Tool Tuesday videos on this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2Cp2lG7wKaYGg3TIk6GP14S6
+
+📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
+
+🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
+
+👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
+
+👨More from V:
+Blog: http://blog.vaexperience.com
+Instagram: http://instagram.com/vaexperience
+Twitter: http://twitter.com/vytautasalech
+Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
+#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
+
+---
+
+![Thumbnail](https://i.ytimg.com/vi/N0roPkORwmk/hqdefault.jpg)
+
+## [Mix'n'match UI Patterns Into Organisms - Create a Design System in Sketch, Ep5](https://www.youtube.com/watch?v=N0roPkORwmk)
+
+Episode 5: Mix'n'match UI Patterns Into Organisms
+
+In this video, we will continue crafting atoms, molecules and the new construct in the Atomic Design system hierarchy - Organisms. We will combine previously covered atom and molecule patterns into intuitive and easy to maintain  a set of patterns.
 
 A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organisations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
 
@@ -3758,13 +4014,13 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/N0roPkORwmk/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/4ZYji8vIi5c/hqdefault.jpg)
 
-## [Mix'n'match UI Patterns Into Organisms - Create a Design System in Sketch, Ep5](https://www.youtube.com/watch?v=N0roPkORwmk)
+## [Molecules - Create a Design System in Sketch, Ep4](https://www.youtube.com/watch?v=4ZYji8vIi5c)
 
-Episode 5: Mix'n'match UI Patterns Into Organisms
+Episode 4: Molecules
 
-In this video, we will continue crafting atoms, molecules and the new construct in the Atomic Design system hierarchy - Organisms. We will combine previously covered atom and molecule patterns into intuitive and easy to maintain  a set of patterns.
+In this session, I'll show how previously discussed Atomic Design system atoms scale to make more complex functional patterns - molecules. I'll show the key steps when it comes to this pattern morphing and highlight all caveats when working with UX and UI pattern libraries and design systems.
 
 A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organisations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
 
@@ -3787,98 +4043,15 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/jPn_YTOAhMo/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/ZDpUOcfxXDI/hqdefault.jpg)
 
-## [Best Design Systems Examples and Tools - Design Tool Tuesday, Ep21](https://www.youtube.com/watch?v=jPn_YTOAhMo)
+## [Atoms - Create a Design System in Sketch, Ep3](https://www.youtube.com/watch?v=ZDpUOcfxXDI)
 
-Episode 21: Best Design Systems Examples and Tools
+Episode 3: Atoms
 
-This week’s pick: Design Systems Repo. A design tool-index directory for everything design systems. In this free web app, you'll find a collection of some of the best design systems to date, as well as series of articles, books, tools and everything to help you understand, get started and get inspired from the best. In this video, I'll share my experience with design systems repo, atomic design principles and how most of the design systems there use it etc.
+In this session, we will start deconstructing a proven UI mockup into the smallest UI particles - atoms. This is a first step at defining a new Atomic Design system in Sketch. We'll use existing Sketch symbol features as well as previously (ep2) defined system structure. 
 
-In this new weekly UX design, user research and product design tools series I'll share some of the best picks I've encountered to date. You'll find out about the best apps, extensions, websites and other helpful tools.
-
-Note: we're not affiliated with the tool makers. It's just a great UX tool you should know about.
-
-More Design Tool Tuesday videos on this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2Cp2lG7wKaYGg3TIk6GP14S6
-
-📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
-
-🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
-
-👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
-
-👨More from V:
-Blog: http://blog.vaexperience.com
-Instagram: http://instagram.com/vaexperience
-Twitter: http://twitter.com/vytautasalech
-Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
-#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/_E940UPw57U/hqdefault.jpg)
-
-## [Templates and Pages in Design Systems - Create a Design System in Sketch, Ep6](https://www.youtube.com/watch?v=_E940UPw57U)
-
-Episode 6: Templates and Pages in Design Systems
-
-In this video, we'll continue where we left off by setting up the initial atomic design system template. We already covered atoms, molecules and organisms in the previous videos. Now's the time to finalise the technical aspects of maintaining the design system and introducing flexible UX templates and pages structure. I'll show you not only how to port existing components, but also what you should do if you plan to introduce new UI patterns: update, maintain and roll out your design system in Sketch app.
-
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
-
-📹 Stay tuned for more sessions in this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
-
-📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
-
-🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
-
-👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
-
-👨More from V:
-Blog: http://blog.vaexperience.com
-Instagram: http://instagram.com/vaexperience
-Twitter: http://twitter.com/vytautasalech
-Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
-#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/Lgz4KiC2Bjw/hqdefault.jpg)
-
-## [Developer Handovers with Zeplin - Create a Design System in Sketch, Ep7](https://www.youtube.com/watch?v=Lgz4KiC2Bjw)
-
-Episode 7: Developer Handovers with Zeplin
-
-If you're a Sketch user and have been following along this design system tutorial series you probably have already noticed the gradual transition from the smallest atoms to pages that need to be somehow implemented. Too often expectations and design details get lost in the weeds because of the lack of a common environment to retain all the UI patterns. In this video on design systems, I'll share some of the easiest ways to perform design asset handovers to your front-end developers - Zeplin. 
-
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organisations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
-
-📹 Stay tuned for more sessions in this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
-
-📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
-
-🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
-
-👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
-
-👨More from V:
-Blog: http://blog.vaexperience.com
-Instagram: http://instagram.com/vaexperience
-Twitter: http://twitter.com/vytautasalech
-Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
-#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/tlBziCCzHuk/hqdefault.jpg)
-
-## [Design Systems: Getting Business Buy-in - Create a Design System in Sketch, Ep8](https://www.youtube.com/watch?v=tlBziCCzHuk)
-
-Episode 8: Design Systems: Getting Business Buy-in 
-
-In this video, I'll discuss the biggest issue that designers and engineers alike face when trying to introduce the very first atomic design system -- getting the buy-in from the business. Some designers don't even know where to start, others continuously struggle to convey design system value. There is one simple (not easy) workaround to conveying the value the businesses seek immediately. And it doesn't matter if you are using Sketch or Figma or what sort of organisation you're part of. If this is your first initiative with design systems - check the video. These principles will work for almost any design based initiative.
-
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organisations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
 
 📹 Stay tuned for more sessions in this playlist:
 https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
@@ -3898,17 +4071,18 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/Sod5l0leBMM/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/c6Rh3CPvsP0/hqdefault.jpg)
 
-## [Making Design System a Success - Create a Design System in Sketch, Ep9](https://www.youtube.com/watch?v=Sod5l0leBMM)
+## [Set Up an Atomic Design System Structure - Create a Design System in Sketch, Ep2](https://www.youtube.com/watch?v=c6Rh3CPvsP0)
 
-Episode 9: Making Design System a Success
+Episode 2: Set up an Atomic Design Structure
 
-In this episode for creating fully functional atomic design systems from scratch, I'll talk about 2 vital parts making this effort a success. Too often efforts that are done in isolation and that lack necessary buy-ins tend to end up collecting dust. What was meant to be transformative new living product design system becomes a crutch? This video will help you understand how to set up the right structures for people and underlying process so that you can start a system, but also ensure it will become an integral part of new feature design and development. 
+In this episode, I'll show you how to quickly set up your Sketch file to better accommodate the Atomic Design steps (atoms, molecules, organisms, templates and pages). This is one of the most important steps while creating an easy to maintain and experiment with design pattern library. 
 
-A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles.
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
 
-📹 Stay tuned for more sessions in this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
+📹 Stay tuned for more sessions in this playlist:
+https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
 
 📹 New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
 
@@ -3925,19 +4099,22 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/jnB_3pVLsCI/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/D3eVHGTIzTI/hqdefault.jpg)
 
-## [Best Starter Kit for a New Design System? - Design Tool Tuesday, Ep37](https://www.youtube.com/watch?v=jnB_3pVLsCI)
+## [Getting Started with Design Systems | Create a Design System in Sketch, Ep1](https://www.youtube.com/watch?v=D3eVHGTIzTI)
 
-Episode 37: Best Starter Kit for a New Design System?
+Episode 1: Getting Started with Design Systems
 
-This week’s pick: Details design system. A kit that I've used to start scalable and powerful UI and product design systems in an Atomic Design framework for quite some time. Details kit provides a simple yet structured starter for any designer to customise. Better yet, you can download Sketch and/or Figma version of their Atoms (and some of the molecules) for free. It doesn't get better than this, especially if you've been planning to create a decent system for one of your products or services.
+Note: apologies for potato sound quality... microphones are still tricky to get right.
 
-Note: we're not affiliated with the tool makers. It's just a great UX tool you should know about.
+This video will kickstart the new mini-tutorial series on creating your own design system using Sketch app. I’ll walk you through key steps, caveats, pros and cons to making a design system and more. 
 
-In this new weekly UX design, user research and product design tools series I'll share some of the best picks I've encountered to date. You'll find out about the best apps, extensions, websites and other helpful tools.
+A design system is a collection of reusable product design components, that are guided by clear standards. Design system patterns are usually tested with end-users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well-defined system is one of the best designer’s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. This mini-series will cover exactly that: how to make a simple design system from scratch using Sketch and Atomic design principles. 
 
-More Design Tool Tuesday videos on this playlist: https://www.youtube.com/playlist?list=PLM2Dd2NIn2Cp2lG7wKaYGg3TIk6GP14S6
+📹Stay tuned for more sessions in this playlist:
+https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_
+
+📹New to design systems? Watch this: https://youtu.be/l6YuGE6EjJA
 
 🙌SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ?sub_confirmation=1
 
@@ -3952,313 +4129,136 @@ Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) u
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/OeK7DoeEeuE/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/l6YuGE6EjJA/hqdefault.jpg)
 
-## [Designing Adaptive Components, Beyond Responsive Breakpoints -  Stéphanie Walter](https://www.youtube.com/watch?v=OeK7DoeEeuE)
+## [Design Systems: What are They and How to Get Started](https://www.youtube.com/watch?v=l6YuGE6EjJA)
 
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
+If you're thinking to scale a UX team, assure consistency across the range of products, or need a better all-round collaboration enhancement -- design systems are an invaluable asset. It can save tremendous amounts of time, allow for easy handovers to development, as well as keep the brand new feature development smooth. In this video I'll walk you through some examples of great design systems, show you how to get started and 2 key strategies to make it successful.
 
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+⚒️Tools to get started: 
+Invision Design System Manager (DSM): https://www.invisionapp.com/design-system-manager/
+Figma: https://www.figma.com/
+Zeplin: https://zeplin.io/
 
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
+🔄System examples:
+Gov.uk design system: https://design-system.service.gov.uk/
+Google's material design system: https://material.io/design/
+Lego design system: bricks!
 
-👋🏻 800 Design System Friends
-🎨 14 hours of content
+👍SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ
 
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
+---
+👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.
 
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+👨More:
+Blog: http://blog.vaexperience.com
+Instagram: http://instagram.com/vaexperience
+Twitter: http://twitter.com/vytautasalech
+Quora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience
+#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/eWT394G04Os/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/Z-3ygFVPBFM/hqdefault.jpg)
 
-## [Communicating design system decisions with design tokens -  Lukas Oppermann Live](https://www.youtube.com/watch?v=eWT394G04Os)
+## [Design Systems: Mastering Design at Scale - Series Trailer](https://www.youtube.com/watch?v=Z-3ygFVPBFM)
 
-#DesignTokens #Figma #DesignSystem #DesignSystems
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
+Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
 
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
 
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
-
-👋🏻 800 Design System Friends
-🎨 14 hours of content
-
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
-
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/LkQi6h2eXKs/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/9cQbRwgACzk/hqdefault.jpg)
 
-## [Managing A Design System - Kevin Dreher](https://www.youtube.com/watch?v=LkQi6h2eXKs)
+## [Design Systems: Mastering Design at Scale - Episode 2 Trailer](https://www.youtube.com/watch?v=9cQbRwgACzk)
 
-Managing A Design System - Kevin Dreher
+Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
 
-If you missed the conference:
-🎙 13 talks from Design System Experts
-📹 15 hours of video content
-🎨 Design Systems Roundtable
-🧑🏼‍💻 Access to the community (Networking board, Resources, Jobs)
+Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
 
-🔥Get it here: https://gum.co/HlJq​
-
-Next Event: Into Figma Design Systems:
-https://bit.ly/into-figmads
+Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/5GPx3aqXeL0/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/mdK6svwojoM/hqdefault.jpg)
 
-## [Moving from Sketch to Figma](https://www.youtube.com/watch?v=5GPx3aqXeL0)
+## [Design Systems: Mastering Design at Scale - Episode 4 Trailer](https://www.youtube.com/watch?v=mdK6svwojoM)
 
-#Sketch #Figma #DesignSystem
-Collaboration-First: Moving from Sketch, Abstract and InVision to Figma - Gui Schmitt 
+Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
 
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
+Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
 
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
-
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
-
-👋🏻 800 Design System Friends
-🎨 14 hours of content
-
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
-
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/3bBWYDvaONY/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/kelWRYDbwHs/hqdefault.jpg)
 
-## [Mastering design systems components in Figma - Jan Toman - Design System Lead @ Productboard](https://www.youtube.com/watch?v=3bBWYDvaONY)
+## [Design Systems: Mastering Design at Scale - Episode 3 Trailer](https://www.youtube.com/watch?v=kelWRYDbwHs)
 
-#Figma #DesignSystem #UIKit #UIDesign 
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
+Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
 
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
 
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
-
-👋🏻 800 Design System Friends
-🎨 14 hours of content
-
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
-
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/mDPbLJSQYdo/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/6Q_9vWvfj1s/hqdefault.jpg)
 
-## [What are Design Tokens in Figma?](https://www.youtube.com/watch?v=mDPbLJSQYdo)
+## [Design Systems: Mastering Design at Scale - Episode 5 Trailer](https://www.youtube.com/watch?v=6Q_9vWvfj1s)
 
-#FigmaTokens #DesignTokens #Figma #DesignSystem
-⚡️Full workshop with Jan Six (recording):
-👉🏻 https://bit.ly/figmatokens-workshop
+Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
 
-What's included in the full workshop:
-🎬 What's new in Figma Tokens
-🎬 How to create Design Tokens in Figma:
-- Color Tokens
-- Spacing Tokens
-- Radius Tokens 
-- References
-- Math
-- Typography Tokens 
-- Shadow Tokens
+Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
 
-🎬 Token-sets and Theming
-- What are Design Tokens?
-- Naming Conventions
-- Light Theme & Dark Theme
-- Simple Tokens Sets
-- Complex Token Sets
-- Sets vs. Themes in Figma Tokens
-
-🎬 How to create token sets & themes
-- How to do cross-file theming 
-- Getting tokens across files 
-- Enable GitHub & use tokens 
-
-🎬 Component tokens & collaboration
-- Component Tokens
-- Create & apply component tokens 
-- Communicating applied design tokens
-- Handoff
-- Getting tokens to developers
-- Exporting Tokens 
-- Transforming Design Tokens
-- Style Dictionary
-
-
-
-🎬 Best Practices
-- Convert your existing design system
-- Use the Multi Inspector
-- Create fluid scales
-- Create theme independent shadows
-- Use branching
-- Approval / Review
-- How to document
-- Encourage contributions 
-
-🎬 Q&A with Jan 
-👉🏻 https://bit.ly/figmatokens-workshop
+Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/RrfOS-02kT0/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/6Pof8_yOHBk/hqdefault.jpg)
 
-## [Networking at Into Design Systems](https://www.youtube.com/watch?v=RrfOS-02kT0)
+## [Design Systems: Mastering Design at Scale - Episode 6 Trailer](https://www.youtube.com/watch?v=6Pof8_yOHBk)
 
-Interact with hosts, speakers and the audience - live on zoom, Miro or Chat. 
+Watch now: https://www.invisionapp.com/design-system-manager/expert-advice
 
-⚡️Join our next Design Systems conference:
-🛸The Future of Design Systems, May 23-25 2022 - Online
-Speakers from Volkswagen AG, Deutsche Telekom, Citrix & more.
+Watch today’s most influential design system pros share field-tested recommendations in a new InVision video series—Design Systems: Mastering Design at Scale.
 
-🔥Topics:
-- Multibrand Design Systems
-- Design Tokens 
-- Automation of creating Design System Libraries
-- Design Ops
-& more.
-
-🔥3-day of insights from experts, live talks, demos, Q&As & more
-👩🏻‍🎨20+ speakers
-❤️500 #DesignSystem Friends
-👉🏻Tickets: https://bit.ly/futureofds
+Featuring up-close insight from Brad Frost, Dan Mall, and Josh Clark, this six-part course teaches you how to create, maintain, and evolve a single source of design truth that unites—and scales with—your entire organization.
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/oNbf3AZBR0M/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/wBAdjwGBHZ4/hqdefault.jpg)
 
-## [Structuring Multi Product Design Systems - Sergej Spomer 🟢live Into Design Systems Conference & Q&A](https://www.youtube.com/watch?v=oNbf3AZBR0M)
+## [When and Why to Unit Test Your Sass | Sparkbox Web Development](https://www.youtube.com/watch?v=wBAdjwGBHZ4)
 
-#DesignSystem #DesignSystems #IntoDesignSystems #DesignOps
-⚡️Join our next Design Systems conference:
-🛸 The Future of Design Systems - Online
-🗓 23-24-25 May (online)
-🔥3-day of insights from experts, live talks, demos, Q&As & more
-👩🏻‍🎨20+ speakers from companies like Volkswagen, Deutsche Telekom, GitHub & more
-🪄30+ hours of content 
-🎨 3 hands-on Design System Workshops
-👉🏻👉🏻👉🏻 Tickets: https://intodesignsystems.com
+Want to ensure your code is compiling as expected? In this video clip from her CodeMash presentation, Sparkerboxer Lindsay Wild explains how unit testing your Sass can help.
+
+Learn more about unit testing your Sass, including best practices: https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass
+
+Learn more about how Sparkbox can help bring your web project to life: https://seesparkbox.com/what-we-do
 
 ---
 
-![Thumbnail](https://i.ytimg.com/vi/m1i_PVwtL7o/hqdefault.jpg)
+![Thumbnail](https://i.ytimg.com/vi/vmkKQNJjOKA/hqdefault.jpg)
 
-## [Design Systems - What is Semantic Versioning?](https://www.youtube.com/watch?v=m1i_PVwtL7o)
+## [Your Design System Team Is Part of the Product](https://www.youtube.com/watch?v=vmkKQNJjOKA)
 
-#DesignSystem #DesignSystems
-Versioning Design Systems - Gijora Dammann live at Into Design Systems, March 2021
+There is an important principle of design system teams that is easy to overlook. Drew shares from Sparkbox’s experience.
 
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
+Want to see more? Read the accompanying article: https://seesparkbox.com/foundry/design_systems_teams_are_part_of_the_product
 
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
+New to the concept of design systems and want to learn more? 
+We have a great resource for you on The Foundry: https://seesparkbox.com/foundry/lets_talk_design_system
+You can also check out the results from our 2018 Design Systems Survey: 
+https://designsystemssurvey.seesparkbox.com/2018
 
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
+Read more by Drew: https://seesparkbox.com/foundry/author/drew_clemens
 
-👋🏻 800 Design System Friends
-🎨 14 hours of content
-
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
-
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/C8TK8B-pa5I/hqdefault.jpg)
-
-## [How we migrated to Figma and what we've learned - Alexander Fandén live - Into Figma Design Systems](https://www.youtube.com/watch?v=C8TK8B-pa5I)
-
-#Figma #Sketch #DesignSystem #IntoDesignSystems
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
-
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
-
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
-
-👋🏻 800 Design System Friends
-🎨 14 hours of content
-
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
-
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
-
----
-
-![Thumbnail](https://i.ytimg.com/vi/rz1byNE4MI4/hqdefault.jpg)
-
-## [Managing A Design System -  Kevin Dreher 🟢  Live at Into Design Systems Conference](https://www.youtube.com/watch?v=rz1byNE4MI4)
-
-#DesignSystem #DesignSystems #Figma #DesignOps
-⚡️Ready to take your design system skills to the next level? 
-Join the biggest virtual, interactive Design Systems conference worldwide.
-
-The Future of Design Systems 🚀 - https://www.intodesignsystems.com
-
-🗓️June 8-9 Online 🌎worldwide
-⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️
-Join us 🙌🏻
-
-👋🏻 800 Design System Friends
-🎨 14 hours of content
-
-Main topics:
-🎨 Headless Design Systems
-🤖 Automation of Design Systems
-📈 Data Driven Design Systems
-⚡️ Design Tokens
-
-👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com
+Learn more about how Sparkbox can help bring your web project to life: https://seesparkbox.com/what-we-do
 
 ---
 

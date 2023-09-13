@@ -25,7 +25,7 @@ async function getAllVideosFromPlaylist(playlistId) {
         playlistId: playlistId,
         maxResults: 50, // Adjust the number of results per page as needed
         pageToken: nextPageToken,
-        part: "snippet",
+        part: "snippet", // Include snippet.publishedAt
       });
 
       const videoItems = response.data.items;
@@ -38,6 +38,7 @@ async function getAllVideosFromPlaylist(playlistId) {
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
+            publishedAt: item.snippet.publishedAt, // Include publishedAt
           };
 
           // Retrieve the full video description
@@ -80,7 +81,7 @@ async function getAllVideosFromChannel(channelId) {
         maxResults: 50, // Adjust the number of results per page as needed
         pageToken: nextPageToken,
         order: "date", // You can change the order if needed (e.g., 'viewCount', 'relevance')
-        part: "snippet",
+        part: "snippet", // Include snippet.publishedAt
         type: "video",
       });
 
@@ -94,6 +95,7 @@ async function getAllVideosFromChannel(channelId) {
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${item.id.videoId}`,
+            publishedAt: item.snippet.publishedAt, // Include publishedAt
           };
 
           // Retrieve the full video description
@@ -159,6 +161,13 @@ async function main() {
         allVideos.push(...playlistVideos);
       }
     }
+
+    // Sort videos by publish date in descending order
+    allVideos.sort((a, b) => {
+      const dateA = new Date(a.publishedAt);
+      const dateB = new Date(b.publishedAt);
+      return dateB - dateA;
+    });
 
     // Process the combined video data as needed
     console.log(`Total videos retrieved: ${allVideos.length}`);
