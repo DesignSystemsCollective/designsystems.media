@@ -13,7 +13,7 @@ const media = (await getCollection("media")).sort(
 ---
 
 <!doctype html>
-<html lang="en" transition:name="root"  transition:animate="none">
+<html lang="en" transition:animate="none">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 
@@ -80,16 +80,16 @@ const media = (await getCollection("media")).sort(
   </head>
   <body>
     <Header title={SITE_TITLE} />
-    <main>
+    <main transition:animate="fade">
       <section>
         <div class="media-grid">
           {
-            media.map((media) => (
+            media.slice(0, 12).map((media) => (
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
                     <div class="media-image"><img
-                      width={720}
+                      width={320}
                       src={media.data.image}
                       alt={media.data.title}
                       class=""
