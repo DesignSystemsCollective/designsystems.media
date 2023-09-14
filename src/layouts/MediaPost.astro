@@ -17,7 +17,7 @@ const currentPath = Astro.url.pathname;
 
 ---
 
-<html lang="en" transition:name="root" transition:animate="fade">
+<html lang="en" transition:name="root"  transition:animate="fade">
   <head>
     <BaseHead title={title} description={description} />
 
@@ -27,28 +27,14 @@ const currentPath = Astro.url.pathname;
         max-width: 100%;
         margin: 0;
       }
-      .hero-image {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-      .hero-image-transition {
-        position: absolute;
-        z-index: 1;
-      max-width: 720px;
-      aspect-ratio: auto 16/9;
-      }
-      .hero-image .video-wrapper {
-        position: relative;
-        z-index: 2;
-      display:block;
-      min-height:405px;
-      max-width: 720px;
-      aspect-ratio: auto 16/9;
-      }
+      
+			.hero-image {
+				width: 100%;
+			}
       .hero-image .video-embed {
         border-radius: 12px;
         box-shadow: var(--box-shadow);
+        margin: 0 auto;
         
       }
       .prose {
@@ -84,9 +70,8 @@ const currentPath = Astro.url.pathname;
     <main>
       <article>
      
-        <div class="hero-image"> {image && <img width={1020} height={510} src={image} alt={title} class="hero-image-transition"
-                       transition:name={transitionName} />}
-         <div class="video-wrapper"><YouTube id={videoUrl ?? ""} class="video-embed"  transition:animate={fade({ duration: '1.5s' })} /></div>
+        <div class="hero-image"> 
+         <YouTube id={videoUrl ?? ""} class="video-embed" transition:name={transitionName}   />
         </div>
         <div class="prose">
           <div class="title">
