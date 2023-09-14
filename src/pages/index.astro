@@ -12,9 +12,10 @@ const media = (await getCollection("media")).sort(
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:name="root" transition:animate="fade">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+
     <style>
       /* Mobile layout - 1 column */
       .media-grid {
@@ -64,6 +65,7 @@ const media = (await getCollection("media")).sort(
         color: #888;
       }
     </style>
+
   </head>
   <body>
     <Header title={SITE_TITLE} />
@@ -79,9 +81,10 @@ const media = (await getCollection("media")).sort(
                       width={720}
                       height={360}
                       src={media.data.image}
-                      alt=""
+                      alt={media.data.title}
                       class="media-image"
-                    />
+                      transition:name={media.slug} 
+                />
                     <h4 class="title">{media.data.title}</h4>
                     <p class="date">
                       <FormattedDate date={media.data.publishedAt} />
