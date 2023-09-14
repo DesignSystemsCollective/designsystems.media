@@ -13,7 +13,7 @@ const media = (await getCollection("media")).sort(
 ---
 
 <!doctype html>
-<html lang="en" transition:name="root" transition:animate="none">
+<html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 
@@ -56,7 +56,6 @@ const media = (await getCollection("media")).sort(
         height: auto;
         aspect-ratio: auto 16/9;
         overflow: hidden;
-
         object-fit: cover;
       }
       .media-image img {
@@ -88,12 +87,13 @@ const media = (await getCollection("media")).sort(
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
-                    <div class="media-image" transition:name={media.slug}>
+                    <div class="media-image">
                       <img
                         width={720}
                         src={media.data.image}
                         alt={media.data.title}
                         class=""
+                        transition:name={media.slug}
                       />
                     </div>
                     <h4 class="title">{media.data.title}</h4>
