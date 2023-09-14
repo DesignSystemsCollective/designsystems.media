@@ -72,15 +72,15 @@ const media = (await getCollection("media")).sort(
         <div class="media-grid">
           {
             media.map((media) => (
-              <div key={media.data.id} class="media-item">
-                <a href={media.data.videoUrl} class="media-link">
+              <div class="media-item">
+                <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
                     <img
                       width={720}
                       height={360}
                       src={media.data.image}
                       alt=""
-                      className="media-image"
+                      class="media-image"
                     />
                     <h4 class="title">{media.data.title}</h4>
                     <p class="date">
