@@ -10,6 +10,42 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@astro-community/astro-embed-integration@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-integration/-/astro-embed-integration-0.5.1.tgz#f6a2beb2263ef8f66b9a6fbc273fa8947e750352"
+  integrity sha512-K1mJHRs0GGAwn2VmOR9JhXFOoCgW2G4GjjdJDqPncfT+BxeoTa/6IP7EMdRlHetIxNliPETVbleRUTV04ztrTA==
+  dependencies:
+    "@astro-community/astro-embed-twitter" "^0.5.1"
+    "@astro-community/astro-embed-vimeo" "^0.3.1"
+    "@astro-community/astro-embed-youtube" "^0.4.1"
+    "@types/unist" "^2.0.0"
+    astro-auto-import "^0.3.0"
+    unist-util-select "^4.0.1"
+
+"@astro-community/astro-embed-twitter@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-twitter/-/astro-embed-twitter-0.5.1.tgz#904578a88c1fe8480dc88a4f083eb5638f6f111c"
+  integrity sha512-o0Mh80u2BIV8kLhyq3ZL+TN2jjiSBL+3svlfjzdrgIIGdhtZI9xf4wYqu+7xlEjKKil7NUbQTswZHd2UYltY+Q==
+  dependencies:
+    "@astro-community/astro-embed-utils" "^0.1.0"
+
+"@astro-community/astro-embed-utils@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-utils/-/astro-embed-utils-0.1.0.tgz#81339d39b73e248fe6b703b17a980fb7f39c8929"
+  integrity sha512-whbRs9JpUApKwdzfkakBPVQT73LFxgj/RrfUu0IXTDf5SqxniZaXG4WcdG5MKj0nQyc82O21f1RnY3ddOo/yng==
+
+"@astro-community/astro-embed-vimeo@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-vimeo/-/astro-embed-vimeo-0.3.1.tgz#39ea9f2be888a6b85ef1d9600f21141a0f1f7ee9"
+  integrity sha512-gubZBvCmD7HVUhjsxcm6XoEhypmqN0B98/+51TbgYNdK8KMAkl+L7VCYU7sKfw3Gz9cmCQZzgJWzcifDYGzSTw==
+
+"@astro-community/astro-embed-youtube@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-youtube/-/astro-embed-youtube-0.4.1.tgz#61f1f48ec1e7c81743c0a33bb55724b91d5a4ea1"
+  integrity sha512-sS3zp3JpCkQl0yl5iCZSuCcankz0Ownjg0Ju5KdON4BJVZUh2gHySCCvqKpsNWwto2VESKi9v7KHi1/R386FZg==
+  dependencies:
+    lite-youtube-embed "^0.2.0"
+
 "@astrojs/compiler@^2.1.0":
   version "2.1.0"
   resolved "https://registry.npmjs.org/@astrojs/compiler/-/compiler-2.1.0.tgz"
@@ -707,6 +743,11 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-17.0.45.tgz"
   integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
 
+"@types/node@^18.0.0":
+  version "18.17.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.15.tgz#31301a273b9ca7d568fe6d1c35ae52e0fb3f8d6a"
+  integrity sha512-2yrWpBk32tvV/JAd3HNHWuZn/VDN1P+72hWirHnvsvTGSqbANi+kSeuQR9yAHnbvaBvHDsoTdXV0Fe+iRtHLKA==
+
 "@types/parse5@^6.0.0":
   version "6.0.3"
   resolved "https://registry.npmjs.org/@types/parse5/-/parse5-6.0.3.tgz"
@@ -734,7 +775,7 @@ acorn-jsx@^5.0.0:
   resolved "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz"
   integrity sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==
 
-acorn@^8.0.0, acorn@^8.10.0:
+acorn@^8.0.0, acorn@^8.10.0, acorn@^8.8.0:
   version "8.10.0"
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.10.0.tgz"
   integrity sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==
@@ -814,6 +855,24 @@ astring@^1.8.0:
   version "1.8.6"
   resolved "https://registry.npmjs.org/astring/-/astring-1.8.6.tgz"
   integrity sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==
+
+astro-auto-import@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/astro-auto-import/-/astro-auto-import-0.3.1.tgz#0a444be679f8a02623bca95b1f1144550144e9b7"
+  integrity sha512-4kXZMlZFiq3dqT6fcfPbCjHTABQ279eKbIqZAb6qktBhGlmHwpHr1spOUFj/RQFilaWVgfjzOBmuZnoydZb5Vg==
+  dependencies:
+    "@types/node" "^18.0.0"
+    acorn "^8.8.0"
+
+astro-embed@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/astro-embed/-/astro-embed-0.5.1.tgz#991e4843fa207c861028d76721a90a2199c0726a"
+  integrity sha512-ucrikhD3KwuTLNJUbZmAYddGakf9Tmw4TBr43YseGPfpZrKk1rMOD70d6ehj7Ai3kkTziab1vGXA56dAWf9bVg==
+  dependencies:
+    "@astro-community/astro-embed-integration" "^0.5.1"
+    "@astro-community/astro-embed-twitter" "^0.5.1"
+    "@astro-community/astro-embed-vimeo" "^0.3.1"
+    "@astro-community/astro-embed-youtube" "^0.4.1"
 
 astro@^3.0.13:
   version "3.0.13"
@@ -920,6 +979,11 @@ bl@^5.0.0:
     buffer "^6.0.3"
     inherits "^2.0.4"
     readable-stream "^3.4.0"
+
+boolbase@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
+  integrity sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
 
 boxen@^7.1.1:
   version "7.1.1"
@@ -1152,6 +1216,11 @@ cross-spawn@^7.0.3:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+css-selector-parser@^1.0.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/css-selector-parser/-/css-selector-parser-1.4.1.tgz#03f9cb8a81c3e5ab2c51684557d5aaf6d2569759"
+  integrity sha512-HYPSb7y/Z7BNDCOrakL4raGO2zltZkbeXyAd6Tg9obzix6QhzxCotdBl6VT0Dv4vZfJGVz3WL/xaEI9Ly3ul0g==
 
 debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.3.4:
   version "4.3.4"
@@ -1978,6 +2047,11 @@ kleur@^4.0.3, kleur@^4.1.4, kleur@^4.1.5:
   resolved "https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
+lite-youtube-embed@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/lite-youtube-embed/-/lite-youtube-embed-0.2.0.tgz#db95eab9dd448f02e83de906383350a8033d54fe"
+  integrity sha512-XXXAk5sbvtjjwbie3XG+6HppgTm1HTGL/Uk9z9NkJH53o7puZLur434heHzAjkS60hZB3vT4ls25zl5rMiX4EA==
+
 load-yaml-file@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/load-yaml-file/-/load-yaml-file-0.2.0.tgz"
@@ -2712,6 +2786,13 @@ npm-run-path@^5.1.0:
   integrity sha512-sJOdmRGrY2sjNTRMbSvluQqg+8X7ZK61yvzBEIDhz4f8z1TZFYABsqjjCBd/0PUNE9M6QDgHJXQkGUEm7Q+l9Q==
   dependencies:
     path-key "^4.0.0"
+
+nth-check@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-2.1.1.tgz#c9eab428effce36cd6b92c924bdb000ef1f1ed1d"
+  integrity sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==
+  dependencies:
+    boolbase "^1.0.0"
 
 object-inspect@^1.9.0:
   version "1.12.3"
@@ -3587,6 +3668,16 @@ unist-util-remove-position@^4.0.0:
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-visit "^4.0.0"
+
+unist-util-select@^4.0.1:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/unist-util-select/-/unist-util-select-4.0.3.tgz#861b403e273d9f677685dd9edefc663dbe1bf517"
+  integrity sha512-1074+K9VyR3NyUz3lgNtHKm7ln+jSZXtLJM4E22uVuoFn88a/Go2pX8dusrt/W+KWH1ncn8jcd8uCQuvXb/fXA==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    css-selector-parser "^1.0.0"
+    nth-check "^2.0.0"
+    zwitch "^2.0.0"
 
 unist-util-stringify-position@^3.0.0:
   version "3.0.3"
