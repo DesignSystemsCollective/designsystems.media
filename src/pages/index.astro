@@ -5,15 +5,15 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import { ViewTransitions } from "astro:transitions";
 
-import { fade } from 'astro:transitions';
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
 ---
 
 <!doctype html>
-<html lang="en" transition:name="root"  transition:animate="none">
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 
@@ -57,7 +57,7 @@ const media = (await getCollection("media")).sort(
         aspect-ratio: auto 16/9;
         overflow: hidden;
 
-  object-fit: cover;
+        object-fit: cover;
       }
       .media-image img {
         width: 100%;
@@ -76,7 +76,7 @@ const media = (await getCollection("media")).sort(
         color: #888;
       }
     </style>
-
+    <ViewTransitions />
   </head>
   <body>
     <Header title={SITE_TITLE} />
@@ -88,13 +88,15 @@ const media = (await getCollection("media")).sort(
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
-                    <div class="media-image"><img
-                      width={720}
-                      src={media.data.image}
-                      alt={media.data.title}
-                      class=""
-                      transition:name={media.slug} 
-                /></div>
+                    <div class="media-image">
+                      <img
+                        width={720}
+                        src={media.data.image}
+                        alt={media.data.title}
+                        class=""
+                        transition:name={media.slug}
+                      />
+                    </div>
                     <h4 class="title">{media.data.title}</h4>
                     <p class="date">
                       <FormattedDate date={media.data.publishedAt} />

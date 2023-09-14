@@ -14,6 +14,7 @@ type Props = CollectionEntry<"media">;
 const post = Astro.props;
 const { Content } = await post.render();
 ---
-<MediaPost {...post.data}>
+
+<MediaPost {...post}>
   <Content />
 </MediaPost>
