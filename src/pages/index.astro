@@ -13,10 +13,9 @@ const media = (await getCollection("media")).sort(
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-
     <style>
       /* Mobile layout - 1 column */
       .media-grid {
@@ -75,7 +74,6 @@ const media = (await getCollection("media")).sort(
         color: #888;
       }
     </style>
-    <ViewTransitions />
   </head>
   <body>
     <Header title={SITE_TITLE} />
