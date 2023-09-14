@@ -9,7 +9,7 @@ import Header from "../components/Header.astro";
 type Props = CollectionEntry<"media">["data"];
 
 import { fade } from 'astro:transitions';
-const { title, description, publishedAt, updatedDate, image, videoUrl } =
+const { title, description, publishedAt, updatedDate, image, videoUrl, poster } =
   Astro.props;
 
 const currentPath = Astro.url.pathname;
@@ -71,7 +71,7 @@ const currentPath = Astro.url.pathname;
       <article>
      
         <div class="hero-image"> 
-         <YouTube id={videoUrl ?? ""} class="video-embed" transition:name={transitionName}   />
+         <YouTube id={videoUrl ?? ""} class="video-embed" transition:name={transitionName} poster={poster}  />
         </div>
         <div class="prose">
           <div class="title">

@@ -20,6 +20,7 @@ const mediaCollection = defineCollection({
     publishedAt: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     image: z.string().optional(),
+    poster: z.string().optional(),
     videoUrl: z.string().optional(),
   }),
 });
