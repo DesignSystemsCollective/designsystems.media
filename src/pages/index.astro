@@ -9,8 +9,6 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
-
-import "../styles/global.css";
 ---
 
 <style>
