@@ -15,6 +15,55 @@ const media = (await getCollection("media")).sort(
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      /* Mobile layout - 1 column */
+      .media-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      /* Tablet layout - 2 columns */
+      @media screen and (min-width: 768px) {
+        .media-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      /* Larger screens - 3 columns */
+      @media screen and (min-width: 1024px) {
+        .media-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      /* Style for each media item */
+      .media-item {
+        margin: 0;
+      }
+
+      .media-link {
+        text-decoration: none;
+      }
+
+      .media-content {
+      }
+
+      .media-image {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .title {
+        font-size: 16px;
+        margin: 10px 0;
+      }
+
+      .date {
+        font-size: 14px;
+        color: #888;
+      }
+    </style>
   </head>
   <body>
     <Header title={SITE_TITLE} />
