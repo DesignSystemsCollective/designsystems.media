@@ -73,7 +73,7 @@ const media = (await getCollection("media")).sort(
           {
             media.map((media) => (
               <div key={media.data.id} class="media-item">
-                <a href={media.data.videoUrl} class="media-link">
+                <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
                     <img
                       width={720}

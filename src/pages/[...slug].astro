@@ -1,0 +1,20 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import MediaPost from "../layouts/MediaPost.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("media");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"blog">;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<MediaPost {...post.data}>
+  <Content />
+</MediaPost>

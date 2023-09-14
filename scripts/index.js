@@ -166,7 +166,6 @@ function generateMdxFile(video, folderPath) {
   fs.writeFileSync(
     indexPath,
     `---
-layout: '../layouts/MediaPost.astro'
 title: >
   "${videoTitle}"
 publishedAt: "${video.publishedAt}"
