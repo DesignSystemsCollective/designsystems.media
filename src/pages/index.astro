@@ -6,17 +6,14 @@ import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
-import { fade } from 'astro:transitions';
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
 ---
 
 <!doctype html>
-<html lang="en" transition:animate="none">
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-
     <style>
       /* Mobile layout - 1 column */
       .media-grid {
@@ -56,8 +53,7 @@ const media = (await getCollection("media")).sort(
         height: auto;
         aspect-ratio: auto 16/9;
         overflow: hidden;
-
-  object-fit: cover;
+        object-fit: cover;
       }
       .media-image img {
         width: 100%;
@@ -76,7 +72,7 @@ const media = (await getCollection("media")).sort(
         color: #888;
       }
     </style>
-
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
     <Header title={SITE_TITLE} />

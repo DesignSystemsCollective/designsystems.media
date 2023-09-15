@@ -6,18 +6,23 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 
-type Props = CollectionEntry<"media">["data"];
+type Props = CollectionEntry<"media">;
 
-import { fade } from 'astro:transitions';
-const { title, description, publishedAt, updatedDate, image, videoUrl, poster } =
-  Astro.props;
-
-const currentPath = Astro.url.pathname;
-  const transitionName = currentPath.slice(1);
-
+const {
+  slug,
+  data: {
+    title,
+    description,
+    publishedAt,
+    updatedDate,
+    image,
+    videoUrl,
+    poster,
+  },
+} = Astro.props;
 ---
 
-<html lang="en" transition:animate="none">
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
     <BaseHead title={title} description={description} />
 
@@ -27,15 +32,14 @@ const currentPath = Astro.url.pathname;
         max-width: 100%;
         margin: 0;
       }
-      
-			.hero-image {
-				width: 100%;
-			}
+
+      .hero-image {
+        width: 100%;
+      }
       .hero-image .video-embed {
         border-radius: 12px;
         box-shadow: var(--box-shadow);
         margin: 0 auto;
-        
       }
       .prose {
         width: 720px;
@@ -61,17 +65,19 @@ const currentPath = Astro.url.pathname;
         font-style: italic;
       }
     </style>
-
-
   </head>
 
   <body>
     <Header />
     <main transition:animate="fade">
       <article>
-     
-        <div class="hero-image"> 
-         <YouTube id={videoUrl ?? ""} class="video-embed" transition:name={transitionName} poster={poster}  />
+        <div class="hero-image">
+          <YouTube
+            id={videoUrl ?? ""}
+            class="video-embed"
+            transition:name={slug}
+            poster={poster}
+          />
         </div>
         <div class="prose">
           <div class="title">
