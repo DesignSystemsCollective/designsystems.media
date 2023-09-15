@@ -2,6 +2,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import MediaPost from "../layouts/MediaPost.astro";
 
+import { Image } from "astro:assets";
 export async function getStaticPaths() {
   const posts = await getCollection("media");
   return posts.map((post) => ({
