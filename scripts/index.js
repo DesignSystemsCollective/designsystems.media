@@ -131,6 +131,7 @@ async function getAllVideosFromChannel(channelId) {
 // Function to generate an MDX file with video data
 function generateMdxFile(video, folderPath) {
   const thumbnailUrl = video.thumbnails.high.url;
+  const posterUrl = video.thumbnails.maxres.url;
   const videoTitle = video.title;
   const videoUrl = video.videoUrl;
   const videoDescription = video.description;
@@ -166,10 +167,10 @@ function generateMdxFile(video, folderPath) {
   fs.writeFileSync(
     indexPath,
     `---
-title: >
-  "${videoTitle}"
+title: "${videoTitle}"
 publishedAt: "${video.publishedAt}"
 image: "${thumbnailUrl}"
+image: "${posterUrl}"
 videoUrl: "${videoUrl}"
 ---
 ${videoDescription}\n`

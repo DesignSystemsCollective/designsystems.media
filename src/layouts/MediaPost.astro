@@ -6,29 +6,40 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 
-type Props = CollectionEntry<"media">["data"];
+import { Image } from "astro:assets";
+type Media = CollectionEntry<"media">;
+type Props = Media["data"] & { slug?: Media["slug"] };
 
-const { title, description, publishedAt, updatedDate, image, videoUrl } =
-  Astro.props;
+const {
+  title,
+  description,
+  publishedAt,
+  updatedDate,
+  image,
+  videoUrl,
+  poster,
+  slug,
+} = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" transition:name="root" transition:animate="fade">
   <head>
     <BaseHead title={title} description={description} />
+
     <style>
       main {
         width: calc(100% - 2em);
         max-width: 100%;
         margin: 0;
       }
+
       .hero-image {
         width: 100%;
       }
       .hero-image .video-embed {
-        display: block;
-        margin: 0 auto;
         border-radius: 12px;
         box-shadow: var(--box-shadow);
+        margin: 0 auto;
       }
       .prose {
         width: 720px;
@@ -58,11 +69,15 @@ const { title, description, publishedAt, updatedDate, image, videoUrl } =
 
   <body>
     <Header />
-    <main>
+    <main transition:animate="fade">
       <article>
         <div class="hero-image">
-          <!-- {image && <img width={1020} height={510} src={image} alt="" />} -->
-          <YouTube id={videoUrl ?? ""} class="video-embed" />
+          <YouTube
+            id={videoUrl ?? ""}
+            class="video-embed"
+            transition:name={slug}
+            poster={poster.src}
+          />
         </div>
         <div class="prose">
           <div class="title">
