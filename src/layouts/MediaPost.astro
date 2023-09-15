@@ -6,19 +6,18 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 
-type Props = CollectionEntry<"media">;
+type Media = CollectionEntry<"media">;
+type Props = Media["data"] & { slug?: Media["slug"] };
 
 const {
+  title,
+  description,
+  publishedAt,
+  updatedDate,
+  image,
+  videoUrl,
+  poster,
   slug,
-  data: {
-    title,
-    description,
-    publishedAt,
-    updatedDate,
-    image,
-    videoUrl,
-    poster,
-  },
 } = Astro.props;
 ---
 
