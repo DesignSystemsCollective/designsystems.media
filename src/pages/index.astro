@@ -81,7 +81,7 @@ const media = (await getCollection("media")).sort(
       <section>
         <div class="media-grid">
           {
-            media.slice(0, 12).map((media) => (
+            media.map((media) => (
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
