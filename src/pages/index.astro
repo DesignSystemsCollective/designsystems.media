@@ -6,6 +6,7 @@ import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
+import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
@@ -82,14 +83,14 @@ const media = (await getCollection("media")).sort(
         <div class="media-grid">
           {
             media.map((media) => (
+
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
-                    <div class="media-image"><img
-                      width={320}
-                      src={media.data.image.src}
+                    <div class="media-image"><Image
+                      width={386}
+                      src={media.data.image}
                       alt={media.data.title}
-                      class=""
                       transition:name={media.slug} 
                 /></div>
                     <h4 class="title">{media.data.title}</h4>
