@@ -1,0 +1,35 @@
+---
+import Layout from "../../layouts/MediaPost.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const allMedia = await getCollection('media');
+
+  // Filter out posts without tags or undefined tags
+  const uniqueTags = [...new Set(allMedia.map((post) => post.data.tags).flat())];
+
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allMedia.filter((post) => post.data.tags); // Check if tags are defined
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
+}
+interface Props {
+  post: CollectionEntry<'media'>;
+}
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+---
+<Layout
+  title={tag}
+  description={`Posts tagged with ${tag}`}
+>
+  <p>Posts tagged with {tag}</p>
+  <ul>
+     {posts.map((post) => (
+       <MediaPost url={post.url} title={post.data.title} />
+     ))}
+  </ul>
+</Layout>

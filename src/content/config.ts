@@ -9,9 +9,11 @@ const mediaCollection = defineCollection({
       // Transform string to Date object
       publishedAt: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
-      image: image(),
-      poster: image(),
+      image: image().optional(),
+      poster: image().optional(),
       videoUrl: z.string().optional(),
+      tags: z.array(z.string()).optional(),
+      categories: z.array(z.string()).optional(),
     }),
 });
 export const collections = {
