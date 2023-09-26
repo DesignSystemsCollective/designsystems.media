@@ -13,8 +13,111 @@ const outputFilename = "data/output.json";
 const outputMdFilename = "data/output.md";
 const outputDir = "../src/content/media/";
 
+// Load previously imported video data from output.json if it exists
+let importedVideoData = [];
+
+if (fs.existsSync(outputFilename)) {
+  importedVideoData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
+}
+
 // Import the sources from sources.json
 const sourcesData = require("./sources.json");
+
+// Function to format video duration
+function formatDuration(rawDuration) {
+  // Extract hours, minutes, and seconds from the raw duration
+  const match = rawDuration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
+
+  const hours = match[1] ? parseInt(match[1], 10) : 0;
+  const minutes = match[2] ? parseInt(match[2], 10) : 0;
+  const seconds = match[3] ? parseInt(match[3], 10) : 0;
+
+  // Format the duration as "HH:MM:SS"
+  const formattedDuration = `${hours}:${String(minutes).padStart(
+    2,
+    "0"
+  )}:${String(seconds).padStart(2, "0")}`;
+
+  return formattedDuration;
+}
+
+// Function to retrieve all video data from a channel
+async function getAllVideosFromChannel(channelId) {
+  try {
+    const videos = [];
+    let nextPageToken = null;
+
+    do {
+      const response = await youtube.search.list({
+        auth: API_KEY,
+        channelId: channelId,
+        maxResults: 50,
+        pageToken: nextPageToken,
+        order: "date",
+        part: "snippet",
+        type: "video",
+      });
+
+      const videoItems = response.data.items;
+      nextPageToken = response.data.nextPageToken;
+
+      if (videoItems) {
+        for (const item of videoItems) {
+          const videoId = item.id.videoId;
+
+          // Check if the video ID has already been imported
+          if (
+            importedVideoData.some((video) => video.videoUrl.includes(videoId))
+          ) {
+            console.log(`Skipping video with ID ${videoId} (already imported)`);
+            continue; // Skip this video and continue to the next one
+          }
+
+          const videoData = {
+            title: item.snippet.title,
+            description: "", // Initialize description as an empty string
+            thumbnails: item.snippet.thumbnails,
+            videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
+            publishedAt: item.snippet.publishedAt,
+            duration: "", // Initialize duration as an empty string
+          };
+
+          // Retrieve the full video description
+          const videoDetailsResponse = await youtube.videos.list({
+            auth: API_KEY,
+            id: videoId,
+            part: "snippet,contentDetails", // Include contentDetails
+          });
+
+          const videoDetails = videoDetailsResponse.data.items[0].snippet;
+          const contentDetails =
+            videoDetailsResponse.data.items[0].contentDetails;
+
+          if (videoDetails && videoDetails.description) {
+            videoData.description = videoDetails.description;
+          }
+
+          if (contentDetails && contentDetails.duration) {
+            // Extract and format the duration
+            const rawDuration = contentDetails.duration;
+            const formattedDuration = formatDuration(rawDuration);
+            videoData.duration = formattedDuration;
+          }
+
+          videos.push(videoData);
+        }
+      }
+    } while (nextPageToken);
+
+    return videos;
+  } catch (error) {
+    console.error(
+      `Error retrieving channel videos for channel ${channelId}:`,
+      error.message
+    );
+    return [];
+  }
+}
 
 // Function to retrieve all video data from a playlist
 async function getAllVideosFromPlaylist(playlistId) {
@@ -26,9 +129,9 @@ async function getAllVideosFromPlaylist(playlistId) {
       const response = await youtube.playlistItems.list({
         auth: API_KEY,
         playlistId: playlistId,
-        maxResults: 50, // Adjust the number of results per page as needed
+        maxResults: 50,
         pageToken: nextPageToken,
-        part: "snippet", // Include snippet.publishedAt
+        part: "snippet",
       });
 
       const videoItems = response.data.items;
@@ -36,18 +139,29 @@ async function getAllVideosFromPlaylist(playlistId) {
 
       if (videoItems) {
         for (const item of videoItems) {
+          const videoId = item.snippet.resourceId.videoId;
+
+          // Check if the video ID has already been imported
+          if (
+            importedVideoData.some((video) => video.videoUrl.includes(videoId))
+          ) {
+            console.log(`Skipping video with ID ${videoId} (already imported)`);
+            continue; // Skip this video and continue to the next one
+          }
+
           const videoData = {
             title: item.snippet.title,
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
-            videoUrl: `https://www.youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
-            publishedAt: item.snippet.publishedAt, // Include publishedAt
+            videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
+            publishedAt: item.snippet.publishedAt,
+            duration: "", // Initialize duration as an empty string
           };
 
           // Retrieve the full video description
           const videoDetailsResponse = await youtube.videos.list({
             auth: API_KEY,
-            id: item.snippet.resourceId.videoId,
+            id: videoId,
             part: "snippet",
           });
 
@@ -71,67 +185,12 @@ async function getAllVideosFromPlaylist(playlistId) {
   }
 }
 
-// Function to retrieve all video data from a channel
-async function getAllVideosFromChannel(channelId) {
-  try {
-    const videos = [];
-    let nextPageToken = null;
-
-    do {
-      const response = await youtube.search.list({
-        auth: API_KEY,
-        channelId: channelId,
-        maxResults: 50, // Adjust the number of results per page as needed
-        pageToken: nextPageToken,
-        order: "date", // You can change the order if needed (e.g., 'viewCount', 'relevance')
-        part: "snippet", // Include snippet.publishedAt
-        type: "video",
-      });
-
-      const videoItems = response.data.items;
-      nextPageToken = response.data.nextPageToken;
-
-      if (videoItems) {
-        for (const item of videoItems) {
-          const videoData = {
-            title: item.snippet.title,
-            description: "", // Initialize description as an empty string
-            thumbnails: item.snippet.thumbnails,
-            videoUrl: `https://www.youtube.com/watch?v=${item.id.videoId}`,
-            publishedAt: item.snippet.publishedAt, // Include publishedAt
-          };
-
-          // Retrieve the full video description
-          const videoDetailsResponse = await youtube.videos.list({
-            auth: API_KEY,
-            id: item.id.videoId,
-            part: "snippet",
-          });
-
-          const videoDetails = videoDetailsResponse.data.items[0].snippet;
-          if (videoDetails && videoDetails.description) {
-            videoData.description = videoDetails.description;
-          }
-
-          videos.push(videoData);
-        }
-      }
-    } while (nextPageToken);
-
-    return videos;
-  } catch (error) {
-    console.error(
-      `Error retrieving channel videos for channel ${channelId}:`,
-      error.message
-    );
-    return [];
-  }
-}
-
 // Function to generate an MDX file with video data
 function generateMdxFile(video, folderPath) {
   const thumbnailUrl = video.thumbnails.high.url;
-  const posterUrl = video.thumbnails.maxres.url;
+
+  const posterUrl = getPosterUrl(video.thumbnails);
+
   const videoTitle = video.title;
   const videoUrl = video.videoUrl;
   const videoDescription = video.description;
@@ -170,8 +229,12 @@ function generateMdxFile(video, folderPath) {
 title: "${videoTitle}"
 publishedAt: "${video.publishedAt}"
 image: "${thumbnailUrl}"
-image: "${posterUrl}"
+poster: "${posterUrl}"
 videoUrl: "${videoUrl}"
+localImages: false
+tags: ["video"]
+categories: ["unsorted"]
+duration: "${video.duration}"
 ---
 ${videoDescription}\n`
   );
@@ -179,10 +242,25 @@ ${videoDescription}\n`
   console.log(`Created folder and index.mdx file for ${sanitizedTitle}`);
 }
 
+// Function to retrieve an appropriate poster URL
+function getPosterUrl(thumbnails) {
+  // Check if maxres thumbnail is available, otherwise use high thumbnail
+  if (thumbnails.maxres && thumbnails.maxres.url) {
+    return thumbnails.maxres.url;
+  } else if (thumbnails.high && thumbnails.high.url) {
+    // Manually construct maxres URL from high URL
+    const highUrl = thumbnails.high.url;
+    return highUrl.replace("hqdefault.jpg", "maxresdefault.jpg");
+  } else {
+    // If no suitable thumbnail is found, return an empty string
+    return "";
+  }
+}
+
 // Main function to retrieve data and generate output files
 async function main() {
   try {
-    console.log("Start: Gathering youtube video data... 📹");
+    console.log("Start: Gathering YouTube video data... 📹");
 
     const allVideos = [];
 
@@ -225,26 +303,32 @@ async function main() {
       }
     }
 
+    // Combine existing data with newly fetched data
+    const combinedVideoData = [...importedVideoData, ...allVideos];
+
+    // Calculate the number of videos added
+    const videosAdded = allVideos.length;
+
     // Sort videos by publish date in descending order
-    allVideos.sort((a, b) => {
+    combinedVideoData.sort((a, b) => {
       const dateA = new Date(a.publishedAt);
       const dateB = new Date(b.publishedAt);
       return dateB - dateA;
     });
 
-    // Process the combined video data as needed
-    console.log(`Total videos retrieved: ${allVideos.length}`);
-
     // Write the combined video data to output.json
-    fs.writeFileSync(outputFilename, JSON.stringify(allVideos, null, 2));
+    fs.writeFileSync(
+      outputFilename,
+      JSON.stringify(combinedVideoData, null, 2)
+    );
+
+    // Calculate the new total of videos
+    const newTotalVideos = combinedVideoData.length;
+
     console.log(`Video data written to ${outputFilename}`);
-
-    // Generate the output.md file with video data
-    const mdContent = generateMdxFile(allVideos);
-    fs.writeFileSync(outputMdFilename, mdContent);
-    console.log(`Markdown data written to ${outputMdFilename}`);
-
-    console.log("End: Gathering youtube video data. ✅");
+    console.log(`Videos added: ${videosAdded}`);
+    console.log(`New total of videos: ${newTotalVideos}`);
+    console.log("End: Gathering YouTube video data. ✅");
   } catch (error) {
     console.error("Error:", error.message);
   }
