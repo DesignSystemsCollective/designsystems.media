@@ -1,36 +1,52 @@
 // vimeo.js
 const axios = require("axios");
 const fs = require("fs");
+const path = require("path");
 
-// Set your Vimeo access token
+// Set your Vimeo API access token
 const VIMEO_ACCESS_TOKEN = process.env.VIMEO_ACCESS_TOKEN;
 
-// Function to retrieve all video data from Vimeo (implement this)
-async function getAllVideosFromVimeo() {
+// Function to fetch video data from Vimeo
+async function getVideoDataFromVimeo(videoId) {
   try {
-    // Implement Vimeo API queries here
-    // For example, you can use axios to make requests to the Vimeo API
-    // and retrieve video data using your access token.
+    // Make a request to the Vimeo API to get video data
+    const response = await axios.get(
+      `https://api.vimeo.com/videos/${videoId}`,
+      {
+        headers: {
+          Authorization: `Bearer ${VIMEO_ACCESS_TOKEN}`,
+          Accept: "application/vnd.vimeo.*+json;version=3.4",
+        },
+      }
+    );
 
-    // Example:
-    // const response = await axios.get('https://api.vimeo.com/v3/videos', {
-    //   headers: {
-    //     Authorization: `Bearer ${VIMEO_ACCESS_TOKEN}`,
-    //   },
-    //   params: {
-    //     // Include parameters as needed
-    //   },
-    // });
+    const videoData = response.data;
 
-    // Process the response data and return the Vimeo video data.
+    // Parse the video data and create frontmatter
+    const frontmatter = {
+      title: videoData.name,
+      description: videoData.description || "",
+      thumbnails: {
+        // You may need to map Vimeo thumbnails to the same structure as YouTube
+        high: {
+          url: videoData.pictures.sizes[2].link,
+        },
+      },
+      videoUrl: `https://vimeo.com/${videoId}`,
+      publishedAt: videoData.created_time,
+      duration: "", // You may need to calculate duration based on Vimeo data
+    };
 
-    return [];
+    return frontmatter;
   } catch (error) {
-    console.error("Error retrieving Vimeo videos:", error.message);
-    return [];
+    console.error(
+      `Error retrieving Vimeo video data for video ${videoId}:`,
+      error.message
+    );
+    return null;
   }
 }
 
 module.exports = {
-  getAllVideosFromVimeo,
+  getVideoDataFromVimeo,
 };

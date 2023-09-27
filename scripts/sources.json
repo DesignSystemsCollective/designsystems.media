@@ -66,7 +66,14 @@
     "name": "Design Systems Community",
     "platform": "youtube",
     "channelName": "@DesignSystemsCommunity",
-    "type": "youtube-channell",
+    "type": "youtube-channel",
     "url": "https://www.youtube.com/channel/UCeBXd1VEjbHYHdjqwkEHU_w"
+  },
+  {
+    "name": "DS Video Aggregator",
+    "platform": "vimeo",
+    "channelName": "DS Video Aggregator",
+    "type": "vimeo-channel",
+    "url": "https://vimeo.com/channels/1862150/"
   }
 ]
