@@ -1,10 +1,15 @@
 require("dotenv").config();
-const { google } = require("googleapis");
 const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
+const {
+  getAllVideosFromChannel,
+  getAllVideosFromPlaylist,
+} = require("./youtube");
+const { getAllVideosFromVimeo } = require("./vimeo");
 
 // Initialize the YouTube Data API client
+const { google } = require("googleapis");
 const youtube = google.youtube("v3");
 
 // Set your API key or OAuth 2.0 credentials
@@ -39,150 +44,6 @@ function formatDuration(rawDuration) {
   )}:${String(seconds).padStart(2, "0")}`;
 
   return formattedDuration;
-}
-
-// Function to retrieve all video data from a channel
-async function getAllVideosFromChannel(channelId) {
-  try {
-    const videos = [];
-    let nextPageToken = null;
-
-    do {
-      const response = await youtube.search.list({
-        auth: API_KEY,
-        channelId: channelId,
-        maxResults: 50,
-        pageToken: nextPageToken,
-        order: "date",
-        part: "snippet",
-        type: "video",
-      });
-
-      const videoItems = response.data.items;
-      nextPageToken = response.data.nextPageToken;
-
-      if (videoItems) {
-        for (const item of videoItems) {
-          const videoId = item.id.videoId;
-
-          // Check if the video ID has already been imported
-          if (
-            importedVideoData.some((video) => video.videoUrl.includes(videoId))
-          ) {
-            console.log(`Skipping video with ID ${videoId} (already imported)`);
-            continue; // Skip this video and continue to the next one
-          }
-
-          const videoData = {
-            title: item.snippet.title,
-            description: "", // Initialize description as an empty string
-            thumbnails: item.snippet.thumbnails,
-            videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
-            publishedAt: item.snippet.publishedAt,
-            duration: "", // Initialize duration as an empty string
-          };
-
-          // Retrieve the full video description
-          const videoDetailsResponse = await youtube.videos.list({
-            auth: API_KEY,
-            id: videoId,
-            part: "snippet,contentDetails", // Include contentDetails
-          });
-
-          const videoDetails = videoDetailsResponse.data.items[0].snippet;
-          const contentDetails =
-            videoDetailsResponse.data.items[0].contentDetails;
-
-          if (videoDetails && videoDetails.description) {
-            videoData.description = videoDetails.description;
-          }
-
-          if (contentDetails && contentDetails.duration) {
-            // Extract and format the duration
-            const rawDuration = contentDetails.duration;
-            const formattedDuration = formatDuration(rawDuration);
-            videoData.duration = formattedDuration;
-          }
-
-          videos.push(videoData);
-        }
-      }
-    } while (nextPageToken);
-
-    return videos;
-  } catch (error) {
-    console.error(
-      `Error retrieving channel videos for channel ${channelId}:`,
-      error.message
-    );
-    return [];
-  }
-}
-
-// Function to retrieve all video data from a playlist
-async function getAllVideosFromPlaylist(playlistId) {
-  try {
-    const videos = [];
-    let nextPageToken = null;
-
-    do {
-      const response = await youtube.playlistItems.list({
-        auth: API_KEY,
-        playlistId: playlistId,
-        maxResults: 50,
-        pageToken: nextPageToken,
-        part: "snippet",
-      });
-
-      const videoItems = response.data.items;
-      nextPageToken = response.data.nextPageToken;
-
-      if (videoItems) {
-        for (const item of videoItems) {
-          const videoId = item.snippet.resourceId.videoId;
-
-          // Check if the video ID has already been imported
-          if (
-            importedVideoData.some((video) => video.videoUrl.includes(videoId))
-          ) {
-            console.log(`Skipping video with ID ${videoId} (already imported)`);
-            continue; // Skip this video and continue to the next one
-          }
-
-          const videoData = {
-            title: item.snippet.title,
-            description: "", // Initialize description as an empty string
-            thumbnails: item.snippet.thumbnails,
-            videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
-            publishedAt: item.snippet.publishedAt,
-            duration: "", // Initialize duration as an empty string
-          };
-
-          // Retrieve the full video description
-          const videoDetailsResponse = await youtube.videos.list({
-            auth: API_KEY,
-            id: videoId,
-            part: "snippet",
-          });
-
-          const videoDetails = videoDetailsResponse.data.items[0].snippet;
-          if (videoDetails && videoDetails.description) {
-            videoData.description = videoDetails.description;
-          }
-
-          videos.push(videoData);
-        }
-      }
-    } while (nextPageToken);
-
-    return videos;
-  } catch (error) {
-    console.error(
-      `Error retrieving playlist videos for playlist ${playlistId}:`,
-      error.message
-    );
-    return [];
-  }
 }
 
 // Function to generate an MDX file with video data
@@ -259,8 +120,15 @@ function getPosterUrl(thumbnails) {
 
 // Main function to retrieve data and generate output files
 async function main() {
+  // Load previously imported video data from output.json if it exists
+  let importedVideoData = [];
+
+  if (fs.existsSync(outputFilename)) {
+    importedVideoData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
+  }
+
   try {
-    console.log("Start: Gathering YouTube video data... 📹");
+    console.log("Start: Gathering video data... 📹");
 
     const allVideos = [];
 
@@ -269,7 +137,10 @@ async function main() {
         const channelUrl = source.url;
         const channelId = channelUrl.split("/").pop();
         console.log(`Fetching videos from channel ${channelId}...`);
-        const channelVideos = await getAllVideosFromChannel(channelId);
+        const channelVideos = await getAllVideosFromChannel(
+          channelId,
+          importedVideoData
+        );
 
         for (const video of channelVideos) {
           const sanitizedTitle = video.title.replace(
@@ -288,7 +159,10 @@ async function main() {
         const playlistUrl = source.url;
         const playlistId = playlistUrl.split("list=")[1];
         console.log(`Fetching videos from playlist ${playlistId}...`);
-        const playlistVideos = await getAllVideosFromPlaylist(playlistId);
+        const playlistVideos = await getAllVideosFromPlaylist(
+          playlistId,
+          importedVideoData
+        );
 
         for (const video of playlistVideos) {
           const sanitizedTitle = video.title.replace(/[:"#]/g, "");
@@ -298,6 +172,24 @@ async function main() {
             .join("-");
           const folderPath = path.join(__dirname, outputDir, folderName);
           generateMdxFile(video, folderPath);
+          allVideos.push(video);
+        }
+      } else if (source.type === "vimeo") {
+        console.log(`Fetching videos from Vimeo...`);
+        const vimeoVideos = await getAllVideosFromVimeo();
+
+        for (const video of vimeoVideos) {
+          // Implement Vimeo video data processing here
+
+          // Example processing:
+          // const sanitizedTitle = video.title.replace(/[:"#]/g, "");
+          // const folderName = slugify(sanitizedTitle, { lower: true })
+          //   .split("-")
+          //   .slice(0, 5)
+          //   .join("-");
+          // const folderPath = path.join(__dirname, outputDir, folderName);
+          // generateMdxFile(video, folderPath);
+
           allVideos.push(video);
         }
       }
@@ -328,7 +220,7 @@ async function main() {
     console.log(`Video data written to ${outputFilename}`);
     console.log(`Videos added: ${videosAdded}`);
     console.log(`New total of videos: ${newTotalVideos}`);
-    console.log("End: Gathering YouTube video data. ✅");
+    console.log("End: Gathering video data. ✅");
   } catch (error) {
     console.error("Error:", error.message);
   }
