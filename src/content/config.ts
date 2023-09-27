@@ -11,6 +11,7 @@ const mediaCollection = defineCollection({
       updatedDate: z.coerce.date().optional(),
       image: image().optional(),
       poster: image().optional(),
+      duration: z.string().optional(),
       videoUrl: z.string().optional(),
       tags: z.array(z.string()).optional(),
       categories: z.array(z.string()).optional(),

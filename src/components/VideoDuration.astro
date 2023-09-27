@@ -1,0 +1,42 @@
+---
+interface Props {
+  durationStr: string;
+}
+
+const { durationStr } = Astro.props;
+
+function formatDurationString(durationStr) {
+  // Check if durationStr is a string
+  if (typeof durationStr !== "string") {
+    return "Invalid input: not a string";
+  }
+
+  // Check if the durationStr matches the expected format "hh:mm:ss"
+  const regex = /^(\d{1,2}):(\d{1,2}):(\d{1,2})$/;
+  const match = durationStr.match(regex);
+
+  if (match) {
+    const [, hours, minutes, seconds] = match.map(Number);
+
+    if (hours === 0 && minutes === 0) {
+      return `${seconds}s`;
+    } else if (hours === 0 && minutes < 5 && seconds > 9) {
+      return `${minutes}m ${seconds}s`;
+    } else if (hours === 0 && minutes < 5) {
+      return `${minutes}m`;
+    } else if (hours === 0 && minutes >= 5) {
+      return `${minutes}m`;
+    } else if (seconds !== 0) {
+      return `${hours}hr`;
+    } else {
+      return `${hours}hr ${minutes}m`;
+    }
+  } else {
+    return "Invalid duration format";
+  }
+}
+---
+
+<span class="duration">
+  {formatDurationString(durationStr)}
+</span>

@@ -3,10 +3,10 @@ import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
+import VideoDuration from "../components/VideoDuration.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
-import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
@@ -57,6 +57,7 @@ const media = (await getCollection("media")).sort(
         aspect-ratio: auto 16/9;
         overflow: hidden;
         object-fit: cover;
+        position: relative;
       }
       .media-image img {
         width: 100%;
@@ -74,6 +75,21 @@ const media = (await getCollection("media")).sort(
         font-size: 14px;
         color: #888;
       }
+
+      .duration {
+  font-variant: small-caps;
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        display: inline-block;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 0.7rem;
+        box-sizing: bo
+        line-height: 1em;
+        padding: 4px 8px 2px;
+        border-radius: 8px;
+      }
     </style>
   </head>
   <body>
@@ -83,16 +99,20 @@ const media = (await getCollection("media")).sort(
         <div class="media-grid">
           {
             media.map((media) => (
-
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
                   <div class="media-content">
-                    <div class="media-image"><Image
-                      width={386}
-                      src={media.data.image}
-                      alt={media.data.title}
-                      transition:name={media.slug} 
-                /></div>
+                    <div class="media-image">
+                      <Image
+                        width={386}
+                        src={media.data.poster}
+                        alt={media.data.title}
+                        transition:name={media.slug}
+                      />
+                      <div class="duration">
+                        <VideoDuration durationStr={media.data.duration} />
+                      </div>
+                    </div>
                     <h4 class="title">{media.data.title}</h4>
                     <p class="date">
                       <FormattedDate date={media.data.publishedAt} />

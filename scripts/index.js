@@ -15,7 +15,6 @@ const youtube = google.youtube("v3");
 // Set your API key or OAuth 2.0 credentials
 const API_KEY = process.env.API_KEY;
 const outputFilename = "data/output.json";
-const outputMdFilename = "data/output.md";
 const outputDir = "../src/content/media/";
 
 // Load previously imported video data from output.json if it exists
@@ -96,6 +95,7 @@ localImages: false
 tags: ["video"]
 categories: ["unsorted"]
 duration: "${video.duration}"
+ignore: ${video.ignore || false}
 ---
 ${videoDescription}\n`
   );
@@ -131,6 +131,7 @@ async function main() {
     console.log("Start: Gathering video data... 📹");
 
     const allVideos = [];
+    let ignoredVideosCount = 0; // Initialize the count for ignored videos
 
     for (const source of sourcesData) {
       if (source.type === "youtube-channel") {
@@ -152,6 +153,14 @@ async function main() {
             .slice(0, 7)
             .join("-");
           const folderPath = path.join(__dirname, outputDir, folderName);
+
+          // Check if the video should be ignored
+          if (video.ignore === true) {
+            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            ignoredVideosCount++; // Increment the count for ignored videos
+            continue; // Skip processing this video
+          }
+
           generateMdxFile(video, folderPath);
           allVideos.push(video);
         }
@@ -171,6 +180,14 @@ async function main() {
             .slice(0, 7)
             .join("-");
           const folderPath = path.join(__dirname, outputDir, folderName);
+
+          // Check if the video should be ignored
+          if (video.ignore === true) {
+            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            ignoredVideosCount++; // Increment the count for ignored videos
+            continue; // Skip processing this video
+          }
+
           generateMdxFile(video, folderPath);
           allVideos.push(video);
         }
@@ -189,6 +206,13 @@ async function main() {
           //   .join("-");
           // const folderPath = path.join(__dirname, outputDir, folderName);
           // generateMdxFile(video, folderPath);
+
+          // Check if the video should be ignored
+          if (video.ignore === true) {
+            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            ignoredVideosCount++; // Increment the count for ignored videos
+            continue; // Skip processing this video
+          }
 
           allVideos.push(video);
         }
@@ -219,6 +243,7 @@ async function main() {
 
     console.log(`Video data written to ${outputFilename}`);
     console.log(`Videos added: ${videosAdded}`);
+    console.log(`Ignored videos: ${ignoredVideosCount}`); // Report the count of ignored videos
     console.log(`New total of videos: ${newTotalVideos}`);
     console.log("End: Gathering video data. ✅");
   } catch (error) {

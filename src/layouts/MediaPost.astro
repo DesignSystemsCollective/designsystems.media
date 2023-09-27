@@ -2,6 +2,7 @@
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
+import VideoDuration from "../components/VideoDuration.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
@@ -16,11 +17,12 @@ const {
   publishedAt,
   updatedDate,
   image,
+  duration,
   videoUrl,
   poster,
   slug,
   tags,
-  categories
+  categories,
 } = Astro.props;
 ---
 
@@ -95,6 +97,10 @@ const {
             </div>
             <h1>{title}</h1>
             <hr />
+            <p>
+              Duration:
+              <VideoDuration durationStr={duration} />
+            </p>
           </div>
           <slot />
         </div>
