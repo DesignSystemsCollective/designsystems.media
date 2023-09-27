@@ -5,7 +5,7 @@
   "author": "Frank Congson",
   "license": "MIT",
   "scripts": {
-    "aggregate": "node scripts/index.js",
+    "aggregate": "node scripts/index.js && node scripts/getImages.js",
     "images": "node scripts/getImages.js",
     "dev": "astro dev",
     "start": "astro dev",

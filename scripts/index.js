@@ -149,7 +149,7 @@ async function main() {
           );
           const folderName = slugify(sanitizedTitle, { lower: true })
             .split("-")
-            .slice(0, 5)
+            .slice(0, 7)
             .join("-");
           const folderPath = path.join(__dirname, outputDir, folderName);
           generateMdxFile(video, folderPath);
@@ -168,7 +168,7 @@ async function main() {
           const sanitizedTitle = video.title.replace(/[:"#]/g, "");
           const folderName = slugify(sanitizedTitle, { lower: true })
             .split("-")
-            .slice(0, 5)
+            .slice(0, 7)
             .join("-");
           const folderPath = path.join(__dirname, outputDir, folderName);
           generateMdxFile(video, folderPath);
@@ -185,7 +185,7 @@ async function main() {
           // const sanitizedTitle = video.title.replace(/[:"#]/g, "");
           // const folderName = slugify(sanitizedTitle, { lower: true })
           //   .split("-")
-          //   .slice(0, 5)
+          //   .slice(0, 7)
           //   .join("-");
           // const folderPath = path.join(__dirname, outputDir, folderName);
           // generateMdxFile(video, folderPath);
