@@ -8,7 +8,8 @@ const { durationStr } = Astro.props;
 function formatDurationString(durationStr) {
   // Check if durationStr is a string
   if (typeof durationStr !== "string") {
-    return "Invalid input: not a string";
+    return "?";
+    console.error("Invalid input: not a string");
   }
 
   // Check if the durationStr matches the expected format "hh:mm:ss"
@@ -32,11 +33,11 @@ function formatDurationString(durationStr) {
       return `${hours}hr ${minutes}m`;
     }
   } else {
-    return "Invalid duration format";
+    return "";
   }
 }
 ---
 
-<span class="duration">
+<span>
   {formatDurationString(durationStr)}
 </span>

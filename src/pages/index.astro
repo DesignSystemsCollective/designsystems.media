@@ -84,7 +84,7 @@ const media = (await getCollection("media")).sort(
         display: inline-block;
         color: white;
         background: rgba(0, 0, 0, 0.5);
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         box-sizing: bo
         line-height: 1em;
         padding: 4px 8px 2px;
@@ -109,9 +109,11 @@ const media = (await getCollection("media")).sort(
                         alt={media.data.title}
                         transition:name={media.slug}
                       />
-                      <div class="duration">
-                        <VideoDuration durationStr={media.data.duration} />
-                      </div>
+                      {media.data.duration && (
+  <div class="duration">
+    <VideoDuration durationStr={media.data.duration} />
+  </div>
+)}
                     </div>
                     <h4 class="title">{media.data.title}</h4>
                     <p class="date">
