@@ -1,4 +1,5 @@
 // youtube.js
+const he = require("he");
 const { google } = require("googleapis");
 const fs = require("fs");
 
@@ -7,6 +8,13 @@ const youtube = google.youtube("v3");
 
 // Set your YouTube API key or OAuth 2.0 credentials
 const API_KEY = process.env.API_KEY;
+
+// Function to replace plain quotes with fancy quotes
+function replaceQuotesWithFancyQuotes(title) {
+  // Replace straight quotes with fancy quotes
+  const fancyTitle = title.replace(/"/g, "“").replace(/"/g, "”");
+  return fancyTitle;
+}
 
 // Function to format video duration
 function formatDuration(rawDuration) {
@@ -74,7 +82,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
           }
 
           const videoData = {
-            title: item.snippet.title,
+            title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
@@ -150,7 +158,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           }
 
           const videoData = {
-            title: item.snippet.title,
+            title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
@@ -162,12 +170,22 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           const videoDetailsResponse = await youtube.videos.list({
             auth: API_KEY,
             id: videoId,
-            part: "snippet",
+            part: "snippet,contentDetails",
           });
 
           const videoDetails = videoDetailsResponse.data.items[0].snippet;
+          const contentDetails =
+            videoDetailsResponse.data.items[0].contentDetails;
+
           if (videoDetails && videoDetails.description) {
             videoData.description = videoDetails.description;
+          }
+
+          if (contentDetails && contentDetails.duration) {
+            // Extract and format the duration
+            const rawDuration = contentDetails.duration;
+            const formattedDuration = formatDuration(rawDuration);
+            videoData.duration = formattedDuration;
           }
 
           videos.push(videoData);

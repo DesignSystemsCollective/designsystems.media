@@ -3,8 +3,27 @@ const path = require("path");
 const axios = require("axios");
 const matter = require("gray-matter");
 
+const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
 const folderPath = "src/content/media"; // Updated folder path
 
+// Helper function to download an image with retries
+async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
+  try {
+    console.log(`Downloading: ${url}`);
+    await downloadImage(url, outputFilePath);
+    console.log(`Downloaded: ${url}`);
+  } catch (error) {
+    if (retryCount < MAX_RETRY_COUNT) {
+      console.error(`Error downloading ${url}: ${error.message}. Retrying...`);
+      await downloadImageWithRetry(url, outputFilePath, retryCount + 1);
+    } else {
+      console.error(`Max retries reached for ${url}. Fallback or skip.`);
+      // Handle the case where max retries are reached (e.g., use fallback image)
+    }
+  }
+}
+
+// Helper function to download an image
 function downloadImage(url, outputFilePath) {
   return axios({
     method: "get",
@@ -19,6 +38,7 @@ function downloadImage(url, outputFilePath) {
   });
 }
 
+// Function to process the Markdown file with error handling and fallbacks
 function processMarkdownFile(filePath) {
   console.log(`Processing: ${filePath}`);
 
@@ -29,77 +49,57 @@ function processMarkdownFile(filePath) {
     const imageFileName = path.basename(data.image);
     const imageOutputPath = path.join(path.dirname(filePath), imageFileName);
 
-    console.log(`Downloading: ${data.image}`);
-    downloadImage(data.image, imageOutputPath)
+    downloadImageWithRetry(data.image, imageOutputPath)
       .then(() => {
-        console.log(`Downloaded: ${data.image}`);
-        // Change localImages to true after processing
         data.localImages = true;
-        // Update the "image" key with the local file path wrapped in double quotes
         data.image = `./${imageFileName}`;
-
-        // Create the updated front matter string
-        const updatedFrontMatter = Object.entries(data)
-          .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
-          .join("\n");
-
-        // Combine the updated front matter and content
-        const updatedMarkdown = `---\n${updatedFrontMatter}\n---\n${content}`;
-
-        // Update the content of the file
-        fs.writeFileSync(filePath, updatedMarkdown);
+        updateMarkdownFile(filePath, data, content);
       })
-      .catch((err) =>
-        console.error(`Error downloading ${data.image}: ${err.message}`)
-      );
+      .catch((err) => {
+        console.error(`Error downloading ${data.image}: ${err.message}`);
+        data.localImages = true;
+        data.poster = `./hqdefault.jpg`;
+        updateMarkdownFile(filePath, data, content);
+        // Handle the case where the image download fails (e.g., use fallback image)
+        // Example: data.image = `./fallback.jpg`;
+        // Then update the Markdown file as shown in the updateMarkdownFile function
+      });
   }
 
   if (data.poster && data.localImages === false) {
     const posterFileName = path.basename(data.poster);
     const posterOutputPath = path.join(path.dirname(filePath), posterFileName);
 
-    console.log(`Downloading: ${data.poster}`);
-    downloadImage(data.poster, posterOutputPath)
+    downloadImageWithRetry(data.poster, posterOutputPath)
       .then(() => {
-        console.log(`Downloaded: ${data.poster}`);
-        // Change localImages to true after processing
         data.localImages = true;
-        // Update the "poster" key with the local file path wrapped in double quotes
         data.poster = `./${posterFileName}`;
-
-        // Create the updated front matter string
-        const updatedFrontMatter = Object.entries(data)
-          .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
-          .join("\n");
-
-        // Combine the updated front matter and content
-        const updatedMarkdown = `---\n${updatedFrontMatter}\n---\n${content}`;
-
-        // Update the content of the file
-        fs.writeFileSync(filePath, updatedMarkdown);
+        updateMarkdownFile(filePath, data, content);
       })
       .catch((err) => {
         console.error(`Error downloading ${data.poster}: ${err.message}`);
-
-        // Change localImages to true after processing
         data.localImages = true;
-        // Update the "poster" key with the local file path wrapped in double quotes
         data.poster = `./hqdefault.jpg`;
-
-        // Create the updated front matter string
-        const updatedFrontMatter = Object.entries(data)
-          .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
-          .join("\n");
-
-        // Combine the updated front matter and content
-        const updatedMarkdown = `---\n${updatedFrontMatter}\n---\n${content}`;
-
-        // Update the content of the file
-        fs.writeFileSync(filePath, updatedMarkdown);
+        updateMarkdownFile(filePath, data, content);
+        // Handle the case where the poster download fails (e.g., use fallback image)
+        // Example: data.poster = `./fallback_poster.jpg`;
+        // Then update the Markdown file as shown in the updateMarkdownFile function
       });
   }
 }
 
+// Function to update the Markdown file with new front matter and content
+function updateMarkdownFile(filePath, data, content) {
+  const updatedFrontMatter = Object.entries(data)
+    .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
+    .join("\n");
+
+  const updatedMarkdown = `---\n${updatedFrontMatter}\n---\n${content}`;
+
+  fs.writeFileSync(filePath, updatedMarkdown);
+}
+
+// Function to recursively process Markdown files in a directory
 function processMarkdownFiles(directory) {
   const files = fs.readdirSync(directory);
 

@@ -28,9 +28,9 @@ function formatDurationString(durationStr) {
     } else if (hours === 0 && minutes >= 5) {
       return `${minutes}m`;
     } else if (seconds !== 0) {
-      return `${hours}hr`;
+      return `${hours}h`;
     } else {
-      return `${hours}hr ${minutes}m`;
+      return `${hours}h ${minutes}m`;
     }
   } else {
     return "";

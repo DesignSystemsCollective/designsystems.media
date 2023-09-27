@@ -27,6 +27,9 @@ if (fs.existsSync(outputFilename)) {
 // Import the sources from sources.json
 const sourcesData = require("./sources.json");
 
+// Import the list of video URLs to ignore
+const videosToIgnore = require("./ignoreVideos");
+
 // Function to format video duration
 function formatDuration(rawDuration) {
   // Extract hours, minutes, and seconds from the raw duration
@@ -144,6 +147,8 @@ async function main() {
         );
 
         for (const video of channelVideos) {
+          const videoUrl = video.videoUrl;
+
           const sanitizedTitle = video.title.replace(
             /[:"“”#'‘’!?@_^%()]/gi,
             ""
@@ -155,7 +160,7 @@ async function main() {
           const folderPath = path.join(__dirname, outputDir, folderName);
 
           // Check if the video should be ignored
-          if (video.ignore === true) {
+          if (videosToIgnore.includes(videoUrl) || video.ignore === true) {
             console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
@@ -174,7 +179,10 @@ async function main() {
         );
 
         for (const video of playlistVideos) {
-          const sanitizedTitle = video.title.replace(/[:"#]/g, "");
+          const sanitizedTitle = video.title.replace(
+            /[:"“”#'‘’!?@_^%()]/gi,
+            ""
+          );
           const folderName = slugify(sanitizedTitle, { lower: true })
             .split("-")
             .slice(0, 7)
@@ -197,15 +205,6 @@ async function main() {
 
         for (const video of vimeoVideos) {
           // Implement Vimeo video data processing here
-
-          // Example processing:
-          // const sanitizedTitle = video.title.replace(/[:"#]/g, "");
-          // const folderName = slugify(sanitizedTitle, { lower: true })
-          //   .split("-")
-          //   .slice(0, 7)
-          //   .join("-");
-          // const folderPath = path.join(__dirname, outputDir, folderName);
-          // generateMdxFile(video, folderPath);
 
           // Check if the video should be ignored
           if (video.ignore === true) {

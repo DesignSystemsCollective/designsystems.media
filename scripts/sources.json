@@ -75,5 +75,26 @@
     "channelName": "DS Video Aggregator",
     "type": "vimeo-channel",
     "url": "https://vimeo.com/channels/1862150/"
+  },
+  {
+    "name": "Design System Wednesdays",
+    "platform": "youtube",
+    "channelName": "@dsw.community",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCWHA-jCe94Jz8f3frB23jig"
+  },
+  {
+    "name": "Design Systems London",
+    "platform": "youtube",
+    "channelName": "@DesignSystemsLondon",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCJUJKvApvdaicml8BCWd5oA"
+  },
+  {
+    "name": "Here in the Hive - All About Design Systems",
+    "platform": "youtube",
+    "channelName": "@hereinthehive",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCq8-gYe7zfb8x0zDhxTIEJw"
   }
 ]
