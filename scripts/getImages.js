@@ -38,8 +38,8 @@ function downloadImage(url, outputFilePath) {
   });
 }
 
-// Function to process the Markdown file with error handling and fallbacks
-function processMarkdownFile(filePath) {
+// Function to process the Markdown file with error handling and delays
+async function processMarkdownFile(filePath) {
   console.log(`Processing: ${filePath}`);
 
   const markdownContent = fs.readFileSync(filePath, "utf8");
@@ -49,43 +49,54 @@ function processMarkdownFile(filePath) {
     const imageFileName = path.basename(data.image);
     const imageOutputPath = path.join(path.dirname(filePath), imageFileName);
 
-    downloadImageWithRetry(data.image, imageOutputPath)
-      .then(() => {
-        data.localImages = true;
-        data.image = `./${imageFileName}`;
-        updateMarkdownFile(filePath, data, content);
-      })
-      .catch((err) => {
-        console.error(`Error downloading ${data.image}: ${err.message}`);
-        data.localImages = true;
-        data.poster = `./hqdefault.jpg`;
-        updateMarkdownFile(filePath, data, content);
-        // Handle the case where the image download fails (e.g., use fallback image)
-        // Example: data.image = `./fallback.jpg`;
-        // Then update the Markdown file as shown in the updateMarkdownFile function
-      });
+    try {
+      console.log(`Downloading: ${data.image}`);
+      await downloadImageWithRetry(data.image, imageOutputPath);
+      console.log(`Downloaded: ${data.image}`);
+      data.image = `./${imageFileName}`;
+
+      updateMarkdownFile(filePath, data, content);
+    } catch (err) {
+      console.error(`Error downloading ${data.image}: ${err.message}`);
+
+      // Use the fixed fallback image file path
+      data.image = `./hqdefault.jpg`; // Change this to your fallback image file path
+
+      updateMarkdownFile(filePath, data, content);
+    }
+
+    // Introduce a delay before the next iteration to avoid rate limiting
+    await delay(100); // Delay for 1 second (adjust as needed)
   }
 
   if (data.poster && data.localImages === false) {
     const posterFileName = path.basename(data.poster);
     const posterOutputPath = path.join(path.dirname(filePath), posterFileName);
 
-    downloadImageWithRetry(data.poster, posterOutputPath)
-      .then(() => {
-        data.localImages = true;
-        data.poster = `./${posterFileName}`;
-        updateMarkdownFile(filePath, data, content);
-      })
-      .catch((err) => {
-        console.error(`Error downloading ${data.poster}: ${err.message}`);
-        data.localImages = true;
-        data.poster = `./hqdefault.jpg`;
-        updateMarkdownFile(filePath, data, content);
-        // Handle the case where the poster download fails (e.g., use fallback image)
-        // Example: data.poster = `./fallback_poster.jpg`;
-        // Then update the Markdown file as shown in the updateMarkdownFile function
-      });
+    try {
+      console.log(`Downloading: ${data.poster}`);
+      await downloadImageWithRetry(data.poster, posterOutputPath);
+      console.log(`Downloaded: ${data.poster}`);
+      data.localImages = true;
+      data.poster = `./${posterFileName}`;
+      updateMarkdownFile(filePath, data, content);
+    } catch (err) {
+      console.error(`Error downloading ${data.poster}: ${err.message}`);
+
+      // Use the fixed fallback image file path
+      data.poster = `./hqdefault.jpg`; // Change this to your fallback poster image file path
+      data.localImages = true;
+      updateMarkdownFile(filePath, data, content);
+    }
+
+    // Introduce a delay before the next iteration to avoid rate limiting
+    await delay(100); // Delay for 1 second (adjust as needed)
   }
+}
+
+// Helper function to introduce a delay
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Function to update the Markdown file with new front matter and content
