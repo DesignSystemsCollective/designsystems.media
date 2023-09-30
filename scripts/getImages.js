@@ -15,10 +15,14 @@ async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
   } catch (error) {
     if (retryCount < MAX_RETRY_COUNT) {
       console.error(`Error downloading ${url}: ${error.message}. Retrying...`);
+      // Introduce a delay before the next iteration to avoid rate limiting
+      await delay(500); // Delay for 1 second (adjust as needed)
+
       await downloadImageWithRetry(url, outputFilePath, retryCount + 1);
     } else {
-      console.error(`Max retries reached for ${url}. Fallback or skip.`);
+      console.error(`Max retries reached for ${url}.`);
       // Handle the case where max retries are reached (e.g., use fallback image)
+      throw error;
     }
   }
 }
@@ -58,15 +62,7 @@ async function processMarkdownFile(filePath) {
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
       console.error(`Error downloading ${data.image}: ${err.message}`);
-
-      // Use the fixed fallback image file path
-      data.image = `./hqdefault.jpg`; // Change this to your fallback image file path
-
-      updateMarkdownFile(filePath, data, content);
     }
-
-    // Introduce a delay before the next iteration to avoid rate limiting
-    await delay(100); // Delay for 1 second (adjust as needed)
   }
 
   if (data.poster && data.localImages === false) {
@@ -81,16 +77,15 @@ async function processMarkdownFile(filePath) {
       data.poster = `./${posterFileName}`;
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      console.error(`Error downloading ${data.poster}: ${err.message}`);
-
       // Use the fixed fallback image file path
       data.poster = `./hqdefault.jpg`; // Change this to your fallback poster image file path
+      console.error(
+        `Error downloading poster, manually set as: ${data.poster}`
+      );
+
       data.localImages = true;
       updateMarkdownFile(filePath, data, content);
     }
-
-    // Introduce a delay before the next iteration to avoid rate limiting
-    await delay(100); // Delay for 1 second (adjust as needed)
   }
 }
 
