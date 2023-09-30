@@ -1,34 +1,100 @@
 [
   {
+    "name": "Backlight",
+    "platform": "youtube",
+    "channelName": "@backlight_dev",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCeBNmb3t0KEQpOYKy_TVAjA"
+  },
+  {
+    "name": "Design Systems Advocate, Jina Anne",
+    "platform": "youtube",
+    "channelName": "@DesignSystems",
     "type": "youtube-channel",
     "url": "https://www.youtube.com/channel/UCw-LJo9v9vGQq3YX2H-gg2Q"
   },
   {
+    "name": "zeroheight team",
+    "platform": "youtube",
+    "channelName": "@zeroheighthq",
     "type": "youtube-channel",
     "url": "https://www.youtube.com/channel/UCv7tF9gwXK-vEByxb0Ymb6w"
   },
   {
+    "name": "Supernova",
+    "platform": "youtube",
+    "channelName": "@Supernova-io",
     "type": "youtube-channel",
     "url": "https://www.youtube.com/channel/UC8yAiDHVuCDPwdpnVruq-MA"
   },
   {
+    "name": "Introduction to design systems",
+    "platform": "youtube",
+    "channelName": "@Figma",
     "type": "youtube-playlist",
     "url": "https://www.youtube.com/playlist?list=PLXDU_eVOJTx6vqOWJSWH87Zb5-riiG63A"
   },
   {
+    "name": "Design Systems Series",
+    "platform": "youtube",
+    "channelName": "@InVision",
     "type": "youtube-playlist",
     "url": "https://www.youtube.com/playlist?list=PLeWHfyz6lrQW2xdG_Hj-GhFIbMuOdy4TK"
   },
   {
+    "name": "Design Systems",
+    "platform": "youtube",
+    "channelName": "@Sparkbox",
     "type": "youtube-playlist",
     "url": "https://www.youtube.com/playlist?list=PL6De8qQmbLATIpLPNqsrTuoPOkOvCCpHA"
   },
   {
+    "name": "Design Systems",
+    "platform": "youtube",
+    "channelName": "@vaexperience",
     "type": "youtube-playlist",
     "url": "https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_"
   },
   {
+    "name": "Into Design Systems",
+    "platform": "youtube",
+    "channelName": "@IntoDesignSystems",
     "type": "youtube-playlist",
     "url": "https://www.youtube.com/playlist?app=desktop&list=PLMGy4p_QbO8zsUMBkcKsEm7kmAP2CWI2l"
+  },
+  {
+    "name": "Design Systems Community",
+    "platform": "youtube",
+    "channelName": "@DesignSystemsCommunity",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCeBXd1VEjbHYHdjqwkEHU_w"
+  },
+  {
+    "name": "DS Video Aggregator",
+    "platform": "vimeo",
+    "channelName": "DS Video Aggregator",
+    "type": "vimeo-channel",
+    "url": "https://vimeo.com/channels/1862150/"
+  },
+  {
+    "name": "Design System Wednesdays",
+    "platform": "youtube",
+    "channelName": "@dsw.community",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCWHA-jCe94Jz8f3frB23jig"
+  },
+  {
+    "name": "Design Systems London",
+    "platform": "youtube",
+    "channelName": "@DesignSystemsLondon",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCJUJKvApvdaicml8BCWd5oA"
+  },
+  {
+    "name": "Here in the Hive - All About Design Systems",
+    "platform": "youtube",
+    "channelName": "@hereinthehive",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCq8-gYe7zfb8x0zDhxTIEJw"
   }
 ]
