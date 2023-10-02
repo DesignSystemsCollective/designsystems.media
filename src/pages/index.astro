@@ -18,17 +18,30 @@ const media = (await getCollection("media")).sort(
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
+      main {
+        width: 100%;
+        max-width: 1600px;
+        margin: auto;
+        padding: 1rem;
+      }
+      @media screen and (min-width: 768px) {
+        main {
+          padding: 2rem;
+        }
+      }
+
       /* Mobile layout - 1 column */
       .media-grid {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
       }
 
       /* Tablet layout - 2 columns */
       @media screen and (min-width: 768px) {
         .media-grid {
           grid-template-columns: repeat(2, 1fr);
+          gap: 2rem;
         }
       }
 
@@ -39,13 +52,51 @@ const media = (await getCollection("media")).sort(
         }
       }
 
+      /* Larger screens - 3 columns */
+      @media screen and (min-width: 1200px) {
+        .media-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      /* Larger screens - 3 columns */
+      @media screen and (min-width: 1400px) {
+        .media-grid {
+          grid-template-columns: repeat(5, 1fr);
+        }
+      }
+
       /* Style for each media item */
       .media-item {
         margin: 0;
       }
 
+      @media screen and (min-width: 768px) {
+      }
+
       .media-link {
         text-decoration: none;
+        display: flex;
+        gap: 1rem;
+      }
+
+      @media screen and (max-width: 768px) {
+        .media-link {
+          display: grid;
+          grid-template-columns: 2fr 3fr;
+
+          /* TODO: make the videos into rows which use columns on mobile
+          grid-template-columns: repeat(5, 1fr); */
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        .media-link {
+          flex-direction: column;
+
+          /* TODO: make the videos into rows which use columns on mobile
+          grid-template-columns: repeat(5, 1fr); */
+        }
       }
 
       .media-content {
@@ -56,9 +107,14 @@ const media = (await getCollection("media")).sort(
         height: auto;
         aspect-ratio: auto 16/9;
         overflow: hidden;
-        object-fit: cover;
         position: relative;
       }
+
+      @media screen and (max-width: 768px) {
+        .media-image {
+        }
+      }
+
       .media-image img {
         width: 100%;
         height: 100%;
@@ -77,18 +133,27 @@ const media = (await getCollection("media")).sort(
       }
 
       .duration {
-  font-variant: small-caps;
+        font-variant: small-caps;
         position: absolute;
-        bottom: 0.5rem;
-        right: 0.5rem;
+        bottom: 0.4rem;
+        right: 0.4rem;
         display: inline-block;
         color: white;
         background: rgba(0, 0, 0, 0.5);
-        font-size: 0.8rem;
-        box-sizing: bo
+        font-size: 0.7rem;
+        box-sizing: border-box;
         line-height: 1em;
-        padding: 4px 8px 2px;
-        border-radius: 8px;
+        padding: 0.5em 0.5em 0.35em;
+        border-radius: 0.4em;
+        letter-spacing: 0.05em;
+      }
+
+      @media screen and (min-width: 768px) {
+        .duration {
+          font-size: 0.8rem;
+          bottom: 0.5rem;
+          right: 0.5rem;
+        }
       }
     </style>
   </head>
@@ -101,20 +166,20 @@ const media = (await getCollection("media")).sort(
             media.map((media) => (
               <div class="media-item">
                 <a href={`/${media.slug}`} class="media-link">
+                  <div class="media-image">
+                    <Image
+                      width={386}
+                      src={media.data.poster}
+                      alt={media.data.title}
+                      transition:name={media.slug}
+                    />
+                    {media.data.duration && (
+                      <div class="duration">
+                        <VideoDuration durationStr={media.data.duration} />
+                      </div>
+                    )}
+                  </div>
                   <div class="media-content">
-                    <div class="media-image">
-                      <Image
-                        width={386}
-                        src={media.data.poster}
-                        alt={media.data.title}
-                        transition:name={media.slug}
-                      />
-                      {media.data.duration && (
-  <div class="duration">
-    <VideoDuration durationStr={media.data.duration} />
-  </div>
-)}
-                    </div>
                     <h4 class="title">{media.data.title}</h4>
                     <p class="date">
                       <FormattedDate date={media.data.publishedAt} />

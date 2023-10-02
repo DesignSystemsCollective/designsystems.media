@@ -29,6 +29,9 @@
   font-style: normal;
   font-display: swap;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Atkinson", sans-serif;
   margin: 0;
