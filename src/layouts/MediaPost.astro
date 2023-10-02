@@ -38,12 +38,32 @@ const {
         padding: 0;
       }
       .hero-image {
+        position: relative;
         width: 100%;
         background-color: #16161d;
+        overflow: hidden;
+        height: auto;
+      }
+      .hero-image .background {
+        position: absolute;
+
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 0;
+        aspect-ratio: auto 16/9;
+        overflow: hidden;
+        object-fit: cover;
+        filter: blur(1rem);
+        opacity: 0.3;
       }
       .hero-image .video-embed {
         border-radius: 0px;
         margin: 0 auto;
+        min-height: 320px;
+        z-index: 100;
       }
       .prose {
         width: 720px;
@@ -82,6 +102,7 @@ const {
             transition:name={slug}
             poster={poster.src}
           />
+          <Image width={64} src={poster} alt="" class="background" />
         </div>
         <div class="prose">
           <div class="title">
