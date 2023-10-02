@@ -32,17 +32,17 @@ const {
 
     <style>
       main {
-        width: calc(100% - 2em);
+        width: 100%;
         max-width: 100%;
         margin: 0;
+        padding: 0;
       }
-
       .hero-image {
         width: 100%;
+        background-color: #16161d;
       }
       .hero-image .video-embed {
-        border-radius: 12px;
-        box-shadow: var(--box-shadow);
+        border-radius: 0px;
         margin: 0 auto;
       }
       .prose {
@@ -85,6 +85,8 @@ const {
         </div>
         <div class="prose">
           <div class="title">
+            <h1>{title}</h1>
+            <hr />
             <div class="date">
               <FormattedDate date={publishedAt} />
               {
@@ -95,8 +97,6 @@ const {
                 )
               }
             </div>
-            <h1>{title}</h1>
-            <hr />
             <p>
               Duration:
               <VideoDuration durationStr={duration} />
