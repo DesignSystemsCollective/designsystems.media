@@ -1,0 +1,57 @@
+---
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("media");
+
+// Filter posts with non-empty tags
+const filteredPosts = allPosts.filter(
+  (post) => post.data.tags && post.data.tags.length > 0
+);
+
+const tags = [...new Set(filteredPosts.map((post) => post.data.tags).flat())];
+const pageTitle = "Tag Index";
+---
+
+<style>
+  #sidebar {
+    width: 100%;
+    min-width: 180px;
+  }
+  @media screen and (min-width: 768px) {
+    #sidebar {
+      position: sticky;
+      top: 20px;
+      overflow: auto;
+    }
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin-block: 0 2rem;
+  }
+
+  .tags li {
+  }
+
+  .tag {
+    font-size: 1rem;
+    color: black;
+  }
+</style>
+<aside id="sidebar">
+  <strong>Tags</strong>
+  <ul class="tags">
+    {
+      tags.map((tag) => (
+        <li>
+          <a href={`/tags/${tag}`} class="tag">
+            {tag}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</aside>

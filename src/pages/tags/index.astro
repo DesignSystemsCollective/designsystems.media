@@ -24,16 +24,19 @@ const pageTitle = "Tag Index";
     <style>
       .tags {
         display: flex;
-        flex-wrap: wrap;
+
         list-style-type: none;
         padding: 0;
       }
 
-      .tag {
-        margin: 0.25em;
+      .tags li {
         border: dotted 1px #a1a1a1;
         border-radius: 0.5em;
-        padding: 0.5em 1em;
+        padding: 0.5em 1em 0.25em;
+        margin: 0.25em;
+      }
+
+      .tag {
         font-size: 1.15em;
         background-color: #f8fcfd;
         text-decoration: none;

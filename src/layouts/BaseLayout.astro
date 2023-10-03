@@ -1,0 +1,85 @@
+---
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Sidebar from "../components/Sidebar.astro";
+const { title } = Astro.props;
+---
+
+<style>
+  @media screen and (min-width: 768px) {
+    .with-sidebar {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 1rem;
+    }
+  }
+
+  main {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 1rem;
+  }
+  @media screen and (min-width: 768px) {
+    main {
+      padding: 2rem;
+    }
+  }
+
+  /* Mobile layout - 1 column */
+  .media-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  /* Tablet layout - 2 columns */
+  @media screen and (min-width: 768px) {
+    .media-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+
+  /* Larger screens - 3 columns */
+  @media screen and (min-width: 1024px) {
+    .media-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Larger screens - 3 columns */
+  @media screen and (min-width: 1300px) {
+    .media-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* Larger screens - 3 columns */
+  @media screen and (min-width: 1800px) {
+    .media-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+</style>
+
+<html lang="en" transition:name="root" transition:animate="fade">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header title={SITE_TITLE} />
+    <main transition:animate="fade">
+      <section class="with-sidebar">
+        <Sidebar />
+        <slot />
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
