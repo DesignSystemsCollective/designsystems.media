@@ -26,7 +26,7 @@ const {
 } = Astro.props;
 ---
 
-<html lang="en" transition:name="root" transition:animate="fade">
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
     <BaseHead title={title} description={description} />
 
@@ -93,9 +93,9 @@ const {
 
   <body>
     <Header />
-    <main transition:animate="fade">
+    <main>
       <article>
-        <div class="hero-image">
+        <div class="hero-image" transition:animate="fade">
           <YouTube
             id={videoUrl ?? ""}
             class="video-embed"
@@ -103,7 +103,7 @@ const {
             poster={poster.src}
           />
           <Image
-            width={64}
+            width={32}
             src={poster}
             alt=" "
             class="background"
