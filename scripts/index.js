@@ -96,7 +96,7 @@ poster: "${posterUrl}"
 videoUrl: "${videoUrl}"
 localImages: false
 tags: ["Unsorted"]
-categories: ["Video", "Unsorted"]
+categories: ["Video"]
 duration: "${video.duration}"
 ignore: ${video.ignore || false}
 ---
