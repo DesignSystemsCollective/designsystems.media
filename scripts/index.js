@@ -95,8 +95,8 @@ image: "${thumbnailUrl}"
 poster: "${posterUrl}"
 videoUrl: "${videoUrl}"
 localImages: false
-tags: ["video"]
-categories: ["unsorted"]
+tags: ["Unsorted"]
+categories: ["Video"]
 duration: "${video.duration}"
 ignore: ${video.ignore || false}
 ---
