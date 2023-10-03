@@ -288,30 +288,6 @@
     "duration": "1:00:12"
   },
   {
-    "title": "Clarity 2023 Promo",
-    "description": "Early bird tix on sale *now* for Clarity, the original design systems conference. 🎉\n\nJoin us to connect with a community of talented pros eager to elevate the collective convo around design systems.\n\nGrab your seat today — they won’t last long.",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/rtu4feu5hm0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/rtu4feu5hm0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/rtu4feu5hm0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "videoUrl": "https://www.youtube.com/watch?v=rtu4feu5hm0",
-    "publishedAt": "2023-08-02T01:11:13Z",
-    "duration": "0:00:25"
-  },
-  {
     "title": "Amy Hupe: “Down with Design Systems Dogma” — Clarity 2022",
     "description": "“If you’re not doing design systems like this, you’re doing it wrong”. Sound familiar?\n\nEstablishing and running design systems has never felt more like a strict set of criteria to meet. But what are we missing out as we become more rigid about how we define and practice design systems? And what value might lie in loosening our grip?\n\nIn this talk, Amy explores the impact of dogmatism in the field of design systems, and the opportunities a more flexible approach might bring.\n\nPresented by Amy Hupe at Clarity 2022, on November 10th, 2022. Ends with an interview with Sam Kapila.",
     "thumbnails": {
