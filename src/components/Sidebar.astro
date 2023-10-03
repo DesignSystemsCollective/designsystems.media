@@ -9,7 +9,15 @@ const filteredPosts = allPosts.filter(
 );
 
 const tags = [...new Set(filteredPosts.map((post) => post.data.tags).flat())];
-const pageTitle = "Tag Index";
+
+// Filter speakers with non-empty tags
+const filteredPostsSpeakers = allPosts.filter(
+  (post) => post.data.speakers && post.data.speakers.length > 0
+);
+
+const speakers = [
+  ...new Set(filteredPosts.map((post) => post.data.speakers).flat()),
+];
 ---
 
 <style>
@@ -49,6 +57,19 @@ const pageTitle = "Tag Index";
         <li>
           <a href={`/tags/${tag}`} class="tag">
             {tag}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <strong>Speakers</strong>
+  <ul class="tags">
+    {
+      speakers.map((speaker) => (
+        <li>
+          <a href={`/speakers/${speaker}`} class="tag">
+            {speaker}
           </a>
         </li>
       ))

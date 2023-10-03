@@ -5,16 +5,16 @@ import VideoCard from "../../components/VideoCard.astro";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("media");
-  const uniqueTags = [
-    ...new Set(allPosts.map((post) => post.data.tags).flat()),
+  const uniqueSpeakers = [
+    ...new Set(allPosts.map((post) => post.data.speakers).flat()),
   ];
 
-  return uniqueTags.map((tag) => {
+  return uniqueSpeakers.map((speaker) => {
     const filteredPosts = allPosts.filter((post) =>
-      post.data.tags.includes(tag)
+      post.data.speakers.includes(speaker)
     );
     return {
-      params: { tag },
+      params: { speaker },
       props: { posts: filteredPosts },
     };
   });
@@ -22,17 +22,17 @@ export async function getStaticPaths() {
 
 // TODO: How to get the results sorting by date order?
 
-const { tag } = Astro.params;
+const { speaker } = Astro.params;
 const { posts } = Astro.props;
 ---
 
 <style>
-  .tags {
+  .speakers {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .tag {
+  .speaker {
     margin: 0.25em;
     border: dotted 1px #a1a1a1;
     border-radius: 0.5em;
@@ -96,7 +96,7 @@ const { posts } = Astro.props;
 
 <BaseLayout>
   <section>
-    <h2>Tagged as: {tag}</h2>
+    <h2>Media featuring: {speaker}</h2>
     <div class="media-grid">
       {
         posts.map((post) => (
