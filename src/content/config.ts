@@ -15,6 +15,7 @@ const mediaCollection = defineCollection({
       videoUrl: z.string().optional(),
       tags: z.array(z.string()).optional(),
       categories: z.array(z.string()).optional(),
+      speakers: z.array(z.string()).optional(),
     }),
 });
 export const collections = {

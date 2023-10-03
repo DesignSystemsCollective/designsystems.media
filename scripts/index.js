@@ -99,6 +99,7 @@ tags: ["Unsorted"]
 categories: ["Video"]
 duration: "${video.duration}"
 ignore: ${video.ignore || false}
+speakers: ["Unsorted"]
 ---
 ${videoDescription}\n`
   );
