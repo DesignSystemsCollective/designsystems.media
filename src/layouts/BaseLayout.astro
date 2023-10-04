@@ -6,9 +6,10 @@ import Sidebar from "../components/Sidebar.astro";
 
 interface Props {
   sidebar?: boolean;
+  fullWidth?: boolean;
 }
 
-const { sidebar } = Astro.props;
+const { sidebar, fullWidth } = Astro.props;
 ---
 
 <style>
@@ -40,6 +41,9 @@ const { sidebar } = Astro.props;
     margin: auto;
     padding: 1rem;
   }
+  main.full-width {
+    max-width: 100%;
+  }
   @media screen and (min-width: 768px) {
     main {
       padding: 0rem;
@@ -56,8 +60,8 @@ const { sidebar } = Astro.props;
 
   <body>
     <Header title={SITE_TITLE} />
-    <main>
-      <section class={sidebar && "with-sidebar"}>
+    <main class={fullWidth && "full-width"}>
+      <section id="site-wrapper" class={sidebar && "with-sidebar"}>
         {sidebar && <Sidebar />}
         <section id="main-page"><slot /></section>
       </section>
