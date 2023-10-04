@@ -58,21 +58,19 @@ const { posts } = Astro.props;
   }
 </style>
 
-<BaseLayout>
-  <section>
-    <h2>Speaker: {speaker}</h2>
-    <MediaGrid>
-      {
-        posts.map((post) => (
-          <VideoCard
-            title={post.data.title}
-            poster={post.data.poster}
-            duration={post.data.duration}
-            slug={post.slug}
-            publishedAt={post.data.publishedAt}
-          />
-        ))
-      }
-    </MediaGrid>
-  </section>
+<BaseLayout sidebar={true}>
+  <h2>Speaker: {speaker}</h2>
+  <MediaGrid>
+    {
+      posts.map((post) => (
+        <VideoCard
+          title={post.data.title}
+          poster={post.data.poster}
+          duration={post.data.duration}
+          slug={post.slug}
+          publishedAt={post.data.publishedAt}
+        />
+      ))
+    }
+  </MediaGrid>
 </BaseLayout>

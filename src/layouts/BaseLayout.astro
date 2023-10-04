@@ -1,13 +1,22 @@
 ---
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Sidebar from "../components/Sidebar.astro";
-const { title } = Astro.props;
+
+interface Props {
+  sidebar?: boolean;
+}
+
+const { sidebar } = Astro.props;
 ---
 
 <style>
+  main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
   @media screen and (min-width: 768px) {
     .with-sidebar {
       display: grid;
@@ -15,19 +24,19 @@ const { title } = Astro.props;
       gap: 1rem;
     }
   }
-  section#main-page {
+  .with-sidebar section#main-page {
     width: 100%;
     padding: 2rem;
   }
   @media screen and (min-width: 768px) {
-    section#main-page {
+    .with-sidebar section#main-page {
       overflow: auto;
       height: calc(100dvh - 78px);
     }
   }
   main {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1800px;
     margin: auto;
     padding: 1rem;
   }
@@ -38,7 +47,7 @@ const { title } = Astro.props;
   }
 </style>
 
-<html lang="en" transition:name="root" transition:animate="fade">
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -47,9 +56,9 @@ const { title } = Astro.props;
 
   <body>
     <Header title={SITE_TITLE} />
-    <main transition:animate="fade">
-      <section class="with-sidebar">
-        <Sidebar />
+    <main>
+      <section class={sidebar && "with-sidebar"}>
+        {sidebar && <Sidebar />}
         <section id="main-page"><slot /></section>
       </section>
     </main>

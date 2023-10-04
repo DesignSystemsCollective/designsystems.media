@@ -1,81 +1,59 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const title = "About";
-const description = "Lorem ipsum dolor sit amet";
-const heroImage = "/blog-placeholder-about.jpg";
-const slug = "blog";
 ---
 
-<!doctype html>
-<html lang="en" transition:name="root" transition:animate="fade">
-  <head>
-    <BaseHead title={title} description={description} />
-    <style>
-      main {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-      }
-      .hero-image {
-        width: 100%;
-      }
-      .hero-image img {
-        display: block;
-        margin: 0 auto;
-        border-radius: 12px;
-        box-shadow: var(--box-shadow);
-      }
-      .prose {
-        width: 720px;
-        max-width: 100%;
-        margin: auto;
-        padding: 1em;
-        color: rgb(var(--gray-dark));
-      }
-      .title {
-        margin-bottom: 1em;
-        padding: 1em 0;
-        text-align: center;
-        line-height: 1;
-      }
-      .title h1 {
-        margin: 0 0 0.5em 0;
-      }
-      .date {
-        margin-bottom: 0.5em;
-        color: rgb(var(--gray));
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-    </style>
-  </head>
+<style>
+  .hero-image {
+    width: 100%;
+  }
+  .hero-image img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+  }
+  .prose {
+    width: 720px;
+    max-width: 100%;
+    margin: auto;
+    padding: 1em;
+    color: rgb(var(--gray-dark));
+  }
+  .title {
+    margin-bottom: 1em;
+    padding: 1em 0;
+    text-align: center;
+    line-height: 1;
+  }
+  .title h1 {
+    margin: 0 0 0.5em 0;
+  }
+  .date {
+    margin-bottom: 0.5em;
+    color: rgb(var(--gray));
+  }
+  .last-updated-on {
+    font-style: italic;
+  }
+</style>
 
-  <body>
-    <Header />
-    <main>
-      <article>
-        <div class="prose">
-          <div class="title">
-            <h1>{title}</h1>
-            <hr />
-          </div>
-          <p>
-            A media library for the DS community, made by <a
-              href="https://twitter.com/JoshDesignNz">Josh Harwood</a
-            > and <a href="https://twitter.com/fcongson">Frank Congson</a>.
-          </p>
-          <p>
-            There's so much awesome content available, but its not always the
-            easiest to find what you're looking for. We wanted a way to
-            aggregate and bookmark all the design systems content out there.
-          </p>
-        </div>
-      </article>
-    </main>
-    <Footer />
-  </body>
-</html>
+<BaseLayout sidebar={false}>
+  <div class="prose">
+    <div class="title">
+      <h1>{title}</h1>
+      <hr />
+    </div>
+    <p>
+      A media library for the DS community, made by <a
+        href="https://twitter.com/JoshDesignNz">Josh Harwood</a
+      > and <a href="https://twitter.com/fcongson">Frank Congson</a>.
+    </p>
+    <p>
+      There's so much awesome content available, but its not always the easiest
+      to find what you're looking for. We wanted a way to aggregate and bookmark
+      all the design systems content out there.
+    </p>
+  </div>
+</BaseLayout>

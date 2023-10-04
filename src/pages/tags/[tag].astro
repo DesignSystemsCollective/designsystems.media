@@ -42,39 +42,25 @@ const { posts } = Astro.props;
     background-color: #f8fcfd;
   }
 
-  main {
-    width: 100%;
-    max-width: 1600px;
-    margin: auto;
-    padding: 1rem;
-  }
-  @media screen and (min-width: 768px) {
-    main {
-      padding: 2rem;
-    }
-  }
-
   h2 {
     margin-block: 0 2rem;
   }
 </style>
 
-<BaseLayout>
-  <section>
-    <h2>Tagged as: {tag}</h2>
+<BaseLayout sidebar={true}>
+  <h2>Tagged as: {tag}</h2>
 
-    <MediaGrid>
-      {
-        posts.map((post) => (
-          <VideoCard
-            title={post.data.title}
-            poster={post.data.poster}
-            duration={post.data.duration}
-            slug={post.slug}
-            publishedAt={post.data.publishedAt}
-          />
-        ))
-      }
-    </MediaGrid>
-  </section>
+  <MediaGrid>
+    {
+      posts.map((post) => (
+        <VideoCard
+          title={post.data.title}
+          poster={post.data.poster}
+          duration={post.data.duration}
+          slug={post.slug}
+          publishedAt={post.data.publishedAt}
+        />
+      ))
+    }
+  </MediaGrid>
 </BaseLayout>

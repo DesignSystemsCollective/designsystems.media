@@ -1,49 +1,26 @@
 ---
 import { getCollection } from "astro:content";
-import BaseHead from "../components/BaseHead.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MediaGrid from "../layouts/MediaGrid.astro";
 import VideoCard from "../components/VideoCard.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
 ---
 
-<!doctype html>
-<html lang="en" transition:name="root" transition:animate="fade">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      main {
-        width: 100%;
-        max-width: 1600px;
-        margin: auto;
-        padding: 1rem;
-      }
-      @media screen and (min-width: 768px) {
-        main {
-          padding: 2rem;
-        }
-      }
-    </style>
-
-    <BaseLayout>
-      <section>
-        <MediaGrid>
-          {
-            media.map((media) => (
-              <VideoCard
-                title={media.data.title}
-                poster={media.data.poster}
-                duration={media.data.duration}
-                slug={media.slug}
-                publishedAt={media.data.publishedAt}
-              />
-            ))
-          }
-        </MediaGrid>
-      </section>
-    </BaseLayout></head>
-</html>
+<BaseLayout sidebar={true}>
+  <MediaGrid>
+    {
+      media.map((media) => (
+        <VideoCard
+          title={media.data.title}
+          poster={media.data.poster}
+          duration={media.data.duration}
+          slug={media.slug}
+          publishedAt={media.data.publishedAt}
+        />
+      ))
+    }
+  </MediaGrid>
+</BaseLayout>
