@@ -11,11 +11,20 @@ const { title } = Astro.props;
   @media screen and (min-width: 768px) {
     .with-sidebar {
       display: grid;
-      grid-template-columns: 200px 1fr;
+      grid-template-columns: 20ch 1fr;
       gap: 1rem;
     }
   }
-
+  section#main-page {
+    width: 100%;
+    padding: 2rem;
+  }
+  @media screen and (min-width: 768px) {
+    section#main-page {
+      overflow: auto;
+      height: calc(100dvh - 78px);
+    }
+  }
   main {
     width: 100%;
     max-width: 1600px;
@@ -24,43 +33,7 @@ const { title } = Astro.props;
   }
   @media screen and (min-width: 768px) {
     main {
-      padding: 2rem;
-    }
-  }
-
-  /* Mobile layout - 1 column */
-  .media-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-  }
-
-  /* Tablet layout - 2 columns */
-  @media screen and (min-width: 768px) {
-    .media-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1024px) {
-    .media-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1300px) {
-    .media-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1800px) {
-    .media-grid {
-      grid-template-columns: repeat(5, 1fr);
+      padding: 0rem;
     }
   }
 </style>
@@ -77,9 +50,8 @@ const { title } = Astro.props;
     <main transition:animate="fade">
       <section class="with-sidebar">
         <Sidebar />
-        <slot />
+        <section id="main-page"><slot /></section>
       </section>
     </main>
-    <Footer />
   </body>
 </html>

@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import VideoCard from "../../components/VideoCard.astro";
 
+import MediaGrid from "../../layouts/MediaGrid.astro";
 export async function getStaticPaths() {
   const allPosts = await getCollection("media");
   const uniqueTags = [
@@ -53,42 +54,6 @@ const { posts } = Astro.props;
     }
   }
 
-  /* Mobile layout - 1 column */
-  .media-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-  }
-
-  /* Tablet layout - 2 columns */
-  @media screen and (min-width: 768px) {
-    .media-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1024px) {
-    .media-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1300px) {
-    .media-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1800px) {
-    .media-grid {
-      grid-template-columns: repeat(5, 1fr);
-    }
-  }
-
   h2 {
     margin-block: 0 2rem;
   }
@@ -97,7 +62,8 @@ const { posts } = Astro.props;
 <BaseLayout>
   <section>
     <h2>Tagged as: {tag}</h2>
-    <div class="media-grid">
+
+    <MediaGrid>
       {
         posts.map((post) => (
           <VideoCard
@@ -109,6 +75,6 @@ const { posts } = Astro.props;
           />
         ))
       }
-    </div>
+    </MediaGrid>
   </section>
 </BaseLayout>
