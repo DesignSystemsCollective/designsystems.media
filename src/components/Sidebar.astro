@@ -91,8 +91,11 @@ const speakers = [
   transition:animate="fade"
 >
   <details>
-    <summary>Tags</summary>
+    <summary>🏷️ Tags</summary>
     <ul class="tags">
+      <li>
+        <a href={`/`} class="tag"> View all</a>
+      </li>
       {
         tags.map((tag) => (
           <li>
@@ -105,8 +108,11 @@ const speakers = [
     </ul>
   </details>
   <details>
-    <summary>Speakers</summary>
+    <summary>👤 Speakers</summary>
     <ul class="tags">
+      <li>
+        <a href={`/`} class="tag"> View all</a>
+      </li>
       {
         speakers.map((speaker) => (
           <li>

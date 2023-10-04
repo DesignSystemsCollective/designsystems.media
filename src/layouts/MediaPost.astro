@@ -19,6 +19,7 @@ const {
   poster,
   slug,
   tags,
+  speakers,
   categories,
 } = Astro.props;
 ---
@@ -84,10 +85,13 @@ const {
   }
   .meta-data {
     margin-bottom: 0.5em;
-    color: rgb(var(--gray-light));
+    color: rgb(var(--gray));
     display: flex;
     gap: 1rem;
     justify-content: center;
+  }
+  .meta-data a {
+    color: rgb(var(--gray-dark));
   }
   .meta-data span {
     margin-bottom: 0.5em;
@@ -114,13 +118,37 @@ const {
   </div>
   <div class="prose">
     <div class="meta-data">
-      <span><FormattedDate date={publishedAt} /></span>
-       &bull; <span
-        >Duration:
+      <span>🗓️ <FormattedDate date={publishedAt} /></span>
+      <span
+        >🕔
         <VideoDuration durationStr={duration} /></span
       >
     </div>
+
     <hr />
     <slot />
+    <hr />
+    <div class="meta-data">
+      <div class="tags">
+        🏷️
+        {
+          tags.map((tag) => (
+            <a href={`/tags/${tag}`} class="tag">
+              {tag}
+            </a>
+          ))
+        }
+      </div>
+      <div class="tags">
+        👤
+        {
+          speakers.map((speaker) => (
+            <a href={`/speakers/${speaker}`} class="speaker">
+              {speaker}
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </div>
 </article>
