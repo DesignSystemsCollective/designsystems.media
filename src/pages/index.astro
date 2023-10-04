@@ -1,14 +1,11 @@
 ---
 import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
-import VideoDuration from "../components/VideoDuration.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MediaGrid from "../layouts/MediaGrid.astro";
 import VideoCard from "../components/VideoCard.astro";
-import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
-import { Image } from "astro:assets";
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
@@ -30,49 +27,11 @@ const media = (await getCollection("media")).sort(
           padding: 2rem;
         }
       }
-
-      /* Mobile layout - 1 column */
-      .media-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-      }
-
-      /* Tablet layout - 2 columns */
-      @media screen and (min-width: 768px) {
-        .media-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 2rem;
-        }
-      }
-
-      /* Larger screens - 3 columns */
-      @media screen and (min-width: 1024px) {
-        .media-grid {
-          grid-template-columns: repeat(3, 1fr);
-        }
-      }
-
-      /* Larger screens - 3 columns */
-      @media screen and (min-width: 1300px) {
-        .media-grid {
-          grid-template-columns: repeat(4, 1fr);
-        }
-      }
-
-      /* Larger screens - 3 columns */
-      @media screen and (min-width: 1800px) {
-        .media-grid {
-          grid-template-columns: repeat(5, 1fr);
-        }
-      }
     </style>
-  </head>
-  <body>
-    <Header title={SITE_TITLE} />
-    <main transition:animate="fade">
+
+    <BaseLayout>
       <section>
-        <div class="media-grid">
+        <MediaGrid>
           {
             media.map((media) => (
               <VideoCard
@@ -84,9 +43,7 @@ const media = (await getCollection("media")).sort(
               />
             ))
           }
-        </div>
+        </MediaGrid>
       </section>
-    </main>
-    <Footer />
-  </body>
+    </BaseLayout></head>
 </html>

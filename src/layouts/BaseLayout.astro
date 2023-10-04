@@ -1,0 +1,57 @@
+---
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Sidebar from "../components/Sidebar.astro";
+const { title } = Astro.props;
+---
+
+<style>
+  @media screen and (min-width: 768px) {
+    .with-sidebar {
+      display: grid;
+      grid-template-columns: 20ch 1fr;
+      gap: 1rem;
+    }
+  }
+  section#main-page {
+    width: 100%;
+    padding: 2rem;
+  }
+  @media screen and (min-width: 768px) {
+    section#main-page {
+      overflow: auto;
+      height: calc(100dvh - 78px);
+    }
+  }
+  main {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 1rem;
+  }
+  @media screen and (min-width: 768px) {
+    main {
+      padding: 0rem;
+    }
+  }
+</style>
+
+<html lang="en" transition:name="root" transition:animate="fade">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header title={SITE_TITLE} />
+    <main transition:animate="fade">
+      <section class="with-sidebar">
+        <Sidebar />
+        <section id="main-page"><slot /></section>
+      </section>
+    </main>
+  </body>
+</html>

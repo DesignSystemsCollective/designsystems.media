@@ -58,14 +58,13 @@ const {
     aspect-ratio: auto 16/9;
     overflow: hidden;
     position: relative;
-    outline: 1px inset rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 
   @media screen and (min-width: 768px) {
     .media-image {
-      border-radius: 8px;
-      outline: 1px inset rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
     }
   }
 
@@ -118,7 +117,13 @@ const {
 <div class="media-item">
   <a href={`/${slug}`} class="media-link">
     <div class="media-image">
-      <Image width={386} src={poster} alt=" " transition:name={slug} />
+      <Image
+        width={386}
+        src={poster}
+        alt=" "
+        transition:name={slug}
+        transition:animate="initial"
+      />
       {
         duration && (
           <div class="duration">
@@ -127,7 +132,7 @@ const {
         )
       }
     </div>
-    <div class="media-content">
+    <div class="media-content" transition:animate="fade">
       <h4 class="title">{title}</h4>
       <span class="date">
         <FormattedDate date={publishedAt} />

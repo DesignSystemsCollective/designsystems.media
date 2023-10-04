@@ -1,0 +1,121 @@
+---
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("media");
+
+// Filter posts with non-empty tags
+const filteredPosts = allPosts.filter(
+  (post) => post.data.tags && post.data.tags.length > 0
+);
+
+const tags = [
+  ...new Set(
+    filteredPosts
+      .map((post) => post.data.tags)
+      .flat()
+      .sort()
+  ),
+];
+
+// Filter speakers with non-empty tags
+const filteredPostsSpeakers = allPosts.filter(
+  (post) => post.data.speakers && post.data.speakers.length > 0
+);
+
+const speakers = [
+  ...new Set(
+    filteredPosts
+      .map((post) => post.data.speakers)
+      .flat()
+      .sort()
+  ),
+];
+---
+
+<style>
+  #sidebar {
+    width: 100%;
+    padding: 1rem;
+  }
+  @media screen and (min-width: 768px) {
+    #sidebar {
+      overflow: auto;
+      height: calc(100dvh - 78px);
+    }
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin-block: 0 2rem;
+  }
+
+  .tags li {
+    line-height: 1.2rem;
+    margin-block-end: 0.4rem;
+  }
+  .tags:last-child {
+    margin-block-end: 0rem;
+  }
+
+  .tag {
+    font-size: 1rem;
+    color: black;
+  }
+  details {
+    border-radius: 4px;
+    padding: 0.2em 0.5em 0;
+    margin-block-end: 1rem;
+  }
+
+  summary {
+    font-weight: bold;
+    margin: -0.2em -0.5em 0;
+    padding: 0.2em 0.5em;
+  }
+  details[open] {
+    padding: 0.2em 0.5em;
+  }
+
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+</style>
+<aside
+  id="sidebar"
+  transition:name="sidebar"
+  transition:persist
+  transition:animate="fade"
+>
+  <details>
+    <summary>Tags</summary>
+    <ul class="tags">
+      {
+        tags.map((tag) => (
+          <li>
+            <a href={`/tags/${tag}`} class="tag">
+              {tag}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+  <details>
+    <summary>Speakers</summary>
+    <ul class="tags">
+      {
+        speakers.map((speaker) => (
+          <li>
+            <a href={`/speakers/${speaker}`} class="tag">
+              {speaker}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+</aside>

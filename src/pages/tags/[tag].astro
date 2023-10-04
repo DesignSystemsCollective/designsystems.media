@@ -1,12 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
-import BaseHead from "../../components/BaseHead.astro";
-import Footer from "../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 import VideoCard from "../../components/VideoCard.astro";
-import Header from "../../components/Header.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
 
+import MediaGrid from "../../layouts/MediaGrid.astro";
 export async function getStaticPaths() {
   const allPosts = await getCollection("media");
   const uniqueTags = [
@@ -30,94 +27,54 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<!doctype html>
-<html lang="en" transition:name="root" transition:animate="fade">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      .tags {
-        display: flex;
-        flex-wrap: wrap;
-      }
+<style>
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-      .tag {
-        margin: 0.25em;
-        border: dotted 1px #a1a1a1;
-        border-radius: 0.5em;
-        padding: 0.5em 1em;
-        font-size: 1.15em;
-        background-color: #f8fcfd;
-      }
+  .tag {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 1.15em;
+    background-color: #f8fcfd;
+  }
 
-      main {
-        width: 100%;
-        max-width: 1600px;
-        margin: auto;
-        padding: 1rem;
-      }
-      @media screen and (min-width: 768px) {
-        main {
-          padding: 2rem;
-        }
-      }
+  main {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 1rem;
+  }
+  @media screen and (min-width: 768px) {
+    main {
+      padding: 2rem;
+    }
+  }
 
-      /* Mobile layout - 1 column */
-      .media-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-      }
+  h2 {
+    margin-block: 0 2rem;
+  }
+</style>
 
-      /* Tablet layout - 2 columns */
-      @media screen and (min-width: 768px) {
-        .media-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 2rem;
-        }
-      }
+<BaseLayout>
+  <section>
+    <h2>Tagged as: {tag}</h2>
 
-      /* Larger screens - 3 columns */
-      @media screen and (min-width: 1024px) {
-        .media-grid {
-          grid-template-columns: repeat(3, 1fr);
-        }
+    <MediaGrid>
+      {
+        posts.map((post) => (
+          <VideoCard
+            title={post.data.title}
+            poster={post.data.poster}
+            duration={post.data.duration}
+            slug={post.slug}
+            publishedAt={post.data.publishedAt}
+          />
+        ))
       }
-
-      /* Larger screens - 3 columns */
-      @media screen and (min-width: 1300px) {
-        .media-grid {
-          grid-template-columns: repeat(4, 1fr);
-        }
-      }
-
-      /* Larger screens - 3 columns */
-      @media screen and (min-width: 1800px) {
-        .media-grid {
-          grid-template-columns: repeat(5, 1fr);
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <Header title={SITE_TITLE} />
-    <main transition:animate="fade">
-      <section>
-        <p>Posts tagged with {tag}</p>
-        <div class="media-grid">
-          {
-            posts.map((post) => (
-              <VideoCard
-                title={post.data.title}
-                poster={post.data.poster}
-                duration={post.data.duration}
-                slug={post.slug}
-                publishedAt={post.data.publishedAt}
-              />
-            ))
-          }
-        </div>
-      </section>
-    </main>
-    <Footer />
-  </body>
-</html>
+    </MediaGrid>
+  </section>
+</BaseLayout>
