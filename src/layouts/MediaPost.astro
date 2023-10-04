@@ -1,7 +1,6 @@
 ---
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import type { CollectionEntry } from "astro:content";
-import BaseLayout from "../layouts/BaseLayout.astro";
 import VideoDuration from "../components/VideoDuration.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
@@ -34,7 +33,6 @@ const {
   }
   .hero-image .background {
     position: absolute;
-
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -50,26 +48,48 @@ const {
   .hero-image .video-embed {
     border-radius: 0px;
     margin: 0 auto;
-    min-height: 320px;
     z-index: 100;
+    aspect-ratio: auto 16/9;
+    width: 100%;
   }
+  @media screen and (max-width: 1023px) {
+    .hero-image .video-embed {
+      width: 100%;
+      max-width: 720px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .hero-image .video-embed {
+      max-width: 900px;
+    }
+  }
+
   .prose {
-    width: 720px;
-    max-width: calc(100% - 2em);
+    width: 100%;
+    max-width: 60ch;
     margin: auto;
     padding: 1em;
     color: rgb(var(--gray-dark));
   }
   .title {
-    margin-bottom: 1em;
-    padding: 1em 0;
+    margin: 0 auto;
+    padding: 2.5rem 1rem 0.5rem;
     text-align: center;
     line-height: 1;
+    width: 100%;
+    max-width: 85ch;
   }
   .title h1 {
-    margin: 0 0 0.5em 0;
+    margin: 0;
   }
-  .date {
+  .meta-data {
+    margin-bottom: 0.5em;
+    color: rgb(var(--gray-light));
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .meta-data span {
     margin-bottom: 0.5em;
     color: rgb(var(--gray));
   }
@@ -78,43 +98,29 @@ const {
   }
 </style>
 
-<BaseLayout>
-  <article>
-    <div class="hero-image" transition:animate="fade">
-      <YouTube
-        id={videoUrl ?? ""}
-        class="video-embed"
-        transition:name={slug}
-        poster={poster.src}
-      />
-      <Image
-        width={32}
-        src={poster}
-        alt=" "
-        class="background"
-        transition:animate="none"
-      />
+<article>
+  <div class="hero-image" transition:animate="none">
+    <YouTube
+      id={videoUrl ?? ""}
+      class="video-embed"
+      transition:name={slug}
+      transition:animate="initial"
+      poster={poster.src}
+    />
+    <Image width={32} src={poster} alt=" " class="background" />
+  </div>
+  <div class="title">
+    <h1>{title}</h1>
+  </div>
+  <div class="prose">
+    <div class="meta-data">
+      <span><FormattedDate date={publishedAt} /></span>
+       &bull; <span
+        >Duration:
+        <VideoDuration durationStr={duration} /></span
+      >
     </div>
-    <div class="prose">
-      <div class="title">
-        <h1>{title}</h1>
-        <hr />
-        <div class="date">
-          <FormattedDate date={publishedAt} />
-          {
-            updatedDate && (
-              <div class="last-updated-on">
-                Last updated on <FormattedDate date={updatedDate} />
-              </div>
-            )
-          }
-        </div>
-        <p>
-          Duration:
-          <VideoDuration durationStr={duration} />
-        </p>
-      </div>
-      <slot />
-    </div>
-  </article>
-</BaseLayout>
+    <hr />
+    <slot />
+  </div>
+</article>
