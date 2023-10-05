@@ -51,7 +51,12 @@ const { sidebar, fullWidth } = Astro.props;
   }
 </style>
 
-<html lang="en" transition:name="root" transition:animate="none">
+<html
+  lang="en"
+  transition:name="root"
+  transition:persist
+  transition:animate="fade"
+>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

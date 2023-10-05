@@ -36,11 +36,13 @@ const speakers = [
   #sidebar {
     width: 100%;
     padding: 1rem;
+    background: var(--sidebar-background);
   }
   @media screen and (min-width: 768px) {
     #sidebar {
       overflow: auto;
       height: calc(100dvh - 78px);
+      border-right: 1px solid var(--layout-border);
     }
   }
 
@@ -62,7 +64,7 @@ const speakers = [
 
   .tag {
     font-size: 1rem;
-    color: black;
+    color: var(--accent);
   }
   details {
     border-radius: 4px;
@@ -80,7 +82,7 @@ const speakers = [
   }
 
   details[open] summary {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid var(--layout-border);
     margin-bottom: 0.5em;
   }
 </style>
@@ -90,7 +92,7 @@ const speakers = [
   transition:persist
   transition:animate="none"
 >
-  <details>
+  <details open>
     <summary>🏷️ Tags</summary>
     <ul class="tags">
       <li>

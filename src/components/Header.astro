@@ -1,6 +1,7 @@
 ---
 import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
+import ThemeToggle from "./ThemeToggle.astro";
 ---
 
 <header transition:animate="fade">
@@ -10,6 +11,7 @@ import HeaderLink from "./HeaderLink.astro";
       <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="/about">About</HeaderLink>
     </div>
+
     <div class="social-links">
       <a
         href="https://twitter.com/designsysmedia"
@@ -29,6 +31,8 @@ import HeaderLink from "./HeaderLink.astro";
           ></path></svg
         >
       </a>
+
+      <ThemeToggle />
     </div>
   </nav>
 </header>
@@ -36,8 +40,8 @@ import HeaderLink from "./HeaderLink.astro";
   header {
     margin: 0;
     padding: 0 1em;
-    background: white;
-    box-shadow: 0 2px 8px rgba(var(--black), 5%);
+    box-shadow: 0 2px 8px rgba(var(--shadow), 5%);
+    background: var(--header-background);
   }
   h2 {
     margin: 0;
@@ -46,6 +50,7 @@ import HeaderLink from "./HeaderLink.astro";
 
   h2 a,
   h2 a.active {
+    color: var(--header-text);
     text-decoration: none;
   }
   nav {
@@ -55,7 +60,7 @@ import HeaderLink from "./HeaderLink.astro";
   }
   nav a {
     padding: 1em 0.5em;
-    color: var(--black);
+    color: var(--header-text);
     border-bottom: 4px solid transparent;
     text-decoration: none;
   }
