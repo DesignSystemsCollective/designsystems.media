@@ -101,7 +101,15 @@ const {
 
   .prose {
     margin: auto;
-    color: rgb(var(--gray-dark));
+    color: var(--body-text);
+  }
+  :global(.prose h1),
+  :global(.prose h2),
+  :global(.prose h3),
+  :global(.prose h4),
+  :global(.prose h5),
+  :global(.prose h6) {
+    font-size: 1rem;
   }
   .title {
     margin: 0 auto 1em;
@@ -115,14 +123,14 @@ const {
     margin: 0;
   }
   .meta-data {
-    color: rgb(var(--gray));
+    color: var(--meta-data);
     padding: 1rem 0em;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 0em 2rem;
     font-size: 1.1rem;
-    border-bottom: 1px solid rgb(var(--gray-light));
+    border-bottom: 1px solid var(--hr);
   }
   @media screen and (min-width: 1024px) {
     .meta-data {
@@ -132,10 +140,10 @@ const {
     }
   }
   .meta-data a {
-    color: rgb(var(--gray-dark));
+    color: var(--meta-data-link);
   }
   .meta-data span {
-    color: rgb(var(--gray));
+    color: var(--meta-data);
   }
   .tags {
     display: inline-flex;
@@ -169,7 +177,7 @@ const {
     font-style: italic;
   }
 
-  .single-page {
+  :global(.single-page) {
     width: 100%;
     max-width: 1000px;
     margin: auto;
@@ -182,7 +190,7 @@ const {
   }
 
   @media screen and (min-width: 1024px) {
-    .single-page {
+    :global(.single-page) {
       grid-template-columns: 1fr 3fr;
 
       /* TODO: make the videos into rows which use columns on mobile

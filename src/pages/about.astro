@@ -22,13 +22,13 @@ const title = "About";
     color: rgb(var(--gray-dark));
   }
   .title {
-    margin-bottom: 1em;
-    padding: 1em 0;
+    margin: 3rem 0 0;
+    padding: 0;
     text-align: center;
     line-height: 1;
   }
   .title h1 {
-    margin: 0 0 0.5em 0;
+    margin: 0;
   }
   .date {
     margin-bottom: 0.5em;
@@ -40,20 +40,22 @@ const title = "About";
 </style>
 
 <BaseLayout sidebar={false}>
-  <div class="prose">
-    <div class="title">
-      <h1>{title}</h1>
-      <hr />
+  <div class="title">
+    <h1>A media library for the DS community</h1>
+  </div>
+  <div class="single-page">
+    <div class="prose">
+      <p>
+        There's so much awesome content available, but it's not always the
+        easiest job trying to find what you're looking for. We wanted a way to
+        aggregate and bookmark all the design systems content out there and
+        present it in one place.
+      </p>
+      <p>
+        Made by <a href="https://twitter.com/JoshDesignNz">Josh Harwood</a> and <a
+          href="https://twitter.com/fcongson">Frank Congson</a
+        >.
+      </p>
     </div>
-    <p>
-      A media library for the DS community, made by <a
-        href="https://twitter.com/JoshDesignNz">Josh Harwood</a
-      > and <a href="https://twitter.com/fcongson">Frank Congson</a>.
-    </p>
-    <p>
-      There's so much awesome content available, but its not always the easiest
-      to find what you're looking for. We wanted a way to aggregate and bookmark
-      all the design systems content out there.
-    </p>
   </div>
 </BaseLayout>
