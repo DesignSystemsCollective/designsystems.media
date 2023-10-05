@@ -40,10 +40,16 @@ const {
     z-index: 10;
     background-size: cover;
     background-position: center center;
-    filter: blur(2rem);
     opacity: 1;
     overflow: hidden;
     animation: fadeIn 1.5s;
+  }
+  .hero-image .background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(1rem);
   }
   @keyframes fadeIn {
     0% {
@@ -141,7 +147,7 @@ const {
     <div
       class="background"
       style={`background-image: url('${image.src}')`}
-      transition:animate="none"
+      transition:animate="fade"
     >
     </div>
   </div>
