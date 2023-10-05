@@ -73,11 +73,9 @@ const handleToggleClick = () => {
 //     .addEventListener("click", handleToggleClick);
 
 const setTheme = () => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+    currentTheme = "light";
+    if (localStorage.getItem("theme")) {
         var currentTheme = localStorage.getItem("theme");
-    }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        currentTheme = "dark";
     }
 
     document.documentElement.setAttribute("data-theme", currentTheme);
