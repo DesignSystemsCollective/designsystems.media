@@ -1,5 +1,29 @@
 [
   {
+    "title": "Fireside Chat with Patrycja: From Passion Project to Dedicated Design System Team",
+    "description": "Supernova hosted an engaging Fireside Chat that featured the remarkable Patrycja Radaczynska, an advocate in the realm of Design Systems. \n\nIn this insightful discussion, she delved into her journey, which began as a passionate project focused on design systems and eventually led her to become an integral part of Babbel's dedicated team. During the conversation, Patrycja also generously shared her wisdom on the intricacies of developing a design system at Babbel, as well as strategies for fostering alignment among stakeholders and enhancing collaboration between designers and developers. \n\nA full transcript is available at the following link https://bit.ly/3PHKoQL\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/R75ZYlo84zU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/R75ZYlo84zU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/R75ZYlo84zU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=R75ZYlo84zU",
+    "publishedAt": "2023-10-04T09:49:40Z",
+    "duration": "0:59:07"
+  },
+  {
     "title": "DSW Day 2023 - The Rebel’s Guide to Design Systems - Kaelig Deloumeau-Prigent",
     "description": "Top-tier design systems sure look like they’re the holy grail with their comprehensive documentation, community resources, and custom tooling… we should follow their lead, right? Don’t, it’s a trap. Let’s look at design system “best practices” that are downright harmful to your product development lifecycle when implemented by small-to-medium teams.\n\nBio:\nKaelig is a principal software engineer at Netlify and co-chair of the Design Tokens Community Group. In the past, he’s worked on various design systems, such as Shopify Polaris and the Salesforce Lightning Design System.",
     "thumbnails": {
