@@ -7,11 +7,12 @@ import ThemeToggle from "./ThemeToggle.astro";
 <header transition:animate="fade">
   <nav>
     <h2><a href="/">{SITE_TITLE}</a></h2>
-    <div class="internal-links">
+    <!-- <div class="internal-links">
       <HeaderLink href="/about">About</HeaderLink>
-    </div>
+    </div> -->
 
     <div class="social-links">
+      <HeaderLink href="/about">About</HeaderLink>
       <a
         href="https://twitter.com/designsysmedia"
         target="_blank"
@@ -38,8 +39,11 @@ import ThemeToggle from "./ThemeToggle.astro";
   header {
     margin: 0;
     padding: 0 1em;
-    box-shadow: 0 2px 8px rgba(var(--shadow), 5%);
+    box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
+    border-bottom: 1px solid var(--hr);
     background: var(--header-background);
+    z-index: 100;
+    position: relative;
   }
   h2 {
     margin: 0;

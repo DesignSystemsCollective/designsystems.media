@@ -13,7 +13,7 @@ html[data-theme="light"] {
   --header-text: #000;
   --accent: rgb(0, 163, 191);
   --accent-dark: #000d8a;
-  --shadow: 16, 18, 20;
+  --shadow: 22, 26, 29;
   --interactive: rgb(16, 18, 20);
   --body-text: rgb(16, 18, 20);
   --meta-data: rgb(115, 132, 150);
@@ -94,15 +94,16 @@ h6 {
   color: var(--body-text);
   line-height: 1.2;
   font-weight: 600;
+  text-align: left;
 }
 h1 {
-  font-size: 2.6em;
+  font-size: 1.5em;
 }
 h2 {
-  font-size: 2.441em;
+  font-size: 1.3em;
 }
 h3 {
-  font-size: 1.953em;
+  font-size: 1.2em;
 }
 h4 {
   font-size: 1.563em;
@@ -112,6 +113,27 @@ h5 {
   font-size: 1.25em;
   font-weight: 400;
 }
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.953em;
+  }
+  h4 {
+    font-size: 1.563em;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+}
+
 strong,
 b {
   font-weight: 700;
@@ -196,5 +218,5 @@ hr {
   fill: var(--meta-data);
   display: inline-block;
 
-  vertical-align: -0.2em;
+  vertical-align: -0.25em;
 }
