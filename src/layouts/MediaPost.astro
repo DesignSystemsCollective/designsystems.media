@@ -3,7 +3,7 @@ import { YouTube } from "@astro-community/astro-embed-youtube";
 import type { CollectionEntry } from "astro:content";
 import VideoDuration from "../components/VideoDuration.astro";
 import FormattedDate from "../components/FormattedDate.astro";
-
+import { fade } from "astro:transitions";
 import { Image } from "astro:assets";
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -28,23 +28,36 @@ const {
   .hero-image {
     position: relative;
     width: 100%;
-    background-color: #16161d;
     overflow: hidden;
     height: auto;
   }
   .hero-image .background {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
     left: 0;
-    width: 100%;
-    height: auto;
-    z-index: 0;
-    aspect-ratio: auto 16/9;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
     overflow: hidden;
-    object-fit: cover;
-    filter: blur(1rem);
-    opacity: 0.3;
+    animation: fadeIn 1.5s;
+  }
+  .hero-image .background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(1rem);
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   .hero-image .video-embed {
     border-radius: 0px;
@@ -53,14 +66,35 @@ const {
     aspect-ratio: auto 16/9;
     width: 100%;
   }
+  .hero-image .video-poster {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 50;
+    aspect-ratio: auto 16/9;
+  }
   @media screen and (max-width: 1023px) {
+    .hero-image {
+      height: 405px;
+    }
     .hero-image .video-embed {
+      width: 100%;
+      max-width: 720px;
+    }
+    .hero-image .video-poster {
       width: 100%;
       max-width: 720px;
     }
   }
   @media screen and (min-width: 1024px) {
+    .hero-image {
+      height: 506px;
+    }
     .hero-image .video-embed {
+      max-width: 900px;
+    }
+    .hero-image .video-poster {
       max-width: 900px;
     }
   }
@@ -103,15 +137,19 @@ const {
 </style>
 
 <article>
-  <div class="hero-image" transition:animate="none">
+  <div class="hero-image">
     <YouTube
       id={videoUrl ?? ""}
       class="video-embed"
       transition:name={slug}
-      transition:animate="initial"
       poster={poster.src}
     />
-    <Image width={32} src={poster} alt=" " class="background" />
+    <div
+      class="background"
+      style={`background-image: url('${image.src}')`}
+      transition:animate="fade"
+    >
+    </div>
   </div>
   <div class="title">
     <h1>{title}</h1>
