@@ -93,7 +93,7 @@ const {
   :global(.prose h4),
   :global(.prose h5),
   :global(.prose h6) {
-    font-size: 1rem;
+    font-size: 1em;
   }
   .title {
     margin: 0 auto 1em;
@@ -101,7 +101,12 @@ const {
     text-align: center;
     line-height: 1;
     width: 100%;
-    max-width: 85ch;
+    max-width: 900px;
+  }
+  @media screen and (min-width: 1024px) {
+    .title {
+      padding: 2.5rem 0rem 0.5rem;
+    }
   }
   .title h1 {
     margin: 0;
@@ -152,6 +157,12 @@ const {
     margin-right: 0.25em;
   }
 
+  .single-page {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+  }
   @media screen and (min-width: 1024px) {
     .tags {
       margin-block-start: 0;
@@ -160,25 +171,24 @@ const {
       flex-direction: column;
       gap: 0.5em 0em;
     }
-  }
-  .last-updated-on {
-    font-style: italic;
-  }
 
-  :global(.single-page) {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    display: grid;
-    gap: 2rem;
-    padding: 1rem;
-    justify-content: center;
-    align-items: start;
-    grid-template-columns: 1fr;
-  }
+    .meta-data {
+      padding-left: 1.8rem;
+    }
+    .meta-data [astro-icon] {
+      position: absolute;
+      transform: translateX(-1.8rem);
+    }
+    .last-updated-on {
+      font-style: italic;
+    }
 
-  @media screen and (min-width: 1024px) {
-    :global(.single-page) {
+    .single-page {
+      display: grid;
+      gap: 2rem;
+      justify-content: center;
+      align-items: start;
+      grid-template-columns: 1fr;
       grid-template-columns: 1fr 3fr;
 
       /* TODO: make the videos into rows which use columns on mobile
