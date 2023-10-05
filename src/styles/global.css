@@ -7,7 +7,7 @@
 :root,
 html[data-theme="light"] {
   --site-background: rgb(255, 255, 255);
-  --header-background: rgb(222, 228, 234);
+  --header-background: #f6f8fa;
   --layout-border: rgb(222, 228, 234);
   --sidebar-background: rgb(255, 255, 255);
   --header-text: #000;
