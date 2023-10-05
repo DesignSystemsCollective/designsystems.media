@@ -76,7 +76,7 @@ const {
   }
   @media screen and (max-width: 1023px) {
     .hero-image {
-      height: 405px;
+      max-height: 405px;
     }
     .hero-image .video-embed {
       width: 100%;
@@ -100,14 +100,11 @@ const {
   }
 
   .prose {
-    width: 100%;
-    max-width: 60ch;
     margin: auto;
-    padding: 1em;
     color: rgb(var(--gray-dark));
   }
   .title {
-    margin: 0 auto;
+    margin: 0 auto 1em;
     padding: 2.5rem 1rem 0.5rem;
     text-align: center;
     line-height: 1;
@@ -118,21 +115,79 @@ const {
     margin: 0;
   }
   .meta-data {
-    margin-bottom: 0.5em;
     color: rgb(var(--gray));
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+    padding: 1rem 0em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0em 2rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgb(var(--gray-light));
+  }
+  @media screen and (min-width: 1024px) {
+    .meta-data {
+      flex-direction: column;
+      padding: 1rem 0em;
+      gap: 1rem 0;
+    }
   }
   .meta-data a {
     color: rgb(var(--gray-dark));
   }
   .meta-data span {
-    margin-bottom: 0.5em;
     color: rgb(var(--gray));
+  }
+  .tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    line-height: normal;
+    gap: 0.25em 1em;
+    align-items: baseline;
+    margin-block-start: 0.5em;
+  }
+  .break {
+    display: none;
+  }
+  @media screen and (max-width: 1024px) {
+    .break {
+      flex-basis: 100%;
+      height: 0;
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .tags {
+      margin-block-start: 0;
+      display: flex;
+      flex-wrap: none;
+      flex-direction: column;
+      gap: 0.5em 0em;
+    }
   }
   .last-updated-on {
     font-style: italic;
+  }
+
+  .single-page {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: start;
+    grid-template-columns: 1fr;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .single-page {
+      grid-template-columns: 1fr 3fr;
+
+      /* TODO: make the videos into rows which use columns on mobile
+          grid-template-columns: repeat(5, 1fr); */
+    }
   }
 </style>
 
@@ -154,21 +209,16 @@ const {
   <div class="title">
     <h1>{title}</h1>
   </div>
-  <div class="prose">
+  <div class="single-page">
     <div class="meta-data">
       <span>🗓️ <FormattedDate date={publishedAt} /></span>
       <span
         >🕔
         <VideoDuration durationStr={duration} /></span
       >
-    </div>
-
-    <hr />
-    <slot />
-    <hr />
-    <div class="meta-data">
+      <div class="break"></div>
       <div class="tags">
-        🏷️
+        <span>🏷️ Tags</span>
         {
           tags.map((tag) => (
             <a href={`/tags/${tag}`} class="tag">
@@ -178,7 +228,7 @@ const {
         }
       </div>
       <div class="tags">
-        👤
+        <span>👤 Speakers</span>
         {
           speakers.map((speaker) => (
             <a href={`/speakers/${speaker}`} class="speaker">
@@ -187,6 +237,10 @@ const {
           ))
         }
       </div>
+    </div>
+
+    <div class="prose">
+      <slot />
     </div>
   </div>
 </article>
