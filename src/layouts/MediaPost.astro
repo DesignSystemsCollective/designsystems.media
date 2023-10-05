@@ -3,8 +3,7 @@ import { YouTube } from "@astro-community/astro-embed-youtube";
 import type { CollectionEntry } from "astro:content";
 import VideoDuration from "../components/VideoDuration.astro";
 import FormattedDate from "../components/FormattedDate.astro";
-import { fade } from "astro:transitions";
-import { Image } from "astro:assets";
+import { Icon } from "astro-icon";
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
@@ -66,23 +65,11 @@ const {
     aspect-ratio: auto 16/9;
     width: 100%;
   }
-  .hero-image .video-poster {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    z-index: 50;
-    aspect-ratio: auto 16/9;
-  }
   @media screen and (max-width: 1023px) {
     .hero-image {
       max-height: 405px;
     }
     .hero-image .video-embed {
-      width: 100%;
-      max-width: 720px;
-    }
-    .hero-image .video-poster {
       width: 100%;
       max-width: 720px;
     }
@@ -92,9 +79,6 @@ const {
       height: 506px;
     }
     .hero-image .video-embed {
-      max-width: 900px;
-    }
-    .hero-image .video-poster {
       max-width: 900px;
     }
   }
@@ -137,6 +121,7 @@ const {
       flex-direction: column;
       padding: 1rem 0em;
       gap: 1rem 0;
+      justify-content: baseline;
     }
   }
   .meta-data a {
@@ -162,6 +147,9 @@ const {
       height: 0;
       display: block;
     }
+  }
+  .meta-data [astro-icon] {
+    margin-right: 0.25em;
   }
 
   @media screen and (min-width: 1024px) {
@@ -219,14 +207,17 @@ const {
   </div>
   <div class="single-page">
     <div class="meta-data">
-      <span>🗓️ <FormattedDate date={publishedAt} /></span>
       <span
-        >🕔
+        ><Icon name="fluent:calendar-date-20-filled" size="20" />
+        <FormattedDate date={publishedAt} /></span
+      >
+      <span
+        ><Icon name="fluent:clock-20-filled" size="20" />
         <VideoDuration durationStr={duration} /></span
       >
       <div class="break"></div>
       <div class="tags">
-        <span>🏷️ Tags</span>
+        <span><Icon name="fluent:tag-20-filled" size="20" />Tags</span>
         {
           tags.map((tag) => (
             <a href={`/tags/${tag}`} class="tag">
@@ -236,7 +227,7 @@ const {
         }
       </div>
       <div class="tags">
-        <span>👤 Speakers</span>
+        <span><Icon name="fluent:person-20-filled" size="20" />Speakers</span>
         {
           speakers.map((speaker) => (
             <a href={`/speakers/${speaker}`} class="speaker">

@@ -19,6 +19,7 @@ html[data-theme="light"] {
   --meta-data: rgb(115, 132, 150);
   --meta-data-link: var(--accent);
   --gray: 96, 115, 159;
+  --icons: var(--meta-data);
   --gray-light: 229, 233, 240;
   --hr: var(--layout-border);
   --text: rgb(16, 18, 20);
@@ -36,6 +37,7 @@ html[data-theme="dark"] {
   --accent: rgb(0, 163, 191);
   --accent-dark: #000d8a;
   --shadow: 16, 18, 20;
+  --icons: var(--meta-data);
   --body-text: rgb(199, 209, 219);
   --meta-data: rgb(199, 209, 219);
   --meta-data-link: var(--accent);
@@ -187,4 +189,12 @@ hr {
   clip-path: inset(50%);
   /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
+}
+[astro-icon] {
+  color: var(--meta-data);
+  /* OR */
+  fill: var(--meta-data);
+  display: inline-block;
+
+  vertical-align: -0.2em;
 }
