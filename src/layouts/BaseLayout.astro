@@ -22,17 +22,18 @@ const { sidebar, fullWidth } = Astro.props;
     .with-sidebar {
       display: grid;
       grid-template-columns: 20ch 1fr;
-      gap: 1rem;
+      gap: 1.5rem;
     }
   }
   .with-sidebar section#main-page {
     width: 100%;
-    padding: 2rem;
+    padding: 0rem;
   }
   @media screen and (min-width: 768px) {
     .with-sidebar section#main-page {
       overflow: auto;
       height: calc(100dvh - 78px);
+      padding: 1.5rem 1.5rem 2rem 0;
     }
   }
   main {
@@ -46,7 +47,7 @@ const { sidebar, fullWidth } = Astro.props;
   }
   @media screen and (min-width: 768px) {
     main {
-      padding: 0rem;
+      padding: 0rem 0rem;
     }
   }
 </style>
