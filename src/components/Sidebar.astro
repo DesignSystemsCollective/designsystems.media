@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 
+import { Icon } from "astro-icon";
 const allPosts = await getCollection("media");
 
 // Filter posts with non-empty tags
@@ -76,6 +77,20 @@ const speakers = [
     font-weight: bold;
     margin: -0.2em -0.5em 0;
     padding: 0.2em 0.5em;
+    list-style: none;
+    position: relative;
+  }
+  summary svg.toggle {
+    opacity: 0.5;
+    right: 1em;
+    position: absolute;
+    top: 0.35em;
+  }
+  summary:hover svg.toggle {
+    opacity: 1;
+  }
+  details[open] summary svg.toggle {
+    transform: rotate(180deg);
   }
   details[open] {
     padding: 0.2em 0.5em;
@@ -93,7 +108,13 @@ const speakers = [
   transition:animate="none"
 >
   <details open>
-    <summary>🏷️ Tags</summary>
+    <summary
+      ><Icon name="fluent:tag-20-filled" size="20" /> Tags <Icon
+        name="fluent:chevron-down-24-filled"
+        size="24"
+        class="toggle"
+      /></summary
+    >
     <ul class="tags">
       <li>
         <a href={`/`} class="tag"> View all</a>
@@ -110,7 +131,13 @@ const speakers = [
     </ul>
   </details>
   <details>
-    <summary>👤 Speakers</summary>
+    <summary
+      ><Icon name="fluent:person-20-filled" size="20" /> Speakers <Icon
+        name="fluent:chevron-down-24-filled"
+        size="24"
+        class="toggle"
+      />
+    </summary>
     <ul class="tags">
       <li>
         <a href={`/`} class="tag"> View all</a>
