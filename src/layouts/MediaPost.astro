@@ -43,6 +43,15 @@ const {
     filter: blur(2rem);
     opacity: 1;
     overflow: hidden;
+    animation: fadeIn 1.5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   .hero-image .video-embed {
     border-radius: 0px;
@@ -60,6 +69,9 @@ const {
     aspect-ratio: auto 16/9;
   }
   @media screen and (max-width: 1023px) {
+    .hero-image {
+      height: 405px;
+    }
     .hero-image .video-embed {
       width: 100%;
       max-width: 720px;
@@ -70,6 +82,9 @@ const {
     }
   }
   @media screen and (min-width: 1024px) {
+    .hero-image {
+      height: 506px;
+    }
     .hero-image .video-embed {
       max-width: 900px;
     }
@@ -117,18 +132,10 @@ const {
 
 <article>
   <div class="hero-image">
-    <Image
-      width={900}
-      src={poster}
-      alt=""
-      class="video-poster"
-      transition:name={slug}
-      transition:animate="initial"
-    />
     <YouTube
       id={videoUrl ?? ""}
       class="video-embed"
-      transition:animate="none"
+      transition:name={slug}
       poster={poster.src}
     />
     <div
