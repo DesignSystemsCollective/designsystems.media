@@ -4,6 +4,10 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
+:root {
+  --header-height: 4rem;
+}
+
 :root,
 html[data-theme="light"] {
   --site-background: rgb(255, 255, 255);

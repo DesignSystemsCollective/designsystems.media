@@ -45,6 +45,13 @@ const { posts } = Astro.props;
   h2 {
     margin-block: 0 2rem;
   }
+
+  @media (max-width: 720px) {
+    h2 {
+      padding: 1rem;
+      margin: 1rem 0 0;
+    }
+  }
 </style>
 
 <BaseLayout sidebar={true}>
