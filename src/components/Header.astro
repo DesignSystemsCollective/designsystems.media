@@ -14,8 +14,9 @@ import { Icon } from "astro-icon";
       >
     </h2>
     <!-- <div class="internal-links">
-      <HeaderLink href="/about">About</HeaderLink>
-    </div> -->
+     <HeaderLink href="/search">Search</HeaderLink>
+    <HeaderLink href="/about">About</HeaderLink>
+  </nav> -->
 
     <div class="social-links">
       <HeaderLink href="/about">About</HeaderLink>
@@ -40,66 +41,67 @@ import { Icon } from "astro-icon";
       <ThemeToggle />
     </div>
   </nav>
+
+  <style>
+    header {
+      margin: 0;
+      padding: 0 1em;
+      box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
+      border-bottom: 1px solid var(--hr);
+      background: var(--header-background);
+      z-index: 100;
+      position: relative;
+      height: var(--header-height);
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+
+    h2 a [astro-icon] {
+      margin-right: 0.5rem;
+    }
+
+    h2 a:hover [astro-icon] {
+      color: var(--interactive);
+      /* OR */
+      fill: var(--interactive);
+    }
+
+    h2 a,
+    h2 a.active {
+      color: var(--header-text);
+      text-decoration: none;
+      padding: 0;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: var(--header-height);
+    }
+    nav a {
+      padding: 1em 0.5em;
+      color: var(--header-text);
+      text-decoration: none;
+    }
+    nav a.active {
+      text-decoration: none;
+    }
+    nav h2 a {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+    }
+    .social-links,
+    .social-links a {
+      display: flex;
+      align-items: center;
+      font-size: 0.9em;
+    }
+  </style>
 </header>
-<style>
-  header {
-    margin: 0;
-    padding: 0 1em;
-    box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
-    border-bottom: 1px solid var(--hr);
-    background: var(--header-background);
-    z-index: 100;
-    position: relative;
-    height: var(--header-height);
-  }
-
-  h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 0.9em;
-    font-weight: 400;
-  }
-
-  h2 a [astro-icon] {
-    margin-right: 0.5rem;
-  }
-
-  h2 a:hover [astro-icon] {
-    color: var(--interactive);
-    /* OR */
-    fill: var(--interactive);
-  }
-
-  h2 a,
-  h2 a.active {
-    color: var(--header-text);
-    text-decoration: none;
-    padding: 0;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: var(--header-height);
-  }
-  nav a {
-    padding: 1em 0.5em;
-    color: var(--header-text);
-    text-decoration: none;
-  }
-  nav a.active {
-    text-decoration: none;
-  }
-  nav h2 a {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-  }
-  .social-links,
-  .social-links a {
-    display: flex;
-    align-items: center;
-    font-size: 0.9em;
-  }
-</style>

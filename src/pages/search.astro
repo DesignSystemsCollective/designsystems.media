@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Search from "astro-pagefind/components/Search";
+---
+
+<BaseLayout sidebar={false}>
+  <div class="title">
+    <h1>Search for videos in the library</h1>
+  </div>
+  <div class="single-page">
+    <div class="search-wrapper"><Search /></div>
+  </div>
+</BaseLayout>
+
+<style>
+  .search-wrapper {
+    padding: 2rem 1rem;
+  }
+  .title {
+    margin: 3rem 0 0;
+    padding: 0rem 1rem;
+    text-align: center;
+    line-height: 1;
+  }
+  .title h1 {
+    margin: 0;
+  }
+</style>

@@ -29,52 +29,53 @@ const { sidebar, fullWidth } = Astro.props;
         </section>
       </section>
     </main>
-  </body><style>
-    main {
-      width: 100%;
-      max-width: 100%;
-      margin: 0;
-    }
-    @media screen and (min-width: 768px) {
-      .with-sidebar {
-        display: grid;
-        grid-template-columns: 20ch 1fr;
-        gap: 1.5rem;
-      }
-    }
-    .with-sidebar section#main-page {
-      width: 100%;
-      padding: 0rem;
-    }
-    @media screen and (min-width: 768px) {
-      .with-sidebar section#main-page {
-        overflow: auto;
-        height: calc(100dvh - 78px);
-        padding: 1.5rem 1.5rem 2rem 0;
-      }
-    }
-    main {
-      width: 100%;
-      max-width: 1800px;
-      margin: auto;
-      padding: 0rem;
-      z-index: 50;
-      position: relative;
-    }
-    main.full-width {
-      max-width: 100%;
-    }
-    @media screen and (min-width: 768px) {
+    <style>
       main {
-        padding: 0rem 0rem;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
       }
-    }
-  </style>
-  <style is:global>
-    /* Improve Page speed */
-    /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
-    img {
-      content-visibility: auto;
-    }
-  </style>
+      @media screen and (min-width: 768px) {
+        .with-sidebar {
+          display: grid;
+          grid-template-columns: 20ch 1fr;
+          gap: 1.5rem;
+        }
+      }
+      .with-sidebar section#main-page {
+        width: 100%;
+        padding: 0rem;
+      }
+      @media screen and (min-width: 768px) {
+        .with-sidebar section#main-page {
+          overflow: auto;
+          height: calc(100dvh - 78px);
+          padding: 1.5rem 1.5rem 2rem 0;
+        }
+      }
+      main {
+        width: 100%;
+        max-width: 1800px;
+        margin: auto;
+        padding: 0rem;
+        z-index: 50;
+        position: relative;
+      }
+      main.full-width {
+        max-width: 100%;
+      }
+      @media screen and (min-width: 768px) {
+        main {
+          padding: 0rem 0rem;
+        }
+      }
+    </style>
+    <style is:global>
+      /* Improve Page speed */
+      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
+      img {
+        content-visibility: auto;
+      }
+    </style>
+  </body>
 </html>
