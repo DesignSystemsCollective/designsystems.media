@@ -30,6 +30,17 @@ html[data-theme="light"] {
   --gray-gradient: rgba(var(--gray-light), 50%), #fff;
   --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: var(--accent);
+  --pagefind-ui-text: rgb(var(--body-text));
+  --pagefind-ui-background: transparent;
+  --pagefind-ui-border: var(--layout-border);
+  --pagefind-ui-tag: #eeeeee;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 16 / 9;
+  --pagefind-ui-font: sans-serif;
 }
 html[data-theme="dark"] {
   --site-background: rgb(22, 26, 29);
@@ -52,7 +63,13 @@ html[data-theme="dark"] {
   --gray-gradient: rgba(var(--gray-light), 50%), #fff;
   --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
+  --pagefind-ui-primary: #eeeeee;
+  --pagefind-ui-text: var(--body-text);
+  --pagefind-ui-background: transparent;
+  --pagefind-ui-border: var(--layout-border);
+  --pagefind-ui-tag: #152028;
 }
+
 @font-face {
   font-family: "Atkinson";
   src: url("/fonts/atkinson-regular.woff") format("woff");
