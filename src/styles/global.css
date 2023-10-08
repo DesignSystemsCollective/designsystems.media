@@ -39,7 +39,7 @@ html[data-theme="light"] {
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
-  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-image-box-ratio: 16 / 9;
   --pagefind-ui-font: sans-serif;
 }
 html[data-theme="dark"] {
