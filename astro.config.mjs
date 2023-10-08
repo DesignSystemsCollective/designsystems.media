@@ -1,10 +1,21 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
+import pagefind from "astro-pagefind";
 
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://designsystems.media",
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap(),
+    pagefind({
+      element: "#search",
+      translations: {
+        placeholder: "Search media library",
+        zero_results: "Couldn't find [SEARCH_TERM]",
+      },
+    }),
+  ],
 });

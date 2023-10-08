@@ -12,54 +12,7 @@ interface Props {
 const { sidebar, fullWidth } = Astro.props;
 ---
 
-<style>
-  main {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-  }
-  @media screen and (min-width: 768px) {
-    .with-sidebar {
-      display: grid;
-      grid-template-columns: 20ch 1fr;
-      gap: 1.5rem;
-    }
-  }
-  .with-sidebar section#main-page {
-    width: 100%;
-    padding: 0rem;
-  }
-  @media screen and (min-width: 768px) {
-    .with-sidebar section#main-page {
-      overflow: auto;
-      height: calc(100dvh - 78px);
-      padding: 1.5rem 1.5rem 2rem 0;
-    }
-  }
-  main {
-    width: 100%;
-    max-width: 1800px;
-    margin: auto;
-    padding: 0rem;
-    z-index: 50;
-    position: relative;
-  }
-  main.full-width {
-    max-width: 100%;
-  }
-  @media screen and (min-width: 768px) {
-    main {
-      padding: 0rem 0rem;
-    }
-  }
-</style>
-
-<html
-  lang="en"
-  transition:name="root"
-  transition:persist
-  transition:animate="fade"
->
+<html lang="en" transition:name="root" transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,8 +24,58 @@ const { sidebar, fullWidth } = Astro.props;
     <main class={fullWidth && "full-width"}>
       <section id="site-wrapper" class={sidebar && "with-sidebar"}>
         {sidebar && <Sidebar />}
-        <section id="main-page"><slot /></section>
+        <section id="main-page">
+          <slot />
+        </section>
       </section>
     </main>
+    <style>
+      main {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+      }
+      @media screen and (min-width: 768px) {
+        .with-sidebar {
+          display: grid;
+          grid-template-columns: 20ch 1fr;
+          gap: 1.5rem;
+        }
+      }
+      .with-sidebar section#main-page {
+        width: 100%;
+        padding: 0rem;
+      }
+      @media screen and (min-width: 768px) {
+        .with-sidebar section#main-page {
+          overflow: auto;
+          height: calc(100dvh - 78px);
+          padding: 1.5rem 1.5rem 2rem 0;
+        }
+      }
+      main {
+        width: 100%;
+        max-width: 1800px;
+        margin: auto;
+        padding: 0rem;
+        z-index: 50;
+        position: relative;
+      }
+      main.full-width {
+        max-width: 100%;
+      }
+      @media screen and (min-width: 768px) {
+        main {
+          padding: 0rem 0rem;
+        }
+      }
+    </style>
+    <style is:global>
+      /* Improve Page speed */
+      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
+      img {
+        content-visibility: auto;
+      }
+    </style>
   </body>
 </html>

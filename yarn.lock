@@ -844,10 +844,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pagefind/default-ui@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@pagefind/default-ui@npm:0.12.0"
+  checksum: f827d51f846fe88121826bc89da024bee669d7a44b546d61dc7d4d251650bcf3706176a902543a3880003eda87eedaa07bad3fab11338c52f2ec5f1bcd3bf3f9
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
   checksum: 6ad6a00fc4f2f2cfc6bff76fb1d88b8ee20bc0601e18ebb01b6d4be583733a860239a521a7fbca73b612e66705078809483549d2b18f370eb346c5155c8e4a0f
+  languageName: node
+  linkType: hard
+
+"@polka/url@npm:^1.0.0-next.20":
+  version: 1.0.0-next.23
+  resolution: "@polka/url@npm:1.0.0-next.23"
+  checksum: 4b0330de1ceecd1002c7e7449094d0c41f2ed0e21765f4835ccc7b003f2f024ac557d503b9ffdf0918cf50b80d5b8c99dfc5a91927e7b3c468b09c6bb42a3c41
   languageName: node
   linkType: hard
 
@@ -1239,6 +1253,19 @@ __metadata:
     resolve-pkg: ^2.0.0
     svgo: ^2.8.0
   checksum: 52a68de4e85d544ca01023908b2733e6b42a585a06c467568c5fea5e03000eff57163e32012105ea275b09e67bf54acd5d6dbab21fa77ee45fedbe379d73c333
+  languageName: node
+  linkType: hard
+
+"astro-pagefind@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "astro-pagefind@npm:1.2.4"
+  dependencies:
+    "@pagefind/default-ui": ^0.12.0
+    pagefind: ^0.12.0
+    sirv: ^2.0.3
+  peerDependencies:
+    astro: ^2.0.4 || ^3.0.0
+  checksum: efc640fa6e075f30c97bf2ab97f5038015f68cdbd3dde73939405fe11314aaa18e024dcb9be8d02954aa46916a240c9ae5fb1c8660047e8a9d451a3562f7f6c3
   languageName: node
   linkType: hard
 
@@ -1931,6 +1958,7 @@ __metadata:
     "@astrojs/sitemap": ^3.0.0
     astro: ^3.1.0
     astro-icon: ^0.8.1
+    astro-pagefind: ^1.2.4
     axios: ^1.5.0
     dotenv: ^16.3.1
     fs: ^0.0.1-security
@@ -4463,6 +4491,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mrmime@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "mrmime@npm:1.0.1"
+  checksum: cc979da44bbbffebaa8eaf7a45117e851f2d4cb46a3ada6ceb78130466a04c15a0de9a9ce1c8b8ba6f6e1b8618866b1352992bf1757d241c0ddca558b9f28a77
+  languageName: node
+  linkType: hard
+
 "ms@npm:2.0.0":
   version: 2.0.0
   resolution: "ms@npm:2.0.0"
@@ -4764,6 +4799,18 @@ __metadata:
   version: 2.2.0
   resolution: "p-try@npm:2.2.0"
   checksum: f8a8e9a7693659383f06aec604ad5ead237c7a261c18048a6e1b5b85a5f8a067e469aa24f5bc009b991ea3b058a87f5065ef4176793a200d4917349881216cae
+  languageName: node
+  linkType: hard
+
+"pagefind@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "pagefind@npm:0.12.0"
+  dependencies:
+    https-proxy-agent: ^5.0.0
+    proxy-from-env: ^1.1.0
+  bin:
+    pagefind: lib/index.js
+  checksum: 7189127d113cea57b098a4970e00cc6d1f8c2b21f1ef57dd2811c864440bf8eeac75310b080e0bd60d271e0f262e39d6f3839ecb5969180be526b40a4cba2b11
   languageName: node
   linkType: hard
 
@@ -5495,6 +5542,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sirv@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "sirv@npm:2.0.3"
+  dependencies:
+    "@polka/url": ^1.0.0-next.20
+    mrmime: ^1.0.0
+    totalist: ^3.0.0
+  checksum: e2dfd4c97735a6ad6d842d0eec2cd9e3919ff0e46f0d228248c5753ad4b70b832711e77e1259c031c439cdb08303cc54d923685c92b0e890145cc733af7c5568
+  languageName: node
+  linkType: hard
+
 "sisteransi@npm:^1.0.5":
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
@@ -5865,6 +5923,13 @@ __metadata:
   dependencies:
     is-number: ^7.0.0
   checksum: f76fa01b3d5be85db6a2a143e24df9f60dd047d151062d0ba3df62953f2f697b16fe5dad9b0ac6191c7efc7b1d9dcaa4b768174b7b29da89d4428e64bc0a20ed
+  languageName: node
+  linkType: hard
+
+"totalist@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "totalist@npm:3.0.1"
+  checksum: 5132d562cf88ff93fd710770a92f31dbe67cc19b5c6ccae2efc0da327f0954d211bbfd9456389655d726c624f284b4a23112f56d1da931ca7cfabbe1f45e778a
   languageName: node
   linkType: hard
 
