@@ -3,6 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css";
 
+import { GoogleAnalytics } from "astro-google-analytics";
 import { ViewTransitions } from "astro:transitions";
 
 interface Props {
@@ -19,6 +20,8 @@ const { title, description, image = "/screenshot.png" } = Astro.props;
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<GoogleAnalytics id="G-Y71GMYWZL0" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

@@ -1245,6 +1245,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"astro-google-analytics@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "astro-google-analytics@npm:1.0.3"
+  checksum: acc00f31182486072392b027b58e429dfb723e382574b1c5fce63b23a7dc68759beae3cc6311fb080e6c5394bfe9656b45901228c2a78527b67b454e1d116ead
+  languageName: node
+  linkType: hard
+
 "astro-icon@npm:^0.8.1":
   version: 0.8.1
   resolution: "astro-icon@npm:0.8.1"
@@ -1957,6 +1964,7 @@ __metadata:
     "@astrojs/rss": ^3.0.0
     "@astrojs/sitemap": ^3.0.0
     astro: ^3.1.0
+    astro-google-analytics: ^1.0.3
     astro-icon: ^0.8.1
     astro-pagefind: ^1.2.4
     axios: ^1.5.0
