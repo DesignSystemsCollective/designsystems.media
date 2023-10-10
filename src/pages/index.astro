@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MediaGrid from "../layouts/MediaGrid.astro";
 import VideoCard from "../components/VideoCard.astro";
+import LibraryStats from "../components/LibraryStats.astro";
 
 const media = (await getCollection("media")).sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
@@ -10,6 +11,7 @@ const media = (await getCollection("media")).sort(
 ---
 
 <BaseLayout sidebar={true}>
+  <LibraryStats />
   <MediaGrid>
     {
       media.map((media) => (

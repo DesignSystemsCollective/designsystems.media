@@ -31,14 +31,91 @@ const speakers = [
       .sort()
   ),
 ];
+
+function calculatePostCountForTag(tagName) {
+  // Assuming 'posts' is an array of post objects with 'tags' property
+  return allPosts.filter((post) => post.data.tags.includes(tagName)).length;
+}
+
+function calculatePostCountForSpeaker(speakerName) {
+  // Assuming 'posts' is an array of post objects with 'tags' property
+  return allPosts.filter((post) => post.data.speakers.includes(speakerName))
+    .length;
+}
 ---
+
+<aside
+  id="sidebar"
+  transition:name="sidebar"
+  transition:persist
+  transition:animate="none"
+>
+  <details>
+    <summary
+      ><Icon name="fluent:tag-20-filled" size="20" /> Tags <Icon
+        name="fluent:chevron-down-24-filled"
+        size="24"
+        class="toggle"
+      /></summary
+    >
+    <ul class="tags">
+      <li>
+        <a href={`/`} class="tag"> View all</a>
+      </li>
+      {
+        tags.map((tag) => {
+          // Calculate the count for each tag
+          const postCountForTag = calculatePostCountForTag(tag); // Replace with your actual logic
+
+          return (
+            <li>
+              <a href={`/tags/${tag}`} class="tag">
+                <span data-type="label">{tag}</span>{" "}
+                <span data-type="count">{postCountForTag}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </details>
+  <details>
+    <summary
+      ><Icon name="fluent:person-20-filled" size="20" /> Speakers <Icon
+        name="fluent:chevron-down-24-filled"
+        size="24"
+        class="toggle"
+      />
+    </summary>
+    <ul class="tags">
+      <li>
+        <a href={`/`} class="tag"> View all</a>
+      </li>
+      {
+        speakers.map((speaker) => {
+          // Calculate the count for each tag
+          const postCountForSpeaker = calculatePostCountForSpeaker(speaker); // Replace with your actual logic
+
+          return (
+            <li>
+              <a href={`/speakers/${speaker}`} class="tag">
+                <span data-type="label">{speaker}</span>{" "}
+                <span data-type="count">{postCountForSpeaker}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </details>
+</aside>
 
 <style>
   #sidebar {
     width: 100%;
     background: var(--sidebar-background);
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     #sidebar {
       padding: 0.5rem 0 0;
       border-bottom: 1px solid var(--layout-border);
@@ -46,7 +123,7 @@ const speakers = [
     details {
     }
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     #sidebar {
       padding: 0.5rem 0 1rem;
       overflow: auto;
@@ -65,7 +142,7 @@ const speakers = [
 
   .tags li {
     line-height: 1.2rem;
-    margin-block-end: 0.4rem;
+    margin-block-end: 0.45rem;
   }
   .tags:last-child {
     margin-block-end: 0rem;
@@ -73,10 +150,34 @@ const speakers = [
 
   .tag {
     font-size: 1rem;
-    color: var(--accent);
+    color: rgb(var(--accent));
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.1em;
   }
   .tag:hover {
     color: var(--accent-hover);
+  }
+
+  .tag [data-type="label"] {
+    border-bottom: 1px solid var(--accent-hover);
+    padding: 0.1em 0 0;
+  }
+
+  .tag [data-type="count"] {
+    display: inline-flex;
+    color: var(--tx-2);
+    background: var(--bg-2);
+    padding: 0.25em 0.5em 0.1em;
+    border-radius: 0.6em;
+    align-items: baseline;
+    line-height: 1em;
+    min-width: 1.5em;
+    font-size: 0.8em;
+    font-weight: 700;
+    justify-content: center;
   }
   details {
     border-radius: 4px;
@@ -116,56 +217,3 @@ const speakers = [
     margin-bottom: 0.5em;
   }
 </style>
-<aside
-  id="sidebar"
-  transition:name="sidebar"
-  transition:persist
-  transition:animate="none"
->
-  <details>
-    <summary
-      ><Icon name="fluent:tag-20-filled" size="20" /> Tags <Icon
-        name="fluent:chevron-down-24-filled"
-        size="24"
-        class="toggle"
-      /></summary
-    >
-    <ul class="tags">
-      <li>
-        <a href={`/`} class="tag"> View all</a>
-      </li>
-      {
-        tags.map((tag) => (
-          <li>
-            <a href={`/tags/${tag}`} class="tag">
-              {tag}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </details>
-  <details>
-    <summary
-      ><Icon name="fluent:person-20-filled" size="20" /> Speakers <Icon
-        name="fluent:chevron-down-24-filled"
-        size="24"
-        class="toggle"
-      />
-    </summary>
-    <ul class="tags">
-      <li>
-        <a href={`/`} class="tag"> View all</a>
-      </li>
-      {
-        speakers.map((speaker) => (
-          <li>
-            <a href={`/speakers/${speaker}`} class="tag">
-              {speaker}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </details>
-</aside>

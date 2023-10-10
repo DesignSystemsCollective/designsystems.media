@@ -1,0 +1,105 @@
+---
+import { getCollection } from "astro:content";
+const allPosts = await getCollection("media");
+
+import { Icon } from "astro-icon";
+const postCount = allPosts.length;
+
+// Function to extract unique speakers
+function getUniqueItems(key) {
+  const uniqueItems = [];
+  allPosts.forEach((post) => {
+    post.data[key].forEach((item) => {
+      if (!uniqueItems.includes(item)) {
+        uniqueItems.push(item);
+      }
+    });
+  });
+  return uniqueItems;
+}
+
+// Get the list of unique tags
+const uniqueTags = getUniqueItems("tags");
+
+// Get the list of unique speakers
+const uniqueSpeakers = getUniqueItems("speakers");
+
+// Calculate the total count of unique tags and speakers
+const totalTagCount = uniqueTags.length;
+const totalSpeakerCount = uniqueSpeakers.length;
+---
+
+<div class="libraryStats">
+  <div class="stat">
+    <Icon name="fluent:video-clip-multiple-24-regular" size="4em" />
+    <div class="info">
+      <div data-type="label">Videos</div>
+      <div data-type="count">{postCount}</div>
+    </div>
+  </div>
+  <div class="stat">
+    <Icon name="fluent:person-24-regular" size="4em" />
+    <div class="info">
+      <div data-type="label">Speakers</div>
+      <div data-type="count">{totalSpeakerCount}</div>
+    </div>
+  </div>
+  <div class="stat">
+    <Icon name="fluent:tag-multiple-24-regular" size="4em" />
+    <div class="info">
+      <div data-type="label">Tags</div>
+      <div data-type="count">{totalTagCount}</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .libraryStats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-block: 0rem 0.5rem;
+    font-size: 1em;
+    padding: 1rem;
+  }
+  @media screen and (max-width: 1024px) {
+    .libraryStats {
+      gap: 1rem;
+    }
+  }
+  .libraryStats .stat {
+    background: var(--tagCount-background);
+    padding: 1em;
+    border-radius: 1rem;
+  }
+
+  .libraryStats [astro-icon] {
+    color: var(--tagCount-icon);
+    fill: var(--tagCount-icon);
+  }
+
+  .libraryStats div[data-type="label"] {
+    text-transform: uppercase;
+    color: var(--tagCount-text);
+    line-height: 1.5em;
+    font-size: 0.8em;
+  }
+
+  .libraryStats div[data-type="count"] {
+    font-size: 2em;
+    color: var(--tagCount-count);
+    line-height: 1em;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .libraryStats {
+      font-size: 1em;
+    }
+    .libraryStats .stat {
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+      align-items: center;
+    }
+  }
+</style>
