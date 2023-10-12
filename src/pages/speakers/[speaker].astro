@@ -10,9 +10,9 @@ export async function getStaticPaths() {
   ];
 
   return uniqueSpeakers.map((speaker) => {
-    const filteredPosts = allPosts.filter((post) =>
-      post.data.speakers.includes(speaker)
-    );
+    const filteredPosts = allPosts.filter((post) => {
+      return !post.data.draft && post.data.speakers.includes(speaker);
+    });
     return {
       params: { speaker },
       props: { posts: filteredPosts },

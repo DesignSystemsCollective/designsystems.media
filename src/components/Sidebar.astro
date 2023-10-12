@@ -5,9 +5,9 @@ import { Icon } from "astro-icon";
 const allPosts = await getCollection("media");
 
 // Filter posts with non-empty tags
-const filteredPosts = allPosts.filter(
-  (post) => post.data.tags && post.data.tags.length > 0
-);
+const filteredPosts = allPosts.filter((post) => {
+  return !post.data.draft && post.data.tags && post.data.tags.length > 0;
+});
 
 const tags = [
   ...new Set(
@@ -19,9 +19,11 @@ const tags = [
 ];
 
 // Filter speakers with non-empty tags
-const filteredPostsSpeakers = allPosts.filter(
-  (post) => post.data.speakers && post.data.speakers.length > 0
-);
+const filteredPostsSpeakers = allPosts.filter((post) => {
+  return (
+    !post.data.draft && post.data.speakers && post.data.speakers.length > 0
+  );
+});
 
 const speakers = [
   ...new Set(
