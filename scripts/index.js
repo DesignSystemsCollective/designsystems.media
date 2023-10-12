@@ -98,7 +98,7 @@ localImages: false
 tags: ["Unsorted"]
 categories: ["Video"]
 duration: "${video.duration}"
-ignore: ${video.ignore || false}
+draft: true
 speakers: ["Unsorted"]
 ---
 ${videoDescription}\n`
