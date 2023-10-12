@@ -84,6 +84,13 @@
     "url": "https://www.youtube.com/channel/UCWHA-jCe94Jz8f3frB23jig"
   },
   {
+    "name": "Dan Mall",
+    "platform": "youtube",
+    "channelName": "@DanMallTeaches",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCgIBlEb4puDhewfw01lYiHQ"
+  },
+  {
     "name": "Design Systems London",
     "platform": "youtube",
     "channelName": "@DesignSystemsLondon",
