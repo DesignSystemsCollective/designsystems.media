@@ -1,5 +1,77 @@
 [
   {
+    "title": "Design Systems WTF #1: Getting buy-in for your design system",
+    "description": "How do you make the rest of your org care about your design system?\n\nWith the current climate, budgets are being slashed left, right, and center. Because of this, design systems are often at the top of the list for what to put on the chopping block. So, how do we make the rest of the organization care about design systems? How do we show how important it is, and how do we talk about it in the language that non-design systems folks care about? Do we need to change that when we’re talking to senior leadership? How can we get the CEO to care about our design system?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question around design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3BF5nncefTI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3BF5nncefTI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3BF5nncefTI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3BF5nncefTI",
+    "publishedAt": "2023-10-11T16:06:10Z",
+    "duration": "0:25:44"
+  },
+  {
+    "title": "Design Systems WTF #2: Rewarding contributions",
+    "description": "How do you reward someone for the contributions they make?\n\nFrom the big questions straight into the weeds! This has been a favourite question in the last few years of figuring out how to rightly reward folks for contributing, but also how to motivate them to contribute in the first place. Are shout-outs enough? Do we need to tie rewards to the wider company rewards? Should motivation to contribute be intrinsic or extrinsic? Should we be encouraging contributions at all?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8OZDBDBowBg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8OZDBDBowBg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8OZDBDBowBg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8OZDBDBowBg",
+    "publishedAt": "2023-10-11T16:06:06Z",
+    "duration": "0:31:19"
+  },
+  {
+    "title": "Webinar - Design Systems+AI: What's Next?",
+    "description": "Links to resources are available in our blog post: https://zeroheight.com/webinars/webinar-design-systemsai-whats-next/\n\nAre you wondering how AI can be a game changer for design systems? Could it be the final step in our quest for automatization and industrialization? Perhaps we are even reaching the end of design systems with the rise of AI?\nTo answer all those questions, we have amazing guests to cover this hot topic.\n\nThe speakers:\n• Tony Beltrami - CEO & Co-founder at Uizard\n• Sil Bormüller - Founder at Into Design Systems\n• Kathryn Gonzalez - Head of Design Infrastructure at DoorDash\n• Luke Murphy - Head of Marketing at zeroheight\n\nDuring this insightful webinar, you will:\n\n🔍 Gain knowledge of what AI can offer for design systems.\n⏩ Have a better sense of what’s coming next for the future of design systems.\n🛠️ Learn more about AI tools and how you can use them for your design system.\n🌐 Explore new ways of working that could emerge from this AI-powered automation.\n💡 Be inspired by discussions and real-world examples from our panelists.\n\nIn the first half, our panelists will explore the different topics between AI and design systems and address common questions. The second half will focus on your burning questions, and our panelists will provide advice, guidance, and additional insights tailored to your scenario. \n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FBgAmOnxMlk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FBgAmOnxMlk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FBgAmOnxMlk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FBgAmOnxMlk",
+    "publishedAt": "2023-10-11T11:32:27Z",
+    "duration": "1:01:06"
+  },
+  {
     "title": "Fireside Chat with Patrycja: From Passion Project to Dedicated Design System Team",
     "description": "Supernova hosted an engaging Fireside Chat that featured the remarkable Patrycja Radaczynska, an advocate in the realm of Design Systems. \n\nIn this insightful discussion, she delved into her journey, which began as a passionate project focused on design systems and eventually led her to become an integral part of Babbel's dedicated team. During the conversation, Patrycja also generously shared her wisdom on the intricacies of developing a design system at Babbel, as well as strategies for fostering alignment among stakeholders and enhancing collaboration between designers and developers. \n\nA full transcript is available at the following link https://bit.ly/3PHKoQL\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -872,6 +944,150 @@
     "videoUrl": "https://www.youtube.com/watch?v=QXjji-XP-io",
     "publishedAt": "2023-06-15T16:22:38Z",
     "duration": "0:34:07"
+  },
+  {
+    "title": "Converge US 2023: Opening Keynote Brad Frost - Is Atomic Design Dead?",
+    "description": "Converge is zeroheight’s one-day design systems conference. On May 18, 2023, we hosted Converge US in San Francisco at the Great Star Theater! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nOur opening keynote was Brad Frost, Principal and Technical Consultant, Big Medium.\n\nDesign systems have proven to be an effective tool for helping organizations efficiently create high-quality digital interfaces. Ten years ago, Brad invented a methodology for creating successful design systems called Atomic Design, and has helped scores of organizations on their design system journeys. In this talk, Brad will share success stories, reveal hard lessons learned, and reflect on the past, present, and future of design systems.\n\nBrad Frost: https://twitter.com/brad_frost\nConference host: Michelle Chin: https://www.linkedin.com/in/michelletchin/\n\nAbout Converge US: https://zeroheight.com/converge-us\nFind out more about zeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero-height/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Pjnya3lXtvg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Pjnya3lXtvg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Pjnya3lXtvg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Pjnya3lXtvg",
+    "publishedAt": "2023-06-15T15:14:59Z",
+    "duration": "0:47:38"
+  },
+  {
+    "title": "Converge US 2023: Val Head - Animation, Your Design System, and You!",
+    "description": "Converge is zeroheight’s one-day design systems conference. On May 18, 2023, we hosted Converge US in San Francisco at the Great Star Theater! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nVal is a Principal Designer at Adobe and is based out of Pittsburgh, PA.\n\nUX animation works best when it’s designed with the bigger picture in mind, but that’s hard to do if it’s not covered in your design system. Defining a motion language for your brand can help your team to develop a shared vision to work from and give everyone more confidence when working with motion. Covering animation in your design system doesn’t have to be a huge lift. There are foundational steps—like defining your animation contexts, knowing your brand voice—that you can use to get started. In this session, Val will cover what a modern design system should address in its animation guidelines, and how you can start your whole team using animation more effectively.\n\nVal Head: https://twitter.com/vlh\nConference host: Michelle Chin: https://www.linkedin.com/in/michelletchin/\n\nAbout Converge US: https://zeroheight.com/converge-us\nFind out more about zeroheight: https://bit.ly/3DEvORN\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero-height/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jq6WYJ4Mra4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jq6WYJ4Mra4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jq6WYJ4Mra4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=jq6WYJ4Mra4",
+    "publishedAt": "2023-06-15T15:14:54Z",
+    "duration": "0:39:30"
+  },
+  {
+    "title": "Converge US 2023: Adekunle Oduye - Design Systems in Transition: Navigating Change and Adaptation",
+    "description": "Converge is zeroheight’s one-day design systems conference. On May 18, 2023, we hosted Converge US in San Francisco at the Great Star Theater! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nAdekunle is a Design Engineer - Tech Lead at Plaid based out of Brooklyn, NY.\n\nThe concept of design systems has gained popularity in recent times, and it is widely known by people and organizations alike that they play a crucial role in enhancing the design and development process. But at the moment, design systems need to support multiple products, brands, and color schemes simultaneously, which presents an interesting challenge. As consumer needs continue to change, design systems must also evolve from a rigid framework to a more adaptable and flexible system that can cater to those needs. What approach can we take to ensure that the design system we create meets the requirements of today while remaining adaptable to the changing needs and desires of tomorrow?\n\nAdekunle Oduye: https://twitter.com/adekunleoduye\nConference host: Michelle Chin: https://www.linkedin.com/in/michelletchin/\nAbout Converge US: https://zeroheight.com/converge-us\n\nFind out more about zeroheight: https://bit.ly/3DEvORN\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero-height/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ugqLz53O1mA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ugqLz53O1mA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ugqLz53O1mA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ugqLz53O1mA",
+    "publishedAt": "2023-06-15T15:14:48Z",
+    "duration": "0:28:09"
+  },
+  {
+    "title": "Converge US 2023: Luke Murphy - The future of documentation is structured",
+    "description": "Converge is zeroheight’s one-day design systems conference. On May 18, 2023, we hosted Converge US in San Francisco at the Great Star Theater! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nLuke is a Lead Design Advocate at zeroheight, and based out of London, UK.\n\nTim Berners-Lee has a lot to answer for. Before the World Wide Web, academics were building hypertext systems that instead of being linear, unidirectional and constantly broken, that have been all but forgotten. Imagine a world where our documentation, instead of being relatively static and linear, was structured into knowledge graphs – with each small chunk inextricably linked to everything it’s related to. Where links are contextual and speak to each other. And where we can start building our documentation in the same way we build our design systems - systemitized, efficient and structured. Luke will take us through the wonderful world of structured content, and how we can start rethinking the way we document our design systems to make all our lives easier.\n\nLuke Murphy: https://twitter.com/lurkmoophy\nConference host: Michelle Chin: https://www.linkedin.com/in/michelletchin/\nAbout Converge US: https://zeroheight.com/converge-us\n\nFind out more about zeroheight: https://bit.ly/3DEvORN\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero-height/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/e2kNi7X_jqY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/e2kNi7X_jqY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/e2kNi7X_jqY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=e2kNi7X_jqY",
+    "publishedAt": "2023-06-15T15:14:43Z",
+    "duration": "0:40:03"
+  },
+  {
+    "title": "ConvergeUS2023: Geri Reid What to do when your design system grows up, moves out & gets an apartment",
+    "description": "Converge is zeroheight’s one-day design systems conference. On May 18, 2023, we hosted Converge US in San Francisco at the Great Star Theater! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nOur closing keynote was Geri Reid, Lead Designer, NewsKit Design System at News UK Technology.\n\nThere’s a lot of advice on how to start and grow a design system. But what happens when your design system matures? When it’s built, documented and has been adopted by the community?\n\nGeri works on NewsKit — the design system consumed by News Corp’s global media brands including The Times, The Sun and The Wall Street Journal. In this talk she’ll share NewsKit’s evolution of atomic design; extending the framework to build off-the-shelf products, deploying systems staff into Product teams to encourage adoption and coming full circle to offer less opinionated, composable subcomponents.\n\nGeri Reid: https://twitter.com/gerireid\nConference host: Michelle Chin: https://www.linkedin.com/in/michelletchin/\nAbout Converge US: https://zeroheight.com/converge-us\n\nFind out more about zeroheight: https://bit.ly/3DEvORN\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero-height/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QjwqMlcn2Vo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QjwqMlcn2Vo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QjwqMlcn2Vo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QjwqMlcn2Vo",
+    "publishedAt": "2023-06-15T15:14:40Z",
+    "duration": "0:44:28"
+  },
+  {
+    "title": "Converge US 2023: Sarrah Vesselov - Leading design systems in impossible circumstances",
+    "description": "⚠️ We apologize - the recording had technical issues. Some of Sarrah's audio is missing and some of it isn't coming from the main mic. \nConverge is zeroheight’s one-day design systems conference. On May 18, 2023, we hosted Converge US in San Francisco at the Great Star Theater! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nSarrah is the Director of Design at [Honeycomb.io](http://honeycomb.io/) and based out of Zephyrhills, Florida.\n\nLast year, Sarrah talked at Hatch Conf about how their design system, Lattice, had stalled and was essentially dead in the water. Through some tough conversations, She realized that as a leader, she needed to prioritize it. No more working on it in spurts and keeping things moving at a snail's pace.\n\nFast forward to quarter one of this year. They had secured a dedicated spot on the roadmap for Lattice with a PM, Engineering, and Design dedicated to the effort. They had one quarter to make as much headway as possible in evolving our design system into something the whole company could use. That meant considering the elephant in the room – there was no design systems team to pick up the effort after this quarter. How could they ensure they would end up in a different place than before? What could they do in that time to get other teams to adopt and use Lattice in their day-to-day development? Most importantly, who would own the process of adding and developing components once the effort was \"over\"?\n\nIn this talk, Sarrah will go into how they approached it from three distinct perspectives: The design Director (getting support and buy-in), The Designer (coordinating with PM, Eng, and the design team to plan and execute), and The Engineer (coordinating with PM, Design, and working on component migration and development).\n\nSarrah Vesselov: https://twitter.com/SVesselov\nConference host: Michelle Chin: https://www.linkedin.com/in/michelletchin/\nAbout Converge US: https://zeroheight.com/converge-us\n\nFind out more about zeroheight: https://bit.ly/3DEvORN\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero-height/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zCbFzX74-f0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zCbFzX74-f0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zCbFzX74-f0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zCbFzX74-f0",
+    "publishedAt": "2023-06-15T15:14:36Z",
+    "duration": "0:30:43"
   },
   {
     "title": "Supernova 101: Elevating Your Documentation Game Webinar",
