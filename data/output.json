@@ -1,5 +1,461 @@
 [
   {
+    "title": "Intro to Dribbble's Design Systems course",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ah1Eix63Uqc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ah1Eix63Uqc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ah1Eix63Uqc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Ah1Eix63Uqc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ah1Eix63Uqc",
+    "publishedAt": "2023-10-12T23:21:53Z",
+    "duration": "0:52:56"
+  },
+  {
+    "title": "Niko Laitinen - Sustainable Design Systems",
+    "description": "Design Systems for digital products have been hot for a while now and we are beginning to understand their long-term lifecycle. Understanding the character and capabilities are essential when consideringin corporating a Design System in your community of practice. Awareness of the pitfalls and the need for one set the ground for an ecosystem of scaling and coherent design. No matter how well build your Design system is the question remains, how can I keep my Design System alive?",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qD__ykol0VA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qD__ykol0VA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qD__ykol0VA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qD__ykol0VA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qD__ykol0VA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qD__ykol0VA",
+    "publishedAt": "2023-10-12T23:21:37Z",
+    "duration": "0:20:58"
+  },
+  {
+    "title": "Auditing Design Systems for Accessibility - axe-con 2021",
+    "description": "Design systems are a crucial part of building accessible experiences. Each atom, molecule, and organism we create in our systems affects our ability to scale upwards and meet disabled people’s needs. In this session, learn how to audit components for accessibility issues from design to code using plugins, best practices, and testing tools. Walk away from this session empowered to make your design systems accessible sooner.\n\nAbout the speaker:\nAnna Cook, Senior Product Designer, Recurly.\nPreferred Pronoun: She/Her\nAnna E. Cook is a Senior Product Designer that specializes in building inclusive experiences. With over eight years of experience, Anna is dedicated to creating scalable systems to support accessible practices across product teams, from design to quality assurance. Anna is currently pursuing a Master’s of Science at ATLAS CU-Boulder, furthering her ambition to create inclusive experiences in complex technological landscapes.\n\n00:00 Auditing Design Systems for Accessibility\n38:07 Q&A\n\nLearn more about axe-con at: https://www.deque.com/axe-con/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6PHTGHgCQig/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6PHTGHgCQig/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6PHTGHgCQig/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/6PHTGHgCQig/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/6PHTGHgCQig/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=6PHTGHgCQig",
+    "publishedAt": "2023-10-12T23:21:20Z",
+    "duration": "0:49:54"
+  },
+  {
+    "title": "Beyond the Basics of Design Systems with Joey Banks",
+    "description": "In this episode, Joey Banks shares his process behind creating his famed iOS UI Kit in Figma. Join us for a casual hangout as we explore his routines and habits and look into the depth of knowledge behind his work.\n\n\nFollow Joey:\nhttps://twitter.com/joeyabanks\nhttps://www.baselinedesign.io/\n\n\nThank you for watching The Digital Third.\n\n--\nHosted & Produced by Josh Loh\n\n\nFOLLOW US\n\nWebsite: https://www.thedigitalthird.com\nTwitter: https://www.twitter.com/thedigitalthird\nDiscord: https://www.discord.gg/DkRjz8E2bv\nPodcast: https://open.spotify.com/show/3xYAqSVvfjeBtirkTYZFDB",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BWPgefC64QI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BWPgefC64QI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BWPgefC64QI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/BWPgefC64QI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/BWPgefC64QI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BWPgefC64QI",
+    "publishedAt": "2023-10-12T23:21:10Z",
+    "duration": "0:58:51"
+  },
+  {
+    "title": "Deep Dives S2 | E6: Dan Mall - What Designers Get Wrong About Design Systems",
+    "description": "If you’re familiar at all with design systems then I definitely don’t need to introduce you to Dan Mall. He’s as OG as it gets.\n\nIn this Deep Dive, Dan shares his take on Figma variables, where design systems are headed in the coming years, and a lot more…\n\nDive is where the best designers never stop learning 🤿\n\n🌐 dive.club\n🐦 twitter.com/joindiveclub\n\nNow you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪\n\n[00:00:00] The problem with too many tools and too few rules\n\n[00:04:11] The future of design systems 5 years from now\n\n[00:08:30] How AI could impact tooling\n\n[00:11:17] Building a design system with AI\n\n[00:23:47] Advice for building a robust design system\n\n[00:28:54] Reasons why design systems fail\n\n[00:35:12] How to make design systems integral to the product team\n\n[00:38:34] Things to keep in mind when considering becoming a design system specialist\n\n[00:43:19] Dan's design system workbook",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/O0scTAGaahQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/O0scTAGaahQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/O0scTAGaahQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/O0scTAGaahQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/O0scTAGaahQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=O0scTAGaahQ",
+    "publishedAt": "2023-10-12T23:20:56Z",
+    "duration": "0:54:15"
+  },
+  {
+    "title": "Uber Base | Unboxing 📦 Design Systems - Episode 1",
+    "description": "It's not the new iPhone, but you might love it if you're into design systems! ✨💙\n\nWe present to you Unboxing 📦 Design Systems, where we analyze design systems made on Figma, on a live stream, using Figma files, and exploring documentation!\n\nWe're starting with Base, by Uber, with Raquel Pereira and Bruno Figueiredo.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ogL_oowkZVU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ogL_oowkZVU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ogL_oowkZVU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ogL_oowkZVU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ogL_oowkZVU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ogL_oowkZVU",
+    "publishedAt": "2023-10-12T23:20:48Z",
+    "duration": "1:41:30"
+  },
+  {
+    "title": "Atlassian | Unboxing 📦 Design Systems - Episode 2",
+    "description": "We're back for round 2! ✨💙\n\nGet ready for the second episode of Unboxing 📦 Design Systems, where we analyze design systems made on Figma, on a live stream, using Figma files, and exploring documentation!\n\nWe'll be looking at Base, by Uber, with Raquel Pereira and Rita Sousa this time.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gcD-zsKhHxA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gcD-zsKhHxA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gcD-zsKhHxA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/gcD-zsKhHxA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/gcD-zsKhHxA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gcD-zsKhHxA",
+    "publishedAt": "2023-10-12T23:19:54Z",
+    "duration": "1:24:58"
+  },
+  {
+    "title": "Taiste Talks – Design Systems & The Art of Designer-Developer Collaboration",
+    "description": "Taiste Talks is a video and podcast series where we discuss the world of design and technology from the perspective of our everyday professional lives.\n\nIn this episode, we tackle a very timely topic: design systems. To some degree, almost every company would benefit from having one. Building a design system that is actually useful requires a lot of back and forth between developers and designers – and combining these different approaches is not always easy.\n\nJoining us in the studio, we have UX Designers Joona Viljanen and Jussi Peso, as well as Software Developer Tero Parvinen. They share a long history with working on design systems – and a very similar sense of dry wit.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/kiMa8c05DBo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/kiMa8c05DBo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/kiMa8c05DBo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/kiMa8c05DBo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/kiMa8c05DBo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kiMa8c05DBo",
+    "publishedAt": "2023-10-12T23:19:40Z",
+    "duration": "1:01:43"
+  },
+  {
+    "title": "Design Systems WTF #3: AI's impact on Design Systems",
+    "description": "How will AI impact the way we build design systems?\n\nWe genuinely can’t believe it’s taken us three episodes to mention AI… It’s obviously a hot topic at the moment, as folks are figuring out how they can use things like GPT or Dall-e to automate or generate things within their design systems, or heck, if they even should use AI in the first place because of the ethical, legal and moral risks!\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question around design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7peBsAXhV7o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7peBsAXhV7o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7peBsAXhV7o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7peBsAXhV7o",
+    "publishedAt": "2023-10-12T10:51:41Z",
+    "duration": "0:28:22"
+  },
+  {
+    "title": "Design System Culture with BEN CALLAHAN at Smashing Meets Design Systems",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gG0R1FaZDC8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gG0R1FaZDC8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gG0R1FaZDC8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/gG0R1FaZDC8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/gG0R1FaZDC8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gG0R1FaZDC8",
+    "publishedAt": "2023-10-12T10:19:16Z",
+    "duration": "0:39:53"
+  },
+  {
+    "title": "Challenges with design systems – In conversation with Alexander Baumgardt",
+    "description": "In this episode of the #nextshow, we delve deep into the world of #designsystems. Discover how these magical systems blend artistry, science, and engineering to create jaw-dropping user experiences. Prepare to be amazed as Alexander Baumgardt, the design-centric guru, unveils the secrets of \"branded interactions\" like you've never seen before. \n\nWe're lifting the lid on the challenges that arise when building and maintaining design systems that fuse design and development. Is the creative process left in the dust? Can design systems truly unlock your limitless potential?\n\nIf you're hungry for answers, this is the video you've been waiting for. Join us on this eye-opening adventure as we unravel the mysteries of design systems. Get ready to revolutionize your approach to design and unleash your full creative power!\n\n#designrevolution  #branding   #creativepower  #digitalgrid   #designinspiration  #designinnovation  #designchallenges  #designworld \n\n-------------------\nLearn more on our website https://nextconf.eu\n\nFollow us to get updates about our digital show, future events and relevant strategic topics from global brands!\nInstagram: https://www.instagram.com/nextconf/\nTwitter: https://twitter.com/nextconf\nFacebook: https://www.facebook.com/nextconf\nLinkedIn: https://www.linkedin.com/company/next...\nNEXT-Newsletter:  https://nextconf.eu/join-the-crowd/\n\nFor NEXT Insights and deep-dive content about tomorrow's #trends and the future of marketing, take a look at our blog: https://nextconf.eu/blog/\n\nThanks to our partner Accenture Song!\nhttps://www.accenture.com/de-de/about",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7zUtlOMSsQ8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7zUtlOMSsQ8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7zUtlOMSsQ8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/7zUtlOMSsQ8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7zUtlOMSsQ8",
+    "publishedAt": "2023-10-12T10:19:00Z",
+    "duration": "0:24:01"
+  },
+  {
+    "title": "Speaker Panel with DAN, HAYLEY AND BEN at Smashing Meets Design Systems",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/368tC8EIq8U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/368tC8EIq8U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/368tC8EIq8U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/368tC8EIq8U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/368tC8EIq8U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=368tC8EIq8U",
+    "publishedAt": "2023-10-12T10:18:50Z",
+    "duration": "0:27:07"
+  },
+  {
+    "title": "Design Systems: Lessons Learned",
+    "description": "It's no secret that design systems are a popular topic. Eric Liu created Carbon Components Svelte along with Sveld (a docgen library for Svelte components). Brittney sits down to ask about pain points, tooling, and lessons learned from building one of the first component libraries for Svelte 3 and one that is open sourced by a big tech company.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YHZaiIGSqsE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YHZaiIGSqsE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YHZaiIGSqsE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/YHZaiIGSqsE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/YHZaiIGSqsE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YHZaiIGSqsE",
+    "publishedAt": "2023-10-12T10:18:37Z",
+    "duration": "1:01:05"
+  },
+  {
+    "title": "Creating Themeable Design Systems with BRAD FROST - SmashingConf San Francisco 2022",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JbxKTBvSLeY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JbxKTBvSLeY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JbxKTBvSLeY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JbxKTBvSLeY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JbxKTBvSLeY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JbxKTBvSLeY",
+    "publishedAt": "2023-10-12T10:17:58Z",
+    "duration": "0:50:56"
+  },
+  {
     "title": "Design Systems WTF #1: Getting buy-in for your design system",
     "description": "How do you make the rest of your org care about your design system?\n\nWith the current climate, budgets are being slashed left, right, and center. Because of this, design systems are often at the top of the list for what to put on the chopping block. So, how do we make the rest of the organization care about design systems? How do we show how important it is, and how do we talk about it in the language that non-design systems folks care about? Do we need to change that when we’re talking to senior leadership? How can we get the CEO to care about our design system?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question around design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -94,6 +550,74 @@
     "videoUrl": "https://www.youtube.com/watch?v=R75ZYlo84zU",
     "publishedAt": "2023-10-04T09:49:40Z",
     "duration": "0:59:07"
+  },
+  {
+    "title": "Amy Hupe – How to write sh*t documentation – All Day Hey! 2023",
+    "description": "Subscribe here: https://bit.ly/Hey_Subscribe\n\nDo you want to learn how to take your documentation from slightly unclear to actively obstructive? Are you looking for tips on pushing your audience from somewhat disgruntled into full-on despair?\n\nIf so, this is for you!\n\nIn this talk, Amy will deliver a masterclass in writing documentation that's guaranteed to crush the morale of its readers, and shares traps to avoid accidentally making it better.\n\nhttps://heypresents.com/conferences/2023\nTwitter: https://twitter.com/heypresents\nMastodon: @heypresents@mastodon.world\nMailing List: https://heypresents.com/mailing-list\nLinkedIn: https://linkedin.com/company/heypresents/\nSlack: https://heypresents.com/slack\n\n#technology #webdeveloper #webdevelopment",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/z7p60pe7U5o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/z7p60pe7U5o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/z7p60pe7U5o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/z7p60pe7U5o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/z7p60pe7U5o/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=z7p60pe7U5o",
+    "publishedAt": "2023-09-27T19:35:33Z",
+    "duration": "0:38:14"
+  },
+  {
+    "title": "Amy Hupe - It all means nothing in the end",
+    "description": "What do you do when you've attached your sense of self to work, and work suddenly feels meaningless? In this talk, Amy explores burnout, purpose and making meaning in an increasingly confusing and calamitous world.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Q0v2YJLq8n8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Q0v2YJLq8n8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Q0v2YJLq8n8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Q0v2YJLq8n8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Q0v2YJLq8n8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Q0v2YJLq8n8",
+    "publishedAt": "2023-09-27T19:35:18Z",
+    "duration": "0:30:06"
   },
   {
     "title": "DSW Day 2023 - The Rebel’s Guide to Design Systems - Kaelig Deloumeau-Prigent",
@@ -264,6 +788,40 @@
     "duration": "0:24:07"
   },
   {
+    "title": "Design Systems with Brad Frost - The State of the Web",
+    "description": "In this episode of the State of the Web, Rick Viscomi talks with Brad Frost (Web Designer and author of Atomic Design) about design systems highlighting web design, material design, and more. Let’s get started! \n\nLinks:\nBootstrap → https://goo.gle/3beu44L\nMaterial Design → https://goo.gle/2Symgm7\nAtomic Design → https://goo.gle/2UsdtEM\nStyleguides.io → https://goo.gle/2SrCNIu\nDesign.systems → https://goo.gle/2S2DOHC\n\nThe State of the Web → https://goo.gle/2nBiwEL\nSubscribe to Google Chrome Developers → https://goo.gle/ChromeDevs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2M6dJ2Uynhg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2M6dJ2Uynhg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2M6dJ2Uynhg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/2M6dJ2Uynhg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/2M6dJ2Uynhg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2M6dJ2Uynhg",
+    "publishedAt": "2023-09-16T03:39:43Z",
+    "duration": "0:28:38"
+  },
+  {
     "title": "Design Systems: Surviving Turbulent Times (September 12, 2023)",
     "description": "Links to resources are available in our blog post: https://hubs.ly/Q0224Dpt0\n\nHow do design systems and the teams that make them survive during economic uncertainty and the ever-shifting tech landscape? Survival requires more than just luck. It takes strategic prowess, resilience, and advocacy.\n\nOur panelists shared their thoughts and advice on how to survive and thrive in challenging times. We cover topics including how to:\n• Navigate budget cuts for tools\n• Manage when the design system loses team members (or completely disappears!)\n• Leverage your design system documentation to carry teams through\n• Advocate for your design system, your team, and your role\n\nOur panelists:\n• Mikaila Weaver – Principal Product Designer, Eventbrite; Professor of User Experience Design, University of Southern California\n• Davy Fung – Product Design Lead, Design Systems @ Meta; Co-host, Design System Office Hours Podcast\n• Michelle Chin (moderator) – Design Advocate, zeroheight; Co-host, UX IRL podcast\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -286,6 +844,40 @@
     "videoUrl": "https://www.youtube.com/watch?v=Eexcad7q8EA",
     "publishedAt": "2023-09-14T20:58:34Z",
     "duration": "0:58:27"
+  },
+  {
+    "title": "Typography - Ultimate Design System Breakdown (Font Sizes, Text Style Naming, Responsive Scaling)",
+    "description": "Learn how the best design systems build their typography and apply the common patterns and insights for yourself.\n\nChapters\nIntro 00:00\nOverview 00:21\nTop Fonts 01:09\nOrganization 01:57\nNaming 03:32\nType Scales 06:03\nFont Sizes 07:23\nLine Height 08:08\nLetter Spacing 09:26\nResponsive Design 10:39\n\nResource Links\n\nDesign Systems\nhttps://www.designsystems.com/\n\nDesign Systems For Figma\nhttps://designsystemsforfigma.com/\n\nShopify Polaris\nhttp://figma.com/@shopify\n\nElastic Design System\nhttps://www.figma.com/@Elastic\n\nMobileLIVE - Friday Design System\nhttps://www.figma.com/community/file/913828647221574819\n\nRadius Design System\nhttps://www.figma.com/@Rangle\n\nChakra UI\nhttps://www.figma.com/community/file/971408767069651759/Chakra-Figma-UI-Kit\n\nPajamas\nhttps://www.figma.com/@GitLab\n\nParadigm\nhttp://figma.com/@paradigm",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9w-BwzcuxYM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9w-BwzcuxYM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9w-BwzcuxYM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9w-BwzcuxYM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9w-BwzcuxYM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9w-BwzcuxYM",
+    "publishedAt": "2023-09-14T12:30:34Z",
+    "duration": "0:12:52"
   },
   {
     "title": "Building multi-branded design system in Supernova",

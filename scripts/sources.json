@@ -70,6 +70,13 @@
     "url": "https://www.youtube.com/channel/UCeBXd1VEjbHYHdjqwkEHU_w"
   },
   {
+    "name": "Design Systems Media",
+    "platform": "youtube",
+    "channelName": "@joshharwood",
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLzgVKXm-2BlY93wwupEqHuV6XHuRr9-ZC"
+  },
+  {
     "name": "DS Video Aggregator",
     "platform": "vimeo",
     "channelName": "DS Video Aggregator",
