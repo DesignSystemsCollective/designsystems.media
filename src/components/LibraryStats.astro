@@ -3,18 +3,24 @@ import { getCollection } from "astro:content";
 const allPosts = await getCollection("media");
 
 import { Icon } from "astro-icon";
-const postCount = allPosts.length;
+const postCount = allPosts.filter((post) => {
+  return !post.data.draft;
+}).length;
 
 // Function to extract unique speakers
 function getUniqueItems(key) {
   const uniqueItems = [];
-  allPosts.forEach((post) => {
-    post.data[key].forEach((item) => {
-      if (!uniqueItems.includes(item)) {
-        uniqueItems.push(item);
-      }
+  allPosts
+    .filter((post) => {
+      return !post.data.draft;
+    })
+    .forEach((post) => {
+      post.data[key].forEach((item) => {
+        if (!uniqueItems.includes(item)) {
+          uniqueItems.push(item);
+        }
+      });
     });
-  });
   return uniqueItems;
 }
 

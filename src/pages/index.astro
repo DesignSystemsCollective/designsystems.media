@@ -5,9 +5,11 @@ import MediaGrid from "../layouts/MediaGrid.astro";
 import VideoCard from "../components/VideoCard.astro";
 import LibraryStats from "../components/LibraryStats.astro";
 
-const media = (await getCollection("media")).sort(
-  (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
-);
+const media = (await getCollection("media"))
+  .filter((post) => {
+    return !post.data.draft;
+  })
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 ---
 
 <BaseLayout sidebar={true}>
