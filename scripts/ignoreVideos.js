@@ -27,5 +27,7 @@ module.exports = [
   "https://www.youtube.com/watch?v=HcxckpdOVpM",
   "https://www.youtube.com/watch?v=Hn0Ow105w58",
   "https://www.youtube.com/watch?v=iWyoQb4UPnU",
+  "https://www.youtube.com/watch?v=wg2PJQu60OY",
+  "https://www.youtube.com/watch?v=YwH89wptvbU",
   // Add more video URLs to ignore as needed
 ];
