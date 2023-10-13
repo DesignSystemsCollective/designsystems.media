@@ -1,5 +1,107 @@
 [
   {
+    "title": "Level up your designs with UI Kits, design systems and more",
+    "description": "Check out Uxcel: https://bit.ly/3oyLT7O\n\nOne of my favourite ways to design faster and level up my skills is to utilize other resources other people have created, specifically with UI kits and design systems.\n\nHere are a few resources I recommend!\n\nLearning Figma by Georgia Davis: https://learningfigma.com/femke\nUxcel: https://bit.ly/3oyLT7O\nFigmaster: https://gumroad.com/a/1029149811/LMhDn\nUntitled UI: https://untitledui.gumroad.com/l/NHefI\n----------------------------------------------\n//LINKS\nLooking for 1:1 mentorship or feedback on your portfolio? Book a session with me on Superpeer: http://superpeer.com/femke\n\nLooking for a new design job? Browse my job board of fresh product design roles: https://pallet.xyz/list/femkedesign-jobs/jobs\n\n//TIMESTAMPS\n0:00 - Intro\n1:38 - Learning Figma by Georgia Davis\n4:15 - Uxcel\n5:12 - Figmaster\n7:43 - Untitled UI\n10:04 - Outro\n\n// MORE\nWebsite: https://www.femke.design\nPodcast: https://www.designlife.fm/\nTwitter: https://twitter.com/femkesvs\nInstagram: https://www.instagram.com/femkedotdesign/\n\nMy logo animation is done by Austin Saylor: https://www.austinsaylor.com/\nMy brand is designed by Black & White studios: https://www.blackandwhitestudios.nz/\nSome videos are edited by Nancy Palm: https://nancypalm.com/\n\nMy music:\n- brillion. x Monma x Tom Doolie – Aurora\n- Provided by Lofi Records\n- Watch: https://youtu.be/J07ST-OMKoc\n- Download/Stream: https://fanlink.to/bedtimestoriesPT2\n📥 | Download this music (free)\n→ https://lofirecords.com/blogs/releases/bedtime-stories-pt-2\n\n//GET STARTED IN UX\nVisit this link for a list of curated UX Design resources and tools: https://www.femke.design/resources",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YakrvZz3TsU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YakrvZz3TsU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YakrvZz3TsU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/YakrvZz3TsU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/YakrvZz3TsU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YakrvZz3TsU",
+    "publishedAt": "2023-10-12T23:57:35Z",
+    "duration": "0:10:39"
+  },
+  {
+    "title": "Design systems case study walkthrough: Designing components and creating documentation [Part 2]",
+    "description": "Hello friend! This video is part 2 of a series where I walk you through a case study from my time at Wealthsimple. If you haven't watched part 1 yet, I highly recommend checking it here https://www.youtube.com/watch?v=bYp3_dKPbEE&ab_channel=femke.design\n\nIn this video, we'll dive straight into the Figma file and look at how I created, set up and documented the components for this project. Enjoy!\n----------------------------------------------\nMy channel is powered by Superpeer: www.superpeer.com\n\n//LINKS\nGet Grayscale, the font by Charli Marie: https://charlimarie.com/shop/grayscale\nBook a mentoring session: http://superpeer.com/femke\n\n\n//TIMESTAMPS \n00:00 - Intro\n01:03 - Banners\n02:52 - Banners: Documentation\n05:26 - Marketing cards\n07:43 - Snackbars\n10:07 - Snackbars: Documentation\n10:50 - Modals\n11:38 - Components in action: Demo\n14:30 - Reflection\n14:49 - Wrap up\n\n// MORE\nJoin my community!: https://www.femke.design/community\nWebsite: https://www.femke.design\nPodcast: https://www.designlife.fm/\nTwitter: https://twitter.com/femkesvs\nInstagram: https://www.instagram.com/femkedotdesign/\nBrowse my job board: https://pallet.xyz/list/femkedesign-jobs/jobs\nJoin my talent collective: https://femkedesign-jobs.pallet.com/talent/welcome?referral=true\n\nMy logo animation is done by Austin Saylor: https://www.austinsaylor.com/\nMy brand is designed by Black & White studios: https://www.blackandwhitestudios.nz/\nVideos are edited by Molen Audiovisual: https://www.instagram.com/molen.audiovisual/\nThumbnails are designed by Diana Pechar: https://dianapechar.com/\nTake your films to the next level with music from Musicbed. Sign up for a free account to listen for yourself: https://fm.pxf.io/c/2456269/1347628/16252\n\n//GET STARTED IN UX\nVisit this link for a list of curated UX Design resources and tools: https://www.femke.design/resources",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gHtUb_Wdg54/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gHtUb_Wdg54/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gHtUb_Wdg54/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/gHtUb_Wdg54/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/gHtUb_Wdg54/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gHtUb_Wdg54",
+    "publishedAt": "2023-10-12T23:57:15Z",
+    "duration": "0:15:28"
+  },
+  {
+    "title": "Design systems case study: messaging components [Part 1]",
+    "description": "I’ve been working at Wealthsimple as a Senior Product Designer, and during my time there, I have been on the design platform team, which means that I’ve been able to contribute to the design systems as well as to some platform-level work that would touch across the Wealthsimple eco-system. \n\nCheck out part one of the case study of the project that I have recently shipped. Enjoy!\n\n----------------------------------------------\nMy channel is powered by Superpeer: https://superpeer.com/\n\n//LINKS\nBook a mentoring session: http://superpeer.com/femke\n\n//TIMESTAMPS\n0:00 - Intro\n1:06 - About the project\n2:09 - Case study walk-through\n15:19 - Outro & what’s next\n\n// MORE\nJoin my community!: https://www.femke.design/community\nWebsite: https://www.femke.design\nPodcast: https://www.designlife.fm/\nTwitter: https://twitter.com/femkesvs\nInstagram: https://www.instagram.com/femkedotdesign/\nBrowse my job board: https://pallet.xyz/list/femkedesign-jobs/jobs\nJoin my talent collective: https://femkedesign-jobs.pallet.com/talent/welcome?referral=true\n\nMy logo animation is done by Austin Saylor: https://www.austinsaylor.com/\nMy brand is designed by Black & White studios: https://www.blackandwhitestudios.nz/\nVideos are edited by Molen Audiovisual: https://www.instagram.com/molen.audiovisual/\nThumbnails are designed by Diana Pechar: https://dianapechar.com/\nTake your films to the next level with music from Musicbed. Sign up for a free account to listen for yourself: https://fm.pxf.io/c/2456269/1347628/16252\n\n//GET STARTED IN UX\nVisit this link for a list of curated UX Design resources and tools: https://www.femke.design/resources",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bYp3_dKPbEE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bYp3_dKPbEE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bYp3_dKPbEE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/bYp3_dKPbEE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/bYp3_dKPbEE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bYp3_dKPbEE",
+    "publishedAt": "2023-10-12T23:56:19Z",
+    "duration": "0:16:09"
+  },
+  {
     "title": "Content design at Figma - Ryan Reid, Andrew Schmidt (Config 2023)",
     "description": "Double feature\n\nContent designers: It's time to design\nSpeaker: Ryan Reid – UX Writer, Figma\n\nYesterday, they were writers. Today, they're content designers. What changed? Not much—and that's a problem. With more and more tools, programs, and systems allowing broader audiences to design, content designers must evolve their skillsets if they're to remain essential. In this talk, Ry digs into what they see as the near future of the craft—one in which content designers are expected to… well, design.\n\nDying days of delightful software\nSpeaker: Andrew Schmidt – UX Writer, Figma\n\nWe’re a decade into the era of delightful software. Empty states make puns, error messages crack jokes, and animations are all over the place. Is that delightful? Is it… good? In this talk, Andrew Schmidt (who’s littered charming moments all over products like FigJam and Slack) grapples with his own guilt at making overly-effusive software, and tries to find a new framework for “delight” — one that won’t drive us up a wall.\n\nPlease visit https://config.figma.com/video-on-demand/6329862574112 to view ASL version of this Config 2023 session\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023",
     "thumbnails": {
