@@ -141,7 +141,7 @@ async function main() {
       if (source.type === "youtube-channel") {
         const channelUrl = source.url;
         const channelId = channelUrl.split("/").pop();
-        console.log(`Fetching videos from channel ${channelId}...`);
+        // console.log(`Fetching videos from channel ${channelId}...`);
         const channelVideos = await getAllVideosFromChannel(
           channelId,
           importedVideoData
@@ -162,7 +162,7 @@ async function main() {
 
           // Check if the video should be ignored
           if (videosToIgnore.includes(videoUrl) || video.ignore === true) {
-            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
           }
@@ -173,7 +173,7 @@ async function main() {
       } else if (source.type === "youtube-playlist") {
         const playlistUrl = source.url;
         const playlistId = playlistUrl.split("list=")[1];
-        console.log(`Fetching videos from playlist ${playlistId}...`);
+        // console.log(`Fetching videos from playlist ${playlistId}...`);
         const playlistVideos = await getAllVideosFromPlaylist(
           playlistId,
           importedVideoData
@@ -192,7 +192,7 @@ async function main() {
 
           // Check if the video should be ignored
           if (video.ignore === true) {
-            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
           }
@@ -209,7 +209,7 @@ async function main() {
 
           // Check if the video should be ignored
           if (video.ignore === true) {
-            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
           }
