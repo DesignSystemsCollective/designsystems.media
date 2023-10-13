@@ -77,7 +77,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
           if (
             importedVideoData.some((video) => video.videoUrl.includes(videoId))
           ) {
-            console.log(`Skipping video with ID ${videoId} (already imported)`);
+            // console.log(`Skipping video with ID ${videoId} (already imported)`);
             continue; // Skip this video and continue to the next one
           }
 

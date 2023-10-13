@@ -14,13 +14,13 @@ async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
     console.log(`Downloaded: ${url}`);
   } catch (error) {
     if (retryCount < MAX_RETRY_COUNT) {
-      console.error(`Error downloading ${url}: ${error.message}. Retrying...`);
+      // console.error(`Error downloading ${url}: ${error.message}. Retrying...`);
       // Introduce a delay before the next iteration to avoid rate limiting
       await delay(500); // Delay for 1 second (adjust as needed)
 
       await downloadImageWithRetry(url, outputFilePath, retryCount + 1);
     } else {
-      console.error(`Max retries reached for ${url}.`);
+      // console.error(`Max retries reached for ${url}.`);
       // Handle the case where max retries are reached (e.g., use fallback image)
       throw error;
     }
@@ -44,7 +44,7 @@ function downloadImage(url, outputFilePath) {
 
 // Function to process the Markdown file with error handling and delays
 async function processMarkdownFile(filePath) {
-  console.log(`Processing: ${filePath}`);
+  // console.log(`Processing: ${filePath}`);
 
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
@@ -54,7 +54,7 @@ async function processMarkdownFile(filePath) {
     const imageOutputPath = path.join(path.dirname(filePath), imageFileName);
 
     try {
-      console.log(`Downloading: ${data.image}`);
+      // console.log(`Downloading: ${data.image}`);
       await downloadImageWithRetry(data.image, imageOutputPath);
       console.log(`Downloaded: ${data.image}`);
       data.image = `./${imageFileName}`;
@@ -70,7 +70,7 @@ async function processMarkdownFile(filePath) {
     const posterOutputPath = path.join(path.dirname(filePath), posterFileName);
 
     try {
-      console.log(`Downloading: ${data.poster}`);
+      // console.log(`Downloading: ${data.poster}`);
       await downloadImageWithRetry(data.poster, posterOutputPath);
       console.log(`Downloaded: ${data.poster}`);
       data.localImages = true;
