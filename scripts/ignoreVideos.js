@@ -27,5 +27,17 @@ module.exports = [
   "https://www.youtube.com/watch?v=HcxckpdOVpM",
   "https://www.youtube.com/watch?v=Hn0Ow105w58",
   "https://www.youtube.com/watch?v=iWyoQb4UPnU",
+  "https://www.youtube.com/watch?v=wg2PJQu60OY",
+  "https://www.youtube.com/watch?v=YwH89wptvbU",
+  "https://www.youtube.com/watch?v=NC-_Dl6L2-o",
+  "https://www.youtube.com/watch?v=VnufbUvSAYs",
+  "https://www.youtube.com/watch?v=Ja5KFTri1Kk",
+  "https://www.youtube.com/watch?v=ygDXUU3RX_E",
+  "https://www.youtube.com/watch?v=wD4FuwEKLbU",
+  "https://www.youtube.com/watch?v=YKAGzJyUKvk",
+  "https://www.youtube.com/watch?v=enGBcxrJ41M",
+  "https://www.youtube.com/watch?v=3dYTAEaw3XU",
+  "https://www.youtube.com/watch?v=43H-FJ8NAF4",
+  "https://www.youtube.com/watch?v=muXOAVEGli4",
   // Add more video URLs to ignore as needed
 ];

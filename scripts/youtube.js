@@ -153,7 +153,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           if (
             importedVideoData.some((video) => video.videoUrl.includes(videoId))
           ) {
-            console.log(`Skipping video with ID ${videoId} (already imported)`);
+            //console.log(`Skipping video with ID ${videoId} (already imported)`);
             continue; // Skip this video and continue to the next one
           }
 
@@ -162,7 +162,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
-            publishedAt: item.snippet.publishedAt,
+            publishedAt: item.contentDetails.videoPublishedAt,
             duration: "", // Initialize duration as an empty string
           };
 

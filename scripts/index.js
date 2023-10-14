@@ -161,7 +161,7 @@ async function main() {
           const folderPath = path.join(__dirname, outputDir, folderName);
 
           // Check if the video should be ignored
-          if (videosToIgnore.includes(videoUrl) || video.ignore === true) {
+          if (videosToIgnore.includes(videoUrl)) {
             // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
@@ -191,7 +191,7 @@ async function main() {
           const folderPath = path.join(__dirname, outputDir, folderName);
 
           // Check if the video should be ignored
-          if (video.ignore === true) {
+          if (videosToIgnore.includes(videoUrl)) {
             // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
@@ -201,14 +201,14 @@ async function main() {
           allVideos.push(video);
         }
       } else if (source.type === "vimeo") {
-        console.log(`Fetching videos from Vimeo...`);
+        // console.log(`Fetching videos from Vimeo...`);
         const vimeoVideos = await getAllVideosFromVimeo();
 
         for (const video of vimeoVideos) {
           // Implement Vimeo video data processing here
 
           // Check if the video should be ignored
-          if (video.ignore === true) {
+          if (videosToIgnore.includes(videoUrl)) {
             // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
