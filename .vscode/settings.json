@@ -1,0 +1,155 @@
+{
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "media",
+      "path": "[[workspace]]/src/content/media"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "publishedAt",
+          "name": "publishedAt",
+          "type": "datetime"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "poster",
+          "name": "poster",
+          "type": "string"
+        },
+        {
+          "title": "videoUrl",
+          "name": "videoUrl",
+          "type": "string"
+        },
+        {
+          "title": "localImages",
+          "name": "localImages",
+          "type": "image"
+        },
+        {
+          "title": "duration",
+          "name": "duration",
+          "type": "string"
+        },
+        {
+          "title": "speakers",
+          "name": "speakers",
+          "type": "choice",
+          "choices": [
+            "Dan Mall"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "media",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "publishedAt",
+          "name": "publishedAt",
+          "type": "datetime"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "poster",
+          "name": "poster",
+          "type": "string"
+        },
+        {
+          "title": "videoUrl",
+          "name": "videoUrl",
+          "type": "string"
+        },
+        {
+          "title": "localImages",
+          "name": "localImages",
+          "type": "image"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "duration",
+          "name": "duration",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "title": "speakers",
+          "name": "speakers",
+          "type": "choice",
+          "choices": [
+            "Dan Mall"
+          ]
+        }
+      ]
+    }
+  ]
+}
