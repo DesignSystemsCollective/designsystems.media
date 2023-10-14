@@ -162,7 +162,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
-            publishedAt: item.snippet.publishedAt,
+            publishedAt: item.contentDetails.videoPublishedAt,
             duration: "", // Initialize duration as an empty string
           };
 
