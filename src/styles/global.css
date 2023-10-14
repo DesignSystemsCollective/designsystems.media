@@ -274,6 +274,4 @@ hr {
   /* OR */
   fill: var(--meta-data);
   display: inline-block;
-
-  vertical-align: -0.25em;
 }

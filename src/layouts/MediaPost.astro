@@ -39,16 +39,20 @@ const {
   </div>
   <div class="single-page">
     <div class="meta-data">
-      <span
+      <span class="inline"
         ><Icon name="fluent:calendar-date-20-filled" size="20" />
         <FormattedDate date={publishedAt} data-pagefind-sort="date" /></span
       >
-      <span
+      <span class="inline"
         ><Icon name="fluent:clock-20-filled" size="20" />
         <VideoDuration
           durationStr={duration}
           data-pagefind-sort="duration"
         /></span
+      >
+      <span class="inline"
+        ><Icon name="fluent:window-new-20-filled" size="20" />
+        <a href={videoUrl} title={title}>Link to video</a></span
       >
       <div class="break"></div>
       <div class="tags">
@@ -226,6 +230,9 @@ const {
   }
   .meta-data [astro-icon] {
     margin-right: 0.25em;
+  }
+  .meta-data span.inline [astro-icon] {
+    margin-top: 0.2em;
   }
 
   .single-page {
