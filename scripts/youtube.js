@@ -139,7 +139,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
         playlistId: playlistId,
         maxResults: 50,
         pageToken: nextPageToken,
-        part: "snippet",
+        part: "snippet,contentDetails",
       });
 
       const videoItems = response.data.items;
@@ -163,6 +163,8 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
             publishedAt: item.contentDetails.videoPublishedAt,
+            //TODO: this is not fetching the right information, its the date ADDED to the playlist.
+            // https://developers.google.com/youtube/v3/docs/playlistItems/list
             duration: "", // Initialize duration as an empty string
           };
 
@@ -180,7 +182,6 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           if (videoDetails && videoDetails.description) {
             videoData.description = videoDetails.description;
           }
-
           if (contentDetails && contentDetails.duration) {
             // Extract and format the duration
             const rawDuration = contentDetails.duration;
