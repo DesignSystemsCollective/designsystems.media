@@ -163,8 +163,6 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
             publishedAt: item.contentDetails.videoPublishedAt,
-            //TODO: this is not fetching the right information, its the date ADDED to the playlist.
-            // https://developers.google.com/youtube/v3/docs/playlistItems/list
             duration: "", // Initialize duration as an empty string
           };
 
