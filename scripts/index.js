@@ -180,6 +180,7 @@ async function main() {
         );
 
         for (const video of playlistVideos) {
+          const videoUrl = video.videoUrl;
           const sanitizedTitle = video.title.replace(
             /[:"“”#'‘’!?@_^%()]/gi,
             ""
@@ -192,7 +193,7 @@ async function main() {
 
           // Check if the video should be ignored
           if (videosToIgnore.includes(videoUrl)) {
-            // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
+            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
             ignoredVideosCount++; // Increment the count for ignored videos
             continue; // Skip processing this video
           }
@@ -205,6 +206,7 @@ async function main() {
         const vimeoVideos = await getAllVideosFromVimeo();
 
         for (const video of vimeoVideos) {
+          const videoUrl = video.videoUrl;
           // Implement Vimeo video data processing here
 
           // Check if the video should be ignored

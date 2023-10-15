@@ -139,7 +139,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
         playlistId: playlistId,
         maxResults: 50,
         pageToken: nextPageToken,
-        part: "snippet",
+        part: "snippet,contentDetails",
       });
 
       const videoItems = response.data.items;
@@ -180,7 +180,6 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           if (videoDetails && videoDetails.description) {
             videoData.description = videoDetails.description;
           }
-
           if (contentDetails && contentDetails.duration) {
             // Extract and format the duration
             const rawDuration = contentDetails.duration;
