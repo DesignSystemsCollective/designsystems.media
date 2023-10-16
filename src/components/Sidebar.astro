@@ -61,9 +61,6 @@ function calculatePostCountForSpeaker(speakerName) {
       /></summary
     >
     <ul class="tags">
-      <li>
-        <a href={`/`} class="tag"> View all</a>
-      </li>
       {
         tags.map((tag) => {
           // Calculate the count for each tag
@@ -90,9 +87,6 @@ function calculatePostCountForSpeaker(speakerName) {
       />
     </summary>
     <ul class="tags">
-      <li>
-        <a href={`/`} class="tag"> View all</a>
-      </li>
       {
         speakers.map((speaker) => {
           // Calculate the count for each tag
@@ -217,5 +211,10 @@ function calculatePostCountForSpeaker(speakerName) {
   details[open] summary {
     border-bottom: 1px solid var(--layout-border);
     margin-bottom: 0.5em;
+  }
+
+  [astro-icon] {
+    position: relative;
+    top: 0.25rem;
   }
 </style>

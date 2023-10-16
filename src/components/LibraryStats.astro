@@ -42,21 +42,21 @@ const totalSpeakerCount = uniqueSpeakers.length;
       <div data-type="label">Videos</div>
       <div data-type="count">{postCount}</div>
     </div>
-  </div>
+  </div><a href="/speakers">
   <div class="stat">
     <Icon name="fluent:person-24-regular" size="4em" />
     <div class="info">
       <div data-type="label">Speakers</div>
       <div data-type="count">{totalSpeakerCount}</div>
     </div>
-  </div>
+  </div></a><a href="/tags">
   <div class="stat">
     <Icon name="fluent:tag-multiple-24-regular" size="4em" />
     <div class="info">
       <div data-type="label">Tags</div>
       <div data-type="count">{totalTagCount}</div>
     </div>
-  </div>
+  </div></a>
 </div>
 
 <style>
@@ -78,6 +78,23 @@ const totalSpeakerCount = uniqueSpeakers.length;
     padding: 1em;
     border-radius: 1rem;
   }
+
+  .libraryStats a {
+    text-decoration:none;
+    border-radius: 1rem;
+  }
+  .libraryStats a:hover {
+    outline: 1px solid var(--tagCount-count);
+  }
+  .libraryStats a div[data-type="count"]{
+    border-bottom: 2px dotted var(--tagCount-count);
+  }
+  .libraryStats a:hover div[data-type="count"]{
+    border-bottom: 2px solid var(--tagCount-count);
+  }
+  .libraryStats a .stat div[data-type="count"]{
+  }
+
 
   .libraryStats [astro-icon] {
     color: var(--tagCount-icon);

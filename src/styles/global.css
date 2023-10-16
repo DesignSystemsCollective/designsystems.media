@@ -24,6 +24,7 @@
   --tagCount-text: var(--body-text);
   --tagCount-label: var(--body-text);
   --tagCount-icon: rgba(var(--accent), 50%);
+  --tagCount-count: rgba(var(--accent), 80%);
   --tagCount-background: rgba(var(--accent), 10%);
 }
 
