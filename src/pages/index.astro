@@ -9,11 +9,13 @@ const media = (await getCollection("media"))
   .filter((post) => {
     return !post.data.draft;
   })
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+  .slice(0, 30);
 ---
 
-<BaseLayout sidebar={true}>
+<BaseLayout sidebar={false}>
   <LibraryStats />
+  <h2>Latest media</h2>
   <MediaGrid>
     {
       media.map((media) => (
@@ -28,3 +30,11 @@ const media = (await getCollection("media"))
     }
   </MediaGrid>
 </BaseLayout>
+
+<style>
+  h2 {
+    padding: 0;
+    margin: 2rem 1rem 0;
+    font-size: 1.5rem;
+  }
+</style>

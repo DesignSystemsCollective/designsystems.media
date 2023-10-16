@@ -1,0 +1,118 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import MediaGrid from "../../layouts/MediaGrid.astro";
+import TagCard from "../../components/TagCard.astro";
+
+const allPosts = await getCollection("media");
+
+// Filter posts with non-empty tags
+const filteredPosts = allPosts.filter((post) => {
+  return !post.data.draft && post.data.tags && post.data.tags.length > 0;
+});
+
+// Filter tags with non-empty tags
+const filteredPostsSpeakers = allPosts.filter((post) => {
+  return (
+    !post.data.draft && post.data.tags && post.data.tags.length > 0
+  );
+});
+
+const tags = [
+  ...new Set(
+    filteredPosts
+      .map((post) => post.data.tags)
+      .flat()
+      .sort()
+  ),
+];
+
+function calculatePostCountForSpeaker(tagName) {
+  // Assuming 'posts' is an array of post objects with 'tags' property
+  return allPosts.filter((post) => post.data.tags.includes(tagName))
+    .length;
+}
+const title = "Tags";
+const groupedTags = {};
+
+// Group the tags by the first letter
+tags.forEach((tag) => {
+  const firstLetter = tag[0].toUpperCase(); // Convert to uppercase for consistency
+  if (!groupedTags[firstLetter]) {
+    groupedTags[firstLetter] = [];
+  }
+  groupedTags[firstLetter].push(tag);
+});
+---
+
+<BaseLayout sidebar={false}>
+  <div class="title">
+    <h1>Tags</h1>
+  </div>
+  <div class="single-page">
+    <div class="alphabet">
+      {
+        Object.keys(groupedTags).map((letter) => (
+          <a href={`#${letter}`}>
+            {letter}
+          </a>
+        ))
+      }
+    </div>
+    <MediaGrid>
+      {
+        Object.keys(groupedTags).map((letter) => (
+          <div key={letter}>
+            <a name={letter}><h2>{letter}</h2></a>
+            <div class="grid">
+              {groupedTags[letter].map((tag) => (
+                <TagCard
+                  type="tags"
+                  name={tag}
+                  count={calculatePostCountForSpeaker(tag)}
+                />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </MediaGrid>
+  </div>
+</BaseLayout>
+
+
+<style>
+  .alphabet {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    gap: 0.5em;
+    margin-bottom: 1rem;
+  }
+  .alphabet a {
+    font-size: 1.25rem;
+    text-decoration:none;
+    background: var(--tagCount-background);
+    padding: 0.1em 0.6em 0em;
+    border-radius: 1rem;
+  }
+  .alphabet a:hover {
+    outline: 1px solid var(--tagCount-count);
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .title {
+    margin: 3rem auto 0;
+    padding: 1rem;
+    line-height: 1;
+  }
+  .title h1 {
+    margin: 0;
+    text-align: center;
+  }
+</style>
