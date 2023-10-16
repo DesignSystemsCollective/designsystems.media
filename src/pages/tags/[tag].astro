@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import VideoCard from "../../components/VideoCard.astro";
 
+import { Icon } from "astro-icon";
 import MediaGrid from "../../layouts/MediaGrid.astro";
 export async function getStaticPaths() {
   const allPosts = await getCollection("media");
@@ -45,6 +46,18 @@ const { posts } = Astro.props;
   h2 {
     margin-block: 0 2rem;
   }
+  .breadcrumb {
+    text-decoration:none;
+  }
+  .breadcrumb:hover {
+    text-decoration:underline;
+  }
+  .breadcrumb [astro-icon] {
+    position: relative;
+    top: 0.2em;
+    margin-right: 0.25em;
+    color: var(--tagCount-icon);
+  }
 
   @media (max-width: 720px) {
     h2 {
@@ -55,7 +68,8 @@ const { posts } = Astro.props;
 </style>
 
 <BaseLayout sidebar={true}>
-  <h2>Tagged as: {tag}</h2>
+  <a href="/tags" class="breadcrumb"><Icon name="fluent:tag-20-filled" size="20" />Tags</a>
+  <h2> {tag}</h2>
 
   <MediaGrid>
     {

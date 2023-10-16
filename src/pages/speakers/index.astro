@@ -1,0 +1,117 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import MediaGrid from "../../layouts/MediaGrid.astro";
+import TagCard from "../../components/TagCard.astro";
+
+const allPosts = await getCollection("media");
+
+// Filter posts with non-empty tags
+const filteredPosts = allPosts.filter((post) => {
+  return !post.data.draft && post.data.tags && post.data.tags.length > 0;
+});
+
+// Filter speakers with non-empty tags
+const filteredPostsSpeakers = allPosts.filter((post) => {
+  return (
+    !post.data.draft && post.data.speakers && post.data.speakers.length > 0
+  );
+});
+
+const speakers = [
+  ...new Set(
+    filteredPosts
+      .map((post) => post.data.speakers)
+      .flat()
+      .sort()
+  ),
+];
+
+function calculatePostCountForSpeaker(speakerName) {
+  // Assuming 'posts' is an array of post objects with 'tags' property
+  return allPosts.filter((post) => post.data.speakers.includes(speakerName))
+    .length;
+}
+const title = "Speakers";
+const groupedSpeakers = {};
+
+// Group the speakers by the first letter
+speakers.forEach((speaker) => {
+  const firstLetter = speaker[0].toUpperCase(); // Convert to uppercase for consistency
+  if (!groupedSpeakers[firstLetter]) {
+    groupedSpeakers[firstLetter] = [];
+  }
+  groupedSpeakers[firstLetter].push(speaker);
+});
+---
+
+<BaseLayout sidebar={false}>
+  <div class="title">
+    <h1>Speakers</h1>
+  </div>
+  <div class="single-page">
+    <div class="alphabet">
+      {
+        Object.keys(groupedSpeakers).map((letter) => (
+          <a href={`#${letter}`}>
+            {letter}
+          </a>
+        ))
+      }
+    </div>
+    <MediaGrid>
+      {
+        Object.keys(groupedSpeakers).map((letter) => (
+          <div key={letter}>
+            <a name={letter}><h2>{letter}</h2></a>
+            <div class="grid">
+              {groupedSpeakers[letter].map((speaker) => (
+                <TagCard
+                  type="speakers"
+                  name={speaker}
+                  count={calculatePostCountForSpeaker(speaker)}
+                />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </MediaGrid>
+  </div>
+</BaseLayout>
+
+<style>
+  .alphabet {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    gap: 0.5em;
+    margin-bottom: 1rem;
+  }
+  .alphabet a {
+    font-size: 1.25rem;
+    text-decoration:none;
+    background: var(--tagCount-background);
+    padding: 0.1em 0.6em 0em;
+    border-radius: 1rem;
+  }
+  .alphabet a:hover {
+    outline: 1px solid var(--tagCount-count);
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .title {
+    margin: 3rem auto 0;
+    padding: 1rem;
+    line-height: 1;
+  }
+  .title h1 {
+    margin: 0;
+    text-align: center;
+  }
+</style>
