@@ -894,11 +894,6 @@ astro-pagefind@^1.2.4:
     pagefind "^1.0.3"
     sirv "^2.0.3"
 
-astro-seo@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/astro-seo/-/astro-seo-0.8.0.tgz#4d930a8fc3e23fd1b9923486843b2a85febae35d"
-  integrity sha512-7gq6lhibCM8FuzZIJlbLLWP5EJ9KL2/4XqeFrAg9O6ZK2xMFxJ5ubKf+a0VJwwTu8W8Xr421CmpiXu6Hq7n/7Q==
-
 astro@^3.1.0:
   version "3.3.2"
   resolved "https://registry.npmjs.org/astro/-/astro-3.3.2.tgz"
