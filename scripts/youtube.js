@@ -57,6 +57,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
 
     do {
       const response = await youtube.search.list({
+        // TODO: Think we can replace this with another call that uses less quota. We could pull the channels playlist IDs and then run those through the other function? https://developers.google.com/youtube/v3/docs/channels
         auth: API_KEY,
         channelId: channelId,
         maxResults: 50,
@@ -87,6 +88,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
             publishedAt: item.snippet.publishedAt,
+            privacyStatus: "", // Initialize duration as an empty string
             duration: "", // Initialize duration as an empty string
           };
 
@@ -94,12 +96,17 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
           const videoDetailsResponse = await youtube.videos.list({
             auth: API_KEY,
             id: videoId,
-            part: "snippet,contentDetails", // Include contentDetails
+            part: "snippet,contentDetails,status", // Include contentDetails
           });
 
           const videoDetails = videoDetailsResponse.data.items[0].snippet;
           const contentDetails =
             videoDetailsResponse.data.items[0].contentDetails;
+          const statusDetails = videoDetailsResponse.data.items[0].status;
+
+          if (statusDetails && statusDetails.privacyStatus) {
+            videoData.privacyStatus = videoDetails.privacyStatus;
+          }
 
           if (videoDetails && videoDetails.description) {
             videoData.description = videoDetails.description;
@@ -139,7 +146,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
         playlistId: playlistId,
         maxResults: 50,
         pageToken: nextPageToken,
-        part: "snippet,contentDetails",
+        part: "snippet,contentDetails,status",
       });
 
       const videoItems = response.data.items;
@@ -150,6 +157,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           const videoId = item.snippet.resourceId.videoId;
 
           // Check if the video ID has already been imported
+          // TODO - 20 October. I wonder if this could be earlier somewhere, to reduce API calls?
           if (
             importedVideoData.some((video) => video.videoUrl.includes(videoId))
           ) {
@@ -163,6 +171,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             thumbnails: item.snippet.thumbnails,
             videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
             publishedAt: item.contentDetails.videoPublishedAt,
+            privacyStatus: item.status.privacyStatus, // Initialize duration as an empty string
             duration: "", // Initialize duration as an empty string
           };
 

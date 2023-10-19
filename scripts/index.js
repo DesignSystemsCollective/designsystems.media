@@ -57,6 +57,7 @@ function generateMdxFile(video, folderPath) {
   const videoTitle = video.title;
   const videoUrl = video.videoUrl;
   const videoDescription = video.description;
+  const privacyStatus = video.privacyStatus;
 
   // Define a function to remove special characters from a string
   function removeSpecialCharacters(str) {
@@ -98,6 +99,7 @@ localImages: false
 tags: ["Unsorted"]
 categories: ["Video"]
 duration: "${video.duration}"
+privacyStatus: "${privacyStatus}"
 draft: true
 speakers: ["Unsorted"]
 ---
