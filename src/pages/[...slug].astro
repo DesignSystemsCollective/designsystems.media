@@ -21,7 +21,15 @@ const { Content } = await post.render();
     max-width: 100%;
   }
 </style>
-<BaseLayout sidebar={false} fullWidth={true}>
+<BaseLayout
+  sidebar={false}
+  fullWidth={true}
+  seo={{
+    title: post.data.title,
+    description: post.data.description,
+    image: post.data.image?.src,
+  }}
+>
   <MediaPost {...post.data} slug={post.slug}>
     <Content />
   </MediaPost>

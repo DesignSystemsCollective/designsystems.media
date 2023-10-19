@@ -3,17 +3,58 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Sidebar from "../components/Sidebar.astro";
+import { SEO } from "astro-seo";
 
 interface Props {
   sidebar?: boolean;
   fullWidth?: boolean;
+  seo?: {
+    title?: string;
+    description?: string;
+    image?: string;
+    openGraphType?: string;
+  };
 }
 
-const { sidebar, fullWidth } = Astro.props;
+const { sidebar, fullWidth, seo } = Astro.props;
 ---
 
 <html lang="en" transition:name="root" transition:animate="none">
   <head>
+    <SEO
+      title={seo?.title ?? SITE_TITLE}
+      description={seo?.description ?? SITE_DESCRIPTION}
+      openGraph={{
+        basic: {
+          title: seo?.title ?? SITE_TITLE,
+          type: seo?.openGraphType ?? "article",
+          image: seo?.image ?? "/favicon.svg",
+        },
+      }}
+      twitter={{
+        creator: "@designsysmedia",
+      }}
+      extend={{
+        // extending the default link tags
+        link: [{ rel: "icon", href: "/favicon.ico" }],
+        // extending the default meta tags
+        meta: [
+          {
+            name: "twitter:image",
+            content: seo?.image ?? "/favicon.svg",
+          },
+          { name: "twitter:title", content: seo?.title ?? SITE_TITLE },
+          {
+            name: "twitter:description",
+            content: seo?.description ?? SITE_DESCRIPTION,
+          },
+          {
+            name: "twitter:card",
+            content: "summary_large_image",
+          },
+        ],
+      }}
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
