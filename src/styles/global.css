@@ -42,6 +42,9 @@ html[data-theme="light"] {
   --layout-border: rgb(222, 228, 234);
   --sidebar-background: rgb(255, 255, 255);
   --header-text: #000;
+  --footer-text: #000;
+  --footer-background: transparent;
+  --footer-background: rgba(var(--accent), 10%);
   --accent: 94, 67, 243;
   --accent-hover: #a688fa;
   --accent-dark: #7a5af5;
@@ -84,6 +87,8 @@ html[data-theme="dark"] {
   --layout-border: rgb(29, 33, 37);
   --sidebar-background: var(--site-background);
   --header-text: rgb(222, 228, 234);
+  --footer-text: rgb(222, 228, 234);
+  --footer-background: rgba(var(--accent), 10%);
   --interactive: rgb(222, 228, 234);
   --accent: 145, 113, 248;
   --accent-hover: #a688fa;
@@ -135,12 +140,17 @@ body {
   color: var(--body-text);
   font-size: 20px;
   line-height: 1.7;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 main {
   width: 1200px;
   max-width: calc(100% - 2em);
   margin: auto;
   padding: 3em 1em;
+  flex: 1;
 }
 h1,
 h2,

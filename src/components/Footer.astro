@@ -14,8 +14,8 @@ const today = new Date();
       <svg
         viewBox="0 0 16 16"
         aria-hidden="true"
-        width="32"
-        height="32"
+        width="24"
+        height="24"
         astro-icon="social/twitter"
         ><path
           fill="currentColor"
@@ -27,22 +27,21 @@ const today = new Date();
 </footer>
 <style>
   footer {
-    padding: 2em 1em 6em 1em;
-    background: linear-gradient(var(--gray-gradient)) no-repeat;
-    color: rgb(var(--gray));
+    margin-top: 4rem;
+    padding: 2rem 1rem 2rem 1rem;
+    color: var(--footer-text);
+    background-color: var(--footer-background);
+    box-shadow: 0 -2px 8px rgba(var(--shadow), 8%);
     text-align: center;
   }
   .social-links {
     display: flex;
     justify-content: center;
-    gap: 1em;
-    margin-top: 1em;
+    gap: 1rem;
+    margin-top: 1rem;
   }
   .social-links a {
     text-decoration: none;
-    color: rgb(var(--gray));
-  }
-  .social-links a:hover {
-    color: rgb(var(--gray-dark));
+    color: var(--footer-text);
   }
 </style>
