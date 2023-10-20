@@ -1,28 +1,36 @@
 ---
-import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import type { Props as BaseHeadProps } from "../components/BaseHead.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Sidebar from "../components/Sidebar.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
 interface Props {
   sidebar?: boolean;
   fullWidth?: boolean;
+  baseHeadProps?: BaseHeadProps;
 }
 
-const { sidebar, fullWidth } = Astro.props;
+const { sidebar, fullWidth, baseHeadProps } = Astro.props;
 ---
 
 <html lang="en" transition:name="root" transition:animate="none">
   <head>
+    <BaseHead
+      title={`${SITE_TITLE}${
+        !!baseHeadProps?.title ? ` | ${baseHeadProps.title}` : ""
+      }`}
+      description={baseHeadProps?.description ?? SITE_DESCRIPTION}
+      image={baseHeadProps?.image}
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
 
   <body>
     <Header title={SITE_TITLE} />
-    <main class={fullWidth && "full-width"}>
-      <section id="site-wrapper" class={sidebar && "with-sidebar"}>
+    <main class=`${fullWidth && "full-width"}`>
+      <section id="site-wrapper" class=`${sidebar && "with-sidebar"}`>
         {sidebar && <Sidebar />}
         <section id="main-page">
           <slot />

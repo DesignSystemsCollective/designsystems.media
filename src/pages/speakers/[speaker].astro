@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
 import VideoCard from "../../components/VideoCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 import MediaGrid from "../../layouts/MediaGrid.astro";
 
 import { Icon } from "astro-icon";
@@ -12,8 +12,9 @@ export async function getStaticPaths() {
   ];
 
   return uniqueSpeakers.map((speaker) => {
+    if (!speaker) return;
     const filteredPosts = allPosts.filter((post) => {
-      return !post.data.draft && post.data.speakers.includes(speaker);
+      return !post.data.draft && post.data.speakers?.includes(speaker);
     });
     return {
       params: { speaker },
@@ -28,9 +29,10 @@ const { speaker } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-
-<BaseLayout sidebar={true}>
-  <a href="/speakers" class="breadcrumb"><Icon name="fluent:tag-20-filled" size="20" />Speakers</a>
+<BaseLayout sidebar={true} baseHeadProps={{ title: speaker }}>
+  <a href="/speakers" class="breadcrumb"
+    ><Icon name="fluent:tag-20-filled" size="20" />Speakers</a
+  >
   <h2>{speaker}</h2>
   <MediaGrid>
     {
@@ -79,10 +81,10 @@ const { posts } = Astro.props;
   }
 
   .breadcrumb {
-    text-decoration:none;
+    text-decoration: none;
   }
   .breadcrumb:hover {
-    text-decoration:underline;
+    text-decoration: underline;
   }
   .breadcrumb [astro-icon] {
     position: relative;
@@ -96,6 +98,4 @@ const { posts } = Astro.props;
       margin: 1rem 0 0;
     }
   }
-
-
 </style>

@@ -1,8 +1,8 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-import MediaGrid from "../../layouts/MediaGrid.astro";
 import TagCard from "../../components/TagCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import MediaGrid from "../../layouts/MediaGrid.astro";
 
 const allPosts = await getCollection("media");
 
@@ -29,7 +29,7 @@ const speakers = [
 
 function calculatePostCountForSpeaker(speakerName) {
   // Assuming 'posts' is an array of post objects with 'tags' property
-  return allPosts.filter((post) => post.data.speakers.includes(speakerName))
+  return allPosts.filter((post) => post.data.speakers?.includes(speakerName))
     .length;
 }
 const title = "Speakers";
@@ -37,6 +37,7 @@ const groupedSpeakers = {};
 
 // Group the speakers by the first letter
 speakers.forEach((speaker) => {
+  if (!speaker) return;
   const firstLetter = speaker[0].toUpperCase(); // Convert to uppercase for consistency
   if (!groupedSpeakers[firstLetter]) {
     groupedSpeakers[firstLetter] = [];
@@ -45,17 +46,15 @@ speakers.forEach((speaker) => {
 });
 ---
 
-<BaseLayout sidebar={false}>
+<BaseLayout sidebar={false} baseHeadProps={{ title }}>
   <div class="title">
-    <h1>Speakers</h1>
+    <h1>{title}</h1>
   </div>
   <div class="single-page">
     <div class="alphabet">
       {
         Object.keys(groupedSpeakers).map((letter) => (
-          <a href={`#${letter}`}>
-            {letter}
-          </a>
+          <a href={`#${letter}`}>{letter}</a>
         ))
       }
     </div>
@@ -63,7 +62,9 @@ speakers.forEach((speaker) => {
       {
         Object.keys(groupedSpeakers).map((letter) => (
           <div key={letter}>
-            <a name={letter}><h2>{letter}</h2></a>
+            <a name={letter}>
+              <h2>{letter}</h2>
+            </a>
             <div class="grid">
               {groupedSpeakers[letter].map((speaker) => (
                 <TagCard
@@ -82,7 +83,7 @@ speakers.forEach((speaker) => {
 
 <style>
   .alphabet {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
@@ -92,7 +93,7 @@ speakers.forEach((speaker) => {
   }
   .alphabet a {
     font-size: 1.25rem;
-    text-decoration:none;
+    text-decoration: none;
     background: var(--tagCount-background);
     padding: 0.1em 0.6em 0em;
     border-radius: 1rem;
