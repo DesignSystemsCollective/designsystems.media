@@ -1,7 +1,6 @@
 ---
 import type { Props as BaseHeadProps } from "../components/BaseHead.astro";
 import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Sidebar from "../components/Sidebar.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
@@ -38,7 +37,6 @@ const { sidebar, fullWidth, baseHeadProps } = Astro.props;
         </section>
       </section>
     </main>
-    <Footer />
     <style>
       main {
         width: 100%;
