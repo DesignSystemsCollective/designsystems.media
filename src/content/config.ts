@@ -12,6 +12,7 @@ const mediaCollection = defineCollection({
       image: image().optional(),
       poster: image().optional(),
       duration: z.string().optional(),
+      privacyStatus: z.string().optional(),
       videoUrl: z.string().optional(),
       tags: z.array(z.string()).optional(),
       categories: z.array(z.string()).optional(),
