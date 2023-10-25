@@ -1,5 +1,40 @@
 [
   {
+    "title": "Tokens, variables, and styles - Update: Introduction to design systems",
+    "description": "Figma is free to use. Sign up here: https://bit.ly/3msp0OV\n\nHabitz design system (with variables): https://www.figma.com/community/file/1298672675597243186\n\nPreviously in our Intro to Design Systems course, we followed Kai—a product designer at a habit-forming app called Habitz—on their journey to building their first design system in Figma. Kai has been learning about design tokens and believes this could be the next step in supporting scalability of the Habitz design system. Come along with us to learn more!\n\nIntroduction to design systems playlist: https://youtube.com/playlist?list=PLXDU_eVOJTx6vqOWJSWH87Zb5-riiG63A&feature=shared\n\nStyles in Figma: https://help.figma.com/hc/en-us/articles/360039238753-Styles-in-Figma\nGuide to variables in Figma: https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma\nThe difference between variables and styles: https://help.figma.com/hc/en-us/articles/15871097384471-The-difference-between-variables-and-styles\nComponents, styles, and shared library best practices: https://www.figma.com/best-practices/components-styles-and-shared-libraries/\n\nChapters: \n00:00 - Introduction\n00:55 - Design tokens\n01:12 - What are design tokens?\n02:16 - Aliasing\n03:49 - Token organization\n04:22 - Primitive tokens\n04:55 - Semantic tokens\n05:37 - Component-specific tokens\n06:34 - Token ordering\n07:07 - Implement tokens in Figma\n08:16 - Migrate tokens\n8:40 - Creating primitive tokens\n09:08 - Tip: color scoping and hide from publishing\n09:31 - Creating tokens collection\n10:39 - Dark mode and spacing tokens\n11:26 - Spacing tokens\n11:40 - Tips for naming tokens\n12:36 - Wrap up\n\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JyCmacSyDY4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JyCmacSyDY4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JyCmacSyDY4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JyCmacSyDY4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JyCmacSyDY4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JyCmacSyDY4",
+    "publishedAt": "2023-10-24T16:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:13:13"
+  },
+  {
     "title": "Brad Frost: Is Atomic Design Dead? – Hatch Conference Berlin 2023",
     "description": "10 years after Brad Frost released his Atomic Design theory, he asks himself: does it still make sense to build design systems and components the same way he proposed back then?\n\nIn his keynote at Hatch Conference Berlin, he walks us through the history of how we built the web and apps, speaks about the role of AI and the future of content generation.\n\n----\n\nHatch Conference is a multi-track event happening each year in Berlin, Germany and streaming online.\nFind out more and get access to all recordings from 2023 at https://www.hatchconference.com",
     "thumbnails": {
@@ -33,6 +68,41 @@
     "publishedAt": "2023-10-19T07:51:12Z",
     "privacyStatus": "public",
     "duration": "0:36:59"
+  },
+  {
+    "title": "Spacing - Analyzing The Top Design Systems (Figma Spacing Variables)",
+    "description": "I analyzed the top 43 design systems to see the common spacing patterns and how they apply it.\n\n\n---------------------------------------------------\ndesignsystemsforfigma.com 👇\nhttps://bit.ly/3S493Sb\n\nProportio.App 👇\nhttps://bit.ly/3QjY7Pg\n\nSign up for Figma's Professional Plan 👇\nhttps://psxid.figma.com/jm4gmy6csi0i-93o18j\n\nGet started with Figma for free 👇\nhttps://psxid.figma.com/t6x2fyhw237t\n\nWaitlist for AirTable 👇\nhttps://forms.gle/idxfqGDuLQv7JxMq6",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/klreDxMRrSY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/klreDxMRrSY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/klreDxMRrSY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/klreDxMRrSY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/klreDxMRrSY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=klreDxMRrSY",
+    "publishedAt": "2023-10-16T15:00:37Z",
+    "privacyStatus": "public",
+    "duration": "0:13:03"
   },
   {
     "title": "Level up your designs with UI Kits, design systems and more",
@@ -3189,6 +3259,41 @@
     "duration": "0:05:26"
   },
   {
+    "title": "Figma — Style/token documentation components™",
+    "description": "Add some extra oomph to your color/typography documentation in Figma with the 100% free ColorChip™ and TypeChip™ components, available on the Style/token documentation components™ 🔥\n\nAnd when you are ready to stop wasting your lifetime manually updating, you can buy my Update the style-token docs™ automation for the Automator plugin 🤓\n\nFind the library at \nhttps://www.figma.com/community/file/1233490043546742002\n\nUPDATE\nI've made the automation 100% free (thank me with a coffee later) at\nhttps://www.buymeacoffee.com/menosketiago/e/132847\n\n#designSystems #figma #designTokens #colors #typography #figma",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FfsFSqB_pJo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FfsFSqB_pJo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FfsFSqB_pJo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FfsFSqB_pJo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FfsFSqB_pJo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FfsFSqB_pJo",
+    "publishedAt": "2023-04-28T14:47:28Z",
+    "privacyStatus": "public",
+    "duration": "0:15:55"
+  },
+  {
     "title": "Why you should start documenting your design system before you do anything else",
     "description": "Partly based on an article I wrote earlier in the year, I wanted to encourage people to document early in their process. Get people used to there being one place to find out about everything, including the current state of the site or app.\n\nThis is a bit of an experiment: a short intro video with thoughts around a topic to hopefully start a conversation. Drop a comment below with your take on the topic or reply on Twitter or other platforms where you'll find me as @hereinthehive!",
     "thumbnails": {
@@ -5904,6 +6009,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=CKKyebK5tiU",
     "publishedAt": "2022-10-14T22:08:57Z",
     "duration": "0:00:58"
+  },
+  {
+    "title": "DesignOps - REA Group Design System",
+    "description": "How we saved 320,000 hours\nA public first, deep dive into the design system journey at REA Group. Getting buy-in, building together, shipping faster, unlocking creative vision and showing return on investment.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fdEL8EPeCRo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fdEL8EPeCRo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fdEL8EPeCRo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/fdEL8EPeCRo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/fdEL8EPeCRo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fdEL8EPeCRo",
+    "publishedAt": "2022-10-14T04:26:11Z",
+    "privacyStatus": "public",
+    "duration": "1:04:37"
   },
   {
     "title": "Design Systems Aren’t Art by Dan Mall #DesignSystems",
@@ -10498,6 +10638,41 @@
     "duration": "0:56:19"
   },
   {
+    "title": "DesignOps - Buzz Usborne, Help Scout",
+    "description": "Buzz Usborne (https://buzzusborne.com/)\nPrincipal Designer, Help Scout\n\nBuilding a design system with a small team –\nBuzz will talk about his experiences building and scaling an effective design system within a small team, and with limited resources. He’ll also dive into the details of how smart organisation and the interplay between design and engineering can help scale your system organically.\n\nTalk recorded at DesignOps LOL Meeetup - https://www.designops.lol/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SdhGCSrLYc8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SdhGCSrLYc8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SdhGCSrLYc8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/SdhGCSrLYc8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/SdhGCSrLYc8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SdhGCSrLYc8",
+    "publishedAt": "2020-07-01T23:58:32Z",
+    "privacyStatus": "public",
+    "duration": "0:57:31"
+  },
+  {
     "title": "Working together on design systems (DSCC Dublin)",
     "description": "Hosted by Design Systems Community Chapter Dublin\non YouTube\non June 16, 2020\n\nSponsored by:\nSpecial thanks to NearForm for sponsoring this meetup.\n\nWho should attend?\nAnyone and everyone who is interested in learning about design systems are welcome. This event does not require background knowledge.\n\n--\nTalk #1: \"Communication between designers and developers, the infinite loop.\" by James Malone, Design Director at NearForm\n\nDesign systems include documentation for many things like colours, content and principals. Collaboration and internal communication however are often not part of this process, but they should be. Drawing on personal experience, James will discuss how to plan and think about collaboration from the start.\n\nAbout James\nJames Malone is the design director at NearForm with over two decades of design experience. James has worked in a multitude of industries managing small and large design teams. James is passionate about Design Operations, improving efficiency through collaboration, and dismantling the fabled gap between design and development.\n\n--\nTalk #2: \"Breaking down silos, automation, workflows, tools and humans.\" by Stuart Giles, Senior Product Designer at NearForm\n\nDesign systems are built to meet the bespoke requirements of a company, team or organisation. Each one is different and unique. In a similar way, the teams that use these systems are unique and different too. Stuart looks at how to break down silos and create tools, workflows and processes that are customised to the unique users who use them.\n\nAbout Stuart\nStuart is a Senior Product Designer at NearForm where he works with large household brands to implement, scale and automate design systems. As a lead product designer he defines the experience of digital products through research, design, and development phases. Stuart is as happy in Sketch as he is at a command line and jumps between the two seamlessly.\n\n--\nAbout Design Systems Community\nDesign Systems Community helps bring people together to share ways of working, successes, and other learnings to encourage best practices in building, scaling, and maintaining design systems. No matter how you engage with design systems, we all play a role in making information accessible for everyone, and without barriers.\n\nHow can I contribute?\nInterested to host, sponsor, or speak at our meetups, email us hello@designsystems.community\n\nFollow DSC Global on our social channels\nhttps://designsystems.community/\nhttps://bit.ly/DSC-Meetup\nhttps://bit.ly/DSC-Twitter\nhttps://bit.ly/DSC-Instagram\nhttps://bit.ly/DSC-Youtube-Channel\n\nFollow DSC Chapter Dublin\nhttps://www.meetup.com/dscc_dub/\nhttps://twitter.com/dscc_dub\n\n--\nBy participating in DSC events, you agree to our code of conduct: https://designsystems.community/conduct",
     "thumbnails": {
@@ -11576,6 +11751,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=zBHmPxHvnOo",
     "publishedAt": "2020-04-08T01:31:41Z",
     "duration": "0:14:10"
+  },
+  {
+    "title": "Do components make it possible to design in code? Let's find out! | DesignOps Melbourne",
+    "description": "Mark Dalgleish (https://twitter.com/markdalgleish) — Design Systems Engineering Lead at SEEK (http://seek.com.au/). Recorded at the DesignOps Melbourne Meetup (http://designops.lol), 1st April 2020.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Z4oL339th68/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Z4oL339th68/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Z4oL339th68/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Z4oL339th68/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Z4oL339th68/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Z4oL339th68",
+    "publishedAt": "2020-04-02T02:52:35Z",
+    "privacyStatus": "public",
+    "duration": "0:58:47"
   },
   {
     "title": "Accessibility and inclusivity in Design Systems (DSCC Toronto)",
@@ -13288,6 +13498,41 @@
     "duration": "8:03:50"
   },
   {
+    "title": "Coding at the speed of design | DesignOps Melbourne",
+    "description": "Mark Dalgleish (https://twitter.com/markdalgleish) — Design Systems Engineering Lead at SEEK (http://seek.com.au/). Recorded at the DesignOps Melbourne Meetup (http://designops.lol), 7th November 2018.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ne2qtPDjPjg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ne2qtPDjPjg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ne2qtPDjPjg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ne2qtPDjPjg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ne2qtPDjPjg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ne2qtPDjPjg",
+    "publishedAt": "2018-11-08T21:56:25Z",
+    "privacyStatus": "public",
+    "duration": "1:01:17"
+  },
+  {
     "title": "“Atomic Design” by Brad Frost—An Event Apart Austin 2015",
     "description": "We’ve seen the web community create style tiles, element collages, style guides, pattern libraries, and a slew of other tools in order to break interfaces down to their atomic elements. Our interfaces are going more places than ever before, so this shift is essential to help us better understand what our websites consist of in order for us create smart, scalable, maintainable designs. Brad Frost introduces atomic design, a methodology for creating robust design systems. Brad covers how to apply atomic design to implement your very own design system in order to set you, your organization, and your clients up for success.\n\nLearn more about AEA ► https://aneventapart.com/\nJoin us at AEA ► https://aneventapart.com/events\nAEA on Twitter ► https://twitter.com/aneventapart SUBSCRIBE to the AEA YouTube channel ► https://bit.ly/AEA-YT-SUBSCRIBE\n\nNext event: Online Together–Human-Centered Design, Monday, July 20.\nSpanning the spectrum from good design principles to novel content strategy, to improving load times to emotional considerations, this single-day online web design conference will focus on how to best serve our users as they face unprecedented challenges and stress.\n\nSee the full agenda and register now: https://aneventapart.com/event/online-0720",
     "thumbnails": {
@@ -13345,6 +13590,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=tnkrUt7PpnQ",
     "publishedAt": "2018-08-10T13:25:25Z",
     "duration": "1:43:49"
+  },
+  {
+    "title": "Put your design system on the wall | DesignOps Melbourne",
+    "description": "Tom Bredin-Grey (http://thomasbredingrey.com/) & Dan Laush (https://twitter.com/danlaush) — Senior Front End Developers at Today (https://today.design/). Recorded at the DesignOps Melbourne Meetup (http://designops.lol), 28th March 2018.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JsRJGANB3Yk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JsRJGANB3Yk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JsRJGANB3Yk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/JsRJGANB3Yk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/JsRJGANB3Yk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JsRJGANB3Yk",
+    "publishedAt": "2018-04-21T02:04:52Z",
+    "privacyStatus": "public",
+    "duration": "0:20:41"
   },
   {
     "title": "Designers Git-It; A unified design system workflow - Git Merge 2018",
