@@ -2,14 +2,16 @@
 
 ---
 
+<div class="media-grid">
+  <slot />
+</div>
 <style>
   /* Mobile layout - 1 column */
   .media-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
-    padding: 1rem;
-    margin-block-end: 2rem;
+    margin: 1rem 1rem 2rem;
   }
 
   /* Tablet layout - 2 columns */
@@ -23,19 +25,7 @@
   @media screen and (min-width: 1024px) {
     .media-grid {
       grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      padding: 1rem;
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1300px) {
-    .media-grid {
-      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
     }
   }
 </style>
-
-<div class="media-grid">
-  <slot />
-</div>

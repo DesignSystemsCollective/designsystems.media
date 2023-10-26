@@ -2,20 +2,30 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MediaGrid from "../layouts/MediaGrid.astro";
+import HomeGrid from "../layouts/HomeGrid.astro";
 import VideoCard from "../components/VideoCard.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import CardHeader from "../components/CardHeader.astro";
+import HomeContent from "../layouts/HomeContent.astro";
 import LibraryStats from "../components/LibraryStats.astro";
+import Card from "../components/Card.astro";
 
 const media = (await getCollection("media"))
   .filter((post) => {
     return !post.data.draft;
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .slice(0, 36);
+  .slice(0, 8);
 ---
 
 <BaseLayout sidebar={false}>
   <LibraryStats />
-  <h2>Latest media</h2>
+  <SectionHeader
+    title="Latest media"
+    link="/all"
+    linkLabel="View all media"
+    padding={true}
+  />
   <MediaGrid>
     {
       media.map((media) => (
@@ -29,12 +39,54 @@ const media = (await getCollection("media"))
       ))
     }
   </MediaGrid>
-</BaseLayout>
 
-<style>
-  h2 {
-    padding: 0;
-    margin: 2rem 1rem 0;
-    font-size: 1.5rem;
-  }
-</style>
+  <SectionHeader title="Popular content" padding={true} />
+  <HomeGrid>
+    <Card>
+      <CardHeader title="Tags" link="/tags" linkLabel="View all tags" />
+      <HomeContent>
+        <ul>
+          <li><a href="/tags/Get%20started">Get started</a></li><li>
+            <a href="/tags/Design%20tokens">Design tokens</a>
+          </li><li><a href="/tags/Components">Components</a></li><li>
+            <a href="/tags/Color">Color</a>
+          </li><li><a href="/tags/Atomic%20design">Atomic design</a></li>
+        </ul>
+      </HomeContent>
+    </Card>
+    <Card>
+      <CardHeader
+        title="Speakers"
+        link="/speakers"
+        linkLabel="View all speakers"
+      />
+      <HomeContent>
+        <ul>
+          <li><a href="/speakers/Jina%20Anne">Jina Anne</a></li><li>
+            <a href="/speakers/Dan%20Mall">Dan Mall</a>
+          </li><li><a href="/speakers/Brad%20Frost">Brad Frost</a></li><li>
+            <a href="/speakers/Nathan%20Curtis">Nathan Curtis</a>
+          </li><li><a href="/speakers/Amy%20Hupe">Amy Hupe</a></li>
+        </ul>
+      </HomeContent>
+    </Card>
+    <Card>
+      <CardHeader title="Events" />
+      <HomeContent>
+        <ul>
+          <li><a href="/tags/Clarity">Clarity</a></li><li>
+            <a href="/tags/Design%20Systems%20London">Design Systems London</a>
+          </li><li>
+            <a href="/tags/The%20Future%20of%20Design%20Systems"
+              >The Future of Design Systems</a
+            >
+          </li><li>
+            <a href="/tags/DSW%20Day">DSW Day</a>
+          </li><li>
+            <a href="/tags/Smashing">Smashing</a>
+          </li>
+        </ul>
+      </HomeContent>
+    </Card>
+  </HomeGrid>
+</BaseLayout>

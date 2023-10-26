@@ -1,0 +1,28 @@
+---
+interface Props {
+  icon?: string;
+  style?: string;
+}
+
+const { icon, style = "card" } = Astro.props;
+---
+
+<div class={style}>
+  <slot />
+</div>
+
+<style is:global>
+  .card {
+    background: var(--tagCount-background);
+    padding: 1em;
+    border-radius: 1rem;
+  }
+  .card [astro-icon] {
+    color: var(--tagCount-icon);
+    fill: var(--tagCount-icon);
+    max-height: 4rem;
+  }
+  .plain {
+    padding: 1em;
+  }
+</style>
