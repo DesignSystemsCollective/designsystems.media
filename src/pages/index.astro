@@ -40,10 +40,13 @@ const media = (await getCollection("media"))
     }
   </MediaGrid>
 
-  <SectionHeader title="Popular content" padding={true} />
   <HomeGrid>
     <Card>
-      <CardHeader title="Tags" link="/tags" linkLabel="View all tags" />
+      <CardHeader
+        title="Popular topics"
+        link="/tags"
+        linkLabel="View all tags"
+      />
       <HomeContent>
         <ul>
           <li><a href="/tags/Get%20started">Get started</a></li><li>
@@ -56,7 +59,7 @@ const media = (await getCollection("media"))
     </Card>
     <Card>
       <CardHeader
-        title="Speakers"
+        title="Popular speakers"
         link="/speakers"
         linkLabel="View all speakers"
       />
@@ -71,7 +74,7 @@ const media = (await getCollection("media"))
       </HomeContent>
     </Card>
     <Card>
-      <CardHeader title="Events" />
+      <CardHeader title="Popular events" />
       <HomeContent>
         <ul>
           <li><a href="/tags/Clarity">Clarity</a></li><li>
