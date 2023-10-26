@@ -1,0 +1,54 @@
+---
+interface Props {
+  title: string;
+  link?: string;
+  linkLabel?: string;
+  padding?: boolean;
+}
+
+const { title, link, linkLabel, padding } = Astro.props;
+---
+
+<div class={padding && `padding`}>
+  <h2>{title}</h2>
+  {
+    link && (
+      <a href={link} title={`View more ${title}`}>
+        {linkLabel}
+      </a>
+    )
+  }
+</div>
+
+<style>
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 0rem 0;
+    margin-inline: 0rem;
+    align-items: baseline;
+  }
+  div.padding {
+    margin-inline: 1rem;
+  }
+  h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  @media screen and (min-width: 768px) {
+  }
+
+  a {
+    color: rgb(var(--accent));
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent-hover);
+    line-height: 1.1;
+    font-size: 0.8em;
+  }
+  a:hover {
+    color: var(--accent-hover);
+    border-bottom: 1px solid var(--accent-hover);
+  }
+</style>
