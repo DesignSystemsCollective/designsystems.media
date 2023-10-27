@@ -48,6 +48,41 @@
     "duration": "0:56:57"
   },
   {
+    "title": "Figma tip: Primitive variables – Descoping and unpublishing",
+    "description": "As design system maintainers, we want to make sure that our primitive variables are created but never surfaced in the properties panel.\n\nTo do this, we can firstly descope them, and secondly make sure they are not selected for publishing.\n\nThis works if your primitive and semantic variables exist within the same file. If they don't, make sure you publish them! Otherwise, you will not be able to use them as aliases within your semantic variables.\n____________________________________________________\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n____________________________________________________\n\nFind us on ⬇️\nX (formerly Twitter): https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n____________________________________________________\n\n#Figma #Tutorial #design #tips #DesignSystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QoUQ6em75rk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QoUQ6em75rk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QoUQ6em75rk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/QoUQ6em75rk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/QoUQ6em75rk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QoUQ6em75rk",
+    "publishedAt": "2023-10-25T11:22:56Z",
+    "privacyStatus": "public",
+    "duration": "0:02:28"
+  },
+  {
     "title": "Tokens, variables, and styles - Update: Introduction to design systems",
     "description": "Figma is free to use. Sign up here: https://bit.ly/3msp0OV\n\nHabitz design system (with variables): https://www.figma.com/community/file/1298672675597243186\n\nPreviously in our Intro to Design Systems course, we followed Kai—a product designer at a habit-forming app called Habitz—on their journey to building their first design system in Figma. Kai has been learning about design tokens and believes this could be the next step in supporting scalability of the Habitz design system. Come along with us to learn more!\n\nIntroduction to design systems playlist: https://youtube.com/playlist?list=PLXDU_eVOJTx6vqOWJSWH87Zb5-riiG63A&feature=shared\n\nStyles in Figma: https://help.figma.com/hc/en-us/articles/360039238753-Styles-in-Figma\nGuide to variables in Figma: https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma\nThe difference between variables and styles: https://help.figma.com/hc/en-us/articles/15871097384471-The-difference-between-variables-and-styles\nComponents, styles, and shared library best practices: https://www.figma.com/best-practices/components-styles-and-shared-libraries/\n\nChapters: \n00:00 - Introduction\n00:55 - Design tokens\n01:12 - What are design tokens?\n02:16 - Aliasing\n03:49 - Token organization\n04:22 - Primitive tokens\n04:55 - Semantic tokens\n05:37 - Component-specific tokens\n06:34 - Token ordering\n07:07 - Implement tokens in Figma\n08:16 - Migrate tokens\n8:40 - Creating primitive tokens\n09:08 - Tip: color scoping and hide from publishing\n09:31 - Creating tokens collection\n10:39 - Dark mode and spacing tokens\n11:26 - Spacing tokens\n11:40 - Tips for naming tokens\n12:36 - Wrap up\n\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems",
     "thumbnails": {
@@ -3543,6 +3578,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=QsBDzIKLVy0",
     "publishedAt": "2023-04-19T13:58:28Z",
     "duration": "1:02:13"
+  },
+  {
+    "title": "Plan a design system in less than 30 minutes!?",
+    "description": "Get it here → https://designsystemcanvas.com\n\nDownload it as a PDF or a PNG, or open straight inside FigJam!\n\nThe Design System Canvas helps bring structure to the creation or updating of a design system. It’s a one-page plan of your vision for a design system, and acts as the perfect starting point for the process of creating or upgrading a design system. Throughout the process, it acts as a single source of truth and serves as a living artefact to refer back to.\n\nhttps://paavandesign.com/\nhttps://twitter.com/p44v9n/\n\n---\n\n00:00 Intro\n00:47 Benefit of Design Systems\n01:31 The DS Canvas\n02:20 Three benefits of the DS Canvas\n02:55 Example of filled-out canvas\n03:01 1. The problem\n03:28 2. Existing assets\n03:55 3. Maturity level\n04:19 4. New resources\n05:06 5. Affected products\n05:15 6. Consumers\n05:26 7. Maintainers and champions\n05:55 8. Scope\n06:45 9. Adoption strategy\n07:12 10. Costs\n07:38 Thank you!\n \n---\n\nPS I'm still learning how to make videos for YouTube. If this video was helpful, please do drop a like or share it with a friend. If you want to help me, leave a comment letting me know what I can improve or what you want to see more of!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nCk5NsqpeqE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nCk5NsqpeqE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nCk5NsqpeqE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/nCk5NsqpeqE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/nCk5NsqpeqE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nCk5NsqpeqE",
+    "publishedAt": "2023-04-14T23:19:00Z",
+    "privacyStatus": "public",
+    "duration": "0:08:20"
   },
   {
     "title": "Q&A session with Henry, Débora, Jeremy, Maryia and Rachel - Design Systems London #7 - March 2023",
