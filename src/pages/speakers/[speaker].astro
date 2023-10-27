@@ -92,10 +92,11 @@ const { posts } = Astro.props;
     margin-right: 0.25em;
     color: var(--tagCount-icon);
   }
-  @media (max-width: 720px) {
-    h2 {
-      padding: 1rem;
-      margin: 1rem 0 0;
+  @media (max-width: 1024px) {
+    h2,
+    .breadcrumb {
+      padding-left: 1rem;
+      margin: 0;
     }
   }
 </style>
