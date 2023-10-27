@@ -1,5 +1,53 @@
 [
   {
+    "title": "Design Systems WTF #4: Design Tokens",
+    "description": "Should I use tokens today?\n\nDESIGN TOKENS. The saviour of our design systems, or so it seems from the amount that people hold them up as the shining light. But what’s the deal with design tokens — when do they make sense for your company? What is going to happen to them in the future? And who do you listen to when it comes to doing them correctly? \n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zZNiLGFcYDM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zZNiLGFcYDM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zZNiLGFcYDM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zZNiLGFcYDM",
+    "publishedAt": "2023-10-26T10:55:40Z",
+    "duration": "0:26:26"
+  },
+  {
+    "title": "Navigating Adoption: Driving Design System Usage & Engagement — Experts panel, hosted by Supernova",
+    "description": "Supernova's Design System Adoption panel discussion features industry experts Cintia Romero (Pinterest), Maya Hampton (REI) & Andrew Clark (H&R Block) who shared strategies for educating your organization, ensuring correct usage, measuring success, and boosting design system adoption.\n\nA full transcript is available at the following link - https://bit.ly/4957NEu\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sJp-PFmnuwo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sJp-PFmnuwo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sJp-PFmnuwo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sJp-PFmnuwo",
+    "publishedAt": "2023-10-25T12:44:06Z",
+    "duration": "0:56:57"
+  },
+  {
     "title": "Tokens, variables, and styles - Update: Introduction to design systems",
     "description": "Figma is free to use. Sign up here: https://bit.ly/3msp0OV\n\nHabitz design system (with variables): https://www.figma.com/community/file/1298672675597243186\n\nPreviously in our Intro to Design Systems course, we followed Kai—a product designer at a habit-forming app called Habitz—on their journey to building their first design system in Figma. Kai has been learning about design tokens and believes this could be the next step in supporting scalability of the Habitz design system. Come along with us to learn more!\n\nIntroduction to design systems playlist: https://youtube.com/playlist?list=PLXDU_eVOJTx6vqOWJSWH87Zb5-riiG63A&feature=shared\n\nStyles in Figma: https://help.figma.com/hc/en-us/articles/360039238753-Styles-in-Figma\nGuide to variables in Figma: https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma\nThe difference between variables and styles: https://help.figma.com/hc/en-us/articles/15871097384471-The-difference-between-variables-and-styles\nComponents, styles, and shared library best practices: https://www.figma.com/best-practices/components-styles-and-shared-libraries/\n\nChapters: \n00:00 - Introduction\n00:55 - Design tokens\n01:12 - What are design tokens?\n02:16 - Aliasing\n03:49 - Token organization\n04:22 - Primitive tokens\n04:55 - Semantic tokens\n05:37 - Component-specific tokens\n06:34 - Token ordering\n07:07 - Implement tokens in Figma\n08:16 - Migrate tokens\n8:40 - Creating primitive tokens\n09:08 - Tip: color scoping and hide from publishing\n09:31 - Creating tokens collection\n10:39 - Dark mode and spacing tokens\n11:26 - Spacing tokens\n11:40 - Tips for naming tokens\n12:36 - Wrap up\n\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems",
     "thumbnails": {
@@ -68,6 +116,41 @@
     "publishedAt": "2023-10-19T07:51:12Z",
     "privacyStatus": "public",
     "duration": "0:36:59"
+  },
+  {
+    "title": "Should startups build design systems? - Adrien Griveau",
+    "description": "Adrien talks about how Linear doesn't currently operate with a design system. His take: The more time you spend on the system, the less time you spend improving the product. \n\n———\n\nDive is where the best designers never stop learning 🤿\n\n🌐 dive.club\n🐦 twitter.com/joindiveclub\n\nNow you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PmNofA4x9rI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PmNofA4x9rI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PmNofA4x9rI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/PmNofA4x9rI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/PmNofA4x9rI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PmNofA4x9rI",
+    "publishedAt": "2023-10-18T17:00:39Z",
+    "privacyStatus": "public",
+    "duration": "0:03:07"
   },
   {
     "title": "Spacing - Analyzing The Top Design Systems (Figma Spacing Variables)",
