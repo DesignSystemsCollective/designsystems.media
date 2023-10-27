@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = "DesignSystems.media";
 export const SITE_DESCRIPTION =
-  "Design systems media library, aggregating amazing content from various media platforms";
+  "A curated collection of design systems content";
