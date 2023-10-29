@@ -6,26 +6,31 @@
   <slot />
 </div>
 <style>
-  /* Mobile layout - 1 column */
   .media-grid {
+    /* https://css-tricks.com/an-auto-filling-css-grid-with-max-columns/ */
+
+    /**
+   * User input values.
+   */
+    --grid-layout-gap: 10px;
+    --grid-column-count: 3;
+    --grid-item--min-width: 250px;
+
+    /**
+   * Calculated values.
+   */
+    --gap-count: calc(var(--grid-column-count) - 1);
+    --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+    --grid-item--max-width: calc(
+      (100% - var(--total-gap-width)) / var(--grid-column-count)
+    );
+
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr)
+    );
+    grid-gap: var(--grid-layout-gap);
     margin: 1rem 1rem 2rem;
-  }
-
-  /* Tablet layout - 2 columns */
-  @media screen and (min-width: 768px) {
-    .media-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  /* Larger screens - 3 columns */
-  @media screen and (min-width: 1024px) {
-    .media-grid {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-    }
   }
 </style>
