@@ -76,6 +76,23 @@ const {
     bottom: 0.5rem;
     right: 0.5rem;
   }
+
+  @media screen and (max-width: 600px) {
+    .media-link {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+    }
+
+    .media-image {
+      border-radius: 2px;
+    }
+
+    .duration {
+      bottom: 0.4rem;
+      right: 0.4rem;
+      font-size: 0.7rem;
+    }
+  }
 </style>
 <div class="media-item">
   <a href={`/${slug}`} class="media-link">
