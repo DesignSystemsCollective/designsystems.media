@@ -1,4 +1,5 @@
 ---
+import AstroSearch from "astro-pagefind/components/Search";
 import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
 import ThemeToggle from "./ThemeToggle.astro";
@@ -33,7 +34,14 @@ import ThemeToggle from "./ThemeToggle.astro";
      <HeaderLink href="/search">Search</HeaderLink>
     <HeaderLink href="/about">About</HeaderLink>
   </nav> -->
-
+    <div class="search-wrapper">
+      <AstroSearch
+        uiOptions={{
+          showSubResults: true,
+          showEmptyFilters: false,
+        }}
+      />
+    </div>
     <div class="social-links">
       <HeaderLink href="/about">About</HeaderLink>
       <a
@@ -58,6 +66,30 @@ import ThemeToggle from "./ThemeToggle.astro";
     </div>
   </nav>
 
+  <style is:global>
+    .search-wrapper {
+      --pagefind-ui-scale: 0.75;
+      flex-grow: 1;
+      padding: 0 2rem;
+    }
+    .search-wrapper .pagefind-ui__search-input,
+    .search-wrapper .pagefind-ui__drawer {
+      background-color: var(--header-background);
+    }
+    .search-wrapper .pagefind-ui__drawer {
+      background-color: var(--header-background);
+      box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
+      padding: calc(1rem * var(--pagefind-ui-scale));
+      border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
+      border-radius: var(--pagefind-ui-border-radius);
+      font-size: calc(21px * var(--pagefind-ui-scale));
+      max-height: calc(100vh - var(--header-height) - 4rem);
+      overflow: scroll;
+      position: absolute;
+      width: 100%;
+      top: 4rem;
+    }
+  </style>
   <style>
     @media screen and (max-width: 375px) {
       .logo {
