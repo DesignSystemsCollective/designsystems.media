@@ -15,7 +15,7 @@ const media = (await getCollection("media"))
     return !post.data.draft;
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .slice(0, 8);
+  .slice(0, 12);
 ---
 
 <BaseLayout sidebar={false}>
