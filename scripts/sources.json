@@ -1,31 +1,24 @@
 [
   {
-    "name": "Backlight",
+    "name": "Design Systems Social Club",
     "platform": "youtube",
-    "channelName": "@backlight_dev",
-    "type": "youtube-channel",
-    "url": "https://www.youtube.com/channel/UCeBNmb3t0KEQpOYKy_TVAjA"
+    "channelName": "@DesignSystemSocialClub",
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLZXMi7oD5GMMaACXR21jNy96F16fPrRqb"
   },
   {
-    "name": "Design Systems Advocate, Jina Anne",
+    "name": "Design Systems Social Club",
     "platform": "youtube",
-    "channelName": "@DesignSystems",
-    "type": "youtube-channel",
-    "url": "https://www.youtube.com/channel/UCw-LJo9v9vGQq3YX2H-gg2Q"
+    "channelName": "@DesignSystemSocialClub",
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLZXMi7oD5GMNJh26dSteqzyF31Rl_Vppn"
   },
   {
-    "name": "zeroheight team",
+    "name": "Design Systems Media",
     "platform": "youtube",
-    "channelName": "@zeroheighthq",
-    "type": "youtube-channel",
-    "url": "https://www.youtube.com/channel/UCv7tF9gwXK-vEByxb0Ymb6w"
-  },
-  {
-    "name": "Supernova",
-    "platform": "youtube",
-    "channelName": "@Supernova-io",
-    "type": "youtube-channel",
-    "url": "https://www.youtube.com/channel/UC8yAiDHVuCDPwdpnVruq-MA"
+    "channelName": "@joshharwood",
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/playlist?list=PLzgVKXm-2BlY93wwupEqHuV6XHuRr9-ZC"
   },
   {
     "name": "Introduction to design systems",
@@ -56,6 +49,34 @@
     "url": "https://www.youtube.com/playlist?list=PLMGy4p_QbO8zsUMBkcKsEm7kmAP2CWI2l"
   },
   {
+    "name": "Backlight",
+    "platform": "youtube",
+    "channelName": "@backlight_dev",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCeBNmb3t0KEQpOYKy_TVAjA"
+  },
+  {
+    "name": "Design Systems Advocate, Jina Anne",
+    "platform": "youtube",
+    "channelName": "@DesignSystems",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCw-LJo9v9vGQq3YX2H-gg2Q"
+  },
+  {
+    "name": "zeroheight team",
+    "platform": "youtube",
+    "channelName": "@zeroheighthq",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCv7tF9gwXK-vEByxb0Ymb6w"
+  },
+  {
+    "name": "Supernova",
+    "platform": "youtube",
+    "channelName": "@Supernova-io",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UC8yAiDHVuCDPwdpnVruq-MA"
+  },
+  {
     "name": "Design Systems Community",
     "platform": "youtube",
     "channelName": "@DesignSystemsCommunity",
@@ -63,11 +84,11 @@
     "url": "https://www.youtube.com/channel/UCeBXd1VEjbHYHdjqwkEHU_w"
   },
   {
-    "name": "Design Systems Media",
+    "name": "Design Systems Social Club",
     "platform": "youtube",
-    "channelName": "@joshharwood",
-    "type": "youtube-playlist",
-    "url": "https://www.youtube.com/playlist?list=PLzgVKXm-2BlY93wwupEqHuV6XHuRr9-ZC"
+    "channelName": "@DesignSystemSocialClub",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UC50hdmOJoCEl1mAzLCLf7QA"
   },
   {
     "name": "DS Video Aggregator",

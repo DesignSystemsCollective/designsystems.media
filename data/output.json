@@ -1518,6 +1518,41 @@
     "duration": "1:01:06"
   },
   {
+    "title": "Design Systems Field Guide #5",
+    "description": "With Jina Anne",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jYAwCTWg-HY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jYAwCTWg-HY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jYAwCTWg-HY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/jYAwCTWg-HY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/jYAwCTWg-HY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=jYAwCTWg-HY",
+    "publishedAt": "2023-10-05T05:04:01Z",
+    "privacyStatus": "public",
+    "duration": "0:57:38"
+  },
+  {
     "title": "Chen Hui Jing: Architecting CSS grid in a design system // #FrontZurich 2022",
     "description": "🇨🇭 #FRONTZURICH 🔗 https://frontconference.com/tickets\n🎟️ Secure your place and join us in person or online.\n\n👩🏻‍💻 Architecting CSS grid in a design system\nCSS grid has been supported by major browsers since 2017 and based on the State of CSS survey, it is a fairly well known CSS property. In this talk, I'd like to share the thought process and exploration of how CSS grid can be used in a design system meant to be used by a wide audience.\n\n=====\nAbout Chen Hui Jing @huijing \n🔗 https://twitter.com/@hj_chen\n🔗 https://chenhuijing.com\n\nMy name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association.\n\nFrom there, I discovered the existence of content management systems and migrated the site over to Drupal. I stopped working on the site a year later and put my web development journey on hold (the original site no longer exists either).\n\nAfter a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.\n\nI also founded Talk.CSS, a meetup around all things CSS, with Chris Lienert, and ran it with my best mate, Gao Wei after Chris returned to Australia.\n\nThe idea for Talk.CSS was born on the Kopi.JS slack channel on October 26, 2015 and within 2 hours, we had a logo, a Gitter channel, a Meetup.com account, a venue for the meetup and a couple speakers. Colour us efficient.\n\nI also have a day job as a Frontend Developer at Shopify, because we all need to pay the bills.\n\n=====\nAbout Front Conference Zurich: Where design meets technology.\n\n🔗 https://twitter.com/frontzurich\n🔗 https://www.instagram.com/frontzurich/\n🔗 https://www.facebook.com/frontzurich\n🔗 https://www.linkedin.com/company/frontzurich/\n🔗 https://mastodon.social/@front\n\nDesigners and developers share a common mission - to create amazing experiences. But it's not always easy for these two tribes to communicate. To bridge the gap between design and technology, we created the Front Conference in 2011.\n\nTo create great digital products, we rely on each other: designers on developers and developers on designers. That's why we came up with the idea of a conference for everyone involved in the design and implementation of a front end.\n\nBy staying at the forefront of both design and technology, we've grown to become the largest web conference in Switzerland. Our interests have broadened to reflect the increasing maturity of the industry. We now cover management topics such as design leadership, tech governance and UX strategy.\n\nOur attendees range from juniors to managers, and we attract key speakers to come to Zurich and share their knowledge in talks and workshops. \n\nThe conference has become a place to learn and network, and we have many loyal professionals who come back every year.",
     "thumbnails": {
@@ -1924,6 +1959,41 @@
     "duration": "0:02:01"
   },
   {
+    "title": "Design Systems Field Guide #4",
+    "description": "With Maya Hampton",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xnYfNQn99OQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xnYfNQn99OQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xnYfNQn99OQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/xnYfNQn99OQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/xnYfNQn99OQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=xnYfNQn99OQ",
+    "publishedAt": "2023-09-07T05:13:52Z",
+    "privacyStatus": "public",
+    "duration": "0:59:45"
+  },
+  {
     "title": "FRONT ZURICH 2023 LIVE with Brad Frost",
     "description": "Subscribe to the channel and set up alerts so you don't miss our free live stream of the opening keynote with Brad Frost - Is Atomic Design Dead?\n\nThere's still time to buy your streaming tickets now or during the conference to watch all the other talks and join our live platform: https://vi.to/hubs/front-conference-zurich-2023",
     "thumbnails": {
@@ -2016,6 +2086,41 @@
     "publishedAt": "2023-08-30T15:05:44Z",
     "privacyStatus": "public",
     "duration": "0:48:39"
+  },
+  {
+    "title": "Design Systems Field Guide #3",
+    "description": "With Bhargavi Kamakshivalli and Adam Sadowski",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IlwnSCjBrYE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IlwnSCjBrYE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IlwnSCjBrYE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/IlwnSCjBrYE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/IlwnSCjBrYE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IlwnSCjBrYE",
+    "publishedAt": "2023-08-17T06:08:44Z",
+    "privacyStatus": "public",
+    "duration": "1:01:36"
   },
   {
     "title": "zeroheight team: Community-Driven Design Systems – Expanding Your Impact!",
@@ -2400,6 +2505,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=fK5D_PdQuVI",
     "publishedAt": "2023-07-19T07:32:22Z",
     "duration": "1:01:34"
+  },
+  {
+    "title": "Design Systems Field Guide #2",
+    "description": "With special guest Donnie D'Amato!\r\nBe our guest and ask your questions at https://tinyurl.com/DSFG-form",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8WwV17-BYvQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8WwV17-BYvQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8WwV17-BYvQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/8WwV17-BYvQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/8WwV17-BYvQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8WwV17-BYvQ",
+    "publishedAt": "2023-07-13T06:08:32Z",
+    "privacyStatus": "public",
+    "duration": "1:00:51"
   },
   {
     "title": "Design Systems Journeys: Shopify and Wealthsimple (DSCC Toronto)",
@@ -2879,6 +3019,41 @@
     "duration": "0:00:19"
   },
   {
+    "title": "Design Systems Field Guide #1",
+    "description": "The Design Systems Podcast and the Design System Social Club are coming together to launch a brand new adventure in a fresh format. Be sure to tune into our first episode where we'll divulge all the details. See you there!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3DjogRjtqG4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3DjogRjtqG4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3DjogRjtqG4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3DjogRjtqG4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3DjogRjtqG4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3DjogRjtqG4",
+    "publishedAt": "2023-06-08T05:50:24Z",
+    "privacyStatus": "public",
+    "duration": "0:46:58"
+  },
+  {
     "title": "UnConference: Design Systems Culture with Ben Callahan",
     "description": "A design system is often an expression (for better or worse) of the values of the people that build it. This is why design systems flounder—they are often launched as a bridge between teams without an understanding of the various subcultures of those teams. When companies align their design system with and make them work for their existing company culture, the goals for that system are more easily realized.\n\nIf you feel like you’re swimming upstream with your design system, it could be the result of a cultural problem—not a technical one. It’s time for you to look at your design system from a different angle.\n\nIn this virtual learning event, Ben Callahan will show you how design systems and company culture are inextricably linked and how a deeper understanding of each is necessary to get you where you want to go.\n\n00:00 A Quick Story\n04:11 A Framework for Organizational Culture\n08:52 A Framework for Competing Values\n18:18 The Healthy or Unhealthy Design System Subculture\n32:01 Cultural Compatibilities\n38:27 Can a Design System Subculture Change Organizational Culture?",
     "thumbnails": {
@@ -2993,6 +3168,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=8bP77VC1zPg",
     "publishedAt": "2023-05-23T10:30:34Z",
     "duration": "0:59:12"
+  },
+  {
+    "title": "Color and contrast for accessible interfaces - Nathan Baldwin",
+    "description": "Accessibility is about ensuring people can perceive and operate digital interfaces. For sighted people, this can be a difficult problem to solve. There are a plethora of visual experiences and impairments, and solving for one person’s challenge may adversely affect another’s. In other cases, a solution may not actually help the people it is intended to help. For example, dark mode may seem reasonable for photophobia (light sensitive people). However, high contrast text in dark mode can result in optical glare, making text illegible. The way that we can solve for the complexities of individual visual experience is with color personalization. \n\nIn this talk, Nate will discuss the basics of the human visual system, color science, and how they relate to user interfaces. He will use examples from his work creating Adobe Spectrum’s color system in conjunction with their open source color tool, Leonardo.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Y9-aXiMSKa4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Y9-aXiMSKa4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Y9-aXiMSKa4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Y9-aXiMSKa4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Y9-aXiMSKa4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Y9-aXiMSKa4",
+    "publishedAt": "2023-05-23T01:24:52Z",
+    "privacyStatus": "public",
+    "duration": "0:34:37"
   },
   {
     "title": "Course overview : Introduction to design systems",
@@ -6773,6 +6983,41 @@
     "duration": "0:56:04"
   },
   {
+    "title": "Live stream #15: Jina Anne interview",
+    "description": "Where we mostly talk about Jina's origin story, the Clarity conference, and the future of design systems with No-Code.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OMreGbcXFok/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OMreGbcXFok/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OMreGbcXFok/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/OMreGbcXFok/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/OMreGbcXFok/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OMreGbcXFok",
+    "publishedAt": "2022-08-06T11:24:51Z",
+    "privacyStatus": "public",
+    "duration": "0:59:54"
+  },
+  {
     "title": "Coding Design Systems - ep23 - Atomic Design Fundamentals",
     "description": "Every Tuesday at 4:30PM UTC, join @Georges_Gomes, @m4d_z, and their guests in a new live coding session about design systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00 - Intro: Welcome Brad Frost, creator of Atomic Design philosophy\n03:40 - 10 years after Atomic Design: How do we organize architectures nowadays?\n08:49 - Using design systems like a Rosetta Stone helps teammates to communicate\n13:30 - The missing parts of the design system realm\n25:27 - Is the themable behavior a must-have of every design system?\n31:18 - Design system of design systems?\n38:23 - Design systems to solve the upcoming complexity of building interfaces\n42:39 - Feedback on building and using design systems\n52:22 - Outro: human is the most important part of any project\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nA passionate and insightful conversation with the inventor of the design system philosophy. We cover different topics, from atomic design concerns to design systems implementation, best practices, and the future of the technology.\n\nMost of all, we talk more about human beings rather than very technical aspects, and how design systems are a tool to empower people’s communication in a team where everybody works together.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- Creating themable design systems: https://bradfrost.com/blog/post/creating-themeable-design-systems/\n- Themable design systems demo: https://codepen.io/bradfrost/pen/vYmggWW\n- Design system components, recipes, and snowflakes: https://bradfrost.com/blog/post/design-system-components-recipes-and-snowflakes/\n\n- Using WebComponents in a design system - demo: https://studio.backlight.dev/edit/tGmOtdUt3F9jBEOluAJr/readme/src/?p=doc&utm_campaign=sessions%3Acds\n- Figma UI Kits from code, Learn with Jason episode: https://www.learnwithjason.dev/generate-figma-ui-kits-from-code\n\n- 🐥 @brad_frost: https://twitter.com/brad_frost\n- https://bradfrost.com/: https://bradfrost.com/\n- https://atomicdesign.bradfrost.com/: https://atomicdesign.bradfrost.com/\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -7253,6 +7498,41 @@
     "duration": "0:30:00"
   },
   {
+    "title": "Live stream #14: Figma Config 2022 debrief",
+    "description": "Where we talk mostly about Figma Config 2022",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bVl99c-ubpk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bVl99c-ubpk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bVl99c-ubpk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/bVl99c-ubpk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/bVl99c-ubpk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bVl99c-ubpk",
+    "publishedAt": "2022-06-11T11:03:50Z",
+    "privacyStatus": "public",
+    "duration": "0:59:20"
+  },
+  {
     "title": "Coding Design Systems - ep21 - ModernCSS.dev and Nunjucks components for a static Web content",
     "description": "Every Tuesday at 4:30PM UTC, join @Georges_Gomes, @m4d_z, and their guests in a new live coding session about design systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00 - Intro: welcome Stephanie Eckles\n07:53 - Upcoming CSS new features for design systems\n14:20 - Distributing tokens to components in a design system\n23:49 - CSS `@layer` feature to separate concerns in a design system\n30:44 - All the ways to build components in Nunjucks\n54:42 - Outro: upcoming Stephanie's workshop and next episode on multi-brands design systems\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nIn this episode, let's cover upcoming CSS features like _container queries_ or _@layer_ to organize and architect the way you distribute your design system. We also cover different ways to define a component with Nunjucks so you can distribute and reuse them in your static website, allowing to create a design system for your static web content as well!\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n* CSS Container Queries: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries\n* a11y color tokens tools: https://github.com/5t3ph/a11y-color-tokens/\n* Design tokens format W3C draft: https://design-tokens.github.io/community-group/format/#design-token\n* The Future of CSS: Cascade Layers (CSS `@layer`): https://www.bram.us/2021/09/15/the-future-of-css-cascade-layers-css-at-layer/\n* Can I Use `@alayer`: https://caniuse.com/?search=layer\n* Getting Started With CSS Cascade Layers: https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/\n* Using Nunjucks shortcodes to define components: https://github.com/5t3ph/11ty-design-system-example/blob/main/.eleventy.js\n* Place Corgi: http://placecorgi.com/\n* Cupcake Ipsum: http://www.cupcakeipsum.com\n\n- 🐥 @5t3ph: https://twitter.com/5t3ph\n- Stephanie Eckles Website: https://thinkdobecreate.com/\n- ModernCSS.dev: https://moderncss.dev/\n- Style Stage: https://stylestage.dev/\n\nPrevious episodes you might be interested in:\n- Design Systems with 11ty with Zach Leatherman: https://backlight.dev/sessions/coding-design-systems-design-systems-with-11ty-with-zach-leatherman?utm_campaign=sessions%3Acds\n- Accessibility (A11Y) for your Design Systems with Ben Myers: http://backlight.dev/sessions/coding-design-systems-accessibility-(a11y)-for-your-design-systems-with-ben-myers?utm_campaign=sessions%3Acds\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -7445,6 +7725,41 @@
     "duration": "1:00:14"
   },
   {
+    "title": "Deciphering color and accessibility with Leonardo",
+    "description": "Learn how Adobe's Spectrum created and used Leonardo (https://leonardocolor.io) to create an accessible color system with multiple theme support. You'll learn some basic fundamentals of color science and the core concepts behind Leonardo, including the javascript API for creating adaptive themes.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cw_B9e79mtk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cw_B9e79mtk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cw_B9e79mtk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/cw_B9e79mtk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/cw_B9e79mtk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cw_B9e79mtk",
+    "publishedAt": "2022-05-26T17:30:27Z",
+    "privacyStatus": "public",
+    "duration": "0:19:01"
+  },
+  {
     "title": "How We Document Webinar #3: Design Tokens",
     "description": "Download the How We Document Report: https://bit.ly/3uRz6A6\n\nThis is the third of our webinars surrounding the How We Document report. This time the focus was on Design Tokens. On the 24th May, we had our lead design advocate Luke Murphy alongside special guests, Dan Donald and Kaelig Deloumeau-Prigent, chat about everything tokens! From governance, definition, naming conventions right through to other areas automation could help.\n\nThe ‘how we document’ survey was conducted from Sep to Oct 2021 across social media, industry Slack channels and in emails to design system professionals.\n\nDesign system documentation has been maturing at a rapid pace over the last five years. how we document is an opportunity for us to stop, reflect and figure out the biggest challenges that face us in how we document and grow our design systems.\n\nPanelists:\n\nLuke Murphy: https://twitter.com/lurkmoophy\nDan Donald: https://twitter.com/hereinthehive\nKaelig Deloumeau-Prigent: https://twitter.com/kaelig\n\nFind out more about zeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -7539,6 +7854,76 @@
     "videoUrl": "https://www.youtube.com/watch?v=UpsSbEwAIyc",
     "publishedAt": "2022-05-12T09:57:33Z",
     "duration": "0:58:20"
+  },
+  {
+    "title": "Creating accessible themes in Leonardo",
+    "description": "Creating accessible color themes can be difficult. Leonardo helps to generate colors by target contrast ratio, and provides features to streamline the process of color selection, evaluation, and theming.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/d-i18M384Bo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/d-i18M384Bo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/d-i18M384Bo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/d-i18M384Bo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/d-i18M384Bo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=d-i18M384Bo",
+    "publishedAt": "2022-05-09T19:18:05Z",
+    "privacyStatus": "public",
+    "duration": "0:18:19"
+  },
+  {
+    "title": "Live stream #13: Managers",
+    "description": "Where we speak mostly about managing a design system",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wN5_JKnZtxM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wN5_JKnZtxM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wN5_JKnZtxM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/wN5_JKnZtxM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/wN5_JKnZtxM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wN5_JKnZtxM",
+    "publishedAt": "2022-05-07T11:08:29Z",
+    "privacyStatus": "public",
+    "duration": "1:02:32"
   },
   {
     "title": "Coding Design Systems - ep17 - Testing your Design Systems Components, with Gil Tayar",
@@ -7897,6 +8282,41 @@
     "duration": "0:58:21"
   },
   {
+    "title": "Live stream #12: Ask us anything!",
+    "description": "Where we answer all of your questions and celebrate our 1000th follower on Twitter.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/No3EYPgFmMA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/No3EYPgFmMA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/No3EYPgFmMA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/No3EYPgFmMA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/No3EYPgFmMA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=No3EYPgFmMA",
+    "publishedAt": "2022-04-02T11:03:15Z",
+    "privacyStatus": "public",
+    "duration": "0:58:25"
+  },
+  {
     "title": "Coding Design Systems - ep13 - Documenting design system, with Gaël Poupard",
     "description": "Every Tuesday at 5:30PM UTC, join @Georges_Gomes, @m4d_z, and their guests in a new live coding session about design systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00 - Intro: Welcome Gaël Poupard, Bootstrap core maintainer and Lead design developer at Onepoint\n02:34 - Inheritance in design systems\n04:57 - Working with the French government design system\n07:27 - Search in documentation, the best way\n14:07 - Improving documentation discoverability\n17:02 - Using an open source design system as a foundation\n20:03 - Burning a11y into your design system\n21:09 - Automating callouts to remind best practices in documentation\n29:43 - Architecturing your design system documentation\n37:48 - Using stories to document components\n44:15 - Using custom components to power your documentation\n47:08 - Every layout, the layouts' framework\n49:54 - Easter egg: making your documentation enjoyable\n54:07 - Outro\n\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nIn this episode, we scratch the surface of writing good documentation for your design system. Successful metrics, discoverability, searching, references, architecture, etc. We also discuss the best practices and how to nudge your people to work on and with your documentation using custom components dedicated to your documentation pages.\n\nWe go through documentation of open source design system projects like Bootstrap, Boosted, Tailwind, and the ‹div›RIOTS' dockit-core framework.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- 🐥 @ffoodd_fr: https://twitter.com/ffoodd_fr\n- https://www.ffoodd.fr/\n\n- Why you should use open-source component libraries in your Design System: https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system\n- Best Web Components libraries for Design Systems: https://backlight.dev/mastery/best-web-components-libraries-for-design-systems\n- Bootstrap Documentation: https://getbootstrap.com/docs/5.1/\n- Boosted design system made on Bootstrap: https://boosted.orange.com/docs/5.1/getting-started/introduction/\n- \"dockit-core\", the ‹div›RIOTS documentation framework: https://studio.backlight.dev/edit/4BeMe20hqOWTkdUL2NuJ/introduction/doc/introduction.md?p=doc\n- Tailwind documentation: https://tailwindcss.com/docs/installation\n\n- Web Components design systems with Thomas Allmer: https://backlight.dev/sessions/coding-design-systems-web-components-design-system-with-thomas-allmer?utm_campaign=sessions%3Acds\n- A11y in your design system with Ben Myers: https://backlight.dev/sessions/coding-design-systems-accessibility-(a11y)-for-your-design-systems-with-ben-myers?utm_campaign=sessions%3Acds\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 Georges Gomes: https://twitter.com/georges_gomes\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -7967,6 +8387,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=3DxHuRqXw48",
     "publishedAt": "2022-03-23T14:24:00Z",
     "duration": "0:53:36"
+  },
+  {
+    "title": "Live stream #11: new tools!",
+    "description": "Where we talk (mostly) about new design system tools.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I9Uc6-0Fn9Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I9Uc6-0Fn9Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I9Uc6-0Fn9Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/I9Uc6-0Fn9Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/I9Uc6-0Fn9Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=I9Uc6-0Fn9Y",
+    "publishedAt": "2022-03-12T12:06:08Z",
+    "privacyStatus": "public",
+    "duration": "1:01:17"
   },
   {
     "title": "Coding Design Systems - ep10 - A11Y in your Design System with Ben Myers",
@@ -8161,6 +8616,41 @@
     "duration": "0:51:34"
   },
   {
+    "title": "Live stream #10: hybrids",
+    "description": "Where we talk (mostly) about having hybrids in your design system team.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/a7uBj5ZzOtU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/a7uBj5ZzOtU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/a7uBj5ZzOtU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/a7uBj5ZzOtU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/a7uBj5ZzOtU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=a7uBj5ZzOtU",
+    "publishedAt": "2022-02-05T12:20:25Z",
+    "privacyStatus": "public",
+    "duration": "1:10:58"
+  },
+  {
     "title": "Coding Design Systems | ep06 | Svelte & Sveltekit with Brittney Postma",
     "description": "Every Tuesday at 5:30PM UTC, join @Georges_Gomes,  @m4d_z, and their guests in a new live coding session about Design Systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00 - Intro\n00:10 - Svelte Sirens\n01:49 - Building Design Systems in Svelte\n04:44 - UI Libraries for Svelte to create Design Systems from\n08:22 - Styling components in your Components library\n17:18 - Using a Backlight made Design System in Sveltekit\n33:45 - Adding documentation and supporting MDX in Svelte with mdsvex\n40:50 - Outro\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nThis week we're welcoming Brittney Postma (@BrittneyPostma) on the show! We're going through the Svelte Ecosystem and the Sveltekit project, integrating a Backlight made Design System in it!\n\nWe discuss about the compiler and the logics behind Svelte Components. We also do styling improvements, to finally use the simple components coming from the Design System in a live Sveltekit app.\n\nThe show is also the occasion to cover the support of MDX in Svelte with the mdsvex project, and to introduce the Svelte Sirens community!\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- Svelte: https://svelte.dev/\n- Sveltekit: https://kit.svelte.dev/\n- Svelte Sirens: https://sveltesirens.dev/\n- mdsvex: https://mdsvex.com/\n- Backlight Mastery - Svelte UI Libraries: https://backlight.dev/mastery/best-svelte-component-libraries-for-design-systems?utm_campaign=sessions%3Acds\n\n- Svelte Open Source Design System Starter Kit: https://github.com/divriots/starter-svelte\n- Svelte Starter Kit in Backlight: https://backlight.dev/doc/elVBDiiiouYQjeQ9fReN/?utm_campaign=sessions%3Acds\n\n- Purrfect Podcast: https://purrfect.dev/ \n- \"Backlight in Sveltekit\" Svelte Sirens episode: https://youtu.be/S9BxYHBwYvo\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 Brittney Postma: https://twitter.com/BrittneyPostma\n- 🐥 Georges Gomes: https://twitter.com/georges_gomes\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -8327,6 +8817,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=0xOfPSqqgrQ",
     "publishedAt": "2022-01-10T23:13:10Z",
     "duration": "0:11:20"
+  },
+  {
+    "title": "Live stream #9: Consultancy",
+    "description": "Where we talk (mostly) about getting consultant help for your design system.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/kQ49B2Y8pb4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/kQ49B2Y8pb4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/kQ49B2Y8pb4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/kQ49B2Y8pb4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/kQ49B2Y8pb4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kQ49B2Y8pb4",
+    "publishedAt": "2022-01-08T12:09:56Z",
+    "privacyStatus": "public",
+    "duration": "1:02:26"
   },
   {
     "title": "Build and ship a Design System in 45 minutes",
@@ -8915,6 +9440,41 @@
     "duration": "1:00:58"
   },
   {
+    "title": "Live stream #8: “Exotic“ platforms",
+    "description": "Where we talk (mostly) about how to support \"exotic\" platforms in your design system. (Think TVs, Cars, VR, etc.)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hRi3VA6sEDA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hRi3VA6sEDA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hRi3VA6sEDA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/hRi3VA6sEDA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/hRi3VA6sEDA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hRi3VA6sEDA",
+    "publishedAt": "2021-11-06T11:03:43Z",
+    "privacyStatus": "public",
+    "duration": "0:58:09"
+  },
+  {
     "title": "Starter Kit Walk-through | FURIOUS",
     "description": "Demo of the FURIOUS Starter Kit in Backlight.dev\n\nBacklight.dev's FURIOUS Starter-Kit is a comprehensive set of components to let build you own Design System based on FAST_UI\n\n▬ Resources ▬▬▬▬▬▬▬▬▬▬\n\n- Open-source Starter-kit → https://github.com/divriots/starter-furious\n- Fast → https://www.fast.design\n- ‹div›RIOTS Dockit documents rendering engine for React → https://github.com/divriots/dockit-react\n\n▬ Made in Backlight! ▬▬▬▬▬▬▬▬▬▬\n\nCheck out the FURIOUS Starter Kit → https://backlight.dev/edit/xS11aQmjMLIvr5PU5Mru/\n\nCheck out Backlight.dev → https://backlight.dev",
     "thumbnails": {
@@ -9069,6 +9629,41 @@
     "duration": "0:18:19"
   },
   {
+    "title": "Live stream #7: Governance",
+    "description": "Where we talk (mostly) about how to govern a design system team.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BrCtfoLeteo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BrCtfoLeteo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BrCtfoLeteo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/BrCtfoLeteo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/BrCtfoLeteo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BrCtfoLeteo",
+    "publishedAt": "2021-10-02T11:10:32Z",
+    "privacyStatus": "public",
+    "duration": "1:05:52"
+  },
+  {
     "title": "Feature - Mobile navigation",
     "description": "Walkthrough Backlight new mobile interface",
     "thumbnails": {
@@ -9181,6 +9776,41 @@
     "duration": "0:01:25"
   },
   {
+    "title": "Live stream #6: Jobs!",
+    "description": "Where we talk (mostly) about how you recruit and find a job for a design system team.\n\n\nLinks to resources presented during this episode:\n- Design Systems Slack: https://design.systems/slack/\nor https://join.slack.com/t/design-systems/shared_invite/zt-dyukxagw-w5PfwgRReus54M4alVb39w\n- Mae's design system newsletter: https://maecapozzi.com/newsletter/\n\n\nThe jobs listing:\n- Senior Full Stack Developer, UI (Design Systems) for Telus Digital: https://www.telus.com/en/digital/careers/positions/b9648574cd46\n- Product Designer, Design System & Accessibility at Asana: https://asana.com/jobs/apply/3401434/product-designerdesign-system-accessibility\n- Software Engineer, Design Systems at Asana: https://asana.com/jobs/apply/2943005/software-engineer-design-systems\n- Engineering Manager, Design System at Asana: https://asana.com/jobs/apply/2994973/engineering-manager-design-system\n- Amazon open roles: \nhttps://amazon.jobs/en/jobs/1625277/visual-ux-designer-amazon-business-bui-austin-or-seattle\nhttps://amazon.jobs/en/jobs/1593828/sr-ux-designer-amazon-business-bui-austin-or-seattle\nhttps://amazon.jobs/en/jobs/1634785/design-technologist-amazon-business-bui-austin-or-seattle\nhttps://amazon.jobs/en/jobs/1601865/senior-program-manager-amazon-business-bui-austin-or-seattle\nhttps://amazon.jobs/en/jobs/1673213/ux-designer-aws-design-system\nhttps://amazon.jobs/en/jobs/1594216/lead-product-designer-design-systems\nhttps://amazon.jobs/en/jobs/1648460/lead-ux-designer-aws-design-system\nhttps://amazon.jobs/en/jobs/1317413/sr-ux-designer-alexa-mobile-design-systems\nhttps://amazon.jobs/en/jobs/1653942/principal-ux-designer-shopping-design-system\nhttps://amazon.jobs/en/jobs/1537273/sr-ux-designer-alexa-mobile-design-systems\nhttps://amazon.jobs/en/jobs/1542222/sr-user-experience-designer-design-systems\nhttps://amazon.jobs/en/jobs/1528318/senior-user-researcher-aws-design-system\nhttps://amazon.jobs/en/jobs/1695502/design-systems-manager\nhttps://www.amazon.jobs/en/jobs/1545730/front-end-engineer-android-minneapolis-or-bellevue",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/D7CVyIU2kA4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/D7CVyIU2kA4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/D7CVyIU2kA4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/D7CVyIU2kA4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/D7CVyIU2kA4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=D7CVyIU2kA4",
+    "publishedAt": "2021-09-04T11:10:36Z",
+    "privacyStatus": "public",
+    "duration": "1:06:17"
+  },
+  {
     "title": "Design System: Everything You Need to Know in 2021",
     "description": "In an ever-evolving world, adaptiveness to change is key for your product not only to survive but flourish. That’s why product owners should maximize the agility and adaptiveness of their product development processes. \n\nOne of the most potent ways to save time and money is to standardize and reuse the elements you’ve already built. This is what this article is about: saving time, money and effort, while also maximizing the efficiency of your design and development teams. In other words, this article is about design systems.\n\nOriginal Article:\nhttps://cieden.com/design-systems-everything-you-need-to-know\n\nCheck out Cieden's works here:\nhttps://cieden.com/blog-discover-our-work\n\nWebsite: https://cieden.com\nClutch: https://clutch.co/profile/cieden\n\n#uxui #designsystem #design #agency #saas #digitalproduct",
     "thumbnails": {
@@ -9285,6 +9915,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=zLaLaFd1pPc",
     "publishedAt": "2021-08-18T17:28:26Z",
     "duration": "1:18:43"
+  },
+  {
+    "title": "Live stream #5: Support",
+    "description": "Where we talk (mostly) about supporting your design system.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TkWU784mDS4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TkWU784mDS4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TkWU784mDS4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/TkWU784mDS4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/TkWU784mDS4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TkWU784mDS4",
+    "publishedAt": "2021-08-07T10:58:46Z",
+    "privacyStatus": "public",
+    "duration": "0:50:25"
   },
   {
     "title": "Design Systems - What is Semantic Versioning?",
@@ -9421,6 +10086,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=mDPbLJSQYdo",
     "publishedAt": "2021-07-31T11:58:01Z",
     "duration": "0:00:42"
+  },
+  {
+    "title": "Live stream #4: Documentation",
+    "description": "Where we talk (mostly) about documentation for design systems.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2H_oZOJ_X6E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2H_oZOJ_X6E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2H_oZOJ_X6E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/2H_oZOJ_X6E/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/2H_oZOJ_X6E/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2H_oZOJ_X6E",
+    "publishedAt": "2021-06-12T11:04:35Z",
+    "privacyStatus": "public",
+    "duration": "0:59:22"
   },
   {
     "title": "Mastering design systems components in Figma - Jan Toman - Design System Lead @ Productboard",
@@ -9561,6 +10261,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=veDoIqU2So0",
     "publishedAt": "2021-05-25T10:41:54Z",
     "duration": "0:00:29"
+  },
+  {
+    "title": "Live stream #3: Figma",
+    "description": "Where we talk (mostly) about Figma, with new members of the club.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_gg9wOT3J_s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_gg9wOT3J_s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_gg9wOT3J_s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_gg9wOT3J_s/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_gg9wOT3J_s/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_gg9wOT3J_s",
+    "publishedAt": "2021-05-22T11:05:59Z",
+    "privacyStatus": "public",
+    "duration": "1:01:10"
   },
   {
     "title": "Managing A Design System - Kevin Dreher",
@@ -9772,6 +10507,41 @@
     "duration": "1:19:42"
   },
   {
+    "title": "Live stream #2: Dark mode",
+    "description": "Where we talk about Dark Mode and TV shows, but mostly Dark Mode.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UZcUJ4ecK_w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UZcUJ4ecK_w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UZcUJ4ecK_w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/UZcUJ4ecK_w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/UZcUJ4ecK_w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=UZcUJ4ecK_w",
+    "publishedAt": "2021-03-13T11:57:08Z",
+    "privacyStatus": "public",
+    "duration": "0:53:41"
+  },
+  {
     "title": "Chapter Mexico: Estrategia y trabajo colaborativo",
     "description": "Una de las situaciones más frecuentes es cómo explicar el valor de un sistema de diseño y el retorno de inversión, por otro lado está la definición del producto, la planificación de su implementación mediante la priorización de necesidades y cómo el equipo toma responsabilidad del proceso, flujos de comunicación, uso de herramientas y su participación en este.\n\nJulie García y Liliana Carreño lideran el sistema de diseño Sarape de Banco Azteca.\n\nLili es comunicóloga visual con más de 10 años de experiencia con enfoque en el mundo digital y de diseño de interfaces. Ha colaborado en el sector público y privado desde lo creativo hasta lo financiero.\n\nJulie es diseñadora con 6 años de experiencia creando productos digitales para el sector startupero y financiero. Es emprendedora, creadora de contenido en sus ratos libres y fundadora de UXCool Academy, una escuela online de diseño estratégico y UX.",
     "thumbnails": {
@@ -9794,6 +10564,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=dEIqGeSGP_E",
     "publishedAt": "2021-02-26T15:15:16Z",
     "duration": "1:36:05"
+  },
+  {
+    "title": "Live stream #1: the origin stories (slightly edited)",
+    "description": "Where we talk about how we ended up working on design systems. \nIt's our first one, be kind and merciful. 😅",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Wif1SJtNal4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Wif1SJtNal4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Wif1SJtNal4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Wif1SJtNal4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Wif1SJtNal4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Wif1SJtNal4",
+    "publishedAt": "2021-02-06T01:58:34Z",
+    "privacyStatus": "public",
+    "duration": "0:48:57"
   },
   {
     "title": "WTF are Design Tokens?",

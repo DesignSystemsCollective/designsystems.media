@@ -8,7 +8,7 @@ const mediaCollection = defineCollection({
       description: z.string().optional(),
       // Transform string to Date object
       publishedAt: z.coerce.date(),
-      updatedDate: z.coerce.date().optional(),
+      dateAdded: z.coerce.date().optional(),
       image: image().optional(),
       poster: image().optional(),
       duration: z.string().optional(),
