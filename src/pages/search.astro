@@ -8,7 +8,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <h1>Search for videos in the library</h1>
   </div>
   <div class="single-page">
-    <div class="search-wrapper"><AstroSearch /></div>
+    <div class="search-wrapper">
+      <AstroSearch
+        uiOptions={{ showSubResults: true, showEmptyFilters: false }}
+      />
+    </div>
   </div>
 </BaseLayout>
 
