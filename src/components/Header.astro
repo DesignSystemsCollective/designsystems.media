@@ -34,8 +34,9 @@ import ThemeToggle from "./ThemeToggle.astro";
      <HeaderLink href="/search">Search</HeaderLink>
     <HeaderLink href="/about">About</HeaderLink>
   </nav> -->
-    <div class="search-wrapper">
+    <div class="nav-search-wrapper">
       <AstroSearch
+        id="nav-search"
         uiOptions={{
           showSubResults: true,
           showEmptyFilters: false,
@@ -67,17 +68,18 @@ import ThemeToggle from "./ThemeToggle.astro";
   </nav>
 
   <style is:global>
-    .search-wrapper {
-      --pagefind-ui-scale: 0.75;
+    .nav-search-wrapper {
       flex-grow: 1;
       padding: 0 2rem;
     }
-    .search-wrapper .pagefind-ui__search-input,
-    .search-wrapper .pagefind-ui__drawer {
+    .nav-search-wrapper .pagefind-ui__search-input,
+    .nav-search-wrapper .pagefind-ui__drawer {
       background-color: var(--header-background);
     }
-    .search-wrapper .pagefind-ui__drawer {
-      background-color: var(--header-background);
+    .nav-search-wrapper .pagefind-ui__search-input {
+      --pagefind-ui-scale: 0.8;
+    }
+    .nav-search-wrapper .pagefind-ui__drawer {
       box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
       padding: calc(1rem * var(--pagefind-ui-scale));
       border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
