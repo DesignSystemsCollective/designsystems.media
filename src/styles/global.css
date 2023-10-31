@@ -71,7 +71,7 @@ html[data-theme="light"] {
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
   --pagefind-ui-image-box-ratio: 16 / 9;
-  --pagefind-ui-font: sans-serif;
+  --pagefind-ui-font: "Atkinson", sans-serif;
 }
 html[data-theme="dark"] {
   --tx: var(--neutral-200);
@@ -108,8 +108,9 @@ html[data-theme="dark"] {
   --pagefind-ui-primary: #eeeeee;
   --pagefind-ui-text: var(--body-text);
   --pagefind-ui-background: transparent;
-  --pagefind-ui-border: var(--layout-border);
+  --pagefind-ui-border: rgba(var(--accent), 10%);
   --pagefind-ui-tag: #152028;
+  --pagefind-ui-font: "Atkinson", sans-serif;
 }
 
 @font-face {
