@@ -1,5 +1,7 @@
 # design-systems-video-aggregator
 
+[![Scheduled Workflow](https://github.com/fcongson/design-systems-video-aggregator/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/fcongson/design-systems-video-aggregator/actions/workflows/schedule.yml)
+
 ## Video aggregator
 
 Located in `/scripts/index.js`, the video aggregrator is what retrieves data from the video sources defined in `/scripts/sources.json`.
@@ -16,7 +18,7 @@ API_KEY="YOUR_API_KEY" // Replace with your API key
 
 ```
 yarn
-yarn aggregate
+npm run aggregate
 ```
 
 ### What the aggregator is doing
