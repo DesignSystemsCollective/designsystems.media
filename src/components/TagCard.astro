@@ -9,7 +9,7 @@ const { type, name, count } = Astro.props;
 ---
 
 <div class="media-item">
-  <a href={`/${type}/${name}`} class="tag" transition:animate="fade">
+  <a href={`/${type}/${name}`} class="tag">
     <span data-type="label">{name}</span>{" "}
     <span data-type="count">{count}</span>
   </a>
