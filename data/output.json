@@ -14655,6 +14655,41 @@
     "duration": "0:21:42"
   },
   {
+    "title": "UXPin Webinars: On Design Systems: Dan Mall of Superfriendly",
+    "description": "Dan Mall provides best practices for design systems based on his experience working with startups and Fortune 500 companies.\n\nhttps://www.uxpin.com/sign-up - Try UXPin for free!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LHrzQPhJITc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LHrzQPhJITc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LHrzQPhJITc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LHrzQPhJITc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/LHrzQPhJITc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LHrzQPhJITc",
+    "publishedAt": "2017-03-28T21:44:40Z",
+    "privacyStatus": "public",
+    "duration": "0:47:16"
+  },
+  {
     "title": "Jina Bolton - Designing a Design System",
     "description": "Product Design for web and mobile is evolving at a fast pace. As the range of devices and platforms continues to expand, so do the various design considerations. Design systems help a design team build a framework that meets their needs by bringing together all of the critical design components - including style guides, pattern and UI libraries, CSS frameworks and other resources.\n\nIn this session, Jina, a Lead Designer on the Design Systems team at Salesforce UX, will share: \n* Strategies for how to approach, design and build an effective design system\n* How to successfully maintain the system to ensure ongoing usefulness\n* Elements that design systems need to be sustainable that are critical for success",
     "thumbnails": {
