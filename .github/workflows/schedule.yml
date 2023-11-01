@@ -1,0 +1,31 @@
+name: Scheduled Workflow
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # This runs the workflow every day at midnight UTC.
+
+jobs:
+  scheduled-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Run Your Script
+        run: |
+          npm run schedule
+          # For example, you can run a script that makes changes to your repository
+          echo "Running your script..."
+          # Here you can run your script or any other commands
+
+      - name: Check for Changes
+        run: |
+          if [[ $(git diff --exit-code) -ne 0 ]]; then
+            echo "Changes detected. Creating a pull request."
+            gh pr create --base main --head your-feature-branch --title "Auto-generated PR" --body "Automated PR created due to changes."
+          else
+            echo "No changes detected. Skipping pull request creation."
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
