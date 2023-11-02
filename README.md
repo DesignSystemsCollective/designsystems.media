@@ -18,7 +18,7 @@ API_KEY="YOUR_API_KEY" // Replace with your API key
 
 ```
 yarn
-npm run aggregate
+yarn aggregate
 ```
 
 ### What the aggregator is doing
