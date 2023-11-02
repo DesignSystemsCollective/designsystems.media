@@ -68,7 +68,7 @@ function calculatePostCountForSpeaker(speakerName) {
 
           return (
             <li>
-              <a href={`/tags/${tag}`} class="tag">
+              <a data-astro-reload href={`/tags/${tag}`} class="tag">
                 <span data-type="label">{tag}</span>{" "}
                 <span data-type="count">{postCountForTag}</span>
               </a>
@@ -94,7 +94,7 @@ function calculatePostCountForSpeaker(speakerName) {
 
           return (
             <li>
-              <a href={`/speakers/${speaker}`} class="tag">
+              <a data-astro-reload href={`/speakers/${speaker}`} class="tag">
                 <span data-type="label">{speaker}</span>{" "}
                 <span data-type="count">{postCountForSpeaker}</span>
               </a>

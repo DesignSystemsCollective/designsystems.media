@@ -54,7 +54,7 @@ speakers.forEach((speaker) => {
     <div class="alphabet">
       {
         Object.keys(groupedSpeakers).map((letter) => (
-          <a href={`#${letter}`}>{letter}</a>
+          <a data-astro-reload href={`#${letter}`}>{letter}</a>
         ))
       }
     </div>
@@ -62,7 +62,7 @@ speakers.forEach((speaker) => {
       {
         Object.keys(groupedSpeakers).map((letter) => (
           <div key={letter}>
-            <a name={letter}>
+            <a data-astro-reload name={letter}>
               <h2>{letter}</h2>
             </a>
             <div class="grid">
