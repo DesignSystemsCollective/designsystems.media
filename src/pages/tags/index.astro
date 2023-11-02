@@ -51,7 +51,7 @@ tags.forEach((tag) => {
     <div class="alphabet">
       {
         Object.keys(groupedTags).map((letter) => (
-          <a href={`#${letter}`}>{letter}</a>
+          <a data-astro-reload href={`#${letter}`}>{letter}</a>
         ))
       }
     </div>
@@ -59,7 +59,7 @@ tags.forEach((tag) => {
       {
         Object.keys(groupedTags).map((letter) => (
           <div key={letter}>
-            <a name={letter}>
+            <a data-astro-reload name={letter}>
               <h2>{letter}</h2>
             </a>
             <div class="grid">

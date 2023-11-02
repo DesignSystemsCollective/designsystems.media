@@ -8,7 +8,7 @@ import ThemeToggle from "./ThemeToggle.astro";
 <header>
   <nav>
     <h2>
-      <a href="/" title={SITE_TITLE}>
+      <a data-astro-reload href="/" title={SITE_TITLE}>
         <svg
           class="logo"
           width="32"
@@ -38,6 +38,11 @@ import ThemeToggle from "./ThemeToggle.astro";
         }}
       />
     </div>
+    <button class="nav-menu-button">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
     <div class="nav-menu">
       <HeaderLink href="/about">About</HeaderLink>
       <a
@@ -52,15 +57,28 @@ import ThemeToggle from "./ThemeToggle.astro";
           width="24"
           height="24"
           astro-icon="social/twitter"
-          ><path
+        >
+          <path
             fill="currentColor"
             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-          ></path></svg
-        >
+          ></path>
+        </svg>
       </a>
       <ThemeToggle />
     </div>
   </nav>
+  <script>
+    document
+      .querySelector(".nav-menu-button")
+      ?.addEventListener("click", () => {
+        document
+          .querySelector(".nav-menu-button")
+          ?.classList.toggle("nav-menu-button-active");
+        document
+          .querySelector(".nav-menu")
+          ?.classList.toggle("nav-menu-active");
+      });
+  </script>
 
   <style is:global>
     .nav-search-wrapper {
@@ -90,16 +108,17 @@ import ThemeToggle from "./ThemeToggle.astro";
     .nav-search-wrapper .pagefind-ui__results-area {
       margin-top: 0;
     }
+    @media screen and (max-width: 768px) {
+      .nav-search-wrapper {
+        padding: 0 0.5rem;
+        --pagefind-ui-scale: 0.7;
+      }
+    }
   </style>
   <style>
-    @media screen and (max-width: 768px) {
-      .logo {
-        width: 48px;
-        height: 48px;
-      }
-      .logoTitle {
-        display: none;
-      }
+    nav {
+      --nav-menu-button-display: none;
+      --nav-menu-display: flex;
     }
     header {
       margin: 0;
@@ -151,11 +170,83 @@ import ThemeToggle from "./ThemeToggle.astro";
       align-items: center;
       font-weight: 700;
     }
-    .nav-menu,
+    .nav-menu-button {
+      appearance: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: var(--nav-menu-button-display);
+      height: 3.25rem;
+      position: relative;
+      width: 3.25rem;
+    }
+    .nav-menu-button .line {
+      --nav-menu-button-span-width: 24px;
+      --nav-menu-button-span-gap: 8px;
+      border-radius: 1px;
+      background-color: var(--header-text);
+      height: 2px;
+      left: calc((3.25rem - var(--nav-menu-button-span-width)) / 2);
+      position: absolute;
+      transform-origin: center;
+      transition-duration: 200ms;
+      transition-property: background-color, opacity, transform;
+      transition-timing-function: ease-in-out;
+      width: var(--nav-menu-button-span-width);
+    }
+    .nav-menu-button span:first-child {
+      top: calc(50% - var(--nav-menu-button-span-gap));
+    }
+    .nav-menu-button span:nth-child(2) {
+      top: 50%;
+    }
+    .nav-menu-button span:nth-child(3) {
+      top: calc(50% + var(--nav-menu-button-span-gap));
+    }
+    .nav-menu-button.nav-menu-button-active span:first-child {
+      transform: translateY(var(--nav-menu-button-span-gap)) rotate(45deg);
+    }
+    .nav-menu-button.nav-menu-button-active span:nth-child(2) {
+      opacity: 0;
+    }
+    .nav-menu-button.nav-menu-button-active span:nth-child(3) {
+      transform: translateY(calc(-1 * var(--nav-menu-button-span-gap)))
+        rotate(-45deg);
+    }
+    .nav-menu {
+      display: var(--nav-menu-display);
+    }
     .nav-menu a {
       display: flex;
       align-items: center;
       font-size: 0.9em;
+    }
+    .nav-menu.nav-menu-active {
+      display: flex;
+    }
+    @media screen and (max-width: 768px) {
+      .logo {
+        width: 36px;
+        height: 36px;
+      }
+      .logoTitle {
+        display: none;
+      }
+      .nav-menu-button {
+        --nav-menu-button-display: block;
+      }
+      .nav-menu {
+        --nav-menu-display: none;
+        position: absolute;
+        top: var(--header-height);
+        right: 0;
+        height: calc(100vh - var(--header-height));
+        width: calc(100vw - 4rem);
+        background-color: var(--header-background);
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 2rem;
+      }
     }
   </style>
 </header>

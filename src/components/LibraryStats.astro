@@ -36,7 +36,7 @@ const totalSpeakerCount = uniqueSpeakers.length;
 ---
 
 <div class="libraryStats">
-  <a href="/all">
+  <a data-astro-reload href="/all">
     <div class="stat">
       <Icon name="fluent:video-clip-multiple-24-regular" />
       <div class="info">
@@ -44,7 +44,7 @@ const totalSpeakerCount = uniqueSpeakers.length;
         <div data-type="count">{postCount}</div>
       </div>
     </div></a
-  ><a href="/speakers">
+  ><a data-astro-reload href="/speakers">
     <div class="stat">
       <Icon name="fluent:person-24-regular" />
       <div class="info">
@@ -52,7 +52,7 @@ const totalSpeakerCount = uniqueSpeakers.length;
         <div data-type="count">{totalSpeakerCount}</div>
       </div>
     </div></a
-  ><a href="/tags">
+  ><a data-astro-reload href="/tags">
     <div class="stat">
       <Icon name="fluent:tag-multiple-24-regular" />
       <div class="info">
