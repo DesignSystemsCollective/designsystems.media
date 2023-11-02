@@ -25,7 +25,12 @@ const {
 
 <article data-pagefind-body data-pagefind-sort>
   <div class="hero-image" data-pagefind-meta={`image:${image.src}`}>
-    <YouTube id={videoUrl ?? ""} class="video-embed" poster={poster.src} />
+    <YouTube
+      id={videoUrl ?? ""}
+      class="video-embed"
+      transition:name={slug}
+      poster={poster.src}
+    />
     <div class="background" style={`background-image: url('${image.src}')`}>
     </div>
   </div>

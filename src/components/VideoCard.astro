@@ -97,7 +97,12 @@ const {
 <div class="media-item">
   <a href={`/${slug}`} class="media-link">
     <div class="media-image">
-      <Image src={poster} alt={title} />
+      <Image
+        src={poster}
+        alt={title}
+        transition:name={slug}
+        transition:animate="initial"
+      />
       {
         duration && (
           <div class="duration">
@@ -106,7 +111,7 @@ const {
         )
       }
     </div>
-    <div class="media-content">
+    <div class="media-content" transition:animate="fade">
       <h4 class="title">{title}</h4>
       <span class="date">
         <FormattedDate date={publishedAt} />
