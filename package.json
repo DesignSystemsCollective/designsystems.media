@@ -7,7 +7,7 @@
   "scripts": {
     "aggregate": "node scripts/index.js",
     "images": "node scripts/getImages.js",
-    "schedule": "npm run aggregate && npm run images",
+    "schedule": "yarn run aggregate && yarn run images",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
