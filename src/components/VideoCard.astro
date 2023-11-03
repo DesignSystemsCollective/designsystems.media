@@ -1,7 +1,7 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import VideoDuration from "../components/VideoDuration.astro";
-import type { CollectionEntry } from "astro:content";
 
 import { Image } from "astro:assets";
 type Media = CollectionEntry<"media">;
@@ -95,14 +95,9 @@ const {
   }
 </style>
 <div class="media-item">
-  <a data-astro-reload href={`/${slug}`} class="media-link">
+  <a href={`/${slug}`} class="media-link">
     <div class="media-image">
-      <Image
-        src={poster}
-        alt={title}
-        transition:name={slug}
-        transition:animate="initial"
-      />
+      <Image src={poster} alt={title} />
       {
         duration && (
           <div class="duration">
@@ -111,7 +106,7 @@ const {
         )
       }
     </div>
-    <div class="media-content" transition:animate="fade">
+    <div class="media-content">
       <h4 class="title">{title}</h4>
       <span class="date">
         <FormattedDate date={publishedAt} />

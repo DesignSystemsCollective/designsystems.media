@@ -13,7 +13,7 @@ const { title, link, linkLabel, padding } = Astro.props;
   <h3>{title}</h3>
   {
     link && (
-      <a data-astro-reload href={link} title={`View more ${title}`}>
+      <a href={link} title={`View more ${title}`}>
         {linkLabel}
       </a>
     )

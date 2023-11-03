@@ -4,7 +4,6 @@
 import "../styles/global.css";
 
 import { GoogleAnalytics } from "astro-google-analytics";
-import { ViewTransitions } from "astro:transitions";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
 export interface Props {
@@ -71,5 +70,3 @@ const {
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={new URL(image, Astro.url)} />
-
-<ViewTransitions />
