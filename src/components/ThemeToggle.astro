@@ -77,17 +77,8 @@ const setTheme = () => {
 
   document.documentElement.setAttribute("data-theme", currentTheme);
 };
-const setButton = () => {
-  document
-    .getElementById("themeToggle")
-    .addEventListener("click", handleToggleClick);
-};
 
-document.addEventListener("astro:page-load", setButton);
-// Runs on initial navigation
-setTheme();
-// Runs on view transitions navigation
-document.addEventListener("astro:after-swap", setTheme);
-
-// TODO: The view transitions code seems to reset the theme. I added some event listeners but not working as expected.
+document
+  .getElementById("themeToggle")
+  .addEventListener("click", handleToggleClick);
 </script>

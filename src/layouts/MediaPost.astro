@@ -1,9 +1,9 @@
 ---
 import { YouTube } from "@astro-community/astro-embed-youtube";
-import type { CollectionEntry } from "astro:content";
-import VideoDuration from "../components/VideoDuration.astro";
-import FormattedDate from "../components/FormattedDate.astro";
 import { Icon } from "astro-icon";
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+import VideoDuration from "../components/VideoDuration.astro";
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
@@ -25,12 +25,7 @@ const {
 
 <article data-pagefind-body data-pagefind-sort>
   <div class="hero-image" data-pagefind-meta={`image:${image.src}`}>
-    <YouTube
-      id={videoUrl ?? ""}
-      class="video-embed"
-      transition:name={slug}
-      poster={poster.src}
-    />
+    <YouTube id={videoUrl ?? ""} class="video-embed" poster={poster.src} />
     <div class="background" style={`background-image: url('${image.src}')`}>
     </div>
   </div>
@@ -52,7 +47,7 @@ const {
       >
       <span class="inline"
         ><Icon name="fluent:window-new-20-filled" size="20" />
-        <a data-astro-reload href={videoUrl} title={title}>Link to video</a></span
+        <a href={videoUrl} title={title}>Link to video</a></span
       >
       <div class="break"></div>
       <div class="tags">
