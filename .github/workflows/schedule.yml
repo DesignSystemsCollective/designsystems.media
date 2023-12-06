@@ -36,4 +36,4 @@ jobs:
             echo "No changes detected. Skipping pull request creation."
           fi
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_KEY: ${{ secrets.API_KEY }}
