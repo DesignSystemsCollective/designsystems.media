@@ -1,14 +1,15 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../layouts/BaseLayout.astro";
-import MediaGrid from "../layouts/MediaGrid.astro";
-import HomeGrid from "../layouts/HomeGrid.astro";
-import VideoCard from "../components/VideoCard.astro";
-import SectionHeader from "../components/SectionHeader.astro";
-import CardHeader from "../components/CardHeader.astro";
-import HomeContent from "../layouts/HomeContent.astro";
-import LibraryStats from "../components/LibraryStats.astro";
 import Card from "../components/Card.astro";
+import CardHeader from "../components/CardHeader.astro";
+import Footer from "../components/Footer.astro";
+import LibraryStats from "../components/LibraryStats.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import VideoCard from "../components/VideoCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HomeContent from "../layouts/HomeContent.astro";
+import HomeGrid from "../layouts/HomeGrid.astro";
+import MediaGrid from "../layouts/MediaGrid.astro";
 
 const media = (await getCollection("media"))
   .filter((post) => {
@@ -92,4 +93,5 @@ const media = (await getCollection("media"))
       </HomeContent>
     </Card>
   </HomeGrid>
+  <Footer />
 </BaseLayout>
