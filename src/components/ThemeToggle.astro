@@ -39,46 +39,46 @@
 </style>
 
 <script is:inline>
-const theme = (() => {
-  if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-    return localStorage.getItem("theme");
-  }
-  if (window.matchMedia("(prefers-color-scheme: light)").matches) {
-    return "light";
-  }
-  return "dark";
-})();
+  const theme = (() => {
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      return localStorage.getItem("theme");
+    }
+    if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+      return "light";
+    }
+    return "dark";
+  })();
 
-if (theme === "dark") {
-  document.documentElement.setAttribute("data-theme", "dark");
-} else {
-  document.documentElement.setAttribute("data-theme", "light");
-}
-
-window.localStorage.setItem("theme", theme);
-
-const handleToggleClick = () => {
-  var currentTheme = document.documentElement.getAttribute("data-theme");
-  var targetTheme = "light";
-
-  if (currentTheme === "light") {
-    targetTheme = "dark";
+  if (theme === "light") {
+    document.documentElement.setAttribute("data-theme", "light");
+  } else {
+    document.documentElement.setAttribute("data-theme", "dark");
   }
 
-  document.documentElement.setAttribute("data-theme", targetTheme);
-  localStorage.setItem("theme", targetTheme);
-};
+  window.localStorage.setItem("theme", theme);
 
-const setTheme = () => {
-  currentTheme = "dark";
-  if (localStorage.getItem("theme")) {
-    var currentTheme = localStorage.getItem("theme");
-  }
+  const handleToggleClick = () => {
+    var currentTheme = document.documentElement.getAttribute("data-theme");
+    var targetTheme = "light";
 
-  document.documentElement.setAttribute("data-theme", currentTheme);
-};
+    if (currentTheme === "light") {
+      targetTheme = "dark";
+    }
 
-document
-  .getElementById("themeToggle")
-  .addEventListener("click", handleToggleClick);
+    document.documentElement.setAttribute("data-theme", targetTheme);
+    localStorage.setItem("theme", targetTheme);
+  };
+
+  const setTheme = () => {
+    currentTheme = "dark";
+    if (localStorage.getItem("theme")) {
+      var currentTheme = localStorage.getItem("theme");
+    }
+
+    document.documentElement.setAttribute("data-theme", currentTheme);
+  };
+
+  document
+    .getElementById("themeToggle")
+    .addEventListener("click", handleToggleClick);
 </script>
