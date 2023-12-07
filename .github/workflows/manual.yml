@@ -36,3 +36,5 @@ jobs:
           else
             echo "No changes detected. Skipping pull request creation."
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}
