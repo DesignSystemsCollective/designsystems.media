@@ -10,30 +10,40 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 18  # Use the appropriate Node.js version here
+          node-version: latest # Use the appropriate Node.js version here
 
       - name: Install dependencies
-        run: npm install  # This will install 'dotenv' and other dependencies
-        
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install --immutable --immutable-cache --check-cache
+
       - name: Run Your Script
-        run: |
-          npm run schedule
-          # For example, you can run a script that makes changes to your repository
-          echo "Running your script..."
-          # Here you can run your script or any other commands
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: schedule
         env:
           API_KEY: ${{ secrets.API_KEY }}
 
       - name: Check for Changes
         run: |
-          if [[ $(git diff --exit-code) -ne 0 ]]; then
-            echo "Changes detected. Creating a pull request."
-            gh pr create --base main --head your-feature-branch --title "Auto-generated PR" --body "Automated PR created due to changes."
+          if [ -n "$(git diff)" ]; then
+            echo "Changes detected. Staging and committing changes..."
+            git config user.email "fcongson@gmail.com"
+            git config user.name "Frank Congson"
+            feature_branch="scheduled-workflow-changes"
+            git checkout -b "$feature_branch"
+            git add .
+            git commit -m "Auto-commit: Changes detected from scheduled workflow"
+            git push origin "$feature_branch"
+            echo "Creating a pull request..."
+            gh pr create --base main --head "$feature_branch" --title "Auto-generated PR" --body "Automated PR created due to changes detected from scheduled workflow."
           else
             echo "No changes detected. Skipping pull request creation."
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}
