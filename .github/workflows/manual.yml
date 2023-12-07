@@ -31,8 +31,12 @@ jobs:
       - name: Check for Changes
         run: |
           if [ -n "$(git diff)" ]; then
-            echo "Changes detected. Creating a pull request."
-            gh pr create --base main --head your-feature-branch --title "Auto-generated PR" --body "Automated PR created due to changes."
+            echo "Changes detected. Staging and committing changes..."
+            git add .
+            git commit -m "Auto-commit: Changes detected from scheduled workflow"
+            git push origin your-feature-branch
+            echo "Creating a pull request..."
+            gh pr create --base main --head your-feature-branch --title "Auto-generated PR" --body "Automated PR created due to changes detected from scheduled workflow."
           else
             echo "No changes detected. Skipping pull request creation."
           fi
