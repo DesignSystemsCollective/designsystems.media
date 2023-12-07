@@ -34,11 +34,13 @@ jobs:
             echo "Changes detected. Staging and committing changes..."
             git config user.email "fcongson@gmail.com"
             git config user.name "Frank Congson"
+            feature_branch="scheduled-workflow-changes"
+            git checkout -b "$feature_branch"
             git add .
             git commit -m "Auto-commit: Changes detected from scheduled workflow"
-            git push origin your-feature-branch
+            git push origin "$feature_branch"
             echo "Creating a pull request..."
-            gh pr create --base main --head your-feature-branch --title "Auto-generated PR" --body "Automated PR created due to changes detected from scheduled workflow."
+            gh pr create --base main --head "$feature_branch" --title "Auto-generated PR" --body "Automated PR created due to changes detected from scheduled workflow."
           else
             echo "No changes detected. Skipping pull request creation."
           fi
