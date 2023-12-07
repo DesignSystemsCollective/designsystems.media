@@ -30,7 +30,7 @@ jobs:
 
       - name: Check for Changes
         run: |
-          if [[ $(git diff --exit-code) -eq 1 ]]; then
+          if [ -n "$(git diff)" ]; then
             echo "Changes detected. Creating a pull request."
             gh pr create --base main --head your-feature-branch --title "Auto-generated PR" --body "Automated PR created due to changes."
           else
