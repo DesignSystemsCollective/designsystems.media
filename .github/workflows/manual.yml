@@ -32,6 +32,8 @@ jobs:
         run: |
           if [ -n "$(git diff)" ]; then
             echo "Changes detected. Staging and committing changes..."
+            git config user.email "fcongson@gmail.com"
+            git config user.name "Frank Congson"
             git add .
             git commit -m "Auto-commit: Changes detected from scheduled workflow"
             git push origin your-feature-branch
