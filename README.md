@@ -1,6 +1,6 @@
-# design-systems-video-aggregator
+# designsystems.media
 
-[![Scheduled Workflow](https://github.com/fcongson/design-systems-video-aggregator/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/fcongson/design-systems-video-aggregator/actions/workflows/schedule.yml)
+[![Scheduled Workflow](https://github.com/fcongson/designsystems.media/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/fcongson/designsystems.media/actions/workflows/schedule.yml)
 
 ## Scripts
 
