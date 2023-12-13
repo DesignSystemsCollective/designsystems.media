@@ -40,3 +40,4 @@ jobs:
           reviewers: |
             fcongson
             NoWorries
+          delete-branch: true
