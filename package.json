@@ -5,9 +5,9 @@
   "author": "Frank Congson",
   "license": "MIT",
   "scripts": {
-    "aggregate": "node scripts/index.js",
+    "videos": "node scripts/getVideos.js",
     "images": "node scripts/getImages.js",
-    "schedule": "yarn run aggregate && yarn run images",
+    "aggregate": "yarn videos && yarn images",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",

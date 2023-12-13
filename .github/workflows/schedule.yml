@@ -25,7 +25,7 @@ jobs:
       - name: Run Your Script
         uses: borales/actions-yarn@v4
         with:
-          cmd: schedule
+          cmd: aggregate
         env:
           API_KEY: ${{ secrets.API_KEY }}
 
