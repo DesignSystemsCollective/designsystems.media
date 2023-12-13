@@ -8,12 +8,6 @@ const {
 } = require("./youtube");
 const { getAllVideosFromVimeo } = require("./vimeo");
 
-// Initialize the YouTube Data API client
-const { google } = require("googleapis");
-const youtube = google.youtube("v3");
-
-// Set your API key or OAuth 2.0 credentials
-const API_KEY = process.env.API_KEY;
 const outputFilename = "data/output.json";
 const outputDir = "../src/content/media/";
 
@@ -29,24 +23,6 @@ const sourcesData = require("./sources.json");
 
 // Import the list of video URLs to ignore
 const videosToIgnore = require("./ignore.json");
-
-// Function to format video duration
-function formatDuration(rawDuration) {
-  // Extract hours, minutes, and seconds from the raw duration
-  const match = rawDuration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
-
-  const hours = match[1] ? parseInt(match[1], 10) : 0;
-  const minutes = match[2] ? parseInt(match[2], 10) : 0;
-  const seconds = match[3] ? parseInt(match[3], 10) : 0;
-
-  // Format the duration as "HH:MM:SS"
-  const formattedDuration = `${hours}:${String(minutes).padStart(
-    2,
-    "0",
-  )}:${String(seconds).padStart(2, "0")}`;
-
-  return formattedDuration;
-}
 
 // Function to generate an MDX file with video data
 function generateMdxFile(video, folderPath) {

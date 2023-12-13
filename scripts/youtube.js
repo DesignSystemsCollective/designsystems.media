@@ -1,7 +1,6 @@
 // youtube.js
 const he = require("he");
 const { google } = require("googleapis");
-const fs = require("fs");
 
 // Initialize the YouTube Data API client
 const youtube = google.youtube("v3");
