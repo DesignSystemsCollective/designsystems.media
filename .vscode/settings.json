@@ -2,13 +2,19 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "media",
-      "path": "[[workspace]]/src/content/media"
+      "path": "[[workspace]]/src/content/media",
+      "filePrefix": null
     }
   ],
+  "frontMatter.content.draftField": {
+    "name": "draft",
+    "type": "boolean"
+  },
+  "frontMatter.taxonomy.alignFilename": true,
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "pageBundle": false,
+      "pageBundle": true,
       "fields": [
         {
           "title": "Title",
@@ -35,7 +41,8 @@
         {
           "title": "Is in draft",
           "name": "draft",
-          "type": "boolean"
+          "type": "boolean",
+          "default": true
         },
         {
           "title": "Tags",
@@ -82,74 +89,19 @@
           "name": "speakers",
           "type": "choice",
           "choices": [
-            "Dan Mall"
+            "Unsorted"
           ]
         }
       ]
     },
-    {
-      "name": "media",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "publishedAt",
-          "name": "publishedAt",
-          "type": "datetime"
-        },
-        {
-          "title": "image",
-          "name": "image",
-          "type": "image"
-        },
-        {
-          "title": "poster",
-          "name": "poster",
-          "type": "string"
-        },
-        {
-          "title": "videoUrl",
-          "name": "videoUrl",
-          "type": "string"
-        },
-        {
-          "title": "localImages",
-          "name": "localImages",
-          "type": "image"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "duration",
-          "name": "duration",
-          "type": "string"
-        },
-        {
-          "title": "draft",
-          "name": "draft",
-          "type": "datetime"
-        },
-        {
-          "title": "speakers",
-          "name": "speakers",
-          "type": "choice",
-          "choices": [
-            "Dan Mall"
-          ]
-        }
-      ]
-    }
-  ]
+  ],
+  "[markdown]": {
+    "editor.fontSize": 14,
+    "editor.lineHeight": 26,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 64,
+    "editor.lineNumbers": "off",
+    "editor.quickSuggestions": false,
+    "editor.minimap.enabled": false
+  }
 }
