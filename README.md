@@ -1,6 +1,6 @@
 # designsystems.media
 
-[![Scheduled Workflow](https://github.com/fcongson/designsystems.media/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/fcongson/designsystems.media/actions/workflows/schedule.yml)
+[![Scheduled Workflow](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml)
 
 ## Scripts
 
