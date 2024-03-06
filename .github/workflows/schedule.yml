@@ -5,12 +5,12 @@ on:
     - cron: "0 0 * * *" # This runs the workflow every day at midnight UTC.
 
 jobs:
-  scheduled-job:
+  aggregate-new-media:
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -30,10 +30,12 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           branch: github-action-new-media
-          add-paths: src/content/**/*
+          add-paths: |
+            src/content/**/*
+            data/output.json
           commit-message: "Github action add new media"
           title: "Github action add new media"
           body: |
