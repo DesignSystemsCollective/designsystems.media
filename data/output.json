@@ -1,5 +1,1525 @@
 [
   {
+    "title": "How We Document 2024: Episode 2 - Trends in Design Systems and Documentation",
+    "description": "Join us as we embark on a journey through the evolving world of design systems and documentation in the second installment of our “How We Document” series. This webinar is a deep dive into the milestones organizations achieve with the design systems and documentation based on age and maturity level. We’ll tackle the challenges of maintaining robust documentation and offer strategic guidance for effective management. Lastly, we’ll cover trends in how organizations invest and obtain buy-in from leaders.\n\nPanelists: \nMichelle Chin - https://www.linkedin.com/in/michelletchin/\nHector Jaime - https://www.linkedin.com/in/hector-jaime-a976678/\nDerek Wong - https://www.linkedin.com/in/derekkeiferwong/\n\nDownload the How We Document Report: https://hubs.ly/Q02nnq6Z0\n\nSign up for the rest of the series: https://zeroheight.com/webinars/\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RiDiOL7GVgg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RiDiOL7GVgg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RiDiOL7GVgg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RiDiOL7GVgg",
+    "publishedAt": "2024-03-22T14:07:19Z",
+    "duration": "0:56:05"
+  },
+  {
+    "title": "Design Systems Rodeo #1: Consistently Inconsistent",
+    "description": "Hosted by the incredible Kevin Muldoon, we bring you Design Systems Rodeo, where Kevin and guests will be tackling problems faced with design systems. This first episode is titled Consistently Inconsistent with guest Daniel Henderson-Ede.\n\nHost: Kevin Muldoon - https://www.linkedin.com/in/kevinrmuldoon/\nGuest: Daniel Henderson-Ede - https://www.linkedin.com/in/danhendersonede/\n\nA new podcast where Kevin Muldoon and guests wrangle with the big common problems that design systems face. Every episode, they’ll hogtie a challenge, give it a good once over, and share the best techniques they’ve found to conquer them, from dealing with inconsistency to naming to white-label systems.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fQl9fqQDBJg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fQl9fqQDBJg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fQl9fqQDBJg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fQl9fqQDBJg",
+    "publishedAt": "2024-03-22T14:02:47Z",
+    "duration": "0:32:44"
+  },
+  {
+    "title": "Back to School with Amy and Geri: Figma UI Kits",
+    "description": "This time, Amy and Geri are talking all about Figma UI kits!\n\nAre you a real design system without a Figma UI kit? Does it need to be a pixel-perfect copy of your code? What’s the source of truth? More pressingly, can a Figma library BE your design system? \n\nDesign system consultants Amy Hupe and Geri Reid are going back to design systems school.\n\nIn this series, Amy and Geri put aside their vocal and opinionated assumptions to dive deep on design systems topics; from Figma libraries to design tokens to deciding if AI can really write decent documentation. Climb aboard the school bus for a field trip on the history, the conversations and the foundations that really make a design system great.\n\nAmy Hupe: https://twitter.com/amy_hupe\nGeri Reid: https://twitter.com/gerireid\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/A6vpPjMfs68/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/A6vpPjMfs68/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/A6vpPjMfs68/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=A6vpPjMfs68",
+    "publishedAt": "2024-03-21T16:35:37Z",
+    "duration": "0:56:28"
+  },
+  {
+    "title": "The new frontier of design systems - Brad Frost (Dive Club S5 | E4)",
+    "description": "If you’ve dabbled in design systems in Figma then you’re no doubt familiar with Brad Frost and atomic design. He’s laid the foundation for design systems teams around the world. So in this discussion we talk about the types of challenges he faces at Big Medium and how he’s envisioning the future of design systems:\n\n- Why we should build a universal design system\n- How Brad is using AI to elevate design systems\n- How design systems designers can succeed in an AI world\n- The highest leverage activities for DS designers to do\n- How designers can communicate better with engineers\n- Dive is where the best designers never stop learning 🤿\n\n🌐 dive.club\n🐦 twitter.com/joindiveclub\n\nNow you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪\n\nChapters\n0:00 Intro\n1:02 Overview of Big Medium\n3:56 What successful communication looks like for design systems\n14:12 How startups should think about their design system\n20:55 Brad's call for a global design system\n28:28 Exploring AI in design systems\n32:18  Where AI can raise the ceiling\n37:26 Higher-leverage activities for design systems designers\n43:31 How designers can communicate better with engineers\n\n#productdesign #podcast #uiux",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pyKilvULCGQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pyKilvULCGQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pyKilvULCGQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/pyKilvULCGQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/pyKilvULCGQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pyKilvULCGQ",
+    "publishedAt": "2024-03-21T02:09:12Z",
+    "privacyStatus": "public",
+    "duration": "0:51:29"
+  },
+  {
+    "title": "Design Systems WTF #13: Building delight into your design system",
+    "description": "Is there space for fun and delight in your design system?\n\nWe tackle a question that often gets overlooked in the world of design systems: Is there room for fun and delight? Sure, components are the workhorses of design systems, known for their functionality and consistency, but does that mean they have to be dull? We’ll explore the possibilities of infusing a bit of charm and personality into your design system. \n\nListen in as we discuss examples of some of the more fun design systems in action, the challenges of maintaining usability while injecting creativity, and how to strike the right balance.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7bzZ3pvxaJc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7bzZ3pvxaJc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7bzZ3pvxaJc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7bzZ3pvxaJc",
+    "publishedAt": "2024-03-15T10:44:42Z",
+    "duration": "0:28:08"
+  },
+  {
+    "title": "Is your team too small for a Design System?",
+    "description": "Clip from Design System Bootcamp Q&A with Brad Frost where we answer the question \"Is any website or product too small for a design system?\".\n\nDesign System Bootcamp: https://maven.com/ui-prep/design-system-bootcamp\nMolly: https://twitter.com/molly_hellmuth\nBrad: https://twitter.com/brad_frost",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/AgEEJwSBYts/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/AgEEJwSBYts/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/AgEEJwSBYts/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/AgEEJwSBYts/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/AgEEJwSBYts/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=AgEEJwSBYts",
+    "publishedAt": "2024-03-15T01:27:11Z",
+    "privacyStatus": "public",
+    "duration": "0:03:17"
+  },
+  {
+    "title": "Beyond the Button - Episode Six: We’re measuring our design systems impact, right?",
+    "description": "In this episode, we’re talking about something everyone seems to struggle with: measuring the impact of their design system. Should we be measuring how many visitors a design system site has? How often components are used? And, what qualitative measures are worth keeping an eye on? We’ll talk about it all and more.\n\nMeet Nef: https://twitter.com/niftynef\nMeet Michelle: https://twitter.com/soysaucechin\n\nWondering what’s involved in making a successful design system? So is Nef, the newest member of zeroheight’s marketing team. In this podcast, Nef is joined by one of zeroheight’s trustiest Design Advocates, Michelle Chin, to get their questions answered about everything related to the big world of design systems. If you’re eager to make the best design system ever, you’ve found the perfect place!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lDdMKqpVL7A/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lDdMKqpVL7A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lDdMKqpVL7A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lDdMKqpVL7A",
+    "publishedAt": "2024-03-12T18:53:09Z",
+    "duration": "0:44:20"
+  },
+  {
+    "title": "How We Document 2024: Episode 1 - Trends in People and Teams",
+    "description": "You can catch up on the first of four webinars of our “How We Document” series, where we examine the evolving landscape of the people and teams working on design systems. This session is an essential guide for anyone passionate about design systems, whether you’re charting your career path or shaping the structure of your team.\n\nPanelists: \nMichelle Chin - https://www.linkedin.com/in/michelletchin/\nGeri Reid - https://www.linkedin.com/in/gerireid/\nPJ Onori - https://www.linkedin.com/in/pjonori/\n\nDownload the How We Document Report: https://hubs.ly/Q02nnq6Z0\n\nSign up for the rest of the series: https://zeroheight.com/webinars/\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I8swpbEk7XU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I8swpbEk7XU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I8swpbEk7XU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=I8swpbEk7XU",
+    "publishedAt": "2024-03-07T11:03:38Z",
+    "duration": "0:57:15"
+  },
+  {
+    "title": "Design Systems Field Guide #10",
+    "description": "With Morgane Peng from Société Générale",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Jq2m6TU_dRQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Jq2m6TU_dRQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Jq2m6TU_dRQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Jq2m6TU_dRQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Jq2m6TU_dRQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Jq2m6TU_dRQ",
+    "publishedAt": "2024-03-07T06:12:18Z",
+    "privacyStatus": "public",
+    "duration": "0:57:58"
+  },
+  {
+    "title": "Design Systems WTF #12: A Global Design System",
+    "description": "Building a Global Design System: How the heck would we even do it?\n\nWe dive into the ambitious idea proposed by Brad Frost: creating a global design system for everyone to use. Imagine a world where companies don’t reinvent the wheel with every component they create, but instead, contribute to and utilize a shared set of resources. We tackle the big questions: Where do we start in building such a universal system? How do we address hesitations and resistance in the community? What are the potential risks and unseen challenges? \n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XbOKQC2nbZY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XbOKQC2nbZY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XbOKQC2nbZY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XbOKQC2nbZY",
+    "publishedAt": "2024-03-04T14:48:33Z",
+    "duration": "0:26:59"
+  },
+  {
+    "title": "World's Fastest Camera Drone Vs F1 Car (ft. Max Verstappen)",
+    "description": "This is Formula 1 like you’ve never seen it before. The @dutchdronegods follow Max Verstappen’s brand new @redbullracing  RB20 F1 car for a full lap of Silverstone’s Grand Prix Circuit. The world first uninterrupted FPV one shot was captured by a manually piloted custom built drone, designed specifically for the challenge of keeping up with the car at speeds of over 300kph.\n\nIt took Red Bull and the Dutch Drone Gods over a year to create a drone that can accelerate two times faster than an F1 car, reaching 300 km/h in just 4 seconds with a top speed of over 350 km/h. The development was accelerated by access to know-how and processes of Red Bull Advanced Technologies, a high-performance engineering arm of Oracle Red Bull Racing Formula 1 team and trialled behind the RB8 and RB19 cars driven by @liamlawson30  and David Coulthard. \n\n\n #redbull #GivesYouWiiings #f1 \n_________________________________________________\nExperience the world of Red Bull like you have never seen it before with the best action sports clips on the web, original series and livestreams.\n\nGet the FREE Red Bull TV apps for all your devices: http://win.gs/RedBullTVApps  \nSubscribe to Red Bull on Youtube: http://win.gs/SubToRedBull\nCheck out Red Bull on TikTok: https://win.gs/TikTok\nRed Bull on Facebook: http://win.gs/redbullfb\nRed Bull on Instagram: http://win.gs/RedBullInstagram\nRed Bull on Twitter: http://win.gs/redbulltwitter",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9pEqyr_uT-k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9pEqyr_uT-k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9pEqyr_uT-k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9pEqyr_uT-k/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9pEqyr_uT-k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9pEqyr_uT-k",
+    "publishedAt": "2024-02-27T14:00:07Z",
+    "privacyStatus": "public",
+    "duration": "0:12:05"
+  },
+  {
+    "title": "Back to School with Amy and Geri: AI and Documentation",
+    "description": "In this first episode of our new series, Back to School, Amy and Geri are talking about AI and documentation!\n\nDesign system consultants Amy Hupe and Geri Reid are going back to design systems school.\nIn this series, Amy and Geri put aside their vocal and opinionated assumptions to dive deep on design systems topics; from Figma libraries to design tokens to deciding if AI can really write decent documentation. Climb aboard the school bus for a field trip on the history, the conversations and the foundations that really make a design system great.\n\nAmy Hupe: https://twitter.com/amy_hupe\nGeri Reid: https://twitter.com/gerireid\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1gOKqCkoRQo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1gOKqCkoRQo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1gOKqCkoRQo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1gOKqCkoRQo",
+    "publishedAt": "2024-02-22T18:17:08Z",
+    "duration": "0:49:13"
+  },
+  {
+    "title": "Building a Design System Using Standard Web Components",
+    "description": "Alex Wilson, Design System Engineering Lead at T. Rowe Price, unveils the strategies and practices behind their successful implementation of sustainable web standards, highlighting the importance of digital marketing and SEO strategies in today's tech-driven landscape.\n\nIntroduction to Sustainable Web Design:\n* Understanding the concept of sustainable web design and its importance.\n* How T. Rowe Price is leading the way in sustainable web standards.\n* The impact of sustainable design on digital marketing and brand awareness.\n\nStrategies for Implementing Sustainable Web Standards:\n* T. Rowe Price's approach to integrating sustainability in web design.\n* The role of SEO strategies and online advertising in sustainable design.\n* Balancing aesthetics and functionality for optimal user experience.\n\nCommon Challenges in Sustainable Web Design:\n* Identifying and overcoming obstacles in sustainable web design implementation.\n* The importance of customer engagement and target audience analysis in design.\n\nOutcomes of Sustainable Web Standards:\n* The benefits of adopting sustainable web standards for businesses and users.\n* Real-world examples of T. Rowe Price's success in sustainable web design.\n\nJoin Alex Wilson as he shares T. Rowe Price's journey in setting a new standard in web design, focusing on sustainability, innovation, and user-centric approaches. This talk is a must-watch for web designers, digital marketers, and anyone interested in the intersection of technology and sustainability.\n\nStay connected with the latest in sustainable web design and digital marketing:\nhttps://www.linkedin.com/company/uxdx/\nhttps://www.instagram.com/uxdxconf/\n\nDiscover the UXDX community:\nhttps://www.uxdx.com/\n\n#SustainableDesign #WebStandards #DigitalMarketing #SEOStrategies #OnlineAdvertising #SocialMediaMarketing #BrandAwareness #UserExperience #Innovation #Technology",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fxPfNx2KUWM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fxPfNx2KUWM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fxPfNx2KUWM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/fxPfNx2KUWM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/fxPfNx2KUWM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fxPfNx2KUWM",
+    "publishedAt": "2024-02-19T14:42:52Z",
+    "privacyStatus": "public",
+    "duration": "0:29:36"
+  },
+  {
+    "title": "Design Systems WTF #11: Our design system Valentines",
+    "description": "This special episode is our love letter to the unsung heroes of the design system world. We shine a spotlight on some incredible individuals in the field who might not be on your radar yet, but definitely should be. We’ll share our personal favorites, diving into the work they’re doing and where you can find their contributions. Get ready to fall in love with these design system Valentines. \n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/l-bnrOqYin0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/l-bnrOqYin0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/l-bnrOqYin0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=l-bnrOqYin0",
+    "publishedAt": "2024-02-16T13:13:49Z",
+    "duration": "0:22:14"
+  },
+  {
+    "title": "Meet Supernova 2.0 — The design system platform that grows with you",
+    "description": "Supernova 2.0 is the design system platform you know and love but better and faster. Connect your design and engineering data in one place, so your entire organization can effectively design, build, and scale product development. \n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/17pURCyXmac/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/17pURCyXmac/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/17pURCyXmac/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=17pURCyXmac",
+    "publishedAt": "2024-02-15T18:01:22Z",
+    "duration": "0:01:02"
+  },
+  {
+    "title": "Beyond The Button - Episode Five: How are we supposed to be using design tokens, anyway?",
+    "description": "How are we supposed to be using design tokens, anyway?\n\nIn this episode, we’re talking about a hot topic: design tokens. We talk about when a design system should incorporate design tokens and when. We also explore best practices for creating and maintaining your design tokens, including Michelle’s hot topics on design token naming conventions. \n\nMeet Nef: https://twitter.com/niftynef\nMeet Michelle: https://twitter.com/soysaucechin\n\nWondering what’s involved in making a successful design system? So is Nef, the newest member of zeroheight’s marketing team. In this podcast, Nef is joined by one of zeroheight’s trustiest Design Advocates, Michelle Chin, to get their questions answered about everything related to the big world of design systems. If you’re eager to make the best design system ever, you’ve found the perfect place!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jEJv-XTL768/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jEJv-XTL768/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jEJv-XTL768/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=jEJv-XTL768",
+    "publishedAt": "2024-02-14T18:17:29Z",
+    "duration": "0:55:54"
+  },
+  {
+    "title": "Exploring Web Components: When and How to use them by Maleh Duenas",
+    "description": "In this talk we will navigate different scenarios and team compositions that can inform if web components are the right fit for your design system. Following this, we'll explore the main differences between Stencil and Lit, and potential advantages and pitfalls of using this stack.\nhttps://drive.google.com/file/d/1LtCTubHtXqVJmMea1gyUrbflW-rxNqnj/view?usp=sharing\n\nMaleh Duenas is a Tech Manager in JustEat Takeaway in the Design Systems team. During her career as a full-stack developer and UI designer she had the opportunity to learn a wide range of technologies to solve diverse industry challenges, including building design systems with React and Web Components.\nhttps://www.linkedin.com/in/mariaduenas/\nhttps://www.meetup.com/dscc_ber/events/297539194/\nhttps://www.meetup.com/dscc_ber/events/297539194/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DrMexMeUk-0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DrMexMeUk-0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DrMexMeUk-0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DrMexMeUk-0",
+    "publishedAt": "2024-02-14T11:03:09Z",
+    "duration": "0:28:07"
+  },
+  {
+    "title": "Building a design system's component library by Serafima Gurevich",
+    "description": "A component library attempts to translate the principles and designs of a design system into reusable code.\n\nTypical goals include building a library that is future-proof, low-\nbudget in development and maintenance, while providing a large set of\nusable components, and achieving a great developer experience and\nconsistency in design and UX for its users.\n\nIn this talk we will look at how we aim to achieve these goals using\nmodern techniques such as design tokens and web components, and\nautomating as much as possible.\n\nSerafima Gurevich is a senior fullstack developer and tech lead at Europace. She started her career as a Java backend developer and dived\ninto frontend development along the way.\nhttps://www.xing.com/profile/Serafima_Gurevich\nhttps://www.meetup.com/dscc_ber/events/297539194/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XxIjitlc884/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XxIjitlc884/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XxIjitlc884/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XxIjitlc884",
+    "publishedAt": "2024-02-13T16:11:08Z",
+    "duration": "0:31:18"
+  },
+  {
+    "title": "Design Systems Field Guide #9",
+    "description": "With Jennie Yip from Atlassian",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wdlmIcdiS88/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wdlmIcdiS88/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wdlmIcdiS88/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/wdlmIcdiS88/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/wdlmIcdiS88/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wdlmIcdiS88",
+    "publishedAt": "2024-02-08T07:14:39Z",
+    "privacyStatus": "public",
+    "duration": "1:00:35"
+  },
+  {
+    "title": "Design Systems WTF #10: Flexibility in Design Systems",
+    "description": "Flexibility – Are you being too prescriptive in your design system?\n\nIn this episode, we tackle the common concern—are you being too prescriptive with your design system? We’ll discuss the fine line between guidance and rigidity, exploring how much prescription is too much. We’ll share the pitfalls of being overly prescriptive and the chaos that can ensue from excessive flexibility. \n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/q9Cai8skbIc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/q9Cai8skbIc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/q9Cai8skbIc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=q9Cai8skbIc",
+    "publishedAt": "2024-02-02T01:01:02Z",
+    "duration": "0:30:00"
+  },
+  {
+    "title": "Managing Change in your Design System with Nathan Curtis",
+    "description": "Are you facing challenges when it comes to managing changes within your design system, especially as your organization continues to grow?\n\nIn this webinar, \"Managing Change in your Design System: Workflows Change Control at Enterprise Scale\" we explore the nuances of workflow management, version control, and change management with Nathan Curtis and Andrew Rohman.\n\n🎛 Discover how to maintain precise control over every change in your design system.\n👩‍🔧 Learn effective strategies for governing and managing alterations before they are implemented, ensuring the system's integrity.\n💪 Find ways to empower your team and system users to take an active role in change implementation, promoting trust, flexibility, and control.\n🌳 Explore the use of Knapsack's branching system to facilitate smooth editing, review, and change deployment through CI/CD pipelines.\n\nTailored for digital product leaders at large enterprises seeking to improve capabilities while preserving the integrity of their design systems through version control and package upgrades.\n\nThe resources mentioned can be found here (email required): https://web.enable.us/room/a87f8caa-10cb-42dd-a085-dc90bcd17314\n\nLearn more at https://knapsack.cloud or reach out to us at hello@knapsack.cloud",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9ETulRMzyKI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9ETulRMzyKI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9ETulRMzyKI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9ETulRMzyKI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9ETulRMzyKI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9ETulRMzyKI",
+    "publishedAt": "2024-01-31T21:48:30Z",
+    "privacyStatus": "public",
+    "duration": "0:55:20"
+  },
+  {
+    "title": "Optimize Your Design-to-Developer Handoffs — design systems experts panel, hosted by Supernova",
+    "description": "Design systems experts Adekunle Oduye (Design Engineer, Tech Lead at Plaid), Aletheia Delivre (Manager, Design Operations at Zapier), and Valerie Phoenix (Engineering Manager at Alma) in collaboration with Supernova hosted a panel on optimizing design-to-developer handoffs with design systems. They shared some of their best practices for effective communication, collaboration, and overcoming challenges in the handoff process.\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/E1lylhBn3Ik/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/E1lylhBn3Ik/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/E1lylhBn3Ik/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=E1lylhBn3Ik",
+    "publishedAt": "2024-01-25T11:04:03Z",
+    "duration": "1:00:14"
+  },
+  {
+    "title": "Beyond The Button - Episode Four: How involved should brand and marketing be in your design system?",
+    "description": "In this episode, we jump into the intersection of design systems and branding. We uncover the secrets to striking the perfect balance, exploring what works seamlessly and what may hinder your design process. We explore integrating brand and marketing into your design system, discussing collaboration and coherence, and creating a visual language that works for product design and great user experiences.\n\nMeet Nef: https://twitter.com/niftynef\nMeet Michelle: https://twitter.com/soysaucechin\n\nWondering what’s involved in making a successful design system? So is Nef, the newest member of zeroheight’s marketing team. In this podcast, Nef is joined by one of zeroheight’s trustiest Design Advocates, Michelle Chin, to get their questions answered about everything related to the big world of design systems. If you’re eager to make the best design system ever, you’ve found the perfect place!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7Sj4RskYbmk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7Sj4RskYbmk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7Sj4RskYbmk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7Sj4RskYbmk",
+    "publishedAt": "2024-01-24T15:56:38Z",
+    "duration": "0:48:14"
+  },
+  {
+    "title": "[ENG] An introduction to Figma's new feature | Luis Ouriach",
+    "description": "WaysConf 2024 coming soon! Don't miss anything and follow us!\n\nWant to learn how to better scale your design systems within Figma? Join Luis to learn about a new feature that they are releasing very soon. We'll look at the why, how, what, and where of the future design system state within Figma. Bring your notebook!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3CrBBaJDcuk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3CrBBaJDcuk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3CrBBaJDcuk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3CrBBaJDcuk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3CrBBaJDcuk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3CrBBaJDcuk",
+    "publishedAt": "2024-01-23T17:00:09Z",
+    "privacyStatus": "public",
+    "duration": "0:21:36"
+  },
+  {
+    "title": "Design Systems WTF #9: Navigating design system contributions",
+    "description": "Navigating design system contributions - how do you tell someone their component is terrible?\n\nIn this episode, we address a challenge many design system creators face: Navigating design system contributions and giving constructive feedback. How do you effectively communicate that a contributed component may not meet the standards or expectations (i.e., they’re just plain terrible)? We discuss ways to encourage improvement without demoralizing contributors. Join us as we explore best practices, real-life stories, and strategies for fostering collaboration and quality within your design system.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2rsF3G7xDLg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2rsF3G7xDLg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2rsF3G7xDLg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2rsF3G7xDLg",
+    "publishedAt": "2024-01-18T15:34:25Z",
+    "duration": "0:28:42"
+  },
+  {
+    "title": "Design Systems Field Guide #8",
+    "description": "With Kevin Muldoon",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Wb_0iQZU38A/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Wb_0iQZU38A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Wb_0iQZU38A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Wb_0iQZU38A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Wb_0iQZU38A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Wb_0iQZU38A",
+    "publishedAt": "2024-01-11T06:09:01Z",
+    "privacyStatus": "public",
+    "duration": "0:59:41"
+  },
+  {
+    "title": "How to use Figma Variables in your design system",
+    "description": "Supernova brought to you a webinar featuring Raquel Pereira (Friends of Figma Community Advocate and DesignOps at Volkswagen Digital Solutions) and Beatriz Novais (Design System Advocate at Supernova) talking about the fundamentals of Figma variables and design tokens.\n\nThe webinar includes a live demonstration showing how to create Figma variables and connect them to Supernova through the Supernova plugin.\n\nFor those interested in learning more, here is a list of resources mentioned during the webinar:\n🔹 Figma community file - https://www.figma.com/community/file/1326873009374075771\n🔹 Supernova Plugin - https://www.figma.com/community/plugin/1303357900761384370\n🔹 Supernova example docs - https://dominos-example.supernova-docs.io/latest/welcome-kXwr5OD1\n🔹 Raquel's article \"Understanding the Differences Between Figma Variables and Design Tokens\" - https://www.supernova.io/blog/understanding-the-differences-between-figma-variables-and-design-tokens\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2U2kWiEYBDw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2U2kWiEYBDw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2U2kWiEYBDw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2U2kWiEYBDw",
+    "publishedAt": "2024-01-10T10:15:55Z",
+    "duration": "1:00:48"
+  },
+  {
+    "title": "Design Systems WTF #8: Contracting and Design Systems",
+    "description": "Can you create a successful design system by contracting work out?\n\nWe explore the dynamics of working with external design teams, freelancers, or agencies to build a cohesive design system. Is it a recipe for success, or does it present unique challenges that could impact the system’s effectiveness? Join us as we uncover the pros and cons of this approach and share insights on navigating the path to a thriving design system.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rMUvA67y_Og/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rMUvA67y_Og/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rMUvA67y_Og/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rMUvA67y_Og",
+    "publishedAt": "2024-01-04T16:52:53Z",
+    "duration": "0:24:44"
+  },
+  {
+    "title": "Design Systems WTF #7: Help Desk",
+    "description": "Our episode with a special guest! \n\nGet ready for a unique and interactive experience in this special “DSWTF Help Desk” episode. We’re opening the floor to you, our listeners! Have a burning question about design systems or anything related? Ask us, and we’ll tackle your toughest inquiries with our highly opinionated thoughts. Whether you seek career advice, design tips, or want to settle a design systems debate, we’re here to help. Tune in for a one-of-a-kind Q&A session with Luke and Amy!\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Amy: https://twitter.com/amy_hupe\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QnShXjSfqWs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QnShXjSfqWs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QnShXjSfqWs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QnShXjSfqWs",
+    "publishedAt": "2023-12-21T11:28:36Z",
+    "duration": "0:31:23"
+  },
+  {
+    "title": "Design Systems from a Team Members POV - Design Systems London #8",
+    "description": "“Design Systems from a Team Members POV” - Damola Adegoke (Product Designer, Spotify)\n\n---\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TJMvSCzZ54o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TJMvSCzZ54o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TJMvSCzZ54o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TJMvSCzZ54o",
+    "publishedAt": "2023-12-20T09:00:30Z",
+    "duration": "0:17:52"
+  },
+  {
+    "title": "Orchestrating a Unified Design System Across Multiple Brands, Products, and Ecosystems - DSL #8",
+    "description": "“Orchestrating a Unified Design System Across Multiple Brands, Products, and Ecosystems” - Tony Palmer (Head of Product Design, NewDay)\n\n---\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/COMFDr314hc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/COMFDr314hc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/COMFDr314hc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=COMFDr314hc",
+    "publishedAt": "2023-12-20T09:00:07Z",
+    "duration": "0:26:06"
+  },
+  {
+    "title": "Q&A session with Damola, Tony and Amy - Design Systems London #8 - December 2023",
+    "description": "Damola Adegoke (Product Designer, Spotify)\nTony Palmer (Head of Product Design, NewDay)\nAmy Hupe (Design Systems & Content Design Consultant, Frankly.)\n\n---\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3q3EZ4kFbuc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3q3EZ4kFbuc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3q3EZ4kFbuc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3q3EZ4kFbuc",
+    "publishedAt": "2023-12-20T09:00:03Z",
+    "duration": "0:25:27"
+  },
+  {
+    "title": "Burn Baby Burnout: Why Do Design Systems Exhaust Us and What Can We Do About It - DSL #8",
+    "description": "“Burn Baby Burnout: Why Do Design Systems Exhaust Us and What Can We Do About It” - Amy Hupe (Design Systems & Content Design Consultant, Frankly.)\n\n---\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aXfIha1C7wE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aXfIha1C7wE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aXfIha1C7wE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aXfIha1C7wE",
+    "publishedAt": "2023-12-20T09:00:03Z",
+    "duration": "0:34:10"
+  },
+  {
+    "title": "Clarity 2023 Recap",
+    "description": "NOTE: This video does not have any vocal audio, so it does not have captioning.\n\nClarity is a design systems conference focused on how we work together. We provide tools and standards to scale across an increasing number of devices, platforms, and products. But real success comes when people align around a shared vision and language. Diverse perspectives for design, development, and product unite so more people can be a part of the conversation. At Clarity, we elevate our skills through multi-faceted inclusion, empathy, technology, creativity, and collaboration.\n\nhttps://www.clarityconf.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/HaPtMMMQMDM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/HaPtMMMQMDM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/HaPtMMMQMDM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=HaPtMMMQMDM",
+    "publishedAt": "2023-12-18T22:47:06Z",
+    "duration": "0:02:06"
+  },
+  {
+    "title": "The Struggles & Triumphs of Creating a Design System Practice",
+    "description": "Learn more about design systems in a brand new book by Dan Mall called “Design That Scales: Creating a Sustainable Design System Practice!” https://designthatscales.com/\n\nDesign systems realize extraordinary value when they’re an established practice within an organization, but that’s a status few teams achieve. Watch the recording of this free event, moderated by Design System University founder Dan Mall facilitating a conversation between Malika Chatlapalli (Senior Product Designer, Obama Foundation), Ayisha Chowdhury (Front-End Developer, Scholastic), and David Preston (Senior Brand Designer, ConvertKit) about the struggles and triumphs of creating a sustainable design system practice.\n\n⏩ CHAPTERS\n0:00 Introduction\n5:06 Meet Malika Chatlapalli: Senior Product Designer, Obama Foundation\n6:50 Meet Ayisha Chowdhury: Front-End Developer, Scholastic\n8:25 Meet David Preston: Senior Brand Designer, ConvertKit\n11:59 The Obama Foundation’s content-driven approach\n21:18 Chronicling design decisions at Scholastic\n31:40 Making creators heroes at ConvertKit\n44:02 Design system questions & answers\n53:27 Join the next cohort on Feb 13 \n\n🔗 LINKS\nJoin the next “Design Systems in 90 Days” live cohort: https://bit.ly/dsu90\nEnroll in my “Make Design Systems People Want to Use” course: https://bit.ly/make-design-systems\nGet my weekly newsletter: https://danmall.com/newsletter/\nFollow me on Twitter: https://twitter.com/danmall\nFollow me on Instagram: https://www.instagram.com/danmallteaches/\n\n#danmallteaches #designsystems #designsystem #designatscale",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cW9izVCxWo0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cW9izVCxWo0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cW9izVCxWo0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cW9izVCxWo0",
+    "publishedAt": "2023-12-16T13:48:06Z",
+    "duration": "0:55:49"
+  },
+  {
+    "title": "Beyond The Button - Episode Three: How can my team build a successful design system?",
+    "description": "In this episode, we ask a tough, subjective question - how can your team build a successful design system? Believe it or not, the answer might be easier than you can imagine. Nef and Michelle uncover what success means and how that might apply to your team.\n\nMeet Nef: https://twitter.com/niftynef\nMeet Michelle: https://twitter.com/soysaucechin\n\nWondering what’s involved in making a successful design system? So is Nef, the newest member of zeroheight’s marketing team. In this podcast, Nef is joined by one of zeroheight’s trustiest Design Advocates, Michelle Chin, to get their questions answered about everything related to the big world of design systems. If you’re eager to make the best design system ever, you’ve found the perfect place!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GW4gvBV1ww8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GW4gvBV1ww8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GW4gvBV1ww8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=GW4gvBV1ww8",
+    "publishedAt": "2023-12-15T17:13:40Z",
+    "duration": "0:54:02"
+  },
+  {
+    "title": "Design Systems London #8",
+    "description": "Full recording of our DSL #8 meetup, organised by YLD and sponsored by NewDay\n\n00:00 Intros\n14:13 First talk\n“Design Systems from a Team Members POV” - Damola Adegoke (Product Designer, Spotify)\n34:59 Second talk\n“Orchestrating a Unified Design System Across Multiple Brands, Products, and Ecosystems” - Tony Palmer (Head of Product Design, NewDay)\n1:03:32 Third talk\n“Burn Baby Burnout: Why Do Design Systems Exhaust Us and What Can We Do About It” - Amy Hupe (Design Systems & Content Design Consultant, Frankly.)\n1:37:26 Q&A session\n2:03:02 Warp up\n\nFollow DSL on x : @DSLConf\nand Linkedin  / design-systems-london\n\nUse our hastags: #DesignSystemsLondon #DSL #designsystems \n\nJoin the conversation:\nx @YLDio\nLinkedIn https://www.linkedin.com/showcase/design-systems-london/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/q9PZUpl-WZ8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/q9PZUpl-WZ8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/q9PZUpl-WZ8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=q9PZUpl-WZ8",
+    "publishedAt": "2023-12-14T09:00:37Z",
+    "duration": "2:08:29"
+  },
+  {
+    "title": "Design System Governance Best Practices",
+    "description": "You can watch another awesome webinar, \"Design System Governance Best Practices,\" led by Nefertiti Dukes, Product Marketing Manager at zeroheight. We dove into design system governance challenges and hear from finalists selected for the “Best Governance” category of the Design System Awards. We learn from them effective approaches to address governance complexities, tried-and-true ways of implementation, and other pro tips. \n\nOur panelists:\n• Annalisa Recio - Vice President of User Experience, Eptura\n• Catherine Stolarski - UI Design Director, Schneider Electric\n• Henry Daggett - Design System Lead, Societe Generale\n• Jérôme Benoit - Design System Lead, Doctolib\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hd4gjuZUFWA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hd4gjuZUFWA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hd4gjuZUFWA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hd4gjuZUFWA",
+    "publishedAt": "2023-12-13T13:47:13Z",
+    "duration": "0:59:57"
+  },
+  {
+    "title": "Supernova First Design System Happy Hour in Prague featuring a fireside chat with Laura Fehre",
+    "description": "Check out the exclusive recording from Supernova's first Design System Happy Hour, hosted in Prague 🚀💡\n\nThe star of the night was Laura Fehre (Design Systems Manager at Mews, previously Mobile Design System Lead at HelloFresh) who took us on a journey from her roots as an individual contributor to team leader and spilled the beans on how AI rocks the design world every day. Plus, she gave us the essential traits of building a great design system team. \n\nIt was a night of learning, making new friends, and getting inspired in the design world!\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/U7EDQfADbsU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/U7EDQfADbsU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/U7EDQfADbsU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=U7EDQfADbsU",
+    "publishedAt": "2023-12-13T11:33:27Z",
+    "duration": "0:43:29"
+  },
+  {
+    "title": "Design Systems WTF #6: Design Systems Careers",
+    "description": "Is my career doomed if I focus on design systems?\n\nIn this episode, we dive deep into the world of design system careers. Is focusing on design systems a career move that can make or break your professional journey? Join us as we explore the power and potential of design systems and discuss how they can shape your career in design. Is it a stepping stone to success or a potential roadblock? Tune in to discover how design systems can be your secret weapon or a career-defining challenge.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nDxzPT_N0g0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nDxzPT_N0g0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nDxzPT_N0g0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nDxzPT_N0g0",
+    "publishedAt": "2023-12-07T15:12:59Z",
+    "duration": "0:28:14"
+  },
+  {
+    "title": "Design Systems Field Guide #7",
+    "description": "With Boris Savitskly",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1DazWE8pw6o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1DazWE8pw6o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1DazWE8pw6o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/1DazWE8pw6o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/1DazWE8pw6o/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1DazWE8pw6o",
+    "publishedAt": "2023-12-07T06:10:49Z",
+    "privacyStatus": "public",
+    "duration": "0:59:46"
+  },
+  {
+    "title": "Design System Roadmap & Strategy for the Enterprise",
+    "description": "Learn more at https://knapsack.cloud or reach out to us at hello@knapsack.cloud",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2MvFYpPTGGo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2MvFYpPTGGo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2MvFYpPTGGo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/2MvFYpPTGGo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/2MvFYpPTGGo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2MvFYpPTGGo",
+    "publishedAt": "2023-12-05T19:41:18Z",
+    "privacyStatus": "public",
+    "duration": "0:57:58"
+  },
+  {
+    "title": "Design System Fails + Lessons learned",
+    "description": "Recorded on Friday 1 December 2023.\n\n01:24 Intros\n05:12 Geri Reid\n24:20 Christophe Coutzoukis\n37:13 Taylor Cashdan\n50:20 Dan Donald\n\nCome warm yourself by the fire for some design system fails and tales with special guests: Geri Reid, Christophe Coutzoukis, Dan Donald and Taylor Cashdan. Hosted by Josh Harwood.\r\n\r\nThe live event included Q&As after the guests shares, this section is not included in the recording.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TiV-Fo8ZcUw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TiV-Fo8ZcUw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TiV-Fo8ZcUw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/TiV-Fo8ZcUw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/TiV-Fo8ZcUw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TiV-Fo8ZcUw",
+    "publishedAt": "2023-12-03T22:28:24Z",
+    "privacyStatus": "public",
+    "duration": "0:59:18"
+  },
+  {
+    "title": "Design Systems WTF #5: Design Systems and Accessibility",
+    "description": "How accessible can a design system really make a product?\n\nIn this episode, we try to uncover the secrets of accessibility and design systems. We ask the pivotal question: How accessible can a design system truly make a product? Are design systems the golden ticket to a more inclusive digital world?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/raNJdEoWfYU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/raNJdEoWfYU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/raNJdEoWfYU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=raNJdEoWfYU",
+    "publishedAt": "2023-11-27T15:14:36Z",
+    "duration": "0:27:05"
+  },
+  {
+    "title": "Beyond The Button - Episode Two: Who uses a design system?",
+    "description": "Developers and designers use design systems, right? They do, but do you know who else uses them? We’ll cover who else uses design systems, why understanding this matters, and how you can best help your design system users.\n\nMeet Nef: https://twitter.com/niftynef\nMeet Michelle: https://twitter.com/soysaucechin\n\nWondering what’s involved in making a successful design system? So is Nef, the newest member of zeroheight’s marketing team. In this podcast, Nef is joined by one of zeroheight’s trustiest Design Advocates, Michelle Chin, to get their questions answered about everything related to the big world of design systems. If you’re eager to make the best design system ever, you’ve found the perfect place!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bJmv_kB-Hj0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bJmv_kB-Hj0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bJmv_kB-Hj0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bJmv_kB-Hj0",
+    "publishedAt": "2023-11-24T22:36:41Z",
+    "duration": "0:46:45"
+  },
+  {
+    "title": "How to prioritise content over components in a composable era",
+    "description": "Components-first thinking can trap content — but it doesn't have to be that way. Structured content can be composable and reusable, delivering more personalised experiences. In his speaker session at Future Commerce Finland, Simeon details how to embrace content-first flexibility and shift your thinking from components to content in the composable era.\n\nAbout IONA\nIONA is an award-winning ecommerce agency that helps brands sell more online with next-generation strategies, customer experiences and composable commerce solutions. Partnered with the world's leading composable and headless SaaS vendors, IONA is known for working with MACH-certified technology vendors such as commercetools, Contentful, BigCommerce, Sanity, Vercel and Talon.One. \n\nLearn more 👉 https://iona.fi/\n\nAbout Future Commerce Finland\nPersonalised experiences. Content centricity. Composability. Cloud Native. We're entering a new age: the composable era, where businesses must think like digital natives. Brought to you by IONA, in partnership with Sanity, commercetools and Google Cloud, this event deconstructs what it means to ‘go composable’.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SBDWDgt9iQ8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SBDWDgt9iQ8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SBDWDgt9iQ8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/SBDWDgt9iQ8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/SBDWDgt9iQ8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SBDWDgt9iQ8",
+    "publishedAt": "2023-11-23T11:25:59Z",
+    "privacyStatus": "public",
+    "duration": "0:24:24"
+  },
+  {
+    "title": "Components: Building the Building Blocks — design systems experts panel, hosted by Supernova",
+    "description": "Supernova's Components: Building the Building Blocks design system experts panel featured  Alissa Engstrom (Apollo.io), Dmitry Belyaev (booking.com), Giles Perry (Skyscanner) who talked about how to best design and develop components for a system, how and when to version components, how to track component health, and so much more. \n\nA full transcript is available at the following link - https://bit.ly/40KmEjL\n----------\n🌟 Supernova is running a 2023 Annual State of Components survey. Share your insights here https://bit.ly/3ui0n0S\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NJCWPtFAgMM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NJCWPtFAgMM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NJCWPtFAgMM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NJCWPtFAgMM",
+    "publishedAt": "2023-11-17T11:18:39Z",
+    "duration": "0:59:45"
+  },
+  {
+    "title": "Wrangling Design System Planning for 2024: A Step-by-Step Guide",
+    "description": "​As 2023 draws to a close, design system teams are starting to put plans in place for what they’ll be tackling in the new year. But if you haven’t done this kind of planning before, you might fall victim to one of the biggest pitfalls: simply adding more components to work on.\n\n​Design System University founder Dan Mall has helped hundreds of design system teams make strategic plans for their design systems that make significant impact for their organizations. In this free webinar, Dan shares his top tips for making decisions that move your design system forward.\n\n⏩ CHAPTERS\n4:23 Why planning is difficult\n8:28 The biggest reason design systems fail\n21:17 Writing a goal story\n37:19 Creating a multi-year strategy\n\n🔗 LINKS\nPre-order my design system book, “Design That Scales”: https://designthatscales.com/\nBuy my “Design Systems in 90 Days” workbook: https://designsystem.university/courses/design-system-in-90-days\nEnroll in my “Make Design Systems People Want to Use” course: https://bit.ly/make-design-systems\nGet my weekly newsletter: https://danmall.com/newsletter/\nFollow me on Twitter: https://twitter.com/danmall\nFollow me on Instagram: https://www.instagram.com/danmallteaches/\n\n#danmallteaches #designsystems #designsystem",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7zqkRJV3rPA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7zqkRJV3rPA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7zqkRJV3rPA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7zqkRJV3rPA",
+    "publishedAt": "2023-11-16T15:29:48Z",
+    "duration": "0:58:23"
+  },
+  {
+    "title": "Design Systems Field Guide #6",
+    "description": "With Josh Clark and Jake Hebert",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sSI-jvotOGU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sSI-jvotOGU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sSI-jvotOGU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/sSI-jvotOGU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/sSI-jvotOGU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sSI-jvotOGU",
+    "publishedAt": "2023-11-16T06:12:07Z",
+    "privacyStatus": "public",
+    "duration": "1:00:59"
+  },
+  {
+    "title": "Design System Adoption Best Practices",
+    "description": "Discover the secrets to conquering the challenges of design system adoption as we feature finalists from the esteemed “Best Adoption” category of the Design System Awards. Gain invaluable insights on overcoming obstacles, implementing best practices, and supercharging the adoption of your design system. Don't miss the chance to engage with our panelists and get your top questions answered. Get ready to elevate your adoption game!\n\nOur panelists shared their thoughts and best practices for their design system adoption. We cover topics including how to:\n• What is the most important thing for your team to consider for a design system’s adoption strategy?\n• Challenges they faced with their adoption \n• How to measure this adoption?\n• The collaboration and communication their design system adoption had\n\nOur panelists:\n• Sheena Lydon – Design operations program manager, Wise\n• Brenda Flores – Lead Designer, MGM Resorts\n• Benjamin Richard – Lead Product Designer, Outdoorsy\n• Johan Jansson – UX Designer, IFS\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IiuxYJmHsAc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IiuxYJmHsAc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IiuxYJmHsAc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IiuxYJmHsAc",
+    "publishedAt": "2023-11-15T18:49:02Z",
+    "duration": "1:00:37"
+  },
+  {
+    "title": "Luke Murphy: Systems of Exclusion - Hatch Conference 2023",
+    "description": "Luke takes us through both their and other folks' experiences of how our designs create discriminatory spaces, and suggest ways we can look through different lenses to make sure we aren't reinforcing the rubbish parts of our world by accident. It's not our fault as designers when we unintentionally reinforce bad things, but it is our responsibility to ensure that we aren't perpetuating systems of harm.\n\n----\n\nHatch Conference is a multi-track event happening each year in Berlin, Germany and streaming online.\nFind out more and get access to all recordings from 2023 at https://www.hatchconference.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/iLtVIEcHdSo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/iLtVIEcHdSo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/iLtVIEcHdSo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/iLtVIEcHdSo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/iLtVIEcHdSo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iLtVIEcHdSo",
+    "publishedAt": "2023-11-10T01:45:08Z",
+    "privacyStatus": "public",
+    "duration": "0:41:30"
+  },
+  {
+    "title": "Supernova 101 - Building exporters (developer deep dive)",
+    "description": "In this video, Jiri Trecak, CEO, and founder of Supernova, delves into the fascinating process of creating an exporter from scratch, serving both as an overview and a detailed tutorial for those keen on learning. \n--------\n1:24 Introduction to Exporters\n4:07 Approach to creating an exporter\n6:50 Installation of Supernova Extension\n*Supernova extension V2 is recommended for the new developer experience\n9:57 Introduction to an exporter package structure\n11:53 Introduction of the Supernova SDK and export helpers library\n13:37 Setting up the exporter.json\n*The exporter.json file is crucial for the exporter package, as it defines the exporter for the Supernova store and workspace pipelines.\n\n--------\n19:50 Creating a \"Version and Release notes\" exporter\nCreating functions to manage versions, and generating release notes content based on the design system versions within Supernova\n\n37:00 Exporter configuration setup\nDescribes steps involved in modifying the exporter to offer configurable options for generating release notes, including the creation of separate files for each version based on user-defined configurations. Additionally, it covers the implementation details of the configuration files and how they influence the exporter's behavior. Explains three key configuration files: config.json, config.local.json, and config.d.ts, and their respective functions. \n\n52:50 Publishing the configured exporter\nInstructions on repository creation, configuration setup, and the process of adding the exporter to Supernova's list of available tools for design system pipelines\n\n55:24 Pipeline creation for automated code delivery\nDescribes the process of setting up a new pipeline (referred to as a \"hook\") for automated code delivery, the significance of using Brands and Themes in the exporter configuration, and the finalization of the pipeline to observe changes in the design system and trigger the exporter accordingly.\n\n1:01:20 Exporter versioning\nDescribes the process of updating and propagating changes made to the exporter to the upstream or the cloud for public access\n\n✨ Explore the developer documentation to delve deeper into this field of knowledge https://bit.ly/3QN5vCU\n----------\nGet started with Supernova 👉 https://cloud.supernova.io/signup\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4BvoWLPbOMo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4BvoWLPbOMo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4BvoWLPbOMo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4BvoWLPbOMo",
+    "publishedAt": "2023-11-08T13:45:39Z",
+    "duration": "1:02:42"
+  },
+  {
+    "title": "NEW from Supernova.io: Introducing the new developer experience",
+    "description": "Jiri Trecak, the founder of Supernova, in this video, introduces a significant update tailored for developers. He highlights a new developer experience, focusing on five key improvements:\n\n0:48 Revamped Exporter Creation: Transition from a proprietary language (Pulsar) to a TypeScript-first approach for easier, more understandable exporter development\n2:00 Launch of Supernova SDK: A full-fledged design system SDK providing extensive access to Supernova's data, enabling both read and write functions.\n3:18 Introduction of New Exporters: CSS Exporter & SVG to React code Exporter\n5:35 Library for Faster Exporter Development: Released a library that streamlines common exporter tasks, significantly reducing development time.\n7:37 Comprehensive Developer Documentation: Detailed resources provided for building exporters and using the Supernova SDK\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/20p1OPsyB90/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/20p1OPsyB90/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/20p1OPsyB90/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=20p1OPsyB90",
+    "publishedAt": "2023-11-07T16:30:52Z",
+    "duration": "0:10:20"
+  },
+  {
+    "title": "NEW from Supernova.io: Simplify Your Tokens Pipeline with Figma Variables & New Developer Experience",
+    "description": "Build faster with Supernova as your design systems partner. \n\nConnect all your design tokens — now including Figma Variables — with Supernova. Just download the new Supernova plugin (beta) and watch the magic happen.\n\nAutomatically update your documentation and production code when you change designs in Figma.\n\nCreate pipelines tailored to your design system with our new developer experience (beta). Configure Exporters for your unique needs or build custom solutions with the Supernova SDK.\n\n✨ EXPLORE WHAT'S NEW https://bit.ly/3u8bsBy ✨\n\n----------\nGet started with Supernova 👉 https://cloud.supernova.io/signup\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jCeAjo6SuK4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jCeAjo6SuK4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jCeAjo6SuK4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=jCeAjo6SuK4",
+    "publishedAt": "2023-11-07T16:30:45Z",
+    "duration": "0:00:49"
+  },
+  {
+    "title": "Beyond The Button - Episode One: What is a design system?",
+    "description": "In our first episode, we answer the most fundamental question, “What is a design system?” Is the answer easy and straightforward, or is this a trick question? We were recording this on Halloween, after all. \n\nMeet Nef: https://twitter.com/niftynef\nMeet Michelle: https://twitter.com/soysaucechin\n\nWondering what’s involved in making a successful design system? So is Nef, the newest member of zeroheight’s marketing team. In this podcast, Nef is joined by one of zeroheight’s trustiest Design Advocates, Michelle Chin, to get their questions answered about everything related to the big world of design systems. If you’re eager to make the best design system ever, you’ve found the perfect place!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5i165-NY0Y4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5i165-NY0Y4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5i165-NY0Y4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5i165-NY0Y4",
+    "publishedAt": "2023-11-03T10:49:03Z",
+    "duration": "0:41:42"
+  },
+  {
+    "title": "What Really Matters Design Systems with Meta, GSK, DoorDash & Knapsack",
+    "description": "In this webinar, “What really matters in design systems,” we explore the core elements that make design systems truly impactful. Join our panel of experts from DoorDash, Meta, and GSK as they discuss the mechanics of components, the importance of design decisions, and the shift toward shared systems with agnostic libraries. We also explore the role of specs in analyzing design intent, the evolving career landscape in design and engineering convergence, and the potential of AI in creating accessible design systems. Tune in as we unpack the intricacies of design systems and how they shape the future of digital product development.\n\nLearn more at https://knapsack.cloud or reach out to us at hello@knapsack.cloud",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/KiqTUJOKgHA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/KiqTUJOKgHA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/KiqTUJOKgHA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/KiqTUJOKgHA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/KiqTUJOKgHA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=KiqTUJOKgHA",
+    "publishedAt": "2023-10-27T14:25:11Z",
+    "privacyStatus": "public",
+    "duration": "0:59:52"
+  },
+  {
     "title": "Design Systems WTF #4: Design Tokens",
     "description": "Should I use tokens today?\n\nDESIGN TOKENS. The saviour of our design systems, or so it seems from the amount that people hold them up as the shining light. But what’s the deal with design tokens — when do they make sense for your company? What is going to happen to them in the future? And who do you listen to when it comes to doing them correctly? \n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -3790,6 +5310,41 @@
     "duration": "1:02:13"
   },
   {
+    "title": "Build Your Design System Governance and Contribution Model - Free Template on Figma Community",
+    "description": "Creating a design system contribution model is the best way to create design system governance. This helps create product team alignment for better design handoffs to developers.\n\nFigma Community File:\nhttps://www.figma.com/@headwayio\n\nDesign System Course for Figma\nhttps://bit.ly/shipwright-design-system-course\n\n👋 Hey, Design Friends\nBuilding out design systems involves more than just creating the components; it's also about connecting your team and getting team alignment.\n\nThe governance model is a framework of four categories that helps you manage contributions to your design system and decide what needs to be added.\n\nThe four categories are decision, design, development, and delivery. The governance flow is simple but can be customized to fit your team's needs. \n\nBilly unpacks the categories with examples and shows you how to adjust as you work through the template.\n\nWith this template, you can educate new team members on building their individual processes and understand how to contribute to the design system. If you want to improve your design system process and align your team, download the free template available on Figma Community.\n\n#designsystem #ui #figma",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Uw7kSmOmDzY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Uw7kSmOmDzY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Uw7kSmOmDzY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Uw7kSmOmDzY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Uw7kSmOmDzY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Uw7kSmOmDzY",
+    "publishedAt": "2023-04-18T12:00:20Z",
+    "privacyStatus": "public",
+    "duration": "0:09:32"
+  },
+  {
     "title": "Plan a design system in less than 30 minutes!?",
     "description": "Get it here → https://designsystemcanvas.com\n\nDownload it as a PDF or a PNG, or open straight inside FigJam!\n\nThe Design System Canvas helps bring structure to the creation or updating of a design system. It’s a one-page plan of your vision for a design system, and acts as the perfect starting point for the process of creating or upgrading a design system. Throughout the process, it acts as a single source of truth and serves as a living artefact to refer back to.\n\nhttps://paavandesign.com/\nhttps://twitter.com/p44v9n/\n\n---\n\n00:00 Intro\n00:47 Benefit of Design Systems\n01:31 The DS Canvas\n02:20 Three benefits of the DS Canvas\n02:55 Example of filled-out canvas\n03:01 1. The problem\n03:28 2. Existing assets\n03:55 3. Maturity level\n04:19 4. New resources\n05:06 5. Affected products\n05:15 6. Consumers\n05:26 7. Maintainers and champions\n05:55 8. Scope\n06:45 9. Adoption strategy\n07:12 10. Costs\n07:38 Thank you!\n \n---\n\nPS I'm still learning how to make videos for YouTube. If this video was helpful, please do drop a like or share it with a friend. If you want to help me, leave a comment letting me know what I can improve or what you want to see more of!",
     "thumbnails": {
@@ -4087,6 +5642,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=YwH89wptvbU",
     "publishedAt": "2023-03-26T13:27:55Z",
     "duration": "0:00:33"
+  },
+  {
+    "title": "Free Figma Design System Templates to Improve Your UI Design Process - Figma Community",
+    "description": "Learn how to reduce guesswork with your UI design process with our new free Figma design system templates on Figma Community.\n\nBilly will walk through four helpful templates the Headway design team has crafted over the past five years and recently published on Figma Community.\n👉 https://www.figma.com/@headwayio\n\nEach design system template makes specific parts of the design system process easier for any team. Having these tools available sets expectations and reduces the chances of making mistakes as you build and grow design systems.\n\nAll of these templates were built to complement our new premium Figma design system course.\n👉  https://www.shipwright.design\n\n00:00 - Intro\n00:26 - Design System Course\n00:55 - Figma Community Files\n01:46 - Overview of Design System Templates\n02:22 - Design System Interview Template\n07:45 - Component Capture Template\n12:22 - Design System Governance Model Template\n20:46 - Type Scale Worksheet\n26:21 - Recap\n\nWe hope you enjoy our free Figma design system templates to improve your UI design process. \n\n#figma #ui #designsystem",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DBxwJS5ccTg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DBxwJS5ccTg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DBxwJS5ccTg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/DBxwJS5ccTg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/DBxwJS5ccTg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DBxwJS5ccTg",
+    "publishedAt": "2023-03-24T13:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:26:57"
   },
   {
     "title": "Amplify Webinar: Women in Tech Wikipedia Edit-a-thon",
@@ -6682,6 +8272,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=8-J07lcC6wg",
     "publishedAt": "2022-09-26T13:52:37Z",
     "duration": "0:30:13"
+  },
+  {
+    "title": "The Future of Design Tokens - James Nash - Into Design Systems",
+    "description": "#DesignTokens #DesignSystems \n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ots630OxRwE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ots630OxRwE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ots630OxRwE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Ots630OxRwE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Ots630OxRwE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ots630OxRwE",
+    "publishedAt": "2022-09-21T15:00:17Z",
+    "privacyStatus": "public",
+    "duration": "0:57:58"
   },
   {
     "title": "6 Design System Books No One's Talking About But Should Be #designsystems #danmallteaches #shorts",
@@ -9497,6 +11122,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=iIyHhYp2iPk",
     "publishedAt": "2021-10-30T01:41:14Z",
     "duration": "0:32:50"
+  },
+  {
+    "title": "Live Design Tokens Panel - Into Design Systems, 2021",
+    "description": "#DesignSystems #DesignTokens #DesignSystem\nLive Panel discussing Design Tokens at Into Design Systems Conference, Sept 2021\n\n❤️ Our amazing panelists:\nKelly Harrop\n- UX Engineering Lead, Intuit Design System\nDonna Vitan\n- Design Lead, TELUS Digital\nLouis Chenais\n- Co-Founder & Chief-Evangelist @ Specify\nJames Nash\n- Design System Community & Support Manager, J.P. Morgan\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/b0UK-j9YXxE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/b0UK-j9YXxE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/b0UK-j9YXxE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/b0UK-j9YXxE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/b0UK-j9YXxE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=b0UK-j9YXxE",
+    "publishedAt": "2021-10-27T17:58:19Z",
+    "privacyStatus": "public",
+    "duration": "1:02:22"
   },
   {
     "title": "Pasado, presente y futuro de los Sistemas de Diseño",
@@ -14109,6 +15769,41 @@
     "duration": "0:21:43"
   },
   {
+    "title": "“Why Design Systems Fail” by Una Kravets—An Event Apart video",
+    "description": "Design systems support a modular approach to building a product, promote organizational unity, and ensure stability via reusable code snippets and utility styles. They make prototyping a breeze, and provide a common language for both designers and developers. Are you making the most of your company’s design system? In this 60-minute presentation from An Event Apart Orlando 2018, Una Kravets explores what makes design systems successful, analyzes real examples of success and failure, and shows how to make sure your design system has the building blocks it needs to grow into a successful product. \n\nLearn more about AEA ► https://aneventapart.com\nJoin us at AEA ► https://aneventapart.com/events\nAEA on Twitter ► https://twitter.com/aneventapart SUBSCRIBE to the AEA YouTube channel ► https://bit.ly/AEA-YT-SUBSCRIBE\n\nNext event: Online Together–Human-Centered Design, Monday, July 20.\nSpanning the spectrum from good design principles to novel content strategy, to improving load times to emotional considerations, this single-day online web design conference will focus on how to best serve our users as they face unprecedented challenges and stress.\n\nSee the full agenda and register now: https://aneventapart.com/event/online-0720",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rPIBN7G08E4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rPIBN7G08E4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rPIBN7G08E4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/rPIBN7G08E4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/rPIBN7G08E4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rPIBN7G08E4",
+    "publishedAt": "2019-04-30T17:00:09Z",
+    "privacyStatus": "public",
+    "duration": "1:00:48"
+  },
+  {
     "title": "Yael Balla - Design system - From a Developer Point-of-View",
     "description": "Design Systems is something every UX team is working on, planning to work on, or at least is talking about. But what does it mean for a developer to implement a new design system for the company products? Is it also better for the developer? In the talk I will share my experience with implementing a design system. How to share design tokens in the organization? How to create a component library and separate the visual layer from business logic? How do you keep sync between design and code? In this talk I will try to answer these questions, using code examples and relevant tools.\n\nSlides: https://speakerdeck.com/yaelballa/design-system-from-a-developer-point-of-view\n\nYGLF 2019: Code Camp Blog, Yael Balla:\nhttps://www.israel.yglfconf.com/post/meet-the-speaker-yael-balla",
     "thumbnails": {
@@ -14618,6 +16313,41 @@
     "publishedAt": "2018-03-31T20:30:04Z",
     "privacyStatus": "public",
     "duration": "0:23:01"
+  },
+  {
+    "title": "Una Kravets - Why Design Systems Fail",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ANX_PxqZayU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ANX_PxqZayU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ANX_PxqZayU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ANX_PxqZayU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ANX_PxqZayU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ANX_PxqZayU",
+    "publishedAt": "2017-10-12T20:01:27Z",
+    "privacyStatus": "public",
+    "duration": "0:14:05"
   },
   {
     "title": "Design Systems, when and how much? — Diana Mounter",
