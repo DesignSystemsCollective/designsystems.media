@@ -1,5 +1,88 @@
 [
   {
+    "title": "Design Systems Rodeo #2: Matt Fantastic",
+    "description": "Hosted by the incredible Kevin Muldoon, we bring you Design Systems Rodeo, where Kevin and guests will be tackling problems faced with design systems. \n\nHost: Kevin Muldoon - https://www.linkedin.com/in/kevinrmuldoon/\nGuest: Matt Fantastic - https://www.instagram.com/mattfantasticisveryserious/\n\nA new podcast where Kevin Muldoon and guests wrangle with the big common problems that design systems face. Every episode, they’ll hogtie a challenge, give it a good once over, and share the best techniques they’ve found to conquer them, from dealing with inconsistency to naming to white-label systems.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VjeRyt_buJ0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VjeRyt_buJ0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VjeRyt_buJ0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VjeRyt_buJ0",
+    "publishedAt": "2024-04-04T15:26:42Z",
+    "duration": "0:30:47"
+  },
+  {
+    "title": "Welcome to Supernova.io — Your design system partner",
+    "description": "Supernova connects your design and engineering data in a single design system tool to accelerate and scale your product development. \n\nWe know design systems can be daunting but that doesn't have to be the case. Whether you're just getting started, adding new brands to your system, or in maintenance mode, Supernova adapts and grows with you. \n\nLet's see how we can use Supernova to empower a design system!\n\n00:00 Introduction\n00:48 Discover Supernova\n01:27 Import and manage design tokens and Figma variables\n02:30 Document design tokens \n03:13 Manage multi-brand design systems\n03:33 Create design system documentation\n04:22 Add collaborators\n04:44 Connect your design data to your codebase\n05:40 Start building better products, faster\n\n#DesignSystem #Figma #ProductDevelopment #DesignToCode #DesignToken \n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oHcdNugYSQo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oHcdNugYSQo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oHcdNugYSQo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oHcdNugYSQo",
+    "publishedAt": "2024-04-03T16:39:04Z",
+    "duration": "0:05:52"
+  },
+  {
+    "title": "Tackling Design Systems with a Lean Approach - Marianne Ashton-Booth at Into Design Systems",
+    "description": "#DesignSystems #UXdesign #IntoDesignSystems \nHybrid Meetup by Into Design Systems streamed live from Meta in London 🇬🇧\n👉🏻 Event: https://bit.ly/4a7M8eV\n🖼️ Miro Board: https://bit.ly/497WHgP\n\nSpeaker:\nLeanDS: Tackling Design Systems with a Lean Approach\nMarianne Ashton-Booth (She/Her/They/Them) - Head of Design Systems, ITVX \n\n👋🏻 Join 1000+ Design System Friends online! \n📚 Do you want to advance your career in Design Systems? Learn high-income skills such as Design Tokens, automating Design System tasks, and planning & roadmapping your system. \n\n📚 Level up your skills and learn from real case studies and examples from world leading Design System minds. \n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sTNrv45BIcc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sTNrv45BIcc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sTNrv45BIcc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/sTNrv45BIcc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/sTNrv45BIcc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sTNrv45BIcc",
+    "publishedAt": "2024-04-02T17:00:07Z",
+    "privacyStatus": "public",
+    "duration": "0:45:13"
+  },
+  {
     "title": "Design Systems WTF #14: How do we get past the MVP state?",
     "description": "How do we get past the MVP state?—Selling in post-foundation\n\nWe examine that critical phase in the life of a design system: moving beyond the Minimum Viable Product (MVP). Launching an MVP is just the beginning, but what comes next? We’ll discuss strategies for advocating for more resources, ensuring your work is recognized and adequately resourced, and not just seen as a “free” addition from your team. Drawing from our own experiences and those of other teams, we’ll share practical advice on selling your design system’s ongoing value to stakeholders.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
