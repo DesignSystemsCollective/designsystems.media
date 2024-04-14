@@ -49,6 +49,13 @@
     "url": "https://www.youtube.com/playlist?list=PLMGy4p_QbO8zsUMBkcKsEm7kmAP2CWI2l"
   },
   {
+    "name": "Into Design Systems",
+    "platform": "youtube",
+    "channelName": "@IntoDesignSystems",
+    "type": "youtube-playlist",
+    "url": "https://www.youtube.com/channel/UCLVaU9sKd2vDfbmbQUM5p6g"
+  },
+  {
     "name": "Backlight",
     "platform": "youtube",
     "channelName": "@backlight_dev",
