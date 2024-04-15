@@ -1,5 +1,197 @@
 [
   {
+    "title": "Unlock the Power of Design Systems: Inspiration from the UK Government",
+    "description": "Join us as we take a deep dive into accessibility and impactful design on the first episode of Design Systems Rodeo. Catch up on our Youtube channel or your favourite podcast platform 🎙️",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JAwPWZrUGAY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JAwPWZrUGAY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JAwPWZrUGAY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JAwPWZrUGAY",
+    "publishedAt": "2024-04-14T14:16:27Z",
+    "duration": "0:00:50"
+  },
+  {
+    "title": "Designing for Pinterest's Business Side: Tips from a Staff Product Designer",
+    "description": "Join Pinterest's product designer as they share their expertise in building components, patterns, and visually engaging documentation sites. \nFind out more in the second installment of our How We Document webinar series! 📢",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/s-xcmJziIhM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/s-xcmJziIhM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/s-xcmJziIhM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=s-xcmJziIhM",
+    "publishedAt": "2024-04-13T14:04:30Z",
+    "duration": "0:00:30"
+  },
+  {
+    "title": "The Blueprint: How Banks Craft Design Systems for Success — experts panel, hosted by Supernova",
+    "description": "Supernova's panel focused on how banks utilize design systems, featuring industry experts Beau Ulrey (Senior Design System Manager at U.S. Bank), Erin Potter (Design Lead, Enterprise Design System at Capital One), and Michiel Vissers (UX Designer at Delen Private Bank). They explored crucial topics such as:\n\n🔹 The pivotal role of design systems in modern banking\n🔹 Essential components and unique challenges in crafting design systems for banks\n🔹 Real-world examples illustrating the impact of design systems in banking\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ebXdovXvozQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ebXdovXvozQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ebXdovXvozQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ebXdovXvozQ",
+    "publishedAt": "2024-04-12T14:19:29Z",
+    "duration": "0:59:07"
+  },
+  {
+    "title": "Predicting the Next Big Hit: Marvel Vs. Indie Films",
+    "description": "We've got a new podcast for you, Design Systems Rodeo, hosted by Kevin Muldoon! In the second episode, he spoke to Matt Fantastic ✨",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XQk8ZepsxkI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XQk8ZepsxkI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XQk8ZepsxkI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XQk8ZepsxkI",
+    "publishedAt": "2024-04-12T13:02:41Z",
+    "duration": "0:00:26"
+  },
+  {
+    "title": "Design Systems WTF #15: How much should you future-proof your design system?",
+    "description": "How much should you future-proof your design system?\n\nDesign systems should reflect what’s currently in your product, but it’s tempting to future-proof them. After all, getting the system up and running was a lot of work, so what’s the harm in adding a few new things? Future us will thank our past selves, right?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Luke: https://twitter.com/lurkmoophy\nMeet Dave: https://twitter.com/DavidDarnes\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lx-r0LsUkjc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lx-r0LsUkjc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lx-r0LsUkjc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lx-r0LsUkjc",
+    "publishedAt": "2024-04-11T15:43:09Z",
+    "duration": "0:23:31"
+  },
+  {
+    "title": "How to Build a Strong Design Leadership Team: Tips and Strategies",
+    "description": "How to Build a Strong Design Leadership Team? We share tips and strategies on Design Systems WTF\nLearn how to get engineering executives, brand and marketing leaders on board to create a robust design system that drives brand consistency, customer trust, and business growth 📈",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2fwCqqZ2w1I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2fwCqqZ2w1I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2fwCqqZ2w1I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2fwCqqZ2w1I",
+    "publishedAt": "2024-04-11T13:03:41Z",
+    "duration": "0:00:50"
+  },
+  {
+    "title": "Unlocking Your Design Potential: Tips for Building a Strong Design System",
+    "description": "👀 Learn the importance of communicating resource needs early with your manager to avoid unnecessary stress. Get practical insights to make your design system more tangible in our How We Document Webinar!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rdXcYet4tl8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rdXcYet4tl8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rdXcYet4tl8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rdXcYet4tl8",
+    "publishedAt": "2024-04-10T09:07:08Z",
+    "duration": "0:00:20"
+  },
+  {
+    "title": "How We Document 2024: Episode 3 - Trends in Design System Processes and Management",
+    "description": "In the third installment of our “How We Document” series, we invite you to explore our findings for designing system processes and management. We’ll cover everything from governance and contribution to strategy and goal setting to the age-old question, “How should we measure design systems?”\n\nPanelists: \nMichelle Chin - https://www.linkedin.com/in/michelletchin\nTaylor Cashdan - https://www.linkedin.com/in/taylorcashdan/\nCharlotte MacInnes - https://www.linkedin.com/in/charlotte-macinnes\n\nDownload the How We Document Report: https://hubs.ly/Q02nnq6Z0\n\nSign up for the rest of the series: https://zeroheight.com/webinars/\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/iwo8NY88N4s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/iwo8NY88N4s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/iwo8NY88N4s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iwo8NY88N4s",
+    "publishedAt": "2024-04-08T11:12:24Z",
+    "duration": "0:56:02"
+  },
+  {
     "title": "Design Systems Rodeo #2: Matt Fantastic",
     "description": "Hosted by the incredible Kevin Muldoon, we bring you Design Systems Rodeo, where Kevin and guests will be tackling problems faced with design systems. \n\nHost: Kevin Muldoon - https://www.linkedin.com/in/kevinrmuldoon/\nGuest: Matt Fantastic - https://www.instagram.com/mattfantasticisveryserious/\n\nA new podcast where Kevin Muldoon and guests wrangle with the big common problems that design systems face. Every episode, they’ll hogtie a challenge, give it a good once over, and share the best techniques they’ve found to conquer them, from dealing with inconsistency to naming to white-label systems.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -83,6 +275,30 @@
     "duration": "0:45:13"
   },
   {
+    "title": "Design Systems: The Whats App Way - Christos Kastriti at Into Design Systems",
+    "description": "#DesignSystems #UXdesign #IntoDesignSystems \nJoin our conference to learn the latest in Design Systems 👉🏻 https://www.intodesignsystems.com\n\nHybrid Meetup by Into Design Systems streamed live from Meta in London 🇬🇧\n👉🏻 Event: https://bit.ly/4a7M8eV\n🖼️ Miro Board: https://bit.ly/497WHgP\n\nSpeaker:\nDesign Systems: The WhatsApp Way\nChristos Kastriti (he/him) - Product Designer WhatsApp\n\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/D2rnsSggt0w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/D2rnsSggt0w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/D2rnsSggt0w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=D2rnsSggt0w",
+    "publishedAt": "2024-03-28T18:00:07Z",
+    "duration": "0:37:30"
+  },
+  {
     "title": "Design Systems WTF #14: How do we get past the MVP state?",
     "description": "How do we get past the MVP state?—Selling in post-foundation\n\nWe examine that critical phase in the life of a design system: moving beyond the Minimum Viable Product (MVP). Launching an MVP is just the beginning, but what comes next? We’ll discuss strategies for advocating for more resources, ensuring your work is recognized and adequately resourced, and not just seen as a “free” addition from your team. Drawing from our own experiences and those of other teams, we’ll share practical advice on selling your design system’s ongoing value to stakeholders.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -105,6 +321,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=9kdYMT7pr5c",
     "publishedAt": "2024-03-27T22:14:06Z",
     "duration": "0:27:28"
+  },
+  {
+    "title": "Into Design Systems LIVE from Meta in London",
+    "description": "#DesignSystems #IntoDesignSystems \nHybrid Meetup by Into Design Systems streamed live from Meta in London 🇬🇧\n👉🏻 Event: https://bit.ly/4a7M8eV\n🖼️ Miro Board: https://bit.ly/497WHgP\n\nSpeakers:\nDesign Systems: The WhatsApp Way\nChristos Kastriti (he/him) - Product Designer WhatsApp\n\nLeanDS: Tackling Design Systems with a Lean Approach\nMarianne Ashton-Booth (She/Her/They/Them) - Head of Design Systems, ITVX\n\nHosts:\nSil Bormüller (they/them) - Founder Into Design Systems\nSergiy Voronov (he/him) - AR/VR Designer at RealityLabs Meta \nAndressa Lombardo (she/her) - Principal Designer at Teamwork & Teacher at Memorisely\n\nOnline Hosts:\nSam Gordashko - Design Systems Lead\nPetra Sell - Freelance UX/UI designer working on Design Systems\n\n👋🏻 Join 1000+ Design System Friends online! \n📚📐 Do you want to advance your career in Design Systems? Learn high-income skills such as Design Tokens, automating Design System tasks, and planning & roadmapping your system. \n\nLevel up your skills and learn from real case studies and examples from world leading Design System minds. \n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xJYV5GaYZg8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xJYV5GaYZg8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xJYV5GaYZg8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=xJYV5GaYZg8",
+    "publishedAt": "2024-03-24T17:00:07Z",
+    "duration": "1:43:22"
   },
   {
     "title": "How We Document 2024: Episode 2 - Trends in Design Systems and Documentation",
@@ -271,6 +511,30 @@
     "publishedAt": "2024-03-15T01:27:11Z",
     "privacyStatus": "public",
     "duration": "0:03:17"
+  },
+  {
+    "title": "Into Design Systems Career & Freelance Tips Meetup",
+    "description": "Join our conference to learn the latest in Design Systems 👉🏻 https://www.intodesignsystems.com\n\nIn this meetup we discuss Design System career & freelance tips:\n\n🔍 Tips to find a Design System job?\n🖼️ How to craft the perfect Design System Portfolio? Do you need one?\n🎨 How to land a job in the Design System industry?\n🚀 How to stay relevant and which skills do you need?\n📚 Where to learn about Design Systems?\n\nFreelance:\n💰 How to make it as a freelance Design System Designer / Lead?\n🤩 What skills are clients currently looking for?\n📚 Where do you learn about new techniques?\n\nAlso we share resources and personal stories.\n\n📚📐 Do you want to advance your career in Design Systems? Learn high-income skills such as Design Tokens, automating Design System tasks, and planning & roadmapping your system. \n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wgezbiCcUIg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wgezbiCcUIg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wgezbiCcUIg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wgezbiCcUIg",
+    "publishedAt": "2024-03-13T18:49:00Z",
+    "duration": "1:40:25"
   },
   {
     "title": "Beyond the Button - Episode Six: We’re measuring our design systems impact, right?",
@@ -854,6 +1118,30 @@
     "duration": "1:00:48"
   },
   {
+    "title": "Data Driven Design System Management - LIVE at Into Design Systems",
+    "description": "#designsystems #designtokens #designops \nJoin our conference to learn the latest in Design Systems 👉🏻 https://www.intodesignsystems.com\n\nData Driven Design System Management  - LIVE \nVarya Stepanova - Design System Product Owner\nDaniel Miebach - Domain Owner User Experience — Customer Applications, METRO.digital\n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XRHe3rCqTT4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XRHe3rCqTT4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XRHe3rCqTT4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XRHe3rCqTT4",
+    "publishedAt": "2024-01-05T15:00:10Z",
+    "duration": "0:52:15"
+  },
+  {
     "title": "Design Systems WTF #8: Contracting and Design Systems",
     "description": "Can you create a successful design system by contracting work out?\n\nWe explore the dynamics of working with external design teams, freelancers, or agencies to build a cohesive design system. Is it a recipe for success, or does it present unique challenges that could impact the system’s effectiveness? Join us as we uncover the pros and cons of this approach and share insights on navigating the path to a thriving design system.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1142,6 +1430,54 @@
     "duration": "0:43:29"
   },
   {
+    "title": "Design Tokens Pro Tips from a Design Team of One - Sam live at Into Design Systems",
+    "description": "⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more now for sale: https://www.intodesignsystems.com/home-conf-live-2023\n\nCheck out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com \n\nDesign Tokens Pro Tips from a Design Team of One - Samantha Gordashko \n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lPkPWavipZw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lPkPWavipZw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lPkPWavipZw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lPkPWavipZw",
+    "publishedAt": "2023-12-11T17:50:56Z",
+    "duration": "0:44:36"
+  },
+  {
+    "title": "Data-Driven Design Systems - Online Roundtable by Into Design Systems",
+    "description": "Check out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com\n\nHow do we know if our Design System is on track if we don't measure any data? A virtual Roundtable to discuss Data-Driven Design Systems. 🎨📐\n\n🔥 Miro Board: https://miro.com/app/board/uXjVNJbb6J8=/?share_link_id=357473840358\n\n🙏🏼 Thanks to our Roundtable experts:\nBerk Çebi - Co-founder of Omlet and Zeplin\nDaron Adkins - Staff Software Engineer, SageSure\nThaís Santos - Design Systems TomTom\nDavy Fung - Design Systems at Meta\n\n👋🏻 Hosts:\nSil Bormüller - Founder Into Design Systems\nSam Gordashko - Design Systems Lead\n\n📚 Want to learn more about Design Systems?\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com\n\nHope to see you at our next event 🙌🏻",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uyrKmauwZqM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uyrKmauwZqM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uyrKmauwZqM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=uyrKmauwZqM",
+    "publishedAt": "2023-12-07T16:30:09Z",
+    "duration": "1:39:06"
+  },
+  {
     "title": "Design Systems WTF #6: Design Systems Careers",
     "description": "Is my career doomed if I focus on design systems?\n\nIn this episode, we dive deep into the world of design system careers. Is focusing on design systems a career move that can make or break your professional journey? Join us as we explore the power and potential of design systems and discuss how they can shape your career in design. Is it a stepping stone to success or a potential roadblock? Tune in to discover how design systems can be your secret weapon or a career-defining challenge.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1271,6 +1607,30 @@
     "duration": "0:59:18"
   },
   {
+    "title": "How to create a Multibrand Design System for existing products - Kristina Grönboldt",
+    "description": "⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more now for sale: https://www.intodesignsystems.com/home-conf-live-2023\n\nCheck out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com\n\nHow to create a Multibrand Design System for existing products - Kristina Grönboldt LIVE at The Future of Design Systems 2022 \n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/z5ggA68Ehd8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/z5ggA68Ehd8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/z5ggA68Ehd8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=z5ggA68Ehd8",
+    "publishedAt": "2023-11-29T16:30:08Z",
+    "duration": "0:24:37"
+  },
+  {
     "title": "Design Systems WTF #5: Design Systems and Accessibility",
     "description": "How accessible can a design system really make a product?\n\nIn this episode, we try to uncover the secrets of accessibility and design systems. We ask the pivotal question: How accessible can a design system truly make a product? Are design systems the golden ticket to a more inclusive digital world?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1352,6 +1712,30 @@
     "publishedAt": "2023-11-23T11:25:59Z",
     "privacyStatus": "public",
     "duration": "0:24:24"
+  },
+  {
+    "title": "Into Design Systems Meetup LIVE from Volvo Cars Stockholm 🇸🇪",
+    "description": "Check out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com\n\nInto Design Systems hybrid meetup live from Volvo Cars, Stockholm Sweden 🇸🇪\nAgenda:\nWelcome & Introduction - Into Design Systems Team\nHello from Volvo Cars, Alex Hedin Design Manager at Volvo Cars\n\nLearnings from my 1st and 2nd time creating a Design System\nMelissa Sanchez - UX Design Manager @ Volvo Cars\n\nBuilding cross-platform design systems\nShaun Bent - Leads Design System Engineering at Spotify\n\nThe future of UI Foundations at Atlassian\nDeborah Lindberg, Lead Product Designer – Atlassian Design System\n\nHow design systems can be useful. Even for the smallest teams\nManuela Costa Design System Consultant\n\n📚 Want to learn more about Design Systems?\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com\n\nMiro Board: https://miro.com/app/board/uXjVNTBRhg4=/?share_link_id=181314417120\n\nHosts:\nSil Bormüller - Founder Into Design Systems\nAndressa Lombardo - Principal Designer Teamwork,\nTeacher at Memorisely\nTiago Almeida - DesignOps at H&M\nAlex Hedin - Design Manager at Volvo Cars\n\nOnline Hosts: \nSam Gordashko - Design Systems Lead\nThaís Santos -  Design Systems at TomTom",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xT9uFecrH20/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xT9uFecrH20/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xT9uFecrH20/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=xT9uFecrH20",
+    "publishedAt": "2023-11-20T16:00:09Z",
+    "duration": "2:04:51"
   },
   {
     "title": "Components: Building the Building Blocks — design systems experts panel, hosted by Supernova",
@@ -3145,6 +3529,30 @@
     "duration": "1:01:06"
   },
   {
+    "title": "Ai in Design Systems - Chris Strahl & Evan Lovely from Knapsack",
+    "description": "⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more: https://www.intodesignsystems.com\n\nCheck out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com \n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com\n\nAI in Design Systems\nChris Strahl, CEO & Cofounder, Knapsack\nEvan Lovely, Head of Product & Engineering & Cofounder of Knapsack",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8Vi3irp-fOg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8Vi3irp-fOg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8Vi3irp-fOg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8Vi3irp-fOg",
+    "publishedAt": "2023-10-11T10:27:45Z",
+    "duration": "0:55:02"
+  },
+  {
     "title": "Design Systems Field Guide #5",
     "description": "With Jina Anne",
     "thumbnails": {
@@ -3468,6 +3876,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=4yRMI1QUw2M",
     "publishedAt": "2023-09-27T14:00:03Z",
     "duration": "0:24:07"
+  },
+  {
+    "title": "Pushing design tokens to the next level - Dashlane x Specify",
+    "description": "⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more: https://www.intodesignsystems.com\n\nCheck out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com \n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com\n\n\nLouis Chenais, Co-founder of Specify and editor for the Design Tokens Community Group\nHugo Leloup, Senior Product & System Designer at Dashlane",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WddIeXUvVEY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WddIeXUvVEY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WddIeXUvVEY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=WddIeXUvVEY",
+    "publishedAt": "2023-09-20T14:00:24Z",
+    "duration": "0:50:21"
   },
   {
     "title": "Design Systems with Brad Frost - The State of the Web",
@@ -4169,6 +4601,30 @@
     "duration": "1:00:51"
   },
   {
+    "title": "LIVE Meetup -  The Power of Design, Code & Ai in Design Systems",
+    "description": "#designsystems #designsystem #uxdesign \n⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more now for sale: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Q-zvJ7vmc6o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Q-zvJ7vmc6o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Q-zvJ7vmc6o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Q-zvJ7vmc6o",
+    "publishedAt": "2023-07-12T08:24:52Z",
+    "duration": "3:29:23"
+  },
+  {
     "title": "Design Systems Journeys: Shopify and Wealthsimple (DSCC Toronto)",
     "description": "Meet our guests:\n\nSarah Hamdi, https://sarahhamdi.com/\nSarah is a Senior Software Developer at Wealthsimple. She's worked in tech since 2016 and in the nonprofit/immigrant and refugee serving sector before that. She will happily chat with you about drawing, sewing, and comics.\n\nSarah's talk: Measuring Design System Adoption\nHave you ever tried to prove usage of your Design System? Need to build trust with your engineering leadership that your Design System was worth the investment? This talk will cover how to track components usage across your codebase, why it's important to do so, and how this effort makes your work easier as a team.\n\n---\n\nKristen, https://twitter.com/ackristen\nKristen is a Product Designer based in Toronto. Formally trained as an Industrial Designer, her practice is rooted in systems thinking, playfulness, curiosity and a deep care for the people she builds for. Offline you can find her gardening, biking, hiking and everything in between.\n\nKristen's talk: Building a design system for a creative audience.\nThis talk will focus on designing for flexibility, creative freedom and redefining what consistent means on websites.\n\n---\n\nAbout Design Systems Community\nDesign Systems Community helps bring people together to share ways of working, successes, and other learnings to encourage best practices in building, scaling, and maintaining design systems. No matter how you engage with design systems, we all play a role in making information accessible for everyone, and without barriers.\n\nHow can I contribute?\nInterested to host, sponsor, or speak at our meetups, email us toronto@designsystems.community\n\nFollow us on our social channels\nhttps://designsystems.community/\nhttp://bit.ly/DSC-Meetup\nhttp://bit.ly/DSC-Twitter\nhttp://bit.ly/DSC-Instagram\n\nBy participating in DSC events, you agree to our code of conduct: https://designsystems.community/conduct/",
     "thumbnails": {
@@ -4249,6 +4705,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=Hn0Ow105w58",
     "publishedAt": "2023-06-24T06:20:50Z",
     "duration": "0:04:40"
+  },
+  {
+    "title": "Making the Most of Your Design System through Analytics",
+    "description": "⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more: https://www.intodesignsystems.com\n\nCheck out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com \n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com\nJune Cho, Developer Advocate @ Omlet\nHosh'ki Tsunoda, Design System Engineer @ Optimizely\n\n⚡️Want to get started measuring your design system utilization? Omlet.dev is free to use. Get started here: https://zepl.ink/intodesignsystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GlpNKDlQtQg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GlpNKDlQtQg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GlpNKDlQtQg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=GlpNKDlQtQg",
+    "publishedAt": "2023-06-19T06:49:16Z",
+    "duration": "0:47:05"
   },
   {
     "title": "Every component, everywhere, all at once",
@@ -4646,6 +5126,30 @@
     "duration": "0:00:19"
   },
   {
+    "title": "The Future of Brand Management with Design Tokens - Tokens Studio",
+    "description": "⚡️Missed our big annual Design Systems Conference? All 15 sessions with Design System Leaders from companies like Spotify, Meta, Pinterest & many more: https://www.intodesignsystems.com\n\nCheck out our big annual live #DesignSystems Conference - Tickets: https://www.intodesignsystems.com \n\n🌟 Get ready for the biggest virtual hands-on Design Systems Conference🌟\nJoin us as we dive into the world 🌍 of #DesignSystems and discover the secrets of Design System experts operating in their systems. 🛠️🎨\n\n📐Into Design Systems Online Conference 2024\n🗓️May 15-17 2024\n🚀 3 day online conference\n🎫 Tickets now available! \nhttps://www.intodesignsystems.com\n\nA look into the future of brand management and what the Tokens Studio team has in store for design token management. \n\nJan Six - Creator of Tokens Studio\nAndrew L'Homme - Fullstack Developer\n\nPresented at The Future of Design Systems 2023: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Lr_XezioN3o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Lr_XezioN3o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Lr_XezioN3o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Lr_XezioN3o",
+    "publishedAt": "2023-06-09T18:13:45Z",
+    "duration": "0:44:01"
+  },
+  {
     "title": "Design Systems Field Guide #1",
     "description": "The Design Systems Podcast and the Design System Social Club are coming together to launch a brand new adventure in a fresh format. Be sure to tune into our first episode where we'll divulge all the details. See you there!",
     "thumbnails": {
@@ -4713,6 +5217,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=dV-qvJ-F48Q",
     "publishedAt": "2023-06-07T13:38:36Z",
     "duration": "0:44:34"
+  },
+  {
+    "title": "Scalable Headless Design Systems - Virtual Roundtable",
+    "description": "#designsystems #figma #designtokens #uxdesign \nOur big annual online Design Systems conference is coming! 🚀\nThe Future of Design Systems 🚀\n🗓️June 8-9 Online 🌎worldwide\n⚡️Tickets now on sale! Limited seats!! ⚡️\n👉🏻 Tickets: https://www.intodesignsystems.com\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\nJoin us 🙌🏻\n👉🏻 Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ef8bKfNINmA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ef8bKfNINmA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ef8bKfNINmA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ef8bKfNINmA",
+    "publishedAt": "2023-06-04T20:17:49Z",
+    "duration": "1:44:52"
   },
   {
     "title": "Design system releases and change management",
@@ -5070,6 +5598,30 @@
     "duration": "0:15:43"
   },
   {
+    "title": "Unleashing Automation in Design - Davo Galavotti at The Future of Design Systems Conference",
+    "description": "#automation #ai  #designsystems #uxdesign \nLiked this talk? Join Davo LIVE 🟢 at our next conference:\nOur big annual online Design Systems conference is coming! 🚀\nThe Future of Design Systems 🚀\n🗓️June 8-9 Online 🌎worldwide\n⚡️Tickets now on sale! Limited seats!! ⚡️\n👉🏻 Tickets: https://www.intodesignsystems.com\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\nJoin us 🙌🏻\n👉🏻 Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/kHeFnq1WcBQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/kHeFnq1WcBQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/kHeFnq1WcBQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kHeFnq1WcBQ",
+    "publishedAt": "2023-05-20T16:26:07Z",
+    "duration": "1:13:23"
+  },
+  {
     "title": "Design smarter, not harder. Halve your design workload in one year with Supernova + Tokens Studio",
     "description": "NEW Tokens Studio and Supernova integration for seamless tokens synchronization between your Figma, documentation, and code.\n\n🚀 Manage your design tokens like never before, enhance collaboration elevate your design system 🚀\n\nPush and pull your styles and design token values from Tokens Studio (Formerly Figma Tokens Plugin), with only a couple of simple steps.\n\nLearn more about the integration  👉 https://www.supernova.io/supernova-tokens-studio\n\n--------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -5092,6 +5644,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=CrK3BcjXA-Y",
     "publishedAt": "2023-05-17T10:51:29Z",
     "duration": "0:00:55"
+  },
+  {
+    "title": "Create Design Tokens with ChatGPT - Workshop Teaser with Chris Lüders",
+    "description": "#chatgpt #designsystems #automation #uxdesign #userexperience \nLIVE workshop: 🗓️ June, 11th - 4PM - 8 PM CEST\nWorkshop facilitator: Chris Lüders, Design Systems Lead\n🎟️ Limited LIVE Seats!\n📼 Can't make it live? Recording passes available!\n👉🏻 Tickets: https://intodesignsystems.gumroad.com/l/aiworkshop\n\n⚡️Workshop: How to build a Design System with Design Tokens in Figma - Jan Six, Creator of Tokens Studio\n👉🏻 https://intodesignsystems.gumroad.com/l/opter\n\nOur big annual online Design Systems conference is coming! 🚀\nThe Future of Design Systems 🚀\n🗓️June 8-9 Online 🌎worldwide\n⚡️Tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n👉🏻 Tickets: https://www.intodesignsystems.com\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻 Steps & Prompt to create #DesignTokens with #ChatGPT :\nCreate a JSON object containing design tokens for a typescale within a design system. The JSON object should have the following structure:\n\n1. A \"typography\" object containing \"headline\", \"intro\", \"body\", and \"caption\" categories.\n2. Headline category should include H1 to H5.\n3. Font sizes should range from 80px to 12px, with the largest size being 80px and the smallest 12px.\n4. The fontWeight \"normal\" should be named \"Regular\".\n5. Font size and line height tokens should use size names XS to XXL.\n6. Font family, font size, line height, and font weight tokens should be separate hierarchy points, referenced in the \"typography\" object as properties.\n7. Use singular naming for all tokens.\n8. Define font weight values as \"Regular\" and \"Bold\" instead of numeric values.\n9. Provide line height values in pixels.\n10. Use property names like \"{fontSizes.xxl}\" to define all properties of the font styles.\n11. Use Montserrat for the font family\n12. Define a \"type\" for all arrays like here:\n\"xl\": {\n      \"value\": \"64px\",\n      \"type\": \"fontSizes\"\n    }\n13. The JSON structure should resemble the following example for H1:\n\n{\n\"H1\": {\n        \"value\": {\n          \"fontFamily\": \"{fontFamilies.sansSerif}\",\n          \"fontWeight\": \"{fontWeights.bold}\",\n          \"fontSize\": \"{fontSizes.xxl}\",\n          \"lineHeight\": \"{lineHeights.xxl}\"\n        }\n}\n}\n\nEnsure that the JSON object provided always matches this structure and token hierarchy.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/x5OEclxKAdg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/x5OEclxKAdg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/x5OEclxKAdg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=x5OEclxKAdg",
+    "publishedAt": "2023-05-16T19:33:23Z",
+    "duration": "0:26:03"
   },
   {
     "title": "Supernova integration with Token Studio via CLI",
@@ -6037,6 +6613,54 @@
     "duration": "0:59:10"
   },
   {
+    "title": "Automation of Design Systems - Virtual Meetup 📼 Full Video",
+    "description": "#designsystems #figma #designtokens\nAutomation of Design Systems & Launch of #UnStyled - a headless Figma Ui Kit with endless possibilities to create, modify and style components in Figma \n\nGet UnStyled Figma UI Kit:\nhttp://unstyled.design\n\nReady to take your design system skills to the next level? \nJoin the biggest virtual, interactive #DesignSystems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/K8BFveYFB3c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/K8BFveYFB3c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/K8BFveYFB3c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=K8BFveYFB3c",
+    "publishedAt": "2023-03-03T12:02:59Z",
+    "duration": "2:18:22"
+  },
+  {
+    "title": "UnStyled - The most powerful headless Ui Kit for Figma",
+    "description": "#figma #designsystems #uikit \nMeet UnStyled - an advanced Figma Ui Kit with endless possibilities to create, modify and style components. Including custom features and plugins, fully powered by Tokens Studio (Figma Tokens). Created by Mr. Biscuit & Into Design Systems\n\nGet UnStyled:\nhttp://unstyled.design/\n\nReady to take your design system skills to the next level? \nJoin the biggest virtual, interactive #DesignSystems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zuVEPu8IXNQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zuVEPu8IXNQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zuVEPu8IXNQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zuVEPu8IXNQ",
+    "publishedAt": "2023-03-02T13:31:36Z",
+    "duration": "0:01:27"
+  },
+  {
     "title": "Invite your team to zeroheight",
     "description": "Learn about team roles and responsibilities as well as how to invite people to your zeroheight team! \n\nFind out more on our Learning Hub: \nUser Roles: https://learninghub.zeroheight.com/hc/en-us/articles/4946980980635-User-roles\nInvite Editors: https://learninghub.zeroheight.com/hc/en-us/articles/4946858186651-Invite-editors\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -6814,6 +7438,30 @@
     "duration": "0:00:20"
   },
   {
+    "title": "We opened the floodgates to contribution and let it derail us - Amy Hupe - Design Systems Consultant",
+    "description": "#designsystem #designsystems #uidesign #uxdesign \nReady to take your design system skills to the next level? \nJoin the biggest virtual, interactive #DesignSystems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TCOToId16Co/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TCOToId16Co/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TCOToId16Co/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TCOToId16Co",
+    "publishedAt": "2022-12-28T13:38:37Z",
+    "duration": "0:38:09"
+  },
+  {
     "title": "We’re Not Doing Design Systems Properly and That’s Okay - Design Systems London #5 - December 2022",
     "description": "'We’re Not Doing Design Systems Properly and That’s Okay' - Morgane Peng (Design Director, Societe Generale CIB)\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------",
     "thumbnails": {
@@ -6932,6 +7580,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=YzthGOKm23M",
     "publishedAt": "2022-12-20T17:04:48Z",
     "duration": "0:21:40"
+  },
+  {
+    "title": "Failing at Scale - Design Systems & Figma Library limits - Tiago Almeida",
+    "description": "#designsystem #designsystems #figma \nThe challenges of refactoring large scale Figma libraries, so that they don't kill your computer while systematizing and consuming. A story about base components, component properties, and splitting a big library into several files. Going from fail to yay 🤓\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/r_lOiU2Zfow/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/r_lOiU2Zfow/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/r_lOiU2Zfow/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=r_lOiU2Zfow",
+    "publishedAt": "2022-12-19T13:46:33Z",
+    "duration": "0:29:19"
   },
   {
     "title": "The Future of Design Tokens — Fireside chat with the top design tokens experts, powered by Supernova",
@@ -8130,6 +8802,30 @@
     "duration": "0:00:46"
   },
   {
+    "title": "Why Figma Styles are limited - Get full control with Figma Tokens",
+    "description": "#designtokens #figma #figmatokens \nThis is a snippet of the 4h workshop which Jan Six, Creator of Figma Tokens gave at Into Design Systems. \n\n👉🏻 Get the Full Figma Tokens Workshop: \nhttps://bit.ly/figmatokens-workshop \n\n👉🏻 Figma Tokens Plugin: \nhttps://www.figmatokens.com\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aNPgG5h6wes/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aNPgG5h6wes/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aNPgG5h6wes/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aNPgG5h6wes",
+    "publishedAt": "2022-10-12T15:00:00Z",
+    "duration": "0:09:24"
+  },
+  {
     "title": "Outcomes Over Output by Dan Mall #DesignSystemCoach",
     "description": "Focus more outcomes than output to ensure your design system actually gets used.\n\n\nFor more on creating Custom Design System, check out my workbook\n\nhttps://superfriendly.com/design-systems/books/design-system-90-days/\n\nCourses\nhttps://superfriendlydesign.systems/classes/make-design-systems-people-want-to-use/\n\n“Pricing Design,” a short book to help you make more money\nhttps://abookapart.com/products/pricing-design\n\nIntro to Design Systems course on Skillshare\nhttps://skl.sh/superfriendly\n\nSubscribe to my newsletter\nhttps://www.getrevue.co/profile/danmall\n\nMy Website\ndanmall.com\n\n\nHere are the Gears I use :\n\nMacBook Pro 16-inch 2019  \nhttps://rb.gy/nskkmi\n\nSony Alpha 6400\nhttps://rb.gy/pzwalx\n\nElgato Key Lights.\nhttps://rb.gy/bdj5sc\n\nAirPods Pro\nhttps://rb.gy/vkoylo\n\nCanon EOS R \nhttps://rb.gy/pc5g3v\n\nDJI Air 2S.\nhttps://rb.gy/skdlho\n\n\nFollow me on :\n\nTwitter\nhttps://twitter.com/danmall\n\nLinkedin\nhttps://www.linkedin.com/in/danmall/\n\nYoutube\nhttps://youtube.com/c/DanMallTeaches\n\nInstagram\nhttps://instagram.com/danmallteaches?igshid=YmMyMTA2M2Y=\n\n\nAbout Me\n\nI'm Dan Mall. I'm a husband, dad, designer, creative director, developer, photographer, and musician and In this Channel I share tips, tricks and tools about design system process and leadership\n\n\n#DesignSystemCoach #DesignOutcomes #DanMallTeaches",
     "thumbnails": {
@@ -8667,6 +9363,30 @@
     "duration": "0:13:57"
   },
   {
+    "title": "Better Components through better spec - Taylor Cashdan live at Into Design Systems Conference",
+    "description": "#DesignSystems #DesignSystemDocumentation #Figma #figmatutorial \nFigma Spec Kit:\nhttps://www.figma.com/community/file/1084193931826755668\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PHsfMWM5UfU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PHsfMWM5UfU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PHsfMWM5UfU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PHsfMWM5UfU",
+    "publishedAt": "2022-08-30T15:29:30Z",
+    "duration": "0:22:51"
+  },
+  {
     "title": "Design Systems Essentials: Hiring for Design Systems",
     "description": "On the 23rd August 2022, we talked about hiring for design systems roles. \n\nCatch the recording of our webinar with Jules Mahé, Audrey Hacq, Product Design Director at OpenClassrooms, Julien Vanière Design Systems Director at Sage and Jeannie Servaas Creative Director, Carbon Design System and Design Principal at IBM on best practices to recruit and/or apply for design systems positions.\n\nFind out more about zeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -9182,6 +9902,54 @@
     "duration": "0:16:20"
   },
   {
+    "title": "Distribute your design documentation  - Mike Wilson live at Into Design Systems Conference",
+    "description": "#DesignSystems #DesignSystemDocumentation #Figma #figmatutorial \nGist Figma Plugin: \nhttps://www.figma.com/community/plugin/1073059820691713754/Gist\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bYDwYMI2a60/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bYDwYMI2a60/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bYDwYMI2a60/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bYDwYMI2a60",
+    "publishedAt": "2022-07-03T16:23:32Z",
+    "duration": "0:21:30"
+  },
+  {
+    "title": "How to automate your Design Tokens documentation in Figma with Figma Tokens and Automator",
+    "description": "#Figma #FigmaTutorial #DesignTokens #FigmaTokens \n👉🏻 Get the Full Figma Tokens Workshop: \nhttps://bit.ly/figmatokens-workshop \n\n👉🏻 Figma Tokens Plugin: \nhttps://www.figmatokens.com\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QA5d8eXPI4A/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QA5d8eXPI4A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QA5d8eXPI4A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QA5d8eXPI4A",
+    "publishedAt": "2022-06-29T17:02:33Z",
+    "duration": "0:03:14"
+  },
+  {
     "title": "Design Systems London #1 Hybrid Event",
     "description": "We are so excited to announce that DSL is back - this time with our first in-person event since our last conference back in late 2019!\n\nThis edition of our meetup will take place in London, but we will also livestream it to our DSL Youtube channel; this way you can join us from wherever you are!\nIf you are joining in person, get your free tickets here\n\nWe are always thrilled to see all the familiar faces, but also some new ones, and of course some new speakers joining our community. If you would like to give a talk during our upcoming meetup or any other future events, check out our speaker form. If you know someone who you think might be a good speaker, please feel free to pass on the form to them.\n\n00:00 Intro's\n\n12:17 'The Post Design System World' - Jules Mahé (Design Advocate, zeroheight)\n\n35:00 'The first design system ever seen on a screen' - Francesco Cutolo (Design System Manager, Klarna)\n\n54:32 'Building the design system as you fly it' - Andrey Sundiev (Product Design Lead, Beamery)\n\n1:11:19 'Navigating the politics of design systems' - Jenny Mullins (CEO, Pixelfat Design)\n\n1:29:40 Q&A session\n\nThank you to YLD for organising and to Beamery for sponsoring and hosting this event.\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------\n\nWho are Beamery?\nBeamery is a full-cycle Talent Lifecycle Management Platform, leveraging an industry-first AI-powered Talent Graph, with an incredible team of creators and engineers. The team are dreamers and problem solvers who are passionate about their craft, from the first meta tag down to the last pixel. They believe sweating the small stuff is what makes a beautiful product that delights their users.\n\nP.S Beamery We’re Hiring!\nHear from the team at Beamery in this video about what life is like in the Engineering, Product & Design Team!\n\n---\n@DSLConf (https://twitter.com/dslconf)\n\nCODE OF CONDUCT: \nhttps://www.designsystemslondon.com/code-of-conduct\n\n@DSLConf (https://twitter.com/dslconf)",
     "thumbnails": {
@@ -9228,6 +9996,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=QbcW34vIBYk",
     "publishedAt": "2022-06-22T07:09:41Z",
     "duration": "0:30:00"
+  },
+  {
+    "title": "Figma: How to create fluid Typography Scales with Design Tokens - Tutorial with Jan Six",
+    "description": "#Figma #designsystems #designsystem #figmatutorial \n⚡️Full workshop Recording: https://bit.ly/figmatokens-workshop\n⚡️ Plugin: https://www.figmatokens.com/\n\n💥Learn how to create a token-based Design System in #Figma with Jan Six, Creator of the Figma Tokens Plugin\nWhat's included in the full workshop:\n🎬 What's new in Figma Tokens\n🎬 How to create Design Tokens in Figma:\n- Color Tokens\n- Spacing Tokens\n- Radius Tokens \n- References\n- Math\n- Typography Tokens \n- Shadow Tokens\n\n🎬 Token-sets and Theming\n- What are Design Tokens?\n- Naming Conventions\n- Light Theme & Dark Theme\n- Simple Tokens Sets\n- Complex Token Sets\n- Sets vs. Themes in Figma Tokens\n\n🎬 How to create token sets & themes\n- How to do cross-file theming \n- Getting tokens across files \n- Enable GitHub & use tokens \n\n🎬 Component tokens & collaboration\n- Component Tokens\n- Create & apply component tokens \n- Communicating applied design tokens\n- Handoff\n- Getting tokens to developers\n- Exporting Tokens \n- Transforming Design Tokens\n- Style Dictionary\n\n\n\n🎬 Best Practices\n- Convert your existing design system\n- Use the Multi Inspector\n- Create fluid scales\n- Create theme independent shadows\n- Use branching\n- Approval / Review\n- How to document\n- Encourage contributions \n\n🎬 Q&A with Jan \n👉🏻 https://bit.ly/figmatokens-workshop",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xYu6QbBY0ag/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xYu6QbBY0ag/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xYu6QbBY0ag/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=xYu6QbBY0ag",
+    "publishedAt": "2022-06-21T14:53:50Z",
+    "duration": "0:06:04"
   },
   {
     "title": "Live stream #14: Figma Config 2022 debrief",
@@ -9361,6 +10153,30 @@
     "duration": "0:02:38"
   },
   {
+    "title": "How to create Design Tokens in Figma with Figma Tokens - Tutorial with Jan Six",
+    "description": "#Figma #designsystem #designtokens #figmatips #figmatokens\n⚡️Full workshop Recording: https://bit.ly/figmatokens-workshop\n⚡️ Plugin: https://www.figmatokens.com/\n\n💥Learn how to create a token-based Design System in #Figma with Jan Six, Creator of the Figma Tokens Plugin\nWhat's included in the full workshop:\n🎬 What's new in Figma Tokens\n🎬 How to create Design Tokens in Figma:\n- Color Tokens\n- Spacing Tokens\n- Radius Tokens \n- References\n- Math\n- Typography Tokens \n- Shadow Tokens\n\n🎬 Token-sets and Theming\n- What are Design Tokens?\n- Naming Conventions\n- Light Theme & Dark Theme\n- Simple Tokens Sets\n- Complex Token Sets\n- Sets vs. Themes in Figma Tokens\n\n🎬 How to create token sets & themes\n- How to do cross-file theming \n- Getting tokens across files \n- Enable GitHub & use tokens \n\n🎬 Component tokens & collaboration\n- Component Tokens\n- Create & apply component tokens \n- Communicating applied design tokens\n- Handoff\n- Getting tokens to developers\n- Exporting Tokens \n- Transforming Design Tokens\n- Style Dictionary\n\n\n\n🎬 Best Practices\n- Convert your existing design system\n- Use the Multi Inspector\n- Create fluid scales\n- Create theme independent shadows\n- Use branching\n- Approval / Review\n- How to document\n- Encourage contributions \n\n🎬 Q&A with Jan \n👉🏻 https://bit.ly/figmatokens-workshop",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zkLfw6Jb6WM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zkLfw6Jb6WM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zkLfw6Jb6WM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zkLfw6Jb6WM",
+    "publishedAt": "2022-06-05T20:31:59Z",
+    "duration": "0:09:34"
+  },
+  {
     "title": "“Killing the spreadsheet behind every design system“ by Jiri Trecak @ Into Design Systems Conference",
     "description": "Each design system consists of many moving parts - some live in Figma, some live in our codebases, and some.. in Spreadsheets, that are used to track everything from links to health statuses to information about changes to specific elements. It is time we remove this last broken part completely.\n\n--------\nSupernova.io new components system reimagines what it means to manage your design system data in one place.\nThe Components tab inside the platform is now the replacement for all of your \"design system spreadsheets\" - bringing together the constellation of data that represents all of the facets of your components in one place - from design components to code components, to metadata used to govern processes around them.\n\nRead More in our release notes  👉 https://learn.supernova.io/latest/releases/release-69.html\n\n--------\n⏱️ TIMESTAMPS ⏱️\n\nPart 1: Keynote - “Killing the Design System Spreadsheet”\n0:00 Introduction\n1:15 What are design systems?\n3:05 Design System is a product\n4:00 Tools used to track Design Systems\n7:00 Spreadsheets run the (design system) world\n11:45 Why Spreadsheets are the pain?\n15:45 What does the ideal Design System contain?\n\nPart 2: Supernova presents a new way of managing your design system metadata and components\n19:00 Real example of how spreadsheets are being used in practice\n23:15 Get started with the new Supernova component system\n27:15 Measure component's readiness\n29:30 Create a control dashboard for your design system\n34:10 Document your design system components\n\n--------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh\nContact our sales team 👉 sales@supernova.io",
     "thumbnails": {
@@ -9455,6 +10271,54 @@
     "videoUrl": "https://www.youtube.com/watch?v=yvbQw_6hoOA",
     "publishedAt": "2022-05-27T20:26:01Z",
     "duration": "1:00:14"
+  },
+  {
+    "title": "Figma Tokens Pro - Design Tokens for Figma LAUNCH with Jan Six",
+    "description": "#FigmaTokens #DesignTokens #DesignSystems #Figma\n⚡️Full workshop with Jan Six (recording):\n👉🏻 https://bit.ly/figmatokens-workshop\n\nWhat's included in the full workshop:\n🎬 What's new in Figma Tokens\n🎬 How to create Design Tokens in Figma:\n- Color Tokens\n- Spacing Tokens\n- Radius Tokens \n- References\n- Math\n- Typography Tokens \n- Shadow Tokens\n\n🎬 Token-sets and Theming\n- What are Design Tokens?\n- Naming Conventions\n- Light Theme & Dark Theme\n- Simple Tokens Sets\n- Complex Token Sets\n- Sets vs. Themes in Figma Tokens\n\n🎬 How to create token sets & themes\n- How to do cross-file theming \n- Getting tokens across files \n- Enable GitHub & use tokens \n\n🎬 Component tokens & collaboration\n- Component Tokens\n- Create & apply component tokens \n- Communicating applied design tokens\n- Handoff\n- Getting tokens to developers\n- Exporting Tokens \n- Transforming Design Tokens\n- Style Dictionary\n\n\n\n🎬 Best Practices\n- Convert your existing design system\n- Use the Multi Inspector\n- Create fluid scales\n- Create theme independent shadows\n- Use branching\n- Approval / Review\n- How to document\n- Encourage contributions \n\n🎬 Q&A with Jan \n👉🏻 https://bit.ly/figmatokens-workshop\n\n\n⚡️Missed the conference? Get all of the recordings:\nhttps://intodesignsystems.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/KgUG_xDXg4I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/KgUG_xDXg4I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/KgUG_xDXg4I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=KgUG_xDXg4I",
+    "publishedAt": "2022-05-26T19:06:46Z",
+    "duration": "0:51:36"
+  },
+  {
+    "title": "Figma Tokens first steps of collaboration with other plugin makers - Esther Cheran",
+    "description": "#DesignTokens #FigmaTokens #DesignSystems #Figma \nLive at The Future of Design Systems with Esther Cheran, Co-creator of Figma Tokens, Chief product @ start-up in stealth-mode\n\n⚡️Get Figma Tokens Pro:\nhttps://www.figmatokens.com\n\n⚡️Full workshop with Jan Six (recording) from #FigmaTokens:\n👉🏻 https://bit.ly/figmatokens-workshop\n\nWhat's included in the full workshop:\n🎬 What's new in Figma Tokens\n🎬 How to create Design Tokens in Figma:\n- Color Tokens\n- Spacing Tokens\n- Radius Tokens \n- References\n- Math\n- Typography Tokens \n- Shadow Tokens\n\n🎬 Token-sets and Theming\n- What are Design Tokens?\n- Naming Conventions\n- Light Theme & Dark Theme\n- Simple Tokens Sets\n- Complex Token Sets\n- Sets vs. Themes in Figma Tokens\n\n🎬 How to create token sets & themes\n- How to do cross-file theming \n- Getting tokens across files \n- Enable GitHub & use tokens \n\n🎬 Component tokens & collaboration\n- Component Tokens\n- Create & apply component tokens \n- Communicating applied design tokens\n- Handoff\n- Getting tokens to developers\n- Exporting Tokens \n- Transforming Design Tokens\n- Style Dictionary\n\n\n\n🎬 Best Practices\n- Convert your existing design system\n- Use the Multi Inspector\n- Create fluid scales\n- Create theme independent shadows\n- Use branching\n- Approval / Review\n- How to document\n- Encourage contributions \n\n🎬 Q&A with Jan \n👉🏻 https://bit.ly/figmatokens-workshop",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IfY4V6CD17E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IfY4V6CD17E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IfY4V6CD17E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IfY4V6CD17E",
+    "publishedAt": "2022-05-26T18:53:32Z",
+    "duration": "0:24:37"
   },
   {
     "title": "Deciphering color and accessibility with Leonardo",
@@ -9562,6 +10426,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=cbGHgVjuTvA",
     "publishedAt": "2022-05-19T15:36:59Z",
     "duration": "0:01:57"
+  },
+  {
+    "title": "Multibrand Design System within the Volkswagen group & its brands - LIVE & Q&A",
+    "description": "#DesignSystem #Figma #DesignSystems #DesignTokens\nSpeakers:\nThorsten Jankowski, User Experience Lead Group IT, Volkswagen AG\nMatthias Fritsch, Design System Lead, MAN Truck & Bus SE\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/br3RGKY3Qgw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/br3RGKY3Qgw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/br3RGKY3Qgw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=br3RGKY3Qgw",
+    "publishedAt": "2022-05-15T16:00:16Z",
+    "duration": "1:23:38"
   },
   {
     "title": "How We Document Webinar #2: Design System Maturity",
@@ -10073,6 +10961,30 @@
     "duration": "0:55:24"
   },
   {
+    "title": "Versioning Design Systems - Gijora Dammann Live - Into Design Systems",
+    "description": "#DesignSystems #DesignSystem #DesignTokens\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/f_AwZKIKG8c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/f_AwZKIKG8c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/f_AwZKIKG8c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=f_AwZKIKG8c",
+    "publishedAt": "2022-03-30T11:00:13Z",
+    "duration": "0:33:55"
+  },
+  {
     "title": "Coding Design Systems - ep12 - A Web Components design system, with Thomas Allmer",
     "description": "Every Tuesday at 5:30PM UTC, join @Georges_Gomes, @m4d_z, and their guests in a new live coding session about design systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00:00 - Intro: Welcome Thomas Allmer (@daKmoR)\n00:04:21 - The future of Web interfaces development: get rid of dependencies of hell\n00:10:26 - Using Lit as a foundation for Web Components\n00:12:29 - Single Page Application (SPA) trend: are the Multiple Pages Applications (MPA) dead\n00:18:03 - Rocket: the modern Static Site Builder (SSG) with Web Components Server Side Rendering (SSR\n00:26:44 - Frontend Devtools trend: how we're moving from JS-based devtools to system languages-based devtools\n00:30:17 - Dev performance vs End-users performance: split the targets\n00:38:53 - Coding a Lit-based design system\n00:59:41 - Backlight starter kits\n01:03:47 - Outro: expecting from the scoped elements feature\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n\"Always Bet on Web Components!\" In this episode, we cover the future of the Web development based on Web Components. From a design system perspective to static site generation (SSG), Web Components can and should be everywhere!\n\nWe also talk about Rocket, the server side rendering (SSR) toolkit to build static site using Web Components, and we start a new starter kit for Backlight, based on the Lit framework!\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- 🐥 @daKmoR: https://twitter.com/daKmoR\n- 🐥 @OpenWc: https://twitter.com/OpenWc\n- https://open-wc.org/\n- 🐥 @modern_web_dev: https://twitter.com/modern_web_dev\n- https://modern-web.dev/\n\n- Rocket - the modern Static Site Builder: https://next.rocket.modern-web.dev/\n- ING Lion Design System: https://lion-web.netlify.app/\n- Islands Architecture by Jason Miller: https://jasonformat.com/islands-architecture/\n- Style Dictionary Playground by ‹div›RIOTS›: https://www.style-dictionary-play.dev/\n- Lit Web Components framework: https://lit.dev/\n- Web Copmonents Scoped Elements: https://open-wc.org/docs/development/scoped-elements/\n\n- ‹Coding #DesignSystems› Open Props episode with Adam Argyle: https://backlight.dev/sessions/coding-design-systems-open-props-part-2-with-adam-argyle?utm_campaign=sessions%3Acds\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 Georges Gomes: https://twitter.com/georges_gomes\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -10276,6 +11188,30 @@
     "duration": "2:02:21"
   },
   {
+    "title": "Multibrand Design System - How to get buy-in from different stakeholders",
+    "description": "#DesignSystem #DesignOps #DesignSystems \n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vEfAqz6GzX8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vEfAqz6GzX8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vEfAqz6GzX8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=vEfAqz6GzX8",
+    "publishedAt": "2022-02-17T21:28:58Z",
+    "duration": "0:03:38"
+  },
+  {
     "title": "Our Design System Journey | ep06 | Systems, Contracts, and Sharing Information",
     "description": "Our Design Systems Journey is a Live Session where a Designer (@th4is_ds) and a Developer (@m4d_z) meet to talk about their use and understanding of Design Systems. In the end they'll, fortunately, produce a comprehensive mind map covering the Design Systems to help and guide everyone in this realm.\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nIn this episode, we talk about Design Systems Philosophy and what to expect from them in a collaborative environment.",
     "thumbnails": {
@@ -10407,6 +11343,30 @@
     "duration": "0:42:50"
   },
   {
+    "title": "Flexible Design Systems empower the community",
+    "description": "#DesignSystems #DesignSystem #DesignOps\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IfUFjc4O_Xs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IfUFjc4O_Xs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IfUFjc4O_Xs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IfUFjc4O_Xs",
+    "publishedAt": "2022-01-30T12:02:54Z",
+    "duration": "0:51:00"
+  },
+  {
     "title": "Coding Design Systems | ep05 | SolidJS · Part 1 with Ryan Carniato",
     "description": "Every Tuesday at 5:30PM UTC, join @Georges_Gomes,  @m4d_z, and their guests in a new live coding session about Design Systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n0:00 - Intro\n1:52 - Starting to code for the Web\n3:18 - Ebay Marko JavaScript Framework and the Islands Pattern\n6:12 - SolidJS birth and ecosystem\n10:35 - From KnockoutJS to SolidJS: the Reactive Model\n14:31 - Reactive Primitives and Performances\n17:25 - Backlight Design System Editor\n18:44 - Storybook CSF for SolidJS\n21:48 - Branching, JSX Fragments, and SolidJS Control Flow for components\n34:14 - Styling in SolidJS\n40:10 - From React to SolidJS\n44:26 - Handling CSS variables in SolidJS States\n50:07 - MDX within SolidJS for documentation\n55:34 - Outro 🎁\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nThis week we're pleased to welcome Ryan Carniato (@RyanCarniato) on the show! An occasion to talk about SolidJS Primitives and fundamentals, and creating a new Tech Sample Starter Kit for it in Backlight.\n\nWe discuss the reactivity mental model in SolidJS, the control flow, styling and handling CSS variables, supporting CSS Modules and MDX for documentation, and way more about the SolidJS ecosystem itself.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- SolidJS: https://www.solidjs.com/\n- SolidJS Starter Kit in Backlight: https://backlight.dev/doc/Wl0L6jPiDG6dsFnKufaV/?utm_campaign=sessions%3Acds\n- SolidJS Open Source Design System Starter Kit: https://github.com/divriots/starter-solidjs?utm_campaign=sessions%3Acds\n\n- Solid-marked, a MDX/Markdown compiler for SolidJS: https://github.com/LXSMNSYC/solid-marked\n- Using mdx in SolidJS: https://github.com/high1/solid-jsx\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 Ryan Carniato: https://twitter.com/RyanCarniato | https://dev.to/ryansolid\n- 🐥 Georges Gomes: https://twitter.com/georges_gomes\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -10429,6 +11389,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=bl9P68VkCOA",
     "publishedAt": "2022-01-26T09:44:09Z",
     "duration": "0:58:57"
+  },
+  {
+    "title": "Design System Naming Conventions - A Practical Guide  -  Florian Gampert at Into Design Systems",
+    "description": "#DesignSystem #UIDesign #UXDesign\nJoin our conference to learn the latest in Design Systems 👉🏻 https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/w2LFfOtPsoc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/w2LFfOtPsoc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/w2LFfOtPsoc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=w2LFfOtPsoc",
+    "publishedAt": "2022-01-22T15:30:14Z",
+    "duration": "0:32:44"
   },
   {
     "title": "Coding Design Systems | ep04 | Open Props · Part 2 with Adam Argyle",
@@ -10503,6 +11487,30 @@
     "duration": "1:03:14"
   },
   {
+    "title": "Slicer - A tool for generating spacing tokens",
+    "description": "#DesignSystem #DesignTokens #Figma\nSlicer was created by Olex P. during our last Design Systems Hackathon. Check it out: https://team.pizza/slicer\n\n⚡️Want to dive deeper Into Design Systems?\nGet 20 hours of top-quality content from our Design Systems conference, featuring 20+ expert speakers and 2 workshops. Learn from the best in the industry.\n\nNow available: \n📼 22 Recordings of Live Presentations & Q&As \n🎨 20 hours of content\n📚 Topics: Design Tokens, Multibrand Design Systems, Design System Automation & more.\n\n👉🏻 https://intodesignsystems.gumroad.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-rUQw9epa40/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-rUQw9epa40/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-rUQw9epa40/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=-rUQw9epa40",
+    "publishedAt": "2022-01-15T15:00:42Z",
+    "duration": "0:04:03"
+  },
+  {
     "title": "Coding Design Systems | ep 03 | Stitches - Part 2",
     "description": "Every Tuesday at 5:30PM UTC, join Georges Gomes and m4dz in a new live coding session about Design Systems on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n0:00 - Intro\n0:40 - The Stitches Starter Kit \n1:39 - Creating a new branch for updates\n2:00 - Fixing Sizes tokens\n3:15 - The Button Component\n9:20 - Adding a Disabled variant\n26:40 - Creating Component documentation\n36:22 - Pushing the branch\n37:16 - Outro\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nThis week, we continue our Tech Sample to demo Stitches by Modulz. We work on adding variants to our button component, fixing elements, and using the built-in diff tool to commit and push the changes to the underlying repository on Github.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- Stitches: https://stitches.dev/\n- Dockit-react Documentation Framework: https://github.com/divriots/dockit-react\n- Stitches Tech Sample in Backlight: https://backlight.dev/review/oDcLTC4uuKc9dEF5lbrz/?utm_campaign=sessions%3Acds\n- Stitches Open Source Design System Tech Sample: https://github.com/divriots/starter-stitches\n- Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 Stitches: https://twitter.com/stitchesjs\n- 🐥 Georges Gomes: https://twitter.com/georges_gomes\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -10527,6 +11535,54 @@
     "duration": "0:37:32"
   },
   {
+    "title": "Component Automator Plugin for Figma - Mike Kamminga & Team",
+    "description": "#Figma #DesignSystem #DesignTokens\nComponent Automator Plugin for Figma created by Team Component Automator during https://www.dshackathon.de/\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9bJM9YPUnTs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9bJM9YPUnTs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9bJM9YPUnTs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9bJM9YPUnTs",
+    "publishedAt": "2022-01-11T18:01:21Z",
+    "duration": "0:02:10"
+  },
+  {
+    "title": "Can AI help us to complete repetitive tasks (and make design fun again)? - Mike Kamminga",
+    "description": "#DesignSystem #DesignTokens #Figma\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5BNn1XiQrGA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5BNn1XiQrGA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5BNn1XiQrGA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5BNn1XiQrGA",
+    "publishedAt": "2022-01-11T13:39:52Z",
+    "duration": "0:19:29"
+  },
+  {
     "title": "Building a Design System with Supernova.io (Product Hunt speedrun)",
     "description": "Welcome, Supernova.io, the futuristic design system platform that makes managing, building, and maintaining design systems easier for everyone involved. \n\nSupernova is free for individuals. Sign up here: https://cloud.supernova.io/signup\nRead everything about Supernova here: https://supernova.io\n\n💥We are LIVE on Product Hunt 👉 https://www.producthunt.com/posts/supernova-io\n\n--------\n\n⏱️ TIMESTAMPS ⏱️\n\n0:00 Supernova Introduction\n00:30 Link Figma Design Files\n1:50 Managing design system\n2:29 Creating documentation\n8:07 Automated delivery of token, styles, assets, and code\n\n--------\nRelated Tutorials:\n\nHow to import design files from Figma 👉\nhttps://www.youtube.com/watch?v=aW0ytHaPxAs\n\nHow to manage your design system documentation 👉\nhttps://www.youtube.com/watch?v=0QkffH56lj0\n\nHow to manage your design tokens 👉\nhttps://www.youtube.com/watch?v=r0RkrarSgZI\n\nHow to import design system assets 👉\nhttps://www.youtube.com/watch?v=KlmWHukPjYk\n\nHow to create continuous design system delivery 👉 \nhttps://www.youtube.com/watch?v=LGVE6q8l23k\n\n📮SUBSCRIBE for NEW VIDEOS!\n\n--------\n\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -10549,6 +11605,54 @@
     "videoUrl": "https://www.youtube.com/watch?v=0xOfPSqqgrQ",
     "publishedAt": "2022-01-10T23:13:10Z",
     "duration": "0:11:20"
+  },
+  {
+    "title": "Team Handoff Kit - A Component Spec Tool Kit for Figma",
+    "description": "Team Handoff Kit 🏆 - Is the winner of our #DesignSystems #Hackathon (https://www.dshackathon.de/)  and here is the winner pitch! The Kit will be released at out next conferece.\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/g2Y0KEJA1ds/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/g2Y0KEJA1ds/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/g2Y0KEJA1ds/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=g2Y0KEJA1ds",
+    "publishedAt": "2022-01-10T08:48:25Z",
+    "duration": "0:04:36"
+  },
+  {
+    "title": "Managing Multi themed Design Systems with Dark Vader - Zero",
+    "description": "#Figma #DesignSystem #DarkTheme #UIDesign #DesignSystems\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rF9_5SueTCU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rF9_5SueTCU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rF9_5SueTCU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rF9_5SueTCU",
+    "publishedAt": "2022-01-09T07:56:28Z",
+    "duration": "0:10:44"
   },
   {
     "title": "Live stream #9: Consultancy",
@@ -10584,6 +11688,30 @@
     "publishedAt": "2022-01-08T12:09:56Z",
     "privacyStatus": "public",
     "duration": "1:02:26"
+  },
+  {
+    "title": "Scratching your own itch with Figma plugins - Jan Six",
+    "description": "#FigmaTokens #DesignSystem #Figma #DesignTokens #DesignSystems\n⚡️Full workshop with Jan Six (recording):\n👉🏻 https://bit.ly/figmatokens-workshop\n\nWhat's included in the full workshop:\n🎬 What's new in Figma Tokens\n🎬 How to create Design Tokens in Figma:\n- Color Tokens\n- Spacing Tokens\n- Radius Tokens \n- References\n- Math\n- Typography Tokens \n- Shadow Tokens\n\n🎬 Token-sets and Theming\n- What are Design Tokens?\n- Naming Conventions\n- Light Theme & Dark Theme\n- Simple Tokens Sets\n- Complex Token Sets\n- Sets vs. Themes in Figma Tokens\n\n🎬 How to create token sets & themes\n- How to do cross-file theming \n- Getting tokens across files \n- Enable GitHub & use tokens \n\n🎬 Component tokens & collaboration\n- Component Tokens\n- Create & apply component tokens \n- Communicating applied design tokens\n- Handoff\n- Getting tokens to developers\n- Exporting Tokens \n- Transforming Design Tokens\n- Style Dictionary\n\n\n🎬 Best Practices\n- Convert your existing design system\n- Use the Multi Inspector\n- Create fluid scales\n- Create theme independent shadows\n- Use branching\n- Approval / Review\n- How to document\n- Encourage contributions \n\n🎬 Q&A with Jan \n👉🏻 https://bit.ly/figmatokens-workshop",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GntvmvU2rdw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GntvmvU2rdw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GntvmvU2rdw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=GntvmvU2rdw",
+    "publishedAt": "2022-01-07T21:00:18Z",
+    "duration": "0:19:51"
   },
   {
     "title": "Build and ship a Design System in 45 minutes",
@@ -11348,6 +12476,30 @@
     "duration": "0:01:40"
   },
   {
+    "title": "Design Tokens Explained  Multibrand Design Systems - Louis Chenais",
+    "description": "#DesignSystems #DesignTokens #DesignSystem #UIDesign #Specify\nHow design tokens empower multi-brand design systems - Louis Chenais 🟢 Live at Into Design Systems \n🔥Specify: https://specifyapp.com/?ref=ids2\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uiCGvhI7Vwo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uiCGvhI7Vwo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uiCGvhI7Vwo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=uiCGvhI7Vwo",
+    "publishedAt": "2021-10-18T07:08:34Z",
+    "duration": "0:48:45"
+  },
+  {
     "title": "Starter Kit Walk-through | Origami",
     "description": "Demo of the Origami Starter Kit in Backlight.dev\n\nBacklight.dev's Origami Starter-Kit is a comprehensive set of components to let build you own Design System based on React Paper and React Native.\n\n▬ Resources ▬▬▬▬▬▬▬▬▬▬\n\n- Open-source Starter-kit → https://github.com/divriots/starter-origami\n- Paper → https://reactnativepaper.com/\n- React Native → https://reactnative.dev/\n- ‹div›RIOTS Dockit documents rendering engine for React → https://github.com/divriots/dockit-react\n\n▬ Made in Backlight! ▬▬▬▬▬▬▬▬▬▬\n\nCheck out the Origami Starter Kit → https://backlight.dev/edit/VvdVbvAaydq8hYLh7RLq/\n\nCheck out Backlight.dev → https://backlight.dev",
     "thumbnails": {
@@ -11372,6 +12524,30 @@
     "duration": "0:32:13"
   },
   {
+    "title": "Theming withDesign Tokens - Danny Banks, Into Design Systems, Sept 2021",
+    "description": "#DesignSystems #DesignTokens #DesignSystem\nTheming with Design Tokens - Danny Banks, Into Design Systems, Sept 2021\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/P7kR5dag8iw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/P7kR5dag8iw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/P7kR5dag8iw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=P7kR5dag8iw",
+    "publishedAt": "2021-10-13T08:57:33Z",
+    "duration": "0:10:49"
+  },
+  {
     "title": "Tech Sample Demo | React + System UI (Theme UI/styled-components)",
     "description": "Demo of the System UI Tech Sample in Backlight.dev\n\nBacklight.dev Tech Samples are lightweight Starter-Kit you could use to try technologies in a playground, or start your own Design System from scratch with them.\n\n▬ Contents of this video ▬▬▬▬▬▬▬▬▬▬\n\n0:00 - Intro\n0:43 - System UI\n2:04 - Design Tokens\n4:50 - Theme UI\n9:27 - styled-components\n12:57 - Adding a Theme UI component\n17:07 - Outro\n\n\n▬ Resources ▬▬▬▬▬▬▬▬▬▬\n\n- Open-source Starter-kit → https://github.com/divriots/starter-react-sui\n- System UI Tokens system → https://system-ui.com/\n- Theme UI Components → https://theme-ui.com/\n- styled-components theming → https://styled-components.com\n- ‹div›RIOTS Dockit documents rendering engine for React → https://github.com/divriots/dockit-react\n\n\n▬ Made in Backlight! ▬▬▬▬▬▬▬▬▬▬\n\nCheck out the React System UI Tech Sample → https://backlight.dev/preview/z99ptYZyvMOGDivUlP9u\n\nCheck out Backlight.dev → https://backlight.dev",
     "thumbnails": {
@@ -11394,6 +12570,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=VH1Yd5XBuC0",
     "publishedAt": "2021-10-05T13:46:39Z",
     "duration": "0:18:19"
+  },
+  {
+    "title": "Continuous design systems - Jan Toman 🟢 Live at Into Design Systems Conference",
+    "description": "#Figma #DesignSystems #UIDesign #FigmaDesign #DesignSystem\nJoin our conference to learn the latest in Design Systems 👉🏻 https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LshTQfCvZqw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LshTQfCvZqw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LshTQfCvZqw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LshTQfCvZqw",
+    "publishedAt": "2021-10-04T09:58:09Z",
+    "duration": "0:47:25"
   },
   {
     "title": "Live stream #7: Governance",
@@ -11855,6 +13055,30 @@
     "duration": "0:00:42"
   },
   {
+    "title": "A Maturity Model For Design Systems - Ben Callahan Live",
+    "description": "#DesignSystem #DesignSystems\nA Maturity Model for Design Systems - Ben Callahan, President of Sparkbox\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gDivO1v02WU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gDivO1v02WU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gDivO1v02WU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gDivO1v02WU",
+    "publishedAt": "2021-07-27T22:31:45Z",
+    "duration": "0:48:41"
+  },
+  {
     "title": "Live stream #4: Documentation",
     "description": "Where we talk (mostly) about documentation for design systems.",
     "thumbnails": {
@@ -11888,6 +13112,30 @@
     "publishedAt": "2021-06-12T11:04:35Z",
     "privacyStatus": "public",
     "duration": "0:59:22"
+  },
+  {
+    "title": "Design Tokens in Figma: How to get started, today. Jan Six - Live & Q&A-  Into Design Systems",
+    "description": "#FigmaTokens #DesignTokens #Figma #DesignSystem #designsystems \n⚡️ Join our conference to learn the latest in Design Systems \n👉🏻 https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ka1I5TphDb0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ka1I5TphDb0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ka1I5TphDb0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ka1I5TphDb0",
+    "publishedAt": "2021-06-10T10:30:49Z",
+    "duration": "0:47:09"
   },
   {
     "title": "Mastering design systems components in Figma - Jan Toman - Design System Lead @ Productboard",
