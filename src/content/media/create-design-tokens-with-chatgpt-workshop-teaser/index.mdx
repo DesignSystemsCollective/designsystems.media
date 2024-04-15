@@ -1,0 +1,71 @@
+---
+title: "Create Design Tokens with ChatGPT - Workshop Teaser with Chris Lüders"
+publishedAt: "2023-05-16T19:33:23Z"
+image: "./hqdefault.jpg"
+dateAdded: "2024-04-15"
+poster: "./maxresdefault.jpg"
+videoUrl: "https://www.youtube.com/watch?v=x5OEclxKAdg"
+localImages: true
+tags: ["Unsorted"]
+categories: ["Video"]
+duration: "0:26:03"
+privacyStatus: "undefined"
+draft: true
+speakers: ["Unsorted"]
+---
+#chatgpt #designsystems #automation #uxdesign #userexperience 
+LIVE workshop: 🗓️ June, 11th - 4PM - 8 PM CEST
+Workshop facilitator: Chris Lüders, Design Systems Lead
+🎟️ Limited LIVE Seats!
+📼 Can't make it live? Recording passes available!
+👉🏻 Tickets: https://intodesignsystems.gumroad.com/l/aiworkshop
+
+⚡️Workshop: How to build a Design System with Design Tokens in Figma - Jan Six, Creator of Tokens Studio
+👉🏻 https://intodesignsystems.gumroad.com/l/opter
+
+Our big annual online Design Systems conference is coming! 🚀
+The Future of Design Systems 🚀
+🗓️June 8-9 Online 🌎worldwide
+⚡️Tickets now on sale! Limited seats!! ⚡️
+Join us 🙌🏻
+👉🏻 Tickets: https://www.intodesignsystems.com
+
+Main topics:
+🎨 Headless Design Systems
+🤖 Automation of Design Systems
+📈 Data Driven Design Systems
+⚡️ Design Tokens
+
+👉🏻 Steps & Prompt to create #DesignTokens with #ChatGPT :
+Create a JSON object containing design tokens for a typescale within a design system. The JSON object should have the following structure:
+
+1. A "typography" object containing "headline", "intro", "body", and "caption" categories.
+2. Headline category should include H1 to H5.
+3. Font sizes should range from 80px to 12px, with the largest size being 80px and the smallest 12px.
+4. The fontWeight "normal" should be named "Regular".
+5. Font size and line height tokens should use size names XS to XXL.
+6. Font family, font size, line height, and font weight tokens should be separate hierarchy points, referenced in the "typography" object as properties.
+7. Use singular naming for all tokens.
+8. Define font weight values as "Regular" and "Bold" instead of numeric values.
+9. Provide line height values in pixels.
+10. Use property names like "{fontSizes.xxl}" to define all properties of the font styles.
+11. Use Montserrat for the font family
+12. Define a "type" for all arrays like here:
+"xl": {
+      "value": "64px",
+      "type": "fontSizes"
+    }
+13. The JSON structure should resemble the following example for H1:
+
+{
+"H1": {
+        "value": {
+          "fontFamily": "{fontFamilies.sansSerif}",
+          "fontWeight": "{fontWeights.bold}",
+          "fontSize": "{fontSizes.xxl}",
+          "lineHeight": "{lineHeights.xxl}"
+        }
+}
+}
+
+Ensure that the JSON object provided always matches this structure and token hierarchy.
