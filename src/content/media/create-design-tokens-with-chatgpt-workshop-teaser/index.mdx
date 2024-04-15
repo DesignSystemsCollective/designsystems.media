@@ -48,15 +48,20 @@ Create a JSON object containing design tokens for a typescale within a design sy
 7. Use singular naming for all tokens.
 8. Define font weight values as "Regular" and "Bold" instead of numeric values.
 9. Provide line height values in pixels.
-10. Use property names like "{fontSizes.xxl}" to define all properties of the font styles.
+10. Use property names like "`{fontSizes.xxl}`" to define all properties of the font styles.
 11. Use Montserrat for the font family
 12. Define a "type" for all arrays like here:
+
+```
 "xl": {
       "value": "64px",
       "type": "fontSizes"
     }
+```
+
 13. The JSON structure should resemble the following example for H1:
 
+```
 {
 "H1": {
         "value": {
@@ -67,5 +72,6 @@ Create a JSON object containing design tokens for a typescale within a design sy
         }
 }
 }
+```
 
 Ensure that the JSON object provided always matches this structure and token hierarchy.
