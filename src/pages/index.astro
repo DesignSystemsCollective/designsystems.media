@@ -6,12 +6,12 @@ import LibraryStats from "../components/LibraryStats.astro";
 import MediaGrid from "../components/MediaGrid.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Footer from "../layouts/Footer.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
+import { isDurationUnderOneMinute } from "../utils/isDurationUnderOneMinute";
 
 const media = (await getCollection("media"))
   .filter((post) => {
-    return !post.data.draft;
+    return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
   .slice(0, 12);
