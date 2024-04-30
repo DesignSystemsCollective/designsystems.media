@@ -1,5 +1,101 @@
 [
   {
+    "title": "Introducing WCAG 2.2 guidance to the GOV.UK Design System - DSL #9",
+    "description": "“Introducing WCAG 2.2 guidance to the GOV.UK Design System” with Calvin Lau and Charlotte Downs (Senior Content Designer and Senior Interaction Designer at Government Digital Service)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ry00hwrF7-M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ry00hwrF7-M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ry00hwrF7-M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ry00hwrF7-M",
+    "publishedAt": "2024-04-29T09:20:10Z",
+    "duration": "0:23:33"
+  },
+  {
+    "title": "Getting started with iOS accessibility - DSL #9",
+    "description": "“Getting started with iOS accessibility” with Ilia Chikmarev (Senior IOS Software Engineer, Just Eat Takeaway.com)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qARcnT1JSiU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qARcnT1JSiU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qARcnT1JSiU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qARcnT1JSiU",
+    "publishedAt": "2024-04-29T09:20:06Z",
+    "duration": "0:20:02"
+  },
+  {
+    "title": "Fostering Adoption - DSL #9",
+    "description": "“Fostering Adoption” with Manuela Costa (Design System Consultant, Esri)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RGYhZxQ9i4g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RGYhZxQ9i4g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RGYhZxQ9i4g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RGYhZxQ9i4g",
+    "publishedAt": "2024-04-29T09:20:03Z",
+    "duration": "0:21:10"
+  },
+  {
+    "title": "Design Systems London #9",
+    "description": "Full recording of our DSL #9 meetup, organised by YLD and sponsored by Just Eat Takeaway.com\n\n00:00 Intros\n11:41 First talk \n“Fostering Adoption” with Manuela Costa (Design System Consultant, Esri)\n34:14 Second talk\n“Getting started with iOS accessibility” with Ilia Chikmarev (Senior IOS Software Engineer, Just Eat Takeaway.com)\n55:26 Third talk\n“Introducing WCAG 2.2 guidance to the GOV.UK Design System” with Calvin Lau and Charlotte Downs (Senior Content Designer and Senior Interaction Designer at Government Digital Service)\n01:19:28 Q&A session\n01:50:40 Wrap up\n\nFollow DSL on x : @DSLConf\nand Linkedin  / design-systems-london\n\nUse our hastags: #DesignSystemsLondon #DSL #designsystems \n\nJoin the conversation:\nx @YLDio\nLinkedIn https://www.linkedin.com/showcase/design-systems-london/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/L2EkOiClVUY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/L2EkOiClVUY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/L2EkOiClVUY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=L2EkOiClVUY",
+    "publishedAt": "2024-04-29T09:19:54Z",
+    "duration": "1:54:03"
+  },
+  {
     "title": "The Role of a Product Manager in a Design System Team",
     "description": "What is the role of a Product Manager in a design system team? We discussed how their role differs from traditional product management and how they contribute to the team's success. \n\nWatch our How We Document series on YouTube now! 🎬",
     "thumbnails": {
