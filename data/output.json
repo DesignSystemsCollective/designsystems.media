@@ -1,5 +1,101 @@
 [
   {
+    "title": "What are Design Tokens? Explain like to a 5 year old #designsystems",
+    "description": "#shorts #shortsvideo \nWhat are #DesignTokens? Explain them with a simple example as if to a 5 year old 🍭 with Samantha Gordashko\n\nMore at our upcoming workshop: \nHow to name & automate Design Tokens\n👉🏻 Reserve your spot: https://www.intodesignsystems.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/c8wcfXtmxvI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/c8wcfXtmxvI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/c8wcfXtmxvI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=c8wcfXtmxvI",
+    "publishedAt": "2024-05-05T09:47:56Z",
+    "duration": "0:00:56"
+  },
+  {
+    "title": "What are Design Tokens & how to name them with Sam Gordashko",
+    "description": "Learn to master Design Tokens at our conference: https://www.intodesignsystems.com/design-tokens\n\nWhat are Design Tokens? Explain as if to a 5 year old.\nWhat are the benefits of Design Tokens?\nHow to name Design Tokens?\nWhen to use Figma variables and when to use Tokens Studio? Or both?\n\nConnect with Sam:\nhttps://twitter.com/SamIam_Designs\nhttps://bento.me/samiam\nhttps://www.youtube.com/@SamIam_Designs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/B__y8Xgvws0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/B__y8Xgvws0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/B__y8Xgvws0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=B__y8Xgvws0",
+    "publishedAt": "2024-05-04T08:16:11Z",
+    "duration": "0:32:57"
+  },
+  {
+    "title": "Building a Business Case & Proving ROI — design systems experts panel, hosted by Supernova",
+    "description": "Design Systems experts Josh Clark (Founder & Principal at Big Medium), Lauren LoPrete (Design Director, Design Systems at Cash App, previously Dropbox), and PJ Onori (Sr. Design Manager at Instacart, previously Pinterest) had an in-depth discussion about how they’ve gotten executive buy-in and proven the ROI of design systems. \n\nDuring the 1-hour panel, they highlight the importance of strategic thinking, executive alignment, and tangible demonstrations in maximizing the value of design systems within organizations.\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QI_eHw93NUo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QI_eHw93NUo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QI_eHw93NUo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QI_eHw93NUo",
+    "publishedAt": "2024-05-04T08:00:22Z",
+    "duration": "1:01:28"
+  },
+  {
+    "title": "Design Systems Rodeo #4: True Colours",
+    "description": "Andrew created the APCA color contrast specification that will be introduced in WCAG3. In this interview, we talk about how Andrew became interested in the topic and why APCA compliance is necessary for accessibility.\n\nHost: Kevin Muldoon - https://www.linkedin.com/in/kevinrmuldoon/\nGuest: Andrew Somers \n\nA new podcast where Kevin Muldoon and guests wrangle with the big common problems that design systems face. Every episode, they’ll hogtie a challenge, give it a good once over, and share the best techniques they’ve found to conquer them, from dealing with inconsistency to naming to white-label systems.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RPcE-EpHvb0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RPcE-EpHvb0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RPcE-EpHvb0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RPcE-EpHvb0",
+    "publishedAt": "2024-05-02T15:35:48Z",
+    "duration": "0:29:22"
+  },
+  {
     "title": "Introducing WCAG 2.2 guidance to the GOV.UK Design System - DSL #9",
     "description": "“Introducing WCAG 2.2 guidance to the GOV.UK Design System” with Calvin Lau and Charlotte Downs (Senior Content Designer and Senior Interaction Designer at Government Digital Service)",
     "thumbnails": {
