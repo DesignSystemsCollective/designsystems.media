@@ -17,12 +17,17 @@
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.4.3",
     "@astrojs/mdx": "^2.0.1",
+    "@astrojs/react": "^3.3.4",
     "@astrojs/rss": "^4.0.1",
     "@astrojs/sitemap": "^3.0.3",
+    "@keystatic/astro": "^5.0.0",
+    "@keystatic/core": "^0.5.14",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
     "astro": "^4.0.4",
     "astro-google-analytics": "^1.0.3",
     "astro-icon": "^0.8.2",
-    "astro-pagefind": "^1.2.4",
+    "astro-pagefind": "^1.5.0",
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "fs": "^0.0.1-security",
@@ -31,6 +36,8 @@
     "he": "^1.2.0",
     "markdown-it": "^14.0.0",
     "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "slugify": "^1.6.6"
   }
 }
