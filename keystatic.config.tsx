@@ -2,7 +2,7 @@ import { collection, config, fields } from "@keystatic/core";
 
 export default config({
   storage: {
-    kind: "github",
+    kind: process.env.NODE_ENV === "development" ? "local" : "github",
     repo: "DesignSystemsCollective/designsystems.media",
     branchPrefix: "keystatic/",
   },
