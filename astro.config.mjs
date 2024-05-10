@@ -6,9 +6,12 @@ import sitemap from "@astrojs/sitemap";
 import react from "@astrojs/react";
 import keystaticAstro from "@keystatic/astro";
 
+import netlify from "@astrojs/netlify/functions";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://designsystems.media",
   integrations: [mdx(), sitemap(), pagefind(), react(), keystaticAstro()],
   output: "hybrid",
+  adapter: netlify(),
 });
