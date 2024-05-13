@@ -1,5 +1,101 @@
 [
   {
+    "title": "Setting Up a Multi-Brand Design System with Supernova — workshop with Beatriz",
+    "description": "A hands-on workshop with Beatriz Novais (Design Systems Advocate at Supernova) to learn how to set up a multi-brand design system within Supernova. We’ll tackle how to determine which setup is best suited for your design system needs and walk through how to implement it in Supernova.\n\nIn the workshop, we utilized this FigJam board. Come join us there; it's packed with fantastic resources! 👉 https://bit.ly/44zDS5y\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/98rHrPj_kEM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/98rHrPj_kEM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/98rHrPj_kEM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=98rHrPj_kEM",
+    "publishedAt": "2024-05-10T08:33:00Z",
+    "duration": "0:55:44"
+  },
+  {
+    "title": "design systems wtf #17: Should Figma be the source of truth?",
+    "description": "Should Figma be the source of truth?\n\nFigma is currently dominating the design landscape, and with good reason. They’ve taken what we’ve done with product and UX design and allowed us to do so much more than we used to be able to. With the release and continued improvement of Dev Mode, they’re hoovering up more use cases and raising the question: are we happy with a design tool being the source of truth for all product teams?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JxFCEjHsTm0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JxFCEjHsTm0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JxFCEjHsTm0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JxFCEjHsTm0",
+    "publishedAt": "2024-05-09T11:04:00Z",
+    "duration": "0:26:55"
+  },
+  {
+    "title": "A Design Tokens is not a variable #designtokens #figma",
+    "description": "#shorts \n#DesignTokens vs #Figma variables\nConsider this when using #Figma variables in your #DesignSystem\n\nLearn Design Tokens at Into Design Systems Conference:\nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PM_TGUEr3aY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PM_TGUEr3aY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PM_TGUEr3aY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PM_TGUEr3aY",
+    "publishedAt": "2024-05-07T06:47:28Z",
+    "duration": "0:00:54"
+  },
+  {
+    "title": "Figma Variables vs Tokens Studio",
+    "description": "When to use #figma variables or Tokens Studio?\nIs a variable a Design Token?\n\nInterview with @SamIam_Designs \n\nResources:\nInto Design Systems Conference: https://www.intodesignsystems.com\n\nAbout Sam: https://bento.me/samiam\n@TokensStudio  https://tokens.studio\n@Penpot : https://penpot.app",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/H9_EYanMXPk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/H9_EYanMXPk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/H9_EYanMXPk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=H9_EYanMXPk",
+    "publishedAt": "2024-05-06T14:30:04Z",
+    "duration": "0:06:44"
+  },
+  {
     "title": "What are Design Tokens? Explain like to a 5 year old #designsystems",
     "description": "#shorts #shortsvideo \nWhat are #DesignTokens? Explain them with a simple example as if to a 5 year old 🍭 with Samantha Gordashko\n\nMore at our upcoming workshop: \nHow to name & automate Design Tokens\n👉🏻 Reserve your spot: https://www.intodesignsystems.com/",
     "thumbnails": {
