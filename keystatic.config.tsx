@@ -14,6 +14,7 @@ export default config({
   collections: {
     media: collection({
       label: "Media",
+      entryLayout: "content",
       path: "src/content/media/*/",
       slugField: "title",
       format: {
@@ -22,11 +23,11 @@ export default config({
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
         description: fields.text({ label: "Description", multiline: true }),
-        publishedAt: fields.date({
+        publishedAt: fields.text({
           label: "Published At",
           validation: { isRequired: true },
         }),
-        dateAdded: fields.date({ label: "Date added" }),
+        dateAdded: fields.text({ label: "Date added" }),
         image: fields.text({ label: "Image" }),
         poster: fields.text({ label: "Poster" }),
         localImages: fields.checkbox({
