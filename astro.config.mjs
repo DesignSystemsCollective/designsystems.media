@@ -1,7 +1,7 @@
-import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
-import pagefind from "astro-pagefind";
 import sitemap from "@astrojs/sitemap";
+import pagefind from "astro-pagefind";
+import { defineConfig, passthroughImageService } from "astro/config";
 
 import react from "@astrojs/react";
 import keystaticAstro from "@keystatic/astro";
@@ -14,4 +14,7 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), pagefind(), react(), keystaticAstro()],
   output: "hybrid",
   adapter: netlify(),
+  image: {
+    service: passthroughImageService(),
+  },
 });
