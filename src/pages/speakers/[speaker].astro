@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-import { Icon } from "astro-icon";
+import icon from "astro-icon";
 import MediaGrid from "../../components/MediaGrid.astro";
 export async function getStaticPaths() {
   const allPosts = await getCollection("media");
@@ -33,7 +33,7 @@ const { posts } = Astro.props;
 
 <BaseLayout sidebar={true} metadataProps={{ title: speaker }}>
   <a href="/speakers" class="breadcrumb">
-    <Icon name="fluent:tag-20-filled" size="20" />Speakers
+    <icon name="fluent:tag-20-filled" size="20" />Speakers
   </a>
   <h2>{speaker}</h2>
   <MediaGrid media={posts} />
