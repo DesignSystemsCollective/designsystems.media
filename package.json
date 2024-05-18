@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Frank Congson",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DesignSystemsCollective/designsystems.media"
+  },
   "scripts": {
     "videos": "node scripts/getVideos.js",
     "images": "node scripts/getImages.js",

@@ -2,9 +2,11 @@
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
+import { repository } from "../../package.json";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
 import { formatDuration } from "../utils/formatDuration";
+
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
@@ -77,6 +79,13 @@ const {
           ))
         }
       </div>
+      <span class="inline">
+        <Icon name="fluent:edit-20-filled" size={20} />
+        <a
+          href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}
+          >Edit on GitHub</a
+        >
+      </span>
     </div>
     <div class="prose" data-pagefind-weight="3">
       <slot />
