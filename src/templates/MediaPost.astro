@@ -1,6 +1,6 @@
 ---
 import { YouTube } from "@astro-community/astro-embed-youtube";
-import icon from "astro-icon";
+import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
@@ -33,22 +33,22 @@ const {
   <div class="content">
     <div class="meta-data">
       <span class="inline">
-        <icon name="fluent:calendar-date-20-filled" size="20" />
+        <Icon name="fluent:calendar-date-20-filled" size={20} />
         <FormattedDate date={publishedAt} data-pagefind-sort="date" />
       </span>
       <span class="inline">
-        <icon name="fluent:clock-20-filled" size="20" />
+        <Icon name="fluent:clock-20-filled" size={20} />
         <span data-pagefind-sort="duration">
           {formatDuration(duration)}
         </span>
       </span>
       <span class="inline">
-        <icon name="fluent:window-new-20-filled" size="20" />
+        <Icon name="fluent:window-new-20-filled" size={20} />
         <a href={videoUrl} title={title}>Link to video</a>
       </span>
       <div class="break"></div>
       <div class="tags">
-        <span><icon name="fluent:tag-20-filled" size="20" />Tags</span>
+        <span><Icon name="fluent:tag-20-filled" size={20} />Tags</span>
         {
           tags?.map((tag) => (
             <a
@@ -63,7 +63,7 @@ const {
         }
       </div>
       <div class="speakers">
-        <span><icon name="fluent:person-20-filled" size="20" />Speakers</span>
+        <span><Icon name="fluent:person-20-filled" size={20} />Speakers</span>
         {
           speakers?.map((speaker) => (
             <a
@@ -181,12 +181,12 @@ const {
   .break {
     display: none;
   }
-  .meta-data [astro-icon] {
+  .meta-data [data-icon] {
     margin-right: 0.25em;
     position: absolute;
     transform: translateX(-1.8rem);
   }
-  .meta-data span.inline [astro-icon] {
+  .meta-data span.inline [data-icon] {
     margin-top: 0.2em;
   }
   .content {
@@ -217,7 +217,7 @@ const {
       flex-direction: row;
       gap: 0em 2rem;
     }
-    .meta-data [astro-icon] {
+    .meta-data [data-icon] {
       position: relative;
       transform: translateX(0);
     }

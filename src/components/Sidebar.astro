@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 
-import icon from "astro-icon";
+import { Icon } from "astro-icon/components";
 const allPosts = await getCollection("media");
 
 // Filter posts with tags
@@ -49,8 +49,8 @@ function calculatePostCountForSpeaker(speakerName) {
 <aside id="sidebar">
   <details>
     <summary>
-      <icon name="fluent:tag-20-filled" size="20" /> Tags
-      <icon name="fluent:chevron-down-24-filled" size="24" class="toggle" />
+      <Icon name="fluent:tag-20-filled" size={20} /> Tags
+      <Icon name="fluent:chevron-down-24-filled" size={24} class="toggle" />
     </summary>
     <ul class="tags">
       {
@@ -70,8 +70,8 @@ function calculatePostCountForSpeaker(speakerName) {
   </details>
   <details>
     <summary>
-      <icon name="fluent:person-20-filled" size="20" /> Speakers
-      <icon name="fluent:chevron-down-24-filled" size="24" class="toggle" />
+      <Icon name="fluent:person-20-filled" size={20} /> Speakers
+      <Icon name="fluent:chevron-down-24-filled" size={24} class="toggle" />
     </summary>
     <ul class="tags">
       {
@@ -110,7 +110,7 @@ function calculatePostCountForSpeaker(speakerName) {
     border-bottom: 1px solid var(--layout-border);
     margin-bottom: 0.5em;
   }
-  [astro-icon] {
+  [data-icon] {
     position: relative;
     top: 0.25rem;
   }
