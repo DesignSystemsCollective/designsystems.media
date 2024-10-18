@@ -15,17 +15,19 @@ export async function getStaticPaths() {
       return {
         params: { tag },
       };
-    const filteredPosts = allPosts.filter((post) => {
-      return !post.data.draft && post.data.tags?.includes(tag);
-    });
+    const filteredPosts = allPosts
+      .filter((post) => !post.data.draft && post.data.tags?.includes(tag))
+      .sort(
+        (a, b) =>
+          new Date(b.data.publishedAt).getTime() -
+          new Date(a.data.publishedAt).getTime(),
+      ); // Sorting by date, most recent first
     return {
       params: { tag },
       props: { posts: filteredPosts },
     };
   });
 }
-
-// TODO: How to get the results sorting by date order?
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
