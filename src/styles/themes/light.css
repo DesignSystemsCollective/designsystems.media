@@ -1,0 +1,29 @@
+html[data-theme="light"] {
+  --accent: 94, 67, 243;
+  --shadow: 22, 26, 29;
+
+  --site-background: #ffffff;
+  --header-background: #f6f8fa;
+  --layout-border: #dee4ea;
+  --header-text: #000;
+  --footer-text: #000;
+
+  --accent-hover: #a688fa;
+  --accent-dark: #7a5af5;
+  --interactive: #101214;
+  --body-text: #101214;
+  --meta-data: #738496;
+
+  --tx: var(--neutral-black);
+  --tx-2: var(--neutral-600);
+  --tx-3: var(--neutral-300);
+  --ui: var(--neutral-100);
+  --ui-2: var(--neutral-150);
+  --ui-3: var(--neutral-200);
+  --bg: var(--neutral-paper);
+  --bg-2: var(--neutral-50);
+
+  --pagefind-ui-primary: rgb(var(--accent));
+  --pagefind-ui-border: var(--layout-border);
+  --pagefind-ui-tag: #eeeeee;
+}

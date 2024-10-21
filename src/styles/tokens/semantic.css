@@ -1,0 +1,25 @@
+:root {
+  --header-height: 68px;
+
+  --sidebar-background: var(--site-background);
+  --footer-background: rgba(var(--accent), 10%);
+
+  --meta-data-link: rgb(var(--accent));
+  --icons: var(--meta-data);
+  --hr: var(--layout-border);
+
+  --tagCount-text: var(--body-text);
+  --tagCount-label: var(--body-text);
+  --tagCount-icon: rgba(var(--accent), 50%);
+  --tagCount-count: rgba(var(--accent), 80%);
+  --tagCount-background: rgba(var(--accent), 10%);
+
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-text: var(--body-text);
+  --pagefind-ui-background: transparent;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 16 / 9;
+  --pagefind-ui-font: "Atkinson", sans-serif;
+}

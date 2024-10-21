@@ -1,11 +1,9 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+@import "tokens/semantic.css";
+@import "themes/light.css";
+@import "themes/dark.css";
 
 :root {
-  --header-height: 68px;
+  /* colours */
   --neutral-black: #100f0f;
   --neutral-950: #1c1b1a;
   --neutral-900: #282726;
@@ -21,96 +19,12 @@
   --neutral-50: #f2f0e5;
   --neutral-paper: #fffcf0;
 
-  --tagCount-text: var(--body-text);
-  --tagCount-label: var(--body-text);
-  --tagCount-icon: rgba(var(--accent), 50%);
-  --tagCount-count: rgba(var(--accent), 80%);
-  --tagCount-background: rgba(var(--accent), 10%);
-}
+  --gray: 96, 115, 159;
+  --gray-light: 229, 233, 240;
 
-html[data-theme="light"] {
-  --tx: var(--neutral-black);
-  --tx-2: var(--neutral-600);
-  --tx-3: var(--neutral-300);
-  --ui: var(--neutral-100);
-  --ui-2: var(--neutral-150);
-  --ui-3: var(--neutral-200);
-  --bg: var(--neutral-paper);
-  --bg-2: var(--neutral-50);
-  --site-background: rgb(255, 255, 255);
-  --header-background: #f6f8fa;
-  --layout-border: rgb(222, 228, 234);
-  --sidebar-background: rgb(255, 255, 255);
-  --header-text: #000;
-  --footer-text: #000;
-  --footer-background: transparent;
-  --footer-background: rgba(var(--accent), 10%);
-  --accent: 94, 67, 243;
-  --accent-hover: #a688fa;
-  --accent-dark: #7a5af5;
-  --shadow: 22, 26, 29;
-  --interactive: rgb(16, 18, 20);
-  --body-text: rgb(16, 18, 20);
-  --meta-data: rgb(115, 132, 150);
-  --meta-data-link: rgb(var(--accent));
-  --gray: 96, 115, 159;
-  --icons: var(--meta-data);
-  --gray-light: 229, 233, 240;
-  --hr: var(--layout-border);
-  --text: rgb(16, 18, 20);
   --gray-gradient: rgba(var(--gray-light), 50%), #fff;
   --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
-  --pagefind-ui-scale: 1;
-  --pagefind-ui-primary: rgb(var(--accent));
-  --pagefind-ui-text: rgb(var(--body-text));
-  --pagefind-ui-background: transparent;
-  --pagefind-ui-border: var(--layout-border);
-  --pagefind-ui-tag: #eeeeee;
-  --pagefind-ui-border-width: 2px;
-  --pagefind-ui-border-radius: 8px;
-  --pagefind-ui-image-border-radius: 8px;
-  --pagefind-ui-image-box-ratio: 16 / 9;
-  --pagefind-ui-font: "Atkinson", sans-serif;
-}
-html[data-theme="dark"] {
-  --tx: var(--neutral-200);
-  --tx-2: var(--neutral-500);
-  --tx-3: var(--neutral-700);
-  --ui: var(--neutral-900);
-  --ui-2: var(--neutral-850);
-  --ui-3: var(--neutral-800);
-  --bg: var(--neutral-black);
-  --bg-2: var(--neutral-950);
-  --site-background: rgb(22, 26, 29);
-  --header-background: rgb(29, 33, 37);
-  --layout-border: rgb(29, 33, 37);
-  --sidebar-background: var(--site-background);
-  --header-text: rgb(222, 228, 234);
-  --footer-text: rgb(222, 228, 234);
-  --footer-background: rgba(var(--accent), 10%);
-  --interactive: rgb(222, 228, 234);
-  --accent: 145, 113, 248;
-  --accent-hover: #a688fa;
-  --accent-dark: #000d8a;
-  --shadow: 16, 18, 20;
-  --icons: var(--meta-data);
-  --body-text: rgb(199, 209, 219);
-  --meta-data: rgb(199, 209, 219);
-  --meta-data-link: rgb(var(--accent));
-  --gray: 96, 115, 159;
-  --gray-light: 229, 233, 240;
-  --hr: var(--layout-border);
-  --text: rgb(222, 228, 234);
-  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-  --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
-    0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
-  --pagefind-ui-primary: #eeeeee;
-  --pagefind-ui-text: var(--body-text);
-  --pagefind-ui-background: transparent;
-  --pagefind-ui-border: rgba(var(--accent), 10%);
-  --pagefind-ui-tag: #152028;
-  --pagefind-ui-font: "Atkinson", sans-serif;
 }
 
 @font-face {
@@ -127,6 +41,7 @@ html[data-theme="dark"] {
   font-style: normal;
   font-display: swap;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -182,25 +97,6 @@ h5 {
   font-size: 1.25em;
   font-weight: 400;
 }
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 1.5em;
-  }
-  h2 {
-    font-size: 1.3em;
-  }
-  h3 {
-    font-size: 1.2em;
-  }
-  h4 {
-    font-size: 1.563em;
-    font-weight: 400;
-  }
-  h5 {
-    font-size: 1.25em;
-    font-weight: 400;
-  }
-}
 
 strong,
 b {
@@ -254,6 +150,27 @@ hr {
   border: none;
   border-top: 1px solid var(--hr);
 }
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.563em;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 18px;
