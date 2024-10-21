@@ -2,17 +2,15 @@ html[data-theme="light"] {
   --accent: 94, 67, 243;
   --shadow: 22, 26, 29;
 
-  --site-background: #ffffff;
-  --header-background: #f6f8fa;
-  --layout-border: #dee4ea;
-  --header-text: #000;
-  --footer-text: #000;
+  --site-background: var(--pure-white);
+  --header-background: var(--very-light-gray-blue);
+  --layout-border: var(--pale-bluish-gray);
+  --header-text: var(--neutral-black);
+  --footer-text: var(--neutral-black);
 
-  --accent-hover: #a688fa;
-  --accent-dark: #7a5af5;
-  --interactive: #101214;
-  --body-text: #101214;
-  --meta-data: #738496;
+  --accent-hover: var(--light-lavender-purple);
+  --body-text: var(--almost-black);
+  --meta-data: var(--muted-blue-gray);
 
   --tx: var(--neutral-black);
   --tx-2: var(--neutral-600);
@@ -23,7 +21,5 @@ html[data-theme="light"] {
   --bg: var(--neutral-paper);
   --bg-2: var(--neutral-50);
 
-  --pagefind-ui-primary: rgb(var(--accent));
-  --pagefind-ui-border: var(--layout-border);
-  --pagefind-ui-tag: #eeeeee;
+  --pagefind-ui-tag: var(--light-gray);
 }

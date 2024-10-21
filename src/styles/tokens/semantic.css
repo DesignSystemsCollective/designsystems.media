@@ -17,6 +17,8 @@
   --pagefind-ui-scale: 1;
   --pagefind-ui-text: var(--body-text);
   --pagefind-ui-background: transparent;
+  --pagefind-ui-primary: rgb(var(--accent));
+  --pagefind-ui-border: var(--layout-border);
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
