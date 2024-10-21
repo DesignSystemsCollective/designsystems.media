@@ -1,0 +1,38 @@
+:root {
+  /* colours */
+  --neutral-black: #100f0f;
+  --neutral-950: #1c1b1a;
+  --neutral-900: #282726;
+  --neutral-850: #343331;
+  --neutral-800: #403e3c;
+  --neutral-700: #575653;
+  --neutral-600: #6f6e69;
+  --neutral-500: #878580;
+  --neutral-300: #b7b5ac;
+  --neutral-200: #cecdc3;
+  --neutral-150: #dad8ce;
+  --neutral-100: #e6e4d9;
+  --neutral-50: #f2f0e5;
+  --neutral-paper: #fffcf0;
+
+  /* colours named by chatgpt */
+  --pure-white: #ffffff; /* Pure white */
+  --very-light-gray-blue: #f6f8fa; /* Very light gray with a hint of blue */
+  --light-gray: #eeeeee; /* Light gray */
+  --pale-bluish-gray: #dee4ea; /* Pale bluish-gray */
+  --light-blue-gray: #c7d1db; /* Light blue-gray */
+  --light-lavender-purple: #a688fa; /* Light lavender purple */
+  --muted-blue-gray: #738496; /* Muted blue-gray */
+  --dark-blue-gray: #28293a; /* Dark blue-gray */
+  --very-dark-gray-blue: #1d2125; /* Very dark gray with a hint of blue */
+  --dark-teal-gray: #152028; /* Dark teal-gray */
+  --dark-charcoal-gray: #161a1d; /* Dark charcoal gray */
+  --almost-black: #101214; /* Almost black */
+
+  --gray: 96, 115, 159;
+  --gray-light: 229, 233, 240;
+
+  --gray-gradient: rgba(var(--gray-light), 50%), var(--pure-white);
+  --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
+    0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
+}
