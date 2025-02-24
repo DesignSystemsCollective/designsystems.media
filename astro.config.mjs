@@ -13,7 +13,7 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   site: "https://designsystems.media",
   integrations: [mdx(), sitemap(), pagefind(), react(), keystaticAstro(), icon()],
-  output: "hybrid",
+  output: "static",
   adapter: netlify(),
   image: {
     service: passthroughImageService(),
