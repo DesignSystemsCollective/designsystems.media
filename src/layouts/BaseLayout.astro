@@ -18,14 +18,13 @@ const { sidebar, fullWidth, metadataProps } = Astro.props;
 <html lang="en">
   <head>
     <Metadata
-      title={`${SITE_TITLE}${
-        !!metadataProps?.title ? ` | ${metadataProps.title}` : ""
-      }`}
+      title={`${
+        !!metadataProps?.title ? `${metadataProps.title} | ` : ""
+      }${SITE_TITLE}`}
       description={metadataProps?.description ?? SITE_DESCRIPTION}
       image={metadataProps?.image}
+      canonicalURL={metadataProps?.canonicalURL}
     />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>

@@ -16,8 +16,9 @@ const post = Astro.props;
 const { Content } = await post.render();
 const headProps = {
   title: post.data.title,
-  description: post.data.description,
+  description: post.data.description || post.data.title,
   image: post.data.image?.src,
+  // canonicalURL: post.data.videoUrl,
 };
 ---
 

@@ -10,20 +10,22 @@ export interface Props {
   title?: string;
   description?: string;
   image?: string;
+  canonicalURL?: string;
 }
-
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const {
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
   image = "/designsystemsmedia.png",
+  canonicalURL = new URL(Astro.url.pathname, Astro.site),
 } = Astro.props;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="author" content="DesignSystems.media" />
+<meta name="robots" content="index, follow" />
 
 <GoogleAnalytics id="G-Y71GMYWZL0" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
