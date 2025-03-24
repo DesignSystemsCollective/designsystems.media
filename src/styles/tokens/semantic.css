@@ -12,7 +12,7 @@
   --tagCount-label: var(--body-text);
   --tagCount-icon: rgba(var(--accent), 50%);
   --tagCount-count: rgba(var(--accent), 80%);
-  --tagCount-background: rgba(var(--accent), 10%);
+  --tagCount-background: rgba(var(--accent), 5%);
 
   --pagefind-ui-scale: 1;
   --pagefind-ui-text: var(--body-text);
