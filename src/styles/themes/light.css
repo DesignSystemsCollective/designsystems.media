@@ -8,7 +8,7 @@ html[data-theme="light"] {
   --header-text: var(--neutral-black);
   --footer-text: var(--neutral-black);
 
-  --accent-hover: var(--light-lavender-purple);
+  --accent-hover: var(--dark-lavender-purple);
   --body-text: var(--almost-black);
   --meta-data: var(--muted-blue-gray);
 
