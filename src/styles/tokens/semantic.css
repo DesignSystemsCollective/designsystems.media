@@ -24,4 +24,6 @@
   --pagefind-ui-image-border-radius: 8px;
   --pagefind-ui-image-box-ratio: 16 / 9;
   --pagefind-ui-font: "Atkinson", sans-serif;
+
+  --sponsor-background: var(--header-background);
 }
