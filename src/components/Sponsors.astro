@@ -1,0 +1,104 @@
+<div class="sponsors">
+  <div class="sectionTitle">designsystems.media is proudly sponsored by</div>
+  <div class="sponsor">
+    <div class="logo">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        data-name="Layer 1"
+        viewBox="0 0 20.2 24.26"
+      >
+        <defs>
+          <style>
+            .cls-1,
+            .cls-2 {
+              fill: var(--tagCount-count);
+              stroke-width: 0px;
+            }
+
+            .cls-2 {
+              fill-rule: evenodd;
+            }
+          </style>
+        </defs>
+        <path class="cls-1" d="M0,22.24h3.37v2.02H0v-2.02Z"></path>
+        <path class="cls-2" d="M1.68,0l1.68,3.37H0L1.68,0Z"></path>
+        <path class="cls-1" d="M0,4.04h3.37v17.52H0V4.04Z"></path>
+        <path
+          class="cls-2"
+          d="M6.73,2.7l2.69-2.7,10.77,11.46-10.77,12.81-2.69-2.7,8.34-10.11L6.73,2.7Z"
+        ></path>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="name">zeroheight</div>
+      <div class="description">
+        zeroheight is the design management platform that allows you to manage
+        your tokens, create beautiful documentation sites, and measure and
+        monitor your design system.
+      </div>
+    </div>
+    <a href="">Try zeroheight for free today</a>
+  </div>
+</div>
+
+<style>
+  .sponsor {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo svg {
+    width: 2.5rem;
+  }
+  .content {
+    flex: 1;
+  }
+  .name {
+    font-size: 1.2em;
+  }
+  .description {
+    max-width: 800px;
+  }
+  .sponsor a {
+    color: var(--tx-inverted);
+    background-color: rgba(var(--accent));
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    height: fit-content;
+    white-space: nowrap;
+    align-self: flex-end;
+    text-decoration: none;
+  }
+  .sponsor a:hover {
+    background-color: rgba(var(--accent), 85%);
+  }
+  .sponsors {
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--sponsor-background);
+    font-size: 0.8em;
+  }
+  @media screen and (max-width: 768px) {
+    .sponsors {
+      margin: 0.75rem;
+      margin-bottom: 0;
+      padding: 0.75rem;
+    }
+    .sponsor a {
+      flex-basis: 100%;
+      margin: 0 auto;
+    }
+  }
+</style>

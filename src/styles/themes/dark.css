@@ -15,6 +15,7 @@ html[data-theme="dark"] {
   --tx: var(--neutral-200);
   --tx-2: var(--neutral-500);
   --tx-3: var(--neutral-700);
+  --tx-inverted: var(--dark-charcoal-gray);
   --ui: var(--neutral-900);
   --ui-2: var(--neutral-850);
   --ui-3: var(--neutral-800);
