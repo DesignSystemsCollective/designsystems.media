@@ -18,9 +18,9 @@ const media = (await getCollection("media"))
   .slice(0, 12);
 ---
 
-<BaseLayout sidebar={false}>
-  <Sponsors />
+<BaseLayout sidebar={false} isHome={true}>
   <LibraryStats />
+  <Sponsors />
   <SectionHeader
     title="Latest media"
     link="/all"
@@ -80,7 +80,6 @@ const media = (await getCollection("media"))
       </div>
     </Card>
   </ResponsiveGrid>
-  <!-- <Sponsors /> -->
 </BaseLayout>
 
 <style>

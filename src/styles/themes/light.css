@@ -23,4 +23,5 @@ html[data-theme="light"] {
   --bg-2: var(--neutral-50);
 
   --pagefind-ui-tag: var(--light-gray);
+  --sponsorship: var(--neutral-600);
 }
