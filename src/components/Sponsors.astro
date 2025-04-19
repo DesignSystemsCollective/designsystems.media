@@ -1,5 +1,5 @@
 <div class="sponsors">
-  <div class="sectionTitle">designsystems.media is proudly sponsored by</div>
+  <div class="sectionTitle">Proudly sponsored by</div>
   <div class="sponsor">
     <div class="logo">
       <svg
@@ -12,7 +12,7 @@
           <style>
             .cls-1,
             .cls-2 {
-              fill: var(--tagCount-count);
+              fill: #F63E7C;
               stroke-width: 0px;
             }
 
@@ -38,21 +38,31 @@
         monitor your design system.
       </div>
     </div>
-    <a href="">Try zeroheight for free today</a>
+    <a href="https://zeroheight.com?ref=designssystems.media">Try zeroheight for free today</a>
   </div>
 </div>
 
 <style>
+.sponsors {
+    --primary-dark-purple: #0C0522;
+    --primary-baby-powder: #FFFCF9;
+    --primary-deep-pink: #FE2A8B;
+    --primary-lavander-pink: #FFAAD1;
+}
+ 
   .sponsor {
     display: flex;
     align-items: center;
-    gap: 1em;
-    padding: 1em;
+    gap: 1.5rem;
+    padding: 0;
     flex-wrap: wrap;
   }
   .logo {
     display: flex;
     align-items: center;
+    justify-content:center;
+    width: 64px;
+    height: 64px;
   }
   .logo svg {
     width: 2.5rem;
@@ -61,39 +71,49 @@
     flex: 1;
   }
   .name {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: bold;
   }
   .description {
     max-width: 800px;
   }
   .sponsor a {
-    color: var(--tx-inverted);
-    background-color: rgba(var(--accent));
+    color: var(--primary-dark-purple);
+    background-color: var(--primary-lavander-pink);
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 1rem;
+    padding: 0.8em 1.25em 0.8em;
     height: fit-content;
     white-space: nowrap;
     align-self: flex-end;
     text-decoration: none;
+    font-weight: bold;
+    line-height: 1.4;
   }
   .sponsor a:hover {
-    background-color: rgba(var(--accent), 85%);
+    background-color: var(--primary-dark-purple);
+    color: var(--primary-lavander-pink);
   }
   .sponsors {
     margin: 1rem;
-    margin-bottom: 0;
-    padding: 1rem;
+    margin-block-end: 2rem;
+    padding: 20px;
     border-radius: 1rem;
     background-color: var(--sponsor-background);
     font-size: 0.8em;
   }
+  .sectionTitle {
+    text-transform: uppercase;
+    color: var(--sponsorship);
+    font-size: 0.7rem;
+    margin-bottom: 0.5em;
+  }
   @media screen and (max-width: 768px) {
     .sponsors {
       margin: 0.75rem;
-      margin-bottom: 0;
+      margin-bottom: 2rem;
       padding: 0.75rem;
     }
     .sponsor a {

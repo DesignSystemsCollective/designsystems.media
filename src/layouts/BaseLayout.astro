@@ -7,6 +7,8 @@ import Header from "./Header.astro";
 import type { Props as MetadataProps } from "./Metadata.astro";
 import Metadata from "./Metadata.astro";
 
+const { isHome = false } = Astro.props;
+
 interface Props {
   sidebar?: boolean;
   fullWidth?: boolean;
@@ -36,7 +38,7 @@ const { sidebar, fullWidth, metadataProps } = Astro.props;
         <section class="main-page">
           <div class="content">
             <slot />
-            <Sponsors />
+            {!isHome && <Sponsors />}
           </div>
           <Footer />
         </section>

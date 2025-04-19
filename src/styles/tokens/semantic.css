@@ -26,4 +26,5 @@
   --pagefind-ui-font: "Atkinson", sans-serif;
 
   --sponsor-background: var(--header-background);
+  --sponsor-title: var(--sponsorship);
 }
