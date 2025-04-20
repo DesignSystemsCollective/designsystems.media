@@ -108,17 +108,15 @@ const totalSpeakerCount = uniqueSpeakers.length;
     color: var(--tagCount-count);
     line-height: 1em;
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 767px) {
+    .libraryStats {
+      gap: 0.5rem;
+      font-size: 0.9em;
+      padding: 0.75rem;
+    }
     .libraryStats .stat {
       flex-direction: column;
       align-items: flex-start;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .libraryStats {
-      gap: 0.5rem;
-      font-size: 0.75em;
-      padding: 0.75rem;
     }
   }
 </style>
