@@ -33,9 +33,7 @@
     <div class="content">
       <div class="name">zeroheight</div>
       <div class="description">
-        zeroheight is the design management platform that allows you to manage
-        your tokens, create beautiful documentation sites, and measure and
-        monitor your design system.
+        zeroheight is the design management platform that allows you to manage your tokens, create beautiful documentation sites, and measure and monitor your design system.
       </div>
     </div>
     <a href="https://zeroheight.com?ref=designssystems.media">Try zeroheight for free today</a>
@@ -53,7 +51,7 @@
   .sponsor {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 20px;
     padding: 0;
     flex-wrap: wrap;
   }
@@ -75,22 +73,23 @@
     font-weight: bold;
   }
   .description {
-    max-width: 800px;
+    max-width: 60ch;
+    line-height: 1.35em;
   }
   .sponsor a {
     color: var(--primary-dark-purple);
     background-color: var(--primary-lavander-pink);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.8em 1.25em 0.8em;
-    height: fit-content;
+    padding: 0 1em;
+    height: 2.5em;
     white-space: nowrap;
     align-self: flex-end;
     text-decoration: none;
     font-weight: bold;
-    line-height: 1.4;
+    line-height: 1em;
   }
   .sponsor a:hover {
     background-color: var(--primary-dark-purple);
@@ -102,7 +101,7 @@
     padding: 20px;
     border-radius: 1rem;
     background-color: var(--sponsor-background);
-    font-size: 0.8em;
+    font-size: 0.9rem;
   }
   .sectionTitle {
     text-transform: uppercase;
@@ -113,12 +112,18 @@
   @media screen and (max-width: 768px) {
     .sponsors {
       margin: 0.75rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.25rem;
       padding: 0.75rem;
+      font-size: 0.85rem;
     }
     .sponsor a {
       flex-basis: 100%;
       margin: 0 auto;
     }
+
+  .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
   }
 </style>
