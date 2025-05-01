@@ -1,5 +1,2135 @@
 [
   {
+    "title": "Scalable scales that scale - Nate Baldwin at Into Design Systems",
+    "description": "Presenter: Nate Baldwin at Into Design Systems Conference 2024\n\n💪 Become the go-to Design Systems expert in your company\n✅ Learn from experts who work with Design Systems every day\n✅ Get practical tips and useful takeaways you can use right away\n✅ Feel included in a welcoming and collaborative community\n👉 Join our upcoming 3-day online conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/v6sG0oElloc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/v6sG0oElloc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/v6sG0oElloc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/v6sG0oElloc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/v6sG0oElloc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=v6sG0oElloc",
+    "publishedAt": "2025-04-15T09:18:52Z",
+    "privacyStatus": "public",
+    "duration": "0:45:46"
+  },
+  {
+    "title": "Design System Adoption tools in zeroheight",
+    "description": "Check out this demo from one of our engineers, Rosie, for help getting started with our new tools for measuring design system adoption.\n\nYou can track your design system packages to see which repos are using the latest versions, component usage to see which of your components are being used in code, and non-token color usage to understanding how well your design tokens are being adoptions.\n\nThese handy new tools should make it easier to track how your design system is being adopted across the organization.\n\nHelp centre article: https://bit.ly/3UEIVho\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq\n\nChapters\n00:00 Introduction\n00:07 What is the Adoption feature?\n00:46 Getting set up\n02:50 Package adoption data\n02:50 Package adoption data\n03:14 Component usage data\n03:40 Non-token color usage data\n03:58 Outro",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bycSEs_kA6U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bycSEs_kA6U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bycSEs_kA6U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bycSEs_kA6U",
+    "publishedAt": "2025-04-15T07:52:27Z",
+    "duration": "0:04:20"
+  },
+  {
+    "title": "Design Systems London#11 - Full meetup recording",
+    "description": "Who are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\n\nFollow us:\nYLD: https://www.linkedin.com/company/yld/\nDesign Systems London: https://www.linkedin.com/showcase/design-systems-london/\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/v2C7NR_k1HI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/v2C7NR_k1HI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/v2C7NR_k1HI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=v2C7NR_k1HI",
+    "publishedAt": "2025-04-07T17:15:02Z",
+    "duration": "2:22:23"
+  },
+  {
+    "title": "I Didn't Sign Up for This by Dan Donald - DSL#11",
+    "description": "Dan covers how most of the work that goes into making a successful design system isn’t about component or tokens, it’s the unseen stuff that we as designers or developers don’t come across until it’s become a problem.\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\n\nFollow us:\nYLD: https://www.linkedin.com/company/yld/\nDesign Systems London: https://www.linkedin.com/showcase/design-systems-london/\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/L_aNkmEm7mo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/L_aNkmEm7mo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/L_aNkmEm7mo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=L_aNkmEm7mo",
+    "publishedAt": "2025-04-07T16:39:28Z",
+    "duration": "0:28:18"
+  },
+  {
+    "title": "Systemising Delight by Molly Nye - DSL#11",
+    "description": "Molly shares how she creates, systemises and implements creative assets, such as illustrations and animations into a design system, allowing teams to create more delightful experiences with their products.\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\n\nJoin the conversation:\nFollow us:\nYLD: https://www.linkedin.com/company/yld/\nDesign Systems London: https://www.linkedin.com/showcase/design-systems-london/\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Bg0AT5TabJw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Bg0AT5TabJw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Bg0AT5TabJw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Bg0AT5TabJw",
+    "publishedAt": "2025-04-07T16:38:45Z",
+    "duration": "0:34:54"
+  },
+  {
+    "title": "Design Systems London#11 Senior panel discussion",
+    "description": "Our senior panel featured Benny Zuffolini (Director of Product Design at Pearson), Jon Reidy (Design Systems Leader at T. Rowe Price), and Reshma Shaik (Design Systems Product Manager at Sainsbury’s Digital, Tech and Data).\n\nLuis Klefsjö, (Head of Product Design at YLD) facilitated the discussion, exploring both the why and the how of ensuring Product is meaningfully integrated into your Design System setup.\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence. The team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\n\nFollow us:\nYLD: https://www.linkedin.com/company/yld/ \nDesign Systems London: https://www.linkedin.com/showcase/design-systems-london/  \n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NhK7H2CLyKA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NhK7H2CLyKA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NhK7H2CLyKA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NhK7H2CLyKA",
+    "publishedAt": "2025-04-07T16:27:40Z",
+    "duration": "1:01:52"
+  },
+  {
+    "title": "Design systems, the Drupal way",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3OYXZ8-G4gk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3OYXZ8-G4gk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3OYXZ8-G4gk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3OYXZ8-G4gk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3OYXZ8-G4gk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3OYXZ8-G4gk",
+    "publishedAt": "2025-03-27T12:52:42Z",
+    "privacyStatus": "public",
+    "duration": "0:47:44"
+  },
+  {
+    "title": "What Great Companies Have In Common",
+    "description": "11 companies beat the market by 300% over 15 years. What did they have in common?",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XGl3u7z-_AU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XGl3u7z-_AU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XGl3u7z-_AU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XGl3u7z-_AU",
+    "publishedAt": "2025-03-26T14:09:20Z",
+    "duration": "0:00:46"
+  },
+  {
+    "title": "Integrating Figma frames seamlessly into your documentation | Supernova 101",
+    "description": "In this episode of Supernova 101, we’ll show you how to seamlessly integrate Figma frames into your documentation and keep them automatically updated. No more outdated screenshots—learn how to embed live Figma images that stay in sync with your latest designs.\n\n💡 Chapters:\n00:00 Introduction\n00:13 How to add Figma frames to your documentation\n01:23 Conclusion\n\n🔗 Learn more about this feature 👉 https://bit.ly/4ipqVRr\n\nWith Supernova’s Figma integration, you can ensure your documentation always reflects the most current design—effortlessly. Try it out today! 🚀\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ar5_n-iqIHs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ar5_n-iqIHs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ar5_n-iqIHs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ar5_n-iqIHs",
+    "publishedAt": "2025-03-04T17:01:04Z",
+    "duration": "0:01:40"
+  },
+  {
+    "title": "How do you sell a $1.5 million website?",
+    "description": "How do you sell a $1.5 million website?\n\nPromise the client they’d get $3 million in return.\n\nYour job is to figure out how they get $3 million in return.\n\n#danmallteaches #webdesign #digitalmarketing  #ROI #clientacquisition #highendwebsites",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/knhL0a0trbw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/knhL0a0trbw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/knhL0a0trbw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=knhL0a0trbw",
+    "publishedAt": "2025-03-02T23:56:49Z",
+    "duration": "0:00:51"
+  },
+  {
+    "title": "The Future of Design Tokens - Jam with Tokens Studio",
+    "description": "In this casual, hands-on session, we took a close look at Graph Engine, an open-source node-based graph editor by Tokens Studio.\n\nMiro Board: \n(links to graph examples included) https://miro.com/app/board/uXjVLtGucWQ=/?share_link_id=47320959005\nGraph Engine: https://tokens.studio/graph-engine\nUpcoming Conference: https://www.intodesignsystems.com\n\n💪 Learn the skills needed to become a Design System expert in 2025! \n📖  Learn Design Tokens and Design Systems hands-on with leading experts from around the world! \n👉👉👉 Secure your spot: https://www.intodesignsystems.com\n\nPresenter:\nMarco Christian Krenn, Tokens Studio\nJan Six, Tokens Studio\nMike Kamminga, Tokens Studio\n\nHost:\nSil Bormüller, Into Design Systems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nwkdlj_mqE8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nwkdlj_mqE8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nwkdlj_mqE8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/nwkdlj_mqE8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/nwkdlj_mqE8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nwkdlj_mqE8",
+    "publishedAt": "2025-02-27T17:54:24Z",
+    "privacyStatus": "public",
+    "duration": "2:01:14"
+  },
+  {
+    "title": "Converge UK 2023: Closing Keynote Amy Hupe: Burn Baby Burnout",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nAmy Hupe (She/Her) Frankly.\n\nComing to you from the depths of burnout, Amy explores the relationship between design systems and disillusionment. What is it about design systems work in particular that has the power to exhaust us? And is there anything we can do to avoid it?\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VlvLwAwnI2E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VlvLwAwnI2E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VlvLwAwnI2E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VlvLwAwnI2E",
+    "publishedAt": "2025-02-26T13:22:49Z",
+    "duration": "0:36:37"
+  },
+  {
+    "title": "Converge UK 2023: Morgane Peng: We’re Not Doing Design Systems Properly and That’s Okay",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nMorgane Peng (She/Her) Societe Generale\n\nHow do you ‘do’ Design Systems? Expectations are so high nowadays. Implement Design Tokens. Have a dedicated Design System team. Get a Design System manager. Wait, does your Design System even have a name?There isn’t one way to do Design Systems. Ours ticks none of these boxes, yet today, it allows us to build from the simplest to the most complex financial tools, and design systematically across our services. In this session, we’ll share the lessons we learned on prioritising impacts over grip.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/htuaw_OdZXI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/htuaw_OdZXI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/htuaw_OdZXI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=htuaw_OdZXI",
+    "publishedAt": "2025-02-26T13:22:44Z",
+    "duration": "0:37:56"
+  },
+  {
+    "title": "Converge UK 2023: Henrique Gusso: Designed by Robots",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nHenrique Gusso (He/Him) Wize\n\nAI is coming for our jobs! What now? In digital design, technology is your ally, and there’s enough work for both humans and robots. Learn how smart tooling can leverage the efficiency of automation and the creativity of people to raise the bar for quality.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=MctrVgElk-I",
+    "publishedAt": "2025-02-26T13:22:40Z",
+    "privacyStatus": "public",
+    "duration": "0:32:50"
+  },
+  {
+    "title": "Converge UK 2023: Henrique Gusso: Designed by Robots",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nHenrique Gusso (He/Him) Wize\n\nAI is coming for our jobs! What now? In digital design, technology is your ally, and there’s enough work for both humans and robots. Learn how smart tooling can leverage the efficiency of automation and the creativity of people to raise the bar for quality.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MctrVgElk-I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=MctrVgElk-I",
+    "publishedAt": "2025-02-26T13:22:40Z",
+    "duration": "0:32:50"
+  },
+  {
+    "title": "Converge UK 2023: Kevin Coyle: Bridging the Communication Gap in Web Development",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nKevin Coyle (He/Him) Big Medium\n\nFrom the rhythmic clatter of a lone developer’s IBM keyboard in a dimly-lit cubicle office to the overwhelming complexity of large Scrum teams comprising frontend specialists, backend engineers, scrum masters, and product managers, the landscape of web development has undergone a dramatic evolution. This change has led to increasing siloization, creating divisions among product management, frontend and backend development, and design. As a result, communication has, in some cases, become a formidable barrier. Simple issues can lead to hours-long meetings, where presentations are painstakingly reinterpreted and translated for different interest groups, resulting in wasted time and mounting frustration. In this talk, we’ll explore how we got to this point and what tools have aided us along the way, including the invention of design systems for taxonomy and tools that serve as translation layers between developers and designers. Finally, and most intriguingly, we’ll delve into the exciting new developments in artificial intelligence. We’ll investigate whether AI could be the missing link that not only streamlines our workflows but also fosters more effective human-to-human communication.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SaeNQrgvuaU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SaeNQrgvuaU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SaeNQrgvuaU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SaeNQrgvuaU",
+    "publishedAt": "2025-02-26T13:22:37Z",
+    "duration": "0:31:35"
+  },
+  {
+    "title": "Converge UK 2023: Michelle Chin: Decolonizing Your Design System",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nMichelle Chin (She/Her) zeroheight \n\nPrepare to confront the truths of design systems in this talk on decolonization. This talk will expose the inherent biases and limitations that hinder inclusivity within traditional design frameworks, challenging you to question the status quo. Through compelling examples and eye-opening insights, we’ll dissect the flawed foundations of design systems and unveil the consequences of overlooking diverse perspectives. We’ll discuss ways teams can work toward dismantling the barriers perpetuating exclusion. Get ready to shatter the echo chamber and embrace uncomfortable conversations, pushing the boundaries of your creative process to encompass the voices of the unheard. Attending this talk will give you a renewed sense of urgency, and empower you with the tools and mindset needed to evolve your design system and make real strides toward a more inclusive future. It’s time to disrupt the status quo and build design systems that genuinely reflect the diversity of our world.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mijx7ssibWg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mijx7ssibWg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mijx7ssibWg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=mijx7ssibWg",
+    "publishedAt": "2025-02-26T13:22:32Z",
+    "duration": "0:24:42"
+  },
+  {
+    "title": "Converge UK 2023: Opening Keynote Jina Anne: Pursuing Design Quality",
+    "description": "Converge is zeroheight’s one-day design systems conference. On September 21st, 2023, we hosted Converge UK in Manchester at the Stoller Hall! Converge aims to bring together some of the brightest and best in design systems and design ops to discuss the challenges we face in taking design systems to the next level.\n\nOur Keynote speaker was Jina Anne (She/They) Clarity \n\nDesign quality is essential to creating an excellent product user experience. It can be difficult to agree on what design quality means and how to achieve it, but with a design quality criteria in place, we can hold ourselves accountable and strive for excellence. In this session, Jina will share why it’s important to create a design quality criteria and give an example from their recent work. They’ll also share some insights into creating one so you can use this in your own organization!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hVydxluNmXo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hVydxluNmXo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hVydxluNmXo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hVydxluNmXo",
+    "publishedAt": "2025-02-26T13:22:28Z",
+    "duration": "0:27:28"
+  },
+  {
+    "title": "Automate Figma tokens to code",
+    "description": "Check out this demo from one of our engineers, Seth, to learn how you can automate turning your Figma tokens into code.\n\nHelp centre article for Figma Variables: https://bit.ly/48CTIOY\nHelp center article for Figma Styles: https://bit.ly/3OdQ04Z\n\nFigma plugin: http://bit.ly/3NSMPiL\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/d3dnrT5Cv4c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/d3dnrT5Cv4c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/d3dnrT5Cv4c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=d3dnrT5Cv4c",
+    "publishedAt": "2025-02-26T09:25:29Z",
+    "duration": "0:03:51"
+  },
+  {
+    "title": "10 years of design systems: Then, now and what’s next - Madelin Snyder (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nMadelin Snyder, \nHead of Product, zeroheight \n(Day 1/2, talk 01)\n\nTALK: 10 YEARS OF DESIGN SYSTEMS: THEN, NOW AND WHAT’S NEXT\nIn this opening keynote, Madelin explores where zeroheight has been and where we’re going next. Plus, she is joined by colleagues Nef and Tim for a mini-panel session. \n\nCONVERGE 2024\n\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rXvWQ_STttU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rXvWQ_STttU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rXvWQ_STttU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rXvWQ_STttU",
+    "publishedAt": "2025-02-19T11:33:35Z",
+    "duration": "0:41:52"
+  },
+  {
+    "title": "Beyond documentation: Scale your design system through content integration - Natalie Hernandez",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nNatalie Hernandez\nSenior Content Designer, Nordstrom\n(Day 2/2, talk 02)\n\nTALK: BEYOND DOCUMENTATION: SCALE YOUR DESIGN SYSTEM THROUGH CONTENT INTEGRATION\nDesign systems are often viewed as the domain of UX design and engineering. Designers craft well-rounded, accessible components that engineers then build. Designers and engineers also outline props and APIs, document usage guidelines, develop token naming conventions, and more. But design systems are supposed to be a product—so, how about we treat them that way by assigning content experts? Stop the madness of designers and engineers taking on secondary roles outside their area of expertise, leading to team inefficiencies and crankiness.\n\nIn this session, Natalie will discuss the benefits of integrating content within design systems. Drawing from her own experience, she’ll illustrate how dedicated content support allows each discipline to excel, enhances the overall user experience, and ultimately sets design system teams up for greater success.\n\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wB7s9VrX7wI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wB7s9VrX7wI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wB7s9VrX7wI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wB7s9VrX7wI",
+    "publishedAt": "2025-02-19T11:33:17Z",
+    "duration": "0:27:49"
+  },
+  {
+    "title": "Less design, more systems - Scott Riley (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nScott Riley\nAuthor, Mindful Design\n(Day 1/2, talk 06)\n\nTALK: LESS DESIGN, MORE SYSTEMS\nDesign—especially with the emergence of design systems—has a long and tumultuous relationship with systems thinking. In this talk, we’ll explore the concept of ‘systemic design’, with a focus on two core topics: sense–making and placemaking. Firstly, we’ll explore the broad notion of what makes a system a system. Secondly, we’ll look at making sense of the systems with which (and within which) our work is created, and how they impact every facet of our design work. Finally, we’ll look at how systemic, nonlinear environments can represent a new paradigm for designed experiences.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xy2jX6axsSU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xy2jX6axsSU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xy2jX6axsSU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=xy2jX6axsSU",
+    "publishedAt": "2025-02-19T11:33:17Z",
+    "duration": "0:36:28"
+  },
+  {
+    "title": "Pattern-based text: Increase usability and reduce cost - Torrey Podmajersky (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nTorrey Podmajersky\nPresident, Catbird Content\n(Day 1/2, talk 05)\n\nTALK: PATTERN-BASED TEXT: INCREASE USABILITY AND REDUCE COST\nEverybody can write, and AI makes us faster than ever! But does it make the product work better? Torrey provides practical methods to make every word audition to be in the UI – speeding onboarding, increasing engagement, and reducing support costs. You’ll take away:\n\n- Patterns to make UI more effective—even error messages\n- Methods to use generative AI and pattern-created text that will speed up your process\n- A way out of unproductive meetings about product content\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wrDed6MFqpM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wrDed6MFqpM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wrDed6MFqpM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wrDed6MFqpM",
+    "publishedAt": "2025-02-19T11:33:17Z",
+    "duration": "0:34:17"
+  },
+  {
+    "title": "Wisdom from the trees - Ben Callahan (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nBen Callahan, \nFounder, Sparkbox \n(Day 1/2, talk 02)\n\nTALK: WISDOM FROM THE TREES\nDesign system work is as much about the space between the components as it is about the components themselves. In this presentation, Ben shares learnings from his experience hosting The Question, a weekly collaborative learning conversation where the design system community answers a very specific question and dives into the data together. This presentation weaves the narrative of the coastal redwood trees together with the power of language and classic systems thinking. The result is an edifying realization of the impact a system can have when we remember that we need each other to move our industry forward in a sustainable way.\n\nCONVERGE 2024:\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vAtiSny2P9k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vAtiSny2P9k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vAtiSny2P9k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=vAtiSny2P9k",
+    "publishedAt": "2025-02-19T11:33:17Z",
+    "duration": "0:42:23"
+  },
+  {
+    "title": "The five stages of embracing accessibility - Koen de Greef (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nKoen de Greef\nDesign Strategist, Nederlandse Spoorwegen\n(Day 1/2, talk 09)\n\nTALK: THE FIVE STAGES OF EMBRACING ACCESSIBILITY\nCompanies often find that embracing digital accessibility is a journey, much like navigating the five stages of grief. In this talk, Koen explores these stages from a DesignOps perspective. Starting with denial, moving through resistance, and aiming for commitment. He will share examples of challenges you might face and practical ways to overcome them in order to work towards truly accessible design.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dfWJWpPT0cs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dfWJWpPT0cs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dfWJWpPT0cs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=dfWJWpPT0cs",
+    "publishedAt": "2025-02-19T11:33:17Z",
+    "duration": "0:32:36"
+  },
+  {
+    "title": "Managing Design Systems: Features & Releases to Roadmaps & Backlogs - Nathan Curtis (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nNathan Curtis\nDesign System Consultant, Directed Edges\n(Day 2/2, talk 01)\n\nTALK: MANAGING DESIGN SYSTEMS, FROM FEATURES AND RELEASES TO ROADMAPS AND BACKLOGS\nMaking design system features is exciting. But what about managing assignments, tracking tasks, and discussing status? The momentum of emergent tokens and rapid Figma and code prototypes gives way to the dulling rigor of quality and collaboration across designers and developers wanting to operate independently. In order to earn trust and reach success, design systems need to sweat the details together. Managing the work need not be so daunting and tedious.\n\nIn this talk, Nathan will demonstrate the process he’s installed and evolved across the design system teams he’s led over the past ten years. Using tools like Asana and Jira, he’ll demonstrate how to organize design system work, record scope, assign and track tasks, and release features over time. Workflow challenges – repetitive reviews, quick tasks amid formal workflows, when to discuss requests – will season the tour. Whether you are a system practitioner considering how you fit or a manager refining a practice, you’ll leave inspired to refine the speed, precision and clarity of your design system process.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hlY5G8kanxY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hlY5G8kanxY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hlY5G8kanxY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hlY5G8kanxY",
+    "publishedAt": "2025-02-19T11:33:17Z",
+    "duration": "0:42:54"
+  },
+  {
+    "title": "Plain Spoken Tokens for the Heartbroken - Luke Finch (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nLuke Finch\nDesign systems consultant\n(Day 2/2, talk 07)\n\nTALK: PLAIN SPOKEN TOKENS FOR THE HEARTBROKEN\nKnowing where to begin with design tokens is tough. This talk will guide you through strategies to tackle overwhelming token systems, the art of logical abstractions, and tips and tricks to set you up for success with design tokens.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/M2QXYeoJnm4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/M2QXYeoJnm4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/M2QXYeoJnm4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=M2QXYeoJnm4",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:22:54"
+  },
+  {
+    "title": "Perfect pixel whatever - Amy Hupe (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nAmy Hupe\nDesign systems consultant, Frankly\n(Day 1/2, talk 05)\n\nTALK: PERFECT PIXEL WHATEVER\nOur collective ability to build sophisticated systems that deliver efficiency, scalability and precision has never been better. But services are still failing users in significant but avoidable ways. So what are we missing? How can we go beyond the edges of our design systems to push for human-centered experiences that meet real-world needs?\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/J72VnqjEwuQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/J72VnqjEwuQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/J72VnqjEwuQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=J72VnqjEwuQ",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:37:56"
+  },
+  {
+    "title": "Design systems: Notes in the margin - Geri Reid (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nGeri Reid\nAccessibility Specialist, Just Eat Takeaway\n(Day 2/2, talk 08)\n\nTALK: DESIGN SYSTEMS: NOTES IN THE MARGIN\nJoin Geri, a seasoned design systems explorer with 8 years of adventures under her belt, as she navigates the uncharted territories of accessibility in a major product org. With no playbook in hand, Geri’s quest is one we can all relate to: figuring it out as we go along.\n\nIn this “choose your own adventure” session, you’ll discover how the principles of design systems can illuminate a path through any new challenge. Come prepared to laugh, learn, and maybe even get a little lost as we embark on a journey of getting teams onboard with digital accessibility. \n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BiInyL2fQcs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BiInyL2fQcs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BiInyL2fQcs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BiInyL2fQcs",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:33:33"
+  },
+  {
+    "title": "Web Components: Little bits - David Darnes (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nDavid Darnes\nDeveloper Advocate, zeroheight\n(Day 1/2, talk 08)\n\nTalk: \nWeb Components are a way for us to enrich standard HTML with new behaviors, by creating our own custom elements! Join Dave as he shares his past experience of creating complex design systems, as well as custom open-source tools, all with the power of Web Components. \n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XITLuQIIpaQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XITLuQIIpaQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XITLuQIIpaQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XITLuQIIpaQ",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:27:28"
+  },
+  {
+    "title": "What to do when everyone hates you (and your design system) - Diane Larsen (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nDiane Larsen \nDesign System Manager, Tesco\n(Day 1/2, talk 03)\n\nTALK: WHAT TO DO WHEN EVERYONE HATES YOU (AND YOUR DESIGN SYSTEM)\nDesigning and building out Figma libraries are a juicy design exercise. Adoption, in my experience is just hard. We pour our hearts into our work, and we operate (somewhat sub-consciously) under the assumption that our peers will love our product and see the benefits of it as much as we do. However, designers, engineers and product owners are built to challenge assumptions – and when we launched our design system, they did exactly that. In fact, we launched our design system many times over the last 8 years, and we continue to face into challenges surrounding adoption today. When driving design system adoption in a large organisation becomes your focus, and you’ve tried ‘everything’, and your users hate you, (and your design system), what do you do?\n\nCONVERGE 2024:\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3NclDl0mqNU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3NclDl0mqNU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3NclDl0mqNU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3NclDl0mqNU",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:28:11"
+  },
+  {
+    "title": "The psychology of effective design system processes - Marianne Ashton-Booth (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nMarianne Ashton-Booth\nHead of Design Systems, ITV\n(Day 2/2, talk 04)\n\nTALK: THE PSYCHOLOGY OF EFFECTIVE DESIGN SYSTEM PROCESSES\nDesign Systems are often an uphill battle, as rewarding as they are they can also be often exhausting and frustrating. In those moments it can be tough to find the positives, but by tuning in through resilience and focus and truly understanding those headwinds and learning how to best utilize those tailwinds to propel you forward.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CPRTBvZ7DWI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CPRTBvZ7DWI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CPRTBvZ7DWI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=CPRTBvZ7DWI",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:39:49"
+  },
+  {
+    "title": "The folly Of chasing demographics - Heydon Pickering (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nHeydon Pickering, Consultant \n(Day 1/2, talk 04)\n\nTALK: THE FOLLY OF CHASING DEMOGRAPHICS\nPeople with disabilities are different. Not only different from those without disabilities but different from other people with disabilities and even different from other people with the same disabilities. Different experiences, different circumstances, different adaptations, different preferences, different everything. So why do we design for ‘screen reader users’ or ‘keyboard users’, for example, like they’re all the same person? Are there less clumsy (and insulting!) ways to approach inclusion?\n\nCONVERGE 2024\n\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/U4rq4LjV_Xo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/U4rq4LjV_Xo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/U4rq4LjV_Xo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=U4rq4LjV_Xo",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:24:17"
+  },
+  {
+    "title": "Testing UI - Gert Hengeveld (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nGert Hengeveld\nStaff Software Engineer, Chromatic\n(Day 2/2, talk 03)\n\nTALK: TESTING UI\nStorybook is an industry-standard tool for building design systems. Maintaining those systems can be a challenge, but Storybook is here to help. In this talk, Gert takes you on a journey to fully utilize various testing tools and strategies, so your design system can thrive.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7Qslag4D4UE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7Qslag4D4UE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7Qslag4D4UE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7Qslag4D4UE",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:22:41"
+  },
+  {
+    "title": "A career without a design system - Elliot Jay Stocks (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nElliot Jay Stocks\nAuthor, Univeral Principles of Typography\n(Day 2/2, talk 06)\n\nTALK: A CAREER WITHOUT A DESIGN SYSTEM\nDo passion projects lead to paying work? Can creative fulfillment sit alongside commercial failure? Is it possible to be successful without a plan? In this talk, Elliot designs a system in reverse, looking back at the messy paths that have led him to interesting places in his career.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BEq0KCSfOz8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BEq0KCSfOz8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BEq0KCSfOz8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BEq0KCSfOz8",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:38:25"
+  },
+  {
+    "title": "Typography in Design Systems - Bianca Berning (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nBianca Berning\nStaff Typographer, Spotify\n(Day 1/2, talk 07)\n\nTALK: TYPOGRAPHY IN DESIGN SYSTEMS\nTypography is at the heart of a cohesive user experience, especially when designing for a global audience. Join Bianca as she delves into how Encore, Spotifys Design system, leverages variable fonts for performance, while ensuring Spotify’s typography is expressive, accessible, and culturally relevant across 74 languages and 192 markets.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OEdUDB1O3YY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OEdUDB1O3YY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OEdUDB1O3YY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OEdUDB1O3YY",
+    "publishedAt": "2025-02-19T11:33:15Z",
+    "duration": "0:30:26"
+  },
+  {
+    "title": "Automate Figma variables to code with Plug&Play pipelines | Supernova 101",
+    "description": "In this episode of Supernova 101, we’ll show you how to automate your design-to-code workflow using pipelines and exporters. Learn how to deliver Figma variables, styles, and assets directly to code with our new plug-and-play code automation feature.\n\n💡 Chapters:\n00:00 Introduction\n00:12 What are pipelines and exporters?\n01:16 Using plug-and-play code automation\n02:47 Conclusion\n\nLearn more about code automation 👉 https://bit.ly/3EDqhRU\nLearn more about custom exporters 👉 https://bit.ly/412Dqvl\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/f0quarUCF1o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/f0quarUCF1o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/f0quarUCF1o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=f0quarUCF1o",
+    "publishedAt": "2025-02-17T20:58:55Z",
+    "duration": "0:02:58"
+  },
+  {
+    "title": "The Product Shipping Forecast #8: Walk the (management) line",
+    "description": "The Product Shipping Forecast is back for its first episode of 2025.\n\nThis episode is all about stepping up to manage other team members as Rosie and Rob reflect on the challenges they’ve faced, the things they’d do differently and how to tell if managing is the right next step for you.\n\nRosie Watson -   https://www.linkedin.com/in/rosiekw/\nRob Whitfield -   https://www.linkedin.com/in/robertrwhitfield/\n\nOn The Product Shipping Forecast, Rosie and Rob help you navigate the treacherous waters of product development. In each episode, they share their thoughts and experiences on working in product teams, collaborating with others, and discussing hot topics, so you’ll feel less adrift.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/525HgER2eDc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/525HgER2eDc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/525HgER2eDc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=525HgER2eDc",
+    "publishedAt": "2025-02-07T08:52:24Z",
+    "duration": "0:55:19"
+  },
+  {
+    "title": "The Question: for Curious Design System People, Season 01, Episode 001 with Michelle Walton",
+    "description": "Episode 001 of Season 01 is sponsored by zeroheight and Sparkbox.\n\n--\nzeroheight offers end-to-end design system management for teams of all sizes. Launch documentation, deliver platform-ready code, measure your impact, and more.\n\nGet a free 90 day trial with the promo code: QUESTION\nhttps://bit.ly/4jKT5Yt\n\n--\nSparkbox can help you holistically evolve your design system with a team of UX, design, development, and product expertise. \n\nTake the design system maturity assessment to see what stage you're in.\nhttps://bit.ly/3Q7V1N2\n\n--\nIn this episode of The Question, we dive into the differences between product design and systems design. If you work on design systems or digital products of any kind, the distinction between these roles is critical to understand. Unfortunately,  many organizations are leaving this distinction to chance. Michell and I facilitate a deep dive into the nuances between the roles and the ways we can begin to recognize the differences to lead to higher quality digital products.\n\n--\nIf you'd like an outside perspective on your design system, I offer virtual design system coaching for individuals and teams. Reach out to schedule a conversation.\nhttps://bit.ly/40kaDmO\n\n--\nThanks to my co host, Michelle Walton, for helping facilitate!\nConnect with Michelle: https://bit.ly/3V2nQgW\n\nRead the wrap up: https://bit.ly/48y6CwD\nSee the FigJam: https://bit.ly/3siKoPy\nSee the raw data: https://bit.ly/48LPweh\nJoin The Question: https://bit.ly/3WLJNBS",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZFNwbXF6lks/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZFNwbXF6lks/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZFNwbXF6lks/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ZFNwbXF6lks/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ZFNwbXF6lks/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZFNwbXF6lks",
+    "publishedAt": "2025-02-04T13:16:44Z",
+    "privacyStatus": "public",
+    "duration": "0:53:35"
+  },
+  {
+    "title": "How to customize your documentation to reflect your brand’s style | Supernova 101",
+    "description": "In this episode of Supernova 101, we’ll show you how to customize your documentation to reflect your brand’s style. Learn how to tailor individual blocks, adjust global settings, and even implement custom templates to create a fully branded documentation experience.\n\n💡 Chapters:\n00:00 Introduction\n00:18 In-editor customization options\n01:03 Tailoring the global appearance look and feel\n01:55 Advanced customization with custom documentation templates\n02:32 Conclusion\n\n🔗 Learn more about Customization options  👉 https://bit.ly/40TayGO\n🔗 Learn more about custom documentation templates  👉  https://bit.ly/3Ek4IWb\n🔗 Supernova developer docs  👉 https://bit.ly/4hzLPwM\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BkAKI3QeYHk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BkAKI3QeYHk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BkAKI3QeYHk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BkAKI3QeYHk",
+    "publishedAt": "2025-01-31T15:57:34Z",
+    "duration": "0:02:54"
+  },
+  {
+    "title": "Books that SECRETLY Inspired My Latest Design Project 🪻🌻💐🌷🌸",
+    "description": "Good design inspiration doesn’t just come from Dribbble or Pinterest.\n\nSometimes, it’s hidden in the pages of a book. 📚✨\n\nThese reads secretly shaped my latest design project in ways I didn’t expect.\n\nWhat has influenced your work lately?",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JCwxQnf9iCw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JCwxQnf9iCw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JCwxQnf9iCw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JCwxQnf9iCw",
+    "publishedAt": "2025-01-29T18:56:48Z",
+    "duration": "0:00:19"
+  },
+  {
+    "title": "Veteran Designer Spills Secrets to Finding High Paying Clients and Making More Money",
+    "description": "Designers: I want to help you make more money.\n\nI’ve run a 7-figure ARR agency and do high 6-figures every year as an independent consultant, all working about 30 to 50 hours a week. I know a thing or two about making money, and I’d love to tell you everything.\n\nHere’s a recording of a big Zoom meeting I had with 245 friends talking about things like:\n\n• ​Difficulty finding clients\n• ​Knowing what to charge\n• ​Making the jump to freelance\n• ​Creating offers\n• ​Warm vs. cold outreach\n\n⏩ CHAPTERS\n00:00:00 - Introduction\n00:00:45 - Zoom meeting starts\n00:09:08 - How to Land a Million Dollar Project\n00:15:06 - Breaking into Freelancing\n00:21:21 - Exploring Multiple Income Streams\n00:27:58 - Assessing Your Fit for Freelancing\n00:33:37 - Pricing Your First Course Product\n00:39:03 - Expanding Beyond Your Network\n00:45:24 - What Tto Do When Your Client Contact Isn’t the Buyer\n00:54:33 - The Importance of Client Analytics\n01:04:34 - Evaluating How Effective A Lead Magnet Is\n01:11:13 - Role-Playing Selling Outcomes vs. Deliverables\n01:29:22 - Transitioning Into Freelance Illustration\n01:38:53 - Starting Solo vs. Team Launch\n01:44:08 - Valuing and Pricing Branding Projects\n\n🔗 LINKS\nGet my weekly newsletter: https://danmall.com/newsletter/\nFollow me on Twitter: https://twitter.com/danmall\nFollow me on Instagram: https://www.instagram.com/danmallteaches/\nConnect with me on LinkedIn: https://www.linkedin.com/in/danmall/\n\n#danmallteaches #freelancedesign #pricingstrategy",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ggDcmy0367U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ggDcmy0367U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ggDcmy0367U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ggDcmy0367U",
+    "publishedAt": "2024-12-26T14:39:44Z",
+    "duration": "2:00:55"
+  },
+  {
+    "title": "Design Systems WTF #34: How much is too much documentation?",
+    "description": "Sometimes we may feel the urge to include everything in our documentation, to the point where it rivals Lord of the Rings for length and density. However, we may be doing ourselves a disservice! How much is too much documentation? How much is not enough documentation? Do we even need documentation at all? join us for the last Design Systems WTF of the year!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_vkbzGzWxzY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_vkbzGzWxzY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_vkbzGzWxzY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_vkbzGzWxzY",
+    "publishedAt": "2024-12-20T10:20:32Z",
+    "duration": "0:26:07"
+  },
+  {
+    "title": "Wise words I overheard",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7ZU3DEZ5IC4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7ZU3DEZ5IC4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7ZU3DEZ5IC4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7ZU3DEZ5IC4",
+    "publishedAt": "2024-12-16T21:43:06Z",
+    "duration": "0:01:01"
+  },
+  {
+    "title": "Building a design system (a real story)",
+    "description": "Whilst building product features is the day to day focus for Rosie and Rob, they’ve also spent the last year shepherding a rebuild of zeroheight’s design system.\n\nFor this episode they look back on some of the challenges and false starts they’ve faced on this journey as well as the benefits of getting to test your own features in a more realistic scenario.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4lZuS8cAFGg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4lZuS8cAFGg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4lZuS8cAFGg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4lZuS8cAFGg",
+    "publishedAt": "2024-12-14T09:52:37Z",
+    "duration": "0:53:34"
+  },
+  {
+    "title": "Getting started with the zeroheight API",
+    "description": "Check out this demo from one of our engineers, Rosie, for help getting started with our new zeroheight API.\n\nYou can use the API to get content back from your styleguide, as well as update parts, such as page statues.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/D4qxykxUUa4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/D4qxykxUUa4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/D4qxykxUUa4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=D4qxykxUUa4",
+    "publishedAt": "2024-12-10T13:59:39Z",
+    "duration": "0:04:27"
+  },
+  {
+    "title": "Managing roles and permissions in your design system | Supernova 101",
+    "description": "In this episode of Supernova 101, we’ll show you how to set up and manage roles and permissions within your design systems. Learn how to assign roles at both the workspace and design system levels, giving you granular control over who can view, edit, and manage your design systems.\n\nFrom defining Viewer, Contributor, Editor, Admin, and Owner roles to understanding the difference between workspace and design system permissions, we’ll guide you through everything you need to know to keep your team organized and your systems secure.\n\n💡 Chapters:\n00:00 Introduction\n00:22 What Are User Roles? \n01:47 Manage Your Team's Roles\n03:12 Conclusion\n\n🔗 Learn more about this feature 👉 https://bit.ly/3OOKyWd\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Z3nG6SKOLBo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Z3nG6SKOLBo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Z3nG6SKOLBo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Z3nG6SKOLBo",
+    "publishedAt": "2024-12-10T13:03:36Z",
+    "duration": "0:03:32"
+  },
+  {
+    "title": "Setting Up Design System Access: Invite-Only Design Systems in Supernova | Supernova 101",
+    "description": "In this episode of Supernova 101, learn how to set up and manage invite-only design systems to keep your content secure and accessible only to the right collaborators. We’ll guide you through the steps to configure access controls, invite team members, and assign roles to ensure efficient and focused collaboration.\n\nThis feature is perfect for early-stage projects, sensitive documentation, or external partnerships where maintaining privacy is crucial. Discover how to streamline your design system management with Supernova’s powerful access control features.\n\n💡 Chapters:\n00:00 Introduction\n00:29 How to Set Up an Invite-Only Design System\n01:12 Conclusion\n\n🔗 Learn more about this feature 👉 https://bit.ly/4ivYemD\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FEzA_RH8eSc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FEzA_RH8eSc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FEzA_RH8eSc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FEzA_RH8eSc",
+    "publishedAt": "2024-12-09T22:07:51Z",
+    "duration": "0:01:33"
+  },
+  {
+    "title": "Design Systems WTF #33 - Where should design systems sit in your org?",
+    "description": "Design systems should sit in the design team. Design systems should sit in the designops team. Design systems should sit in their own team. There are so many different options that are presented as the ‘truth’ when it comes to design systems and org design. Michelle and Luke wade through the options, weigh up their merits and probably tear the entire thing down to the ground by the end of the half-hour.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nBluesky: https://bsky.app/profile/zeroheight.com\nLinkedIn:   / zeroheight  \nInstagram:   / zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/n6uXuLNY_xs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/n6uXuLNY_xs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/n6uXuLNY_xs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=n6uXuLNY_xs",
+    "publishedAt": "2024-12-06T14:39:22Z",
+    "duration": "0:28:34"
+  },
+  {
+    "title": "Building community for your design system: Why community and planning for success",
+    "description": "When we’re building our design systems for success, we usually look at the components and processes as the answer to good adoption. However, building community around your design system has been proven to be an essential ingredient to scaling a design system.\n\nIn this panel discussion, we’ll cover off why community building is integral to success, some of the tactics you can use to start on your community-building efforts, and open it up to your questions for our esteemed panel.\n\nNOTES\nMythic Quest scene - https://www.youtube.com/watch?v=-ZzKs9HDaTc\nBlog post - We Don't Do That Here - https://thagomizer.com/blog/2017/09/29/we-don-t-do-that-here.html\nBlog Post - Make 2024 the year of Maximum Enthusiasm - https://semi-rad.com/2024/01/make-2024-the-year-of-maximum-enthusiasm/\n\nErin online - https://erin.bio\nNatalya on Bluesky - https://bsky.app/profile/natalyathree.bsky.social\nLuke on Bluesky - https://bsky.app/profile/lurkmoophy.bsky.social\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nBluesky: https://bsky.app/profile/zeroheight.com\nLinkedIn: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fzAwPHY_4jM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fzAwPHY_4jM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fzAwPHY_4jM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fzAwPHY_4jM",
+    "publishedAt": "2024-11-29T11:19:11Z",
+    "duration": "0:59:54"
+  },
+  {
+    "title": "Design Systems London # 10",
+    "description": "Full recording of our DSL #10 meetup, organised by YLD and sponsored by Accurx\n\n00:00 Intros\n10:40 \"The journey of our Design System\" with Baz Jay and Finn Clark (Senior Product Engineer & Senior Product Designer, Accurx)\n37:37 \"Designing for good: Integrating UX and accessibility in charity\" with Tim Rackham (Digital and Accessibility Lead, RSCPA)\n1:07:15 \"My LeanDS framework\" with Marianne Ashton-Booth (Head of Product Design and Design Systems, ITV)\n1:47:57 Q&A session\n2:19:16 Wrap up\n\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\nYLD is hiring - check out the job page\nJoin the conversation:\n\nTwitter @YLDio\nLinkedIn\n------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8WmjEatBn80/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8WmjEatBn80/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8WmjEatBn80/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8WmjEatBn80",
+    "publishedAt": "2024-11-29T10:00:11Z",
+    "duration": "2:22:47"
+  },
+  {
+    "title": "design systems wtf #32: Should we get rid of infinite scroll?",
+    "description": "Infinite scroll was designed to enhance the UX for browsing search results, but now it's often used to keep users endlessly engaged on social media. As concerns grow about its impact on mental health, especially among young people, it's time to reconsider its place in design systems. What responsibilities do we have as creators when our components contribute to these issues? In this episode, we’ll examine the ethical considerations of infinite scroll and other components, exploring how we can design more responsibly and promote healthier user experiences.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nBluesky: https://bsky.app/profile/zeroheight.com\nLinkedIn: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5QueUORGHZ8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5QueUORGHZ8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5QueUORGHZ8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5QueUORGHZ8",
+    "publishedAt": "2024-11-22T12:29:26Z",
+    "duration": "0:27:37"
+  },
+  {
+    "title": "Leverage SDK and CLI and Customize Your Own Exporters | Supernova 101",
+    "description": "In this episode, we explore how Supernova’s SDK and CLI tools can help you keep your designs and code perfectly in sync across all platforms. Learn about the power of exporters in automating design-to-code workflows and how you can customize them to fit your specific tech stack.\n\nSupernova Developer Documentation 👉 https://developers.supernova.io/\n\n00:00 Intro\n00:16 Customizing Exporters With Supernova SDK\n01:02 Supernova CLI: Automating Code Delivery\n01:29 Supernova Developer Documentation\n01:34 Outro\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZnOXh3_tlCY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZnOXh3_tlCY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZnOXh3_tlCY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZnOXh3_tlCY",
+    "publishedAt": "2024-11-14T14:54:24Z",
+    "duration": "0:01:40"
+  },
+  {
+    "title": "Everybody’s Gotta Learn Sometimes",
+    "description": "Rosie and Rob have both been to conferences recently, so decided to make that the jumping off point for this episode of The Product Shipping Forecast. As well as litigating whether conferences are really worth it... They also talk about the other ways they try to make sure they’re continuing to learn and develop.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gNNNVoc8kG0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gNNNVoc8kG0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gNNNVoc8kG0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gNNNVoc8kG0",
+    "publishedAt": "2024-11-14T09:16:43Z",
+    "duration": "0:53:07"
+  },
+  {
+    "title": "🚀 Streamline Your Team's Workflows and Build Your Design System Confidently With Secure Visibility",
+    "description": "Our team has been focused on providing the foundation for helping design system teams collaborate seamlessly. We know how important it is for you to control what’s released to your consumers, and we’re excited to introduce Workflows, Selective Publishing, Invite-Only Design Systems and more!\n\n🤝 Collaborate Without Compromise:\nWork privately on content and communicate progress clearly with Drafts and Page Statuses. Control what goes live with Selective Publishing, ensuring only finalized content is published.\n\n📊 Standardize Your Content Approval Process:\nDefine who approves changes before publication with custom Approval Processes, and allow contributions without granting publishing rights through the Contributor Role.\n\n🔒 Keep Precision and Control with Granular Permissions:\nRestrict access to specific team members and collaborators with Invite-Only Design Systems. Assign tailored roles using Design System Level Roles.\n\n See it in action 👉 https://bit.ly/4hp1XC0\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nUDmLshqqcU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nUDmLshqqcU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nUDmLshqqcU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nUDmLshqqcU",
+    "publishedAt": "2024-11-12T16:17:34Z",
+    "duration": "0:01:37"
+  },
+  {
+    "title": "Design Systems WTF: Live podcast (Converge 2024)",
+    "description": "Converge is zeroheight’s annual design systems conference. In 2024 we hosted a two-day, single-track event in Brighton, UK. \n\nSPEAKER: \nMichelle Chin and Luke Murphy\nDesign Advocates, zeroheight\n(Day 2/2, talk 05)\n\nTALK: DESIGN SYSTEMS WTF - LIVE PODCAST\nDesign Systems WTF is a podcast featuring Luke Murphy and Michelle Chin.\n\nMichelle (she/her) is a Design Advocate at zeroheight, where she serves the design community through knowledge sharing, building bridges, and identifying community needs. She has worn several hats, from product designer to design manager to design ops manager. She leads the DEI committee at zeroheight and career coaches underrepresented communities in tech. She also cohosts several design-related podcasts and runs a meetup called Hella Design Systems. As an environmental justice advocate, she works to provide tree equity in Oakland, California.\n\nLuke (they/them) currently leads the Marketing team at zeroheight. Before zeroheight, Luke has worked as an IC and leader in product design and advocacy teams at Memrise, Mr & Mrs Smith and Microsoft. They co-host too many podcasts and co-organize WDC conference. When they’re not shouting about design systems and designops, they are busy raising their 11 year old son, shouting in a queer punk band or telling the world why Josie and the Pussycats is a criminally underrated film.\n\nCONVERGE 2024\nAt Converge '24, we embraced a theme that extended beyond the functional boundaries of design systems—inspiring excellence in design systems. We explored the dynamic ways teams are scoring wins with their design systems. Looking ahead, we also heard about emerging trends and potential strategies that could further elevate our work.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bBo58Kc5R2E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bBo58Kc5R2E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bBo58Kc5R2E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bBo58Kc5R2E",
+    "publishedAt": "2024-11-07T10:38:05Z",
+    "duration": "0:27:24"
+  },
+  {
+    "title": "Design Systems wtf #31: Do design systems make teams go faster?",
+    "description": "Design systems are often hailed as the ultimate productivity boosters for devs and designers alike, but do they really deliver on that promise? We’ll explore whether design systems genuinely make teams more efficient or if they just add another layer of complexity. Tune in for a reality check on the true impact of design systems on team performance!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-cWIqsamZDE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-cWIqsamZDE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-cWIqsamZDE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=-cWIqsamZDE",
+    "publishedAt": "2024-11-07T10:37:46Z",
+    "duration": "0:29:04"
+  },
+  {
+    "title": "How to automate Figma Variables to code",
+    "description": "Check out this demo from one of our engineers, Seth, to learn how you can automate turning your Figma Variables into code.\n\nWant to automate Figma styles? Check out our guide: https://youtu.be/XCUBDsAoFs8\n\nHelp centre article: https://bit.ly/48CTIOY\n\nFigma plugin: http://bit.ly/3NSMPiL\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ON-vdwEkKi4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ON-vdwEkKi4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ON-vdwEkKi4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ON-vdwEkKi4",
+    "publishedAt": "2024-11-04T14:06:40Z",
+    "duration": "0:03:12"
+  },
+  {
+    "title": "How to automate Figma styles to code",
+    "description": "Check out this demo from one of our engineers, Seth, to learn how you can automate turning your Figma styles into code.\n\nHelp center article: https://bit.ly/3OdQ04Z\n\nWant to automation Figma Variables? Check out our video: https://youtu.be/ON-vdwEkKi4\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XCUBDsAoFs8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XCUBDsAoFs8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XCUBDsAoFs8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XCUBDsAoFs8",
+    "publishedAt": "2024-11-04T14:00:14Z",
+    "duration": "0:02:26"
+  },
+  {
+    "title": "Meet the zeroheight Dashboard: A new way to keep track of everything in your design system",
+    "description": "The zeroheight Dashboard allows you to easily pick up where you left off, see what your team's been up to, and determine how to improve your styleguide. \n\nThe Dashboard is available on all zeroheight plans, including zeroheight Free, so create an account and get started. \n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9nvRs1ZUmRE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9nvRs1ZUmRE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9nvRs1ZUmRE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9nvRs1ZUmRE",
+    "publishedAt": "2024-10-28T12:23:27Z",
+    "duration": "0:02:20"
+  },
+  {
+    "title": "Render React Components Directly In Supernova Documentation | Supernova 101",
+    "description": "We’ll explore how to render React components directly in Supernova’s documentation. Whether you’re creating interactive examples or live previews, I’ll show you step-by-step how to set up React code blocks to enhance your design system documentation. Stick around to learn how you can showcase your React components and bring your design systems to life—let’s dive in! 🚀\n\nLearn more about this feature: https://bit.ly/3AcXKR4\n\nBelow find the time stamps to the video content:\n00:00 Intro\n00:31 Adding and Customizing a React Code Block in Supernova\n00:48 External and Private NPM Libraries\n01:02 Complex Compositions\n01:50 Outro\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/onZSR9cenLI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/onZSR9cenLI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/onZSR9cenLI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=onZSR9cenLI",
+    "publishedAt": "2024-10-24T14:09:27Z",
+    "duration": "0:01:36"
+  },
+  {
+    "title": "Design Systems wtf #29: why isn't contribution the answer?",
+    "description": "Contribution often seems like the perfect solution for scaling design systems, but is it really? We'll weigh the tough realities of managing contributions and why a federated system might not suit everyone. We'll explore the hurdles of contribution and how to decide if it's the right path for your team.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle:   https://x.com/soysaucechin  \nMeet Luke: https://x.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedin: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_-sEAKkKd-s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_-sEAKkKd-s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_-sEAKkKd-s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_-sEAKkKd-s",
+    "publishedAt": "2024-10-18T10:01:28Z",
+    "duration": "0:29:01"
+  },
+  {
+    "title": "Change: A Short Film about Fall Foliage",
+    "description": "There's something magical about autumn. The hills whisper of reds, oranges, and golds—nature’s way of reminding us how beautiful change can be. Our little crew—a mix of old friends and new faces—is on a mission to capture this transformation.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pyhBOeRdR30/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pyhBOeRdR30/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pyhBOeRdR30/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pyhBOeRdR30",
+    "publishedAt": "2024-10-18T09:01:00Z",
+    "duration": "0:04:23"
+  },
+  {
+    "title": "Now Hiring: A Designer Who Can Ship",
+    "description": "Now hiring: a designer who can ship.\n\nWanna work for and with me?\n\nI’m looking for someone who can free me up of the tactical digital design work I currently do. I’m a designer who ships stuff, so, in order for you to free me up, you have to be a designer who ships stuff too.\n\nTypes of projects I’d put you in charge of (depending on your skillset):\n\n• Create social media graphics\n• Design and build landing pages and microsites\n• Edit videos\n• Set up third-party software & apps\n• Marketing + email automations\n\nCompensation: $3k/month for a remote contract position, paid on the 1st of the month. If working together is going well after a few months, I’m open to and expect to increase both the workload and the pay.\n\nThink all this fits you? Get a portfolio together and get ready to apply on Friday when I open up applications. More details at https://danmall.com/posts/now-hiring-a-designer-who-can-ship/\n\n#danmallteaches #designjobs #graphicdesigner #remotedesignwork #digitaldesigncareer #shippingdesigner",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0wjHT1KU5Ls/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0wjHT1KU5Ls/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0wjHT1KU5Ls/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0wjHT1KU5Ls",
+    "publishedAt": "2024-09-30T10:00:00Z",
+    "duration": "0:00:39"
+  },
+  {
+    "title": "Approval Workflows | Supernova 101",
+    "description": "Learn how to set up Supernova’s Approval Workflows feature to create seamless content reviews with your team and manage the publishing process in your design system documentation.\n\nLearn more about this feature: https://bit.ly/48iH2MG\n\nBelow find the time stamps to the video content:\n00:00 Intro\n00:32 Enabling the Approval Workflows\n00:58 Collaborating with your Team\n01:25 Selective Publishing\n01:50 Outro\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fB3PYtSndfw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fB3PYtSndfw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fB3PYtSndfw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fB3PYtSndfw",
+    "publishedAt": "2024-09-19T19:16:47Z",
+    "duration": "0:01:58"
+  },
+  {
+    "title": "The Product Shipping Forecast #5: Flops not bops",
+    "description": "Despite our best intentions, it’s sometimes a fact of product development that not every feature is a hit. So what happens when you release a flop? On this episode of The Product Shipping Forecast, Rosie and Rob reflect on the features that weren’t successes and what they’ve learned from the experience.\n\nRosie Watson - https://www.linkedin.com/in/rosiekw/\nRob Whitfield - https://www.linkedin.com/in/robertrwhitfield/\n\nOn The Product Shipping Forecast, Rosie and Rob help you navigate the treacherous waters of product development. In each episode, they share their thoughts and experiences on working in product teams, collaborating with others, and discussing hot topics, so you’ll feel less adrift.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/AT6VqFLgiiM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/AT6VqFLgiiM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/AT6VqFLgiiM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=AT6VqFLgiiM",
+    "publishedAt": "2024-09-13T12:30:46Z",
+    "duration": "0:45:31"
+  },
+  {
+    "title": "design systems wtf #26: Where can AI actually help with design systems?",
+    "description": "We’re cutting through the AI hype and getting to the good stuff—practical ways AI can supercharge your design system. From streamlining workflows to generating documentation, we’ll explore real-world applications of AI that can make your life easier. Plus, we’ll guide you through creating a custom GPT to assist with your design system needs. Are you leveraging AI to its full potential, or are you stuck in the buzzword bubble?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nVMbM-MnD3w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nVMbM-MnD3w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nVMbM-MnD3w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nVMbM-MnD3w",
+    "publishedAt": "2024-09-13T11:58:18Z",
+    "duration": "0:28:22"
+  },
+  {
+    "title": "Unlocking Innovation: The Power of Proof of Concept!",
+    "description": "Dedicating even a small amount of time to proof of concepts can enhance user delight. Listen to The Product Shipping Forecast to learn the best strategies to pitch innovative ideas to your team and effectively implement them in just a few days! 🔈",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hV4VKvL9NW4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hV4VKvL9NW4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hV4VKvL9NW4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hV4VKvL9NW4",
+    "publishedAt": "2024-09-13T06:01:30Z",
+    "duration": "0:00:39"
+  },
+  {
+    "title": "design systems wtf #24: Why do we need to care more about patterns?",
+    "description": "In this episode, we’re focusing on patterns, the often-overlooked pillar of your design system. Why should we focus on patterns more than components? Are your components really as reusable as you think, or are they just static building blocks without a solid pattern to guide them?\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/a0W2yRHUtbk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/a0W2yRHUtbk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/a0W2yRHUtbk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=a0W2yRHUtbk",
+    "publishedAt": "2024-09-11T12:02:29Z",
+    "duration": "0:25:52"
+  },
+  {
+    "title": "Creating an Effective Design System: Best Practices",
+    "description": "Michelle and Luke talk about how to scale your product design by developing a cohesive design system on Design Systems WTF.\n🎤 Check out the podcast now.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/r8-SyIMfhMM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/r8-SyIMfhMM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/r8-SyIMfhMM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=r8-SyIMfhMM",
+    "publishedAt": "2024-09-11T07:02:35Z",
+    "duration": "0:00:44"
+  },
+  {
+    "title": "The Rise of Accessibility in Digital Design",
+    "description": "On Back to School, Amy Hupe and Geri Reid explore how accessibility has become a non-negotiable standard in digital design. ✍️ Join us in understanding the cultural shifts towards inclusivity, and listen to the podcast now!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7bZZI1SOkKQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7bZZI1SOkKQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7bZZI1SOkKQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7bZZI1SOkKQ",
+    "publishedAt": "2024-09-09T07:02:27Z",
+    "duration": "0:00:14"
+  },
+  {
+    "title": "Unlocking Impact: The Small But Mighty Design Approach",
+    "description": "On The Product Shipping Forecast, Rosie and Rob explore the \"Small But Mighty\" process we employ to make impactful updates at zeroheight.\nFind out more by catching up on the podcast now! 💪",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/45FCSQHKPoM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/45FCSQHKPoM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/45FCSQHKPoM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=45FCSQHKPoM",
+    "publishedAt": "2024-09-07T09:02:27Z",
+    "duration": "0:00:42"
+  },
+  {
+    "title": "Importing Figma Variables to Supernova | Supernova 101",
+    "description": "Learn how to seamlessly import and map Figma variables in Supernova using the Figma Variables Sync plugin.\n\nGet the Figma Variables Sync Plugin 👉 https://bit.ly/4e3n7Du\n\nBelow find the time stamps to the video content:\n00:00 Intro\n00:15 Plugin Installation and Setup\n00:46 Importing Variables into Supernova\n01:48 Mode and Brand Mapping\n02:42 Outro\n\n----------\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pZnCxfiQafM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pZnCxfiQafM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pZnCxfiQafM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pZnCxfiQafM",
+    "publishedAt": "2024-09-06T11:39:29Z",
+    "duration": "0:03:06"
+  },
+  {
+    "title": "Mastering Release Notes: Essential for Effective Design Systems",
+    "description": "Listen to Design Systems WTF to learn why clear, dated release notes are vital for effective communication in your design system.\n🎙️ Listen now.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Wu7xOEtEm-I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Wu7xOEtEm-I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Wu7xOEtEm-I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Wu7xOEtEm-I",
+    "publishedAt": "2024-09-06T10:01:31Z",
+    "duration": "0:00:33"
+  },
+  {
+    "title": "The Rapid Evolution of AI-Generated Images",
+    "description": "On Design Systems WTF, Michelle Chin, and Pablo Stanley chatted all about how AI image generation has transformed in just a few years. From mediocre results to stunning visuals, hear all about it on the podcast.\n📲 available now.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_sHmEjGW0nc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_sHmEjGW0nc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_sHmEjGW0nc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_sHmEjGW0nc",
+    "publishedAt": "2024-09-05T06:02:26Z",
+    "duration": "0:00:36"
+  },
+  {
+    "title": "The Key to Successful Design Systems: Funding Matters",
+    "description": "Amy Hupe and Geri Reid explore the critical role of investment in design systems. Discover how funding impacts design teams' capabilities and outputs, and learn why financial backing is essential for success in creating effective and innovative solutions.\n👏 Check out Back to School on all podcast platforms now!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/s9slSNXpLEo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/s9slSNXpLEo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/s9slSNXpLEo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=s9slSNXpLEo",
+    "publishedAt": "2024-09-04T10:00:29Z",
+    "duration": "0:00:35"
+  },
+  {
+    "title": "Unlocking Creative Perspectives: Involving Diverse Roles in Research",
+    "description": "Rosie and Rob discuss how designers, PMs, and engineers can transform research analysis. They highlight the importance of diverse perspectives in understanding data, ultimately enhancing collaboration and innovative solutions. The Product Shipping Forecast is available on all podcast platforms now! 🔈",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WnxM_tBDS9g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WnxM_tBDS9g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WnxM_tBDS9g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=WnxM_tBDS9g",
+    "publishedAt": "2024-09-02T08:05:20Z",
+    "duration": "0:00:32"
+  },
+  {
+    "title": "Navigating AI Tools: A Designer's Guide to Success",
+    "description": "👏 Michelle Chin and Pablo Stanley explore the impact of democratization in design with AI tools. They discuss how designers can leverage these innovations while staying competitive on the Design Systems WTF podcast.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Eq2oDZgHaUA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Eq2oDZgHaUA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Eq2oDZgHaUA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Eq2oDZgHaUA",
+    "publishedAt": "2024-09-01T09:04:30Z",
+    "duration": "0:00:41"
+  },
+  {
+    "title": "Discovering Audience Needs: Building Empathy in Design",
+    "description": "On Beyond The Button we explore the importance of understanding your audience by diving deep into their experiences. Learn how to conduct effective research with users to uncover their pain points and improve your design process for better results.\nCatch up on the podcast now! 👀",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LzS3PiTx33g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LzS3PiTx33g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LzS3PiTx33g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LzS3PiTx33g",
+    "publishedAt": "2024-08-30T08:00:29Z",
+    "duration": "0:00:31"
+  },
+  {
+    "title": "Design Tokens Sets for Accessibility Needs - Marcelo Paiva at Into Design Systems Conference",
+    "description": "💪 Become the go-to Design Systems expert in your company\n✅ Learn from experts who work with Design Systems every day\n✅ Get practical tips and useful takeaways you can use right away\n✅ Feel included in a welcoming and collaborative community\n👉 Join our upcoming 3-day online conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VhtISkZJwJo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VhtISkZJwJo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VhtISkZJwJo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/VhtISkZJwJo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/VhtISkZJwJo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VhtISkZJwJo",
+    "publishedAt": "2024-08-28T19:19:38Z",
+    "privacyStatus": "public",
+    "duration": "0:45:32"
+  },
+  {
+    "title": "Unlocking Accessibility: Learn from Assistive Technology Users",
+    "description": "🎬 On Back to School, Amy and Geri discuss how you can gain insights beyond screen readers to make inclusive experiences for everyone.\nListen now!",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ojsel6qdlU4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ojsel6qdlU4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ojsel6qdlU4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ojsel6qdlU4",
+    "publishedAt": "2024-08-27T06:04:26Z",
+    "duration": "0:00:43"
+  },
+  {
+    "title": "Why Research is Crucial Before Product Development",
+    "description": "On The Product Shipping Forecast, we explore the vital role research plays in product development. Understanding user needs can prevent costly missteps and ensure you build what people truly want.\nListen to the Product Shipping Forecast now! 💻",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Qr2XgCKefK8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Qr2XgCKefK8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Qr2XgCKefK8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Qr2XgCKefK8",
+    "publishedAt": "2024-08-24T10:01:32Z",
+    "duration": "0:00:40"
+  },
+  {
+    "title": "Setting Up Figma Assets and Exporting to Code | Supernova 101",
+    "description": "In this Supernova 101 episode, we dive into setting up assets in Figma, importing them into Supernova, and exporting them to code.\n\nBelow find the time stamps to the video content:\n00:00 Intro\n00:25 Setting Up Assets In Figma\n01:28 Importing Assets Into Supernova\n02:09 Exporting Assets To Code\n02:54 Outro\n\n----------\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/286b9uBH5ok/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/286b9uBH5ok/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/286b9uBH5ok/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=286b9uBH5ok",
+    "publishedAt": "2024-08-22T17:30:43Z",
+    "duration": "0:03:15"
+  },
+  {
+    "title": "The Product Shipping Forecast #4: All Features Small But Mighty",
+    "description": "Working on a product for any length of time will reveal all the little feature requests and improvements that could delight users, but they very rarely get prioritized over other work. In this episode, Rosie and Rob talk about how their team embraced Small but Mighty features alongside their larger product work and what they’ve learned along the way. What makes a good Small but Mighty feature? Can a feature get too big? And how might other teams adopt this practice?\n\nRosie Watson - https://www.linkedin.com/in/rosiekw/\nRob Whitfield - https://www.linkedin.com/in/robertrwhitfield/\n\nOn The Product Shipping Forecast, Rosie and Rob help you navigate the treacherous waters of product development. In each episode, they share their thoughts and experiences on working in product teams, collaborating with others, and discussing hot topics, so you’ll feel less adrift.\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lG9F7t-M8GE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lG9F7t-M8GE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lG9F7t-M8GE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lG9F7t-M8GE",
+    "publishedAt": "2024-08-21T20:46:03Z",
+    "duration": "0:35:25"
+  },
+  {
+    "title": "design systems wtf #23: How should we version design systems?",
+    "description": "In this episode, we explore the enigma that is design system versioning. How do we make sense of versioning? How do you sync versions between code, design, and documentation? Maybe it’s easier to ignore versioning; but at what cost? Join us if your mind is already spinning!\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vpYN5J78jaA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vpYN5J78jaA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vpYN5J78jaA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=vpYN5J78jaA",
+    "publishedAt": "2024-08-21T15:35:01Z",
+    "duration": "0:27:09"
+  },
+  {
+    "title": "design systems wtf #21: WTF happened at Config?",
+    "description": "In this episode, we’re diving into the buzzworthy announcements and new feature releases that have the design community talking. We’ll share our opinionated opinions and insights on how these changes will impact design systems and workflows. Whether you missed the event or want a fresh perspective, tune in to catch up on all the highlights and WTF moments from Config!\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5RsDV8ZVOqw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5RsDV8ZVOqw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5RsDV8ZVOqw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5RsDV8ZVOqw",
+    "publishedAt": "2024-08-21T12:20:43Z",
+    "duration": "0:28:08"
+  },
+  {
     "title": "design systems wtf #22: Has AI made everyone a designer? A spicy conversation with Pablo Stanley",
     "description": "A podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Pablo: https://x.com/pablostanley\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -225,6 +2355,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=lZlSJAlAxNw",
     "publishedAt": "2024-07-22T05:00:33Z",
     "duration": "0:00:47"
+  },
+  {
+    "title": "Config 2024: Improve your design system with confidence through A/B testing (Steve Dodier-Lazaro)",
+    "description": "Config 2024: Improve your design system with confidence through A/B testing (Steve Dodier-Lazaro)\n\nIn this session, Steve will discuss the why and the how of A/B testing Design System components in a Web environment. Steve will present the A/B testing setup at Back Market and how it was built to blend into existing workflows for Design System contributions and Web app A/B testing. They'll discuss the technical challenges to A/B testing Design Systems and explain how to overcome them. They'll also touch on how A/B tests can help align Design System team roadmaps with product leadership goals.\n\nFeaturing: Steve Dodier-Lazaro, Design System Engineer, France Télévision",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5HXMPLkNamg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5HXMPLkNamg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5HXMPLkNamg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/5HXMPLkNamg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/5HXMPLkNamg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5HXMPLkNamg",
+    "publishedAt": "2024-07-19T11:02:09Z",
+    "privacyStatus": "public",
+    "duration": "0:19:52"
   },
   {
     "title": "Beyond the Button - Episode Ten: How do design systems foster user trust?",
@@ -711,6 +2876,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=Ze5Vqfc1UHw",
     "publishedAt": "2024-07-03T10:04:53Z",
     "duration": "0:00:43"
+  },
+  {
+    "title": "Config 2024: The broken promises of design systems (Cam Worboys, Head of Design, OS at Cash App)",
+    "description": "Config 2024: The broken promises of design systems (Cam Worboys, Head of Design, Cash App)\n\nAre design systems living up to their promises? Is our work higher quality, quicker, and more cohesive than ever before? Or are we accidentally drifting into a low-quality, restrictive design process that limits creativity?\nIn this talk, Cam explores design systems' core promises, identifying where they fall short and exploring ways to improve. Leveraging his experiences at Wise, Beats, and Cash App, Cam will share examples, advice, and stories on creating world-class design systems.\n\nFeaturing: Cam Worboys, Head of Design, Cash App",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BQXTt-NZ2Bs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BQXTt-NZ2Bs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BQXTt-NZ2Bs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/BQXTt-NZ2Bs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/BQXTt-NZ2Bs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BQXTt-NZ2Bs",
+    "publishedAt": "2024-07-03T09:12:45Z",
+    "privacyStatus": "public",
+    "duration": "0:20:26"
   },
   {
     "title": "The Product Shipping Forecast #2: Fifty Shades of Subtly Different Greys",
@@ -2736,6 +4936,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=2fwCqqZ2w1I",
     "publishedAt": "2024-04-11T13:03:41Z",
     "duration": "0:00:50"
+  },
+  {
+    "title": "Systems of Systems and Theming with Brad Frost and Chris Bloom",
+    "description": "Explore a system of systems approach with Brad Frost and Chris Bloom. Learn how to effectively manage theming and tokens for a versatile and robust user interface. In this webinar, we cover:\n- The fundamentals of design tokens and their role as the raw ingredients of a design language for user interfaces.\n- An explanation of a three-tiered token architecture to support branding needs, including handling legacy designs and accommodating light and dark modes.\n- Strategies for using CSS variables and custom properties to enhance multi-branded design system experiences across various frameworks.\n- Insights into the practical challenges and considerations when implementing web components and shadow DOM in real-world projects.\n- Effective collaboration and the importance of a global design system to streamline design processes and focus on unique, impactful work.\n\nTimestamps\n00:00 Design systems are essential for large organizations.\n06:50 Design systems should be as simple as needed.\n13:38 Mapping Starbucks green to brand colors and components.\n19:10 Web components enable consistent, adaptable UI delivery.\n26:38 Establish thoughtful and robust theming system early.\n31:34 Form controls are important for shared functionality.\n34:33 Design tokens enable cross-disciplinary collaboration between designers and developers.\n43:01 Balancing practicality with long-term relevance in design systems.\n49:44 Creating web components presents challenges and benefits.\n51:55 Adapting to web components, facing challenges positively.\n56:57 The need for accessible web design components and collaboration.\n\nLinks\nhttps://www.figma.com/file/TfztDS5nOYVLGChUTbR78B/Design-System-Ecosystem?type=whiteboard&node-id=0-1\nhttps://bradfrost.com/blog/post/creating-themeable-design-systems/\nhttps://bradfrost.com/blog/post/the-many-faces-of-themeable-design-systems/\nhttps://www.commandbar.com/blog/dark-mode-considerations/\nhttps://bradfrost.com/blog/post/a-global-design-system/\nhttps://bradfrost.com/blog/post/dark-mode-vs-inverted/\nhttps://bradfrost.com/blog/post/the-design-system-ecosystem/\nhttps://bigmedium.com/ideas/design-system-pace-layers-slow-fast.html\nhttps://bigmedium.com/ideas/boring-design-systems.html\n\nLearn more at https://knapsack.cloud or reach out to us at hello@knapsack.cloud\n\nKeywords\ndesign tokens, token architecture, brand primitives, CSS variables, web components, shadow DOM, theming, light and dark modes, design system challenges, cross-disciplinary collaboration, Figma, style dictionary, Knapsack, global design system, Brad Frost, Chris Bloom",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oLYxanWbT-Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oLYxanWbT-Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oLYxanWbT-Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/oLYxanWbT-Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/oLYxanWbT-Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oLYxanWbT-Y",
+    "publishedAt": "2024-04-11T00:19:41Z",
+    "privacyStatus": "public",
+    "duration": "1:02:32"
   },
   {
     "title": "Unlocking Your Design Potential: Tips for Building a Strong Design System",
@@ -7275,6 +9510,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=1ONxxlJnvdM",
     "publishedAt": "2023-07-06T15:39:58Z",
     "duration": "0:14:51"
+  },
+  {
+    "title": "Putting accessibility at the heart of design and code - Kateryna P, Vanessa G, Nahema S(Config 2023)",
+    "description": "Double feature\n\nA practical guide to building accessible forms on the web\nSpeaker: Kateryna Porshnieva – Front-End Engineer, Independent\n\nWeb forms are crucial for user interactions on the web, and to ensure our products provide an inclusive experience for all, we need to build them with accessibility in mind. In this talk, we'll dive into best practices and practical tips for crafting web forms that are accessible and won't leave anyone behind. We'll start by focusing on why accessibility is important, followed by a quick tour of the latest WCAG, HTML, and ARIA standards. Next, we'll delve into the principles of inclusive design and how assistive technology interacts with forms. We'll then discuss common patterns in forms and how to implement them inclusively, along with strategies for managing focus state, navigation and validation – all supported by practical examples in React.\n\nMake it accessible and inclusive, make it great!\nSpeakers: \nVanessa Guilloteau – Head of Product Design, CANAL+ Group\nNahema Soussi – Product Designer & Accessibility Specialist, CANAL+ Group\n\nAccessibility and inclusivity have become key societal issues around the world in the last few years. Social networks and large international groups like GAFAM know how to reach large audiences by offering increasingly inclusive and innovative services. What about other major digital players who do not have the same means but are still convinced that accessibility and inclusivity have become essential? At CANAL+, accessibility has become a pillar of the company's strategy for the next few years, especially for myCANAL, our Live and VOD platform. Because it is available on many devices (mobile, tablet, desktop, TV, video game console) and across various platforms (web, iOS, Android), making myCANAL compatible with all forms of disabilities, and more particularly visual disabilities, remains an incredible challenge we try to meet every day. We would like to share a few initiatives we have worked on over the last 2 years to make video-watching accessible to as many people as possible.\n\nPlease visit https://config.figma.com/video-on-demand/6329864440112 to view ASL version of this Config 2023 session\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1coh6DZrfyw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1coh6DZrfyw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1coh6DZrfyw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/1coh6DZrfyw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/1coh6DZrfyw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1coh6DZrfyw",
+    "publishedAt": "2023-06-24T12:31:15Z",
+    "privacyStatus": "public",
+    "duration": "0:48:29"
   },
   {
     "title": "Basketball at Figma’s Config 2023",
