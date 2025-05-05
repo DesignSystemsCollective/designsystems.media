@@ -84,10 +84,11 @@ const {
 <meta name="twitter:image" content={new URL(image, Astro.url)} />
 
 <!-- Video schema -->
-{video && (
-  <script type="application/ld+json">
-    {
-      JSON.stringify({
+{
+  video && (
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
         "@context": "https://schema.org",
         "@type": "VideoObject",
         name: video.title,
@@ -101,18 +102,18 @@ const {
           name: "DesignSystems.media",
           logo: {
             "@type": "ImageObject",
-            url: new URL(image, Astro.url)
-          }
+            url: new URL(image, Astro.url),
+          },
         },
         ...(video.actor && {
           actor: [
             {
               "@type": "Person",
-              name: video.actor
-            }
-          ]
-        })
-      })
-    }
-  </script>
-)}
+              name: video.actor,
+            },
+          ],
+        }),
+      })}
+    />
+  )
+}
