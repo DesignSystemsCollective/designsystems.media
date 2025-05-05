@@ -2,6 +2,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MediaPost from "../templates/MediaPost.astro";
+import { convertToISO8601Duration } from "../utils/convertToISO8601Duration";
 
 export async function getStaticPaths() {
   const posts = await getCollection("media");
@@ -19,6 +20,18 @@ const headProps = {
   description: post.data.description || post.data.title,
   image: post.data.image?.src,
   // canonicalURL: post.data.videoUrl,
+  video: {
+    title: post.data.title,
+    description: post.data.description || post.data.title,
+    thumbnailUrl: new URL(
+      post.data.poster?.src || post.data.image?.src || "",
+      Astro.site,
+    ).toString(),
+    uploadDate: new Date(post.data.publishedAt).toISOString(),
+    duration: convertToISO8601Duration(post.data.duration),
+    embedUrl: post.data.videoUrl ?? "",
+    actor: post.data.speakers?.[0],
+  },
 };
 ---
 
