@@ -11,6 +11,15 @@ export interface Props {
   description?: string;
   image?: string;
   canonicalURL?: string;
+  video?: {
+    title: string;
+    description: string;
+    thumbnailUrl: string;
+    uploadDate: string; // ISO format
+    duration: string; // ISO 8601 duration, e.g., PT47S
+    embedUrl: string;
+    actor?: string;
+  };
 }
 
 const {
@@ -18,6 +27,7 @@ const {
   description = SITE_DESCRIPTION,
   image = "/designsystemsmedia.png",
   canonicalURL = new URL(Astro.url.pathname, Astro.site),
+  video,
 } = Astro.props;
 ---
 
@@ -72,3 +82,37 @@ const {
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={new URL(image, Astro.url)} />
+
+<!-- Video schema -->
+{video && (
+  <script type="application/ld+json">
+    {
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: video.title,
+        description: video.description,
+        thumbnailUrl: video.thumbnailUrl,
+        uploadDate: video.uploadDate,
+        duration: video.duration,
+        embedUrl: video.embedUrl,
+        publisher: {
+          "@type": "Organization",
+          name: "DesignSystems.media",
+          logo: {
+            "@type": "ImageObject",
+            url: new URL(image, Astro.url)
+          }
+        },
+        ...(video.actor && {
+          actor: [
+            {
+              "@type": "Person",
+              name: video.actor
+            }
+          ]
+        })
+      })
+    }
+  </script>
+)}
