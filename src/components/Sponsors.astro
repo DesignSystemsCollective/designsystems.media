@@ -1,4 +1,8 @@
-<div class="sponsors">
+---
+const enabled = false;
+---
+
+{enabled && <div class="sponsors">
   <div class="sectionTitle">Proudly sponsored by</div>
   <div class="sponsor">
     <div class="logo">
@@ -12,7 +16,7 @@
           <style>
             .cls-1,
             .cls-2 {
-              fill: #F63E7C;
+              fill: #f63e7c;
               stroke-width: 0px;
             }
 
@@ -33,21 +37,25 @@
     <div class="content">
       <div class="name">zeroheight</div>
       <div class="description">
-        zeroheight is the design management platform that allows you to manage your tokens, create beautiful documentation sites, and measure and monitor your design system.
+        zeroheight is the design management platform that allows you to manage
+        your tokens, create beautiful documentation sites, and measure and
+        monitor your design system.
       </div>
     </div>
-    <a href="https://zeroheight.com?ref=designssystems.media">Try zeroheight for free today</a>
+    <a href="https://zeroheight.com?ref=designssystems.media"
+      >Try zeroheight for free today</a
+    >
   </div>
-</div>
+</div>}
 
 <style>
-.sponsors {
-    --primary-dark-purple: #0C0522;
-    --primary-baby-powder: #FFFCF9;
-    --primary-deep-pink: #FE2A8B;
-    --primary-lavander-pink: #FFAAD1;
-}
- 
+  .sponsors {
+    --primary-dark-purple: #0c0522;
+    --primary-baby-powder: #fffcf9;
+    --primary-deep-pink: #fe2a8b;
+    --primary-lavander-pink: #ffaad1;
+  }
+
   .sponsor {
     display: flex;
     align-items: center;
@@ -58,7 +66,7 @@
   .logo {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     width: 64px;
     height: 64px;
   }
@@ -121,9 +129,9 @@
       margin: 0 auto;
     }
 
-  .name {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
+    .name {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
   }
 </style>
