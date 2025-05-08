@@ -116,6 +116,14 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
             const rawDuration = contentDetails.duration;
             const formattedDuration = formatDuration(rawDuration);
             videoData.duration = formattedDuration;
+            // Skip Shorts (videos 60 seconds or shorter)
+            const totalSeconds =
+              parseInt(rawDuration.match(/(\d+)H/)?.[1] || 0) * 3600 +
+              parseInt(rawDuration.match(/(\d+)M/)?.[1] || 0) * 60 +
+              parseInt(rawDuration.match(/(\d+)S/)?.[1] || 0);
+            if (totalSeconds <= 60) {
+              continue; // Skip shorts
+            }
           }
 
           videos.push(videoData);
@@ -193,6 +201,14 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             const rawDuration = contentDetails.duration;
             const formattedDuration = formatDuration(rawDuration);
             videoData.duration = formattedDuration;
+            // Skip Shorts (videos 60 seconds or shorter)
+            const totalSeconds =
+              parseInt(rawDuration.match(/(\d+)H/)?.[1] || 0) * 3600 +
+              parseInt(rawDuration.match(/(\d+)M/)?.[1] || 0) * 60 +
+              parseInt(rawDuration.match(/(\d+)S/)?.[1] || 0);
+            if (totalSeconds <= 60) {
+              continue; // Skip shorts
+            }
           }
 
           videos.push(videoData);
