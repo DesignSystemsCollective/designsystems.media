@@ -4,13 +4,17 @@ import LabelCount from "../../components/LabelCount.astro";
 import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
+import { isDurationUnderOneMinute } from "../../utils/isDurationUnderOneMinute";
 
 const allPosts = await getCollection("media");
 
 // Filter posts with speakers
 const filteredPosts = allPosts.filter((post) => {
   return (
-    !post.data.draft && post.data.speakers && post.data.speakers.length > 0
+    !post.data.draft &&
+    !isDurationUnderOneMinute(post.data.duration) &&
+    post.data.speakers &&
+    post.data.speakers.length > 0
   );
 });
 

@@ -3,10 +3,11 @@ import { getCollection } from "astro:content";
 import MediaGrid from "../../components/MediaGrid.astro";
 import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { isDurationUnderOneMinute } from "../../utils/isDurationUnderOneMinute";
 
 const media = (await getCollection("media"))
   .filter((post) => {
-    return !post.data.draft;
+    return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 ---
