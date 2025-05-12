@@ -2,6 +2,7 @@
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
+import slugify from "slugify";
 import { repository } from "../../package.json";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
@@ -54,7 +55,7 @@ const {
         {
           tags?.map((tag) => (
             <a
-              href={`/tags/${tag}`}
+              href={`/tags/${slugify(tag, { lower: true })}`}
               class="tag"
               data-pagefind-filter="tag"
               data-pagefind-weight="5"
@@ -69,7 +70,7 @@ const {
         {
           speakers?.map((speaker) => (
             <a
-              href={`/speakers/${speaker}`}
+              href={`/speakers/${slugify(speaker, { lower: true })}`}
               class="speaker"
               data-pagefind-filter="speaker"
               data-pagefind-weight="5"
@@ -215,7 +216,7 @@ const {
     .hero-image {
       max-height: 405px;
       height: auto;
-      margin:0;
+      margin: 0;
     }
     .hero-image .video-embed {
       width: 100%;

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-
+import slugify from "slugify";
 import { Icon } from "astro-icon/components";
 const allPosts = await getCollection("media");
 
@@ -58,7 +58,7 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForTag = calculatePostCountForTag(tag);
           return (
             <li>
-              <a href={`/tags/${tag}`} class="tag">
+              <a href={`/tags/${slugify(tag!, { lower: true })}`} class="tag">
                 <span data-type="label">{tag}</span>{" "}
                 <span data-type="count">{postCountForTag}</span>
               </a>
@@ -79,7 +79,10 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForSpeaker = calculatePostCountForSpeaker(speaker);
           return (
             <li>
-              <a href={`/speakers/${speaker}`} class="tag">
+              <a
+                href={`/speakers/${slugify(speaker!, { lower: true })}`}
+                class="tag"
+              >
                 <span data-type="label">{speaker}</span>{" "}
                 <span data-type="count">{postCountForSpeaker}</span>
               </a>

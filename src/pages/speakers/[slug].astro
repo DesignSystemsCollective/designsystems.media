@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 import { Icon } from "astro-icon/components";
+import slugify from "slugify";
 import MediaGrid from "../../components/MediaGrid.astro";
 export async function getStaticPaths() {
   const allPosts = await getCollection("media");
@@ -26,14 +27,14 @@ export async function getStaticPaths() {
       ); // Sorting by date, most recent first
 
     return {
-      params: { speaker },
-      props: { posts: filteredPosts },
+      params: { slug: slugify(speaker, { lower: true }) },
+      props: { posts: filteredPosts, speaker },
     };
   });
 }
 
-const { speaker } = Astro.params;
-const { posts } = Astro.props;
+const { slug } = Astro.params;
+const { posts, speaker } = Astro.props;
 ---
 
 <BaseLayout sidebar={true} metadataProps={{ title: speaker }}>

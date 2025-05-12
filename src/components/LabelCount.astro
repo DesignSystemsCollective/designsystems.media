@@ -1,4 +1,5 @@
 ---
+import slugify from "slugify";
 interface Props {
   type: String;
   name: String;
@@ -9,7 +10,7 @@ const { type, name, count } = Astro.props;
 ---
 
 <div class="media-item">
-  <a href={`/${type}/${name}`} class="link">
+  <a href={`/${type}/${slugify(name as string, { lower: true })}`} class="link">
     <span data-type="label">{name}</span>{" "}
     <span data-type="count">{count}</span>
   </a>
