@@ -58,7 +58,7 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForTag = calculatePostCountForTag(tag);
           return (
             <li>
-              <a href={`/tags/${slugify(tag!, { lower: true })}`} class="tag">
+              <a href={`/tags/${slugify(tag!, { lower: true, remove: /[*+~.()'"!:@]/g })}`} class="tag">
                 <span data-type="label">{tag}</span>{" "}
                 <span data-type="count">{postCountForTag}</span>
               </a>
@@ -80,7 +80,7 @@ function calculatePostCountForSpeaker(speakerName) {
           return (
             <li>
               <a
-                href={`/speakers/${slugify(speaker!, { lower: true })}`}
+                href={`/speakers/${slugify(speaker!, { lower: true, remove: /[*+~.()'"!:@]/g })}`}
                 class="tag"
               >
                 <span data-type="label">{speaker}</span>{" "}

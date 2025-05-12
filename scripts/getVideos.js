@@ -54,7 +54,7 @@ function generateMdxFile(video, folderPath) {
 
   // Generate a folder name without special characters
   const folderName = removeSpecialCharacters(
-    slugify(sanitizedTitle, { lower: true }),
+    slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g }),
   )
     .split("-")
     .slice(0, 5)
@@ -144,7 +144,7 @@ async function main() {
             /[:"“”#'‘’!?@_^%()]/gi,
             "",
           );
-          const folderName = slugify(sanitizedTitle, { lower: true })
+          const folderName = slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g })
             .split("-")
             .slice(0, 7)
             .join("-");
@@ -175,7 +175,7 @@ async function main() {
             /[:"“”#'‘’!?@_^%()]/gi,
             "",
           );
-          const folderName = slugify(sanitizedTitle, { lower: true })
+          const folderName = slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g })
             .split("-")
             .slice(0, 7)
             .join("-");

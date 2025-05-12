@@ -24,7 +24,7 @@ export async function getStaticPaths() {
           new Date(a.data.publishedAt).getTime(),
       ); // Sorting by date, most recent first
     return {
-      params: { slug: slugify(tag, { lower: true }) },
+      params: { slug: slugify(tag, { lower: true, remove: /[*+~.()'"!:@]/g }) },
       props: { posts: filteredPosts, tag },
     };
   });

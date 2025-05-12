@@ -27,7 +27,7 @@ export async function getStaticPaths() {
       ); // Sorting by date, most recent first
 
     return {
-      params: { slug: slugify(speaker, { lower: true }) },
+      params: { slug: slugify(speaker, { lower: true, remove: /[*+~.()'"!:@]/g }) },
       props: { posts: filteredPosts, speaker },
     };
   });
