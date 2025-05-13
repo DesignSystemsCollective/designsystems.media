@@ -37,6 +37,7 @@
     "astro-google-analytics": "^1.0.3",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^1.8.3",
+    "astro-sitemap": "^1.0.0",
     "axios": "^1.8.4",
     "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
