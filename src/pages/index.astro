@@ -9,7 +9,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import { allPostsFilteredAndSorted } from "../utils/mediaCollection";
 
-const media = allPostsFilteredAndSorted;
+const media = allPostsFilteredAndSorted.slice(0, 12);
 ---
 
 <BaseLayout sidebar={false} isHome={true}>
