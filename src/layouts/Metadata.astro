@@ -6,6 +6,14 @@ import "../styles/global.css";
 import { GoogleAnalytics } from "astro-google-analytics";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
+import { getCollection } from "astro:content";
+const allPosts = await getCollection("media");
+import { isDurationUnderOneMinute } from "../utils/isDurationUnderOneMinute";
+
+const postCount = allPosts.filter((post) => {
+  return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
+}).length;
+
 export interface Props {
   title?: string;
   description?: string;
@@ -32,6 +40,13 @@ const {
   ).toString(),
   video,
 } = Astro.props;
+
+
+// Build description (fallback to config if dynamic version fails)
+const dynamicDescription = `A curated collection of ${postCount} design system videos, tagged with speakers and topics for easy discovery.`;
+const metaDescription = dynamicDescription || description;
+
+
 ---
 
 <!-- Global Metadata -->
@@ -40,6 +55,8 @@ const {
 <meta name="author" content="DesignSystems.media" />
 <meta name="robots" content="index, follow" />
 
+<meta name="description" content={metaDescription} />
+
 <GoogleAnalytics id="G-Y71GMYWZL0" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -47,6 +64,7 @@ const {
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <link rel="manifest" href="/site.webmanifest" />
 <meta name="generator" content={Astro.generator} />
+
 
 <!-- Font preloads -->
 <link
@@ -70,7 +88,10 @@ const {
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
-<meta name="description" content={description} />
+<meta name="description" content={metaDescription} />
+
+<!-- Sitemap -->
+<link rel="sitemap" href="/sitemap-index.xml" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
