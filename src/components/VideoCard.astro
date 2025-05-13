@@ -11,7 +11,7 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
 ---
 
 <div class="media-item">
-  <a href={`/${slug}/`} class="media-link">
+  <a href={`/video/${slug}/`} class="media-link">
     <div class="media-image">
       <Image src={poster} alt={title} />
       {duration && <div class="duration">{formatDuration(duration)}</div>}
