@@ -1,6 +1,7 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Design Systems Media",
+  "short_name": "Design Systems",
+  "description": "Track your daily tasks and plan your projects efficiently.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -15,5 +16,20 @@
   ],
   "theme_color": "#9171f8",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "categories": ["productivity", "entertainment"],
+  "shortcuts": [
+  {
+    "name": "All videos",
+    "url": "/all"
+  },
+  {
+    "name": "All speakers",
+    "url": "/speakers"
+  },
+  {
+    "name": "All tags",
+    "url": "/tags"
+  }
+]
 }
