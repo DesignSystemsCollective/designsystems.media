@@ -1,40 +1,9 @@
 ---
-import { getCollection } from "astro:content";
-const allPosts = await getCollection("media");
-
 import { Icon } from "astro-icon/components";
-import { isDurationUnderOneMinute } from "../utils/isDurationUnderOneMinute";
+import { postCount, speakers, tags } from "../utils/mediaCollection";
 
-const postCount = allPosts.filter((post) => {
-  return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
-}).length;
-
-// Function to extract unique items
-function getUniqueItems(key) {
-  const uniqueItems = [] as {}[];
-  allPosts
-    .filter((post) => {
-      return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
-    })
-    .forEach((post) => {
-      post.data[key].forEach((item) => {
-        if (!uniqueItems.includes(item)) {
-          uniqueItems.push(item);
-        }
-      });
-    });
-  return uniqueItems;
-}
-
-// Get the list of unique tags
-const uniqueTags = getUniqueItems("tags");
-
-// Get the list of unique speakers
-const uniqueSpeakers = getUniqueItems("speakers");
-
-// Calculate the total count of unique tags and speakers
-const totalTagCount = uniqueTags.length;
-const totalSpeakerCount = uniqueSpeakers.length;
+const totalTagCount = tags.length;
+const totalSpeakerCount = speakers.length;
 ---
 
 <div class="libraryStats">

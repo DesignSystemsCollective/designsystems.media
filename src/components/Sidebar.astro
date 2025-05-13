@@ -1,38 +1,7 @@
 ---
-import { getCollection } from "astro:content";
-import slugify from "slugify";
 import { Icon } from "astro-icon/components";
-const allPosts = await getCollection("media");
-
-// Filter posts with tags
-const postsWithTags = allPosts.filter((post) => {
-  return !post.data.draft && post.data.tags && post.data.tags.length > 0;
-});
-
-const tags = [
-  ...new Set(
-    postsWithTags
-      .map((post) => post.data.tags)
-      .flat()
-      .sort(),
-  ),
-];
-
-// Filter posts with speakers
-const postsWithSpeakers = allPosts.filter((post) => {
-  return (
-    !post.data.draft && post.data.speakers && post.data.speakers.length > 0
-  );
-});
-
-const speakers = [
-  ...new Set(
-    postsWithSpeakers
-      .map((post) => post.data.speakers)
-      .flat()
-      .sort(),
-  ),
-];
+import { allPosts, speakers, tags } from "../utils/mediaCollection";
+import { convertToSlug } from "../utils/convertToSlug";
 
 function calculatePostCountForTag(tagName) {
   // Assuming 'posts' is an array of post objects with 'tags' property
@@ -58,7 +27,7 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForTag = calculatePostCountForTag(tag);
           return (
             <li>
-              <a href={`/tags/${slugify(tag!, { lower: true, remove: /[*+~.()'"!:@]/g })}`} class="tag">
+              <a href={`/tags/${convertToSlug(tag)}`} class="tag">
                 <span data-type="label">{tag}</span>{" "}
                 <span data-type="count">{postCountForTag}</span>
               </a>
@@ -79,10 +48,7 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForSpeaker = calculatePostCountForSpeaker(speaker);
           return (
             <li>
-              <a
-                href={`/speakers/${slugify(speaker!, { lower: true, remove: /[*+~.()'"!:@]/g })}`}
-                class="tag"
-              >
+              <a href={`/speakers/${convertToSlug(speaker)}`} class="tag">
                 <span data-type="label">{speaker}</span>{" "}
                 <span data-type="count">{postCountForSpeaker}</span>
               </a>
