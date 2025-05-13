@@ -138,3 +138,6 @@ dist
 
 # netlify
 .netlify/
+
+# playwright
+test-results/
