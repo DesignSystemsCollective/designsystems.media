@@ -6,7 +6,7 @@
 
 The following scripts are found in `./scripts`
 
-__Requirements__
+**Requirements**
 
 A Google API key is needed in a local `.env` file
 
@@ -38,4 +38,19 @@ yarn aggregate
 ```
 yarn
 yarn dev
+```
+
+### How to run tests
+
+Build and serve the site
+
+```
+yarn build
+yarn serve
+```
+
+Run the tests in another terminal
+
+```
+yarn test
 ```
