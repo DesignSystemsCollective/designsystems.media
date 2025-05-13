@@ -1,11 +1,12 @@
 ---
-import { getCollection, type CollectionEntry } from "astro:content";
+import { type CollectionEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MediaPost from "../templates/MediaPost.astro";
 import { convertToISO8601Duration } from "../utils/convertToISO8601Duration";
+import { allPosts } from "../utils/mediaCollection";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("media");
+  const posts = allPosts;
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: post,

@@ -1,17 +1,12 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 import { Icon } from "astro-icon/components";
-import slugify from "slugify";
 import MediaGrid from "../../components/MediaGrid.astro";
+import { convertToSlug } from "../../utils/convertToSlug";
+import { allPosts, speakers } from "../../utils/mediaCollection";
 export async function getStaticPaths() {
-  const allPosts = await getCollection("media");
-  const uniqueSpeakers = [
-    ...new Set(allPosts.map((post) => post.data.speakers).flat()),
-  ];
-
-  return uniqueSpeakers.map((speaker) => {
+  return speakers.map((speaker) => {
     if (!speaker)
       return {
         params: { speaker },
@@ -27,7 +22,9 @@ export async function getStaticPaths() {
       ); // Sorting by date, most recent first
 
     return {
-      params: { slug: slugify(speaker, { lower: true, remove: /[*+~.()'"!:@]/g }) },
+      params: {
+        slug: convertToSlug(speaker),
+      },
       props: { posts: filteredPosts, speaker },
     };
   });

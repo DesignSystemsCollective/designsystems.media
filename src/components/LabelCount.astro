@@ -1,16 +1,16 @@
 ---
-import slugify from "slugify";
 interface Props {
-  type: String;
-  name: String;
-  count: Number;
+  link: string;
+  type: string;
+  name: string;
+  count: number;
 }
 
-const { type, name, count } = Astro.props;
+const { link, type, name, count } = Astro.props;
 ---
 
 <div class="media-item">
-  <a href={`/${type}/${slugify(name as string, { lower: true, remove: /[*+~.()'"!:@]/g })}`} class="link">
+  <a href={link} class="link">
     <span data-type="label">{name}</span>{" "}
     <span data-type="count">{count}</span>
   </a>

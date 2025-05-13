@@ -1,17 +1,13 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 import { Icon } from "astro-icon/components";
-import slugify from "slugify";
 import MediaGrid from "../../components/MediaGrid.astro";
-export async function getStaticPaths() {
-  const allPosts = await getCollection("media");
-  const uniqueTags = [
-    ...new Set(allPosts.map((post) => post.data.tags).flat()),
-  ];
+import { convertToSlug } from "../../utils/convertToSlug";
+import { allPosts, tags } from "../../utils/mediaCollection";
 
-  return uniqueTags.map((tag) => {
+export async function getStaticPaths() {
+  return tags.map((tag) => {
     if (!tag)
       return {
         params: { tag },
@@ -24,7 +20,7 @@ export async function getStaticPaths() {
           new Date(a.data.publishedAt).getTime(),
       ); // Sorting by date, most recent first
     return {
-      params: { slug: slugify(tag, { lower: true, remove: /[*+~.()'"!:@]/g }) },
+      params: { slug: convertToSlug(tag) },
       props: { posts: filteredPosts, tag },
     };
   });

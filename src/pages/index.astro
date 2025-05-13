@@ -1,5 +1,4 @@
 ---
-import { getCollection } from "astro:content";
 import Card from "../components/Card.astro";
 import CardHeader from "../components/CardHeader.astro";
 import LibraryStats from "../components/LibraryStats.astro";
@@ -8,14 +7,9 @@ import SectionHeader from "../components/SectionHeader.astro";
 import Sponsors from "../components/Sponsors.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
-import { isDurationUnderOneMinute } from "../utils/isDurationUnderOneMinute";
+import { allPostsFilteredAndSorted } from "../utils/mediaCollection";
 
-const media = (await getCollection("media"))
-  .filter((post) => {
-    return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
-  })
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
-  .slice(0, 12);
+const media = allPostsFilteredAndSorted;
 ---
 
 <BaseLayout sidebar={false} isHome={true}>

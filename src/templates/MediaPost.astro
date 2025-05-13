@@ -2,10 +2,10 @@
 import { YouTube } from "@astro-community/astro-embed-youtube";
 import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
-import slugify from "slugify";
 import { repository } from "../../package.json";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
+import { convertToSlug } from "../utils/convertToSlug";
 import { formatDuration } from "../utils/formatDuration";
 
 type Media = CollectionEntry<"media">;
@@ -55,7 +55,7 @@ const {
         {
           tags?.map((tag) => (
             <a
-              href={`/tags/${slugify(tag, { lower: true, remove: /[*+~.()'"!:@]/g })}`}
+              href={`/tags/${convertToSlug(tag)}`}
               class="tag"
               data-pagefind-filter="tag"
               data-pagefind-weight="5"
@@ -70,7 +70,7 @@ const {
         {
           speakers?.map((speaker) => (
             <a
-              href={`/speakers/${slugify(speaker, { lower: true, remove: /[*+~.()'"!:@]/g })}`}
+              href={`/speakers/${convertToSlug(speaker)}`}
               class="speaker"
               data-pagefind-filter="speaker"
               data-pagefind-weight="5"
