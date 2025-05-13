@@ -20,17 +20,22 @@ function getAllHtmlFiles(dirPath) {
   });
 }
 
+function getUrls(file) {
+  const relativePath = file
+    .replace(distDir, "")
+    .replace(/index\.html$/, "")
+    .replace(/\.html$/, "");
+  const urlPath = relativePath === "" ? "/" : `${relativePath}`;
+  const url = `${baseUrl}${urlPath}`;
+  return { urlPath, url };
+}
+
 const htmlFiles = getAllHtmlFiles(distDir);
 
 test.describe("Check all site pages and links", () => {
+  // Run page load tests first to preload the responseCache
   htmlFiles.forEach((file) => {
-    const relativePath = file
-      .replace(distDir, "")
-      .replace(/index\.html$/, "")
-      .replace(/\.html$/, "");
-
-    const urlPath = relativePath === "" ? "/" : `${relativePath}`;
-    const url = `${baseUrl}${urlPath}`;
+    const { urlPath, url } = getUrls(file);
 
     test(`Page ${urlPath} should load without errors`, async ({ page }) => {
       const response = await page.goto(url);
@@ -39,6 +44,11 @@ test.describe("Check all site pages and links", () => {
 
       expect(status).toBeLessThan(400);
     });
+  });
+
+  // Run internal link tests after page load tests to preload the responseCache
+  htmlFiles.forEach((file) => {
+    const { urlPath, url } = getUrls(file);
 
     test(`Check internal links on ${urlPath}`, async ({ request }) => {
       const htmlContent = fs.readFileSync(file, "utf-8");
