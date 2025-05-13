@@ -1,11 +1,11 @@
 import { getCollection } from "astro:content";
-import { isDurationUnderOneMinute } from "./isDurationUnderOneMinute";
+import { isDurationOneMinuteOrUnder } from "./isDurationOneMinuteOrUnder";
 
 export const allPosts = await getCollection("media");
 
 export const allPostsFilteredAndSorted = allPosts
   .filter((post) => {
-    return !post.data.draft && !isDurationUnderOneMinute(post.data.duration);
+    return !post.data.draft && !isDurationOneMinuteOrUnder(post.data.duration);
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
