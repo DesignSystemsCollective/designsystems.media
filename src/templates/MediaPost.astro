@@ -55,7 +55,7 @@ const {
         {
           tags?.map((tag) => (
             <a
-              href={`/tags/${convertToSlug(tag)}`}
+              href={`/tags/${convertToSlug(tag)}/`}
               class="tag"
               data-pagefind-filter="tag"
               data-pagefind-weight="5"
@@ -70,7 +70,7 @@ const {
         {
           speakers?.map((speaker) => (
             <a
-              href={`/speakers/${convertToSlug(speaker)}`}
+              href={`/speakers/${convertToSlug(speaker)}/`}
               class="speaker"
               data-pagefind-filter="speaker"
               data-pagefind-weight="5"

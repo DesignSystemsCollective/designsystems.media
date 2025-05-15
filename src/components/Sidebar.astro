@@ -27,7 +27,7 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForTag = calculatePostCountForTag(tag);
           return (
             <li>
-              <a href={`/tags/${convertToSlug(tag)}`} class="tag">
+              <a href={`/tags/${convertToSlug(tag)}/`} class="tag">
                 <span data-type="label">{tag}</span>{" "}
                 <span data-type="count">{postCountForTag}</span>
               </a>
@@ -48,7 +48,7 @@ function calculatePostCountForSpeaker(speakerName) {
           const postCountForSpeaker = calculatePostCountForSpeaker(speaker);
           return (
             <li>
-              <a href={`/speakers/${convertToSlug(speaker)}`} class="tag">
+              <a href={`/speakers/${convertToSlug(speaker)}/`} class="tag">
                 <span data-type="label">{speaker}</span>{" "}
                 <span data-type="count">{postCountForSpeaker}</span>
               </a>

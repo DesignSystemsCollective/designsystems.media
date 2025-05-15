@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat/"
+  status = 301
+  force = false

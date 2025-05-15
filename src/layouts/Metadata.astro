@@ -26,7 +26,10 @@ const {
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
   image = "/designsystemsmedia.png",
-  canonicalURL = new URL(Astro.url.pathname, Astro.site),
+  canonicalURL = new URL(
+    Astro.url.pathname.replace(/\/?$/, "/"),
+    Astro.site,
+  ).toString(),
   video,
 } = Astro.props;
 ---

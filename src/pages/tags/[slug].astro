@@ -31,7 +31,7 @@ const { posts, tag } = Astro.props;
 ---
 
 <BaseLayout sidebar={true} metadataProps={{ title: tag }}>
-  <a href="/tags" class="breadcrumb">
+  <a href="/tags/" class="breadcrumb">
     <Icon name="fluent:tag-20-filled" size={20} />Tags
   </a>
   <h2>{tag}</h2>
