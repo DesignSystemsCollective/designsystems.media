@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+import { isDurationUnderOneMinute } from "../utils/isDurationUnderOneMinute";
+
+ // Determine the base URL depending on whether it's in DEV or PROD
+  const baseUrl = import.meta.env.MODE === 'development' 
+    ? 'http://localhost:3000'  // Default dev URL
+    : import.meta.env.SITE;     // Production URL from the environment config
+
+
+// Set cutoff date: May 15, 2025
+const cutoffDate = new Date('2025-05-15T00:00:00Z');
+
+// Get all videos
+const videos = (await getCollection("media"))
+  .filter(
+    (post) =>
+      !post.data.draft && !isDurationUnderOneMinute(post.data.duration) &&
+      new Date(post.data.publishedAt) < cutoffDate
+  )
+  .sort(
+    (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+  );
+
+// Generate redirect rules
+const redirectRules = videos.map(video => `/${video.slug}/ /video/${video.slug}/`);
+---
+
+<html>
+<head>
+  <title>Redirects Preview</title>
+</head>
+<body>
+    <h1>Redirects Preview</h1>
+  <p>This page shows redirect rules for posts published before {cutoffDate.toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'})}.</p>
+  
+  <div class="stats">
+    Total redirects: {redirectRules.length}
+  </div>
+  
+  <pre>{redirectRules.join('\n')}</pre>
+  
+</body>
+</html>
