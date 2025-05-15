@@ -40,6 +40,7 @@
     "astro-sitemap": "^1.0.0",
     "axios": "^1.8.4",
     "dotenv": "^16.4.7",
+    "fast-xml-parser": "^5.2.3",
     "fs": "^0.0.1-security",
     "googleapis": "^148.0.0",
     "gray-matter": "^4.0.3",
