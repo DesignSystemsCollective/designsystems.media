@@ -42,7 +42,7 @@ speakers.forEach((speaker) => {
           <div class="grid">
             {groupedSpeakers[letter].map((speaker) => (
               <LabelCount
-                link={`speakers/${convertToSlug(speaker)}`}
+                link={`${convertToSlug(speaker)}/`}
                 type="speakers"
                 name={speaker}
                 count={calculatePostCountForSpeaker(speaker)}

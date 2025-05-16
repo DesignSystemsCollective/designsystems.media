@@ -41,7 +41,7 @@ tags.forEach((tag) => {
           <div class="grid">
             {groupedTags[letter].map((tag) => (
               <LabelCount
-                link={`tags/${convertToSlug(tag)}`}
+                link={`${convertToSlug(tag)}/`}
                 type="tags"
                 name={tag}
                 count={calculatePostCountForTag(tag)}
