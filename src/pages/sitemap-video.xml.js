@@ -1,6 +1,5 @@
-import { getCollection } from "astro:content";
 import { XMLBuilder } from "fast-xml-parser";
-import { isDurationUnderOneMinute } from "../utils/isDurationUnderOneMinute";
+import { allPostsFilteredAndSorted } from "../utils/mediaCollection";
 
 export const prerender = true;
 
@@ -12,45 +11,43 @@ function convertToISO8601Duration(durationString) {
   }`;
 }
 
-function extractFirstParagraph(markdown = '') {
-  if (typeof markdown !== 'string') return '';
-  
+function extractFirstParagraph(markdown = "") {
+  if (typeof markdown !== "string") return "";
+
   // First, strip out code blocks to avoid including them in descriptions
-  const withoutCodeBlocks = markdown.replace(/```[\s\S]*?```/g, '');
-  
+  const withoutCodeBlocks = markdown.replace(/```[\s\S]*?```/g, "");
+
   // Find the first real paragraph (not a heading, not empty)
-  return withoutCodeBlocks
-    .split('\n\n')
-    .map(p => p.trim())
-    .find(p => p.length && !p.startsWith('#'))
-    ?.replace(/\[(.*?)\]\(.*?\)/g, '$1')  // strip markdown links
-    .replace(/[*_`#>~-]/g, '')            // strip markdown formatting
-    .slice(0, 300)                        // limit to 300 characters
-    || '';                                // fallback to empty string
+  return (
+    withoutCodeBlocks
+      .split("\n\n")
+      .map((p) => p.trim())
+      .find((p) => p.length && !p.startsWith("#"))
+      ?.replace(/\[(.*?)\]\(.*?\)/g, "$1") // strip markdown links
+      .replace(/[*_`#>~-]/g, "") // strip markdown formatting
+      .slice(0, 300) || // limit to 300 characters
+    ""
+  ); // fallback to empty string
 }
 
 export async function GET() {
-  const videos = (await getCollection("media"))
-    .filter(
-      (post) =>
-        !post.data.draft && !isDurationUnderOneMinute(post.data.duration)
-    )
-    .sort(
-      (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
-    );
-    
+  const videos = allPostsFilteredAndSorted;
+
   // Render the markdown to access the body content
-  await Promise.all(videos.map(async (video) => {
-    // Convert the markdown body to plain text for description
-    if (video.body) {
-      video.renderedDescription = extractFirstParagraph(video.body);
-    }
-  }));
+  await Promise.all(
+    videos.map(async (video) => {
+      // Convert the markdown body to plain text for description
+      if (video.body) {
+        video.renderedDescription = extractFirstParagraph(video.body);
+      }
+    })
+  );
 
   // Determine the base URL depending on whether it's in DEV or PROD
-  const baseUrl = import.meta.env.MODE === 'development' 
-    ? 'http://localhost:3000'  // Default dev URL
-    : import.meta.env.SITE;     // Production URL from the environment config
+  const baseUrl =
+    import.meta.env.MODE === "development"
+      ? "http://localhost:3000" // Default dev URL
+      : import.meta.env.SITE; // Production URL from the environment config
 
   const urlset = {
     url: videos.map((video) => {
@@ -65,7 +62,9 @@ export async function GET() {
             baseUrl
           ).toString(), // Absolute URL for thumbnail
           "video:title": { "#text": data.title },
-          "video:description": { "#text": video.renderedDescription || description || data.title },
+          "video:description": {
+            "#text": video.renderedDescription || description || data.title,
+          },
           ...(data.videoUrl && {
             "video:player_loc": new URL(data.videoUrl, baseUrl).toString(), // Absolute URL for player_loc
           }),
@@ -92,7 +91,7 @@ export async function GET() {
     format: true,
     suppressEmptyNode: true,
     // Customizing how the XML output is generated to ensure we can inject namespaces
-    rootNodeNames: { urlset: '@xmlns' },
+    rootNodeNames: { urlset: "@xmlns" },
   });
 
   let xml = builder.build({
@@ -100,12 +99,15 @@ export async function GET() {
   });
 
   // Extract the closing tag before replacing the opening tag
-  const closingTag = '</urlset>';
-  
+  const closingTag = "</urlset>";
+
   // Manually inserting namespaces at the top of the XML
-  xml = xml.replace('<urlset>', `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xml = xml.replace(
+    "<urlset>",
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml">`);
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">`
+  );
 
   return new Response(`<?xml version="1.0" encoding="UTF-8"?>${xml}`, {
     headers: {
