@@ -19,7 +19,7 @@ const { Content } = await post.render();
 const headProps = {
   title: post.data.title,
   description: post.data.description || post.data.title,
-  image: post.data.image?.src,
+  image: post.data.poster?.src || post.data.image?.src,
   // canonicalURL: post.data.videoUrl,
   video: {
     title: post.data.title,
