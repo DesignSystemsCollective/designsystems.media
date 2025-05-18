@@ -17,7 +17,7 @@ type Props = CollectionEntry<"media">;
 const post = Astro.props;
 const { Content } = await post.render();
 const headProps = {
-  title: post.data.title,
+  title: `${post.data.title} | Video`,
   description: post.data.description || post.data.title,
   image: post.data.poster?.src || post.data.image?.src,
   // canonicalURL: post.data.videoUrl,
