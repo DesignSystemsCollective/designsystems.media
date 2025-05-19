@@ -9,8 +9,8 @@
     "url": "https://github.com/DesignSystemsCollective/designsystems.media"
   },
   "scripts": {
-    "videos": "node scripts/getVideos.js",
-    "images": "node scripts/getImages.js",
+    "videos": "node video-aggregator/scripts/getVideos.js",
+    "images": "node video-aggregator/scripts/getImages.js",
     "aggregate": "yarn videos && yarn images",
     "dev": "astro dev",
     "start": "astro dev",

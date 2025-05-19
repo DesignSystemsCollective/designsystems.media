@@ -8,8 +8,10 @@ const {
 } = require("./youtube");
 const { getAllVideosFromVimeo } = require("./vimeo");
 
-const outputFilename = "data/output.json";
-const outputDir = "../src/content/media/";
+const sourcesData = require("../data/sources.json");
+const videosToIgnore = require("../data/ignore.json");
+const outputFilename = "../data/output.json";
+const outputDir = "../../src/content/media/";
 
 // Load previously imported video data from output.json if it exists
 let importedVideoData = [];
@@ -17,12 +19,6 @@ let importedVideoData = [];
 if (fs.existsSync(outputFilename)) {
   importedVideoData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
 }
-
-// Import the sources from sources.json
-const sourcesData = require("./sources.json");
-
-// Import the list of video URLs to ignore
-const videosToIgnore = require("./ignore.json");
 
 // Function to generate an MDX file with video data
 function generateMdxFile(video, folderPath) {
@@ -54,7 +50,7 @@ function generateMdxFile(video, folderPath) {
 
   // Generate a folder name without special characters
   const folderName = removeSpecialCharacters(
-    slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g }),
+    slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g })
   )
     .split("-")
     .slice(0, 5)
@@ -91,7 +87,7 @@ privacyStatus: "${privacyStatus}"
 draft: true
 speakers: ["Unsorted"]
 ---
-${videoDescription}\n`,
+${videoDescription}\n`
   );
 
   console.log(`Created folder and index.mdx file for ${sanitizedTitle}`);
@@ -134,7 +130,7 @@ async function main() {
         // console.log(`Fetching videos from channel ${channelId}...`);
         const channelVideos = await getAllVideosFromChannel(
           channelId,
-          importedVideoData,
+          importedVideoData
         );
 
         for (const video of channelVideos) {
@@ -142,9 +138,12 @@ async function main() {
 
           const sanitizedTitle = video.title.replace(
             /[:"“”#'‘’!?@_^%()]/gi,
-            "",
+            ""
           );
-          const folderName = slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g })
+          const folderName = slugify(sanitizedTitle, {
+            lower: true,
+            remove: /[*+~.()'"!:@]/g,
+          })
             .split("-")
             .slice(0, 7)
             .join("-");
@@ -166,16 +165,19 @@ async function main() {
         // console.log(`Fetching videos from playlist ${playlistId}...`);
         const playlistVideos = await getAllVideosFromPlaylist(
           playlistId,
-          importedVideoData,
+          importedVideoData
         );
 
         for (const video of playlistVideos) {
           const videoUrl = video.videoUrl;
           const sanitizedTitle = video.title.replace(
             /[:"“”#'‘’!?@_^%()]/gi,
-            "",
+            ""
           );
-          const folderName = slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g })
+          const folderName = slugify(sanitizedTitle, {
+            lower: true,
+            remove: /[*+~.()'"!:@]/g,
+          })
             .split("-")
             .slice(0, 7)
             .join("-");
@@ -227,7 +229,7 @@ async function main() {
     // Write the combined video data to output.json
     fs.writeFileSync(
       outputFilename,
-      JSON.stringify(combinedVideoData, null, 2),
+      JSON.stringify(combinedVideoData, null, 2)
     );
 
     // Calculate the new total of videos
