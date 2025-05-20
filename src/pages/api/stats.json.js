@@ -1,16 +1,26 @@
-import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
-import { speakers, tags } from "../../utils/mediaCollection";
+import { getCollection } from "astro:content";
+import { allPostsFilteredAndSorted, speakers, tags } from "../../utils/mediaCollection";
+import { isDurationOneMinuteOrUnder } from "../../utils/isDurationOneMinuteOrUnder";
 
 export async function GET() {
   try {
     const totalPosts = allPostsFilteredAndSorted.length;
     const totalTagCount = tags.length;
     const totalSpeakerCount = speakers.length;
+    const allPosts = await getCollection("media");
 
-    // Filter the posts, accessing the 'draft' property within the 'frontmatter'
-    const backlogCount = allPostsFilteredAndSorted.filter(
-      (post) => post.frontmatter?.draft === true
+const backlogCount = await getCollection('media', ({ data }) => {
+  return data.draft !== false;
+});
+
+  const unsortedCount = allPosts.filter((post) =>
+      post.data.tags && post.data.tags.includes("Unsorted")
     ).length;
+
+ const underOneMinute = allPosts
+  .filter((post) => {
+    return isDurationOneMinuteOrUnder(post.data.duration);
+  }).length;
 
     return new Response(
       JSON.stringify({
@@ -18,7 +28,9 @@ export async function GET() {
           totalPosts: totalPosts,
           totalTags: totalTagCount,
           totalSpeakers: totalSpeakerCount,
-          backlog: backlogCount, // Add the backlog count to the stats
+          underMinute: underOneMinute, // Add the backlog count to the stats
+          backlog: backlogCount.length, // Add the backlog count to the stats
+          unsortedTag: unsortedCount, // Add the unsorted count to the stats
         },
       }),
       {

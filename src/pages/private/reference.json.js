@@ -1,4 +1,4 @@
-import ignoreData from "../../../../scripts/ignore.json";
+import ignoreData from "../../../scripts/ignoreID.json";
 import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
 
 // Helper function to extract YouTube ID from a URL
@@ -25,47 +25,35 @@ function extractYoutubeId(url) {
 
 export async function GET() {
   try {
-    const ignoredUrls = JSON.parse(ignoreData);
+    // Now ignoreData should directly be an array of IDs
+    const ignoredIds = ignoreData;
 
-    // Extract YouTube IDs from ignored URLs
-    const ignoredIds = ignoredUrls
-      .map((url) => extractYoutubeId(url))
-      .filter((id) => id !== null);
-
-    // Extract YouTube IDs from media collection
+    // Extract YouTube IDs from media collection and directly get the IDs
     const collectionIds = allPostsFilteredAndSorted
       .filter((post) => post.data.videoUrl)
-      .map((post) => {
-        const id = extractYoutubeId(post.data.videoUrl);
-        return {
-          id,
-        };
-      })
-      .filter((item) => item.id !== null);
+      .map((post) => extractYoutubeId(post.data.videoUrl))
+      .filter((id) => id !== null);
 
     // Get a list of IDs that are in your collection but also in the ignore list
-    const duplicateIds = collectionIds
-      .filter((item) => ignoredIds.includes(item.id))
-      .map((item) => ({
-        id: item.id,
-      }));
+    const duplicateIds = collectionIds.filter((id) => ignoredIds.includes(id));
 
     return new Response(
       JSON.stringify({
-        collection: collectionIds,
-        ignored: ignoredIds,
-        duplicates: duplicateIds,
         stats: {
           collectionCount: collectionIds.length,
           ignoredCount: ignoredIds.length,
           duplicateCount: duplicateIds.length,
         },
+        collection: collectionIds,
+        ignored: ignoredIds,
+        duplicates: duplicateIds.map((id) => ({ id })), // Keep duplicates as objects for consistency
+        
       }),
       {
         status: 200,
         headers: {
-          "Content-Type": "application/json"
-        }
+          "Content-Type": "application/json",
+        },
       }
     );
   } catch (error) {
@@ -79,8 +67,8 @@ export async function GET() {
       {
         status: 500,
         headers: {
-          "Content-Type": "application/json"
-        }
+          "Content-Type": "application/json",
+        },
       }
     );
   }
