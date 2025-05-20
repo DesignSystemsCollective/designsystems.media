@@ -23,7 +23,7 @@ function extractYoutubeId(url) {
   }
 }
 
-export async function get() {
+export async function GET() {
   try {
     const ignoredUrls = JSON.parse(ignoreData);
 
@@ -50,8 +50,8 @@ export async function get() {
         id: item.id,
       }));
 
-    return {
-      body: JSON.stringify({
+    return new Response(
+      JSON.stringify({
         collection: collectionIds,
         ignored: ignoredIds,
         duplicates: duplicateIds,
@@ -61,16 +61,27 @@ export async function get() {
           duplicateCount: duplicateIds.length,
         },
       }),
-    };
+      {
+        status: 200,
+        headers: {
+          "Content-Type": "application/json"
+        }
+      }
+    );
   } catch (error) {
     console.error("Error processing video IDs:", error);
 
-    return {
-      status: 500,
-      body: JSON.stringify({
+    return new Response(
+      JSON.stringify({
         error: "Failed to process video IDs",
         message: error.message,
       }),
-    };
+      {
+        status: 500,
+        headers: {
+          "Content-Type": "application/json"
+        }
+      }
+    );
   }
 }
