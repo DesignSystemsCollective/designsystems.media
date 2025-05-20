@@ -100,7 +100,7 @@ const {
     position: relative;
     width: 100vw;
     overflow: hidden;
-    height: 506px;
+    height: auto;
     margin: -1.5rem -1.5rem 0rem -1.5rem;
   }
   .hero-image .background {
@@ -121,7 +121,7 @@ const {
     position: absolute;
     width: 100%;
     height: 100vh;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(2.5rem);
   }
   .hero-image .video-embed {
     border-radius: 0px;
@@ -129,7 +129,8 @@ const {
     z-index: 100;
     aspect-ratio: auto 16/9;
     width: 100%;
-    max-width: 900px;
+    min-width: 320px;
+    max-width: 1600px;
   }
   @keyframes fadeIn {
     0% {
