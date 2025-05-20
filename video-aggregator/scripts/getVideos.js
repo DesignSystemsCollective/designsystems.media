@@ -8,10 +8,10 @@ const {
 } = require("./youtube");
 const { getAllVideosFromVimeo } = require("./vimeo");
 
-const sourcesData = require("../data/sources.json");
-const videosToIgnore = require("../data/ignore.json");
-const outputFilename = "../data/output.json";
-const outputDir = "../../src/content/media/";
+const sourcesData = require(path.join(__dirname, "../data/sources.json"));
+const videosToIgnore = require(path.join(__dirname, "../data/ignore.json"));
+const outputFilename = path.join(__dirname, "../data/output.json");
+const outputDir = path.join(__dirname, "../../src/content/media/");
 
 // Load previously imported video data from output.json if it exists
 let importedVideoData = [];
@@ -50,7 +50,7 @@ function generateMdxFile(video, folderPath) {
 
   // Generate a folder name without special characters
   const folderName = removeSpecialCharacters(
-    slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@]/g })
+    slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@,;\[\]]/g })
   )
     .split("-")
     .slice(0, 5)
@@ -142,12 +142,12 @@ async function main() {
           );
           const folderName = slugify(sanitizedTitle, {
             lower: true,
-            remove: /[*+~.()'"!:@]/g,
+            remove: /[*+~.()'"!:@,;\[\]]/g,
           })
             .split("-")
             .slice(0, 7)
             .join("-");
-          const folderPath = path.join(__dirname, outputDir, folderName);
+          const folderPath = path.join(outputDir, folderName);
 
           // Check if the video should be ignored
           if (videosToIgnore.includes(videoUrl)) {
@@ -176,12 +176,12 @@ async function main() {
           );
           const folderName = slugify(sanitizedTitle, {
             lower: true,
-            remove: /[*+~.()'"!:@]/g,
+            remove: /[*+~.()'"!:@,;\[\]]/g,
           })
             .split("-")
             .slice(0, 7)
             .join("-");
-          const folderPath = path.join(__dirname, outputDir, folderName);
+          const folderPath = path.join(outputDir, folderName);
 
           // Check if the video should be ignored
           if (videosToIgnore.includes(videoUrl)) {

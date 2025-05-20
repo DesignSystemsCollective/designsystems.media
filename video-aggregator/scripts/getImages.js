@@ -4,7 +4,7 @@ const axios = require("axios");
 const matter = require("gray-matter");
 
 const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
-const folderPath = "src/content/media"; // Updated folder path
+const folderPath = path.join(__dirname, "../../src/content/media/");
 
 // Helper function to download an image with retries
 async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
