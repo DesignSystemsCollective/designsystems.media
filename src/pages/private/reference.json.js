@@ -1,4 +1,4 @@
-import ignoreData from "../../../scripts/ignore.json";
+import ignoreData from "../../../../scripts/ignore.json";
 import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
 
 // Helper function to extract YouTube ID from a URL
