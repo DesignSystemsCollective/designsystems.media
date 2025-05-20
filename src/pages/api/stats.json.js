@@ -7,12 +7,18 @@ export async function GET() {
     const totalTagCount = tags.length;
     const totalSpeakerCount = speakers.length;
 
+    // Filter the posts, accessing the 'draft' property within the 'frontmatter'
+    const backlogCount = allPostsFilteredAndSorted.filter(
+      (post) => post.frontmatter?.draft === true
+    ).length;
+
     return new Response(
       JSON.stringify({
         stats: {
           totalPosts: totalPosts,
           totalTags: totalTagCount,
           totalSpeakers: totalSpeakerCount,
+          backlog: backlogCount, // Add the backlog count to the stats
         },
       }),
       {
