@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /generate-social-mosaics/*
 
 Sitemap: https://designsystems.media/sitemap-index.xml
 Sitemap: https://designsystems.media/sitemap-video.xml

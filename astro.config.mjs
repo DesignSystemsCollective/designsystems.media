@@ -32,4 +32,7 @@ export default defineConfig({
     service: passthroughImageService(),
   },
   trailingSlash: "always",
+  exclude: [
+      'src/pages/generate-social-mosaics.astro',
+    ],
 });
