@@ -11,7 +11,7 @@
   "scripts": {
     "videos": "node video-aggregator/scripts/getVideos.js",
     "images": "node video-aggregator/scripts/getImages.js",
-    "aggregate": "yarn videos && yarn images",
+    "aggregate": "npm videos && npm images",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
