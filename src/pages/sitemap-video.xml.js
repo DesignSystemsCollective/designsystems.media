@@ -3,12 +3,19 @@ import { allPostsFilteredAndSorted } from "../utils/mediaCollection";
 
 export const prerender = true;
 
-function convertToISO8601Duration(durationString) {
-  const parts = durationString.split(":").map(Number).reverse();
-  const [seconds = 0, minutes = 0, hours = 0] = parts;
-  return `PT${hours ? hours + "H" : ""}${minutes ? minutes + "M" : ""}${
-    seconds ? seconds + "S" : ""
-  }`;
+function timeToSeconds(timeString) {
+  // Split the time string by colon
+  const parts = timeString.split(':');
+  
+  // Convert to numbers and calculate total seconds
+  const hours = parseInt(parts[0], 10);
+  const minutes = parseInt(parts[1], 10);
+  const seconds = parseInt(parts[2], 10);
+  
+  // Calculate total seconds: hours → seconds + minutes → seconds + seconds
+  const totalSeconds = hours * 3600 + minutes * 60 + seconds;
+  
+  return totalSeconds;
 }
 
 function extractFirstParagraph(markdown = "") {
@@ -69,18 +76,13 @@ export async function GET() {
             "video:player_loc": new URL(data.videoUrl, baseUrl).toString(), // Absolute URL for player_loc
           }),
           ...(data.duration && {
-            "video:duration": convertToISO8601Duration(data.duration),
+            "video:duration": timeToSeconds(data.duration),
           }),
           ...(data.publishedAt && {
             "video:publication_date": new Date(data.publishedAt).toISOString(),
           }),
           ...(video.data.tags?.length && {
             "video:tag": video.data.tags,
-          }),
-          ...(video.data.speakers?.length && {
-            "video:actor": video.data.speakers.map((name) => ({
-              name,
-            })),
           }),
         },
       };

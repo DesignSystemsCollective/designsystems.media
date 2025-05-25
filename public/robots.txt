@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /redirectVideos/
 
 Sitemap: https://designsystems.media/sitemap-index.xml
 Sitemap: https://designsystems.media/sitemap-video.xml
