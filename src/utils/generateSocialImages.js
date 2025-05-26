@@ -6,7 +6,21 @@ import { allPostsFilteredAndSorted } from "./mediaCollection";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const PUBLIC_DIR = path.resolve(__dirname, "../../public");
+
+// Fix: Use proper output directory for Astro builds
+const getOutputDir = () => {
+  // Check if we're in a build environment
+  if (process.env.NETLIFY || process.env.NODE_ENV === 'production') {
+    // In production/Netlify, use dist directory
+    return path.resolve(process.cwd(), "dist");
+  } else {
+    // In development, use public directory
+    return path.resolve(process.cwd(), "public");
+  }
+};
+
+const OUTPUT_DIR = getOutputDir();
+const PUBLIC_DIR = path.resolve(process.cwd(), "public"); // Always use public for duplicates
 
 const ensureDir = async (dirPath) => {
   try {
@@ -31,6 +45,7 @@ function shuffleArray(array) {
  *
  * @param {string[]} imagePaths - Array of full file system paths to your 16:9 source images
  * @param {string} outputPath - Full file system path to save the final mosaic image
+ * @param {string} duplicatePath - Full file system path to save the duplicate mosaic image
  * @param {number} finalWidth - Desired final width of the mosaic in pixels
  * @param {number} finalHeight - Desired final height of the mosaic in pixels
  * @param {number} preferredTileWidth - The preferred width for each individual thumbnail tile
@@ -53,6 +68,7 @@ function shuffleArray(array) {
 async function createOffsetMosaic(
   imagePaths,
   outputPath,
+  duplicatePath,
   finalWidth,
   finalHeight,
   preferredTileWidth,
@@ -203,7 +219,9 @@ async function createOffsetMosaic(
   }));
 
   try {
-    await ensureDir(PUBLIC_DIR);
+    // Ensure both output directories exist
+    await ensureDir(path.dirname(outputPath));
+    await ensureDir(path.dirname(duplicatePath));
 
     // Create the base mosaic without overlay
     let mosaicPipeline = sharp({
@@ -318,11 +336,14 @@ async function createOffsetMosaic(
       console.log(`[Mosaic Creation] Added text overlay: "${text}"`);
     }
 
+    // Save to primary output location
     await finalPipeline.jpeg({ quality: 85 }).toFile(outputPath);
+    console.log(`[Mosaic Creation] Successfully composed mosaic to: ${outputPath}`);
 
-    console.log(
-      `[Mosaic Creation] Successfully composed mosaic to: ${outputPath}`
-    );
+    // Save duplicate to public folder
+    await finalPipeline.jpeg({ quality: 85 }).toFile(duplicatePath);
+    console.log(`[Mosaic Creation] Successfully created duplicate at: ${duplicatePath}`);
+
   } catch (error) {
     console.error(
       `[Mosaic Creation] Error during mosaic creation for ${path.basename(
@@ -334,11 +355,13 @@ async function createOffsetMosaic(
   }
 }
 
-// Updated orchestrator function with overlay and text examples
+// Updated orchestrator function with proper output directory
 export async function runAllMosaics() {
   console.log(
     "[Astro Mosaics] Fetching most recent posts from Astro content collection..."
   );
+  console.log(`[Astro Mosaics] Primary output directory: ${OUTPUT_DIR}`);
+  console.log(`[Astro Mosaics] Duplicate output directory: ${PUBLIC_DIR}`);
 
   const allPosts = allPostsFilteredAndSorted;
   const sortedPosts = allPosts.sort(
@@ -380,15 +403,17 @@ export async function runAllMosaics() {
     `[Astro Mosaics] Found ${recentPostImagePaths.length} valid recent post images.`
   );
 
-  const SOCIAL_OUTPUT_DIR = path.join(PUBLIC_DIR, "social");
+  const SOCIAL_OUTPUT_DIR = path.join(OUTPUT_DIR, "social");
+  const PUBLIC_SOCIAL_DIR = path.join(PUBLIC_DIR, "social");
+  
   await ensureDir(SOCIAL_OUTPUT_DIR);
+  await ensureDir(PUBLIC_SOCIAL_DIR);
 
-  // In Astro build context, public folder is at same level as the page
+  // Updated overlay path detection to work with both dev and build environments
   const possibleOverlayPaths = [
-    path.resolve("./public/DSMoverlay.png"), // Direct relative path
-    path.join(process.cwd(), "public", "DSMoverlay.png"), // From project root
-    "./public/DSMoverlay.png", // Simple relative path
-    path.resolve("public/DSMoverlay.png"), // Alternative resolve
+    path.join(process.cwd(), "public", "DSMoverlay.png"), // Source overlay in public
+    path.join(OUTPUT_DIR, "DSMoverlay.png"), // Copied overlay in output dir
+    path.resolve("./public/DSMoverlay.png"), // Alternative path
   ];
 
   let overlayPath = null;
@@ -415,6 +440,7 @@ export async function runAllMosaics() {
   await createOffsetMosaic(
     recentPostImagePaths.slice(0, Math.min(recentPostImagePaths.length, 22)),
     path.join(SOCIAL_OUTPUT_DIR, "dsm-linkedin-1200x627.jpg"),
+    path.join(PUBLIC_SOCIAL_DIR, "dsm-linkedin-1200x627.jpg"), // Duplicate path
     1200,
     627,
     270,
@@ -434,6 +460,7 @@ export async function runAllMosaics() {
   await createOffsetMosaic(
     recentPostImagePaths.slice(0, Math.min(recentPostImagePaths.length, 25)),
     path.join(SOCIAL_OUTPUT_DIR, "dsm-bluesky-1000x1000.jpg"),
+    path.join(PUBLIC_SOCIAL_DIR, "dsm-bluesky-1000x1000.jpg"), // Duplicate path
     1000,
     1000,
     280,
@@ -453,6 +480,7 @@ export async function runAllMosaics() {
   await createOffsetMosaic(
     recentPostImagePaths.slice(0, Math.min(recentPostImagePaths.length, 28)),
     path.join(SOCIAL_OUTPUT_DIR, "dsm-insta-1080x1350.jpg"),
+    path.join(PUBLIC_SOCIAL_DIR, "dsm-insta-1080x1350.jpg"), // Duplicate path
     1080,
     1350,
     380,
@@ -469,4 +497,5 @@ export async function runAllMosaics() {
   );
 
   console.log("[Astro Mosaics] All requested social media mosaics generated!");
+  console.log("[Astro Mosaics] Duplicates saved to public/social/ folder!");
 }
