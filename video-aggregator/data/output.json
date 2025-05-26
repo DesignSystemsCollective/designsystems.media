@@ -269,6 +269,41 @@
     "duration": "1:10:56"
   },
   {
+    "title": "Config 2025: Programmable colors: bridging design and code with Irina Nazarova & Arthur Objartel",
+    "description": "Config 2025: Figma's conference for people who build products\n\nEnter a new era where designers and developers can finally have precise, programmatic control over color — and discover how the OKLCH color space, modern hardware, and evolving browser support make it all possible. This talk is perfect for designers and developers who want to stay ahead of the productivity curve! In this session:\n\n— Learn why perceptual color spaces are transforming design \n— See dynamic theming and contrast prediction in practice \n— Discover how to streamline designer-developer collaboration \n— Learn how you can contribute to this evolving ecosystem",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/kfVUlR9BnYQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/kfVUlR9BnYQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/kfVUlR9BnYQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/kfVUlR9BnYQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/kfVUlR9BnYQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kfVUlR9BnYQ",
+    "publishedAt": "2025-05-08T23:56:07Z",
+    "privacyStatus": "unlisted",
+    "duration": "0:19:51"
+  },
+  {
     "title": "FF meetup #9 - Design systems",
     "description": "Unlike many traditional design systems, Aalto’s values creative freedom as much as consistency. But what challenges arise when a design system is supposed to be both cohesive and flexible at once?\n\nTuomas Karhu and Joona Viljanen will present the session.\n\n---\n\nHost: Big thanks to Taiste for hosting!\nConference: Future Frontend 2025 takes place 27-28.5 at Espoo, Finland. You can find more information at https://futurefrontend.com/ .",
     "thumbnails": {
@@ -1470,6 +1505,41 @@
     "duration": "2:00:55"
   },
   {
+    "title": "5 Tips to know before building a Design System by Dani Coll",
+    "description": "Building your own design system sounds like a great idea, but keeping it alive, maintained & useful is a challenge. Let’s explore some ideas to empower your options of success.\n\nDani Coll Leal - Senior Frontend Engineer - @dynatrace",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FvbSxLZI2gk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FvbSxLZI2gk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FvbSxLZI2gk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FvbSxLZI2gk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FvbSxLZI2gk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FvbSxLZI2gk",
+    "publishedAt": "2024-12-23T14:24:25Z",
+    "privacyStatus": "public",
+    "duration": "0:09:15"
+  },
+  {
     "title": "Design Systems WTF #34: How much is too much documentation?",
     "description": "Sometimes we may feel the urge to include everything in our documentation, to the point where it rivals Lord of the Rings for length and density. However, we may be doing ourselves a disservice! How much is too much documentation? How much is not enough documentation? Do we even need documentation at all? join us for the last Design Systems WTF of the year!\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -2018,6 +2088,30 @@
     "duration": "0:02:26"
   },
   {
+    "title": "GOV.UK Forms animation",
+    "description": "GOV.UK Forms is part of GDS’ aim to provide simple, secure and accessible services for everyone.\n\nThis makes it easier for government departments to build better digital forms, saving time and improving users’ experience of interacting with government.\n\nOur animation explores just how easy it is to use the platform.\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fc0eTVB4Igk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fc0eTVB4Igk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fc0eTVB4Igk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fc0eTVB4Igk",
+    "publishedAt": "2024-11-04T08:53:49Z",
+    "duration": "0:02:10"
+  },
+  {
     "title": "Information vs Experience: How to Build Mature Design Systems | Gustavo Teodoro",
     "description": "Vancouver Javascript Meetup - Halloween Edition.\n\nProjecting and implementing a Design System can be challenging. One of the main questions is: How can we ensure that the Design System will positively impact the user experience? This talk proposes to answer this question through a reflection in dialogue with the ideas of a Doctor in Pedagogy about Information and Knowledge of Experience to achieve the next level of maturity for Design Systems.\n\nGustavo Teodoro is a Staff Front-End Engineer at Thinkific. Passionate about Design Systems, User Experience and Web Accessibility.\n\nVanJS discord: https://discord.gg/vx3rHVbY\nSubmit your talk idea: https://github.com/VanJS/meetup/blob/master/SPEAKING.md\n\nVancouver JS: https://www.vanjs.com/",
     "thumbnails": {
@@ -2241,6 +2335,30 @@
     "duration": "0:44:43"
   },
   {
+    "title": "The value of performance analysis in design systems",
+    "description": "Duncan MacGruer from Scottish Government talks about the important of analysing a design system's performance, and how it contributes to a better product.\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rSqFJ_4olag/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rSqFJ_4olag/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rSqFJ_4olag/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rSqFJ_4olag",
+    "publishedAt": "2024-10-22T10:53:26Z",
+    "duration": "0:31:32"
+  },
+  {
     "title": "Design System Day 2024: Future of the GOV.UK Design System",
     "description": "A show and tell from Trang Erskine, Charlotte Downs and Romaric Pascal exploring the history of the GOV.UK Design System, and its focus for the next few years.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
     "thumbnails": {
@@ -2309,6 +2427,150 @@
     "publishedAt": "2024-10-21T15:35:45Z",
     "privacyStatus": "public",
     "duration": "0:50:24"
+  },
+  {
+    "title": "Leading the System",
+    "description": "A show and tell from Daniel Fontaneda, delving into the principles and actions that contribute to the success of a design system.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/F__Hul2t_Ys/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/F__Hul2t_Ys/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/F__Hul2t_Ys/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=F__Hul2t_Ys",
+    "publishedAt": "2024-10-21T15:35:34Z",
+    "duration": "0:38:08"
+  },
+  {
+    "title": "Using the GOV.UK Prototype Kit",
+    "description": "A workshop from Vicky Teinaki in how to design, code and optimise prototypes using the GOV.UK Prototype Kit.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hGVY5E_cUsU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hGVY5E_cUsU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hGVY5E_cUsU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hGVY5E_cUsU",
+    "publishedAt": "2024-10-21T15:35:30Z",
+    "duration": "1:25:01"
+  },
+  {
+    "title": "Who designs the designers?",
+    "description": "A show and tell from Gordon Guthrie examining how to apply system design principles to the system of government.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qjdabXgLtXQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qjdabXgLtXQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qjdabXgLtXQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qjdabXgLtXQ",
+    "publishedAt": "2024-10-21T15:35:27Z",
+    "duration": "0:48:30"
+  },
+  {
+    "title": "Panel: Taking content beyond its boundaries",
+    "description": "A panel of experts from the public and private sector (Zainab Daodu, Lammy Jones, Leyla Kee-McParlin, and Helen Nickols) discuss the future of content design.\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QTntmDAcdSc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QTntmDAcdSc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QTntmDAcdSc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QTntmDAcdSc",
+    "publishedAt": "2024-10-21T15:35:18Z",
+    "duration": "0:45:55"
+  },
+  {
+    "title": "Curing design allergies in Japan’s Government",
+    "description": "Chika Masuda from Japan's Digital Agency talks about launching a design system in a country where design is often misunderstood.\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3bIYSkZSE2Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3bIYSkZSE2Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3bIYSkZSE2Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3bIYSkZSE2Y",
+    "publishedAt": "2024-10-21T15:35:14Z",
+    "duration": "0:40:09"
+  },
+  {
+    "title": "The world on your doorstep: local services with global values",
+    "description": "A talk from Greg Macoy of Matchstick Creative on how a local Liverpool design agency delivers on global values and standards.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oTZO6wgR-YY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oTZO6wgR-YY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oTZO6wgR-YY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oTZO6wgR-YY",
+    "publishedAt": "2024-10-21T15:35:10Z",
+    "duration": "0:31:27"
   },
   {
     "title": "ATypI 2024 Brisbane | Jason Pamental | Engines of Expression: Extending Design Systems With...",
@@ -2857,6 +3119,41 @@
     "duration": "0:41:39"
   },
   {
+    "title": "Config 2024: Adopting foundations at scale (Kylor Hall, Principal Engineer, Atlassian) | Figma",
+    "description": "Config 2024: Adopting foundations at scale (Kylor Hall, Principal Engineer, Atlassian)\n\nThe Atlassian Design System has undertaken a multi-year effort to drive the adoption of our foundational offerings across both code and Figma. They’ve shipped a few hundred thousand figma variables, components, and standardized opinions to more than 500 designers and 2,500 frontend engineers across Atlassian. They’ll describe how they got this work prioritized at Atlassian, and how they delivered it through changing culture with education, automation, and standardization.\n\n\nFeaturing: Kylor Hall, Principal Engineer, Atlassian",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-qlAjXbbn6k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-qlAjXbbn6k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-qlAjXbbn6k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/-qlAjXbbn6k/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/-qlAjXbbn6k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=-qlAjXbbn6k",
+    "publishedAt": "2024-07-19T23:04:25Z",
+    "privacyStatus": "public",
+    "duration": "0:18:42"
+  },
+  {
     "title": "Config 2024: Improve your design system with confidence through A/B testing (Steve Dodier-Lazaro)",
     "description": "Config 2024: Improve your design system with confidence through A/B testing (Steve Dodier-Lazaro)\n\nIn this session, Steve will discuss the why and the how of A/B testing Design System components in a Web environment. Steve will present the A/B testing setup at Back Market and how it was built to blend into existing workflows for Design System contributions and Web app A/B testing. They'll discuss the technical challenges to A/B testing Design Systems and explain how to overcome them. They'll also touch on how A/B tests can help align Design System team roadmaps with product leadership goals.\n\nFeaturing: Steve Dodier-Lazaro, Design System Engineer, France Télévision",
     "thumbnails": {
@@ -2914,6 +3211,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=dIZPqudN9TM",
     "publishedAt": "2024-07-19T10:48:27Z",
     "duration": "0:57:14"
+  },
+  {
+    "title": "Config 2024: Design system adoption addiction (Pim Strengers & Olena Musatova, Booking.com) | Figma",
+    "description": "Config 2024: Design system adoption addiction (Pim Strengers & Olena Musatova, Booking.com)\n\nDesign systems are more than component libraries; they include tooling, documentation, release management, and CI automation. In this session, Olena and Pim discuss how treating tooling as a part of the design system can help you transition to cohesive releases spanning across all environments where your design system is present. Thier experience of working with 150+ teams shows how that allowed them to ship system-wide features at Booking.com without asking product teams to spend time on their adoption.\n\nFeaturing: Pim Strengers, Senior Designer, Booking.com & Olena Musatova, Senior Software Engineer, Booking.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5P1CPwJdlsQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5P1CPwJdlsQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5P1CPwJdlsQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/5P1CPwJdlsQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/5P1CPwJdlsQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5P1CPwJdlsQ",
+    "publishedAt": "2024-07-17T17:50:30Z",
+    "privacyStatus": "public",
+    "duration": "0:18:37"
   },
   {
     "title": "Back to School with Amy Hupe & Geri Reid: Accessibility and Design Systems",
@@ -5353,6 +5685,30 @@
     "duration": "0:26:59"
   },
   {
+    "title": "Introduction to GOV⁠.⁠UK Forms Webinar",
+    "description": "GOV⁠.⁠UK Forms provides a quick and easy way to create online forms replacing the need for PDF’s and document based forms. In just a matter of minutes you can create a new online form that’s quick to process and focused on accessibility, making it even easier for people to complete. Best of all, there’s no need for any technical knowledge and it’s completely free!\nIf you work in central government find out how you can register for an account and start building forms now at: https://www.forms.service.gov.uk/get-started \n\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UTy8YiONSkY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UTy8YiONSkY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UTy8YiONSkY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=UTy8YiONSkY",
+    "publishedAt": "2024-02-28T11:51:14Z",
+    "duration": "0:31:20"
+  },
+  {
     "title": "World's Fastest Camera Drone Vs F1 Car (ft. Max Verstappen)",
     "description": "This is Formula 1 like you’ve never seen it before. The @dutchdronegods follow Max Verstappen’s brand new @redbullracing  RB20 F1 car for a full lap of Silverstone’s Grand Prix Circuit. The world first uninterrupted FPV one shot was captured by a manually piloted custom built drone, designed specifically for the challenge of keeping up with the car at speeds of over 300kph.\n\nIt took Red Bull and the Dutch Drone Gods over a year to create a drone that can accelerate two times faster than an F1 car, reaching 300 km/h in just 4 seconds with a top speed of over 350 km/h. The development was accelerated by access to know-how and processes of Red Bull Advanced Technologies, a high-performance engineering arm of Oracle Red Bull Racing Formula 1 team and trialled behind the RB8 and RB19 cars driven by @liamlawson30  and David Coulthard. \n\n\n #redbull #GivesYouWiiings #f1 \n_________________________________________________\nExperience the world of Red Bull like you have never seen it before with the best action sports clips on the web, original series and livestreams.\n\nGet the FREE Red Bull TV apps for all your devices: http://win.gs/RedBullTVApps  \nSubscribe to Red Bull on Youtube: http://win.gs/SubToRedBull\nCheck out Red Bull on TikTok: https://win.gs/TikTok\nRed Bull on Facebook: http://win.gs/redbullfb\nRed Bull on Instagram: http://win.gs/RedBullInstagram\nRed Bull on Twitter: http://win.gs/redbulltwitter",
     "thumbnails": {
@@ -5744,6 +6100,30 @@
     "duration": "0:21:36"
   },
   {
+    "title": "GOV.UK experiments using generative AI to help users",
+    "description": "Learn more about our AI experiments: https://insidegovuk.blog.gov.uk/2024/01/18/the-findings-of-our-first-generative-ai-experiment-gov-uk-chat/?utm_medium=social&utm_source=gdsyoutube&utm_campaign=ai\n\n\nFind out more about the Government Digital Service:\r\n\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1Ryet4XagGQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1Ryet4XagGQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1Ryet4XagGQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1Ryet4XagGQ",
+    "publishedAt": "2024-01-19T13:14:08Z",
+    "duration": "0:02:21"
+  },
+  {
     "title": "Design Systems WTF #9: Navigating design system contributions",
     "description": "Navigating design system contributions - how do you tell someone their component is terrible?\n\nIn this episode, we address a challenge many design system creators face: Navigating design system contributions and giving constructive feedback. How do you effectively communicate that a contributed component may not meet the standards or expectations (i.e., they’re just plain terrible)? We discuss ways to encourage improvement without demoralizing contributors. Join us as we explore best practices, real-life stories, and strategies for fostering collaboration and quality within your design system.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Luke: https://twitter.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zero...\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -5873,6 +6253,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=rMUvA67y_Og",
     "publishedAt": "2024-01-04T16:52:53Z",
     "duration": "0:24:44"
+  },
+  {
+    "title": "Inspecting WCAG 2.2: Accessible authentication",
+    "description": "This is the third in a series of workshops focusing on the new Web Content Accessibility Guidelines (WCAG) 2.2 criteria, run by the GOV.UK Design System team. This workshop explores the 'Accessible authentication' criteria in more detail.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9h5aLCS3wJQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9h5aLCS3wJQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9h5aLCS3wJQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9h5aLCS3wJQ",
+    "publishedAt": "2023-12-28T10:55:56Z",
+    "duration": "1:24:22"
   },
   {
     "title": "Design Systems WTF #7: Help Desk",
@@ -6445,6 +6849,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=xT9uFecrH20",
     "publishedAt": "2023-11-20T16:00:09Z",
     "duration": "2:04:51"
+  },
+  {
+    "title": "Inspecting WCAG 2.2: Target size",
+    "description": "This is the second in a series of workshops focusing on the new Web Content Accessibility Guidelines (WCAG) 2.2 criteria, run by the GOV.UK Design System team. This workshop explores the 'Target Size' criteria in more detail.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/91O_DzoLM3U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/91O_DzoLM3U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/91O_DzoLM3U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=91O_DzoLM3U",
+    "publishedAt": "2023-11-20T14:47:57Z",
+    "duration": "1:07:40"
   },
   {
     "title": "Components: Building the Building Blocks — design systems experts panel, hosted by Supernova",
@@ -9227,6 +9655,30 @@
     "duration": "0:02:17"
   },
   {
+    "title": "Testing a component's accessibility",
+    "description": "In this 90-minute workshop, the GOV.UK Design System team demonstrates how they test components and patterns for accessibility. The workshop uses the upcoming task-list component as an example.\n\nThe Design System team is increasingly working alongside its community to develop new components and patterns. One such example is the task-list co-design project. You can learn more about community initiatives on the GOV.UK Design System community page.\n\nThis workshop was run twice; on the 1st and 8th of March 2023.\n\n0:00 Welcome and introduction\n2:39 Agenda for the workshop\n4:24 About the task-list co-design project\n8:20 Introductions in breakout groups\n10:56 Background on manual accessibility testing methods\n21:31 Plans for the demo\n25:20 Demo part 1\n47:50 Question time\n53:53 Demo part 2\n1:13:24 Free assistive technology options\n1:16:15 Reporting tools\n1:17:51 Thank-you and wrap-up\n1:18:15 Post-event questions\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/C770bSvGr_E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/C770bSvGr_E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/C770bSvGr_E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=C770bSvGr_E",
+    "publishedAt": "2023-07-26T15:37:26Z",
+    "duration": "1:28:32"
+  },
+  {
     "title": "“Design System Documentation is a Moving Target“ — Panel Discussion, presented by Supernova",
     "description": "Supernova brought to you design system industry experts Romina Kavcic, Alberto Calvo and Luke Finch to discuss best practices for updating and maintaining your design system documentation.\n\nDuring the 1 hour panel session we explored topics, including:\n🔹 Challenges faced when creating & maintaining documentation\n🔹 Strategies & tips for overcoming them\n🔹 Communicating documentation updates to feature teams\n🔹 Getting feedback about your documentation\n\nA full transcript is available on the following link - https://bit.ly/3NIIyxU\n--------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -9249,6 +9701,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=fK5D_PdQuVI",
     "publishedAt": "2023-07-19T07:32:22Z",
     "duration": "1:01:34"
+  },
+  {
+    "title": "Inspecting WCAG 2.2: Focus Not Obscured",
+    "description": "This was the first in a series of workshops focussing on the new Web Content Accessibility Guidelines (WCAG) 2.2 criteria, run by the GOV.UK Design System team.\n\nThis particular workshop concentrated on the drafted 'Focus not Obscured' criteria from WCAG 2.2.\n\nFacilitators:\n\nDavid Cox (accessibility specialist)\nImran Hussain (community designer)\nChris Ballantine-Thomas (interaction designer)\n\nWhile the workshop was a two hour interactive event, this video is edited down to just cover the learning and instructional portions.\n\nIn the workshop we:\n\n- Introduced WCAG and the new guidelines\n- Looked at the Focus not Obscured criteria in more detail\n- Assessed some examples to see whether they meet the criteria or fail\n- Talked about strategies to resolve some of the problems we uncover\n\n0:00 Welcome and introduction\n3:04 What is WCAG 2.2?\n8:27 About this workshop series\n11:50 ‘Focus not obscured’ explainer\n18:05 Quick-check for ‘focus not obscured’\n19:16 Deep-dive for ‘focus not obscured’\n23:23 Demonstration of an inspection\n36:09 Types of fixes available\n38:09 More resources\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_fi7SsSkBtM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_fi7SsSkBtM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_fi7SsSkBtM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_fi7SsSkBtM",
+    "publishedAt": "2023-07-18T16:48:25Z",
+    "duration": "0:40:53"
   },
   {
     "title": "Design Systems Field Guide #2",
@@ -13073,6 +13549,30 @@
     "duration": "0:59:54"
   },
   {
+    "title": "Balancing work and home life at GDS with Erin Robinson",
+    "description": "Our COO Erin talks about how she manages her home life with two kids whilst pregnant and her role at GDS. Hear how the flexibility and perks on offer at GDS can help you maintain a healthy balance between work and home life.\n\nIf you are interested in working in a design role at GDS, visit our jobs pages to see our latest vacancies:\n \nhttps://gdscareers.gov.uk\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Kj_qOxnHMcg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Kj_qOxnHMcg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Kj_qOxnHMcg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Kj_qOxnHMcg",
+    "publishedAt": "2022-07-28T11:39:03Z",
+    "duration": "0:01:51"
+  },
+  {
     "title": "Coding Design Systems - ep23 - Atomic Design Fundamentals",
     "description": "Every Tuesday at 4:30PM UTC, join @Georges_Gomes, @m4d_z, and their guests in a new live coding session about design systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00 - Intro: Welcome Brad Frost, creator of Atomic Design philosophy\n03:40 - 10 years after Atomic Design: How do we organize architectures nowadays?\n08:49 - Using design systems like a Rosetta Stone helps teammates to communicate\n13:30 - The missing parts of the design system realm\n25:27 - Is the themable behavior a must-have of every design system?\n31:18 - Design system of design systems?\n38:23 - Design systems to solve the upcoming complexity of building interfaces\n42:39 - Feedback on building and using design systems\n52:22 - Outro: human is the most important part of any project\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nA passionate and insightful conversation with the inventor of the design system philosophy. We cover different topics, from atomic design concerns to design systems implementation, best practices, and the future of the technology.\n\nMost of all, we talk more about human beings rather than very technical aspects, and how design systems are a tool to empower people’s communication in a team where everybody works together.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- Creating themable design systems: https://bradfrost.com/blog/post/creating-themeable-design-systems/\n- Themable design systems demo: https://codepen.io/bradfrost/pen/vYmggWW\n- Design system components, recipes, and snowflakes: https://bradfrost.com/blog/post/design-system-components-recipes-and-snowflakes/\n\n- Using WebComponents in a design system - demo: https://studio.backlight.dev/edit/tGmOtdUt3F9jBEOluAJr/readme/src/?p=doc&utm_campaign=sessions%3Acds\n- Figma UI Kits from code, Learn with Jason episode: https://www.learnwithjason.dev/generate-figma-ui-kits-from-code\n\n- 🐥 @brad_frost: https://twitter.com/brad_frost\n- https://bradfrost.com/: https://bradfrost.com/\n- https://atomicdesign.bradfrost.com/: https://atomicdesign.bradfrost.com/\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -14173,6 +14673,54 @@
     "duration": "0:51:50"
   },
   {
+    "title": "Welcome from Tom Read - Chief Executive Officer, GDS",
+    "description": "Find out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fFmDQn9Lbl4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fFmDQn9Lbl4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fFmDQn9Lbl4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fFmDQn9Lbl4",
+    "publishedAt": "2022-05-05T15:28:21Z",
+    "duration": "0:01:49"
+  },
+  {
+    "title": "Why join GDS with Natalie Jones",
+    "description": "Find out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Fcc0mHnM0cw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Fcc0mHnM0cw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Fcc0mHnM0cw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Fcc0mHnM0cw",
+    "publishedAt": "2022-05-05T15:24:45Z",
+    "duration": "0:01:49"
+  },
+  {
     "title": "Coding Design Systems - ep16 - Nuxt 3 and Vue 3",
     "description": "Every Tuesday at 5:30PM UTC, join @Georges_Gomes, @m4d_z, and their guests in a new live coding session about design systems, on Backlight.dev!\n\n⎯⎯⎯ In this episode ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n00:00 - Intro: Welcome Sébastien Chopin and Konstantin Bifert\n01:23 - Introducing Nuxt 3 RC1\n06:11 - From Nuxt 2 to Nuxt 3\n07:55 - Using Nuxt 3 in Edge functions\n11:22 - Future of Nuxt, Nitro, and the frontend ecosystem\n15:38 - Rendering Nuxt pages in the browser, using ServiceWorkers\n18:00 - Outro: sharing a vision across open source projects\n\n⎯⎯⎯ Description ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\nFollowing the announcement of the first Release Candidate of Nuxt 3, we're happy to welcome both the co-founder of Nuxt and one of their ambassadors for a short episode dedicated to the future of frontend pages development in the Vue ecosystem.\n\nIn 20', let's cover both new features and the broad vision of modern frontend development and tooling, from edge computing, to Service Workers for page generation, Nitro web dev server, or Deno.\n\n⎯⎯⎯ Resources ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n\n- Announcing Nuxt 3 Release Candidate: https://nuxtjs.org/announcements/nuxt3-rc/\n- 🐥 @nuxt_js: https://twitter.com/nuxt_js\n- NuxtJS, The Intuitive Vue Framework: https://nuxtjs.org/\n\n- 🐥 @Atinux: https://twitter.com/Atinux\n- https://atinux.com/: https://atinux.com/\n\n- 🐥 @kissu_io: https://twitter.com/kissu_io\n\n- 🪄 Backlight Design Systems Editor: https://backlight.dev/?utm_campaign=sessions%3Acds\n- 🐥 m4dz: https://twitter.com/m4d_z",
     "thumbnails": {
@@ -14752,6 +15300,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=iTAPPcNQ2Oo",
     "publishedAt": "2022-03-02T21:52:27Z",
     "duration": "1:01:59"
+  },
+  {
+    "title": "Becoming a service designer at GDS",
+    "description": "Service design at GDS helps the government transform services to be more efficient, simpler, faster and easier to use.\n\nAs a senior service designer, Thaís Tozatto Maio explains how service designers are the ‘glue’ that holds digital teams together, looking at users’ needs and what it takes to build good public services at scale.\n \nIf you are interested in working in a design role at GDS, visit our jobs pages to see our latest vacancies:\n \nhttps://gdscareers.gov.uk/?utm_medium=social&utm_source=gdsyoutubeservicedesigner&utm_campaign=RandL \n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oSZPWrZDINQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oSZPWrZDINQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oSZPWrZDINQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oSZPWrZDINQ",
+    "publishedAt": "2022-03-01T15:31:10Z",
+    "duration": "0:02:00"
   },
   {
     "title": "Coding Design Systems - ep08 - Building in Astro with Matthew Phillips",
@@ -15424,6 +15996,30 @@
     "duration": "0:56:56"
   },
   {
+    "title": "GDS talks | How to start a career in tech",
+    "description": "The Government Digital Service (GDS) talks…how to start a career in tech.\n\nAccording to a Tech Nation Talent report, young people could be wrongly counting themselves out of a fulfilling career because they’re worried about things like their skills background, where they came from or their lack of “network”. \n\nWe don’t want anyone to miss out on a great career in digital, data or technology. Because diverse teams that reflect the society they serve are more effective and better to be a part of (and those are the types of teams we’re trying to build).\n\nWe asked 3 of our developers to respond to the report’s findings, and hopefully put some of those myths and misconceptions to bed.\n\nRosa, Iqbal and Kelvin share their own experiences and talk about the different roles and disciplines you can work in. They also share practical tips and advice on how to get started in the tech community - whatever your background or starting point.\n\nEnjoyed the video and keen to pursue a career in technology; why not start your tech career at the Government Digital Service? Keep an eye on our open roles at: https://gdscareers.tal.net/vx/lang-en-gb/mobile-0/appcentre-ext/brand-4/xf-930972319091/candidate/jobboard/vacancy/4/adv/?_ga=2.73591314.1203728636.1639140281-2109923886.1638884002&utm_medium=social&utm_source=gdsyoutube&utm_campaign=mythbusting\n\nContents of this video:\n\n00:05 - Intro\n00:43 - \"I don't have the skills to work in technology\"\n03:14 - \"I don't know anything about technology\"\n05:47 - \"I'll have to do lots of unpaid internships to get a tech job\"\n09:55 - \"A tech career isn't for people like me\"\n13:17 - \"There aren't many tech jobs near me\"\n14:50 - \"I don't know anyone who works in technology\"\n18:02 - \"It's no fun to work in technology\"\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Y4fxl1fSXGE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Y4fxl1fSXGE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Y4fxl1fSXGE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Y4fxl1fSXGE",
+    "publishedAt": "2021-12-17T10:00:29Z",
+    "duration": "0:22:36"
+  },
+  {
     "title": "Our Design System Journey | ep03 | Technologies and Frameworks",
     "description": "Our Design Systems Journey is a Live Session where a Designer and a Developer meet to talk about their use and understanding of Design Systems. In the end, they'll, fortunately, produce a comprehensive mind map covering the Design Systems to help and guide everyone in this realm.\n\n--- Episode 3: Technologies or Frameworks? \n\nIn this episode, we talk about the development side of Design Systems, trying to figure out what are the differences between Technologies, Frameworks, Librairies… and how we should consider each of them in our Design Systems toolkits.",
     "thumbnails": {
@@ -15914,6 +16510,30 @@
     "duration": "1:00:58"
   },
   {
+    "title": "How to prepare for a technology job interview | 5 tips to improve interview performance",
+    "description": "Our technologists share their 5 top interview tips to help boost your performance when interviewing for Civil Service technology jobs - particularly GDS jobs!\n\nWatch for advice on job interview skills and techniques from experts who are already working in the digital, data and technology sector.\n\nContents of this video:\n\n00:00 - Intro\n00:12 - Say \"I\" and not \"We\"\n00:31 - Match your skills to the job description\n00:49 - Use the S.T.A.R technique\n01:07 - Pay attention to the question\n01:32 - Boost your confidence\n\nCheck out our latest tech career opportunities:\nhttps://gdscareers.gov.uk/?utm_medium=social&utm_source=interviewyoutube&utm_campaign=recruitment%20\n\nFind out more about the Government Digital Service:\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4Qabzv6prRY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4Qabzv6prRY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4Qabzv6prRY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4Qabzv6prRY",
+    "publishedAt": "2021-11-08T10:00:01Z",
+    "duration": "0:01:59"
+  },
+  {
     "title": "Live stream #8: “Exotic“ platforms",
     "description": "Where we talk (mostly) about how to support \"exotic\" platforms in your design system. (Think TVs, Cars, VR, etc.)",
     "thumbnails": {
@@ -15947,6 +16567,54 @@
     "publishedAt": "2021-11-06T11:03:43Z",
     "privacyStatus": "public",
     "duration": "0:58:09"
+  },
+  {
+    "title": "Becoming a technical architect at GDS",
+    "description": "Ben Vandersteen is a technical architect at the Government Digital Service (GDS). As a technical architect, Ben helps translate technical concepts to a variety of stakeholders as part of GDS’s mission to create a simple, joined-up and personalised experience of government for everyone. \n\nHis favourite part of the job? Getting to bring in new ideas and new technology that helps make the process of interacting with government work better for citizens.\n\nIf that sounds good to you too, why not check out our latest tech career opportunities?\nhttps://gdscareers.gov.uk/?utm_medium=social&utm_source=technicalarchyoutube&utm_campaign=recruitment%20\n\nFind out more about the Government Digital Service:\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/O6UNpjQnphY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/O6UNpjQnphY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/O6UNpjQnphY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=O6UNpjQnphY",
+    "publishedAt": "2021-11-05T10:00:23Z",
+    "duration": "0:01:32"
+  },
+  {
+    "title": "Becoming a site reliability engineer at GDS",
+    "description": "Richard Baker is a site reliability engineer (SRE) at the Government Digital Service (GDS).\n\nSRE engineers work with GDS’s developers to ship code at scale simultaneously, and help teams improve the reliability of their systems and services. \n\nRichard talks us through life as an SRE engineer at GDS, some of the unique challenges we work on in order to make things better for citizens, and our approach to DevOps. \n\nInterested in learning more about a tech career at GDS? Check out our latest opportunities:https://gdscareers.gov.uk/?utm_medium=social&utm_source=sreyoutube&utm_campaign=recruitment%20\n\nFind out more about the Government Digital Service:\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/utNkUwQYRuk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/utNkUwQYRuk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/utNkUwQYRuk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=utNkUwQYRuk",
+    "publishedAt": "2021-11-02T10:00:26Z",
+    "duration": "0:01:20"
   },
   {
     "title": "Starter Kit Walk-through | FURIOUS",
@@ -16008,6 +16676,30 @@
     "duration": "1:02:22"
   },
   {
+    "title": "How can I make my tech job application stand out?",
+    "description": "Jobs in tech can be competitive, and writing job applications can feel nerve-wracking. But it doesn’t have to be. Watch for job application tips from tech experts who are already working in the sector.\n\nTechnologists at the Government Digital Service (GDS) share some important things to think about when filling out job applications for technology jobs.\n\nContents of this video:\n\n00:00 - Intro\n00:08 - Match your skills to the job description\n00:24 - Show you can build relationships\n00:50 - Give us specific details\n01:22 - Cover the fundamentals\n01:51 - Showcase your problem solving skill\n02:14 - Describe how you learn from past experiences\n\nCheck out the latest tech career opportunities at GDS:\nhttps://gdscareers.gov.uk/?utm_medium=social&utm_source=applicationyoutube&utm_campaign=recruitment%20\n\nFind out more about the Government Digital Service:\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/X8LK-6Oxenc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/X8LK-6Oxenc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/X8LK-6Oxenc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=X8LK-6Oxenc",
+    "publishedAt": "2021-10-25T09:00:10Z",
+    "duration": "0:02:44"
+  },
+  {
     "title": "Pasado, presente y futuro de los Sistemas de Diseño",
     "description": "Esta edición nos acompaña el equipo de Design System de BBVA, nos hablarán de toda los aprendizajes que han tenido, los retos y cual es su perspectiva hacia el futuro.",
     "thumbnails": {
@@ -16064,6 +16756,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=rz1byNE4MI4",
     "publishedAt": "2021-10-21T07:32:34Z",
     "duration": "0:45:18"
+  },
+  {
+    "title": "What is it like to join GDS?",
+    "description": "Are you curious about what it’s like to interview for a job at the Government Digital Service (GDS)? \n\nFrom being interviewed by people you can picture yourself working with, to having time to prepare a presentation away from the panel’s gaze, Lead Technical Architect Daniel Mountford shares his experience of applying for a job at GDS.\n\nHis top tip? Don’t self reject!\n\nVisit our careers site to see our latest job opportunities:\nhttps://gdscareers.gov.uk/?utm_medium=social&utm_source=danielyoutube&utm_campaign=recruitment%20\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZjvFInGlcIg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZjvFInGlcIg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZjvFInGlcIg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZjvFInGlcIg",
+    "publishedAt": "2021-10-20T08:43:56Z",
+    "duration": "0:01:44"
   },
   {
     "title": "Unboxing the Clarity kit",
@@ -16245,6 +16961,30 @@
     "duration": "1:05:52"
   },
   {
+    "title": "What is the GOV.UK Design System?",
+    "description": "The GOV.UK Design System brings together the latest research, design and development from across government to make sure it’s representative and relevant for its users.\n\nUsing it will make your service consistent with GOV.UK. It lets you learn from the research and experience of other service teams and helps you to avoid repeating work that’s already been done.\n\nFind out more about the GOV.UK Design System: \nhttps://design-system.service.gov.uk/\n\nFind out more about the Government Digital Service (GDS):\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService\n\nInterested in a career in design at GDS? Check out our open positions: https://gdscareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-c9018f381316/candidate/jobboard/vacancy/4/adv/?f_Item_Opportunity_134130_lk=523782&_ga=2.27116285.1986664999.1624352685-437295193.1623919879",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MMfqMSPKGj4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MMfqMSPKGj4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MMfqMSPKGj4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=MMfqMSPKGj4",
+    "publishedAt": "2021-09-27T15:01:22Z",
+    "duration": "0:02:01"
+  },
+  {
     "title": "Managing design systems in the open - Open Source Friday - Shopify/polaris-react",
     "description": "Shopify’s admin product component library helps them work together to build a great experience for all of their merchants.\n\nhttps://github.com/Shopify/polaris-react\n\n0:00 - Start\n0:23 - What is Polaris?\n5:40 - Who is Polaris made for?\n7:50 - How is the project maintained inside Shopify?\n11:45 - Design system component challenges\n15:53 - Maintaining multiple design systems\n21:54 - Interesting Design UI trends\n\n\nAs always, feel free to leave us a comment below and don't forget to subscribe: http://bit.ly/subgithub\n\nThanks!\n\nConnect with us.\nFacebook: http://fb.com/github\nTwitter: http://twitter.com/github\nLinkedIn: http://linkedin.com/company/github\n\nAbout GitHub\nGitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Millions of people use GitHub to build amazing things together. For more info, go to http://github.com",
     "thumbnails": {
@@ -16331,6 +17071,54 @@
     "videoUrl": "https://www.youtube.com/watch?v=peoJuwmbUHo",
     "publishedAt": "2021-09-14T21:54:56Z",
     "duration": "0:01:25"
+  },
+  {
+    "title": "Becoming a senior developer at GDS",
+    "description": "Kat Stevens is a senior developer who previously worked at start-ups and now works in the centre of government, at the Government Digital Service (GDS).\n\nThis video is for anyone who is interested in knowing how to get a job as a senior developer - and what life is like at GDS. In it, tech leader Kat explains what is expected of senior developers and some of the key skills you need to succeed including:\n\n- Being able to absorb different information\n\n- Make effective decisions so your team is solving the right problems\n\n- Keeping a clear focus on user needs\n\nWant to know more about life as a technologist at GDS? Listen to our podcast: \nhttps://gds.blog.gov.uk/2021/07/26/podcast-technologists-at-gds/\n\nVisit our software engineer jobs pages to see our latest developer vacancies:\nhttps://gdscareers.gov.uk/software-engineering.html?utm_medium=social&utm_source=seniordevyoutube&utm_campaign=recruitment%20\n\nFind out more about GDS:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Z96Ma_GySPA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Z96Ma_GySPA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Z96Ma_GySPA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Z96Ma_GySPA",
+    "publishedAt": "2021-09-13T14:20:53Z",
+    "duration": "0:01:39"
+  },
+  {
+    "title": "Becoming a front end developer at GDS",
+    "description": "Front end developers at the Government Digital Service (GDS) use a variety of different coding languages to build at scale. \n\nThey’re responsible for writing clean, accessible, evidence-based code that helps millions of people to complete vital tasks on GOV.UK every day. And for keeping the site maintainable and changeable so it continues to meet user needs now and in the future.\n\nSoftware developers are embedded in multidisciplinary teams with designers, user researchers, content designers, technical architects, product managers and site reliability engineers. Together, they help provide simpler, clearer and faster access to essential information and services to help improve how people interact with government.\n\nPeople join GDS because they want to be a part of something bigger. As senior front end developer Andy Sellick explains, working at GDS is not about influencing a corporate bottom line - it’s about helping real people to do real things.\n\nWant to know more about life as a technologist at GDS? Listen to our podcast: \nhttps://gds.blog.gov.uk/2021/07/26/podcast-technologists-at-gds/\n\nVisit our software developer jobs pages to see our latest vacancies:\nhttps://gdscareers.gov.uk/software-engineering.html?utm_medium=social&utm_source=fedevyoutube&utm_campaign=recruitment%20\n\nFind out more about GDS:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JOVl-eS6p28/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JOVl-eS6p28/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JOVl-eS6p28/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JOVl-eS6p28",
+    "publishedAt": "2021-09-13T12:41:21Z",
+    "duration": "0:01:40"
   },
   {
     "title": "Live stream #6: Jobs!",
@@ -16577,6 +17365,102 @@
     "duration": "0:48:41"
   },
   {
+    "title": "A single sign-on and digital identity solution for government",
+    "description": "People need swift and easy access to government services. Find out how we're working with colleagues across government to develop one simple, secure way for people to sign in and prove who they are: https://gds.blog.gov.uk/2021/07/13/a-single-sign-on-and-digital-identity-solution-for-government/?utm_medium=social&utm_source=gdsyoutube&utm_campaign=digiidsolution \n\n#DigitalIdentity #DigitalID\n\nFind out more about the Government Digital Service:\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/eQMXvZ36BlI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/eQMXvZ36BlI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/eQMXvZ36BlI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=eQMXvZ36BlI",
+    "publishedAt": "2021-07-13T08:54:16Z",
+    "duration": "0:02:04"
+  },
+  {
+    "title": "The vision for GOV.UK",
+    "description": "GOV.UK is the digital home for the UK government. It’s the digital interface between the people and their government - it’s essential for anyone who wants to live or work in the UK. \n\nIt first went live in 2012, and since then it’s received billions of page views with millions of people visiting daily. Whether you want to look up lockdown guidance, check your state pension or buy a fishing licence, it’s all on GOV.UK. \n\nWe’ve got a vision for GOV.UK to provide joined up, trusted and personalised interactions for its users. Watch the video to find out more about GOV.UK’s ambitious plans. \n\nInterested in our work? We’re hiring! Visit GDS’s career page to find out more: https://gdscareers.gov.uk/. Read deep dives of GOV.UK’s work on our Inside GOV.UK blog at: https://insidegovuk.blog.gov.uk/.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XnP6jaK7ZAY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XnP6jaK7ZAY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XnP6jaK7ZAY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XnP6jaK7ZAY",
+    "publishedAt": "2021-06-23T09:08:03Z",
+    "duration": "0:02:03"
+  },
+  {
+    "title": "Becoming an interaction designer at GDS",
+    "description": "Design roles at the Government Digital Service (GDS) fall under 3 specialisms: \n\n- service designers who design what the things should be\n- interaction designers who design how things should work\n- graphic designers who explain what the thing does\n\nAs interaction designer Jeremy Yun explains, GDS designers collaborate with digital teams across government to make joined-up services that work for users. \n\nThe patterns and tools we create are used by other designers working on public services all over the world, and have been recognised and awarded by the Design Museum, D&AD and IXDA.\n\nVisit our jobs pages to see our latest Designer vacancies:\nhttps://gdscareers.gov.uk/design.html?utm_medium=social&utm_source=intdesyoutube&utm_campaign=recruitment%20\n\nFind out more about GDS:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1\nListen to our podcast: https://gds.blog.gov.uk/category/podcast/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qBOZ8ZW2BlU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qBOZ8ZW2BlU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qBOZ8ZW2BlU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qBOZ8ZW2BlU",
+    "publishedAt": "2021-06-21T11:22:39Z",
+    "duration": "0:01:32"
+  },
+  {
+    "title": "Becoming a user researcher at GDS",
+    "description": "Everything starts with user needs: they are at the heart of the decisions we make at the Government Digital Service (GDS).\n\nWe employ teams of talented and committed user researchers to help us build a deep understanding of the people who use public services, so we can make sure they do the right thing. \n\nGDS user researchers use qualitative and quantitative methods to generate new insights that are put to work by our multidisciplinary teams (think: service managers, product managers, designers, developers and analysts) to iterate services and content and ultimately make things better for users.\n\nAnna Kuforiji explains more about what life is like as a user researcher at GDS, and some of the key skills needed to succeed in this role.\n\nVisit our jobs pages to see our latest User Researcher vacancies:\nhttps://gdscareers.gov.uk/user-research.html?utm_medium=social&utm_source=userresearchyoutube&utm_campaign=recruitment%20\n\nFind out more about GDS:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1\nListen to our podcast: https://gds.blog.gov.uk/category/podcast/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OaonybVCfRs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OaonybVCfRs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OaonybVCfRs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OaonybVCfRs",
+    "publishedAt": "2021-06-17T14:30:07Z",
+    "duration": "0:01:41"
+  },
+  {
     "title": "Live stream #4: Documentation",
     "description": "Where we talk (mostly) about documentation for design systems.",
     "thumbnails": {
@@ -16718,6 +17602,30 @@
     "duration": "1:48:03"
   },
   {
+    "title": "Becoming a delivery manager at GDS",
+    "description": "Delivery managers work at the heart of teams. They’re at the core of how teams make decisions and are responsible for creating an environment where people are excited about their work. \nGDS delivery managers protect, empower and motivate teams in order to get stuff done and make a real difference for users. \n\nWhether helping to set out roadmaps to remove blockers to product iterations, delivery managers apply their skills to new, complex and exciting challenges - from software development to policy teams - across GDS.\n\nSyed Bokhari explains some of the skills you need to succeed as a delivery manager (spoiler: it doesn’t involve delivering food!) and shares why he is passionate about delivery management and GDS’s mission.\n\nVisit our jobs pages to see our latest Delivery Manager vacancies:\nhttps://gdscareers.gov.uk/delivery-management.html?utm_medium=social&utm_source=deliveryyoutube&utm_campaign=recruitment%20\n\nFind out more about GDS:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1\nListen to our podcast: https://gds.blog.gov.uk/category/podcast/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1whaQq44Pew/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1whaQq44Pew/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1whaQq44Pew/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1whaQq44Pew",
+    "publishedAt": "2021-05-27T15:28:43Z",
+    "duration": "0:01:45"
+  },
+  {
     "title": "Moving from Sketch to Figma",
     "description": "#Sketch #Figma #DesignSystem\nCollaboration-First: Moving from Sketch, Abstract and InVision to Figma - Gui Schmitt \n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
     "thumbnails": {
@@ -16819,6 +17727,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=LkQi6h2eXKs",
     "publishedAt": "2021-05-20T15:36:44Z",
     "duration": "0:45:47"
+  },
+  {
+    "title": "Becoming a product manager at GDS",
+    "description": "Product managers at GDS use agile methods and lead multidisciplinary teams of developers, designers, analysts and content specialists who are utterly committed to putting users first.\n\nTogether, we work on exciting digital products and services that impact every household and business in the UK.\n\nTobi Ogunsina explains the skills you need to succeed as a product manager and shares why a career in product management at GDS is a unique opportunity to positively impact millions of people’s lives.\n\nVisit our jobs pages to see our latest Product Manager vacancies:\nhttps://gdscareers.gov.uk/product-management.html?utm_medium=social&utm_source=productmyoutube&utm_campaign=recruitment%20\n\nFind out more about GDS:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WWvqmt3IPKg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WWvqmt3IPKg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WWvqmt3IPKg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=WWvqmt3IPKg",
+    "publishedAt": "2021-05-20T13:53:48Z",
+    "duration": "0:01:48"
   },
   {
     "title": "Building Momentum on Projects",
@@ -17542,6 +18474,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=u2M_kR5jqH8",
     "publishedAt": "2020-12-03T06:17:16Z",
     "duration": "1:11:35"
+  },
+  {
+    "title": "Leading the digital, data and technology (DDaT) response to coronavirus",
+    "description": "Working at pace, GDS and the DDaT function created products and services to support people through the coronavirus pandemic. Learn more about what we did, how we were able to do it and what we’ve learned so far in this blog: https://gds.blog.gov.uk/2020/09/14/leading-the-digital-data-and-technology-ddat-response-to-coronavirus/\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QB5GdUJXBec/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QB5GdUJXBec/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QB5GdUJXBec/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QB5GdUJXBec",
+    "publishedAt": "2020-09-18T08:35:06Z",
+    "duration": "0:01:15"
   },
   {
     "title": "Laying Foundations for Quality (DSCC Toronto)",
@@ -20166,6 +21122,54 @@
     "duration": "0:11:10"
   },
   {
+    "title": "How GOV.UK Notify has made TfL’s Dial-a-Ride quicker and easier",
+    "description": "Transport for London’s (TfL) Dial-a-Ride is a free service for customers with mobility impairments and they have been using GOV.UK Notify to let customers know when drivers will be arriving. \n\nGOV.UK Notify is a system that lets you send emails, text messages and letters to your users. \n\nIn this video we talk to TfL’s Natalie Biddle to hear about how GOV.UK Notify delivered quickly on an app that now allows users to manage and plan their time better. \n\nRead more on https://www.notifications.service.gov.uk/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/edOt7pdm7n0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/edOt7pdm7n0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/edOt7pdm7n0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=edOt7pdm7n0",
+    "publishedAt": "2019-09-12T17:16:58Z",
+    "duration": "0:01:58"
+  },
+  {
+    "title": "Digital, Data and Technology (DDaT) Fast Stream 2019",
+    "description": "Fast Streamers across the UK government talk about their experiences on the Digital, Data and Technology (DDaT) Fast Stream. \n\nThe 4 year leadership programme is available to graduates and existing civil servants. If you are a civil servant, you don't need a degree.\n\nApplications for the 2019 recruitment window are open from 26 September to 24 October 2019. \n\nFind out more about the Digital, Data and Technology Fast Stream: https://www.faststream.gov.uk/digital-data-technology\n\nAnd follow @DigiCareersGov on Twitter: https://twitter.com/DigiCareersGov\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4HZ2ZIxvQME/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4HZ2ZIxvQME/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4HZ2ZIxvQME/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4HZ2ZIxvQME",
+    "publishedAt": "2019-09-12T13:52:16Z",
+    "duration": "0:01:45"
+  },
+  {
     "title": "Design Systems: What are They and How to Get Started",
     "description": "If you're thinking to scale a UX team, assure consistency across the range of products, or need a better all-round collaboration enhancement -- design systems are an invaluable asset. It can save tremendous amounts of time, allow for easy handovers to development, as well as keep the brand new feature development smooth. In this video I'll walk you through some examples of great design systems, show you how to get started and 2 key strategies to make it successful.\n\n⚒️Tools to get started: \nInvision Design System Manager (DSM): https://www.invisionapp.com/design-system-manager/\nFigma: https://www.figma.com/\nZeplin: https://zeplin.io/\n\n🔄System examples:\nGov.uk design system: https://design-system.service.gov.uk/\nGoogle's material design system: https://material.io/design/\nLego design system: bricks!\n\n👍SUBSCRIBE to this channel to get the latest updates on user experience, design strategy and more:  https://www.youtube.com/channel/UCMEQZDhP_k_YkFnwoCgT7SQ\n\n---\n👍Like what you see? Show some love by sharing, giving a like or leaving a comment below.\n\n👨More:\nBlog: http://blog.vaexperience.com\nInstagram: http://instagram.com/vaexperience\nTwitter: http://twitter.com/vytautasalech\nQuora: https://www.quora.com/profile/Vytautas-Alech2 📩 Get my latest (BEST) updates delivered to your inbox: https://sendfox.com/vaexperience\n#vaexperience #uxdesign #userexperience 🎒 Coursera UX courses: https://imp.i384100.net/dakRLQ",
     "thumbnails": {
@@ -20404,6 +21408,30 @@
     "duration": "0:01:17"
   },
   {
+    "title": "Using GOV.UK Notify at NHSBT",
+    "description": "NHS Blood and Transplant (NHSBT) uses GOV.UK Notify, the government's notifications tool, to send text messages to donors. These messages include appointment reminders or change of venue texts. \n\nGOV.UK Notify allows the NHSBT team to send out hundreds of thousands of texts per month. The tool has saved the team money and allows them to quickly see the delivery path of the notifications.\n\nRead more on https://www.notifications.service.gov.uk/\n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hlK7rbKXqMI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hlK7rbKXqMI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hlK7rbKXqMI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hlK7rbKXqMI",
+    "publishedAt": "2019-07-22T10:28:13Z",
+    "duration": "0:01:59"
+  },
+  {
     "title": "Design Systems at Vonage - Benny and Matteo Zuffolini - Design Systems London x NYC Meetup",
     "description": "Benny Zuffolini, UX Manager at Vonage and co-creator of the Vonage Design System shares how shares the development of the design system, the challenges of working globally and promoting a new way of thinking about design.\n\nSenior UX Developer Matteo Zuffolini, talks the technical side of Vonage's Design system and their plan to support all the company's frameworks at the DSL x NYC Meetup on 28th May 2019.\n\nFind Benny here:\nhttps://twitter.com/benny_bz\n\nJoin the Meetup here:\nhttps://www.meetup.com/DSLxNYC-Meetup/",
     "thumbnails": {
@@ -20426,6 +21454,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=djQPYGhIzmA",
     "publishedAt": "2019-07-17T15:25:13Z",
     "duration": "0:20:12"
+  },
+  {
+    "title": "Welcome to the UK government content design community",
+    "description": "This video is an introduction to the UK government content design community. It is for content designers across government and the public sector who may be new to government, or interested in joining the Civil Service. \n\nIn the video, you will hear content designers from across government explain how being in the community has improved their work, how the content design profession is developing and ways that the community helps people meet and learn together. \n\nTo find out more about about the content community and how to join email content-community@digital.cabinet-office.gov.uk  \n\nApply for design roles on Civil Service Jobs: https://www.civilservicejobs.service.gov.uk\n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/POwwKbjFQRs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/POwwKbjFQRs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/POwwKbjFQRs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=POwwKbjFQRs",
+    "publishedAt": "2019-07-16T13:59:57Z",
+    "duration": "0:02:01"
   },
   {
     "title": "When and Why to Unit Test Your Sass | Sparkbox Web Development",
@@ -20537,6 +21589,78 @@
     "videoUrl": "https://www.youtube.com/watch?v=2Lc8q9EQZuY",
     "publishedAt": "2019-07-15T15:10:59Z",
     "duration": "0:19:11"
+  },
+  {
+    "title": "Building step by step journeys into GOV.UK",
+    "description": "In May 2019, the Government Digital Service (GDS) won a D&AD Award for Service Design, for their step by step navigation work.\n\nHere, Kate Ivey-Williams, Service Design Lead at GDS, explains the work.\n\nStep by step journeys are a way of breaking down the complex tasks that millions of people use GOV.UK to do, such as getting married or divorced, into clear and complete user journeys. The work saves users, and government, time and money.\n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I5gP62TX8aQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I5gP62TX8aQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I5gP62TX8aQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=I5gP62TX8aQ",
+    "publishedAt": "2019-07-11T08:56:23Z",
+    "duration": "0:02:00"
+  },
+  {
+    "title": "GovTech Catalyst - using technology to improve social housing at Leeds City Council",
+    "description": "Leeds City Council is using GovTech Catalyst funding to develop technology that can help improve the condition of social housing in the city.\n\nIn this video, 3 members of the council explain how innovation in this area could improve tenants' lives and health, leading to wider benefits across the city.\n\nRead more on GOV.UK: https://www.gov.uk/government/news/monitoring-housing-for-better-health-apply-for-funding\n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZYZwxSilJJs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZYZwxSilJJs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZYZwxSilJJs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZYZwxSilJJs",
+    "publishedAt": "2019-07-01T13:46:32Z",
+    "duration": "0:01:56"
+  },
+  {
+    "title": "Welcome to the UK government design community",
+    "description": "This video is an introduction to the UK government design community for designers new to government or those interested in joining the Civil Service. \n\nIn the video, you will hear designers from different departments explain how being in the community has helped their work, what learning and development is available and about the wider user-centred design community. \n\nTo find out more about about the design community and our work please read the Design in Government blog: https://designnotes.blog.gov.uk/\nApply for design roles on Civil Service Jobs: https://www.civilservicejobs.service.gov.uk\n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/c9Blsd9VZo4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/c9Blsd9VZo4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/c9Blsd9VZo4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=c9Blsd9VZo4",
+    "publishedAt": "2019-06-17T07:53:08Z",
+    "duration": "0:02:19"
   },
   {
     "title": "Brad Frost | The Technical Side of Design Systems | UI Special, CSS Day 2019",
@@ -20747,6 +21871,102 @@
     "publishedAt": "2019-03-07T16:46:58Z",
     "privacyStatus": "public",
     "duration": "0:21:43"
+  },
+  {
+    "title": "The GDS Academy",
+    "description": "If you work in the public sector, you can sign up for a course or programme at the GDS Academy and help transform the way government designs services for its users.\n\nFind out more about the GDS Academy:\nhttps://www.gov.uk/gdsacademy \n\nFollow @GDSAcademy on Twitter:\nhttps://twitter.com/gdsacademy \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LA-oaefUy5Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LA-oaefUy5Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LA-oaefUy5Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LA-oaefUy5Q",
+    "publishedAt": "2019-02-20T16:16:16Z",
+    "duration": "0:01:46"
+  },
+  {
+    "title": "Transforming with common components at Disclosure and Barring Service",
+    "description": "The Disclosure and Barring Service (DBS) were able to transform their Basic DBS Check with Government as a Platform (GaaP). Now, users can go online and apply for a criminal background check and receive a certificate to let potential employers know of any unspent convictions. \n\nThey were the first service to integrate with three of the GaaP components - GOV.UK Verify, GOV.UK Pay, GOV.UK Notify. \n\nIn this video, Digital Product Manager Lisa Keenaghan, describes how the work has saved millions of pounds. \n\nRead more on\nhttps://governmentasaplatform.blog.gov.uk/2018/03/14/disclosure-barring-service/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/o6fL4aUdan4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/o6fL4aUdan4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/o6fL4aUdan4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=o6fL4aUdan4",
+    "publishedAt": "2019-01-09T08:18:47Z",
+    "duration": "0:02:11"
+  },
+  {
+    "title": "Why API Standards in government matter",
+    "description": "APIs can be a quick and easy way for services to share information with each other and work together - but only if they are designed in the same way.\n\nThat’s why GDS has created a set of API standards for government, that allow any government service to access any government API.\n\nFind out more on GOV.UK: \nhttps://www.gov.uk/guidance/gds-api-technical-and-data-standards\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bXow4AR1HCA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bXow4AR1HCA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bXow4AR1HCA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=bXow4AR1HCA",
+    "publishedAt": "2018-12-21T12:05:32Z",
+    "duration": "0:01:16"
+  },
+  {
+    "title": "GDS Academy's Emerging Technology Development Programme",
+    "description": "The Emerging Technology Development Programme has been designed to create a deployable cadre of specialists with the skills, knowledge and confidence to advise on the application of emerging technologies, like Artificial Intelligence, to solve government’s most difficult problems.\n\nFollowing a successful pilot earlier in 2018, the GDS Academy has opened the programme for applications across the Civil Service. Two participants talk about their experience on the pilot.\n\nhttps://www.gov.uk/gdsacademy\nhttps://twitter.com/DigiCareersGov @GDSacademy \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Hp8AzWxvKgs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Hp8AzWxvKgs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Hp8AzWxvKgs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Hp8AzWxvKgs",
+    "publishedAt": "2018-12-18T12:08:34Z",
+    "duration": "0:01:58"
   },
   {
     "title": "Design Systems London 2018",
@@ -21000,6 +22220,30 @@
     "duration": "0:18:57"
   },
   {
+    "title": "How GOV.UK Notify helps the Valuation Office Agency stay in touch with rate-payers",
+    "description": "As the Valuation Office Agency values 1.97 million non-domestic properties, it has to make contact with rate-payers. The Agency used GOV.UK Notify to send out 150,000 emails about the re-evaluation. \n\nGOV.UK Notify is a system that lets you send emails, text messages and letters to your users. \n\nIn this video we talk to Paul Philips and Meera Nayyar from the Valuation Office Agency on how they used GOV.UK Notify to digitise a paper process. \n\nRead more on https://www.notifications.service.gov.uk/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2YdPFUPsRDk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2YdPFUPsRDk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2YdPFUPsRDk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2YdPFUPsRDk",
+    "publishedAt": "2018-11-30T14:04:01Z",
+    "duration": "0:02:07"
+  },
+  {
     "title": "Design Systems for the Rest of Us - Siddharth Kshetrapal - Design Sytems London",
     "description": "Sid, the 'inspiration' behind the conference giving a talk on Design Systems for the rest of us. \nFind his slides here: https://sid.studio/DSL/\n\nSIDDHARTH KSHETRAPAL\nhttps://sid.studio/\nhttps://twitter.com/siddharthkp\nhttps://github.com/siddharthkp\n\nDESIGN SYSTEMS LONDON \nhttps://www.designsystemslondon.com/\nhttps://twitter.com/DSLconf",
     "thumbnails": {
@@ -21166,6 +22410,198 @@
     "duration": "1:02:33"
   },
   {
+    "title": "GovTech Catalyst - a real-time tracking solution for firefighters",
+    "description": "Mid and West Wales Fire and Rescue Service secured £1.25million of GovTech Catalyst funding to develop solutions to enable an instantly deployable real-time tracking solution for firefighters responding to emergency situations. \n\nThe fire department describes the hazardous situations they face and the positive impact a real-time tracking solution could have on their safety and ability to work effectively. \n\nRead more on GOV.UK: \nhttps://www.gov.uk/guidance/the-govtech-catalyst-challenge-process \n\nSubmit a challenge here: \nhttps://www.gov.uk/guidance/how-to-submit-a-govtech-catalyst-challenge \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VExnFUNyuL4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VExnFUNyuL4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VExnFUNyuL4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VExnFUNyuL4",
+    "publishedAt": "2018-10-29T10:08:13Z",
+    "duration": "0:02:28"
+  },
+  {
+    "title": "How DVSA uses GOV.UK Notify to let people know when their MOT is due",
+    "description": "The Driver and Vehicle Standards Agency (DVSA) has used GOV.UK Notify to remind people when their MOT is due. With 28% of MOTs performed late, the DVSA needed an easy way to send reminders. \n\nGOV.UK Notify is a system that lets you send emails, text messages and letters to your users. \n\nIn this video we talk to Lauren Rousseau and Neil Barlow from DVSA on how GOV.UK Notify provided an free and simple solution for them. \n\nRead more on https://www.notifications.service.gov.uk/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1BtMe8e9jzk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1BtMe8e9jzk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1BtMe8e9jzk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1BtMe8e9jzk",
+    "publishedAt": "2018-10-11T13:58:16Z",
+    "duration": "0:02:04"
+  },
+  {
+    "title": "Check your state pension on GOV.UK",
+    "description": "The Department of Work and Pension created the service 'check your state pension'.\n\nThis service enables users to check how much State Pension they could get (this amount is also known as your State Pension forecast) when they can get it and how to increase it, if they can.\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/\nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/USo1yHS5th0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/USo1yHS5th0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/USo1yHS5th0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=USo1yHS5th0",
+    "publishedAt": "2018-09-20T10:00:31Z",
+    "duration": "0:02:08"
+  },
+  {
+    "title": "What is the GovTech Catalyst?",
+    "description": "Public sector organisations face huge problems that can sometimes be solved by innovative and emerging technology. \n\nThe GovTech Catalyst is a £20 million, 3-year programme, that is funding technology to reduce costs and provide better services to the public sector. \n\nThis video explains how the public sector organisations apply, how private companies pitch their technology and how the digital solutions can potentially lead to millions of pounds in savings. \n\nRead more on GOV.UK: \nhttps://www.gov.uk/guidance/the-govtech-catalyst-challenge-process \n\nSubmit a challenge here: \nhttps://www.gov.uk/guidance/how-to-submit-a-govtech-catalyst-challenge \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/X1YHTQY8MQs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/X1YHTQY8MQs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/X1YHTQY8MQs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=X1YHTQY8MQs",
+    "publishedAt": "2018-09-12T12:58:17Z",
+    "duration": "0:02:16"
+  },
+  {
+    "title": "Innovation in the UK Government",
+    "description": "The UK Government is a world-leading digital government. We recently produced the technology innovation in government survey which shows the extent and range of innovation activity across the whole of government. Emerging technologies considered include biometrics, Artificial Intelligence, Internet of Things and drones.\n\nThis video highlights some of the findings of the Innovation Survey. \n\nRead the results of the technology innovation in government survey:\nhttps://www.gov.uk/government/publications/technology-innovation-in-government-survey/technology-innovation-in-government-survey\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/onTtkXB_c5c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/onTtkXB_c5c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/onTtkXB_c5c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=onTtkXB_c5c",
+    "publishedAt": "2018-09-06T11:41:01Z",
+    "duration": "0:02:06"
+  },
+  {
+    "title": "Demonstrating the benefits of Artificial Intelligence in government with the Rubik’s Cube",
+    "description": "As one the world’s leading digital nations, artificial intelligence presents a huge opportunity for the UK.\n\nTerence Eden, Open Standards Lead at the Government Digital Service, demonstrates how his Lego Mindstorm robot uses artificial intelligence to solve a Rubik's Cube, and what it can teach us about applying AI in government.\n\nThe effective use of AI means that we can create a more prosperous economy with better and more fulfilling jobs. We can protect our environment by using resources more efficiently. And we can make government smarter, using the power of data to improve our public services.\n\nRead more in the blog post from Terence:\nhttps://gdstechnology.blog.gov.uk/2018/08/28/demonstrating-the-benefits-of-ai-in-government-with-the-rubiks-cube/\n\nRead more about the government’s position on Artifical Intelligence here: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/566075/gs-16-19-artificial-intelligence-ai-report.pdf\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/ \nTwitter: https://twitter.com/gdsteam  \nInstagram: https://instagram.com/gdsteam/  \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oNV3lGt2XNs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oNV3lGt2XNs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oNV3lGt2XNs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oNV3lGt2XNs",
+    "publishedAt": "2018-08-28T09:16:33Z",
+    "duration": "0:01:26"
+  },
+  {
+    "title": "What is an end-to-end service and how can government build them?",
+    "description": "Tasks like starting a business or learning to drive mean users have to find, understand and interact with government lots of times. By using end-to-end services, we can help users achieve their end task in a single journey. \n\nIn multi-disciplinary teams, we’ve built pages that lay out the complex journeys step-by-step. People understand what they need to do and when they need to do it.  \n\nThis work has made things simpler and clearer for people. Ben Carpenter, Inclusive Services Lead and Lou Downe,  Director of Design for the UK Government, talk about the importance of user-centred design. \n\nFind out more about service design in government on the design notes blog:\nhttps://designnotes.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vAGsUiWW80M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vAGsUiWW80M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vAGsUiWW80M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=vAGsUiWW80M",
+    "publishedAt": "2018-08-23T15:29:44Z",
+    "duration": "0:02:25"
+  },
+  {
+    "title": "3 ways to make your content more accessible",
+    "description": "Twenty percent of people in the UK have a disability, so it is important to make sure your products and services are accessible, and the more accessible they are the more people can use them. \n\nTrisha Doyle, head of content at GOV.UK and leader of the cross-government content community offers three tips today to help make your content more accessible.\n\nFind out more about accessibility across government on the GOV.UK Accessibility blog: \nhttps://accessibility.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lYZJKr8CX_U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lYZJKr8CX_U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lYZJKr8CX_U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lYZJKr8CX_U",
+    "publishedAt": "2018-08-16T11:17:52Z",
+    "duration": "0:03:39"
+  },
+  {
     "title": "Designer + Developer Workflow",
     "description": "By Brad Frost and Dan Mall. More info at http://bradfrost.com/blog/post/designer-developer-workflow and http://danmall.me/articles/designer-developer-workflow/.",
     "thumbnails": {
@@ -21188,6 +22624,30 @@
     "videoUrl": "https://www.youtube.com/watch?v=tnkrUt7PpnQ",
     "publishedAt": "2018-08-10T13:25:25Z",
     "duration": "1:43:49"
+  },
+  {
+    "title": "A passionate committed team at the Government Digital Service",
+    "description": "Trisha Doyle, Head of Content for GOV.UK explains what makes GDS a unique place to work. \n\nThe job of the Government Digital Service (GDS) is digital transformation. We want to make government work better for everyone: for citizens and colleagues alike. \n\nOur team is bright, bold and we’re passionate about what we do. So whether you’re just getting started in your career or you’re already an expert looking to join a team which works to improves lives, GDS can help you grow and develop. \n\nVisit our jobs page to see our latest vacancies: \nhttp://gds.blog.gov.uk/jobs \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pD0DO3RybpQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pD0DO3RybpQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pD0DO3RybpQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pD0DO3RybpQ",
+    "publishedAt": "2018-07-24T14:10:30Z",
+    "duration": "0:01:10"
   },
   {
     "title": "Design Systems Are For People",
@@ -21223,6 +22683,54 @@
     "publishedAt": "2018-07-05T11:17:32Z",
     "privacyStatus": "public",
     "duration": "0:36:07"
+  },
+  {
+    "title": "Sprint 18: the highlights",
+    "description": "Sprint 18, an event hosted by the Government Digital Service (GDS) on 10 May 2018,  brought together people from across the digital and technology sector. They heard about the work taking place across the public sector to make government work better. The themes of the day were Transformation, Collaboration and Innovation.\n\nRelive the event by reading through our live blog of the day:\nhttps://gds.blog.gov.uk/2018/05/10/10-may-2018-sprint-18-live-blog/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VmpvKln5Xn8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VmpvKln5Xn8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VmpvKln5Xn8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VmpvKln5Xn8",
+    "publishedAt": "2018-05-17T11:57:16Z",
+    "duration": "0:02:34"
+  },
+  {
+    "title": "Sprint 2018: What is innovation?",
+    "description": "A mindset? Using new technologies? Doing something new? \n\nWe asked people from digital teams across government what innovation means to them.\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/10QMaosSQzw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/10QMaosSQzw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/10QMaosSQzw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=10QMaosSQzw",
+    "publishedAt": "2018-05-10T13:37:54Z",
+    "duration": "0:02:07"
   },
   {
     "title": "Put your design system on the wall | DesignOps Melbourne",
@@ -21295,6 +22803,198 @@
     "duration": "0:23:01"
   },
   {
+    "title": "Why we code in the open",
+    "description": "For any government service to be put in front of the public, it has to meet the Digital Service Standard, a set of 18 criteria. One of the criteria is that all new source code is made open and published under an open source licence.\n\nThis goes hand in hand with our tenth design principle: make things open: it makes things better.\n\nIt encourages good practice, It makes collaboration easier and people can learn from each other. Beyond that,  it improves transparency. \n\nAnna Shipman, Open Source Lead at the UK’s Government Digital Service, Steve Marshall, Head of Technical Architecture at the Ministry of Justice, and Armin Keyvanloo, a Scala Developer working on HMRC’s Multi-Channel Digital Tax Platform (MDTP) talk about the advantages of coding in the open in government.\n\nJoin the conversation at: \nhttps://github.com/alphagov/open-standards/issues \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aqFFCvjXr1s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aqFFCvjXr1s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aqFFCvjXr1s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aqFFCvjXr1s",
+    "publishedAt": "2018-02-20T10:58:41Z",
+    "duration": "0:01:55"
+  },
+  {
+    "title": "One year of the Government Transformation Strategy at the Department for International Trade (DIT)",
+    "description": "In 2017, the Government Transformation Strategy was published.  The Strategy sets out how government will use digital to transform the relationship between the citizen and state.\n\nMichelle Thorp, Managing Director of Digital, Technology and Estates, and Dylan Thomas, Director, Technology and Smart Cities, International Trade and Investment at the Department for International Trade talk about what transformation means for the Department for International Trade. \n\nFind out more about the ‘Great’ campaign:\nhttps://www.great.gov.uk\n\nFind out more about the Government Transformation Strategy:\nhttps://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020 \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jYZeHhiOVpk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jYZeHhiOVpk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jYZeHhiOVpk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=jYZeHhiOVpk",
+    "publishedAt": "2018-02-08T14:48:14Z",
+    "duration": "0:02:00"
+  },
+  {
+    "title": "What to expect at a service assessment",
+    "description": "Services are assessed to make sure they meet the Digital Service Standard and to protect the quality of GOV.UK. \n\nThe assessment is run by a panel of experts from either GDS or your departmental assessment team. Panels are normally made up of 4 or 5 assessors, including a lead assessor, a user researcher, a designer and a technical lead.\n\nSome departments run internal assessments slightly differently. Check with your department’s assessment lead to find out exactly what will happen at the session.\n\nFind out more about the Digital Service Standard:\nhttps://www.gov.uk/service-manual/service-standard \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PlRtyI6yyb4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PlRtyI6yyb4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PlRtyI6yyb4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PlRtyI6yyb4",
+    "publishedAt": "2017-11-24T11:16:58Z",
+    "duration": "0:01:44"
+  },
+  {
+    "title": "The GDS User Research lab",
+    "description": "Research shows that teams make better services when everyone on a project team observes users first hand.\n\nWatching people engage in real time with the services we design brings insight and empathy to our work, a quality that cannot be replicated by reports, graphs or presentations.\n\nFind out more about the GDS User Research Lab on the GDS Blog:\nhttps://gds.blog.gov.uk/2017/11/14/a-user-research-lab-for-all-of-government/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hj7DHK_KsYc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hj7DHK_KsYc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hj7DHK_KsYc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hj7DHK_KsYc",
+    "publishedAt": "2017-11-14T11:24:00Z",
+    "duration": "0:02:04"
+  },
+  {
+    "title": "The GDS Academy universities internship programme",
+    "description": "In 2017, GDS Academy, DWP and HMRC partnered to run an internship programme with 3 universities. \n\nStudents from University of Leeds, University of Manchester and Manchester Metropolitan University attended the 8-week Universities Internship Programme, designed to develop digital skills and showcase the Civil Service as a career option.\n\nFind out more about the GDS Academy and its courses:\nhttps://www.gov.uk/gdsacademy \n\nFollow @GDSAcademy on Twitter:\nhttps://twitter.com/gdsacademy \n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SDMC-rX4GqQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SDMC-rX4GqQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SDMC-rX4GqQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SDMC-rX4GqQ",
+    "publishedAt": "2017-10-26T09:49:53Z",
+    "duration": "0:01:54"
+  },
+  {
+    "title": "What are open standards?",
+    "description": "Open standards are one of the most powerful tools we have to open up government. They make it possible for the smallest supplier to compete with the largest. They make data open for any citizen to audit. They unlock the transformative power of open source software.\n\nWe have accomplished so much with open standards. Huge transformational programmes such as GOV.UK Verify, GOV.UK Pay, and the GOV.UK website are all backed by mature and scalable open standards. We are improving the way documents are generated, edited, and stored by adopting the Open Document Format (ODF).\n\nTerence Eden, Open Standards Lead at the Government Digital Service and Jeni Tennison, CEO, Open Data Institute, talk about the importance of open standards. \n\nJoin the conversation at: https://github.com/alphagov/open-standards/issues\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cTFFcIyfm5c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cTFFcIyfm5c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cTFFcIyfm5c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cTFFcIyfm5c",
+    "publishedAt": "2017-10-23T09:40:23Z",
+    "duration": "0:01:47"
+  },
+  {
+    "title": "POUR: The 4 principles of accessibility",
+    "description": "The GDS Accessibility team is here to make it easier for departments to build digital services that can be used by everyone.\n\nAlistair Duggin, Head of Accessibility at GDS, explains the four 'POUR' principles of accessibility. Services have to be: Perceivable, Operable, Understandable, Robust.\n\nFind out more about accessibility across government on the GOV.UK Accessibility blog: \nhttps://accessibility.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hs8sykCaf3E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hs8sykCaf3E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hs8sykCaf3E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hs8sykCaf3E",
+    "publishedAt": "2017-10-23T09:38:13Z",
+    "duration": "0:02:28"
+  },
+  {
+    "title": "What does accessibility mean?",
+    "description": "Accessibility means that people with a disability can do what they need to do in a similar amount of time and effort as someone that does not have a disability. It means that people are empowered, can be independent, and will not be frustrated by something that is poorly designed or implemented. \n\nAlistair Duggin, Head of Accessibility at GDS, explains the importance of accessibility.\n\nFind out more about accessibility across government on the GOV.UK Accessibility blog: \nhttps://accessibility.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QJlCBji5NpA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QJlCBji5NpA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QJlCBji5NpA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QJlCBji5NpA",
+    "publishedAt": "2017-10-23T09:37:58Z",
+    "duration": "0:02:19"
+  },
+  {
     "title": "Una Kravets - Why Design Systems Fail",
     "description": "",
     "thumbnails": {
@@ -21328,6 +23028,78 @@
     "publishedAt": "2017-10-12T20:01:27Z",
     "privacyStatus": "public",
     "duration": "0:14:05"
+  },
+  {
+    "title": "The Data Science Accelerator: A participant’s project",
+    "description": "The Data Science Accelerator is a capability-building programme which gives analysts from across the public sector the opportunity to develop their data science skills by delivering a project of real business value.\n\nRead more about the programme and how to apply: https://www.gov.uk/government/publications/data-science-accelerator-programme\n\nFind out more about the GDS Academy and its courses:\nhttps://www.gov.uk/gdsacademy \n\nFollow @GDSAcademy on Twitter:\nhttps://twitter.com/gdsacademy \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OuNGt356keo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OuNGt356keo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OuNGt356keo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OuNGt356keo",
+    "publishedAt": "2017-08-10T11:57:53Z",
+    "duration": "0:01:05"
+  },
+  {
+    "title": "The Data Science Accelerator programme",
+    "description": "The Data Science Accelerator is a capability-building programme which gives analysts from across the public sector the opportunity to develop their data science skills by delivering a project of real business value.\n\nRead more about the programme and how to apply: https://www.gov.uk/government/publications/data-science-accelerator-programme \n\nFind out more about the GDS Academy and its courses:\nhttps://www.gov.uk/gdsacademy \n\nFollow @GDSAcademy on Twitter:\nhttps://twitter.com/gdsacademy \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/B5p-z-PcC5Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/B5p-z-PcC5Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/B5p-z-PcC5Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=B5p-z-PcC5Q",
+    "publishedAt": "2017-08-10T11:57:24Z",
+    "duration": "0:01:42"
+  },
+  {
+    "title": "Introducing GOV.UK Notify",
+    "description": "GOV.UK Notify helps government service teams send text messages, emails or letters to users.\n\nThere are two ways GOV.UK Notify sends notifications. Firstly, through a simple integration with web applications or back office systems, or by using our interface, to upload batches of messages  built or extracted from other systems. You don’t need any technical knowledge to use Notify. \n\nFind out more about GOV.UK Notify: \nhttps://www.gov.uk/notify\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_90cv1YgQo4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_90cv1YgQo4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_90cv1YgQo4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_90cv1YgQo4",
+    "publishedAt": "2017-08-03T15:53:28Z",
+    "duration": "0:02:30"
   },
   {
     "title": "Design Systems, when and how much? — Diana Mounter",
@@ -21400,6 +23172,54 @@
     "duration": "0:47:16"
   },
   {
+    "title": "Managing apprenticeships on GOV.UK",
+    "description": "This service allows employers to be in control of the way their apprenticeships are run and funded.\n\nFind out more about the new service at:\nhttps://www.gov.uk/guidance/manage-apprenticeship-funds \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/j0InPkpZX2I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/j0InPkpZX2I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/j0InPkpZX2I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=j0InPkpZX2I",
+    "publishedAt": "2017-02-15T16:50:43Z",
+    "duration": "0:01:54"
+  },
+  {
+    "title": "GOV.UK Verify: Why it's safer",
+    "description": "GOV.UK Verify is a secure way to prove who you are online. Central storage of information is not safe or secure, so Verify does it differently.\n\nCompanies and organisations normally use databases to store people's information. Big databases are vulnerable to attack. If someone gets access to a central database, they have access to everything.\n\nVerify works differently. When you use Verify, your information is not stored in a central database.\n\nYou choose a company to verify your identity. The company makes a series of checks with different sources to make sure it's you before you use a government service.\n\nNo one has all the information, and there is no central storage. It keeps your identity and information secure.\n\nGOV.UK Verify. Safer, simpler services online.\n\nFind out more: https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Vtu7eKc6QpY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Vtu7eKc6QpY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Vtu7eKc6QpY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Vtu7eKc6QpY",
+    "publishedAt": "2016-11-28T15:00:27Z",
+    "duration": "0:01:08"
+  },
+  {
     "title": "Jina Bolton - Designing a Design System",
     "description": "Product Design for web and mobile is evolving at a fast pace. As the range of devices and platforms continues to expand, so do the various design considerations. Design systems help a design team build a framework that meets their needs by bringing together all of the critical design components - including style guides, pattern and UI libraries, CSS frameworks and other resources.\n\nIn this session, Jina, a Lead Designer on the Design Systems team at Salesforce UX, will share: \n* Strategies for how to approach, design and build an effective design system\n* How to successfully maintain the system to ensure ongoing usefulness\n* Elements that design systems need to be sustainable that are critical for success",
     "thumbnails": {
@@ -21435,6 +23255,702 @@
     "duration": "0:40:31"
   },
   {
+    "title": "What is GOV.UK Pay?",
+    "description": "GOV.UK Pay is a secure payment service that is easy to integrate in a service.\n\nGOV.UK Pay is available for any government or public sector organisation that wants to take card payments online. It meets the Digital Service Standard and provides users with a trusted GOV.UK-branded payment experience.\n\nProduct Manager Till Wirth talks about the benefits of GOV.UK Pay.\n\nFind out more about GOV.UK Pay: \nhttps://www.payments.service.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DlohjTkvFoY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DlohjTkvFoY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DlohjTkvFoY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DlohjTkvFoY",
+    "publishedAt": "2016-08-09T15:24:42Z",
+    "duration": "0:01:27"
+  },
+  {
+    "title": "Tech week students' visit to GDS",
+    "description": "On Friday 8 July 2016, a group of A Level students were invited to visit the Government Digital Service as part of GDS’ support for Tech Partnership Tech Week. During the day, the students built Arduino robots in a hands-on programming workshop and visited the GOV.UK, Standards Assurance, Services, Platform as a Service and Verify teams within GDS, as well as finding out about digital apprenticeships and the civil service fast stream scheme.\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Zw8Pa8VrEJs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Zw8Pa8VrEJs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Zw8Pa8VrEJs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Zw8Pa8VrEJs",
+    "publishedAt": "2016-07-28T16:42:26Z",
+    "duration": "0:01:19"
+  },
+  {
+    "title": "Get help with court and tribunal fees on GOV.UK",
+    "description": "‘Help with court fees’ is a new digital service to with the aim to reduce paperwork for court staff. It is being developed by the Ministry of Justice digital team.\n\nThe service is now live on GOV.UK:\nhttps://www.gov.uk/get-help-with-court-fees \n\nFind out more about the work by the Ministry of Justice digital team: https://mojdigital.blog.gov.uk\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/918zz5Rkf-g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/918zz5Rkf-g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/918zz5Rkf-g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=918zz5Rkf-g",
+    "publishedAt": "2016-04-25T09:22:13Z",
+    "duration": "0:01:27"
+  },
+  {
+    "title": "Buy a fishing rod licence on GOV.UK",
+    "description": "'I want to fish' is a new online service being developed by the Environment Agency digital team so that anglers can buy rod fishing licences simply and easily online.\n\nThe service is now live on GOV.UK:\nhttps://www.gov.uk/fishing-licences/buy-a-fishing-licence \n\nFind out more about the Environment Agency:\nhttps://www.gov.uk/government/organisations/environment-agency\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/t3MqLXrLLhI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/t3MqLXrLLhI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/t3MqLXrLLhI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=t3MqLXrLLhI",
+    "publishedAt": "2016-04-25T09:20:48Z",
+    "duration": "0:01:51"
+  },
+  {
+    "title": "Putting data to good use",
+    "description": "Data underpins everything we do at the Government Digital Service (GDS).\n\nOur user researchers, analysts and data scientists work alongside product teams to generate insights that make digital services better.\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YdsUunJAums/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YdsUunJAums/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YdsUunJAums/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YdsUunJAums",
+    "publishedAt": "2016-03-16T10:40:26Z",
+    "duration": "0:01:48"
+  },
+  {
+    "title": "Sprint 16: The highlights",
+    "description": "Watch highlights of Sprint 16,the digital government conference, held on 11 February 2016 at the BFI in London.\n\nRelive the event by reading through our live blog of the day:\nhttps://gds.blog.gov.uk/2016/02/11/11-february-2016-sprint-16-live-blog/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zbX6qVKIkBo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zbX6qVKIkBo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zbX6qVKIkBo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zbX6qVKIkBo",
+    "publishedAt": "2016-02-22T10:57:31Z",
+    "duration": "0:01:43"
+  },
+  {
+    "title": "Solving common problems once: the idea behind Common Platforms",
+    "description": "We are moving towards towards a fundamentally digital government - one in which we share code, patterns, platforms, components and best practice for approaching common technological and design problems across government. \n\nPeople at the heart of government digital transformation talk about how building reusable platforms like GOV.UK Verify, GOV.UK Pay and GOV.UK Notify will transform government digital services.\n\nFind out more about common components at GDS: https://www.gov.uk/service-manual/technology/using-common-components\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MHeBJl40cjk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MHeBJl40cjk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MHeBJl40cjk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=MHeBJl40cjk",
+    "publishedAt": "2016-02-22T10:57:13Z",
+    "duration": "0:01:55"
+  },
+  {
+    "title": "NHS Alpha: Building on what's open",
+    "description": "The NHS Alpha brings together the Department of Health, NHS England and NHS Choices which is part of the health and school care information centre to look at what the vision of NHS UK should be.\n\nThe work involved talking to people: users, clinicians, or health and care professionals to bring together what the ideas should be\nand what our proposition should be. This video explains how they are building on what’s open. \n\nRead more about the work around digital in health: https://digitalhealth.blog.gov.uk/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5IoStlbo1gI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5IoStlbo1gI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5IoStlbo1gI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5IoStlbo1gI",
+    "publishedAt": "2015-12-07T12:15:55Z",
+    "duration": "0:01:53"
+  },
+  {
+    "title": "How DVLA transformed its technology",
+    "description": "In September 2015, the Driver and Vehicle Licensing Agency (DVLA) transformed how they run their technology by bringing their IT teams in-house.\n\nKeep up-to-date with the latest on DVLA digital transformation: \nhttps://dvladigital.blog.gov.uk \nhttps://insidedvla.blog.gov.uk\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VaEN7ygJwYQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VaEN7ygJwYQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VaEN7ygJwYQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VaEN7ygJwYQ",
+    "publishedAt": "2015-10-05T10:26:52Z",
+    "duration": "0:01:53"
+  },
+  {
+    "title": "How DVLA brought its technology team in house",
+    "description": "In September 2015, the Driver and Vehicle Licensing Agency (DVLA) brought all their IT teams in-house.\n\nKeep up-to-date with the latest on DVLA digital transformation:\nhttps://dvladigital.blog.gov.uk \nhttps://insidedvla.blog.gov.uk\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rtiV5p2cSiE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rtiV5p2cSiE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rtiV5p2cSiE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rtiV5p2cSiE",
+    "publishedAt": "2015-10-02T07:40:39Z",
+    "duration": "0:01:57"
+  },
+  {
+    "title": "What is GOV.UK? Find government services and information simpler, clearer, faster",
+    "description": "GOV.UK is the single website for all central government services and information. It launched in 2012 and replaced nearly 2,000 government websites. \n\nGOV.UK has been viewed more than 14 billion times since it went live. It gets an average 3.6 million visits a day. It has won awards and it has influenced governments all over the world from Australia to Israel.\n\nBut GOV.UK is much more than just a website for government - it’s the digital interface for millions of people interacting with central government.\n\nExplore GOV.UK for yourself, the place to find simpler, clearer, faster government information and services online at:\nhttps://www.gov.uk \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ucjmWjJ25Ho/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ucjmWjJ25Ho/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ucjmWjJ25Ho/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ucjmWjJ25Ho",
+    "publishedAt": "2015-09-17T07:22:15Z",
+    "duration": "0:01:38"
+  },
+  {
+    "title": "Make a lasting power of attorney on GOV.UK",
+    "description": "Ann explains how simple she found it to make a lasting power of attorney using the new digital service on GOV.UK.\n\nSee the live service for yourself on GOV.UK:\nhttps://www.gov.uk/power-of-attorney \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GY-NpWFyu8w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GY-NpWFyu8w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GY-NpWFyu8w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=GY-NpWFyu8w",
+    "publishedAt": "2015-08-02T17:57:41Z",
+    "duration": "0:02:34"
+  },
+  {
+    "title": "Sign up for Digital Self Assessment on GOV.UK",
+    "description": "A new digital service allows you to fill in and send your self assessment tax return to HM Revenue and Customs (HMRC) online, without the need to fill out paper forms. \n\nUsers can also go back to a tax return they’ve already started, \ncheck their details, view returns and print their tax calculations. \n\nYou can now sign up for paperless Digital Self Assessment at: https://www.gov.uk/log-in-file-self-assessment-tax-return \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wb0B5siFo9U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wb0B5siFo9U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wb0B5siFo9U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wb0B5siFo9U",
+    "publishedAt": "2015-03-26T12:42:27Z",
+    "duration": "0:01:23"
+  },
+  {
+    "title": "Find an apprenticeship on GOV.UK",
+    "description": "If you want to apply for an apprenticeship, there’s a new digital service allowing the user to do it quickly and easily online. \n\nSearch for an apprenticeship for yourself on GOV.UK at:\nhttps://www.gov.uk/findapprenticeship \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LfbunTyrkUU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LfbunTyrkUU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LfbunTyrkUU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LfbunTyrkUU",
+    "publishedAt": "2015-03-24T16:03:33Z",
+    "duration": "0:01:43"
+  },
+  {
+    "title": "Make a claim to an employment tribunal on GOV.UK",
+    "description": "Making a claim to an employment tribunal is now easier with a new digital service on GOV.UK. \n\nThis is a last resort for people who feel they've been wronged by an employer. The new digital service is a much simpler alternative to making a paper claim. \n\nSee the live service for yourself at: \nhttps://www.gov.uk/apply-employment-tribunal \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/kRuMWqsFgZk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/kRuMWqsFgZk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/kRuMWqsFgZk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kRuMWqsFgZk",
+    "publishedAt": "2015-03-09T11:35:50Z",
+    "duration": "0:01:08"
+  },
+  {
+    "title": "Sprint 15: The highlights",
+    "description": "On 3 February 2015, the Government Digital Service hosted Sprint 15, a chance for colleagues from all over government to catch up, swap notes and tips, and find out more about the UK government's digital transformation programme. We welcomed guests from France, Estonia and the United States, as well as Minister for the Cabinet Office Francis Maude, Martha Lane Fox, and the Prime Minister’s Digital Economy Advisor Baroness Shields.\n\nRelive the event and find out more about the talks and workshops:\nhttps://gds.blog.gov.uk/2015/02/04/sprint-15-round-up/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aSPRWri8DVA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aSPRWri8DVA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aSPRWri8DVA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aSPRWri8DVA",
+    "publishedAt": "2015-02-26T11:46:14Z",
+    "duration": "0:02:35"
+  },
+  {
+    "title": "Apply for a UK tourist visa from China on GOV.UK: User research case study",
+    "description": "A digital service has been developed to allow visitors to the UK to apply for a visa online.\n\nHome Office user researcher Katy Arnold talks about her team's recent visit to China to understand at first hand the experience of Chinese holiday visa applicants to the UK. \n\nThe service is now live on GOV.UK:\nhttps://www.gov.uk/apply-uk-visa\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/E1m2Axh38QQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/E1m2Axh38QQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/E1m2Axh38QQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=E1m2Axh38QQ",
+    "publishedAt": "2015-02-16T10:28:52Z",
+    "duration": "0:01:50"
+  },
+  {
+    "title": "Putting users first on GOV.UK",
+    "description": "Transforming digital services is about more than building websites. It's about making things better for users.\n\nIn government, we write user needs in the following way:\nAs a … (e.g. ‘self-employed person’)\nI want to … (e.g. ‘file my tax return)\nSo that I can … (e.g. ‘avoid nasty fines’)\n\nWe work out who the audience is, then we look at what they want to do and why. Watch this video to see how we are working to meet user needs on GOV.UK. \n\n\nGOV.UK is the single online home for Government:https://www.gov.uk \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I6cw0gGG52U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I6cw0gGG52U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I6cw0gGG52U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=I6cw0gGG52U",
+    "publishedAt": "2015-02-10T15:05:28Z",
+    "duration": "0:02:42"
+  },
+  {
+    "title": "Claim Carer's Allowance on GOV.UK",
+    "description": "You can now apply for Carer’s Allowance using a new simple digital service. \n\nThe service is now live on GOV.UK at:\nhttps://www.gov.uk/apply-carers-allowance \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IYBLX3V8ek4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IYBLX3V8ek4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IYBLX3V8ek4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IYBLX3V8ek4",
+    "publishedAt": "2014-11-28T12:29:00Z",
+    "duration": "0:01:43"
+  },
+  {
+    "title": "View your driving licence on GOV.UK",
+    "description": "A digital service, developed by the Driver and Vehicle Licensing Agency (DVLA), that allows you to view your driving licence information online. Users can also create a licence ‘check code’ to share their driving record with someone, for example a car hire company.\n\nSee the service for yourself, on GOV.UK:\nhttps://www.gov.uk/view-driving-licence \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xUZZKi94p6Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xUZZKi94p6Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xUZZKi94p6Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=xUZZKi94p6Q",
+    "publishedAt": "2014-10-07T08:47:37Z",
+    "duration": "0:01:25"
+  },
+  {
+    "title": "Book a prison visit on GOV.UK",
+    "description": "Following a successful beta, you can now use a new digital service to book a social visit to a prisoner in England or Wales.\n\nThe service is now live on GOV.UK:\nhttp://www.gov.uk/prison-visits\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hzyRAZVaBAs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hzyRAZVaBAs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hzyRAZVaBAs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hzyRAZVaBAs",
+    "publishedAt": "2014-09-16T15:44:02Z",
+    "duration": "0:01:17"
+  },
+  {
+    "title": "Renew a patent on GOV.UK",
+    "description": "With a new digital service, you can now quickly and easily renew a patent online. In most cases, it only takes about 4 minutes to do.\n\nSee the live service for yourself at:\nhttps://www.gov.uk/renew-patent \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jDKUe3NfuBg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jDKUe3NfuBg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jDKUe3NfuBg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=jDKUe3NfuBg",
+    "publishedAt": "2014-09-04T16:48:41Z",
+    "duration": "0:01:11"
+  },
+  {
+    "title": "Register to vote on GOV.UK",
+    "description": "Thanks to a change in legislation and a new digital service, you can now register to vote online. It only takes a few minutes to. \n\nRegister to vote now, and see the live service for yourself at:\nhttps://www.gov.uk/register-to-vote \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RqZ9e1GXJLo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RqZ9e1GXJLo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RqZ9e1GXJLo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RqZ9e1GXJLo",
+    "publishedAt": "2014-08-06T12:52:06Z",
+    "duration": "0:01:25"
+  },
+  {
+    "title": "Sprint 14: The highlights",
+    "description": "On 29 January 2014, Sprint 14 marked the halfway point in our 400 days to transform government services, making digital services that people choose to use.\n\nPeople from around the country got together to take stock, compare notes, and focus on the important work ahead.\n\nThis is a film of some of the day's highlights, including ministers rolling up their sleeves to demo digital services live on the stage.\n\nRelive the event and find out more about the talks and workshops:\nhttps://gds.blog.gov.uk/category/sprint-14-2/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DapsVbKRT3k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DapsVbKRT3k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DapsVbKRT3k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DapsVbKRT3k",
+    "publishedAt": "2014-02-21T11:03:43Z",
+    "duration": "0:02:20"
+  },
+  {
+    "title": "What is 'digital inclusion'?",
+    "description": "As government services become digital by default, we must design them to be accessible and work well for as many of these users as we can.\n\nAssisted Digital is the term used to describe a range of developments, strategies, and actions aimed at ensuring that no one is left behind. \n\nFind out more about accessibility across government on the GOV.UK Accessibility blog: \nhttps://accessibility.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ALvIYIC1IqE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ALvIYIC1IqE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ALvIYIC1IqE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ALvIYIC1IqE",
+    "publishedAt": "2013-12-10T17:21:32Z",
+    "duration": "0:01:38"
+  },
+  {
+    "title": "Creating a website for the nation",
+    "description": "GOV.UK launched in 2012. It replaced nearly 2,000 government websites with just one. Since 2012, GOV.UK has been viewed more than 14 billion times. It gets an average 3.6 million visits a day. It has won awards and it has influenced governments all over the world from Australia to Israel.\n\nFind out more about GOV.UK, the place to find simpler, clearer, faster government information and services online https://www.gov.uk/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4_1gld1PIkA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4_1gld1PIkA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4_1gld1PIkA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4_1gld1PIkA",
+    "publishedAt": "2013-12-10T17:09:59Z",
+    "duration": "0:03:05"
+  },
+  {
+    "title": "How GOV.UK puts accessibility at the heart of its digital services",
+    "description": "On the United Nations' 'International Day of Persons with Disabilities', 3 December 2013, Joshua Marshall talks about how the UK Government Digital Service is working to make GOV.UK's digital services accessible to as many people as possible.\n\nFind out more about accessibility across government on the GOV.UK Accessibility blog: \nhttps://accessibility.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/o-ma_Awfn5M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/o-ma_Awfn5M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/o-ma_Awfn5M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=o-ma_Awfn5M",
+    "publishedAt": "2013-12-03T13:55:49Z",
+    "duration": "0:01:01"
+  },
+  {
+    "title": "Why we start with user needs",
+    "description": "When designing a government service, it is important to start by learning about the people who will use it. If you don’t understand who they are or what they need from your service, you can’t build the right thing.\n\nLisa Scott explains why GOV.UK was built with users and user needs in mind, and why meeting those needs early on solved problems later.\n\nFind out more about user needs: \nhttps://www.gov.uk/service-manual/user-research/start-by-learning-user-needs\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/G1sQBXfSfHM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/G1sQBXfSfHM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/G1sQBXfSfHM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=G1sQBXfSfHM",
+    "publishedAt": "2013-10-10T14:17:16Z",
+    "duration": "0:01:53"
+  },
+  {
+    "title": "Why we always listen to users",
+    "description": "When designing a government service, it is important to start by learning about the people who will use it. If you don’t understand who they are or what they need from your service, you can’t build the right thing.\n\nCarolyn Williams is from the Driver & Vehicle Licensing Agency (DVLA).\n\nCarolyn speaks about listening to user needs and user feedback, and offers her top tips for running a digital service and getting round obstacles. \n\nDVLA is a huge organisation running many different services, and is blazing a trail in digital transformation. This video is a starting point for teams about to embark on the same journey.\n\nFind out more about user needs: \nhttps://www.gov.uk/service-manual/user-research/start-by-learning-user-needs\n\nFind out more about the work DVLA is doing in digital:\nhttps://dvladigital.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UCdM6eqyHgI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UCdM6eqyHgI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UCdM6eqyHgI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=UCdM6eqyHgI",
+    "publishedAt": "2013-10-10T14:15:56Z",
+    "duration": "0:02:04"
+  },
+  {
     "title": "Making an app",
     "description": "Making an app",
     "thumbnails": {
@@ -21457,5 +23973,197 @@
     "videoUrl": "https://www.youtube.com/watch?v=muXOAVEGli4",
     "publishedAt": "2013-08-21T20:05:07Z",
     "duration": "0:07:50"
+  },
+  {
+    "title": "What is Assisted Digital?",
+    "description": "The internet had transformed the way we live.\n\nAssisted Digital is the term used to describe a range of developments, strategies, and actions to ensure that no one is left behind. \n\nThe approach is to get people online and share the benefits of doing so. Assisted Digital enable more people get online to access public services which are more conveniently accessible, easier to use, and therefore the preferred choice of service users.\n\nFind out more about accessibility across government on the GOV.UK Accessibility blog: \nhttps://accessibility.blog.gov.uk/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CnCCmwxdPWQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CnCCmwxdPWQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CnCCmwxdPWQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=CnCCmwxdPWQ",
+    "publishedAt": "2013-06-27T18:14:21Z",
+    "duration": "0:02:17"
+  },
+  {
+    "title": "What is the beta phase?",
+    "description": "The objective of the beta phase in agile development is to build a working version of the service based on your alpha prototypes.\n\nPrivate beta: A private beta is a beta that isn’t open to everyone. You must restrict access. You shouldn’t launch your service publicly in private beta - make it invite-only or launch it in a limited region.\n\nPublic beta: A public beta is a version of your service that’s available for any member of the public to use.\n\nYou must pass your beta service assessment before you launch your service into public beta.\n\nRead more about how GDS uses Agile: \nhttps://www.gov.uk/service-manual/agile-delivery/agile-government-services-introduction\n\nRead more about Agile in the Agile Manifesto (2001): \nhttp://agilemanifesto.org/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/s0l8HauO_PM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/s0l8HauO_PM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/s0l8HauO_PM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=s0l8HauO_PM",
+    "publishedAt": "2013-04-16T11:59:12Z",
+    "duration": "0:01:39"
+  },
+  {
+    "title": "How and why we work in an agile way at GDS",
+    "description": "Agile methods encourage teams to build quickly, test what they’ve built and iterate their work based on regular feedback. Agile started out as an alternative approach to software development, but is now applied more widely to running other types of projects and products.\n\nRoo Reynolds explains how we implement agile software development at GDS.\n\nThe principles behind agile are set out in the Agile Manifesto (2001):\nhttp://agilemanifesto.org/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0XpAtr24uUQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0XpAtr24uUQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0XpAtr24uUQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0XpAtr24uUQ",
+    "publishedAt": "2013-04-16T11:59:02Z",
+    "duration": "0:02:16"
+  },
+  {
+    "title": "What is the alpha phase?",
+    "description": "In the alpha phase you need to build prototypes of your service, test your prototypes with users and demonstrate that the service you want to build is technically possible.\n\nGDS Content Design Lead Sarah Richard talks about what we mean when we say \"alpha\" in regards to a service or product.\n\nRead more about how GDS uses Agile: \nhttps://www.gov.uk/service-manual/agile-delivery/agile-government-services-introduction\n\nRead more about Agile in the Agile Manifesto (2001): \nhttp://agilemanifesto.org/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PmaE-12KqEQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PmaE-12KqEQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PmaE-12KqEQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PmaE-12KqEQ",
+    "publishedAt": "2013-04-16T11:58:29Z",
+    "duration": "0:02:26"
+  },
+  {
+    "title": "Create the best agile environment",
+    "description": "The Government Digital Service (GDS) works in an agile way. Things move quickly in agile, so digital teams need easy ways to coordinate their activities, communicate progress and collaborate. \n\nFind out how we’re ensuring that our environment and the technology we choose encourages agile ways of working.\n\nGDS leads the digital transformation of government. We collaborate with teams in other departments to help them build better public services so that government works better for everyone. \n\nRead more about how GDS uses Agile: \nhttps://www.gov.uk/service-manual/agile-delivery/agile-government-services-introduction\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2rAE6c6cSM4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2rAE6c6cSM4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2rAE6c6cSM4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2rAE6c6cSM4",
+    "publishedAt": "2013-04-16T11:58:05Z",
+    "duration": "0:02:05"
+  },
+  {
+    "title": "What is user research and why is it so important in developing services?",
+    "description": "User research helps teams learn about users and create services that meet their needs.\n\nWithout it, you won’t know what problems you’re trying to solve, what to build or if the service you create will work well for users.\n\nAngela, a user research specialist at GDS, explains what user research is and why it’s so important.\n\nFind out more about user needs:\nhttps://www.gov.uk/service-manual/user-research/start-by-learning-user-needs\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1hbnPCdM4ls/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1hbnPCdM4ls/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1hbnPCdM4ls/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=1hbnPCdM4ls",
+    "publishedAt": "2013-04-16T11:57:50Z",
+    "duration": "0:02:36"
+  },
+  {
+    "title": "What is the discovery phase?",
+    "description": "Before you start building a service, you need to find out whether users need it and whether other services exist. This part of your project is called the discovery phase.\n\nAleks Maricic of the GDS Transformation team talks more about what we mean when we say 'discovery phase' in relation to designing a digital service or product.\n\nRead more about how GDS uses Agile: \nhttps://www.gov.uk/service-manual/agile-delivery/agile-government-services-introduction\n\nRead more about Agile in the Agile Manifesto (2001): \nhttp://agilemanifesto.org/\n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UVX1BT0oxWU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UVX1BT0oxWU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UVX1BT0oxWU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=UVX1BT0oxWU",
+    "publishedAt": "2013-04-16T11:57:40Z",
+    "duration": "0:02:44"
+  },
+  {
+    "title": "Sprint 13: The highlights",
+    "description": "Sprint 13 took place on Monday 21 January 2013 at the QEII Conference Centre in Westminster. It showcased  the best in digital across government, and set the ambitious goal of transforming services over the next 400 days.\n\nRelive the event and find out more about the talks and workshops:\nhttps://gds.blog.gov.uk/sprint-13/ \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0gHbNvEW3Ws/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0gHbNvEW3Ws/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0gHbNvEW3Ws/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0gHbNvEW3Ws",
+    "publishedAt": "2013-01-28T11:25:28Z",
+    "duration": "0:02:51"
   }
 ]
