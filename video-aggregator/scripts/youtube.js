@@ -104,7 +104,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
           const statusDetails = videoDetailsResponse.data.items[0].status;
 
           if (statusDetails && statusDetails.privacyStatus) {
-            videoData.privacyStatus = videoDetails.privacyStatus;
+            videoData.privacyStatus = statusDetails.privacyStatus;
           }
 
           if (videoDetails && videoDetails.description) {
