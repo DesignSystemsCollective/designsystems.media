@@ -2,6 +2,8 @@
 
 [![Scheduled Workflow](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml)
 
+![Latest batch of video thumbnails displayed in a grid](/public/social/dsm-linkedin-1200x627.jpg)
+
 ## Scripts
 
 The following scripts are found in `./scripts`
