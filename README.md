@@ -27,8 +27,8 @@ This gets image data from the collected videos in `getVideos.js`
 ## How to run the video and image collection
 
 ```
-yarn
-yarn aggregate
+npm install
+npm run aggregate
 ```
 
 ## Astro content site
@@ -38,8 +38,8 @@ yarn aggregate
 ### How to run Astro
 
 ```
-yarn
-yarn dev
+npm install
+npm run dev
 ```
 
 ### How to run tests
@@ -47,12 +47,12 @@ yarn dev
 Build and serve the site
 
 ```
-yarn build
-yarn serve
+npm run build
+npm run serve
 ```
 
 Run the tests in another terminal
 
 ```
-yarn test
+npm run test
 ```
