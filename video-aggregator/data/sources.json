@@ -124,5 +124,12 @@
     "channelName": "@hereinthehive",
     "type": "youtube-channel",
     "url": "https://www.youtube.com/channel/UCq8-gYe7zfb8x0zDhxTIEJw"
+  },
+  {
+    "name": "GOV.UK",
+    "platform": "youtube",
+    "channelName": "@govuk",
+    "type": "youtube-channel",
+    "url": "https://www.youtube.com/channel/UCSNK6abAoM6Kj0SkHOStNLg"
   }
 ]
