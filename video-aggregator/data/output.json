@@ -35,6 +35,41 @@
     "duration": "0:24:49"
   },
   {
+    "title": "How to build a Design System portfolio that gets you hired",
+    "description": "#designsystems #designjobs \nSneak peek into our session \"Design System Portfolio Tips and Tricks\" with Justine Montgomery, Design Systems at Stripe\n\nGet more tips and a template at our online conference:\nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/piyEAwBSNTc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/piyEAwBSNTc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/piyEAwBSNTc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/piyEAwBSNTc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/piyEAwBSNTc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=piyEAwBSNTc",
+    "publishedAt": "2025-05-22T08:06:16Z",
+    "privacyStatus": "public",
+    "duration": "0:14:14"
+  },
+  {
     "title": "Deep Dive into Uber’s Design Systems",
     "description": "Welcome to Deep Dive with Jay, a series where we will look inside the Figma files of top designers. In this interview Jay chats with Ian who leads design systems for Uber. You will learn how Ian creates new design system components, specs components for developer handoff and more.\n\nConnect with Ian:\nLinkedIn: https://www.linkedin.com/in/iguisard/\n\nConnect with Jay:\nX: https://x.com/jayneildalal\nLinkedIn: https://www.linkedin.com/in/jayneil/\nYouTube: www.youtube.com/@sneakpeekdesign\n\nTimestamps\n\n01:35 Guest intro\n02:07 How big is the Uber Design System?\n03:44 Using component specific variables in Figma\n05:37 How to organize variables in Figma\n08:04 Changing screen density using Figma variables\n11:05 Benefits of reducing design system components\n14:29 Deprecating design system components\n18:52 Creating component specs for engineering\n21:06 Design explorations for creating a component\n26:32 Component documentation for engineers\n34:45 Change log for design system updates\n35:44 Creating new components for Uber Design System\n40;41 When to break design system rules?\n44:53 How to use Figma Dev Mode annotations?\n____________________________________________________\n\nFind us on ⬇️\nX (formerly Twitter): https://x.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nTikTok: https://tiktok.com/@figma\nFigma forum: https://forum.figma.com/",
     "thumbnails": {
@@ -197,6 +232,146 @@
     "publishedAt": "2025-05-13T19:46:48Z",
     "privacyStatus": "public",
     "duration": "0:51:18"
+  },
+  {
+    "title": "The weekly developer show: Design Systems, Variable Fonts & Web Typography Demystified",
+    "description": "Join us for this spontaneous yet deep-dive conversation with typography expert Jason Pamental, recorded live from Düsseldorf after the Beyond Tellerrand conference. With both guests rocking red beards and decades of experience, we explore responsive web typography, variable fonts, accessibility, performance trade-offs, and why Helvetica might not be your best choice. Whether you're a frontend dev, UX designer, or just curious about the invisible power of good type, this episode will leave you rethinking how you treat text on the web.\n\n00:07 Introduction\n01:14 Expert Guest\n03:21 Typography Challenges\n05:26 Variable Fonts\n08:13 AI & Creativity\n12:04 Design Trends\n17:18 CSS Tools\n22:35 Font Hosting\n25:38 Designer Insights\n41:33 Conclusion\n------------\nWelcome to WeAreDevelopers, the premier developer community in Europe! This is your one-stop destination for the latest tech insights, tutorials, and career advice to elevate your developer career.\n\nStay updated with our weekly newsletter, Dev Digest, featuring the most recent tech trends, career guidance, and original content crafted by developers, for developers. \nSubscribe now at https://www.wearedevelopers.com/about/newsletter\n\nInterested in advancing your career? Browse through our job board featuring over 190,000 jobs. Unlock exclusive job opportunities by creating your free developer profile at https://www.wearedevelopers.com\n\nDon't miss out on the annual highlight of every developer's calendar - the WeAreDevelopers World Congress. Network with 15,000 peers and learn from over 500 speakers. \nSecure your spot at https://www.wearedevelopers.com/world-congress and save 10% with the code \"wearedevs_yt\"\n------------\n#WebTypography #CSSTips #VariableFonts #DesignSystems #WebAccessibility #FrontendDev #UXDesign #BeyondTellerrand #DeveloperLife #ResponsiveDesign",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZbBYL-kAoY0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZbBYL-kAoY0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZbBYL-kAoY0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ZbBYL-kAoY0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ZbBYL-kAoY0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZbBYL-kAoY0",
+    "publishedAt": "2025-05-09T12:27:02Z",
+    "privacyStatus": "public",
+    "duration": "1:10:56"
+  },
+  {
+    "title": "FF meetup #9 - Design systems",
+    "description": "Unlike many traditional design systems, Aalto’s values creative freedom as much as consistency. But what challenges arise when a design system is supposed to be both cohesive and flexible at once?\n\nTuomas Karhu and Joona Viljanen will present the session.\n\n---\n\nHost: Big thanks to Taiste for hosting!\nConference: Future Frontend 2025 takes place 27-28.5 at Espoo, Finland. You can find more information at https://futurefrontend.com/ .",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LoAMVINIDas/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LoAMVINIDas/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LoAMVINIDas/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LoAMVINIDas/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/LoAMVINIDas/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LoAMVINIDas",
+    "publishedAt": "2025-05-08T12:27:11Z",
+    "privacyStatus": "public",
+    "duration": "1:16:10"
+  },
+  {
+    "title": "“The Unique Challenges of Design Systems at Scale“ - Jen Witkowski (ColorCode: Buffalo 2025)",
+    "description": "Jen Witkowski, Associate Design Director @lullabot presents \"The Unique Challenges of Design Systems at Scale\" at ColorCode: Buffalo 2025.\n\nSetting up a design system can help create consistency and guardrails for authors, designers, strategists, developers, and all involved in creating and maintaining websites or applications.\n\nBut what happens when that design system needs to expand to support numerous applications and websites, each with a different purpose and audience?\n\nIn this session, we’ll share some design challenges we’ve encountered when working with large design systems that need to scale. We’ll discus:\n\n– scaling and maintaining design patterns\n– naming systems at scale\n– maintaining a “system of systems.”\n– governance and adoption at scale\n– component content flexibility and guidance at scale\n\nThis session is for designers who are already familiar with design systems but unsure how to scale them to multiple websites and applications.\n\nNOTE: Sorry about the audio quality, we made the wrong microphone / audio decision for this presentation.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WKrAziQleA4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WKrAziQleA4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WKrAziQleA4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/WKrAziQleA4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/WKrAziQleA4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=WKrAziQleA4",
+    "publishedAt": "2025-05-04T19:23:41Z",
+    "privacyStatus": "public",
+    "duration": "0:31:01"
+  },
+  {
+    "title": "Kristoffer Nordström: The Design Systems Graveyard – Refill 2025",
+    "description": "Building a Design System is easy, maintaining and making it grow organically is much more difficult. This requires planning and collaboration, or does it? Can't we just cut out the collaboration part and make things more efficient? What does all this have in common with The Gentle Art of Swedish Death Cleaning? Join me on a story about planning, categorising and sorting and about handling human beings and their peculiarities. Maybe your Design System will end up on The Design Systems Graveyard.\n\nThis talk was held at Refill 2025 in Stockholm.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/y44pZBteWiU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/y44pZBteWiU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/y44pZBteWiU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/y44pZBteWiU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/y44pZBteWiU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=y44pZBteWiU",
+    "publishedAt": "2025-04-25T08:57:14Z",
+    "privacyStatus": "public",
+    "duration": "0:12:27"
   },
   {
     "title": "Scalable scales that scale - Nate Baldwin at Into Design Systems",
@@ -387,6 +562,41 @@
     "publishedAt": "2025-03-27T12:52:42Z",
     "privacyStatus": "public",
     "duration": "0:47:44"
+  },
+  {
+    "title": "Design System & Code Prototyping: Bridging UX Research and Engineering",
+    "description": "Combining Design Systems and Code Prototypes can enable data-driven component creation, efficient prototype creation,  and more data-driven UX decisions.\n\nSpeaker: Lughni Alfadjri, Design Technology Manager, Puma Global\n\n👉 Upcoming Events: Don't miss out on our vibrant live-online and in-person community events! For the latest schedule and to see if there's a free event near you, visit our events page: https://www.uxdx.com/community/\n\nConnect with UXDX on Social Media:\n\n📚 LinkedIn: Follow us for updates and insights: https://www.linkedin.com/company/uxdx/\n\n🔔 Stay Informed: Subscribe to our newsletter for the latest curated news on Product, UX, Design, & Development: https://www.uxdx.com/subscribe/.\n\n🌍 Join the UXDX Community: Explore more about our community here: https://www.uxdx.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/EfIp-WJg_vU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/EfIp-WJg_vU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/EfIp-WJg_vU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/EfIp-WJg_vU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/EfIp-WJg_vU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=EfIp-WJg_vU",
+    "publishedAt": "2025-03-25T18:17:08Z",
+    "privacyStatus": "public",
+    "duration": "0:28:55"
   },
   {
     "title": "Integrating Figma frames seamlessly into your documentation | Supernova 101",
@@ -1166,6 +1376,76 @@
     "duration": "0:02:54"
   },
   {
+    "title": "Elyse Holladay Loves Sewing  |  Design Downtime",
+    "description": "Grab your fabric and pick your favourite stitch, as Elyse Holladay joins us to talk about her adventures with sewing. She recounts being inspired by her mother sewing and her own experiences running a personal style program, and how frustrations with ill-fitting off-the-rack clothing got her to take up the hobby. Elyse reflects on the highs and lows of learning the craft, from her initial overconfidence after sewing a tote bag to grappling with failed projects, and her breakthrough with a simple yet satisfying project, which became a stylish staple and a symbol of her progress. Along the way, she gained a new appreciation for the craftsmanship behind fashion and the ethics of sustainable clothing.\n\nGuest Bio\nElyse Holladay (she/her) is a long-time Design Systems practitioner and speaker, currently the solo Design Systems engineer at Color Health. She was tapped to start the first Design System team for Indeed, has taught hundreds of hours of technical training content, and has been invited to speak at well-known industry events such as Clarity Conference, CSSConf Berlin, and Frontend Design Conference. She's a technical generalist who can flex between design, code, glue work, and OKRs, once quit tech to build a personal style program, is an off-the-charts extrovert, avid reader, and expat Texan with an armadillo tattoo.\n\nLinks\nElyse’s website: https://www.elyseholladay.com/\nElyse on LinkedIn: https://www.linkedin.com/in/elyseholladay/\n\nCredits\nCover design by Raquel Breternitz.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UnyGDliAAL8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UnyGDliAAL8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UnyGDliAAL8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/UnyGDliAAL8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/UnyGDliAAL8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=UnyGDliAAL8",
+    "publishedAt": "2025-01-23T12:42:28Z",
+    "privacyStatus": "public",
+    "duration": "0:32:27"
+  },
+  {
+    "title": "The Future of Design Systems is automated  - Spotify at Into Design Systems Conference",
+    "description": "#designsystems #designtokens #designsystem \n\nThe Future of Design Systems is automated - live with Juli Sombat and Tiago Catita from Spotify\nat Into Design Systems Conference 2023\n\n💪 Want to become the go-to Design Systems expert in your company?\n\nJoin our conference to:\n✅ Learn from experts who work with Design Systems every day\n✅ Get practical tips and useful takeaways you can use right away\n✅ Feel included in a welcoming and collaborative community\n\n👉 Secure your spot: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_DKuMRgTaUA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_DKuMRgTaUA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_DKuMRgTaUA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_DKuMRgTaUA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_DKuMRgTaUA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_DKuMRgTaUA",
+    "publishedAt": "2025-01-01T15:15:06Z",
+    "privacyStatus": "public",
+    "duration": "0:49:37"
+  },
+  {
     "title": "Veteran Designer Spills Secrets to Finding High Paying Clients and Making More Money",
     "description": "Designers: I want to help you make more money.\n\nI’ve run a 7-figure ARR agency and do high 6-figures every year as an independent consultant, all working about 30 to 50 hours a week. I know a thing or two about making money, and I’d love to tell you everything.\n\nHere’s a recording of a big Zoom meeting I had with 245 friends talking about things like:\n\n• ​Difficulty finding clients\n• ​Knowing what to charge\n• ​Making the jump to freelance\n• ​Creating offers\n• ​Warm vs. cold outreach\n\n⏩ CHAPTERS\n00:00:00 - Introduction\n00:00:45 - Zoom meeting starts\n00:09:08 - How to Land a Million Dollar Project\n00:15:06 - Breaking into Freelancing\n00:21:21 - Exploring Multiple Income Streams\n00:27:58 - Assessing Your Fit for Freelancing\n00:33:37 - Pricing Your First Course Product\n00:39:03 - Expanding Beyond Your Network\n00:45:24 - What Tto Do When Your Client Contact Isn’t the Buyer\n00:54:33 - The Importance of Client Analytics\n01:04:34 - Evaluating How Effective A Lead Magnet Is\n01:11:13 - Role-Playing Selling Outcomes vs. Deliverables\n01:29:22 - Transitioning Into Freelance Illustration\n01:38:53 - Starting Solo vs. Team Launch\n01:44:08 - Valuing and Pricing Branding Projects\n\n🔗 LINKS\nGet my weekly newsletter: https://danmall.com/newsletter/\nFollow me on Twitter: https://twitter.com/danmall\nFollow me on Instagram: https://www.instagram.com/danmallteaches/\nConnect with me on LinkedIn: https://www.linkedin.com/in/danmall/\n\n#danmallteaches #freelancedesign #pricingstrategy",
     "thumbnails": {
@@ -1260,6 +1540,76 @@
     "videoUrl": "https://www.youtube.com/watch?v=4lZuS8cAFGg",
     "publishedAt": "2024-12-14T09:52:37Z",
     "duration": "0:53:34"
+  },
+  {
+    "title": "Supercharging Design Systems with Design and Systems Thinking",
+    "description": "Speakers: Ala Wiercińska, Archie MS, Justyna Kupracz\n\nSupercharging design systems involves blending Design Thinking and Systems Thinking for a holistic approach. While both methods emphasize problem-solving, Design Thinking zooms in on user experience, whereas Systems Thinking considers the broader context. By integrating both, teams can build robust design systems that are user-focused yet adaptable to organizational and systemic complexities.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ewTEbHENyLs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ewTEbHENyLs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ewTEbHENyLs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ewTEbHENyLs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ewTEbHENyLs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ewTEbHENyLs",
+    "publishedAt": "2024-12-10T18:31:09Z",
+    "privacyStatus": "public",
+    "duration": "0:54:34"
+  },
+  {
+    "title": "Starting Fresh: How to Efficiently Establish a Design System from Scratch",
+    "description": "Title: Starting Fresh: How to Efficiently Establish a Design System from Scratch\nSpeaker: Augustina Ao Liu\n\nIn this presentation, I will take you through the process of building a robust design system from the ground up, using my experience at one startup I worked in as a case study. We will explore the key steps to create a design system that not only ensures consistency across products but also offers the flexibility and scalability needed to grow with the organization. I'll also cover some tips and myths during this process. Whether you’re working in a small team or a large organization, this talk will provide actionable insights into creating a foundation that supports both present and future design needs.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rO2QtPqIQ5U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rO2QtPqIQ5U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rO2QtPqIQ5U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/rO2QtPqIQ5U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/rO2QtPqIQ5U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rO2QtPqIQ5U",
+    "publishedAt": "2024-12-10T16:41:24Z",
+    "privacyStatus": "public",
+    "duration": "0:44:34"
   },
   {
     "title": "Getting started with the zeroheight API",
@@ -1358,6 +1708,41 @@
     "duration": "0:28:34"
   },
   {
+    "title": "Pragma Conference 2024 - Designing APIs: How to ensure Accessibility in Design System - Feli Bernutz",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/tHYtjAXnQcI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/tHYtjAXnQcI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/tHYtjAXnQcI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/tHYtjAXnQcI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/tHYtjAXnQcI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=tHYtjAXnQcI",
+    "publishedAt": "2024-12-02T11:47:26Z",
+    "privacyStatus": "public",
+    "duration": "0:38:35"
+  },
+  {
     "title": "Building community for your design system: Why community and planning for success",
     "description": "When we’re building our design systems for success, we usually look at the components and processes as the answer to good adoption. However, building community around your design system has been proven to be an essential ingredient to scaling a design system.\n\nIn this panel discussion, we’ll cover off why community building is integral to success, some of the tactics you can use to start on your community-building efforts, and open it up to your questions for our esteemed panel.\n\nNOTES\nMythic Quest scene - https://www.youtube.com/watch?v=-ZzKs9HDaTc\nBlog post - We Don't Do That Here - https://thagomizer.com/blog/2017/09/29/we-don-t-do-that-here.html\nBlog Post - Make 2024 the year of Maximum Enthusiasm - https://semi-rad.com/2024/01/make-2024-the-year-of-maximum-enthusiasm/\n\nErin online - https://erin.bio\nNatalya on Bluesky - https://bsky.app/profile/natalyathree.bsky.social\nLuke on Bluesky - https://bsky.app/profile/lurkmoophy.bsky.social\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nBluesky: https://bsky.app/profile/zeroheight.com\nLinkedIn: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1428,6 +1813,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=5QueUORGHZ8",
     "publishedAt": "2024-11-22T12:29:26Z",
     "duration": "0:27:37"
+  },
+  {
+    "title": "QualityForge: Speaker #5: Adrián Bolonio - Design Systems and How to Use Them in an Accessible Way",
+    "description": "In this talk, Adrián Bolonio, Senior Accessibility Software Engineer at Miro, dives into how Design Systems can enhance accessibility in digital products. He shares key insights on integrating accessibility from the start, using flexible design tokens, and debunks the myth that accessibility is a simple checklist. Adrián’s advice will help you make your design system truly inclusive.\n\nQualityForge 2024, a virtual conference dedicated to digital accessibility, took place on October 10, bringing together a group of professionals committed to improving digital accessibility and inclusive design.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mJ6BRwjJR2s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mJ6BRwjJR2s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mJ6BRwjJR2s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/mJ6BRwjJR2s/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/mJ6BRwjJR2s/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=mJ6BRwjJR2s",
+    "publishedAt": "2024-11-19T16:32:30Z",
+    "privacyStatus": "public",
+    "duration": "0:31:10"
   },
   {
     "title": "Leverage SDK and CLI and Customize Your Own Exporters | Supernova 101",
@@ -1598,6 +2018,41 @@
     "duration": "0:02:26"
   },
   {
+    "title": "Information vs Experience: How to Build Mature Design Systems | Gustavo Teodoro",
+    "description": "Vancouver Javascript Meetup - Halloween Edition.\n\nProjecting and implementing a Design System can be challenging. One of the main questions is: How can we ensure that the Design System will positively impact the user experience? This talk proposes to answer this question through a reflection in dialogue with the ideas of a Doctor in Pedagogy about Information and Knowledge of Experience to achieve the next level of maturity for Design Systems.\n\nGustavo Teodoro is a Staff Front-End Engineer at Thinkific. Passionate about Design Systems, User Experience and Web Accessibility.\n\nVanJS discord: https://discord.gg/vx3rHVbY\nSubmit your talk idea: https://github.com/VanJS/meetup/blob/master/SPEAKING.md\n\nVancouver JS: https://www.vanjs.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/i8LwAsdvGds/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/i8LwAsdvGds/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/i8LwAsdvGds/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/i8LwAsdvGds/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/i8LwAsdvGds/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=i8LwAsdvGds",
+    "publishedAt": "2024-10-29T04:55:21Z",
+    "privacyStatus": "public",
+    "duration": "0:24:22"
+  },
+  {
     "title": "Meet the zeroheight Dashboard: A new way to keep track of everything in your design system",
     "description": "The zeroheight Dashboard allows you to easily pick up where you left off, see what your team's been up to, and determine how to improve your styleguide. \n\nThe Dashboard is available on all zeroheight plans, including zeroheight Free, so create an account and get started. \n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1646,6 +2101,251 @@
     "duration": "0:01:36"
   },
   {
+    "title": "Future of Design: Leveraging Design Systems & Brand to Automate Workflows [Phillip Maggs, Superside]",
+    "description": "What’s the future of design? After seeing creative technologist, Phillip Maggs, present at Figma’s Config conference, we had to interview him. We’ll discuss industry-disrupting design automations & how they will empower human decision making.\n\nIn episode 20 we answer the questions that have been worrying designers and products teams:\n➤ Which types of design will be automated\n➤ Design systems & brand guidelines as LLMs\n➤ How brands will use GenAI to augment specific workflows\n➤ Which skills, mindsets, expertise will protect your job\n➤ The best way to leverage GenAI as a force of good\n➤ The importance of becoming a creative technologist\n\nPhillip Maggs leads generative AI excellence—empowering Superside and its customers in harnessing potential of AI. Built, tested and developed Superside's AI service offerings with 500+ projects and counting, many of which are to augment the creative teams at the biggest brands in the world. He’s worked with Netflix, Google, IBM and Rolls Royce, plus is an award-winning strategic consultant and special effects company co-founder.\n\nFollow him on LinkedIn https://www.linkedin.com/in/philmaggs/ \n https://www.youtube.com/watch?v=C06uyfRzAYk\n  \n\nThank you for listening to the Design of AI podcast. We interview AI leaders and discuss the latest innovations. We help teams learn how to leverage AI to reshape their industries.\n\nIf you like learning about AI and how to grow your career, make sure to follow us on your fave podcasting app. It really helps us if you leave reviews.\n\nTo get more AI and career resources, subscribe on Substack: https://designofai.substack.com/ \n\nThis episode was hosted by:\nArpy Dragffy Guerrero (Founder & Head of product strategy, PH1 Research) \nhttps://www.linkedin.com/in/adragffy/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/iiSv1S1DxdA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/iiSv1S1DxdA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/iiSv1S1DxdA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/iiSv1S1DxdA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/iiSv1S1DxdA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iiSv1S1DxdA",
+    "publishedAt": "2024-10-23T15:36:24Z",
+    "privacyStatus": "public",
+    "duration": "1:01:59"
+  },
+  {
+    "title": "20. Future of Design: Leveraging Design Systems & Brand to Automate Workflows [Phillip Maggs, Sup...",
+    "description": "What’s the future of design? After seeing creative technologist, Phillip Maggs (https://www.linkedin.com/in/philmaggs/) , present at Figma’s Config conference (https://www.youtube.com/watch?v=C06uyfRzAYk) , we had to interview him. We’ll discuss industry-disrupting design automations & how they will empower human decision making.\n\n\n\nIn episode 20 we answer the questions that have been worrying designers and products teams:\n\n\n\n➤ Which types of design will be automated\n\n\n\n➤ Design systems & brand guidelines as LLMs\n\n\n\n➤ How brands will use GenAI to augment specific workflows\n\n\n\n➤ Which skills, mindsets, expertise will protect your job\n\n\n\n➤ The best way to leverage GenAI as a force of good\n\n\n\n➤ The importance of becoming a creative technologist\n\n\n\nPhillip Maggs leads generative AI excellence—empowering Superside (https://www.superside.com/)  and its customers in harnessing potential of AI. Built, tested and developed Superside's AI service offerings with 500+ projects and counting, many of which are to augment the creative teams at the biggest brands in the world. He’s worked with Netflix, Google, IBM and Rolls Royce, plus is an award-winning strategic consultant and special effects company co-founder.\n\n\n\nFollow him on LinkedIn https://www.linkedin.com/in/philmaggs/ \n\n\n\nWatch his Figma presentation https://www.youtube.com/watch?v=C06uyfRzAYk\n\n\n\n  \n\n\n\nThank you for listening to the Design of AI podcast. We interview AI leaders and discuss the latest innovations. We help teams learn how to leverage AI to reshape their industries.\n\n\n\nIf you like learning about AI and how to grow your career, make sure to follow us on your fave podcasting app. It really helps us if you leave reviews.\n\n\n\nTo get more AI and career resources, subscribe on Substack: https://designofai.substack.com/ \n\n\n\nThis episode was hosted by:\n\n\n\nArpy Dragffy Guerrero (Founder & Head of product strategy, PH1 Research) \n\n\n\nhttps://www.linkedin.com/in/adragffy/ ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZDiNZ1vjNbA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZDiNZ1vjNbA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZDiNZ1vjNbA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ZDiNZ1vjNbA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ZDiNZ1vjNbA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZDiNZ1vjNbA",
+    "publishedAt": "2024-10-23T15:00:25Z",
+    "privacyStatus": "public",
+    "duration": "1:01:59"
+  },
+  {
+    "title": "Closing keynote - Using the Design System to fight the climate emergency",
+    "description": "Ishmael Burdeau (DWP) explains why you should make your sustainability statement public, and how your service can make a difference to the environment.\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3CU__aQFeC0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3CU__aQFeC0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3CU__aQFeC0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3CU__aQFeC0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3CU__aQFeC0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3CU__aQFeC0",
+    "publishedAt": "2024-10-23T14:26:12Z",
+    "privacyStatus": "public",
+    "duration": "0:46:18"
+  },
+  {
+    "title": "Dual Narrative: Design systems in small versus large organisations",
+    "description": "Michael Palmer (BBC) talks about making product decisions on a design system going to tens of millions. Alessandra Balliana (GoBubble) talks about priorities for a small design system team.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0LsFjXnEZ4E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0LsFjXnEZ4E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0LsFjXnEZ4E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0LsFjXnEZ4E/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0LsFjXnEZ4E/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0LsFjXnEZ4E",
+    "publishedAt": "2024-10-22T13:20:26Z",
+    "privacyStatus": "public",
+    "duration": "0:44:43"
+  },
+  {
+    "title": "Design System Day 2024: Future of the GOV.UK Design System",
+    "description": "A show and tell from Trang Erskine, Charlotte Downs and Romaric Pascal exploring the history of the GOV.UK Design System, and its focus for the next few years.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_gSZJrqLnYY",
+    "publishedAt": "2024-10-21T15:35:45Z",
+    "privacyStatus": "public",
+    "duration": "0:50:24"
+  },
+  {
+    "title": "Design System Day 2024: Future of the GOV.UK Design System",
+    "description": "A show and tell from Trang Erskine, Charlotte Downs and Romaric Pascal exploring the history of the GOV.UK Design System, and its focus for the next few years.\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_gSZJrqLnYY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_gSZJrqLnYY",
+    "publishedAt": "2024-10-21T15:35:45Z",
+    "privacyStatus": "public",
+    "duration": "0:50:24"
+  },
+  {
+    "title": "ATypI 2024 Brisbane | Jason Pamental | Engines of Expression: Extending Design Systems With...",
+    "description": "Engines of Expression: Extending Design Systems With Editorial Flair\n\nModern design systems for the web and mobile applications have become very good at supporting their content—but that content is usually very narrowly focused and singular of purpose. Their typographic systems are optimized in a similar way: to support the presentation of any content in a consistent and easily understood manner.\n\nBut accommodating anything means optimizing nothing—leaving us with endless sameness across the digital landscape. Since the modern web is driven by dynamic content systems, we can embrace modern techniques in CSS (the style language for the web) and technologies like variable fonts to build greater flexibility into those content systems, enabling us to support any content while still customizing the typesetting for individual articles or pages.\n\nWe’ll look at examples showcasing how we can typeset headlines that scale with the screen, design promotional elements with flair, and even set variable axes for specific passages or headlines right in the browser during the content publishing process.\n\nGreat editorial design truly can make the leap from printed page to pixel screens—it just takes a great typeface, a good eye, and a little technical finesse.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RkItj5QR3pA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RkItj5QR3pA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RkItj5QR3pA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/RkItj5QR3pA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/RkItj5QR3pA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RkItj5QR3pA",
+    "publishedAt": "2024-10-18T13:14:22Z",
+    "privacyStatus": "public",
+    "duration": "0:34:17"
+  },
+  {
     "title": "Design Systems wtf #29: why isn't contribution the answer?",
     "description": "Contribution often seems like the perfect solution for scaling design systems, but is it really? We'll weigh the tough realities of managing contributions and why a federated system might not suit everyone. We'll explore the hurdles of contribution and how to decide if it's the right path for your team.\n\nA podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle:   https://x.com/soysaucechin  \nMeet Luke: https://x.com/lurkmoophy\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedin: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1692,6 +2392,76 @@
     "videoUrl": "https://www.youtube.com/watch?v=pyhBOeRdR30",
     "publishedAt": "2024-10-18T09:01:00Z",
     "duration": "0:04:23"
+  },
+  {
+    "title": "Design Systems: Choose your own adventure - Geri Reid - Design Systems Week 2024",
+    "description": "Join Geri, a seasoned design systems explorer with 8 years of adventures under her belt, as she navigates the uncharted territories of accessibility in a major product org. With no playbook in hand, Geri’s quest is one we can all relate to: figuring it out as we go along.\n\nIn this ‘choose your own adventure’ session, you’ll discover how the principles of design systems can illuminate a path through any new challenge. Come prepared to laugh, learn, and maybe even get a little lost as we embark on a journey of getting teams onboard with digital accessibility.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lAy-dOhw2bU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lAy-dOhw2bU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lAy-dOhw2bU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/lAy-dOhw2bU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/lAy-dOhw2bU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lAy-dOhw2bU",
+    "publishedAt": "2024-10-14T12:35:02Z",
+    "privacyStatus": "public",
+    "duration": "0:35:22"
+  },
+  {
+    "title": "FF meetup #3 - Design systems",
+    "description": "In this stream, Varya Stepanova and Irina Illustrova will present a design systems related talk under the topic of \"From Survival to Growth: Enhancing Design Systems via Seamless Collaboration\".\n\nDescription: This talk explores how effective collaboration can transform design systems from basic tools into vital products within organizations. Irina and Varya are sharing insights from their research and experience, and offer practical strategies for enhancing collaboration with stakeholders and across teams. They stress the importance of treating the design system as a product in its own right. The presentation is packed with real-world examples, practical advice, and innovative ideas.\n\nSlides: https://bridge-the-gap.dev/events/future-frontend-2024/\n\nHost: Big thanks to Fraktio for hosting and streaming!\nConference: Future Frontend 2025 takes place 27-28.5 at Espoo, Finland. You can find more information at https://futurefrontend.com/ .",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BDZNdt9IQM0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BDZNdt9IQM0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BDZNdt9IQM0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/BDZNdt9IQM0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/BDZNdt9IQM0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BDZNdt9IQM0",
+    "publishedAt": "2024-10-09T04:50:31Z",
+    "privacyStatus": "public",
+    "duration": "1:22:41"
   },
   {
     "title": "Approval Workflows | Supernova 101",
@@ -1945,6 +2715,41 @@
     "duration": "0:28:08"
   },
   {
+    "title": "How To Maintain a Design System - Best Practices for UI Designers - Amy Hupe - Design System Talk",
+    "description": "https://pixelpioneers.co​\n---\nHow To Maintain a Design System - Best Practices for UI Designers - Amy Hupe - Design System Talk\nOriginal Title: How Not to Kill Your Design System - Amy Hupe - Pixel Pioneers 2024\n---\nIn this Design System talk, Amy Hupe takes you through How To Maintain A Design System with the aim of providing UI designers the design system best practices to maintain an effective design system.\n\nDesign System Talk Abstract:\n\nDuring her eight years of working on design systems, Amy has learned a thing or two about what causes a design system to fail and how to maintain a design system. In this Design System talk, she shares the most common causes of a poor design system’s demise and provides tips on how to avoid them and how to maintain a design system.\n---\n\nSponsored by TetraLogical: https://tetralogical.com/\n---\n\nAmy Hupe \n\nAmy is a UK-based design systems and content design consultant. Over the past 8 years, she's worked on design systems for some of the biggest names around, including GOV.UK, BT, Springer Nature, Babylon Health and the Wellcome Trust.\n\nWhether she’s leading systems work or designing content, Amy works to champion simplicity and inclusion in the face of increasing complexity.\n---\n\nPixel Pioneers - 15th June 2025\nPixel Pioneers is an affordable community conference for front end developers & UI designers. The conferences focuses on actionable takeaways relating to design systems which can then be used by front end developers and UI designers in their work.\nAnnual Pixel Pioneers Conference - https://pixelpioneers.co\nhttps://www.linkedin.com/company/pixel-pioneers/\nhttps://x.com/pixelpioneers\nhttps://www.reddit.com/r/Pixel_Pioneers/\n---\n\nYouTube Videos Filmed, Edited & Optimised by Digital Medium: https://events.digital-medium.co.uk\n---\n\n#designsystems #designsystem #uxdesign #uidesign #webdesign",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/e_YCokRUfhA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/e_YCokRUfhA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/e_YCokRUfhA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/e_YCokRUfhA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/e_YCokRUfhA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=e_YCokRUfhA",
+    "publishedAt": "2024-08-18T14:00:06Z",
+    "privacyStatus": "public",
+    "duration": "0:40:35"
+  },
+  {
     "title": "design systems wtf #22: Has AI made everyone a designer? A spicy conversation with Pablo Stanley",
     "description": "A podcast from zeroheight. Let’s be honest, design systems are full of choice wtf moments. Michelle and Luke, two of our resident design advocates, are attempting to combat this with a new regular series, where they answer a single question about design system troubles every two weeks.\n\nMeet Michelle: https://twitter.com/soysaucechin\nMeet Pablo: https://x.com/pablostanley\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -2189,6 +2994,41 @@
     "duration": "0:54:39"
   },
   {
+    "title": "Config 2024: Design systems for XL displays (June Lee & Dale Sande, Alaska Airlines) | Figma",
+    "description": "Config 2024: Design systems for XL displays (June Lee & Dale Sande, Alaska Airlines)\n\nJoin June and Dale on a journey into design systems as they delve into the creation of a design system for XL digital displays. Alaska Airlines is currently enhancing the airport experience, including at the San Francisco International Airport. Their design system team, internal systems team, and marketing counterparts are pioneering digital signage designs that embody Alaska's brand. The mission? To craft a robust system that is flexible, scalable, and adaptable to a diverse range of screen sizes and devices.\n\nFeaturing: June Lee, Product Designer, Alaska Airlines & Dale Sande, Principal Engineer, Alaska Airlines",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SR1f4KicAJg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SR1f4KicAJg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SR1f4KicAJg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/SR1f4KicAJg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/SR1f4KicAJg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SR1f4KicAJg",
+    "publishedAt": "2024-07-10T20:44:30Z",
+    "privacyStatus": "public",
+    "duration": "0:20:08"
+  },
+  {
     "title": "Design Showcase: How To Use Your Website for Hiring",
     "description": "🎬 Discover how you can use your design system site as a powerful hiring tool. Stay tuned and listen to Design Systems WTF for valuable insights and improvements!",
     "thumbnails": {
@@ -2211,6 +3051,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=A1Kova4bxug",
     "publishedAt": "2024-07-10T14:04:55Z",
     "duration": "0:01:01"
+  },
+  {
+    "title": "Config 2024: Building an AI design system at scale (Phillip Maggs, Creative Director, Superside)",
+    "description": "Config 2024: Building an AI design system at scale (Phillip Maggs, Creative Director, Superside)\n\nIn this talk, Phillip will lift the hood on how Superside has built an AI design system at a scale that’s utterly unique, giving them the ability to handle massive volumes of design needs across critical marketing channels. Speaking primarily to designers, but with applications and interest areas for product managers, developers, and engineers, this session will give the audience the foundational components they need to build this type of system for themselves.\n\nFeaturing: Phillip Maggs, Creative Director, Superside",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/C06uyfRzAYk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/C06uyfRzAYk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/C06uyfRzAYk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/C06uyfRzAYk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/C06uyfRzAYk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=C06uyfRzAYk",
+    "publishedAt": "2024-07-05T21:48:51Z",
+    "privacyStatus": "public",
+    "duration": "0:22:04"
   },
   {
     "title": "zeroheight x Storybook: Design system workflow tips",
@@ -2331,6 +3206,41 @@
     "duration": "0:24:49"
   },
   {
+    "title": "Config 2024: Design systems best practices | Figma",
+    "description": "Config 2024: Design systems best practices\n\nTake a dive into all things design systems— from establishing solid foundations like library structure and variables, to tips and best practices to optimize your system for growth and adoption.\nAna, Chad, and Alexia will share their collective insights from working with design systems firsthand and helping thousands of teams set up their libraries for success.\n\nFeaturing: Ana Boyer, Designer Advocate, Figma & Alexia Danton, Designer Advocate, Figma & Chad Bergman, Designer Advocate, Figma,",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MJTCfSFLUGE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MJTCfSFLUGE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MJTCfSFLUGE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/MJTCfSFLUGE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/MJTCfSFLUGE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=MJTCfSFLUGE",
+    "publishedAt": "2024-06-30T04:39:23Z",
+    "privacyStatus": "public",
+    "duration": "0:48:39"
+  },
+  {
     "title": "Config 2024: How we redesigned Figma  (KC Oh, Ryhan Hassan, & Joel Miller, Figma) | Figma",
     "description": "Config 2024: How we redesigned Figma (KC Oh, Ryhan Hassan, & Joel Miller, Figma)\n\nAn in-depth look at a redesigned Figma—learn more about how the Figma team approached overhauling the design of the editor, from the overarching IA, to a brand new look and feel, to a create more approachable and immersive editing experience.\n\nFeaturing: KC Oh, Product Manager, Figma & Ryhan Hassan, Product Designer, Figma & Joel Miller, Product Designer, Figma",
     "thumbnails": {
@@ -2364,6 +3274,36 @@
     "publishedAt": "2024-06-27T15:49:40Z",
     "privacyStatus": "public",
     "duration": "0:23:43"
+  },
+  {
+    "title": "Olga Skurativska: Design Systems in Practice - From Sketch to Production // #FrontZurich 2021",
+    "description": "🇨🇭 #FRONTZURICH 🔗 https://frontconference.com/tickets\n🎟️ Secure your place and join us in person or online.\n\n👩🏻‍💻 Design Systems in Practice - From Sketch to Production\nUX designers dream up elegant design systems, but it's engineers that create the end product. What tools, artefacts, practices and processes do you need to keep shipping consistent user experience? What challenges await the organisations introducing design systems for the first time? Here is a story of how good engineering practices changed the way products are designed and built at Homegate.\n\n=====\nAbout Olga Skurativska\n🔗 https://twitter.com/@_olko\n🔗 https://friday-frontend-buffet.com\n\nAs a Principal Frontend Engineer at Homegate, Olga works with multiple teams helping them develop impressive skillsets and deliver killer products. Front end or back end, accessibility or performance, testing or writing quality code - she insists on doing it all and doing it well.\n\nA firm believer in sharing knowledge she helps drive Web Zurich and Vue Zurich communities, occasionally creates training materials and collects delicious crumbs of web development wisdom for her Friday Frontend Buffet project.\n\nCurrently on a mission to prove that great products and great developer experience are not mutually exclusive.\n\n=====\nAbout Front Conference Zurich: Where design meets technology.\n\n🔗 https://twitter.com/frontzurich\n🔗 https://www.instagram.com/frontzurich/\n🔗 https://www.facebook.com/frontzurich\n🔗 https://www.linkedin.com/company/frontzurich/\n🔗 https://mastodon.social/@front\n🔗 https://www.tiktok.com/@frontzurich\n\nDesigners and developers share a common mission - to create amazing experiences. But it's not always easy for these two tribes to communicate. To bridge the gap between design and technology, we created the Front Conference in 2011.\n\nTo create great digital products, we rely on each other: designers on developers and developers on designers. That's why we came up with the idea of a conference for everyone involved in the design and implementation of a front end.\n\nBy staying at the forefront of both design and technology, we've grown to become the largest web conference in Switzerland. Our interests have broadened to reflect the increasing maturity of the industry. We now cover management topics such as design leadership, tech governance and UX strategy.\n\nOur attendees range from juniors to managers, and we attract key speakers to come to Zurich and share their knowledge in talks and workshops. \n\nThe conference has become a place to learn and network, and we have many loyal professionals who come back every year.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/i8-h0FPtH9o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/i8-h0FPtH9o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/i8-h0FPtH9o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/i8-h0FPtH9o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=i8-h0FPtH9o",
+    "publishedAt": "2024-06-27T12:00:54Z",
+    "privacyStatus": "public",
+    "duration": "0:33:42"
   },
   {
     "title": "Document Your Component Library with Checklists and Health Status | Supernova 101",
@@ -2582,6 +3522,41 @@
     "duration": "0:58:17"
   },
   {
+    "title": "Kathleen McMahon - Design Systems Carnival! One accessible component, many pretty masks",
+    "description": "Design System components are like Venetian Carnival guests. Enter the disclosure widget, wearing many masks, elevating the Carnival to luxury status. Or are they? What happens when those masks get mixed? In this talk, learn how to create an accessible disclosure widget and save your Carnival from chaos.\n\nKathleen McMahon\nhttps://www.kathleenmcmahon.dev/\n\n\nConfrontJS 2024 - #Frontend #Conference in #Warsaw, Poland\nDate: 12 April 2024\nVenue: BEC Poland, Warsaw\n\nConfrontJS is a conference that focuses on JavaScript\nused in Front-end development held once a year. The\ntarget participants are mid-level and advanced\nJavaScript programmers.\n\n▶︎ Homepage: https://confrontjs.pl/\n▶︎ Social Media: http://linktr.ee/ConfrontJS\n\n\nSponsors:\n➛ BEC Poland — https://www.bec.dk/poland/\n➛ Callstack — https://www.callstack.com/\n➛ Campus.ai — https://campusai.pl/\n➛ Monday.com — https://monday.com/\n➛ OLX — https://www.olx.pl/\n➛ Socket — https://socketsupply.co/\n➛ Xfaang — https://xfaang.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ypwd3WY5buk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ypwd3WY5buk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ypwd3WY5buk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ypwd3WY5buk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ypwd3WY5buk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ypwd3WY5buk",
+    "publishedAt": "2024-06-13T19:00:07Z",
+    "privacyStatus": "public",
+    "duration": "0:29:48"
+  },
+  {
     "title": "Enhancing Collaboration Between Designers & Developers by Shaun Teles",
     "description": "In this presentation, Shaun discusses how to improve collaboration between product designers and developers with design systems.\n\nFollow along his talk here: https://bit.ly/3z0J5rr\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -2735,6 +3710,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=kClNlllrTCU",
     "publishedAt": "2024-06-04T14:34:21Z",
     "duration": "0:57:17"
+  },
+  {
+    "title": "“(In)accessible design systems: Doing things wrong to get it right“ - Wendy Fox - uxcon vienna 2023",
+    "description": "Creating effective design systems is a challenge, and making them accessible adds another layer of complexity. In this talk, we will explore the obstacles and opportunities of building inclusive design systems that thrive. Drawing on our experience creating the Chameleon Design System at GoTo, we will examine the typical stages companies go through when embracing inclusive design and share examples of past failures and lessons learned. By the end of the talk, attendees will have gained insights into how to avoid common pitfalls and create successful, accessible design systems that prioritize empathy and passion over perfectionism. \n\nJoin Wendy on this journey towards more inclusive and effective design! \n\n____________\n\nABOUT THE SPEAKER\n\nDriven by a strong interest in communication and human connection, Wendy holds a PhD in Applied Linguistics and is a certified Communication Designer (Diplom). As she enjoys sharing her experience and knowledge, she has given a variety of talks and workshops on accessibility, design, eye-tracking research, and creative subtitling. When she isn’t pushing for user-centered design and systematic problem-solving, she can usually be found climbing at boulder gyms or all across Europe’s beautiful mountain ranges.  \n\n____________\n\nMore about Europe's friendliest conference for UX Research & Design: uxcon.io",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qdOmXXt4Pdk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qdOmXXt4Pdk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qdOmXXt4Pdk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qdOmXXt4Pdk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qdOmXXt4Pdk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qdOmXXt4Pdk",
+    "publishedAt": "2024-06-03T14:53:57Z",
+    "privacyStatus": "public",
+    "duration": "1:02:27"
   },
   {
     "title": "Where Design Systems Sit: A Design System Office Hours Special Episode! 🚀",
@@ -19761,6 +20771,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=H6E6W3wueNA",
     "publishedAt": "2018-12-17T15:12:34Z",
     "duration": "0:01:34"
+  },
+  {
+    "title": "Secrets to a Successful Design System - Monica Lent",
+    "description": "Talk recording from React Day Berlin Conference 2018 https://reactday.berlin\n\nInconsistent UI is the enemy of developers and designers alike. And while design systems are a modern and scalable way to solve this challenge, implementing one is not as straightforward as it might seem: from getting buy-in from management to picking your tech stack, rolling it out, and releasing changes to multiple apps — there are a lot of things that can go wrong. In this talk, you'll learn how to pitch a design system to your boss, rarely discussed technical caveats and challenges, and how to set your design system up for success from the start.\n\nMonica Lent\nMonica is leading the Web Team at SumUp and is based here in Berlin. Her team is building the web experience that helps hundreds of thousands of small businesses around the world get started accepting card payments and growing their businesses.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/88TOxfKzkHw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/88TOxfKzkHw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/88TOxfKzkHw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/88TOxfKzkHw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/88TOxfKzkHw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=88TOxfKzkHw",
+    "publishedAt": "2018-12-17T09:13:01Z",
+    "privacyStatus": "public",
+    "duration": "0:25:10"
   },
   {
     "title": "Design System APIs and the Developer Experience - Diana Mounter - Design Systems London",
