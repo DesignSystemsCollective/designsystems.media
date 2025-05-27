@@ -70,6 +70,41 @@
     "duration": "0:14:14"
   },
   {
+    "title": "Config London 2025: Building color palettes for the modern web with Dan Hollick",
+    "description": "Config London 2025: Figma's conference for people who build products\n\nAn inside look at modernizing Tailwind CSS's color palettes for wide-gamut displays, and the tools built to make it happen.\n\n____________________________________________________\n\nFind us on ⬇️\nX (formerly Twitter): https://x.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nTikTok: https://tiktok.com/@figma\nFigma forum: https://forum.figma.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/05vQ8HlU43Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/05vQ8HlU43Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/05vQ8HlU43Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/05vQ8HlU43Q/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/05vQ8HlU43Q/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=05vQ8HlU43Q",
+    "publishedAt": "2025-05-21T16:46:21Z",
+    "privacyStatus": "public",
+    "duration": "0:16:08"
+  },
+  {
     "title": "Deep Dive into Uber’s Design Systems",
     "description": "Welcome to Deep Dive with Jay, a series where we will look inside the Figma files of top designers. In this interview Jay chats with Ian who leads design systems for Uber. You will learn how Ian creates new design system components, specs components for developer handoff and more.\n\nConnect with Ian:\nLinkedIn: https://www.linkedin.com/in/iguisard/\n\nConnect with Jay:\nX: https://x.com/jayneildalal\nLinkedIn: https://www.linkedin.com/in/jayneil/\nYouTube: www.youtube.com/@sneakpeekdesign\n\nTimestamps\n\n01:35 Guest intro\n02:07 How big is the Uber Design System?\n03:44 Using component specific variables in Figma\n05:37 How to organize variables in Figma\n08:04 Changing screen density using Figma variables\n11:05 Benefits of reducing design system components\n14:29 Deprecating design system components\n18:52 Creating component specs for engineering\n21:06 Design explorations for creating a component\n26:32 Component documentation for engineers\n34:45 Change log for design system updates\n35:44 Creating new components for Uber Design System\n40;41 When to break design system rules?\n44:53 How to use Figma Dev Mode annotations?\n____________________________________________________\n\nFind us on ⬇️\nX (formerly Twitter): https://x.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nTikTok: https://tiktok.com/@figma\nFigma forum: https://forum.figma.com/",
     "thumbnails": {
@@ -597,6 +632,41 @@
     "publishedAt": "2025-03-27T12:52:42Z",
     "privacyStatus": "public",
     "duration": "0:47:44"
+  },
+  {
+    "title": "How Thomson Reuters builds design systems with Guy Segal",
+    "description": "Guy Segal is a design leader with over 25 years of experience in the tech industry. He specializes in UX, product design, and DesignOps. He is the Director of Design + Design Systems at Thomson Reuters.\n\nLeveraging his passion for design leadership and people management, Guy has a proven track record of fostering innovation and collaboration within design teams, establishing and nurturing design practices, and leading teams to success.\n\nGuy’s expertise extends to various domains, including product, UX, and service design, as well as a strong web and UI development background.\nIn recent years, Guy has focused extensively on designing systems, establishing and growing teams around the practice, and launching systems that optimize efficiency and enhance user experiences.\n\n🌍 Official Website: https://thedesignsystem.guide/interview-guy-segal\n🔗 Linkedin: https://www.linkedin.com/in/guysegal/\n\n🟢 About Thomson Reuters\nEmployees: 25K+\n\nThomson Reuters is a global information and news services company formed in 2008 through the merger of Thomson Corporation and Reuters Group. It is headquartered in Toronto and provides professional information services across legal (Westlaw), tax and accounting, news (Reuters), and corporate compliance sectors. The company operates in over 100 countries on a subscription-based model. It has been transforming from traditional publishing to a technology-driven information provider with increasing investments in AI and digital solutions.\n\n🔥 Takeaways\n\n* Thomson Reuters is a global company with diverse applications.\n* Saffron was developed to unify various design systems.\n* Who are the design system ambassadors \n* Design is 90% communication.\n* Prioritizing user needs\n* Adoption strategies\n* Training and documentation \n* The future of design systems \n* Managing expectations with design systems\n* Commitment to Accessibility\n* Measuring success and adoption\n\n💎 Tools and useful resources mentioned\n* Figma\n* Design tokens\n* Surveys\n* Front-end code scanning\n\n💎 My weekly design system newsletter: https://learn.thedesignsystem.guide/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PpmCcNNuGL0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PpmCcNNuGL0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PpmCcNNuGL0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/PpmCcNNuGL0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/PpmCcNNuGL0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PpmCcNNuGL0",
+    "publishedAt": "2025-03-26T06:30:06Z",
+    "privacyStatus": "public",
+    "duration": "0:52:53"
   },
   {
     "title": "Design System & Code Prototyping: Bridging UX Research and Engineering",
@@ -1352,6 +1422,41 @@
     "duration": "0:55:19"
   },
   {
+    "title": "Inspect & Reflect: Adobe's Spectrum Design System",
+    "description": "In this session, we dive into Adobe’s design system, exploring how various components like alert banners and search fields are implemented across Adobe’s products.\n\nOur fantastic speakers shared their expertise:\n🌟 Donnie D’Amato – Founder, Chief Architect at Design System House\nhttps://www.linkedin.com/in/fauxserious/\n🌟 Guy Segal – Director, Design + Design System at Thomson Reuters\nhttps://www.linkedin.com/in/guysegal/\n🌟  Marta Conde – Senior Design System Specialist at SoSafe\nhttps://www.linkedin.com/in/martacondedesign/\n🌟  Francis Thibault – Design Systems Specialist\nhttps://www.linkedin.com/in/francisthibault/\n\nWhat’s Inside:\nWe explored key Adobe design system components and best practices:\n→ Implementing alert banners and search fields across products.\n→ Managing component naming conventions and maintaining consistency.\n→ Leveraging AI to improve documentation and automate workflows.\n→ Ensuring accessibility and addressing bias in design patterns.\n→ Utilizing design tokens to enhance cross-product standardization.\n\nExplore the Full Session:\n\n00:00 Introduction and Opening Remarks\n00:29 Meet the Panelists\n02:20 Session Overview: Inspect & Reflect\n02:31 Educational Purpose and Approach\n02:40 Upcoming Sessions and Participation\n02:53 Exploring Adobe’s Alert Banners\n04:35 Analyzing Code and Accessibility\n05:50 Component Naming Conventions\n09:19 Toast vs. Alert: Semantic Differences\n12:59 Managing Design Systems in Large Organizations\n13:52 Communicating Design Intentions\n16:50 Naming and Structuring Components\n19:00 Challenges and Best Practices\n20:38 AI for Naming Conventions\n21:06 Bias in Design Patterns\n22:06 Recap and Naming Conventions\n23:02 Questions and Notes\n23:22 Challenges in Naming Conventions\n23:44 Accessibility in Design\n24:19 Adobe Spectrum Documentation\n25:42 Implementing Checklists in Design Systems\n26:46 Documentation Coverage\n27:25 Checklist Transparency\n32:40 Search Components Overview\n33:18 Search Field Components\n36:08 Visual Inspection of Search Bars\n38:23 React Spectrum and Design Tokens\n39:32 Session Conclusion\n\nUpcoming Session: Nord Design System Inspect & Reflect\nRegister here: https://infa.ai/events/nord_20250220\n\nHave you faced similar challenges with design system adoption, component consistency, or accessibility? Let’s discuss in the comments!\n\n#DesignSystems #InspectAndReflect #AdobeDesignSystem #UX #DesignOps #Accessibility #SpectrumDesignSystem #InfaAI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/q6ARBhKVqzY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/q6ARBhKVqzY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/q6ARBhKVqzY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/q6ARBhKVqzY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/q6ARBhKVqzY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=q6ARBhKVqzY",
+    "publishedAt": "2025-02-07T06:35:50Z",
+    "privacyStatus": "public",
+    "duration": "0:40:21"
+  },
+  {
     "title": "The Question: for Curious Design System People, Season 01, Episode 001 with Michelle Walton",
     "description": "Episode 001 of Season 01 is sponsored by zeroheight and Sparkbox.\n\n--\nzeroheight offers end-to-end design system management for teams of all sizes. Launch documentation, deliver platform-ready code, measure your impact, and more.\n\nGet a free 90 day trial with the promo code: QUESTION\nhttps://bit.ly/4jKT5Yt\n\n--\nSparkbox can help you holistically evolve your design system with a team of UX, design, development, and product expertise. \n\nTake the design system maturity assessment to see what stage you're in.\nhttps://bit.ly/3Q7V1N2\n\n--\nIn this episode of The Question, we dive into the differences between product design and systems design. If you work on design systems or digital products of any kind, the distinction between these roles is critical to understand. Unfortunately,  many organizations are leaving this distinction to chance. Michell and I facilitate a deep dive into the nuances between the roles and the ways we can begin to recognize the differences to lead to higher quality digital products.\n\n--\nIf you'd like an outside perspective on your design system, I offer virtual design system coaching for individuals and teams. Reach out to schedule a conversation.\nhttps://bit.ly/40kaDmO\n\n--\nThanks to my co host, Michelle Walton, for helping facilitate!\nConnect with Michelle: https://bit.ly/3V2nQgW\n\nRead the wrap up: https://bit.ly/48y6CwD\nSee the FigJam: https://bit.ly/3siKoPy\nSee the raw data: https://bit.ly/48LPweh\nJoin The Question: https://bit.ly/3WLJNBS",
     "thumbnails": {
@@ -1562,6 +1667,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=_vkbzGzWxzY",
     "publishedAt": "2024-12-20T10:20:32Z",
     "duration": "0:26:07"
+  },
+  {
+    "title": "ED Toronto 2024: Guy Segal - Scaling Design System Adoption Through Human-Centered Principles",
+    "description": "Guy Segal - Scaling Design System Adoption Through Human-Centered Principles",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YWAzZfF-dj4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YWAzZfF-dj4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YWAzZfF-dj4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/YWAzZfF-dj4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/YWAzZfF-dj4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YWAzZfF-dj4",
+    "publishedAt": "2024-12-19T19:51:05Z",
+    "privacyStatus": "public",
+    "duration": "0:22:45"
   },
   {
     "title": "Wise words I overheard",
@@ -2975,6 +3115,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=5RsDV8ZVOqw",
     "publishedAt": "2024-08-21T12:20:43Z",
     "duration": "0:28:08"
+  },
+  {
+    "title": "116. Designed for success: How Guy Segal Built a Design System that Product Teams Want to Use.",
+    "description": "Send us feedback or episode suggestions. (https://www.buzzsprout.com/twilio/text_messages/887923/open_sms) \n\n\nIn this episode of The Design Systems Podcast, Chris Strahl welcomes Guy Segal, the director of digital ecosystem and design systems at Thomson Reuters. Guy shares his experience of building a design system that serves over 150+ brands and the importance of having a point of view when you are working to bring both quality and consistency to a large portfolio of products. From design system missionaries to trojan horses to carrots and sticks, Guy and Chris talk about how to gain the buy-in you need to build a design system product teams will want to use.\n\n\nView the transcript (https://docs.google.com/document/d/1v3BLAmWkkMdhJQK3syrBcS6CU_tqsgyouAJDItJgRd4/edit?usp=sharing)  of this episode.\n\n\nCheck out our upcoming events (https://www.knapsack.cloud/events) .\n\n\n\n\n\nGuest\n\n\nGuy Segal (https://www.linkedin.com/in/guysegal/)  is a design leader with over 25 years of experience in the tech industry, specializing in UX, product design, and DesignOps. Leveraging his passion for design leadership and people management, he has a proven track record of fostering innovation and collaboration within design teams, establishing and nurturing design practices, and leading teams to success. Guy's expertise extends to various domains, including product, UX, and service design, as well as a strong background in web and UI development. In recent years, he has been focusing extensively on design systems, establishing and growing teams around the practice, and launching systems that optimize efficiency and enhance user experiences. Beyond his professional endeavors, Guy is an avid enthusiast of board games, food, and movies, welcoming conversations on diverse topics that extend beyond the realm of design.\n\n\nGuy’s Design Downtime podcast: http://designdowntime.com/\n\n\n\n\nHost\nChris Strahl is co-founder and CEO of Knapsack (https://www.knapsack.cloud/) , host of @TheDSPod (https://twitter.com/thedspod) , DnD DM, and occasional river guide. You can find Chris on Twitter as @chrisstrahl (https://twitter.com/chrisstrahl)  and on LinkedIn (https://www.linkedin.com/in/chrisstrahl/) .\n\nSponsor\nSponsored by Knapsack, the design system platform that brings teams together. Learn more at knapsack.cloud (https://www.knapsack.cloud/?utm_source=podcast) .",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QX3YjtuB_hQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QX3YjtuB_hQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QX3YjtuB_hQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/QX3YjtuB_hQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/QX3YjtuB_hQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QX3YjtuB_hQ",
+    "publishedAt": "2024-08-20T15:00:20Z",
+    "privacyStatus": "public",
+    "duration": "0:30:32"
   },
   {
     "title": "How To Maintain a Design System - Best Practices for UI Designers - Amy Hupe - Design System Talk",
