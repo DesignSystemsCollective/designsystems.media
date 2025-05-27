@@ -704,6 +704,41 @@
     "duration": "0:28:55"
   },
   {
+    "title": "UnConference: Design System Value Gap",
+    "description": "The design system space is at an inflection point. Almost every client we speak with has already tried to build a DS (or three), and we’re regularly hearing from these folks that they aren’t getting the value they had hoped for from these past attempts.\n\nSo how do we close the gap on design system value?",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ulA_tpeLhKk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ulA_tpeLhKk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ulA_tpeLhKk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ulA_tpeLhKk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ulA_tpeLhKk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ulA_tpeLhKk",
+    "publishedAt": "2025-03-14T15:10:30Z",
+    "privacyStatus": "public",
+    "duration": "1:03:04"
+  },
+  {
     "title": "Integrating Figma frames seamlessly into your documentation | Supernova 101",
     "description": "In this episode of Supernova 101, we’ll show you how to seamlessly integrate Figma frames into your documentation and keep them automatically updated. No more outdated screenshots—learn how to embed live Figma images that stay in sync with your latest designs.\n\n💡 Chapters:\n00:00 Introduction\n00:13 How to add Figma frames to your documentation\n01:23 Conclusion\n\n🔗 Learn more about this feature 👉 https://bit.ly/4ipqVRr\n\nWith Supernova’s Figma integration, you can ensure your documentation always reflects the most current design—effortlessly. Try it out today! 🚀\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -2060,6 +2095,181 @@
     "duration": "0:31:10"
   },
   {
+    "title": "UnConference: Design System Foundations",
+    "description": "Building a design system that can grow and change with your company is a big undertaking. Focusing on three key areas—communication, processes, and organization—will set up your organization for success now and in the future. Chris will show you how to create that solid foundation, whether you're starting fresh or have already started.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gUGB2b_-tYg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gUGB2b_-tYg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gUGB2b_-tYg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/gUGB2b_-tYg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/gUGB2b_-tYg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gUGB2b_-tYg",
+    "publishedAt": "2024-11-18T13:02:09Z",
+    "privacyStatus": "public",
+    "duration": "0:15:41"
+  },
+  {
+    "title": "UnConference: Unified Terminology",
+    "description": "How can you make progress together if you’re not all speaking the same language? Tools like Figma can help, but there’s still work to do with stakeholders and users. Angelica talks the importance of terminology and naming conventions in design systems, also touching on consistent file structure and documentation.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RSYe17W6Mgc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RSYe17W6Mgc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RSYe17W6Mgc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/RSYe17W6Mgc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/RSYe17W6Mgc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RSYe17W6Mgc",
+    "publishedAt": "2024-11-18T13:01:22Z",
+    "privacyStatus": "public",
+    "duration": "0:09:11"
+  },
+  {
+    "title": "Time to rethink design systems",
+    "description": "The pendulum has swung too far with design systems. Somehow they’ve become synonymous with scale. But I believe they’re the perfect first step for startups. So this episode looks at stories from Perplexity and Cron to reframe design systems as the key to speed in the early days.\n\nHenry Modisett (Head of Design at Perplexity):  https://www.dive.club/deep-dives/henry-modisett\n\nRaphael Schaad (founder of Cron / Notion Calendar): https://www.dive.club/deep-dives/raphael-schaad\n\nBrad Frost (author of Atomic Design): https://www.dive.club/deep-dives/brad-frost\n\nMolly Hellmuth (Creator of UI Prep): https://www.dive.club/deep-dives/molly-hellmuth\n\nDive is where the best designers never stop learning 🤿\n\n🌐 dive.club\n🐦 twitter.com/joindiveclub\n\nNow you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪\n\n#designsystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/F7yTiO8mUBk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/F7yTiO8mUBk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/F7yTiO8mUBk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/F7yTiO8mUBk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/F7yTiO8mUBk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=F7yTiO8mUBk",
+    "publishedAt": "2024-11-18T13:00:18Z",
+    "privacyStatus": "public",
+    "duration": "0:08:37"
+  },
+  {
+    "title": "UnConference: The UX of Design Systems",
+    "description": "Design systems are quickly becoming the standard for complex websites and tool development. As with any digital product, it’s critical to keep users at the forefront of your mind. Leah shared a keynote presentation on how to take a people-first approach to your design system.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/kiSOQzbBPYk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/kiSOQzbBPYk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/kiSOQzbBPYk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/kiSOQzbBPYk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/kiSOQzbBPYk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=kiSOQzbBPYk",
+    "publishedAt": "2024-11-18T12:58:47Z",
+    "privacyStatus": "public",
+    "duration": "0:29:07"
+  },
+  {
+    "title": "UnConference: Focusing on the Users of a System",
+    "description": "A design system is usually not intended for the people who built it. A system is created to serve the people who use it. Merani will talk with us about how to engage with subscribers throughout the development of your system. We’ll look at some tooling and real-life examples of how to keep users at the forefront.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rqXfqiQnBEU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rqXfqiQnBEU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rqXfqiQnBEU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/rqXfqiQnBEU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/rqXfqiQnBEU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=rqXfqiQnBEU",
+    "publishedAt": "2024-11-16T17:39:05Z",
+    "privacyStatus": "public",
+    "duration": "0:13:02"
+  },
+  {
     "title": "Leverage SDK and CLI and Customize Your Own Exporters | Supernova 101",
     "description": "In this episode, we explore how Supernova’s SDK and CLI tools can help you keep your designs and code perfectly in sync across all platforms. Learn about the power of exporters in automating design-to-code workflows and how you can customize them to fit your specific tech stack.\n\nSupernova Developer Documentation 👉 https://developers.supernova.io/\n\n00:00 Intro\n00:16 Customizing Exporters With Supernova SDK\n01:02 Supernova CLI: Automating Code Delivery\n01:29 Supernova Developer Documentation\n01:34 Outro\n\nSupernova helps you build, mature, and scale your design system with ease. From powerful documentation to efficient design data management, it’s the ideal end-to-end platform that grows with your design system.\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -2130,6 +2340,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=nUDmLshqqcU",
     "publishedAt": "2024-11-12T16:17:34Z",
     "duration": "0:01:37"
+  },
+  {
+    "title": "122. Creating Cohesion from Chaos: The Role of Language and System Design with Ben Callahan",
+    "description": "Send us feedback or episode suggestions. (https://www.buzzsprout.com/twilio/text_messages/887923/open_sms) \n\n\nLanguage shapes the way we think and structure the world we build. On this episode of The Design Systems Podcast, Chris Strahl sits down with Ben Callahan, co-founder of Sparkbox, to explore the critical role of language and communication in team dynamics, problem-solving, and system structures. Ben shares insights on how linguistic choices shape product creation and drive organization-wide cohesion. He argues that while common ground is essential, design systems should balance order with controlled \"quenched disorder\" to foster innovation, using flexible, layered structures that adapt to unique team needs and create scalable, culturally embedded solutions. Listen to the full episode to gain a deeper understanding of the intricate relationship between language, design systems, and organizational culture, as well as practical insights on fostering system adoption and cross-team collaboration.\n\nView the transcript (https://docs.google.com/document/d/1XW9KzRBwsf82UPw-wze5TPE1PY_ww_iyuRYQDfF2jMk/edit?tab=t.0#heading=h.m7y63er2g4ty)  of this episode.\n\n\nCheck out our upcoming events (https://www.knapsack.cloud/events) .\n\n\n\nGuest\nBen Callahan (https://bencallahan.com/)  is a developer, designer, and founder of Sparkbox (https://sparkbox.com/) , known for his engaging presentations, workshops, and his interactive series The Question (https://us9.list-manage.com/survey?u=0f766efbf71b1e45af76b770b&id=eb63354558&attribution=false) . With a passion for sharing knowledge, Ben uses his journey to inspire others, bridging the gap between technical insights and the human challenges within design and development.\n\n\nHost\nChris Strahl is co-founder and CEO of Knapsack (https://www.knapsack.cloud/) , host of @TheDSPod (https://twitter.com/thedspod) , DnD DM, and occasional river guide. You can find Chris on Twitter as @chrisstrahl (https://twitter.com/chrisstrahl)  and on LinkedIn (https://www.linkedin.com/in/chrisstrahl/) .\n\nSponsor\nSponsored by Knapsack, the design system platform that brings teams together. Learn more at knapsack.cloud (https://www.knapsack.cloud/?utm_source=podcast) .",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/u3Bfpc4yKoE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/u3Bfpc4yKoE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/u3Bfpc4yKoE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/u3Bfpc4yKoE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/u3Bfpc4yKoE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=u3Bfpc4yKoE",
+    "publishedAt": "2024-11-12T15:49:24Z",
+    "privacyStatus": "public",
+    "duration": "0:44:38"
   },
   {
     "title": "Design Systems WTF: Live podcast (Converge 2024)",
@@ -2960,6 +3205,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=a0W2yRHUtbk",
     "publishedAt": "2024-09-11T12:02:29Z",
     "duration": "0:25:52"
+  },
+  {
+    "title": "Understanding the Impact of Well-Built Design Systems with Ben Callahan  - S4, Ep. 8",
+    "description": "In this episode, we are joined by Ben Callahan, founder of Sparkbox and a leading figure in UX strategy with over 13 years of experience. Ben's expertise in creating impactful user experiences and fostering collaboration has earned him great respect in the design community. As a speaker, author, and design system coach, he continues to drive industry innovation. \n\nDiscussion Points : \n\n~ Can you walk us through your career journey and share some insights? 1:29\n~ How do you go about educating others on the benefits of a design system? 5:05\n~ How do you recommend implementing a design system? Is an independent code base, a Figma file, or a tool that hosts the design system the best approach? 8:11\n~ Rapid fire round 13:58\n~ Can you share your journey from your early experiences and childhood to your current role at Sparkbox, and how these experiences have shaped your career? 18:09\n~ How do you convince engineering teams to invest in design systems, given that many see it as just a design responsibility? 24:29\n\nShow notes\n\n~ I quickly fell in love with design and user experience. I kind of left that role and jumped out on my own to explore that opportunity a little bit more.\n~ We spend a lot of time with them thinking about education, helping everybody inside the organization understand what a system is, why it's important, and what it means for them.\n~ We've done some interesting studies to show, just from an efficiency standpoint, how much of an impact a system can have when it's built well and is being used. The numbers are quite staggering.\n~ I think of design systems not as a product, but as a program that has to exist inside an organization. When they're done well, they really become the way we build digital interfaces.\n~ Two-thirds of the effort is in writing really good documentation and training people to understand that's where they go to get the answers they need.\n~ I've got so many insights from people who are out there in the trenches doing this work on a daily basis. If you have questions or ideas on how this work can be done, or if you just need a community of people who can help support you through difficult times, that's really what this is becoming.\n\nLinks:\nLinkedIn: https://www.linkedin.com/in/bencallahan/ \nCompany’s Website: https://sparkbox.com/\nPersonal Website: https://bencallahan.com/\nThe Question: https://bencallahan.com/the-question -",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7diK4capi7A/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7diK4capi7A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7diK4capi7A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/7diK4capi7A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/7diK4capi7A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7diK4capi7A",
+    "publishedAt": "2024-09-11T08:51:35Z",
+    "privacyStatus": "public",
+    "duration": "0:30:28"
   },
   {
     "title": "Importing Figma Variables to Supernova | Supernova 101",
@@ -6860,6 +7140,36 @@
     "duration": "0:57:58"
   },
   {
+    "title": "Smashing Hour with Ben Callahan —  Nov 2023",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0gaeTG-ErNM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0gaeTG-ErNM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0gaeTG-ErNM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0gaeTG-ErNM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0gaeTG-ErNM",
+    "publishedAt": "2023-12-04T02:47:57Z",
+    "privacyStatus": "public",
+    "duration": "0:55:40"
+  },
+  {
     "title": "Design System Fails + Lessons learned",
     "description": "Recorded on Friday 1 December 2023.\n\n01:24 Intros\n05:12 Geri Reid\n24:20 Christophe Coutzoukis\n37:13 Taylor Cashdan\n50:20 Dan Donald\n\nCome warm yourself by the fire for some design system fails and tales with special guests: Geri Reid, Christophe Coutzoukis, Dan Donald and Taylor Cashdan. Hosted by Josh Harwood.\r\n\r\nThe live event included Q&As after the guests shares, this section is not included in the recording.",
     "thumbnails": {
@@ -9433,6 +9743,41 @@
     "publishedAt": "2023-08-30T15:05:44Z",
     "privacyStatus": "public",
     "duration": "0:48:39"
+  },
+  {
+    "title": "The Anatomy of a Design System - Ben Callahan, Sparkbox | Amuse Conference 2022",
+    "description": "This talk was recorded at Amuse Conference 2022. Ben from Sparkbox spoke about the anatomy of design system.\n\n\"We'll start with the context in which a design system must live, cover four primary layers of design systems, and define three main parts of each layer.\"\n\nThe event was organized by Crafthub.\n\nYou can watch the rest of the conference talks on our channel.\n\nIf you are interested in more speakers, tickets and details of the conference, check out our website: https://amuseconf.com/\nIf you are interested in more events from our company: https://crafthub.events/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/buFuVHIGW3g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/buFuVHIGW3g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/buFuVHIGW3g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/buFuVHIGW3g/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/buFuVHIGW3g/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=buFuVHIGW3g",
+    "publishedAt": "2023-08-18T11:35:34Z",
+    "privacyStatus": "public",
+    "duration": "0:39:04"
   },
   {
     "title": "Design Systems Field Guide #3",
@@ -18651,6 +18996,76 @@
     "duration": "1:11:35"
   },
   {
+    "title": "Selling Design Systems with Ben Callahan",
+    "description": "We all know the value of a design system, but if you can’t sell the concept to your internal team, you’ll never get it off the ground. Ben Callahan will help you respond to key pain points and highlight opportunities to get your executive team on board.\n\nView the Slides: https://speakerdeck.com/sparkbox/selling-design-systems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/voY6i-hmaRA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/voY6i-hmaRA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/voY6i-hmaRA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/voY6i-hmaRA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/voY6i-hmaRA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=voY6i-hmaRA",
+    "publishedAt": "2020-11-13T15:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:32:32"
+  },
+  {
+    "title": "Design Systems Q&A with Ben Callahan",
+    "description": "Ben Callahan answers questions from his UnConference talk titled Selling Design Systems. Interested in chatting with Ben? Fill out https://bit.ly/DesignFollowUp \n\nMiss the UnConference talk? Watch it here: https://youtu.be/voY6i-hmaRA\n\nIn this Q&A, Ben mentions this article on When Not to Use a Design System: https://seesparkbox.com/foundry/when_not_to_use_a_design_system\n\nBen also listed some people he follows to learn more about design systems:\n- Yesenia Perez-Cruz: https://www.yeseniaperezcruz.com/\n- Dan Mall: https://danmall.me/\n- Brad Frost: https://bradfrost.com/\n- Jeremy Keith: https://adactio.com/\n- Jina Bolton: https://www.sushiandrobots.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mom2qqeWL1k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mom2qqeWL1k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mom2qqeWL1k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/mom2qqeWL1k/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/mom2qqeWL1k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=mom2qqeWL1k",
+    "publishedAt": "2020-11-13T15:00:11Z",
+    "privacyStatus": "public",
+    "duration": "0:25:56"
+  },
+  {
     "title": "Leading the digital, data and technology (DDaT) response to coronavirus",
     "description": "Working at pace, GDS and the DDaT function created products and services to support people through the coronavirus pandemic. Learn more about what we did, how we were able to do it and what we’ve learned so far in this blog: https://gds.blog.gov.uk/2020/09/14/leading-the-digital-data-and-technology-ddat-response-to-coronavirus/\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
     "thumbnails": {
@@ -21057,6 +21472,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=jPn_YTOAhMo",
     "publishedAt": "2019-11-03T13:46:07Z",
     "duration": "0:06:31"
+  },
+  {
+    "title": "Smashing TV: “Selling Design Systems“ with Ben Callahan (Oct 29, 2019)",
+    "description": "It doesn’t matter how good your product is - if you can’t sell it, it won’t see the light of day. In this conversation, we’ll learn how to speak the language of our executives so that we can get on with the impactful and challenging work of creating a more systematic design practice.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/o-z3pA4_ZW4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/o-z3pA4_ZW4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/o-z3pA4_ZW4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/o-z3pA4_ZW4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/o-z3pA4_ZW4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=o-z3pA4_ZW4",
+    "publishedAt": "2019-11-01T14:30:58Z",
+    "privacyStatus": "public",
+    "duration": "1:24:09"
   },
   {
     "title": "Mix'n'match UI Patterns Into Organisms - Create a Design System in Sketch, Ep5",
