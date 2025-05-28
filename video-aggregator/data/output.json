@@ -5084,6 +5084,41 @@
     "duration": "0:04:52"
   },
   {
+    "title": "Michal Mátl: How we build design system at Škoda Auto – mDevCamp 2024",
+    "description": "Talk \"How we build design system at Škoda Auto\" by Michal Mátl from Green:Code at mDevCamp 2024.\n\nI would like to show how we are building design system together with designers. It contains history, comparison between material design system and I will show you a bit of code.\n\n----------------------------------------------------------------------------------------\n\nFollow us at:\nTwitter: https://twitter.com/mdevcamp\nFacebook: https://www.facebook.com/mDevCamp\nLinkedIn: https://www.linkedin.com/company/mdevcamp\n\n© 2024 mDevCamp\nmdevcamp.eu",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/X1KrHa24dzY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/X1KrHa24dzY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/X1KrHa24dzY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/X1KrHa24dzY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/X1KrHa24dzY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=X1KrHa24dzY",
+    "publishedAt": "2024-05-16T11:30:45Z",
+    "privacyStatus": "public",
+    "duration": "0:30:48"
+  },
+  {
     "title": "Setting Up a Multi-Brand Design System with Supernova — workshop with Beatriz",
     "description": "A hands-on workshop with Beatriz Novais (Design Systems Advocate at Supernova) to learn how to set up a multi-brand design system within Supernova. We’ll tackle how to determine which setup is best suited for your design system needs and walk through how to implement it in Supernova.\n\nIn the workshop, we utilized this FigJam board. Come join us there; it's packed with fantastic resources! 👉 https://bit.ly/44zDS5y\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
     "thumbnails": {
@@ -5256,6 +5291,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=RPcE-EpHvb0",
     "publishedAt": "2024-05-02T15:35:48Z",
     "duration": "0:29:22"
+  },
+  {
+    "title": "Introducing Codex, the new Design System for Wikimedia",
+    "description": "Presented during the Spring 2024 MediaWiki Users and Developers Conference in Portland, OR.\n\nPresenter: Eric Gardner\nConference info: https://w.wiki/9snv",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pafc4km84nw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pafc4km84nw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pafc4km84nw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/pafc4km84nw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/pafc4km84nw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pafc4km84nw",
+    "publishedAt": "2024-04-30T21:55:29Z",
+    "privacyStatus": "public",
+    "duration": "0:15:09"
   },
   {
     "title": "Introducing WCAG 2.2 guidance to the GOV.UK Design System - DSL #9",
@@ -6280,6 +6350,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=l-bnrOqYin0",
     "publishedAt": "2024-02-16T13:13:49Z",
     "duration": "0:22:14"
+  },
+  {
+    "title": "Design System Culture",
+    "description": "Ben Callahan\n\nIf you feel like you’re swimming upstream with your design system, it’s likely the result of a cultural problem—not a technical one. It may be time for you to look at your design system from a different perspective.\n\nIn this session, Ben Callahan will show you how design systems and company culture are inextricably linked. We'll examine how a deeper understanding of each is necessary to get you where you want to go, including:\n\nAn exploration of four types of organizational culture\nAn understanding of design systems as a bonafide subculture within an organization\nA discussion of how misalignment between design system culture and organizational culture can create major problems\nAn explanation of the two most dominant design system subcultures—collaborative and controlling and how each—while viable—presents its own unique challenges\nIn this session you will learn the importance of cultural alignment so that you can achieve the goals for your design system faster. You will also be able to avoid past pitfalls thanks to a greater recognition of your newfound understanding of the importance culture plays in a systematic design practice.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/B5oi7kQNwtQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/B5oi7kQNwtQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/B5oi7kQNwtQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/B5oi7kQNwtQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/B5oi7kQNwtQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=B5oi7kQNwtQ",
+    "publishedAt": "2024-02-16T12:09:10Z",
+    "privacyStatus": "public",
+    "duration": "0:29:55"
   },
   {
     "title": "Meet Supernova 2.0 — The design system platform that grows with you",
@@ -13130,6 +13235,111 @@
     "duration": "0:28:17"
   },
   {
+    "title": "[ENG SUB] Workflows for building design systems in Figma at Yahoo - Mr. Takanori Hirohashi",
+    "description": "How do you build an effective design system spanning a large number of diverse products? Yahoo Japan showcases how they built their universal design system spanning over 50 products and what they’ve learned along the way.\n\nSchema by Figma is a conference focused on design systems. For more info, check out designsystems.com/sections/schema\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #Schema #Schema2022 #DesignSystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lNHax1LT0Ns/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lNHax1LT0Ns/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lNHax1LT0Ns/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/lNHax1LT0Ns/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/lNHax1LT0Ns/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lNHax1LT0Ns",
+    "publishedAt": "2022-11-22T18:00:00Z",
+    "privacyStatus": "public",
+    "duration": "0:20:00"
+  },
+  {
+    "title": "Rebranding, or the subtle art of juggling new and legacy design systems - Qonto team (Schema 2022)",
+    "description": "Rebranding is an inevitable, exciting, yet often feared milestone that all companies have to face. We’re excited to share behind-the-scenes learnings from our experience launching a rebrand in 3 months whilst maintaining two active design systems. This talk will provide insights from both brand and product on how to best translate abstract guidelines into UX/UI principles. Finally, we’ll aim to give tips on how to best structure libraries, production, and delivery to ensure maximum quality.\n\nSchema by Figma is a conference focused on design systems. For more info, check out designsystems.com/sections/schema\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #Schema #Schema2022 #DesignSystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4dMAE3d4HT4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4dMAE3d4HT4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4dMAE3d4HT4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/4dMAE3d4HT4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/4dMAE3d4HT4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4dMAE3d4HT4",
+    "publishedAt": "2022-11-20T17:30:00Z",
+    "privacyStatus": "public",
+    "duration": "0:22:05"
+  },
+  {
+    "title": "Expanding your Design System's sphere of influence and other lessons - Lauren LoPrete",
+    "description": "Design systems are drivers of cultural change disguised as a component library — getting your org to commit to this change often requires influencing across all levels from designers to VPs. In doing so, you’ll rely on skills like communication and relationship building, in order to expand your system of allies. In this talk, I’ll share mistakes and lessons learned along the way and offer ideas to help you navigate the challenges of design systems buy-in and advocacy.\n\nSchema by Figma is a conference focused on design systems. For more info, check out designsystems.com/sections/schema\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\n\n____________________________________________________\n\n\n#Figma #Schema #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #schema2022 #DesignSystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/On3w6zPQPHU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/On3w6zPQPHU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/On3w6zPQPHU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/On3w6zPQPHU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/On3w6zPQPHU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=On3w6zPQPHU",
+    "publishedAt": "2022-11-18T18:00:10Z",
+    "privacyStatus": "public",
+    "duration": "0:20:31"
+  },
+  {
     "title": "Creating DoorDash’s native mobile design system - Camden Asay, Matthew Burg, Will Hou, Ayanna Kosoko",
     "description": "Designing and building mobile native design systems can be tough. Different devices, different languages, and different conventions can make it challenging to get started and stay consistent. In this talk, the DoorDash design system team will share what they have learned about navigating these challenges: their process, their past mistakes, and how they move forward when building the robust native component library that powers the #1 food delivery app.\n\nSchema by Figma is a conference focused on design systems. For more info, check out designsystems.com/sections/schema\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\n\n____________________________________________________\n\n#Figma #Schema #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #schema2022",
     "thumbnails": {
@@ -13460,6 +13670,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=k4iZnvdDBC8",
     "publishedAt": "2022-10-31T14:49:26Z",
     "duration": "0:01:01"
+  },
+  {
+    "title": "Leaning Into Design Systems - Mark Boyes-Smith - DIBI Conference 2022",
+    "description": "Imagine you could call upon a superhero to accelerate product development, elevate user experience, and unite teams. Mark's talk introduces you to the untapped superpowers of design systems, and all you have to do is lean in.\n\nMark is a Director of Product Design at InVision and co-hosts the UX, Coffee + Code podcast. With a passion for design systems, and a background in design and engineering, he is known for connecting cross-discipline teams around the world to scale the reach and impact of design.\n\nThis is Mark's full, enlightening talk including Q&A.\n\n0:00 Titles \n0:21 Intro \n2:03 Back to the 90's | Career Path\n5:24 Product Development Team Goals \n6:05 Intra-Discipline Communication\n8:23 Inter-Team Communication\n10:58 What is a Design System\n15:02 Superpower 1 - Harmony\n21:05 Superpower 2 - Speed \n24:00 Superpower 3 - Telepathy \n26:22 Superpower 4 - Influence\n29:42 Kryptonite & Closing Thoughts\n31:00 Q&A  \n\nFor the latest information on upcoming DIBI events please visit https://dibiconference.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oVCpI81Ky6A/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oVCpI81Ky6A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oVCpI81Ky6A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/oVCpI81Ky6A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/oVCpI81Ky6A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oVCpI81Ky6A",
+    "publishedAt": "2022-10-26T09:03:09Z",
+    "privacyStatus": "public",
+    "duration": "0:51:42"
   },
   {
     "title": "Design Systems Essentials:  Contribution Process",
@@ -14032,6 +14277,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=XWs9pyXMeOI",
     "publishedAt": "2022-08-22T09:27:40Z",
     "duration": "0:56:04"
+  },
+  {
+    "title": "The Three P’s of a Design System -Adekunle Oduye, Plaid | Craft Conference 2022",
+    "description": "This talk was recorded at Craft Conference 2022. Adekunle Oduye from Plaid company spoke about design system and product design. Building a design system that scales is hard. You have to get stakeholder buy-in and then establish a style guide and then build out a UI components library and then develop a voice and tone that captures the brand and and and... There’s so much to do! That can fuel envy when we look at popular design systems on the web and say, “We want to have something like that.” But how do we get there? What are the specific steps we can take to build a successful design system? A world-class design system will not only allow teams to build scalable products today, but also lay the foundation for future innovations. Done right, it will provide engineers with production ready UI components and enable designers to craft front-end prototypes. Learn about the three Ps and how it can help you achieve these goals. In this talk, audience will learn: - How to identify and prioritize the users of your design system - The process of building a design system from the ground up - How to setup a design system to serve multiple use cases\n\nThe event was organized by Crafthub.\n\nYou can watch the rest of the conference talks on our channel.\n\nIf you are interested in more speakers, tickets and details of the conference, check out our website: https://craft-conf.com/\nIf you are interested in more events from our company: https://crafthub.events/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FOG5WElr6hw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FOG5WElr6hw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FOG5WElr6hw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FOG5WElr6hw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FOG5WElr6hw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FOG5WElr6hw",
+    "publishedAt": "2022-08-16T08:54:00Z",
+    "privacyStatus": "public",
+    "duration": "0:27:35"
   },
   {
     "title": "Live stream #15: Jina Anne interview",
@@ -16049,6 +16329,41 @@
     "duration": "0:42:50"
   },
   {
+    "title": "Future-Proofing Your Design System",
+    "description": "Learn how Davy Fung, Product Design Manager, Design Systems, from Disney Streaming uses Zeplin Styleguides to launch Star+, a wildly successful new standalone streaming service in Latin America, while also building for the future.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sLIrj5Zj_Ok/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sLIrj5Zj_Ok/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sLIrj5Zj_Ok/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/sLIrj5Zj_Ok/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/sLIrj5Zj_Ok/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sLIrj5Zj_Ok",
+    "publishedAt": "2022-01-31T22:22:47Z",
+    "privacyStatus": "public",
+    "duration": "0:20:46"
+  },
+  {
     "title": "Flexible Design Systems empower the community",
     "description": "#DesignSystems #DesignSystem #DesignOps\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
     "thumbnails": {
@@ -17374,6 +17689,41 @@
     "duration": "0:32:13"
   },
   {
+    "title": "Design system change management - Hugo Raymond (Schema 2021)",
+    "description": "How can we better understand the context of our Design Systems among our broader product teams? Join us to learn Burberry's approach, including how to best work with engineers, standardise and understand shared context for reusability, and how to think about both strict and loose frameworks of adoption. \n\nSchema is an online conference about design systems by Figma. For more info, check out https://schema.figma.com/\n\n#figma #schema #schema2021 #design #ProductDesign #FigmaDesign #DesignSystems #Asana #AsanaDesign",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cbtGaQySdcg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cbtGaQySdcg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cbtGaQySdcg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/cbtGaQySdcg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/cbtGaQySdcg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cbtGaQySdcg",
+    "publishedAt": "2021-10-15T08:41:13Z",
+    "privacyStatus": "public",
+    "duration": "0:11:44"
+  },
+  {
     "title": "Theming withDesign Tokens - Danny Banks, Into Design Systems, Sept 2021",
     "description": "#DesignSystems #DesignTokens #DesignSystem\nTheming with Design Tokens - Danny Banks, Into Design Systems, Sept 2021\n\n⚡️Ready to take your design system skills to the next level? \nJoin the biggest virtual, interactive Design Systems conference worldwide.\n\nThe Future of Design Systems 🚀 - https://www.intodesignsystems.com\n\n🗓️June 8-9 Online 🌎worldwide\n⚡️Super Early Bird tickets now on sale! Limited seats!! ⚡️\nJoin us 🙌🏻\n\n👋🏻 800 Design System Friends\n🎨 14 hours of content\n\nMain topics:\n🎨 Headless Design Systems\n🤖 Automation of Design Systems\n📈 Data Driven Design Systems\n⚡️ Design Tokens\n\n👉🏻👉🏻 Limited Tickets: https://www.intodesignsystems.com",
     "thumbnails": {
@@ -17708,6 +18058,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=oz3Ubo5T-7Y",
     "publishedAt": "2021-08-31T14:00:20Z",
     "duration": "0:05:38"
+  },
+  {
+    "title": "Kalin Milanov: Design Systems and Consistent User Experience | Fundamental Conference",
+    "description": "Kalin is a designer with over 15 years of experience designing UI frameworks and products. Since he joined SAP over 7 years ago, he was in the forefront of the visual design for the Fiori design system. Recently, he moved to a lead role for defining the product design of SAP’s Business Technology Platform.\n\nHis talk will be covering topics on design systems and user experiences. UI consistency is often achieved at the expense of user experience. This session will dig deeper into the elements that bring consistency and how to use them so that we also create good user experience.\n\n-\n\nAbout Fundamental Conference\nFundamental Conference is a global, virtual conference organized by the Fundamental Library team to spark curiosity and to start a conversation concerning the future of modern enterprise design.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FheiLAqCYHs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FheiLAqCYHs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FheiLAqCYHs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FheiLAqCYHs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FheiLAqCYHs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FheiLAqCYHs",
+    "publishedAt": "2021-08-27T16:28:18Z",
+    "privacyStatus": "public",
+    "duration": "0:21:05"
   },
   {
     "title": "Demo of SIMBA | The Web Component Design System based on Lion",
@@ -19066,6 +19451,31 @@
     "duration": "0:25:56"
   },
   {
+    "title": "Sid - Tiny Design Systems for Tiny Teams at React Live Conference Online",
+    "description": "Sid - Tiny Design Systems for Tiny Teams at React Live Conference Online\n\nhttps://www.reactlive.nl/\n\nSign up for our newsletter: https://www.frontenddeveloperlove.com/newsletter\nStay up to date via LinkedIn: https://www.linkedin.com/company/frontendlove/\n\nPowered by https://passionatepeople.io\n\n#unittests #webaudio #unittesting #hiphop #frontendlove or #vuejsamsterdam #javascript #reactacademy #react #microinteractions #designsystems #javascript #artificialintelligence #amsterdam #speaker #conference #frontendlove #frontenddeveloperlove #javascriptconference #frontendconference #vue #angular #react #cfp #theateramsterdam #meetup #conferences #events",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZHkbLqO1QT0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZHkbLqO1QT0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZHkbLqO1QT0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZHkbLqO1QT0",
+    "publishedAt": "2020-09-30T15:30:11Z",
+    "privacyStatus": "public",
+    "duration": "0:24:23"
+  },
+  {
     "title": "Leading the digital, data and technology (DDaT) response to coronavirus",
     "description": "Working at pace, GDS and the DDaT function created products and services to support people through the coronavirus pandemic. Learn more about what we did, how we were able to do it and what we’ve learned so far in this blog: https://gds.blog.gov.uk/2020/09/14/leading-the-digital-data-and-technology-ddat-response-to-coronavirus/\n\nFind out more about the Government Digital Service:\r\n\r\nGDS Blog: https://gds.blog.gov.uk/\r\nTwitter: https://twitter.com/gdsteam \r\nInstagram: https://instagram.com/gdsteam/ \r\nSubscribe to our YouTube channel: \r\nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
     "thumbnails": {
@@ -19544,6 +19954,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=hP8VCA3uZAc",
     "publishedAt": "2020-07-18T17:00:16Z",
     "duration": "1:10:26"
+  },
+  {
+    "title": "Building a Design System Documentation with Gatsby, with Adekunle Oduye",
+    "description": "Great documentation empowers your users and helps newcomers familiarize themselves with your product/process. Unfortunately, doing documentation right -- and keeping docs current and accurate -- is a lot of work. Design systems, in particular, depend on solid documentation because the entire process is built around consistency, reusability and scalability. If the documentation falls down, the design system is likely to follow. \n\nCheck out the source code (https://github.com/adekunleoduye/design-system-starter) for Adekunle Oduye’s presentation for creating a design system starter for Gatsby + Storybook (https://storybook.js.org/), ideal companions for creating a living documentation system. Writing the docs in MDX with Gatsby means making code the source of truth -- and making writing documentation a part of the development process, rather than an afterthought. When documentation is a living part of your code, it’s front of mind to keep it current. Systemizing the documentation process increases efficiency and productivity, and Adekunle demonstrates a practical path to get it done fast with a Gatsby starter using Gatsby for the code and Storybook for the UI.\n\nConnect with Adekunle to hear more of his thoughts on design systems, UI animation and new frontiers in front end development:\n-  Via his presentation slides: http://adekunleoduye.com/talks/gatsby-days-2020/design-system-documentation-gatsby_virtual-gatsby-days-2020.pdf\n- On his website: http://www.adekunleoduye.com/\n- Find him on LinkedIn: https://www.linkedin.com/in/adekunleoduye/\n- Follow him on Twitter @AdukunleOduye",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4rz6PF4qxCo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4rz6PF4qxCo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4rz6PF4qxCo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/4rz6PF4qxCo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/4rz6PF4qxCo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4rz6PF4qxCo",
+    "publishedAt": "2020-07-16T13:36:26Z",
+    "privacyStatus": "public",
+    "duration": "0:21:01"
   },
   {
     "title": "Designing for Development & Communicating Design Systems (DSCC Berlin)",
@@ -20035,6 +20480,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=JKdkJLd_OZE",
     "publishedAt": "2020-05-10T17:52:45Z",
     "duration": "0:39:18"
+  },
+  {
+    "title": "Taley'a Mirza—Level up your Design System with styled-system—Women of React 2020",
+    "description": "Slides: https://slides.com/taleyamirza/styled-system#/\nFollow speaker on Twitter: https://twitter.com/TaleyaMirza",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aBPyM7KvVYg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aBPyM7KvVYg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aBPyM7KvVYg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/aBPyM7KvVYg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/aBPyM7KvVYg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=aBPyM7KvVYg",
+    "publishedAt": "2020-05-07T00:01:42Z",
+    "privacyStatus": "public",
+    "duration": "0:20:12"
   },
   {
     "title": "Content in Design Systems (DSCC Toronto)",
@@ -20613,6 +21093,41 @@
     "duration": "0:53:09"
   },
   {
+    "title": "Motivating Design System Adoption at Scale",
+    "description": "Bethany Fong, Sr Staff Interaction Designer @ Google discusses what makes design system adoption both launch and stick in a giant organization. \nMore videos on our website: www.rethinkhq.com \nThis is a talk we recorded at our Design Systems Conference in September 2019",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cOX-WLYLHt0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cOX-WLYLHt0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cOX-WLYLHt0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/cOX-WLYLHt0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/cOX-WLYLHt0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=cOX-WLYLHt0",
+    "publishedAt": "2020-04-16T00:45:11Z",
+    "privacyStatus": "public",
+    "duration": "0:30:15"
+  },
+  {
     "title": "Ask Me Anything with Design Systems Advocate, Jina Anne, featuring Nathan Curtis",
     "description": "I held an AMA with Nathan Curtis over Zoom at 9am PDT April 14, 2020.",
     "thumbnails": {
@@ -20931,6 +21446,41 @@
     "publishedAt": "2020-02-27T17:56:52Z",
     "privacyStatus": "public",
     "duration": "0:09:50"
+  },
+  {
+    "title": "Design Systems Galore 🎨",
+    "description": "Find the latest React.js talks & workshops at https://portal.gitnation.org\n \n  🗓 https://www.meetup.com/React-Amsterdam/events/267874416/\n\nHey React Amsterdam community, it's time to get together! We're back with a new edition of our React-focused meetup, and this time we'll discuss scaling design systems for large companies, designing in the browser, design tokens, and more.\n\n🤝 Sponsors\n\nFocusReactive (https://focusreactive.com) is a React/Node.js software consultancy based in Amsterdam, London and remote. The company provides startups and scaleup businesses with hands-on technical leadership and high-performing engineering teams.\n\nUpCloud's easy-to-use control panel and API let you spend more time coding and less time managing your infrastructure. Deploy in 45 seconds using the simple but powerful control panel, the Restful API or any software such as Ansible, Go, JS or Python. https://upcloud.com\n\nSign up for the service with our exclusive React Amsterdam promo code and get free $25 cloud credits: https://upcloud.com/signup/?promo=ReactAMS\n\n🕐 Schedule\n\n18:00 – Doors open: snacks, drinks, networking\n19:00 – Introduction\n19:10 – 🗣 \"What they don't tell you about design systems\" by Dmitry Belyaev\n19:40 – 🗣 \"Designing in the browser, Again\" by Siddharth Kshetrapal\n20:10 – ⚡️ \"Design tokens 101\" by Kilian Valkhof\n20:20 – ⚡️ \"Side-loading a design system\" by Melanie Burger\n20:30 – ⚡️ \"All your BASE belongs to me\" by Guus Hoeve\n20:40 Beers & networking\n\n \nSubscribe to our channel to see more React (Native) talks: https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/G4mui3OCMVA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/G4mui3OCMVA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/G4mui3OCMVA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/G4mui3OCMVA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/G4mui3OCMVA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=G4mui3OCMVA",
+    "publishedAt": "2020-02-06T20:36:40Z",
+    "privacyStatus": "public",
+    "duration": "1:59:07"
   },
   {
     "title": "Design Systems London 2019 - Highlights",
@@ -21371,6 +21921,41 @@
     "duration": "0:08:11"
   },
   {
+    "title": "Running a design system for government: Tim Paul",
+    "description": "On 20 November, Tim Paul, Head of Interaction Design at the Government Digital Service, gave a talk about running a design system for government at the International Design in Government Conference in Rotterdam.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2iM_jaf7Ju4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2iM_jaf7Ju4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2iM_jaf7Ju4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/2iM_jaf7Ju4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/2iM_jaf7Ju4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2iM_jaf7Ju4",
+    "publishedAt": "2019-11-22T18:08:37Z",
+    "privacyStatus": "public",
+    "duration": "0:28:43"
+  },
+  {
     "title": "Design Systems Like a Black Belt | Adobe Product Manager | Elaine Chao",
     "description": "Elaine Chao is a product manager at Adobe Systems, currently working on Adobe XD. Previously she’s worked as an engineer on a variety of products geared toward designers and web producers, including Dreamweaver, Edge Animate, and Creative Cloud. In this talk she discusses how design organizations around the world work, the problems they face in their workflows and what exactly design systems do for organizations, at awwwards conference San Francisco.\n\n\"Look at the industry today, we already have voice interactions in our cars, in our phones and in our homes, and as we look in the near future - things like VR and AR. Our interaction models are changing rapidly, technology has to change and so your design systems have to be these living breathing things that reflect the industry.\"\n\nExperience our conferences! Get out from behind your screen, learn the secrets of industry leaders and connect with cool designers from all over the world https://conference.awwwards.com\n\nSubscribe now for the latest talks and interviews from top digital creatives: https://www.awwwards.com/subscribe/\n\nFor the latest web design trends - follow us: \nBlog: http://awwwards.com/\nTwitter: http://twitter.com/awwwards\nInstagram: https://www.instagram.com/awwwards/\nFacebook: https://www.facebook.com/awwwards/\n\n#DesignSystems #Adobe",
     "thumbnails": {
@@ -21507,6 +22092,71 @@
     "publishedAt": "2019-11-01T14:30:58Z",
     "privacyStatus": "public",
     "duration": "1:24:09"
+  },
+  {
+    "title": "Expressive Design Systems - Yesenia Perez-Cruz | Amuse 2019",
+    "description": "👉 Learn more about the talk and download the slides at https://amuseconf.com/2019/speakers\n📬 Sign up to our newsletter so you won't miss the updates about the next Amuse UX Conference: https://cutt.ly/ekKCqwO\n\nGood design systems can help you create digital products with efficiency and consistency. But great design systems will support and strengthen your team’s creativity at the same time. In this talk, Yesenia will discuss how to communicate your brand ethos through a design system and how to collaborate across teams to create harmonious, branded experiences. - Captured Live on Ustream at https://www.ustream.tv/amuse",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lYo9jk6Z5Dk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lYo9jk6Z5Dk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lYo9jk6Z5Dk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/lYo9jk6Z5Dk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lYo9jk6Z5Dk",
+    "publishedAt": "2019-10-31T11:43:09Z",
+    "privacyStatus": "public",
+    "duration": "0:52:03"
+  },
+  {
+    "title": "Building (And Re-Building) the Airbnb Design System | Maja Wichrowska & Tae Kim",
+    "description": "When building a design system, many implicit choices are made in a component’s architecture that can end up crushing the dreams of a productivity-boosting frontend utility and turning a shared component library into a vessel for friction, factions, and forking. Join us as we take you through the journey of Airbnb’s experience creating an effective, widely-adopted design system and the decisions and trade-offs that were made to get there.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/fHQ1WSx41CA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/fHQ1WSx41CA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/fHQ1WSx41CA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/fHQ1WSx41CA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/fHQ1WSx41CA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=fHQ1WSx41CA",
+    "publishedAt": "2019-10-31T01:37:23Z",
+    "privacyStatus": "public",
+    "duration": "0:33:32"
   },
   {
     "title": "Mix'n'match UI Patterns Into Organisms - Create a Design System in Sketch, Ep5",
@@ -22033,6 +22683,41 @@
     "duration": "0:01:17"
   },
   {
+    "title": "Stu Robson - Design Systems and front-end architecture",
+    "description": "Design Systems are so hot right now, Stu discusses the parts that make up one and offers advice to help you start or maintain your current system.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/et9FPRdEhOw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/et9FPRdEhOw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/et9FPRdEhOw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/et9FPRdEhOw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/et9FPRdEhOw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=et9FPRdEhOw",
+    "publishedAt": "2019-08-19T05:23:32Z",
+    "privacyStatus": "public",
+    "duration": "0:49:39"
+  },
+  {
     "title": "Using GOV.UK Notify at NHSBT",
     "description": "NHS Blood and Transplant (NHSBT) uses GOV.UK Notify, the government's notifications tool, to send text messages to donors. These messages include appointment reminders or change of venue texts. \n\nGOV.UK Notify allows the NHSBT team to send out hundreds of thousands of texts per month. The tool has saved the team money and allows them to quickly see the delivery path of the notifications.\n\nRead more on https://www.notifications.service.gov.uk/\n\nFind out more about the Government Digital Service:\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
     "thumbnails": {
@@ -22079,6 +22764,76 @@
     "videoUrl": "https://www.youtube.com/watch?v=djQPYGhIzmA",
     "publishedAt": "2019-07-17T15:25:13Z",
     "duration": "0:20:12"
+  },
+  {
+    "title": "ADDC 2019 - Maria Neumayer: Consistency is Key - Working with a Design System",
+    "description": "https://addconf.com/2019/schedule/consistency-is-key/\n\nWorking with a design system can be hugely rewarding: layouts can be created and modified using shared components. This should result in faster design and development and consistent designs across the app. But getting there is a slow and painful process. When implementing a design system you have to make many decisions, like: Where do you start? What actually makes a component? And how flexible should components be? This talk will shed some light on these issues by taking you through Deliveroo's process of adopting a design system in its three Android apps.\n\nMore about the conference: https://addconf.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5bsWuWZQ8ss/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5bsWuWZQ8ss/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5bsWuWZQ8ss/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/5bsWuWZQ8ss/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/5bsWuWZQ8ss/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5bsWuWZQ8ss",
+    "publishedAt": "2019-07-17T13:53:04Z",
+    "privacyStatus": "public",
+    "duration": "0:37:26"
+  },
+  {
+    "title": "ADDC 2019 - Roy Marmelstein: Design System and Component Libraries at Spotify",
+    "description": "https://addconf.com/2019/schedule/design-system-and-component-libraries-at-spotify/\n\nIn this talk, Roy will share from his experience working on Spotify's design system and component libraries and the team's new approach to common challenges.\n\nMore about the conference: https://addconf.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZgNuA9Ra9a0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZgNuA9Ra9a0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZgNuA9Ra9a0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ZgNuA9Ra9a0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ZgNuA9Ra9a0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZgNuA9Ra9a0",
+    "publishedAt": "2019-07-17T13:52:55Z",
+    "privacyStatus": "public",
+    "duration": "0:30:50"
   },
   {
     "title": "Welcome to the UK government content design community",
@@ -23452,6 +24207,41 @@
     "duration": "0:01:55"
   },
   {
+    "title": "Javi Velasco: An agnostic components design system for React",
+    "description": "At AgentConf Javi Velasco spoke about an agnostic components design system for React.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QT07wWC3PdY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QT07wWC3PdY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QT07wWC3PdY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/QT07wWC3PdY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/QT07wWC3PdY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=QT07wWC3PdY",
+    "publishedAt": "2018-02-16T13:22:45Z",
+    "privacyStatus": "public",
+    "duration": "0:30:51"
+  },
+  {
     "title": "One year of the Government Transformation Strategy at the Department for International Trade (DIT)",
     "description": "In 2017, the Government Transformation Strategy was published.  The Strategy sets out how government will use digital to transform the relationship between the citizen and state.\n\nMichelle Thorp, Managing Director of Digital, Technology and Estates, and Dylan Thomas, Director, Technology and Smart Cities, International Trade and Investment at the Department for International Trade talk about what transformation means for the Department for International Trade. \n\nFind out more about the ‘Great’ campaign:\nhttps://www.great.gov.uk\n\nFind out more about the Government Transformation Strategy:\nhttps://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020 \n\nFind out more about the Government Digital Service:\n\nGDS Blog: https://gds.blog.gov.uk/\nTwitter: https://twitter.com/gdsteam \nInstagram: https://instagram.com/gdsteam/ \nSubscribe to our YouTube channel: \nhttps://www.youtube.com/user/GovDigitalService?sub_confirmation=1",
     "thumbnails": {
@@ -23474,6 +24264,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=jYZeHhiOVpk",
     "publishedAt": "2018-02-08T14:48:14Z",
     "duration": "0:02:00"
+  },
+  {
+    "title": "Inayaili de León Persson - Keeping your design system alive",
+    "description": "View Source 2017:  \n\nView Source is a conference for front-end web developers. The goal of this event is to provide an in-depth, practical look at current and on-the-horizon technologies, with plenty of opportunities for conversation.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/a5mK--JNGso/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/a5mK--JNGso/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/a5mK--JNGso/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/a5mK--JNGso/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/a5mK--JNGso/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=a5mK--JNGso",
+    "publishedAt": "2017-11-27T21:03:44Z",
+    "privacyStatus": "public",
+    "duration": "0:25:34"
   },
   {
     "title": "What to expect at a service assessment",
@@ -23760,6 +24585,106 @@
     "publishedAt": "2017-05-26T20:50:58Z",
     "privacyStatus": "public",
     "duration": "0:21:42"
+  },
+  {
+    "title": "Design Systems: Real Talk – Jina Anne – btconfDUS2017",
+    "description": "Design Systems: Real Talk\nDescription:\n---------------\nDesign systems have been around for ages; you can see a little bit into the history of them as brand systems and graphic standards manuals of the past are resurfacing as collectibles today.\nHowever, in today’s modern web and software design industry, there is no denying that design systems are so hot right now. People are making them, sharing them, writing about them, and talking about them… even forming entire teams dedicated to working on them. It has been exciting to see the traction they are gaining, and how far they have come through process, automation, and tooling.\nIt truly can be a dream product: a design system that scales across many enterprise products, many devices and platforms, and is open source to a larger developer community. What a fun challenge for systems-minded designers and developers. And starting out, you have a pretty good idea of what the end result will be.\nBut at this scale, there is no end result. There are interesting challenges you will face along the way: internal politics, design changes, business decisions, configuration, deprecation strategies, naming, adoption, onboarding, support, training, governance, resistance… There are implementations and then undoing of those implementations. Enterprise design systems aren’t easy.\nBut don’t let this intimidate you. There are always lessons to be learned and shared. And we as an industry are constantly iterating and improving on our processes. We’re all in this together.\nIn this session, Jina, a design systems designer, fan, and advocate — and who was Lead Designer on the Salesforce Lightning Design System — will share some stories and insights into the lessons she has learned designing one of the largest design systems in the industry.\n---------------\nTalk & speaker bio:\nbeyondtellerrand.com/events/duesseldorf-2017/speakers/jina-anne\nInformation about beyond tellerrand:\nbeyondtellerrand.com/\ntwitter.com/btconf",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LF_BHvNWzi0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LF_BHvNWzi0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LF_BHvNWzi0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LF_BHvNWzi0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LF_BHvNWzi0",
+    "publishedAt": "2017-05-19T11:44:13Z",
+    "privacyStatus": "public",
+    "duration": "0:32:51"
+  },
+  {
+    "title": "Building a Design System - Nicolas Duval | Nicolas Duval 2016",
+    "description": "Speak at Design Encounters 2017 👉  http://www.designencountersconf.com/\n\nDesigners at BlaBlaCar were spending too much time on pixels and less time on crafting the best experience for their users. You'll learn how they managed to make UI a tiny fraction of the entire work of their designers.\n\nNicolas (Designer at BlaBlaCar) has the goal to make the interface and the experience of BlaBlaCar as transparent as possible. One of his favorite subjects is to make other designers' workflow as smooth as possible. \n\nDesign Encounters is a conference on the interaction of design and development in the creation process. The first edition took place in Warsaw, Poland on November, 17-18, 2016. \n\nDesign Encounters Conference is brought to you by EL Passion (http://www.elpassion.com/).",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IffqsjBrFYk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IffqsjBrFYk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IffqsjBrFYk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/IffqsjBrFYk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/IffqsjBrFYk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IffqsjBrFYk",
+    "publishedAt": "2017-04-14T08:37:52Z",
+    "privacyStatus": "public",
+    "duration": "0:11:56"
+  },
+  {
+    "title": "Styling Hillary: A Design System for All Americans – Mina Markham | Render 2017",
+    "description": "Join us for #RenderConf 2018: https://goo.gl/iXs1mJ\n\nA comprehensive design system is a critical tool for maintaining a consistent UI during rapid development that spans multiple codebases. During the 2016 US presidential campaign, Mina spent most of her time building and refining Pantsuit, the design system that powered many of the applications hosted on hillaryclinton.com.\n\nIn this talk, Mina will share successes and failures from nearly two years at Hillary for America, including creating CSS architecture and implementing a redesign of the main website.\n\nABOUT MINA MARKHAM\n\nMina Markham is a Senior Engineer at Slack. She’s a lover of design systems and prolific public speaker, appearing at events worldwide, including CSS Dev Conf, Fluent, and Future of Web Design. Mina also co-organises Front Porch Conference.\n\nPreviously at Hillary for America, her work on the Pantsuit pattern library has been spotlighted in WIRED, Fast Company, and Communication Arts. Mina likes ampersands, Oreos, traveling, cupcakes, and the colour pink. She lives in Oakland, California.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dwMhn2OKHkk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dwMhn2OKHkk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dwMhn2OKHkk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/dwMhn2OKHkk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/dwMhn2OKHkk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=dwMhn2OKHkk",
+    "publishedAt": "2017-04-12T11:42:11Z",
+    "privacyStatus": "public",
+    "duration": "0:42:21"
   },
   {
     "title": "UXPin Webinars: On Design Systems: Dan Mall of Superfriendly",
