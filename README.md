@@ -153,10 +153,10 @@ We welcome contributions! Here's how you can help:
 
 ### Adding New Video Sources
 
-To suggest new YouTube channels or playlists:
+To suggest new YouTube videos, channels or playlists:
 
-1. Open an issue with the channel/playlist URL
-2. Explain why it's relevant to design systems
+1. Submit a [video contribution](https://github.com/DesignSystemsCollective/designsystems.media/issues/new?template=video-contribution.md) with the relevant YouTube URLs
+2. (Optional) Include relevent tags and speakers
 3. We'll review and add valuable sources to the collection
 
 ## 📄 License
