@@ -31,13 +31,12 @@
         },
         {
           "name": "image",
-          "type": "image",
-          "isPreviewImage": true
+          "type": "image"
         },
         {
           "name": "poster",
-          "type": "string",
-          "single": true
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "name": "localImages",
