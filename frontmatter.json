@@ -2,50 +2,89 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "media",
+      "previewPath": "'media'",
       "pageBundle": false,
-      "previewPath": null,
+      "clearEmpty": true,
       "fields": [
         {
-          "title": "Title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "single": true,
+          "required": true
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
+          "name": "publishedAt",
           "type": "datetime",
           "default": "{{now}}",
-          "isPublishDate": true
+          "required": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "name": "dateAdded",
+          "type": "datetime",
+          "default": "{{now}}"
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
         },
         {
-          "title": "Tags",
+          "name": "poster",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "localImages",
+          "type": "boolean",
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "privacyStatus",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "videoUrl",
+          "type": "string",
+          "single": true
+        },
+        {
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "name": "speakers",
+          "type": "taxonomy",
+          "taxonomyId": "speakers"
+        },
+        {
+          "name": "draft",
+          "type": "draft",
+          "required": true
         }
       ]
     }
   ],
   "frontMatter.framework.id": "astro",
-  "frontMatter.preview.host": "http://localhost:4321"
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "media",
+      "path": "[[workspace]]/src/content/media"
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.taxonomy.customTaxonomy": [
+    { "id": "speakers", "options": ["Unsorted"] }
+  ]
 }
