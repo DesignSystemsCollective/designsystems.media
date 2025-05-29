@@ -1,13 +1,10 @@
 import mdx from "@astrojs/mdx";
-import sitemap from "astro-sitemap";
+import netlify from "@astrojs/netlify";
+import react from "@astrojs/react";
 import icon from "astro-icon";
 import pagefind from "astro-pagefind";
+import sitemap from "astro-sitemap";
 import { defineConfig, passthroughImageService } from "astro/config";
-
-import react from "@astrojs/react";
-import keystaticAstro from "@keystatic/astro";
-
-import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,7 +18,6 @@ export default defineConfig({
     }),
     pagefind(),
     react(),
-    keystaticAstro(),
     icon(),
   ],
   description:
@@ -32,7 +28,5 @@ export default defineConfig({
     service: passthroughImageService(),
   },
   trailingSlash: "always",
-  exclude: [
-      'src/pages/generate-social-mosaics.astro',
-    ],
+  exclude: ["src/pages/generate-social-mosaics.astro"],
 });
