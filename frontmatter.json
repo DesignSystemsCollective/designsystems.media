@@ -88,6 +88,12 @@
     }
   ],
   "frontMatter.git.enabled": true,
+  "frontMatter.content.filters": [
+    "contentFolders",
+    "tags",
+    "categories",
+    "speakers"
+  ],
   "frontMatter.taxonomy.customTaxonomy": [
     {
       "id": "speakers",
@@ -502,6 +508,7 @@
         "Nick Colley",
         "Nick Hahn",
         "Nicole Choy",
+        "Nicole Torgersen",
         "Nijil David Abraham",
         "Niko Laitinen",
         "Olex Ponomarenko",
@@ -578,6 +585,7 @@
         "Sriram Ramasubramanian",
         "Stephanie Eckles",
         "Stephanie Rewis",
+        "Stephanie Stimac",
         "Stephen Hathaway",
         "Stephen Hay",
         "Stephen McGuinness",
@@ -589,8 +597,10 @@
         "Sébastien Chopin",
         "Taiste",
         "Taryn Tuesday",
+        "Tatiana Mac",
         "Taylor Cashdan",
         "Teddy Voisin",
+        "Teresa Aguilera",
         "Tero Parvinen",
         "Thaís Santos",
         "Thomas Allmer",
