@@ -87,6 +87,7 @@
       "path": "[[workspace]]/src/content/media"
     }
   ],
+  "frontMatter.content.publicFolder": "public",
   "frontMatter.git.enabled": true,
   "frontMatter.content.filters": [
     "contentFolders",
