@@ -95,6 +95,20 @@
     "categories",
     "speakers"
   ],
+  "frontMatter.content.sorting": [
+    {
+      "title": "Media published (asc)",
+      "name": "publishedAt",
+      "order": "asc",
+      "type": "date"
+    },
+    {
+      "title": "Media published (desc)",
+      "name": "publishedAt",
+      "order": "desc",
+      "type": "date"
+    }
+  ],
   "frontMatter.taxonomy.customTaxonomy": [
     {
       "id": "speakers",
