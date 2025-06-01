@@ -14,6 +14,20 @@
           "required": true
         },
         {
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "name": "speakers",
+          "type": "taxonomy",
+          "taxonomyId": "speakers"
+        },
+        {
+          "name": "draft",
+          "type": "draft",
+          "required": true
+        },
+        {
           "name": "description",
           "type": "string",
           "single": true
@@ -59,22 +73,8 @@
           "single": true
         },
         {
-          "name": "tags",
-          "type": "tags"
-        },
-        {
           "name": "categories",
           "type": "categories"
-        },
-        {
-          "name": "speakers",
-          "type": "taxonomy",
-          "taxonomyId": "speakers"
-        },
-        {
-          "name": "draft",
-          "type": "draft",
-          "required": true
         }
       ]
     }
