@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 import { postCount, speakers, tags } from "../utils/mediaCollection";
+import CountUp from './CountUp';
 
 const totalTagCount = tags.length;
 const totalSpeakerCount = speakers.length;
@@ -11,21 +12,48 @@ const totalSpeakerCount = speakers.length;
     <Icon name="fluent:video-clip-multiple-24-regular" />
     <div class="info">
       <div data-type="label">Videos</div>
-      <div data-type="count">{postCount}</div>
+      <div data-type="count"><CountUp
+client:load
+  from={700}
+  to={postCount}
+  separator=","
+  direction="up"
+  delay={0}
+  duration={1}
+  className="count-up-videos"
+/></div>
     </div>
   </a>
   <a href="/speakers/" class="stat">
     <Icon name="fluent:person-24-regular" />
     <div class="info">
       <div data-type="label">Speakers</div>
-      <div data-type="count">{totalSpeakerCount}</div>
+      <div data-type="count"><CountUp
+client:load
+  from={550}
+  to={totalSpeakerCount}
+  separator=","
+  direction="up"
+  delay={0.4}
+  duration={1}
+  className="count-up-speakers"
+/></div>
     </div>
   </a>
   <a href="/tags/" class="stat">
     <Icon name="fluent:tag-multiple-24-regular" />
     <div class="info">
       <div data-type="label">Tags</div>
-      <div data-type="count">{totalTagCount}</div>
+      <div data-type="count"><CountUp
+client:load
+  from={450}
+  to={totalTagCount}
+  separator=","
+  direction="up"
+  delay={0.8}
+  duration={1}
+  className="count-up-tag"
+/></div>
     </div>
   </a>
 </div>
@@ -91,3 +119,83 @@ const totalSpeakerCount = speakers.length;
     }
   }
 </style>
+
+    <script define:vars={{ postCount, totalTagCount, totalSpeakerCount }}>
+        // Cookie utility functions
+        const CookieManager = {
+            // Set a cookie with a name, value, and optional expiration days
+            set(name, value, days = 365) {
+                const expires = new Date();
+                expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+            },
+
+            // Get a cookie value by name
+            get(name) {
+                const nameEQ = name + "=";
+                const ca = document.cookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            },
+
+            // Delete a cookie by name
+            delete(name) {
+                document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+            },
+
+            // Get a number from cookie, return 0 if not found or invalid
+            getNumber(name) {
+                const value = this.get(name);
+                const number = parseInt(value);
+                return isNaN(number) ? 0 : number;
+            }
+        };
+
+        // Counter management
+        const Counters = {
+            init() {
+                // Load saved values from cookies
+                this.updateDisplay('video-count', CookieManager.getNumber('videoCount'));
+                this.updateDisplay('tag-count', CookieManager.getNumber('tagCount'));
+                this.updateDisplay('speaker-count', CookieManager.getNumber('speakerCount'));
+            },
+
+            updateDisplay(elementId, value) {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.textContent = value;
+                }
+            },
+
+            // Method to update counter values programmatically
+            updateCounter(counterName, value) {
+                CookieManager.set(counterName, value);
+                
+                // Update display based on counter name
+                const displayMap = {
+                    'videoCount': 'video-count',
+                    'tagCount': 'tag-count',
+                    'speakerCount': 'speaker-count'
+                };
+                
+                const displayId = displayMap[counterName];
+                if (displayId) {
+                    this.updateDisplay(displayId, value);
+                }
+            }
+        };
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            Counters.init();
+
+            Counters.updateCounter('videoCount', postCount);
+            Counters.updateCounter('tagCount', totalTagCount);  
+            Counters.updateCounter('speakerCount', totalSpeakerCount);
+        });
+
+    </script>
