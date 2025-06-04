@@ -1,0 +1,324 @@
+---
+import { Icon } from "astro-icon/components";
+import type { CollectionEntry } from "astro:content";
+import { repository } from "../../package.json";
+import FormattedDate from "../components/FormattedDate.astro";
+import Title from "../components/Title.astro";
+import { convertToSlug } from "../utils/convertToSlug";
+import { formatDuration } from "../utils/formatDuration";
+
+type Media = CollectionEntry<"podcast">;
+type Props = Media["data"] & { slug?: Media["slug"] };
+
+const {
+  title,
+  description,
+  publishedAt,
+  image,
+  duration,
+  audioUrl,
+  episodeUrl,
+  podcastTitle,
+  poster,
+  slug,
+  tags,
+  speakers,
+  categories,
+  season,
+  episode,
+} = Astro.props;
+---
+
+<article data-pagefind-body data-pagefind-sort>
+  <div class="hero-image" data-pagefind-meta={`image:${image?.src}`}>
+    <div class="audio-player-container">
+      <audio 
+        controls 
+        preload="metadata"
+        class="audio-embed"
+      >
+        <source src={audioUrl} type="audio/mpeg" />
+        <source src={audioUrl} type="audio/wav" />
+        <source src={audioUrl} type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+      {poster?.src && (
+        <div class="podcast-artwork">
+          <img src={poster.src} alt={`${podcastTitle} artwork`} />
+        </div>
+      )}
+    </div>
+    <div class="background" style={`background-image: url('${image?.src || poster?.src}')`}>
+    </div>
+  </div>
+  <Title data-pagefind-meta="title">{title}</Title>
+  <div class="content">
+    <div class="meta-data">
+      <span class="inline">
+        <Icon name="fluent:calendar-date-20-filled" size={20} />
+        <FormattedDate date={publishedAt} data-pagefind-sort="date" />
+      </span>
+      <span class="inline">
+        <Icon name="fluent:clock-20-filled" size={20} />
+        <span data-pagefind-sort="duration">
+          {formatDuration(duration)}
+        </span>
+      </span>
+      <span class="inline">
+        <Icon name="fluent:headphones-20-filled" size={20} />
+        <span>{podcastTitle}</span>
+      </span>
+      {(season && episode) && (
+        <span class="inline">
+          <Icon name="fluent:number-symbol-20-filled" size={20} />
+          <span>S{season}E{episode}</span>
+        </span>
+      )}
+      <span class="inline">
+        <Icon name="fluent:window-new-20-filled" size={20} />
+        <a href={episodeUrl || audioUrl} title={title}>Listen on platform</a>
+      </span>
+      <div class="break"></div>
+      <div class="tags">
+        <span><Icon name="fluent:tag-20-filled" size={20} />Tags</span>
+        {
+          tags?.map((tag) => (
+            <a
+              href={`/tags/${convertToSlug(tag)}/`}
+              class="tag"
+              data-pagefind-filter="tag"
+              data-pagefind-weight="5"
+            >
+              {tag}
+            </a>
+          ))
+        }
+      </div>
+      <div class="speakers">
+        <span><Icon name="fluent:person-20-filled" size={20} />Speakers</span>
+        {
+          speakers?.map((speaker) => (
+            <a
+              href={`/speakers/${convertToSlug(speaker)}/`}
+              class="speaker"
+              data-pagefind-filter="speaker"
+              data-pagefind-weight="5"
+            >
+              {speaker}
+            </a>
+          ))
+        }
+      </div>
+      <div class="break"></div>
+      <span class="inline">
+        <Icon name="fluent:edit-20-filled" size={20} />
+        <a
+          href={`${repository.url}/tree/main/src/content/podcast/${slug}/index.mdx`}
+          >Edit on GitHub</a
+        >
+      </span>
+    </div>
+    <div class="prose" data-pagefind-weight="3">
+      <slot />
+    </div>
+  </div>
+</article>
+
+<style>
+  .hero-image {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+    height: auto;
+    margin: -1.5rem -1.5rem 0rem -1.5rem;
+    min-height: 300px;
+  }
+  .hero-image .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    overflow: hidden;
+    animation: fadeIn 1.5s;
+  }
+  .hero-image .background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2.5rem);
+  }
+  .audio-player-container {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    min-height: 250px;
+    gap: 1.5rem;
+  }
+  .podcast-artwork {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  .podcast-artwork img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .audio-embed {
+    width: 100%;
+    max-width: 600px;
+    height: 54px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .audio-embed::-webkit-media-controls-panel {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  :global(.title) {
+    margin: 0 auto 1em;
+    padding: 2.5rem 0rem 0.5rem;
+    width: 100%;
+    max-width: 900px;
+  }
+  .prose {
+    margin: auto;
+    color: var(--body-text);
+    overflow-wrap: anywhere;
+  }
+  :global(.prose h1),
+  :global(.prose h2),
+  :global(.prose h3),
+  :global(.prose h4),
+  :global(.prose h5),
+  :global(.prose h6) {
+    font-size: 1em;
+  }
+  .meta-data {
+    color: var(--meta-data);
+    padding: 1rem 0em;
+    padding-left: 1.8rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--hr);
+    justify-content: baseline;
+  }
+  .meta-data a {
+    color: var(--meta-data-link);
+  }
+
+  .meta-data a:hover {
+    color: var(--accent-hover);
+  }
+  .meta-data span {
+    color: var(--meta-data);
+  }
+  .tags,
+  .speakers {
+    line-height: normal;
+    align-items: baseline;
+    margin-block-start: 0;
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    gap: 0.5em 0em;
+  }
+  .break {
+    display: none;
+  }
+  .meta-data [data-icon] {
+    margin-right: 0.25em;
+    position: absolute;
+    transform: translateX(-1.8rem);
+  }
+  .meta-data span.inline [data-icon] {
+    margin-top: 0.2em;
+  }
+  .content {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+    grid-template-columns: minmax(100px, 200px) 1fr;
+  }
+  @media screen and (max-width: 1024px) {
+    .hero-image {
+      max-height: 350px;
+      height: auto;
+      margin: 0;
+    }
+    .audio-player-container {
+      padding: 1.5rem;
+      min-height: 200px;
+    }
+    .podcast-artwork {
+      width: 150px;
+      height: 150px;
+    }
+    .audio-embed {
+      max-width: 100%;
+    }
+    :global(.title) {
+      padding: 2.5rem 1rem 0.5rem;
+    }
+    .meta-data {
+      padding-left: 0;
+      flex-direction: row;
+      gap: 0em 2rem;
+    }
+    .meta-data [data-icon] {
+      position: relative;
+      transform: translateX(0);
+    }
+    .tags,
+    .speakers {
+      display: inline-flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      line-height: normal;
+      gap: 0.25em 1em;
+      align-items: baseline;
+      margin-block-start: 0.5em;
+    }
+    .inline {
+      margin-block-start: 0.5em;
+    }
+    .break {
+      flex-basis: 100%;
+      height: 0;
+      display: block;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+</style>
