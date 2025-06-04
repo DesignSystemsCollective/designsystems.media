@@ -4,7 +4,12 @@ const axios = require("axios");
 const matter = require("gray-matter");
 
 const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
-const folderPath = path.join(__dirname, "../../src/content/media/");
+
+// Define your two hardcoded folder paths in an array
+const folderPaths = [
+  path.join(__dirname, "../../src/content/media/"),
+  path.join(__dirname, "../../src/content/podcasts"),
+];
 
 // Helper function to download an image with retries
 async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
@@ -14,14 +19,9 @@ async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
     console.log(`Downloaded: ${url}`);
   } catch (error) {
     if (retryCount < MAX_RETRY_COUNT) {
-      // console.error(`Error downloading ${url}: ${error.message}. Retrying...`);
-      // Introduce a delay before the next iteration to avoid rate limiting
-      await delay(500); // Delay for 1 second (adjust as needed)
-
+      await delay(500); // Delay for 500 milliseconds before retrying
       await downloadImageWithRetry(url, outputFilePath, retryCount + 1);
     } else {
-      // console.error(`Max retries reached for ${url}.`);
-      // Handle the case where max retries are reached (e.g., use fallback image)
       throw error;
     }
   }
@@ -44,8 +44,6 @@ function downloadImage(url, outputFilePath) {
 
 // Function to process the Markdown file with error handling and delays
 async function processMarkdownFile(filePath) {
-  // console.log(`Processing: ${filePath}`);
-
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
@@ -54,11 +52,8 @@ async function processMarkdownFile(filePath) {
     const imageOutputPath = path.join(path.dirname(filePath), imageFileName);
 
     try {
-      // console.log(`Downloading: ${data.image}`);
       await downloadImageWithRetry(data.image, imageOutputPath);
-      console.log(`Downloaded: ${data.image}`);
       data.image = `./${imageFileName}`;
-
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
       console.error(`Error downloading ${data.image}: ${err.message}`);
@@ -70,19 +65,15 @@ async function processMarkdownFile(filePath) {
     const posterOutputPath = path.join(path.dirname(filePath), posterFileName);
 
     try {
-      // console.log(`Downloading: ${data.poster}`);
       await downloadImageWithRetry(data.poster, posterOutputPath);
-      console.log(`Downloaded: ${data.poster}`);
       data.localImages = true;
       data.poster = `./${posterFileName}`;
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      // Use the fixed fallback image file path
       data.poster = `./hqdefault.jpg`; // Change this to your fallback poster image file path
       console.error(
         `Error downloading poster, manually set as: ${data.poster}`
       );
-
       data.localImages = true;
       updateMarkdownFile(filePath, data, content);
     }
@@ -101,7 +92,6 @@ function updateMarkdownFile(filePath, data, content) {
     .join("\n");
 
   const updatedMarkdown = `---\n${updatedFrontMatter}\n---\n${content}`;
-
   fs.writeFileSync(filePath, updatedMarkdown);
 }
 
@@ -121,4 +111,8 @@ function processMarkdownFiles(directory) {
   });
 }
 
-processMarkdownFiles(folderPath);
+// Loop through each hardcoded folder path and process files
+folderPaths.forEach((folderPath) => {
+  console.log(`Processing files in: ${folderPath}`);
+  processMarkdownFiles(folderPath);
+});
