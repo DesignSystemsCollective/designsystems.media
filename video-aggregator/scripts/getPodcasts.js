@@ -156,7 +156,7 @@ async function main() {
             continue;
           }
 
-          generateMdxFile(episode, folderPath);
+          generateMdxFile(episode, folderPath, source.speakers);
           allEpisodes.push(episode);
         }
       } else if (source.type === "podcast-search") {
@@ -187,7 +187,7 @@ async function main() {
             continue;
           }
 
-          generateMdxFile(episode, folderPath);
+          generateMdxFile(episode, folderPath, source.speakers);
           allEpisodes.push(episode);
         }
       } else if (source.type === "trending") {
