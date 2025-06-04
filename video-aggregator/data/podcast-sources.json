@@ -32,6 +32,11 @@
    {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/2271174.rss",
-    "title": "Design Systems: Beyond The Button "
+    "title": "Design Systems: Beyond The Button"
+  },
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/2313625.rss",
+    "title": "Back to School with Amy Hupe and Geri Reid"
   }
 ]
