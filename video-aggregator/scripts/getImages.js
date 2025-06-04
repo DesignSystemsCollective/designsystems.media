@@ -47,40 +47,59 @@ async function processMarkdownFile(filePath) {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
-  // Define the desired new filename
-  const newFileName = "poster.jpg";
-
-  if (data.image && data.localImages === false) {
-    // Construct the output path with the new desired filename
-    const imageOutputPath = path.join(path.dirname(filePath), newFileName);
-
-    try {
-      await downloadImageWithRetry(data.image, imageOutputPath);
-      // Update the markdown file's front matter to reflect the new local path
-      data.image = `./${newFileName}`;
-      updateMarkdownFile(filePath, data, content);
-    } catch (err) {
-      console.error(`Error downloading ${data.image}: ${err.message}`);
-    }
+  // If localImages is already true, skip downloading.
+  if (data.localImages === true) {
+    return;
   }
 
-  if (data.poster && data.localImages === false) {
-    // Construct the output path with the new desired filename
-    const posterOutputPath = path.join(path.dirname(filePath), newFileName);
+  // Define the desired new filename for the downloaded image
+  const newPosterFileName = "poster.jpg";
+  const posterOutputPath = path.join(path.dirname(filePath), newPosterFileName);
 
+  // Check if data.poster exists and localImages is false
+  if (data.poster) {
     try {
+      console.log(`Attempting to download poster: ${data.poster}`);
       await downloadImageWithRetry(data.poster, posterOutputPath);
-      data.localImages = true;
-      // Update the markdown file's front matter to reflect the new local path
-      data.poster = `./${newFileName}`;
+      console.log(`Successfully downloaded poster: ${data.poster}`);
+
+      // Update both 'image' and 'poster' to point to the newly downloaded 'poster.jpg'
+      data.image = `./${newPosterFileName}`;
+      data.poster = `./${newPosterFileName}`;
+      data.localImages = true; // Mark as locally handled
+
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      data.poster = `./hqdefault.jpg`; // Fallback in case of download error
+      // Fallback in case of download error for poster
+      data.image = `./hqdefault.jpg`; // You might also want a specific fallback for 'image'
+      data.poster = `./hqdefault.jpg`;
       console.error(
-        `Error downloading poster, manually set as: ${data.poster}`
+        `Error downloading poster image "${data.poster}": ${err.message}. Manually set as: ${data.poster}`
       );
-      data.localImages = true;
+      data.localImages = true; // Still mark as local even if using fallback
       updateMarkdownFile(filePath, data, content);
+    }
+  } else {
+    // If data.poster doesn't exist but data.image does, we can still attempt to download 'image'
+    // and rename it to poster.jpg, then set both to that.
+    if (data.image) {
+      try {
+        console.log(`Poster not found, attempting to download image as poster: ${data.image}`);
+        await downloadImageWithRetry(data.image, posterOutputPath);
+        console.log(`Successfully downloaded image as poster: ${data.image}`);
+
+        data.image = `./${newPosterFileName}`;
+        data.poster = `./${newPosterFileName}`;
+        data.localImages = true;
+        updateMarkdownFile(filePath, data, content);
+      } catch (err) {
+        console.error(`Error downloading image for poster fallback "${data.image}": ${err.message}.`);
+        // Fallback for both if image download also fails
+        data.image = `./hqdefault.jpg`;
+        data.poster = `./hqdefault.jpg`;
+        data.localImages = true;
+        updateMarkdownFile(filePath, data, content);
+      }
     }
   }
 }
