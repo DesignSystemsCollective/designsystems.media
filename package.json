@@ -10,6 +10,7 @@
   },
   "scripts": {
     "videos": "node video-aggregator/scripts/getVideos.js",
+    "podcasts": "node video-aggregator/scripts/getPodcasts.js",
     "images": "node video-aggregator/scripts/getImages.js",
     "aggregate": "npm run videos && npm run images",
     "dev": "astro dev",
