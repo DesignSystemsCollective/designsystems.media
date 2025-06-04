@@ -1,6 +1,7 @@
 // podcast.js
 const he = require("he");
 const axios = require("axios");
+const crypto = require('crypto'); // Ensure crypto is imported here
 
 // Podcast Index API credentials (you'll need to get these from https://podcastindex.org/)
 const API_KEY = process.env.PODCAST_API_KEY;
@@ -25,7 +26,7 @@ function formatDuration(durationInSeconds) {
   return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
-// Function to get podcast artwork URL
+// Function to get podcast artwork URL (already good, but keeping for completeness)
 function getPodcastArtwork(feed) {
   // Try to get the highest quality artwork available
   if (feed.artwork) {
@@ -39,8 +40,7 @@ function getPodcastArtwork(feed) {
 // Function to generate podcast API headers
 function generateApiHeaders() {
   const apiHeaderTime = Math.floor(Date.now() / 1000);
-  const crypto = require('crypto');
-  
+
   const sha1Algorithm = "sha1";
   const sha1Hash = crypto.createHash(sha1Algorithm);
   const data4Hash = API_KEY + API_SECRET + apiHeaderTime;
@@ -51,7 +51,7 @@ function generateApiHeaders() {
     'X-Auth-Date': apiHeaderTime.toString(),
     'X-Auth-Key': API_KEY,
     'Authorization': hash4Header,
-    'User-Agent': 'YourAppName/1.0'
+    'User-Agent': 'YourAppName/1.0' // Consider using a more specific User-Agent
   };
 }
 
@@ -59,7 +59,7 @@ function generateApiHeaders() {
 async function getPodcastByFeedUrl(feedUrl, importedPodcastData = []) {
   try {
     const headers = generateApiHeaders();
-    
+
     const response = await axios.get('https://api.podcastindex.org/api/1.0/podcasts/byfeedurl', {
       headers,
       params: {
@@ -84,7 +84,7 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
   try {
     const episodes = [];
     const headers = generateApiHeaders();
-    
+
     // Get episodes from the feed
     const response = await axios.get('https://api.podcastindex.org/api/1.0/episodes/byfeedid', {
       headers,
@@ -96,6 +96,8 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
     });
 
     if (response.data && response.data.items) {
+      const podcastMainImageUrl = getPodcastArtwork(feedInfo); // Get the main podcast artwork once
+
       for (const episode of response.data.items) {
         const episodeUrl = episode.enclosureUrl || episode.link;
 
@@ -109,6 +111,11 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
           continue;
         }
 
+        // --- MODIFICATION START ---
+        // Determine the episode's image URL, falling back to the podcast's main image
+        const episodeSpecificImageUrl = episode.image || null; // This is the image specific to the episode
+        const finalEpisodeImageUrl = episodeSpecificImageUrl || podcastMainImageUrl; // Fallback logic for the 'image' field
+
         const episodeData = {
           title: replaceQuotesWithFancyQuotes(he.decode(episode.title || '')),
           description: episode.description || '',
@@ -118,13 +125,12 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
           publishedAt: new Date(episode.datePublished * 1000).toISOString(),
           duration: formatDuration(episode.duration || 0),
           durationSeconds: episode.duration || 0,
-          thumbnails: {
-            high: {
-              url: episode.image || (feedInfo ? feedInfo.artwork : '') || ''
-            },
-            maxres: {
-              url: episode.image || (feedInfo ? feedInfo.artwork : '') || ''
-            }
+          // New image fields for explicit handling
+          episodeImageUrl: finalEpisodeImageUrl, // This is the image chosen for the episode (episode specific or podcast fallback)
+          podcastImageUrl: podcastMainImageUrl, // This is always the main podcast artwork
+          thumbnails: { // Keeping existing structure for compatibility if other parts of your code use it
+            high: { url: finalEpisodeImageUrl },
+            maxres: { url: podcastMainImageUrl || finalEpisodeImageUrl } // maxres usually points to the best quality, which is often the podcast art
           },
           feedUrl: feedInfo ? feedInfo.url : '',
           feedId: feedId,
@@ -135,6 +141,7 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
           explicit: episode.explicit || false,
           type: episode.episodeType || 'full'
         };
+        // --- MODIFICATION END ---
 
         episodes.push(episodeData);
       }
@@ -151,7 +158,7 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
 async function searchPodcastByTitle(title, importedPodcastData = []) {
   try {
     const headers = generateApiHeaders();
-    
+
     const response = await axios.get('https://api.podcastindex.org/api/1.0/search/byterm', {
       headers,
       params: {
@@ -178,7 +185,7 @@ async function searchPodcastByTitle(title, importedPodcastData = []) {
 async function getTrendingPodcasts(importedPodcastData = [], max = 10) {
   try {
     const headers = generateApiHeaders();
-    
+
     const response = await axios.get('https://api.podcastindex.org/api/1.0/podcasts/trending', {
       headers,
       params: {
