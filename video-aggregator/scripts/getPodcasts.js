@@ -21,7 +21,7 @@ if (fs.existsSync(outputFilename)) {
 }
 
 // Function to generate an MDX file with podcast data
-function generateMdxFile(episode, folderPath) {
+function generateMdxFile(episode, folderPath, predefinedSpeakers = null) {
   const thumbnailUrl = episode.thumbnails.high.url;
   const posterUrl = getPosterUrl(episode.thumbnails);
 
@@ -30,6 +30,11 @@ function generateMdxFile(episode, folderPath) {
   const audioUrl = episode.audioUrl;
   const episodeDescription = episode.description;
   const podcastTitle = episode.podcastTitle;
+
+  // Use predefined speakers if available, otherwise fall back to podcast title
+  const speakers = predefinedSpeakers && predefinedSpeakers.length > 0 
+    ? predefinedSpeakers 
+    : [podcastTitle || "Unsorted"];
 
   const today = new Date();
   const year = today.getFullYear();
@@ -69,6 +74,9 @@ function generateMdxFile(episode, folderPath) {
     return;
   }
 
+  // Format speakers array for YAML
+  const speakersYaml = speakers.map(speaker => `"${speaker}"`).join(', ');
+
   // Write the frontmatter and description to the index.mdx file
   fs.writeFileSync(
     indexPath,
@@ -87,7 +95,7 @@ categories: ["Podcast"]
 duration: "${episode.duration}"
 durationSeconds: ${episode.durationSeconds}
 draft: true
-speakers: ["${podcastTitle}"]
+speakers: [${speakersYaml}]
 type: "podcast"
 season: ${episode.season || 'null'}
 episode: ${episode.episode || 'null'}
@@ -217,7 +225,7 @@ async function main() {
             continue;
           }
 
-          generateMdxFile(episode, folderPath);
+          generateMdxFile(episode, folderPath, source.speakers);
           allEpisodes.push(episode);
         }
       }
