@@ -2,41 +2,49 @@
   {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/2254397.rss",
-    "title": "Design Systems WTF"
+    "title": "Design Systems WTF",
+    "speakers": ["Michelle Chin","Luke Murphy"]
   },
    {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/2417527.rss",
-    "title": "On Theme: Design Systems in Depth"
+    "title": "On Theme: Design Systems in Depth",
+    "speakers": ["Elyse Holladay"]
   },
    {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/887923.rss",
-    "title": "Design Systems Podcast"
+    "title": "Design Systems Podcast",
+    "speakers": ["Chris Strahl"]
   },
    {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/2333032.rss",
-    "title": "Design Systems Rodeo"
+    "title": "Design Systems Rodeo",
+    "speakers": ["Kevin Muldoon"]
   },
    {
     "type": "podcast-feed",
     "url": "https://feeds.acast.com/public/shows/65f24d162d60f00016446604",
-    "title": "Wireframe.fm by Design Systems House "
+    "title": "Wireframe.fm by Design Systems House",
+    "speakers": ["Donnie D'Amato"]
   },
    {
     "type": "podcast-feed",
     "url": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
-    "title": "Design System Office Hours"
+    "title": "Design System Office Hours",
+    "speakers": ["Davy Fung", "PJ Onori"]
   },
    {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/2271174.rss",
-    "title": "Design Systems: Beyond The Button"
+    "title": "Design Systems: Beyond The Button",
+    "speakers": ["Michelle Chin", "Nef Dukes"]
   },
    {
     "type": "podcast-feed",
     "url": "https://feeds.buzzsprout.com/2313625.rss",
-    "title": "Back to School with Amy Hupe and Geri Reid"
+    "title": "Back to School with Amy Hupe and Geri Reid",
+    "speakers": ["Amy Hupe","Geri Reid"]
   }
 ]
