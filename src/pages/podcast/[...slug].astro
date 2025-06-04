@@ -29,7 +29,7 @@ const headProps = {
     ).toString(),
     uploadDate: new Date(post.data.publishedAt).toISOString(),
     duration: convertToISO8601Duration(post.data.duration),
-    embedUrl: post.data.videoUrl ?? "",
+    embedUrl: post.data.episodeUrl ?? "",
     actor: post.data.speakers?.[0],
   },
 };
