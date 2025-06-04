@@ -47,13 +47,17 @@ async function processMarkdownFile(filePath) {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
+  // Define the desired new filename
+  const newFileName = "poster.jpg";
+
   if (data.image && data.localImages === false) {
-    const imageFileName = path.basename(data.image);
-    const imageOutputPath = path.join(path.dirname(filePath), imageFileName);
+    // Construct the output path with the new desired filename
+    const imageOutputPath = path.join(path.dirname(filePath), newFileName);
 
     try {
       await downloadImageWithRetry(data.image, imageOutputPath);
-      data.image = `./${imageFileName}`;
+      // Update the markdown file's front matter to reflect the new local path
+      data.image = `./${newFileName}`;
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
       console.error(`Error downloading ${data.image}: ${err.message}`);
@@ -61,16 +65,17 @@ async function processMarkdownFile(filePath) {
   }
 
   if (data.poster && data.localImages === false) {
-    const posterFileName = path.basename(data.poster);
-    const posterOutputPath = path.join(path.dirname(filePath), posterFileName);
+    // Construct the output path with the new desired filename
+    const posterOutputPath = path.join(path.dirname(filePath), newFileName);
 
     try {
       await downloadImageWithRetry(data.poster, posterOutputPath);
       data.localImages = true;
-      data.poster = `./${posterFileName}`;
+      // Update the markdown file's front matter to reflect the new local path
+      data.poster = `./${newFileName}`;
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      data.poster = `./hqdefault.jpg`; // Change this to your fallback poster image file path
+      data.poster = `./hqdefault.jpg`; // Fallback in case of download error
       console.error(
         `Error downloading poster, manually set as: ${data.poster}`
       );
