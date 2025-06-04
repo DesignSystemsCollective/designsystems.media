@@ -12,7 +12,7 @@ const {
 const sourcesData = require(path.join(__dirname, "../data/podcast-sources.json"));
 const podcastsToIgnore = require(path.join(__dirname, "../data/podcast-ignore.json"));
 const outputFilename = path.join(__dirname, "../data/podcast-output.json");
-const outputDir = path.join(__dirname, "../../src/content/podcasts/");
+const outputDir = path.join(__dirname, "../../src/content/podcast/");
 
 // Initialize Turndown service for HTML to Markdown conversion
 const turndownService = new TurndownService({

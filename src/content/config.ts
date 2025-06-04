@@ -44,8 +44,8 @@ const podcastCollection = defineCollection({
       podcastTitle: z.string(),
       
       // Episode metadata
-      season: z.number().optional(),
-      episode: z.number().optional(),
+      season: z.number().nullable().optional(),
+      episode: z.number().nullable().optional(),
       explicit: z.union([z.boolean(), z.number()]).optional(),
       
       // RSS and identification
