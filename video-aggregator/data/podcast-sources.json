@@ -1,10 +1,22 @@
 [
   {
-    "type": "podcast-feed",
-    "url": "https://feeds.simplecast.com/BqbsxVfO"
+    "type": "podcast-search",
+    "term": "Design System Office Hours"
   },
   {
     "type": "podcast-search",
-    "term": "Design System Office Hours"
+    "term": "Design System Podcast"
+  },
+  {
+    "type": "podcast-search",
+    "term": "On Theme: Design Systems in Depth"
+  },
+  {
+    "type": "podcast-search",
+    "term": "Design System WTF"
+  },
+  {
+    "type": "podcast-search",
+    "term": "Design Systems Rodeo"
   }
 ]
