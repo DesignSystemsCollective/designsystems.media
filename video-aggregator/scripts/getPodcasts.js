@@ -2,6 +2,7 @@ require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
+const TurndownService = require('turndown');
 const {
   getPodcastByFeedUrl,
   searchPodcastByTitle,
@@ -13,11 +14,62 @@ const podcastsToIgnore = require(path.join(__dirname, "../data/podcast-ignore.js
 const outputFilename = path.join(__dirname, "../data/podcast-output.json");
 const outputDir = path.join(__dirname, "../../src/content/podcasts/");
 
+// Initialize Turndown service for HTML to Markdown conversion
+const turndownService = new TurndownService({
+  headingStyle: 'atx',
+  hr: '---',
+  bulletListMarker: '-',
+  codeBlockStyle: 'fenced',
+  fence: '```'
+});
+
+// Optional: Add custom rules for better conversion
+turndownService.addRule('removeEmptyParagraphs', {
+  filter: function (node) {
+    return node.nodeName === 'P' && node.innerHTML.trim() === '';
+  },
+  replacement: function () {
+    return '';
+  }
+});
+
 // Load previously imported podcast data from output.json if it exists
 let importedPodcastData = [];
 
 if (fs.existsSync(outputFilename)) {
   importedPodcastData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
+}
+
+// Function to convert HTML description to clean markdown
+function convertDescriptionToMarkdown(htmlDescription) {
+  if (!htmlDescription || typeof htmlDescription !== 'string') {
+    return '';
+  }
+  
+  try {
+    // Convert HTML to markdown
+    let markdown = turndownService.turndown(htmlDescription);
+    
+    // Clean up common issues
+    markdown = markdown
+      // Remove excessive line breaks
+      .replace(/\n\s*\n\s*\n/g, '\n\n')
+      // Clean up any remaining HTML entities
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      // Trim whitespace
+      .trim();
+    
+    return markdown;
+  } catch (error) {
+    console.warn('Error converting HTML to markdown:', error.message);
+    // Fallback: strip HTML tags and return plain text
+    return htmlDescription.replace(/<[^>]*>/g, '').trim();
+  }
 }
 
 // Function to generate an MDX file with podcast data
@@ -28,7 +80,10 @@ function generateMdxFile(episode, folderPath, predefinedSpeakers = null) {
   const episodeTitle = episode.title;
   const episodeUrl = episode.episodeUrl;
   const audioUrl = episode.audioUrl;
-  const episodeDescription = episode.description;
+  
+  // Convert HTML description to markdown
+  const episodeDescription = convertDescriptionToMarkdown(episode.description);
+  
   const podcastTitle = episode.podcastTitle;
 
   // Use predefined speakers if available, otherwise fall back to podcast title
