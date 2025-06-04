@@ -8,7 +8,7 @@ const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
 // Define your two hardcoded folder paths in an array
 const folderPaths = [
   path.join(__dirname, "../../src/content/media/"),
-  path.join(__dirname, "../../src/content/podcasts"),
+  path.join(__dirname, "../../src/content/podcast/"),
 ];
 
 // Helper function to download an image with retries
