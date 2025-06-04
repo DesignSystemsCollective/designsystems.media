@@ -1,22 +1,37 @@
 [
   {
-    "type": "podcast-search",
-    "term": "Design System Office Hours"
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/2254397.rss",
+    "title": "Design Systems WTF"
   },
-  {
-    "type": "podcast-search",
-    "term": "Design System Podcast"
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/2417527.rss",
+    "title": "On Theme: Design Systems in Depth"
   },
-  {
-    "type": "podcast-search",
-    "term": "On Theme: Design Systems in Depth"
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/887923.rss",
+    "title": "Design Systems Podcast"
   },
-  {
-    "type": "podcast-search",
-    "term": "Design System WTF"
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/2333032.rss",
+    "title": "Design Systems Rodeo"
   },
-  {
-    "type": "podcast-search",
-    "term": "Design Systems Rodeo"
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.acast.com/public/shows/65f24d162d60f00016446604",
+    "title": "Wireframe.fm by Design Systems House "
+  },
+   {
+    "type": "podcast-feed",
+    "url": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "title": "Design System Office Hours"
+  },
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/2271174.rss",
+    "title": "Design Systems: Beyond The Button "
   }
 ]
