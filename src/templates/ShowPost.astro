@@ -1,0 +1,258 @@
+---
+import { Icon } from "astro-icon/components";
+import type { CollectionEntry } from "astro:content";
+import { repository } from "../../package.json";
+import Title from "../components/Title.astro";
+import { convertToSlug } from "../utils/convertToSlug";
+import { getCollection } from 'astro:content';
+import { Image } from "astro:assets";
+
+type Media = CollectionEntry<"show">;
+type Props = Media["data"] & { slug?: Media["slug"] };
+
+const {
+  title,
+  image,
+  slug,
+  speakers,
+  episodeCount,
+  explicit
+} = Astro.props;
+
+// Get episodes for this show
+const episodes = await getCollection('podcast', ({ data }) => {
+  return data.showSlug === slug;
+});
+
+// Sort episodes by published date (newest first)
+episodes.sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime());
+
+---
+
+<article data-pagefind-body data-pagefind-sort>
+  <div class="hero-image" data-pagefind-meta={`image:${image?.src}`} >
+    <img src={image?.src} alt={title} />
+    <div class="background" style={`background-image: url('${image?.src}')`}>
+      
+    </div>
+  </div>
+  <Title data-pagefind-meta="title">{title}</Title>
+  <div class="content">
+    <div class="meta-data">
+      <div class="inline">
+        <Icon name="fluent:calendar-date-20-filled" size={20} /> {episodeCount} episodes</div>
+        {explicit && <span class="explicit">Explicit</span>}
+      <div class="break"></div>
+      
+      <div class="speakers">
+        <span><Icon name="fluent:person-20-filled" size={20} />Speakers</span>
+        {
+          speakers?.map((speaker) => (
+            <a
+              href={`/speakers/${convertToSlug(speaker)}/`}
+              class="speaker"
+              data-pagefind-filter="speaker"
+              data-pagefind-weight="5"
+            >
+              {speaker}
+            </a>
+          ))
+        }
+      </div>
+      <div class="break"></div>
+      <span class="inline">
+        <Icon name="fluent:edit-20-filled" size={20} />
+        <a
+          href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}
+          >Edit on GitHub</a
+        >
+      </span>
+    </div>
+    <div class="prose" data-pagefind-weight="3">
+      <slot />
+       <div class="episodes">
+      <h2>Episodes</h2>
+      {episodes.map((episode) => (
+        <div class="episode-card">
+          <div class="episode-info">
+            <h3><a href={`/podcast/${episode.slug}/`}>{episode.data.title}</a></h3>
+            <div>Published: {new Date(episode.data.publishedAt).toLocaleDateString()}</div>
+            <div>Duration: {episode.data.duration}</div>
+            {episode.data.season && <p>Season {episode.data.season}</p>}
+            {episode.data.episode && <p>Episode {episode.data.episode}</p>}
+          </div>
+        </div>
+      ))}
+    </div>
+    </div>
+    
+  </div>
+</article>
+
+<style>
+  .hero-image {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+    height: auto;
+    margin: -1.5rem -1.5rem 0rem -1.5rem;
+    padding: 0rem;
+    text-align: center;
+  }
+  .hero-image img {
+    max-width: 400px;
+    height: auto;
+    z-index: 10;
+    position: relative;
+    margin: 2rem;
+  }
+  .hero-image .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    overflow: hidden;
+    animation: fadeIn 1.5s;
+  }
+  .hero-image .background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(2.5rem);
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  :global(.title) {
+    margin: 0 auto 1em;
+    padding: 2.5rem 0rem 0.5rem;
+    width: 100%;
+    max-width: 900px;
+  }
+  .prose {
+    margin: auto;
+    color: var(--body-text);
+    overflow-wrap: anywhere;
+  }
+  :global(.prose h1),
+  :global(.prose h2),
+  :global(.prose h3),
+  :global(.prose h4),
+  :global(.prose h5),
+  :global(.prose h6) {
+    font-size: 1em;
+  }
+  .meta-data {
+    color: var(--meta-data);
+    padding: 1rem 0em;
+    padding-left: 1.8rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--hr);
+    justify-content: baseline;
+  }
+  .meta-data a {
+    color: var(--meta-data-link);
+  }
+
+  .meta-data a:hover {
+    color: var(--accent-hover);
+  }
+  .meta-data span {
+    color: var(--meta-data);
+  }
+  .tags,
+  .speakers {
+    line-height: normal;
+    align-items: baseline;
+    margin-block-start: 0;
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    gap: 0.5em 0em;
+  }
+  .break {
+    display: none;
+  }
+  .meta-data [data-icon] {
+    margin-right: 0.25em;
+    position: absolute;
+    transform: translateX(-1.8rem);
+  }
+  .meta-data span.inline [data-icon] {
+    margin-top: 0.2em;
+  }
+  .content {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+    grid-template-columns: minmax(100px, 200px) 1fr;
+  }
+  @media screen and (max-width: 1024px) {
+    .hero-image {
+      max-height: 405px;
+      height: auto;
+      margin: 0;
+    }
+    .hero-image .video-embed {
+      width: 100%;
+      max-width: 720px;
+    }
+    :global(.title) {
+      padding: 2.5rem 1rem 0.5rem;
+    }
+    .meta-data {
+      padding-left: 0;
+      flex-direction: row;
+      gap: 0em 2rem;
+    }
+    .meta-data [data-icon] {
+      position: relative;
+      transform: translateX(0);
+    }
+    .tags,
+    .speakers {
+      display: inline-flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      line-height: normal;
+      gap: 0.25em 1em;
+      align-items: baseline;
+      margin-block-start: 0.5em;
+    }
+    .inline {
+      margin-block-start: 0.5em;
+    }
+    .break {
+      flex-basis: 100%;
+      height: 0;
+      display: block;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+</style>
