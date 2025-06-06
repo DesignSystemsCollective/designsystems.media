@@ -3,6 +3,9 @@ import { isDurationOneMinuteOrUnder } from "./isDurationOneMinuteOrUnder";
 
 export const allPosts = await getCollection("media");
 
+export const allShows = await getCollection("show");
+export const allPodcasts = await getCollection("podcast");
+
 export const allPostsFilteredAndSorted = allPosts
   .filter((post) => {
     return !post.data.draft && !isDurationOneMinuteOrUnder(post.data.duration);
@@ -26,3 +29,31 @@ export const postsWithSpeakers = allPostsFilteredAndSorted.filter((post) => {
 export const speakers = [
   ...new Set(postsWithSpeakers.flatMap((post) => post.data.speakers)),
 ].sort();
+
+export async function getEpisodesByShow(showSlug) {
+  const episodes = await getCollection('podcast', ({ data }) => {
+    return data.showSlug === showSlug && !data.draft;
+  });
+  
+  return episodes.sort((a, b) => 
+    new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime()
+  );
+}
+
+export async function getRecentEpisodes(limit = 10) {
+  const episodes = await getCollection('podcast', ({ data }) => {
+    return !data.draft;
+  });
+  
+  return episodes
+    .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime())
+    .slice(0, limit);
+}
+
+export async function getShowBySlug(slug) {
+  const shows = await getCollection('show', ({ slug: showSlug }) => {
+    return showSlug === slug;
+  });
+  
+  return shows[0] || null;
+}

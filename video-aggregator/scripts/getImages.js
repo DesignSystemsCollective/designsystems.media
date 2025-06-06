@@ -5,10 +5,11 @@ const matter = require("gray-matter");
 
 const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
 
-// Define your two hardcoded folder paths in an array
+// Define your folder paths
 const folderPaths = [
   path.join(__dirname, "../../src/content/media/"),
   path.join(__dirname, "../../src/content/podcast/"),
+  path.join(__dirname, "../../src/content/show/"), // New show folder
 ];
 
 // Helper function to download an image with retries
@@ -42,11 +43,114 @@ function downloadImage(url, outputFilePath) {
   });
 }
 
-// Function to process the Markdown file with error handling and delays
+// Function to process show Markdown files
+async function processShowMarkdownFile(filePath) {
+  const markdownContent = fs.readFileSync(filePath, "utf8");
+  const { data, content } = matter(markdownContent);
+
+  // If localImages is already true, skip downloading.
+  if (data.localImages === true) {
+    return;
+  }
+
+  // Define the desired new filename for the downloaded image
+  const newPosterFileName = "poster.jpg";
+  const posterOutputPath = path.join(path.dirname(filePath), newPosterFileName);
+
+  // Check if data.image exists and localImages is false
+  if (data.image) {
+    try {
+      console.log(`Attempting to download show image: ${data.image}`);
+      await downloadImageWithRetry(data.image, posterOutputPath);
+      console.log(`Successfully downloaded show image: ${data.image}`);
+
+      // Update image reference to local file
+      data.image = `./${newPosterFileName}`;
+      data.localImages = true; // Mark as locally handled
+
+      updateMarkdownFile(filePath, data, content);
+    } catch (err) {
+      // Fallback in case of download error
+      data.image = `./hqdefault.jpg`;
+      console.error(
+        `Error downloading show image "${data.image}": ${err.message}. Manually set as: ${data.image}`
+      );
+      data.localImages = true; // Still mark as local even if using fallback
+      updateMarkdownFile(filePath, data, content);
+    }
+  }
+}
+
+// Function to process episode Markdown files
+async function processEpisodeMarkdownFile(filePath) {
+  const markdownContent = fs.readFileSync(filePath, "utf8");
+  const { data, content } = matter(markdownContent);
+
+  // If localImages is already true, skip processing.
+  if (data.localImages === true) {
+    return;
+  }
+
+  // Check if this episode has a custom episode image
+  if (data.hasEpisodeImage && data.image && !data.image.startsWith('../show/')) {
+    // This episode has its own custom image, download it
+    const newPosterFileName = "poster.jpg";
+    const posterOutputPath = path.join(path.dirname(filePath), newPosterFileName);
+
+    try {
+      console.log(`Attempting to download episode-specific image: ${data.image}`);
+      await downloadImageWithRetry(data.image, posterOutputPath);
+      console.log(`Successfully downloaded episode-specific image: ${data.image}`);
+
+      // Update image reference to local file
+      data.image = `./${newPosterFileName}`;
+      data.localImages = true;
+
+      updateMarkdownFile(filePath, data, content);
+    } catch (err) {
+      // Fallback to show image reference if episode image download fails
+      console.error(`Error downloading episode image "${data.image}": ${err.message}. Falling back to show image.`);
+      
+      if (data.showSlug) {
+        data.image = `../show/${data.showSlug}/poster.jpg`;
+      } else {
+        data.image = `./hqdefault.jpg`;
+      }
+      
+      data.localImages = true;
+      data.hasEpisodeImage = false; // Mark that we're not using episode-specific image
+      updateMarkdownFile(filePath, data, content);
+    }
+  } else {
+    // This episode uses show image or already has correct reference
+    // Just mark as processed if it references a show image
+    if (data.image && (data.image.startsWith('../show/') || data.showSlug)) {
+      data.localImages = true;
+      
+      // Ensure the image path is correctly formatted
+      if (data.showSlug && !data.image.startsWith('../show/')) {
+        data.image = `../show/${data.showSlug}/poster.jpg`;
+      }
+      
+      updateMarkdownFile(filePath, data, content);
+      console.log(`Episode references show image: ${data.image}`);
+    }
+  }
+}
+
+// Function to process the Markdown file with error handling and delays (legacy support)
 async function processMarkdownFile(filePath) {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
+  // Check if this is a show or episode based on type field or path
+  if (data.type === "show" || filePath.includes("/show/")) {
+    return await processShowMarkdownFile(filePath);
+  } else if (data.type === "podcast" || filePath.includes("/podcast/")) {
+    return await processEpisodeMarkdownFile(filePath);
+  }
+
+  // Legacy processing for files without type specified
   // If localImages is already true, skip downloading.
   if (data.localImages === true) {
     return;
@@ -120,23 +224,50 @@ function updateMarkdownFile(filePath, data, content) {
 }
 
 // Function to recursively process Markdown files in a directory
-function processMarkdownFiles(directory) {
+async function processMarkdownFiles(directory) {
   const files = fs.readdirSync(directory);
 
-  files.forEach((file) => {
+  for (const file of files) {
     const filePath = path.join(directory, file);
     const stats = fs.statSync(filePath);
 
     if (stats.isDirectory()) {
-      processMarkdownFiles(filePath);
+      await processMarkdownFiles(filePath);
     } else if (path.extname(file) === ".mdx") {
-      processMarkdownFile(filePath);
+      await processMarkdownFile(filePath);
     }
-  });
+  }
 }
 
-// Loop through each hardcoded folder path and process files
-folderPaths.forEach((folderPath) => {
-  console.log(`Processing files in: ${folderPath}`);
-  processMarkdownFiles(folderPath);
-});
+// Process shows first, then episodes
+async function processInOrder() {
+  console.log("Processing show images first...");
+  const showsPath = path.join(__dirname, "../../src/content/show/");
+  if (fs.existsSync(showsPath)) {
+    await processMarkdownFiles(showsPath);
+  }
+
+  // Add a delay to ensure show images are processed before episodes
+  await delay(1000);
+
+  console.log("Processing episode images...");
+  const episodesPath = path.join(__dirname, "../../src/content/podcast/");
+  if (fs.existsSync(episodesPath)) {
+    await processMarkdownFiles(episodesPath);
+  }
+
+  // Process other folders
+  for (const folderPath of folderPaths) {
+    if (folderPath.includes("/show/") || folderPath.includes("/podcast/")) {
+      continue; // Already processed above
+    }
+    
+    if (fs.existsSync(folderPath)) {
+      console.log(`Processing files in: ${folderPath}`);
+      await processMarkdownFiles(folderPath);
+    }
+  }
+}
+
+// Run the processing in order
+processInOrder().catch(console.error);

@@ -69,13 +69,18 @@ async function getPodcastByFeedUrl(feedUrl, importedPodcastData = []) {
 
     if (response.data && response.data.feed) {
       const feed = response.data.feed;
-      return await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
+      const episodes = await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
+      
+      return {
+        episodes: episodes,
+        showData: feed
+      };
     }
 
-    return [];
+    return { episodes: [], showData: null };
   } catch (error) {
     console.error(`Error retrieving podcast by feed URL ${feedUrl}:`, error.message);
-    return [];
+    return { episodes: [], showData: null };
   }
 }
 
@@ -111,7 +116,6 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
           continue;
         }
 
-        // --- MODIFICATION START ---
         // Determine the episode's image URL, falling back to the podcast's main image
         const episodeSpecificImageUrl = episode.image || null; // This is the image specific to the episode
         const finalEpisodeImageUrl = episodeSpecificImageUrl || podcastMainImageUrl; // Fallback logic for the 'image' field
@@ -126,8 +130,8 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
           duration: formatDuration(episode.duration || 0),
           durationSeconds: episode.duration || 0,
           // New image fields for explicit handling
-          episodeImageUrl: finalEpisodeImageUrl, // This is the image chosen for the episode (episode specific or podcast fallback)
-          podcastImageUrl: podcastMainImageUrl, // This is always the main podcast artwork
+          episodeImageUrl: episodeSpecificImageUrl, // Only episode-specific image or null
+          podcastImageUrl: podcastMainImageUrl, // Always the main podcast artwork
           thumbnails: { // Keeping existing structure for compatibility if other parts of your code use it
             high: { url: finalEpisodeImageUrl },
             maxres: { url: podcastMainImageUrl || finalEpisodeImageUrl } // maxres usually points to the best quality, which is often the podcast art
@@ -141,7 +145,6 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
           explicit: episode.explicit || false,
           type: episode.episodeType || 'full'
         };
-        // --- MODIFICATION END ---
 
         episodes.push(episodeData);
       }
@@ -171,13 +174,18 @@ async function searchPodcastByTitle(title, importedPodcastData = []) {
     if (response.data && response.data.feeds && response.data.feeds.length > 0) {
       // Get the first (most relevant) podcast
       const feed = response.data.feeds[0];
-      return await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
+      const episodes = await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
+      
+      return {
+        episodes: episodes,
+        showData: feed
+      };
     }
 
-    return [];
+    return { episodes: [], showData: null };
   } catch (error) {
     console.error(`Error searching for podcast "${title}":`, error.message);
-    return [];
+    return { episodes: [], showData: null };
   }
 }
 
@@ -194,16 +202,19 @@ async function getTrendingPodcasts(importedPodcastData = [], max = 10) {
       }
     });
 
-    const allEpisodes = [];
+    const allPodcastData = [];
 
     if (response.data && response.data.feeds) {
       for (const feed of response.data.feeds) {
         const episodes = await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
-        allEpisodes.push(...episodes);
+        allPodcastData.push({
+          episodes: episodes,
+          showData: feed
+        });
       }
     }
 
-    return allEpisodes;
+    return allPodcastData;
   } catch (error) {
     console.error('Error retrieving trending podcasts:', error.message);
     return [];

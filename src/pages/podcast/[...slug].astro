@@ -4,7 +4,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import PodcastPost from "../../templates/PodcastPost.astro";
 import { convertToISO8601Duration } from "../../utils/convertToISO8601Duration";
 import { allPosts } from "../../utils/mediaCollection";
-
+import { Image } from 'astro:assets'; // Import the Image component
+import { getCollection } from 'astro:content';
 export async function getStaticPaths() {
   const posts = allPosts;
   return posts.map((post) => ({
@@ -33,6 +34,9 @@ const headProps = {
     actor: post.data.speakers?.[0],
   },
 };
+
+
+
 ---
 
 <BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps}>

@@ -1,5 +1,31 @@
 import { defineCollection, z } from "astro:content";
 
+const showCollection = defineCollection({
+  schema: ({ image }) =>
+    z.object({
+    title: z.string(),
+    description: z.string(),
+    speakers: z.array(z.string()).optional(),
+    feedUrl: z.string().url(),
+    websiteUrl: z.string().url().optional(),
+    image: image().optional(),
+    dateAdded: z.string(),
+    lastUpdate: z.string(),
+    categories: z.array(z.string()),
+    language: z.string().default('en'),
+    explicit: z.boolean().default(false),
+    episodeCount: z.number().default(0),
+    localImages: z.boolean().default(false),
+    itunesId: z.number().nullable().optional(),
+    guid: z.string(),
+    medium: z.string().default('podcast'),
+    dead: z.number().default(0),
+    locked: z.number().default(0),
+    type: z.literal('show'),
+    draft: z.boolean().default(false),
+  }),
+});
+
 const mediaCollection = defineCollection({
   // Type-check frontmatter using a schema
   schema: ({ image }) =>
@@ -58,10 +84,12 @@ const podcastCollection = defineCollection({
       speakers: z.array(z.string()).optional(),
       type: z.literal('podcast').optional(),
       draft: z.boolean(),
+      showSlug: z.string(),
     }),
 });
 
 export const collections = {
   media: mediaCollection,
-  podcast: podcastCollection
+  podcast: podcastCollection,
+  show: showCollection
 };
