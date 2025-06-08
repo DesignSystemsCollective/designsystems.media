@@ -85,6 +85,7 @@ const podcastCollection = defineCollection({
       type: z.literal('podcast').optional(),
       draft: z.boolean(),
       showSlug: z.string(),
+      hasEpisodeImage: z.boolean()
     }),
 });
 

@@ -12,7 +12,6 @@ type Props = Media["data"] & { slug?: Media["slug"] };
 
 const {
   title,
-  description,
   publishedAt,
   image,
   duration,
@@ -23,32 +22,70 @@ const {
   slug,
   tags,
   speakers,
-  categories,
+  showSlug,
   season,
   episode,
+  hasEpisodeImage
 } = Astro.props;
+
+function getAudioMimeType(url) {
+  if (!url) return 'audio/mpeg'; // fallback if no URL
+  
+  const extension = url.split('.').pop().toLowerCase();
+  
+  const mimeTypes = {
+    'mp3': 'audio/mpeg',
+    'wav': 'audio/wav',
+    'ogg': 'audio/ogg',
+    'oga': 'audio/ogg',
+    'm4a': 'audio/mp4',
+    'aac': 'audio/aac',
+    'flac': 'audio/flac',
+    'webm': 'audio/webm'
+  };
+  
+  return mimeTypes[extension] || 'audio/mpeg';
+}
+
+const showImages = import.meta.glob('/src/content/show/*/poster.jpg', { eager: true });
+
+// Then in your image loading logic
+let imageToUse;
+
+if (hasEpisodeImage === false) {
+  // Try to load show poster using glob pattern
+  const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
+  const showImage = showImages[showImagePath];
+  if (showImage) {
+    imageToUse = showImage.default.src;
+  }
+} else if (hasEpisodeImage === true && image) {
+  imageToUse = image;
+}
+
 ---
 
 <article data-pagefind-body data-pagefind-sort>
-  <div class="hero-image" data-pagefind-meta={`image:${image?.src}`}>
+  <div class="hero-image" data-pagefind-meta={`image:${imageToUse}`}>
     <div class="audio-player-container">
-      <audio 
-        controls 
-        preload="metadata"
-        class="audio-embed"
-      >
-        <source src={audioUrl} type="audio/mpeg" />
-        <source src={audioUrl} type="audio/wav" />
-        <source src={audioUrl} type="audio/ogg" />
-        Your browser does not support the audio element.
-      </audio>
-      {poster?.src && (
-        <div class="podcast-artwork">
-          <img src={poster.src} alt={`${podcastTitle} artwork`} />
-        </div>
-      )}
+
+  {imageToUse && (
+    <div class="podcast-artwork">
+  <img src={imageToUse} alt={`${podcastTitle} artwork`} />
     </div>
-    <div class="background" style={`background-image: url('${image?.src || poster?.src}')`}>
+)}
+        {audioUrl && (
+    <audio 
+      controls 
+      preload="metadata"
+      class="audio-embed"
+    >
+      <source src={audioUrl} type={getAudioMimeType(audioUrl)} />
+      Your browser does not support the audio element.
+    </audio>
+  )}
+    </div>
+    <div class="background" style={`background-image: url('${imageToUse}')`}>
     </div>
   </div>
   <Title data-pagefind-meta="title">{title}</Title>
@@ -66,7 +103,7 @@ const {
       </span>
       <span class="inline">
         <Icon name="fluent:headphones-20-filled" size={20} />
-        <span>{podcastTitle}</span>
+        <span>{showSlug}</span>
       </span>
       {(season && episode) && (
         <span class="inline">
@@ -181,9 +218,7 @@ const {
     max-width: 600px;
     height: 54px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
   }
   .audio-embed::-webkit-media-controls-panel {
     background-color: rgba(255, 255, 255, 0.1);
