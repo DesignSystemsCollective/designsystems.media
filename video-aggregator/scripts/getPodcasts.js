@@ -221,7 +221,7 @@ function generateEpisodeMdxFile(episode, showSlug, folderPath, predefinedSpeaker
   // Determine image to use - episode specific or show reference
   const imageReference = episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl
     ? episode.episodeImageUrl  // Use episode-specific image URL
-    : `../show/${showSlug}/poster.jpg`;  // Reference show's local image
+    : null;  // Reference show's local image
 
   // Write the frontmatter and description to the index.mdx file
   fs.writeFileSync(
@@ -234,6 +234,7 @@ episodeUrl: "${episodeUrl}"
 audioUrl: "${audioUrl}"
 podcastTitle: "${podcastTitle}"
 showSlug: "${showSlug}"
+image: "${imageReference}"
 localImages: false
 tags: ["Unsorted"]
 categories: ["Podcast"]
@@ -247,7 +248,7 @@ episode: ${episode.episode || 'null'}
 explicit: ${episode.explicit}
 feedUrl: "${episode.feedUrl}"
 guid: "${episode.guid}"
-hasEpisodeImage: ${episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl}
+hasEpisodeImage: ${Boolean(episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl)}
 ---
 ${episodeDescription}
 `
