@@ -3,7 +3,7 @@ import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import PodcastCard from "./PodcastCard.astro";
 import { allPodcasts } from "../utils/mediaCollection";
 
-const media = allPodcasts;
+const { media } = Astro.props;
 ---
 
 <ResponsiveGrid>
