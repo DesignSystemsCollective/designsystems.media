@@ -4,46 +4,46 @@ import type { CollectionEntry } from "astro:content";
 import { repository } from "../../package.json";
 import Title from "../components/Title.astro";
 import { convertToSlug } from "../utils/convertToSlug";
-import { getCollection } from 'astro:content';
-import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+import { formatDuration } from "../utils/formatDuration";
 
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
-const {
-  title,
-  image,
-  slug,
-  speakers,
-  episodeCount,
-  explicit
-} = Astro.props;
+const { title, image, slug, speakers, episodeCount, explicit } = Astro.props;
 
 // Get episodes for this show
-const episodes = await getCollection('podcast', ({ data }) => {
+const episodes = await getCollection("podcast", ({ data }) => {
   return data.showSlug === slug;
 });
 
 // Sort episodes by published date (newest first)
-episodes.sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime());
-
+episodes.sort(
+  (a, b) =>
+    new Date(b.data.publishedAt).getTime() -
+    new Date(a.data.publishedAt).getTime()
+);
 ---
 
 <article data-pagefind-body data-pagefind-sort>
-  <div class="hero-image" data-pagefind-meta={`image:${image?.src}`} >
-    <div class="show-container"><div class="podcast-artwork"><img src={image?.src} alt={title} /></div></div>
+  <div class="hero-image" data-pagefind-meta={`image:${image?.src}`}>
+    <div class="show-container">
+      <div class="podcast-artwork"><img src={image?.src} alt={title} /></div>
+    </div>
     <div class="background" style={`background-image: url('${image?.src}')`}>
-      
     </div>
   </div>
   <Title data-pagefind-meta="title">{title}</Title>
   <div class="content">
     <div class="meta-data">
       <div class="inline">
-        <Icon name="fluent:headphones-20-filled" size={20} /> {episodeCount} episodes</div>
-        {explicit && <span class="explicit">Explicit</span>}
+        <Icon name="fluent:headphones-20-filled" size={20} />
+        {episodeCount} episodes
+      </div>
+      {explicit && <span class="explicit">Explicit</span>}
       <div class="break"></div>
-      
+
       <div class="speakers">
         <span><Icon name="fluent:person-20-filled" size={20} />Speakers</span>
         {
@@ -70,26 +70,148 @@ episodes.sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data
     </div>
     <div class="prose" data-pagefind-weight="3">
       <slot />
-       <div class="episodes">
-      <h2>Episodes</h2>
-      {episodes.map((episode) => (
-        <div class="episode-card">
-          <div class="episode-info">
-            <h3><a href={`/podcast/${episode.slug}/`}>{episode.data.title}</a></h3>
-            <div>Published: {new Date(episode.data.publishedAt).toLocaleDateString()}</div>
-            <div>Duration: {episode.data.duration}</div>
-            {episode.data.season && <div>Season {episode.data.season}</div>}
-            {episode.data.episode && <div>Episode {episode.data.episode}</div>}
+     <div class="episodes-grid-wrapper">
+  <div class="episodes-grid">
+    <div class="episodes-grid-header">Episode</div>
+    <div class="episodes-grid-header">Date</div>
+    <div class="episodes-grid-header">Duration</div>
+
+    {episodes.map((episode, index) => {
+      const isEven = index % 2 === 1;
+      const rowClass = isEven ? 'even' : '';
+      const dateFormatted = new Date(episode.data.publishedAt).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+      });
+
+      return (
+        <>
+          <div class={`episodes-cell ${rowClass}`}>
+            <div class="episode-content">
+              {episode.data.image && (
+                <img src={episode.data.image} alt={`${episode.data.title} thumbnail`} class="episode-thumbnail" />
+              )}
+              <div class="episode-title-container">
+                <a class="episode-title" href={`/podcast/${episode.slug}/`}>
+                {episode.data.season && episode.data.episode && (
+              <span class="episode-badge">S{episode.data.season}E{episode.data.episode}</span><br/>
+            )}
+                  {episode.data.title}
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      ))}
+          <div class={`episodes-cell ${rowClass} meta`}>{dateFormatted}</div>
+          <div class={`episodes-cell ${rowClass} meta duration`}>{formatDuration(episode.data.duration)}</div>
+        </>
+      );
+    })}
+  </div>
+</div>
+
     </div>
-    </div>
-    
   </div>
 </article>
 
 <style>
+.episodes-grid-wrapper {
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.episodes-grid {
+  display: grid;
+  column-gap: 0;
+  grid-template-columns: 1fr auto auto;
+}
+
+.episodes-grid-header {
+  padding: 12px 4px;
+  font-weight: 600;
+  color: #e5e7eb;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.episodes-cell {
+  padding: 12px 4px;
+  border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  transition: background-color 0.2s ease;
+}
+
+.episodes-cell.even {
+  background-color: transparent;
+}
+
+.episodes-cell:hover {
+  background-color: transparent;
+}
+
+.episode-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  column-gap: 16px;
+  width: 100%;
+}
+
+.episode-thumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.episode-title-container {
+  min-width: 0;
+  flex: 1;
+  row-gap: 4px;
+}
+
+.episode-title {
+  color: #e5e7eb;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.episode-title:hover {
+  color: #e5e7eb;
+}
+
+.meta {
+  color: #e5e7eb;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.episode-badge {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-bottom: 4px;
+}
+
+
   .hero-image {
     position: relative;
     width: 100vw;
@@ -117,7 +239,7 @@ episodes.sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data
     min-height: 250px;
     gap: 1.5rem;
   }
-    .podcast-artwork {
+  .podcast-artwork {
     width: 200px;
     height: 200px;
     border-radius: 12px;
