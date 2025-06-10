@@ -2,12 +2,12 @@
 import PodcastGrid from "../../components/PodcastGrid.astro";
 import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allPostsFilteredAndSorted } from "../../utils/podcastCollection";
+import { allPodcastsFilteredAndSorted } from "../../utils/mediaCollection";
 
-const podcast = allPostsFilteredAndSorted;
+const podcast = allPodcastsFilteredAndSorted;
 ---
 
-<BaseLayout sidebar={false} metadataProps={{ title: "All media" }}>
+<BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>
   <Title>All podcasts</Title>
   <PodcastGrid media={podcast} />
 </BaseLayout>

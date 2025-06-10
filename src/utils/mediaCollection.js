@@ -1,20 +1,25 @@
 import { getCollection } from "astro:content";
 import { isDurationOneMinuteOrUnder } from "./isDurationOneMinuteOrUnder";
 
-export const allPosts = await getCollection("media");
-
+export const allVideos = await getCollection("media");
 export const allShows = await getCollection("show");
 export const allPodcasts = await getCollection("podcast");
 
-export const allPostsFilteredAndSorted = allPosts
+export const allVideosFilteredAndSorted = allVideos
   .filter((post) => {
     return !post.data.draft && !isDurationOneMinuteOrUnder(post.data.duration);
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
-export const postCount = allPostsFilteredAndSorted.length;
+export const allPodcastsFilteredAndSorted = allPodcasts
+  .filter((post) => {
+    return !post.data.draft;
+  })
+  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
-export const postsWithTags = allPostsFilteredAndSorted.filter((post) => {
+export const postCount = allVideosFilteredAndSorted.length;
+
+export const postsWithTags = allVideosFilteredAndSorted.filter((post) => {
   return post.data.tags && post.data.tags.length > 0;
 });
 
@@ -22,7 +27,7 @@ export const tags = [
   ...new Set(postsWithTags.flatMap((post) => post.data.tags)),
 ].sort();
 
-export const postsWithSpeakers = allPostsFilteredAndSorted.filter((post) => {
+export const postsWithSpeakers = allVideosFilteredAndSorted.filter((post) => {
   return post.data.speakers && post.data.speakers.length > 0;
 });
 
@@ -31,29 +36,35 @@ export const speakers = [
 ].sort();
 
 export async function getEpisodesByShow(showSlug) {
-  const episodes = await getCollection('podcast', ({ data }) => {
+  const episodes = await getCollection("podcast", ({ data }) => {
     return data.showSlug === showSlug && !data.draft;
   });
-  
-  return episodes.sort((a, b) => 
-    new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime()
+
+  return episodes.sort(
+    (a, b) =>
+      new Date(b.data.publishedAt).getTime() -
+      new Date(a.data.publishedAt).getTime()
   );
 }
 
 export async function getRecentEpisodes(limit = 10) {
-  const episodes = await getCollection('podcast', ({ data }) => {
+  const episodes = await getCollection("podcast", ({ data }) => {
     return !data.draft;
   });
-  
+
   return episodes
-    .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime())
+    .sort(
+      (a, b) =>
+        new Date(b.data.publishedAt).getTime() -
+        new Date(a.data.publishedAt).getTime()
+    )
     .slice(0, limit);
 }
 
 export async function getShowBySlug(slug) {
-  const shows = await getCollection('show', ({ slug: showSlug }) => {
+  const shows = await getCollection("show", ({ slug: showSlug }) => {
     return showSlug === slug;
   });
-  
+
   return shows[0] || null;
 }
