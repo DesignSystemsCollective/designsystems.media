@@ -12,9 +12,6 @@ export const allVideosFilteredAndSorted = allVideos
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
 export const allPodcastsFilteredAndSorted = allPodcasts
-  .filter((post) => {
-    return !post.data.draft;
-  })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
 export const postCount = allVideosFilteredAndSorted.length;
