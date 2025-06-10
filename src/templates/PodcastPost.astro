@@ -103,7 +103,12 @@ if (hasEpisodeImage === false) {
       </span>
       <span class="inline">
         <Icon name="fluent:headphones-20-filled" size={20} />
-        <span>{showSlug}</span>
+        <a
+              href={`/show/${showSlug}/`}
+              class="tag"
+              data-pagefind-filter="tag"
+              data-pagefind-weight="5"
+            >{podcastTitle}</a>
       </span>
       {(season && episode) && (
         <span class="inline">
@@ -238,7 +243,7 @@ if (hasEpisodeImage === false) {
     max-width: 900px;
   }
   .prose {
-    margin: auto;
+    margin: 0;
     color: var(--body-text);
     overflow-wrap: anywhere;
   }
