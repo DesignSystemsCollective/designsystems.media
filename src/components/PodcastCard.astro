@@ -3,17 +3,38 @@ import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import { formatDuration } from "../utils/formatDuration";
 
-import { Image } from "astro:assets";
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
-const { title, publishedAt, duration, poster, slug } = Astro.props;
+const { title, publishedAt, duration, image, slug, hasEpisodeImage, showSlug,podcastTitle } = Astro.props;
+
+const showImages = import.meta.glob('/src/content/show/*/poster.jpg', { eager: true, 
+  as: 'url'  });
+
+// Then in your image loading logic
+let imageToUse;
+
+if (hasEpisodeImage === false && showSlug) {
+  // Try to load show poster using glob pattern
+  const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
+  const showImage = showImages[showImagePath];
+  
+  console.log('Looking for:', showImagePath);
+  console.log('Found:', showImage);
+  
+  if (showImage) {
+    // With the new query: '?url', import: 'default' syntax, the image should be directly accessible
+    imageToUse = showImage;
+  }
+} else if (hasEpisodeImage === true && image) {
+  imageToUse = image;
+}
 ---
 
 <div class="media-item">
   <a href={`/podcast/${slug}/`} class="media-link">
     <div class="media-image">
-      <Image src={poster} alt={title} />
+  <img src={imageToUse} alt={`${podcastTitle} artwork`} />
       {duration && <div class="duration">{formatDuration(duration)}</div>}
     </div>
     <div class="media-content">
@@ -40,7 +61,7 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
   .media-image {
     max-width: 100%;
     height: auto;
-    aspect-ratio: auto 16/9;
+    aspect-ratio: auto 1/1;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
@@ -50,7 +71,7 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
   .media-image img {
     width: 100%;
     height: 100%;
-    aspect-ratio: auto 16/9;
+    aspect-ratio: auto 1/1;
     object-fit: cover;
   }
 
