@@ -39,6 +39,7 @@ if (hasEpisodeImage === false && showSlug) {
     </div>
     <div class="media-content">
       <h3 class="title">{title}</h3>
+      <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
       <span class="date">
         <FormattedDate date={publishedAt} />
       </span>
@@ -81,9 +82,20 @@ if (hasEpisodeImage === false && showSlug) {
     margin: 2px 0;
   }
 
-  .date {
+  .showTitle {
     font-size: 14px;
+    font-weight: 400;
     color: var(--tx-2);
+  }
+  
+  .media-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .date {
+    font-size: 13px;
+    color: var(--tx-3);
   }
   .duration {
     font-variant: small-caps;

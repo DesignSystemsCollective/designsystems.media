@@ -4,11 +4,11 @@ import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
-import { allPosts, speakers } from "../../utils/mediaCollection";
+import { allMediaFilteredAndSorted, speakers } from "../../utils/mediaCollection";
 
 function calculatePostCountForSpeaker(speakerName) {
   // Assuming 'posts' is an array of post objects with 'speakers' property
-  return allPosts.filter((post) => post.data.speakers?.includes(speakerName))
+  return allMediaFilteredAndSorted.filter((post) => post.data.speakers?.includes(speakerName))
     .length;
 }
 const title = "Speakers";

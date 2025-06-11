@@ -12,9 +12,9 @@ html[data-theme="dark"] {
   --body-text: var(--light-blue-gray);
   --meta-data: var(--light-blue-gray);
 
-  --tx: var(--neutral-200);
-  --tx-2: var(--neutral-500);
-  --tx-3: var(--neutral-700);
+  --tx: var(--neutral-100);
+  --tx-2: var(--neutral-300);
+  --tx-3: var(--neutral-500);
   --tx-inverted: var(--dark-charcoal-gray);
   --ui: var(--neutral-900);
   --ui-2: var(--neutral-850);
