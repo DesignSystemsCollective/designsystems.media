@@ -22,6 +22,24 @@ html[data-theme="dark"] {
   --bg: var(--neutral-black);
   --bg-2: var(--neutral-950);
 
+  --scrim: 22, 26, 29;
+--scrim-gradient: linear-gradient(
+  to top,
+  rgba(var(--scrim), 1) 0%,
+  rgba(var(--scrim), 0.738) 19%,
+  rgba(var(--scrim), 0.541) 34%,
+  rgba(var(--scrim), 0.382) 47%,
+  rgba(var(--scrim), 0.278) 56.5%,
+  rgba(var(--scrim), 0.194) 65%,
+  rgba(var(--scrim), 0.126) 73%,
+  rgba(var(--scrim), 0.075) 80.2%,
+  rgba(var(--scrim), 0.042) 86.1%,
+  rgba(var(--scrim), 0.021) 91%,
+  rgba(var(--scrim), 0.008) 95.2%,
+  rgba(var(--scrim), 0.002) 98.2%,
+  rgba(var(--scrim), 0) 100%
+);
+
   --pagefind-ui-tag: var(--dark-teal-gray);
   --sponsorship: var(--neutral-600);
 }
