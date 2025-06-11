@@ -2,16 +2,16 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 import { Icon } from "astro-icon/components";
-import MediaGrid from "../../components/MediaGrid.astro";
+import MixedGrid from "../../components/MixedGrid.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
-import { allPosts, speakers } from "../../utils/mediaCollection";
+import { allMediaFilteredAndSorted, speakers } from "../../utils/mediaCollection";
 export async function getStaticPaths() {
   return speakers.map((speaker) => {
     if (!speaker)
       return {
         params: { speaker },
       };
-    const filteredPosts = allPosts
+    const filteredPosts = allMediaFilteredAndSorted
       .filter(
         (post) => !post.data.draft && post.data.speakers?.includes(speaker),
       )
@@ -39,7 +39,7 @@ const { posts, speaker } = Astro.props;
     <Icon name="fluent:tag-20-filled" size={20} />Speakers
   </a>
   <h2>{speaker}</h2>
-  <MediaGrid media={posts} />
+  <MixedGrid media={posts} />
 </BaseLayout>
 
 <style>

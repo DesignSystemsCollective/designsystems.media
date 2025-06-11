@@ -13,8 +13,8 @@ html[data-theme="light"] {
   --meta-data: var(--muted-blue-gray);
 
   --tx: var(--neutral-black);
-  --tx-2: var(--neutral-600);
-  --tx-3: var(--neutral-300);
+  --tx-2: var(--neutral-700);
+  --tx-3: var(--neutral-500);
   --tx-inverted: var(--pure-white);
   --ui: var(--neutral-100);
   --ui-2: var(--neutral-150);
