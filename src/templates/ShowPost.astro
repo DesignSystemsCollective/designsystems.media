@@ -5,7 +5,6 @@ import { repository } from "../../package.json";
 import Title from "../components/Title.astro";
 import { convertToSlug } from "../utils/convertToSlug";
 import { getCollection } from "astro:content";
-import FormattedDate from "../components/FormattedDate.astro";
 import { formatDuration } from "../utils/formatDuration";
 
 type Media = CollectionEntry<"show">;
@@ -133,12 +132,12 @@ episodes.sort(
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid var(--hr);
 }
 
 .episodes-cell {
   padding: 12px 4px;
-  border-bottom: 1px solid #f3f4f6;
+    border-bottom: 1px solid var(--hr);
   display: flex;
   align-items: center;
   min-height: 80px;
@@ -177,7 +176,7 @@ episodes.sort(
 }
 
 .episode-title {
-  color: #e5e7eb;
+    color: var(--body-text);
   font-weight: 500;
   text-decoration: none;
   font-size: 14px;
@@ -187,11 +186,11 @@ episodes.sort(
 }
 
 .episode-title:hover {
-  color: #e5e7eb;
+    color: var(--body-text);
 }
 
 .meta {
-  color: #e5e7eb;
+    color: var(--meta-data);
   font-size: 14px;
   white-space: nowrap;
 }

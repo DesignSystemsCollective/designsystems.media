@@ -11,12 +11,22 @@ export const allVideosFilteredAndSorted = allVideos
   })
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
-export const allPodcastsFilteredAndSorted = allPodcasts
-  .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+export const allPodcastsFilteredAndSorted = allPodcasts.sort(
+  (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
+);
+
+export const allMediaFilteredAndSorted = [
+  ...allVideos.filter(
+    (post) =>
+      !post.data.draft && !isDurationOneMinuteOrUnder(post.data.duration)
+  ),
+  ...allPodcasts,
+].sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
 export const postCount = allVideosFilteredAndSorted.length;
+export const podcastCount = allPodcastsFilteredAndSorted.length;
 
-export const postsWithTags = allVideosFilteredAndSorted.filter((post) => {
+export const postsWithTags = allMediaFilteredAndSorted.filter((post) => {
   return post.data.tags && post.data.tags.length > 0;
 });
 
@@ -24,7 +34,7 @@ export const tags = [
   ...new Set(postsWithTags.flatMap((post) => post.data.tags)),
 ].sort();
 
-export const postsWithSpeakers = allVideosFilteredAndSorted.filter((post) => {
+export const postsWithSpeakers = allMediaFilteredAndSorted.filter((post) => {
   return post.data.speakers && post.data.speakers.length > 0;
 });
 
