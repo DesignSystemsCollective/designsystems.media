@@ -9,6 +9,7 @@ html[data-theme="dark"] {
   --footer-text: var(--pale-bluish-gray);
 
   --accent-hover: var(--light-lavender-purple);
+  --accent-glow: rgba(166, 136, 250, 0.5);
   --body-text: var(--light-blue-gray);
   --meta-data: var(--light-blue-gray);
 

@@ -15,8 +15,8 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     </div>
     <div class="media-content">
       <h3 class="title">{title}</h3>
-      <div class="speakers"><span><Icon name="fluent:person-20-filled" size={20} /></span> {speakers}</div>
-      <div><span><Icon name="fluent:headphones-20-filled" size={20} /></span> {episodeCount} episodes</div>
+      <div class="meta speakers">{speakers.join(", ")}</div>
+      <div class="meta">{episodeCount} episodes</div>
     </div>
   </a>
 </div>
@@ -33,6 +33,13 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     gap: 1rem;
   }
 
+  .media-link:hover {.media-image {
+    /* outline: 1px solid var(--accent-hover); */
+    box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
+    transition: box-shadow 1s ease-out;
+  }
+.title {color:var(--accent-hover)}}
+
   .media-image {
     max-width: 100%;
     height: auto;
@@ -43,6 +50,7 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     background-color: rgba(0, 0, 0, 0.2);
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 1s ease-out;
   }
 
   .media-image img {
@@ -57,8 +65,12 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     font-weight: 600;
     margin: 2px 0;
   }
-  .speakers a{
-    margin-right: 4px;
+  .meta {
+    font-size: 14px;
+    color: var(--tx-3);
+  }
+  .speakers {
+    font-size: 15px;
   }
   .showTitle {
     font-size: 14px;
