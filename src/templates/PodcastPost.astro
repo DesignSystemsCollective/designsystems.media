@@ -25,29 +25,31 @@ const {
   showSlug,
   season,
   episode,
-  hasEpisodeImage
+  hasEpisodeImage,
 } = Astro.props;
 
 function getAudioMimeType(url) {
-  if (!url) return 'audio/mpeg'; // fallback if no URL
-  
-  const extension = url.split('.').pop().toLowerCase();
-  
+  if (!url) return "audio/mpeg"; // fallback if no URL
+
+  const extension = url.split(".").pop().toLowerCase();
+
   const mimeTypes = {
-    'mp3': 'audio/mpeg',
-    'wav': 'audio/wav',
-    'ogg': 'audio/ogg',
-    'oga': 'audio/ogg',
-    'm4a': 'audio/mp4',
-    'aac': 'audio/aac',
-    'flac': 'audio/flac',
-    'webm': 'audio/webm'
+    mp3: "audio/mpeg",
+    wav: "audio/wav",
+    ogg: "audio/ogg",
+    oga: "audio/ogg",
+    m4a: "audio/mp4",
+    aac: "audio/aac",
+    flac: "audio/flac",
+    webm: "audio/webm",
   };
-  
-  return mimeTypes[extension] || 'audio/mpeg';
+
+  return mimeTypes[extension] || "audio/mpeg";
 }
 
-const showImages = import.meta.glob('/src/content/show/*/poster.jpg', { eager: true });
+const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
+  eager: true,
+});
 
 // Then in your image loading logic
 let imageToUse;
@@ -62,33 +64,41 @@ if (hasEpisodeImage === false) {
 } else if (hasEpisodeImage === true && image) {
   imageToUse = image;
 }
-
 ---
 
 <article data-pagefind-body data-pagefind-sort>
   <div class="hero-image" data-pagefind-meta={`image:${imageToUse}`}>
     <div class="audio-player-container">
-
-  {imageToUse && (
-    <div class="podcast-artwork">
-  <img src={imageToUse} alt={`${podcastTitle} artwork`} />
+      {
+        imageToUse && (
+          <div class="podcast-artwork">
+            <img src={imageToUse} alt={`${podcastTitle} artwork`} />
+          </div>
+        )
+      }
+      {
+        audioUrl && (
+          <audio controls preload="metadata" class="audio-embed">
+            <source src={audioUrl} type={getAudioMimeType(audioUrl)} />
+            Your browser does not support the audio element.
+          </audio>
+        )
+      }
     </div>
-)}
-        {audioUrl && (
-    <audio 
-      controls 
-      preload="metadata"
-      class="audio-embed"
-    >
-      <source src={audioUrl} type={getAudioMimeType(audioUrl)} />
-      Your browser does not support the audio element.
-    </audio>
-  )}
+    <div class="scrim">
+      <div class="page-title">
+        <Title data-pagefind-meta="title">{title}</Title>
+        <a
+          href={`/show/${showSlug}/`}
+          class="show"
+          data-pagefind-filter="show"
+          data-pagefind-weight="5">{podcastTitle}</a>
+      </div>
     </div>
     <div class="background" style={`background-image: url('${imageToUse}')`}>
     </div>
   </div>
-  <Title data-pagefind-meta="title">{title}</Title>
+
   <div class="content">
     <div class="meta-data">
       <span class="inline">
@@ -101,21 +111,16 @@ if (hasEpisodeImage === false) {
           {formatDuration(duration)}
         </span>
       </span>
-      <span class="inline">
-        <Icon name="fluent:headphones-20-filled" size={20} />
-        <a
-              href={`/show/${showSlug}/`}
-              class="tag"
-              data-pagefind-filter="tag"
-              data-pagefind-weight="5"
-            >{podcastTitle}</a>
-      </span>
-      {(season && episode) && (
-        <span class="inline">
-          <Icon name="fluent:number-symbol-20-filled" size={20} />
-          <span>S{season}E{episode}</span>
-        </span>
-      )}
+      {
+        season && episode && (
+          <span class="inline">
+            <Icon name="fluent:number-symbol-20-filled" size={20} />
+            <span>
+              S{season}E{episode}
+            </span>
+          </span>
+        )
+      }
       <!-- <span class="inline">
         <Icon name="fluent:window-new-20-filled" size={20} />
         <a href={episodeUrl || audioUrl} title={title}>Listen on platform</a>
@@ -188,12 +193,35 @@ if (hasEpisodeImage === false) {
     overflow: hidden;
     animation: fadeIn 1.5s;
   }
+  .hero-image .scrim {
+    content: "";
+    z-index: 15;
+    position: relative;
+    margin-top: -6rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5rem 1rem 2rem;
+    background: var(--scrim-gradient);
+  }
   .hero-image .background::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(2.5rem);
+  }
+  .page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+  }
+  .page-title h1.title {
+    padding: 1rem 0 0;
+  }
+  .page-title .show {
+    font-weight: 600;
   }
   .audio-player-container {
     position: relative;
@@ -311,7 +339,6 @@ if (hasEpisodeImage === false) {
   }
   @media screen and (max-width: 1024px) {
     .hero-image {
-      max-height: 350px;
       height: auto;
       margin: 0;
     }

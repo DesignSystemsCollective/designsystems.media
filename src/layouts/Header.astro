@@ -10,7 +10,7 @@ const currentPage = pathname.replace(/\/$/, "");
 <header>
   <nav>
     <h2>
-      <a href="/" title={SITE_TITLE}>
+      <a href="/" title={SITE_TITLE} class="nav-home">
         <svg
           class="logo"
           width="32"
@@ -37,6 +37,20 @@ const currentPage = pathname.replace(/\/$/, "");
       <span class="line"></span>
     </button>
     <div class="nav-menu">
+      <div class="main-links">
+        <a href="/all/" class:list={{ active: currentPage === "/all" }}>
+          Videos
+        </a>
+        <a href="/podcast/" class:list={{ active: currentPage === "/podcast" }}>
+          Podcasts
+        </a>
+        <a href="/tags/" class:list={{ active: currentPage === "/tags" }}>
+          Tags
+        </a>
+        <a href="/speakers/" class:list={{ active: currentPage === "/speakers" }}>
+          Speakers
+        </a>
+      </div>
       <div class="nav-search-wrapper">
         <AstroSearch
           id="nav-search"
@@ -46,10 +60,7 @@ const currentPage = pathname.replace(/\/$/, "");
           }}
         />
       </div>
-      <a href="/about/" class:list={{ active: currentPage === "/about" }}>
-        About
-      </a>
-      
+      <div class="rh-links">
         <a
       href="https://bsky.app/profile/designsystems.media"
       target="_blank"
@@ -72,6 +83,7 @@ const currentPage = pathname.replace(/\/$/, "");
         fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
     </a>
       <ThemeToggle />
+      </div>
     </div>
   </nav>
 </header>
@@ -86,6 +98,9 @@ const currentPage = pathname.replace(/\/$/, "");
 </script>
 
 <style is:global>
+  .nav-home {
+    padding: 0.5rem 0;
+  }
   header {
     margin: 0;
     padding: 0 1em;
@@ -104,18 +119,29 @@ const currentPage = pathname.replace(/\/$/, "");
     justify-content: space-between;
     margin: 0 auto;
   }
+  .nav-menu {
+    margin: 0 0 0 1rem;
+  }
   .nav-menu a {
     display: inline-block;
     text-decoration: none;
   }
   .nav-menu a.active {
-    font-weight: bolder;
-    text-decoration: underline;
+    border-bottom: 1px solid var(--accent-hover);
   }
   .nav-menu a:hover,
   .nav-menu button:hover {
     color: var(--accent-hover);
     fill: currentColor;
+  }
+
+  .main-links {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .main-links a {
+
   }
   nav h2 {
     margin: 0;
@@ -136,7 +162,7 @@ const currentPage = pathname.replace(/\/$/, "");
     padding: 0;
   }
   nav a {
-    padding: 1em 0.5em;
+    padding: 0.5em 0.5em;
     color: var(--header-text);
     text-decoration: none;
   }
@@ -147,7 +173,7 @@ const currentPage = pathname.replace(/\/$/, "");
     padding: 0;
     display: flex;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
   }
   .nav-menu-button {
     appearance: none;
@@ -256,7 +282,7 @@ const currentPage = pathname.replace(/\/$/, "");
       align-items: flex-end;
     }
     .nav-search-wrapper {
-      padding: 0 0.5rem 2rem;
+      padding: 0 0.5rem 0rem;
       flex-grow: 0;
       max-width: unset;
       width: 100%;
@@ -271,8 +297,10 @@ const currentPage = pathname.replace(/\/$/, "");
       position: relative;
       top: 0;
     }
-    .nav-menu #themeToggle {
-      margin-bottom: 4rem;
+    .rh-links {
+      display: flex;
+      flex-direction: row;
+      
     }
   }
 </style>
