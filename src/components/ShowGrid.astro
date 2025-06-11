@@ -1,9 +1,8 @@
 ---
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import ShowCard from "./ShowCard.astro";
-import { allShows } from "../utils/mediaCollection";
 
-const media = allShows;
+const { media } = Astro.props;
 ---
 
 <ResponsiveGrid>
