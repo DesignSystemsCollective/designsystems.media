@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
-
+import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -15,8 +15,8 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     </div>
     <div class="media-content">
       <h3 class="title">{title}</h3>
-          <p>{speakers}</p>
-          <p>{episodeCount} episodes</p>
+      <div class="speakers"><span><Icon name="fluent:person-20-filled" size={20} /></span> {speakers}</div>
+      <div><span><Icon name="fluent:headphones-20-filled" size={20} /></span> {episodeCount} episodes</div>
     </div>
   </a>
 </div>
@@ -39,8 +39,10 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     aspect-ratio: auto 1/1;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
+    border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   }
 
   .media-image img {
@@ -51,11 +53,24 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
   }
 
   .title {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     margin: 2px 0;
   }
-
+  .speakers a{
+    margin-right: 4px;
+  }
+  .showTitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--tx-2);
+  }
+  
+  .media-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
   .date {
     font-size: 13px;
     color: var(--tx-3);
@@ -81,10 +96,6 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     .media-link {
       display: grid;
       grid-template-columns: 2fr 3fr;
-    }
-
-    .media-image {
-      border-radius: 2px;
     }
 
     .duration {
