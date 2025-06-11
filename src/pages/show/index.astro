@@ -1,11 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 import ShowGrid from "../../components/ShowGrid.astro";
-import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
+import { allShows } from "../../utils/mediaCollection";
 
-const media = allPostsFilteredAndSorted;
+const media = allShows;
 
 // Get all shows
 const shows = await getCollection('show', ({ data }) => {
