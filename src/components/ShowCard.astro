@@ -31,7 +31,6 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    grid-template-columns: 1fr 1fr;
   }
 
   .media-link:hover {.media-image {
@@ -39,7 +38,7 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
     transition: box-shadow 1s ease-out;
   }
-.title {color:var(--accent-hover)}}
+.title a {color:var(--tx-1)}}
 
   .media-image {
     max-width: 100%;

@@ -39,8 +39,8 @@ if (hasEpisodeImage === false && showSlug) {
     </div>
   </a>
     <div class="media-content">
-    <a href={`/podcast/${slug}/`} ><h3 class="title">{title}</h3>
-  </a>
+    <a href={`/podcast/${slug}/`} class="title"><h3>{title}</h3></a>
+  
       <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
       <span class="date">
         <FormattedDate date={publishedAt} />
@@ -54,13 +54,18 @@ if (hasEpisodeImage === false && showSlug) {
     margin: 0;
   }
   .media-link {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-  .media-link a {
-    text-decoration: none;
+
+  .media-link:hover {.media-image {
+    /* outline: 1px solid var(--accent-hover); */
+    box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
+    transition: box-shadow 1s ease-out;
   }
+a.title {color:var(--tx)}; text-decoration: none; border-bottom:none;}
 
   .media-image {
     max-width: 100%;
@@ -72,6 +77,7 @@ if (hasEpisodeImage === false && showSlug) {
     background-color: rgba(0, 0, 0, 0.2);
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 1s ease-out;
   }
 
   .media-image img {
@@ -81,10 +87,15 @@ if (hasEpisodeImage === false && showSlug) {
     object-fit: cover;
   }
 
-  .title {
-    font-size: 16px;
-    font-weight: 400;
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
     margin: 2px 0;
+  }
+  .meta {
+    font-size: 14px;
+    color: var(--tx-3);
   }
 
   .showTitle {
@@ -122,11 +133,7 @@ if (hasEpisodeImage === false && showSlug) {
   @media screen and (max-width: 768px) {
     .media-link {
       display: grid;
-      grid-template-columns: 2fr 3fr;
-    }
-
-    .media-image {
-      border-radius: 2px;
+      grid-template-columns: 1fr 4fr;
     }
 
     .duration {
