@@ -31,20 +31,21 @@ if (hasEpisodeImage === false && showSlug) {
 }
 ---
 
-<div class="media-item">
-  <a href={`/podcast/${slug}/`} class="media-link">
+<div class="media-item media-link">
+  <a href={`/podcast/${slug}/`} >
     <div class="media-image">
   <img src={imageToUse} alt={`${podcastTitle} artwork`} />
       {duration && <div class="duration">{formatDuration(duration)}</div>}
     </div>
+  </a>
     <div class="media-content">
-      <h3 class="title">{title}</h3>
+    <a href={`/podcast/${slug}/`} ><h3 class="title">{title}</h3>
+  </a>
       <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
       <span class="date">
         <FormattedDate date={publishedAt} />
       </span>
     </div>
-  </a>
 </div>
 
 <style>
@@ -53,10 +54,12 @@ if (hasEpisodeImage === false && showSlug) {
     margin: 0;
   }
   .media-link {
-    text-decoration: none;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+  .media-link a {
+    text-decoration: none;
   }
 
   .media-image {
@@ -65,8 +68,10 @@ if (hasEpisodeImage === false && showSlug) {
     aspect-ratio: auto 1/1;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
+    border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   }
 
   .media-image img {

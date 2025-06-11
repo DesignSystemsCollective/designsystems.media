@@ -125,6 +125,7 @@ const currentPage = pathname.replace(/\/$/, "");
   .nav-menu a {
     display: inline-block;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
   }
   .nav-menu a.active {
     border-bottom: 1px solid var(--accent-hover);
@@ -234,12 +235,12 @@ const currentPage = pathname.replace(/\/$/, "");
   }
   .nav-search-wrapper {
     flex-grow: 1;
-    padding: 0 2rem;
+    padding: 0rem 1rem;
     --pagefind-ui-scale: 0.8;
     max-width: 600px;
     margin: 0 auto;
   }
-  .nav-search-wrapper .pagefind-ui__search-input,
+ 
   .nav-search-wrapper .pagefind-ui__drawer {
     background-color: var(--header-background);
   }
@@ -261,6 +262,11 @@ const currentPage = pathname.replace(/\/$/, "");
   .nav-search-wrapper .pagefind-ui__results-area {
     margin-top: 0;
   }
+
+    .rh-links {
+      display: flex;
+      flex-direction: row;
+    }
   @media screen and (max-width: 425px) {
     .logo {
       width: 48px;
@@ -296,11 +302,6 @@ const currentPage = pathname.replace(/\/$/, "");
       overflow: unset;
       position: relative;
       top: 0;
-    }
-    .rh-links {
-      display: flex;
-      flex-direction: row;
-      
     }
   }
 </style>

@@ -14,7 +14,7 @@
   --tagCount-count: rgba(var(--accent), 80%);
   --tagCount-background: rgba(var(--accent), 5%);
 
-  --pagefind-ui-scale: 1;
+  --pagefind-ui-scale: 0.5;
   --pagefind-ui-text: var(--body-text);
   --pagefind-ui-background: transparent;
   --pagefind-ui-primary: rgb(var(--accent));
