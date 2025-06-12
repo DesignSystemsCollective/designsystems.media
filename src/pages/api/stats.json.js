@@ -1,35 +1,26 @@
-import { getCollection } from "astro:content";
-import { allPostsFilteredAndSorted, speakers, tags } from "../../utils/mediaCollection";
-import { isDurationOneMinuteOrUnder } from "../../utils/isDurationOneMinuteOrUnder";
+import {allMediaFilteredAndSorted, allVideosFilteredAndSorted,allPodcasts, allShows, unsortedCount, underOneMinute, drafts, speakers, tags } from "../../utils/mediaCollection";
 
 export async function GET() {
   try {
-    const totalPosts = allPostsFilteredAndSorted.length;
+    const totalMedia = allMediaFilteredAndSorted.length;
+    const totalVideos = allVideosFilteredAndSorted.length;
+    const totalShows = allShows.length;
+    const totalPodcasts = allPodcasts.length;
     const totalTagCount = tags.length;
     const totalSpeakerCount = speakers.length;
-    const allPosts = await getCollection("media");
-
-const backlogCount = await getCollection('media', ({ data }) => {
-  return data.draft !== false;
-});
-
-  const unsortedCount = allPosts.filter((post) =>
-      post.data.tags && post.data.tags.includes("Unsorted")
-    ).length;
-
- const underOneMinute = allPosts
-  .filter((post) => {
-    return isDurationOneMinuteOrUnder(post.data.duration);
-  }).length;
+    const underOneMinute = underOneMinute.length;
 
     return new Response(
       JSON.stringify({
         stats: {
-          totalPosts: totalPosts,
-          totalTags: totalTagCount,
-          totalSpeakers: totalSpeakerCount,
+          totalMedia: totalMedia,
+          videos: totalVideos,
+          podcastShows: totalShows,
+          podcastEpisodes: totalPodcasts,
+          tags: totalTagCount,
+          speakers: totalSpeakerCount,
           underMinute: underOneMinute, // Add the backlog count to the stats
-          backlog: backlogCount.length, // Add the backlog count to the stats
+          drafts: drafts.length, // Add the backlog count to the stats
           unsortedTag: unsortedCount, // Add the unsorted count to the stats
         },
       }),
