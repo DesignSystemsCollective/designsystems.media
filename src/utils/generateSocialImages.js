@@ -363,13 +363,10 @@ export async function runAllMosaics() {
   console.log(`[Astro Mosaics] Primary output directory: ${OUTPUT_DIR}`);
   console.log(`[Astro Mosaics] Duplicate output directory: ${PUBLIC_DIR}`);
 
-  const allPosts = allVideossFilteredAndSorted;
-  const sortedPosts = allPosts.sort(
-    (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
-  );
+  const sortedPosts = allVideosFilteredAndSorted;
 
   const recentPostImagePaths = [];
-  const maxImagesToPull = 35;
+  const maxImagesToPull = 40;
 
   for (const post of sortedPosts.slice(0, maxImagesToPull)) {
     let absoluteImagePathForSharp;
