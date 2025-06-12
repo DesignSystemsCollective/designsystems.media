@@ -5,9 +5,9 @@ import "../styles/global.css";
 
 import { GoogleAnalytics } from "astro-google-analytics";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
-import { allVideosFilteredAndSorted } from "../utils/mediaCollection";
+import { allMediaFilteredAndSorted } from "../utils/mediaCollection";
 
-const postCount = allVideosFilteredAndSorted.length;
+const postCount = allMediaFilteredAndSorted.length;
 
 export interface Props {
   title?: string;
@@ -37,7 +37,7 @@ const {
 } = Astro.props;
 
 // Build description (fallback to config if dynamic version fails)
-const dynamicDescription = `A curated collection of ${postCount} design system videos, tagged with speakers and topics for easy discovery.`;
+const dynamicDescription = `A curated collection of ${postCount} design system videos and podcasts, tagged with speakers and topics for easy discovery.`;
 const metaDescription = dynamicDescription || description;
 ---
 

@@ -15,6 +15,11 @@ export const allPodcastsFilteredAndSorted = allPodcasts.sort(
   (a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf()
 );
 
+export const allMedia = [
+  ...allVideos,
+  ...allPodcasts,
+].sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
 export const allMediaFilteredAndSorted = [
   ...allVideos.filter(
     (post) =>
@@ -30,6 +35,15 @@ export const postsWithTags = allMediaFilteredAndSorted.filter((post) => {
   return post.data.tags && post.data.tags.length > 0;
 });
 
+ export const drafts = await getCollection('media', ({ data }) => {
+    return data.draft !== false;
+});
+
+  export const underOneMinute = allMedia
+  .filter((post) => {
+    return isDurationOneMinuteOrUnder(post.data.duration);
+  });
+
 export const tags = [
   ...new Set(postsWithTags.flatMap((post) => post.data.tags)),
 ].sort();
@@ -41,6 +55,10 @@ export const postsWithSpeakers = allMediaFilteredAndSorted.filter((post) => {
 export const speakers = [
   ...new Set(postsWithSpeakers.flatMap((post) => post.data.speakers)),
 ].sort();
+
+export const unsortedCount = allMediaFilteredAndSorted.filter((post) =>
+      post.data.tags && post.data.tags.includes("Unsorted")
+    ).length;
 
 export async function getEpisodesByShow(showSlug) {
   const episodes = await getCollection("podcast", ({ data }) => {
@@ -75,3 +93,4 @@ export async function getShowBySlug(slug) {
 
   return shows[0] || null;
 }
+
