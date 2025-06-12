@@ -1,10 +1,6 @@
 import { getCollection } from "astro:content";
 import { isDurationOneMinuteOrUnder } from "./isDurationOneMinuteOrUnder";
 
-export const allVideos = await getCollection("media");
-export const allShows = await getCollection("show");
-export const allPodcasts = await getCollection("podcast");
-
 // Total count, sorted
 export const allMedia = [
   ...allVideos,
@@ -29,6 +25,10 @@ export const allMediaFilteredAndSorted = [
   ),
   ...allPodcasts,
 ].sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+export const allVideos = await getCollection("media");
+export const allShows = await getCollection("show");
+export const allPodcasts = await getCollection("podcast");
 
 // Drafts
 export const drafts = await getCollection('media', ({ data }) => {
