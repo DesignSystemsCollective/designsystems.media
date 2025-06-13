@@ -58,7 +58,8 @@ const podcastCollection = defineCollection({
       // Transform string to Date object
       publishedAt: z.coerce.date(),
       dateAdded: z.coerce.date().optional(),
-      image: image().optional(),
+      imageReference: image().optional(),
+      image: image().nullable().optional(),
       poster: image().optional(),
       localImages: z.boolean(),
       

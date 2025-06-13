@@ -1,30 +1,42 @@
 ---
-import { getCollection } from 'astro:content';
+// src/pages/shows/[slug].astro
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import ShowPost from "../../templates/ShowPost.astro";
+import ShowLayout from "../../layouts/ShowLayout.astro";
 
 export async function getStaticPaths() {
-  const shows = await getCollection('show');
+  const shows = await getCollection("show");
   return shows.map((show) => ({
     params: { slug: show.slug },
     props: show,
   }));
 }
 
-const post = Astro.props;
-const { Content } = await post.render();
+type Props = CollectionEntry<"show">;
 
-const headProps = {
-  title: `${post.data.title} | Video`,
-  description: post.data.description || post.data.title,
-  image: post.data.image?.src,
-};
+const show = Astro.props;
+
+// Get episodes for this show
+const episodes = await getCollection("podcast", ({ data }) => {
+  return data.showSlug === show.slug;
+});
+
+// Sort episodes by published date (newest first)
+episodes.sort(
+  (a, b) =>
+    new Date(b.data.publishedAt).getTime() -
+    new Date(a.data.publishedAt).getTime()
+);
+
+const { Content } = await show.render();
 ---
-
 <BaseLayout sidebar={false} fullWidth={true} >
-  
- <ShowPost {...post.data} slug={post.slug}>
-    <Content />
-  </ShowPost>
-
+<ShowLayout 
+  {...show.data}
+  slug={show.slug}
+  episodes={episodes}
+>
+  <Content />
+</ShowLayout>
 </BaseLayout>

@@ -1,11 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
-import { postCount, podcastCount, speakers, tags } from "../utils/mediaCollection";
+import { videoCount, podcastCount, speakerCount, tagCount } from "../utils/mediaCollection";
 import CountUp from './CountUp';
-
-const totalTagCount = tags.length;
-const totalSpeakerCount = speakers.length;
-const totalPodcastCount = podcastCount;
 
 function getStartNumber(finalTotal) {
   const min = Math.floor(finalTotal * 0.8); // start at 90% of total
@@ -22,8 +18,8 @@ function getStartNumber(finalTotal) {
       <div data-type="label">Videos</div>
       <div data-type="count"><CountUp
 client:load
-  from={getStartNumber(postCount)}
-  to={postCount}
+  from={getStartNumber(videoCount)}
+  to={videoCount}
   separator=","
   direction="up"
   delay={0}
@@ -35,11 +31,11 @@ client:load
   <a href="/podcast/" class="stat">
     <Icon name="fluent:headphones-24-regular" />
     <div class="info">
-      <div data-type="label">Podcast episodes</div>
+      <div data-type="label">Podcasts</div>
       <div data-type="count"><CountUp
 client:load
-  from={getStartNumber(totalPodcastCount)}
-  to={totalPodcastCount}
+  from={getStartNumber(podcastCount)}
+  to={podcastCount}
   separator=","
   direction="up"
   delay={0.4}
@@ -54,8 +50,8 @@ client:load
       <div data-type="label">Speakers</div>
       <div data-type="count"><CountUp
 client:load
-  from={getStartNumber(totalSpeakerCount)}
-  to={totalSpeakerCount}
+  from={getStartNumber(speakerCount)}
+  to={speakerCount}
   separator=","
   direction="up"
   delay={0.8}
@@ -70,8 +66,8 @@ client:load
       <div data-type="label">Tags</div>
       <div data-type="count"><CountUp
 client:load
-  from={getStartNumber(totalTagCount)}
-  to={totalTagCount}
+  from={getStartNumber(tagCount)}
+  to={tagCount}
   separator=","
   direction="up"
   delay={1.2}
@@ -148,7 +144,7 @@ min-height: 1em;
   }
 </style>
 
-    <script define:vars={{ postCount, totalTagCount, totalSpeakerCount }}>
+    <script define:vars={{ videoCount, tagCount, speakerCount }}>
         // Cookie utility functions
         const CookieManager = {
             // Set a cookie with a name, value, and optional expiration days

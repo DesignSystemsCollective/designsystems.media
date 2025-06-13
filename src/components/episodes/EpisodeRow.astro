@@ -1,0 +1,117 @@
+---
+// src/components/episodes/EpisodeRow.astro
+import type { CollectionEntry } from "astro:content";
+import MediaImage from '../media/MediaImage.astro';
+import EpisodeBadge from './EpisodeBadge.astro';
+import { formatDuration } from "../../utils/formatDuration";
+
+type Episode = CollectionEntry<"podcast">;
+
+export interface Props {
+  episode: Episode;
+  index: number;
+}
+
+const { episode, index } = Astro.props;
+
+const isEven = index % 2 === 1;
+const rowClass = isEven ? 'even' : '';
+
+const dateFormatted = new Date(episode.data.publishedAt).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric'
+});
+---
+
+<!-- Episode Content Cell -->
+<div class={`episodes-cell ${rowClass}`}>
+  <div class="episode-content">
+    {episode.data.image && (
+      <MediaImage 
+        src={episode.data.image} 
+        alt={`${episode.data.title} thumbnail`}
+        size="thumbnail"
+        class="episode-thumbnail"
+      />
+    )}
+    <div class="episode-title-container">
+      <a class="episode-title" href={`/podcast/${episode.slug}/`}>
+        {episode.data.season && episode.data.episode && (
+          <EpisodeBadge 
+            season={episode.data.season} 
+            episode={episode.data.episode} 
+          />
+        )}
+        {episode.data.title}
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Date Cell -->
+<div class={`episodes-cell ${rowClass} meta`}>
+  {dateFormatted}
+</div>
+
+<!-- Duration Cell -->
+<div class={`episodes-cell ${rowClass} meta duration`}>
+  {formatDuration(episode.data.duration)}
+</div>
+
+<style>
+  .episodes-cell {
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--hr);
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    transition: background-color 0.2s ease;
+  }
+
+  .episodes-cell.even {
+    background-color: transparent;
+  }
+
+  .episodes-cell:hover {
+    background-color: transparent;
+  }
+
+  .episode-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    column-gap: 16px;
+    width: 100%;
+  }
+
+  .episode-title-container {
+    min-width: 0;
+    flex: 1;
+    row-gap: 4px;
+  }
+
+  .episode-title {
+    color: var(--body-text);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block;
+    transition: color 0.2s ease;
+  }
+
+  .episode-title:hover {
+    color: var(--body-text);
+  }
+
+  .meta {
+    color: var(--meta-data);
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .duration {
+    font-family: monospace;
+  }
+</style>
