@@ -4,7 +4,7 @@ import MediaImage from './MediaImage.astro';
 import Title from "../Title.astro";
 export interface Props {
   title: string;
-  image?: { src: string };
+  image?: string | null;
   showArtwork?: boolean;
   showSlug: string;
   podcastTitle: string;
@@ -17,18 +17,25 @@ const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
   eager: true,
 });
 
-// Then in your image loading logic
+// Image loading logic
 let imageToUse;
 
-if (hasEpisodeImage === false) {
-  // Try to load show poster using glob pattern
-  const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
-  const showImage = showImages[showImagePath];
-  if (showImage) {
-    imageToUse = showImage.default.src;
-  }
-} else if (hasEpisodeImage === true && image) {
+if (hasEpisodeImage === undefined) {
+  // This is a show page - just use the image directly
   imageToUse = image.src;
+} else {
+  // This is an episode page
+  if (hasEpisodeImage === true && image) {
+    // Use episode image if it exists
+    imageToUse = image;
+  } else {
+    // Fall back to show poster
+    const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
+    const showImage = showImages[showImagePath];
+    if (showImage) {
+      imageToUse = showImage.default.src;
+    }
+  }
 }
 
 ---
@@ -56,7 +63,7 @@ if (hasEpisodeImage === false) {
     )}
       </div>
     </div>
-  <div class="background" style={`background-image: url('${image?.src}')`}>
+  <div class="background" style={`background-image: url('${imageToUse}')`}>
   </div>
 </div>
 

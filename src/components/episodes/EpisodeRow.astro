@@ -22,14 +22,40 @@ const dateFormatted = new Date(episode.data.publishedAt).toLocaleDateString('en-
   month: 'short',
   day: 'numeric'
 });
+
+const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
+  eager: true,
+});
+
+// Image loading logic
+let imageToUse;
+
+if (episode.data.hasEpisodeImage === undefined) {
+  // This is a show page - just use the image directly
+  imageToUse = episode.data.image.src;
+} else {
+  // This is an episode page
+  if (episode.data.hasEpisodeImage === true && episode.data.image) {
+    // Use episode image if it exists
+    imageToUse = episode.data.image.src;
+  } else {
+    // Fall back to show poster
+    const showImagePath = `/src/content/show/${episode.data.showSlug}/poster.jpg`;
+    const showImage = showImages[showImagePath];
+    if (showImage) {
+      imageToUse = showImage.default.src;
+    }
+  }
+}
+
 ---
 
 <!-- Episode Content Cell -->
 <div class={`episodes-cell ${rowClass}`}>
   <div class="episode-content">
-    {episode.data.image && (
+    {imageToUse && (
       <MediaImage 
-        src={episode.data.image} 
+        src={imageToUse} 
         alt={`${episode.data.title} thumbnail`}
         size="thumbnail"
         class="episode-thumbnail"
