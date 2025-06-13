@@ -1,18 +1,34 @@
 ---
-import { type CollectionEntry } from "astro:content";
+// src/pages/shows/[slug].astro
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import PodcastPost from "../../templates/PodcastPost.astro";
-import { allPodcasts } from "../../utils/mediaCollection";
+import ShowLayout from "../../layouts/ShowLayout.astro";
+
 export async function getStaticPaths() {
-  const posts = allPodcasts;
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: post,
+  const shows = await getCollection("podcast");
+  return shows.map((show) => ({
+    params: { slug: show.slug },
+    props: show,
   }));
 }
+
 type Props = CollectionEntry<"podcast">;
 
 const post = Astro.props;
+
+// Get episodes for this show
+const episodes = await getCollection("podcast", ({ data }) => {
+  return data.showSlug === post.slug;
+});
+
+// Sort episodes by published date (newest first)
+episodes.sort(
+  (a, b) =>
+    new Date(b.data.publishedAt).getTime() -
+    new Date(a.data.publishedAt).getTime()
+);
+
 const { Content } = await post.render();
 const headProps = {
   title: `${post.data.title} | Podcast`,
@@ -20,9 +36,11 @@ const headProps = {
   image: post.data.image?.src,
 };
 ---
-
 <BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps}>
-  <PodcastPost {...post.data} slug={post.slug}>
-    <Content />
-  </PodcastPost>
+<ShowLayout 
+  {...post.data}
+  slug={post.slug}
+>
+  <Content />
+</ShowLayout>
 </BaseLayout>

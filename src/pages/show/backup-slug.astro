@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ShowPost from "../../templates/ShowPost.astro";
+
+export async function getStaticPaths() {
+  const shows = await getCollection('show');
+  return shows.map((show) => ({
+    params: { slug: show.slug },
+    props: show,
+  }));
+}
+
+const post = Astro.props;
+const { Content } = await post.render();
+
+const headProps = {
+  title: `${post.data.title} | Video`,
+  description: post.data.description || post.data.title,
+  image: post.data.image?.src,
+};
+---
+
+<BaseLayout sidebar={false} fullWidth={true} >
+  
+ <ShowPost {...post.data} slug={post.slug}>
+    <Content />
+  </ShowPost>
+
+</BaseLayout>

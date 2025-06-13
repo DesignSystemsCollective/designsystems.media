@@ -1,0 +1,28 @@
+---
+// src/components/episodes/EpisodeBadge.astro
+export interface Props {
+  season: number;
+  episode: number;
+  class?: string;
+}
+
+const { season, episode, class: className = '' } = Astro.props;
+---
+
+<span class={`episode-badge ${className}`}>
+  S{season}E{episode}
+</span>
+
+<style>
+  .episode-badge {
+    background-color: #f3f4f6;
+    color: #374151;
+    padding: 4px 8px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+</style>

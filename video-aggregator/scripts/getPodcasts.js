@@ -11,8 +11,8 @@ const {
 
 const sourcesData = require(path.join(__dirname, "../data/podcast-sources.json"));
 const podcastsToIgnore = require(path.join(__dirname, "../data/podcast-ignore.json"));
-const outputFilename = path.join(__dirname, "../data/podcast-episodes.json");
-const showsOutputFilename = path.join(__dirname, "../data/podcast-shows.json");
+const outputFilename = path.join(__dirname, "../data/podcast/episodes.json");
+const showsOutputFilename = path.join(__dirname, "../data/podcast/shows.json");
 const outputDir = path.join(__dirname, "../../src/content/podcast/");
 const showsDir = path.join(__dirname, "../../src/content/show/");
 
@@ -150,15 +150,17 @@ function generateShowMdxFile(showData, showsDir) {
     ? showData.categories.map(cat => `"${cat}"`).join(', ')
     : '"Uncategorized"';
 
+    
   // Write the frontmatter and description to the index.mdx file
   fs.writeFileSync(
     indexPath,
     `---
 title: "${showData.title}"
 description: "${showData.description.replace(/"/g, '\\"')}"
-speakers: "${showData.author}"
+speakers: [${showData.speakers}]
 feedUrl: "${showData.feedUrl}"
 websiteUrl: "${showData.websiteUrl}"
+imageReference: "${showData.imageUrl}"
 image: "${showData.imageUrl}"
 dateAdded: "${showData.dateAdded}"
 lastUpdate: "${showData.lastUpdate}"
@@ -184,7 +186,7 @@ ${showData.description}
 }
 
 // Function to generate an MDX file with podcast episode data
-function generateEpisodeMdxFile(episode, showSlug, folderPath, predefinedSpeakers = null) {
+function generateEpisodeMdxFile(episode, showSlug, folderPath, predefinedSpeakers = null, showData = null) {
   const episodeTitle = episode.title;
   const episodeUrl = episode.episodeUrl;
   const audioUrl = episode.audioUrl;
@@ -218,11 +220,22 @@ function generateEpisodeMdxFile(episode, showSlug, folderPath, predefinedSpeaker
   // Format speakers array for YAML
   const speakersYaml = speakers.map(speaker => `"${speaker}"`).join(', ');
 
-  // Determine image to use - episode specific or show reference
-  const imageReference = episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl
-    ? episode.episodeImageUrl  // Use episode-specific image URL
-    : null;  // Reference show's local image
-
+  // Determine image to use - check for duplicates with show image
+  let imageReference = null;
+  
+  if (episode.episodeImageUrl) {
+    // If showData is provided, check against show's imageReference
+    if (showData && showData.imageUrl === episode.episodeImageUrl) {
+      // Episode image is same as show image, set to null to reference show's image
+      imageReference = null;
+    } else if (episode.episodeImageUrl !== episode.podcastImageUrl) {
+      // Episode has a different image from both show and podcast default
+      imageReference = `"${episode.episodeImageUrl}"`;
+    } else {
+      // Episode image is same as podcast image, set to null
+      imageReference = null;
+    }
+  }
   // Write the frontmatter and description to the index.mdx file
   fs.writeFileSync(
     indexPath,
@@ -234,7 +247,7 @@ episodeUrl: "${episodeUrl}"
 audioUrl: "${audioUrl}"
 podcastTitle: "${podcastTitle}"
 showSlug: "${showSlug}"
-image: "${imageReference}"
+image: ${imageReference || 'null'}
 localImages: false
 tags: ["Unsorted"]
 categories: ["Podcast"]
@@ -248,13 +261,22 @@ episode: ${episode.episode || 'null'}
 explicit: ${episode.explicit}
 feedUrl: "${episode.feedUrl}"
 guid: "${episode.guid}"
-hasEpisodeImage: ${Boolean(episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl)}
+hasEpisodeImage: ${Boolean(episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl && (!showData || showData.imageUrl !== episode.episodeImageUrl))}
 ---
 ${episodeDescription}
 `
   );
 
   console.log(`Created episode: ${episodeTitle}`);
+}
+
+// Helper function to find show data by slug
+function findShowBySlug(showSlug, showsData) {
+  if (!showSlug || !showsData || !Array.isArray(showsData)) {
+    return null;
+  }
+  
+  return showsData.find(show => show && show.slug === showSlug) || null;
 }
 
 // Function to retrieve an appropriate poster URL
@@ -275,127 +297,109 @@ async function main() {
 
     const allEpisodes = [];
     const allShows = [];
+    const feedDataCollection = []; // Store feed data for episode processing
     let ignoredEpisodesCount = 0;
 
+    // PHASE 1: Process all shows first
+    console.log("Phase 1: Processing shows...");
+    
     for (const source of sourcesData) {
+      let feedData = null;
+      
       if (source.type === "podcast-feed") {
         const feedUrl = source.url;
-        console.log(`Fetching episodes from feed ${feedUrl}...`);
+        console.log(`Fetching show data from feed ${feedUrl}...`);
         const { episodes: feedEpisodes, showData } = await getPodcastByFeedUrl(feedUrl, importedPodcastData);
-
-        // Create or update show
-        const show = createOrUpdateShow(showData, importedShowsData);
-        const showExists = allShows.find(s => s.slug === show.slug);
-        if (!showExists) {
-          allShows.push(show);
-          generateShowMdxFile(show, showsDir);
-        }
-
-        for (const episode of feedEpisodes) {
-          const episodeUrl = episode.episodeUrl;
-
-          const sanitizedTitle = episode.title.replace(
-            /[:"""#'''!?@_^%()]/gi,
-            ""
-          );
-          const folderName = slugify(sanitizedTitle, {
-            lower: true,
-            remove: /[*+~.()'"!:@,;\[\]]/g,
-          })
-            .split("-")
-            .slice(0, 7)
-            .join("-");
-          const folderPath = path.join(outputDir, folderName);
-
-          // Check if the episode should be ignored
-          if (podcastsToIgnore.includes(episodeUrl) || podcastsToIgnore.includes(episode.guid)) {
-            console.log(`Skipping episode: ${sanitizedTitle} (ignored)`);
-            ignoredEpisodesCount++;
-            continue;
-          }
-
-          generateEpisodeMdxFile(episode, show.slug, folderPath, source.speakers);
-          allEpisodes.push(episode);
-        }
+        feedData = { episodes: feedEpisodes, showData, source };
       } else if (source.type === "podcast-search") {
         const searchTerm = source.term;
         console.log(`Searching for podcast: ${searchTerm}...`);
         const { episodes: searchEpisodes, showData } = await searchPodcastByTitle(searchTerm, importedPodcastData);
-
-        // Create or update show
-        const show = createOrUpdateShow(showData, importedShowsData);
-        const showExists = allShows.find(s => s.slug === show.slug);
-        if (!showExists) {
-          allShows.push(show);
-          generateShowMdxFile(show, showsDir);
-        }
-
-        for (const episode of searchEpisodes) {
-          const episodeUrl = episode.episodeUrl;
-
-          const sanitizedTitle = episode.title.replace(
-            /[:"""#'''!?@_^%()]/gi,
-            ""
-          );
-          const folderName = slugify(sanitizedTitle, {
-            lower: true,
-            remove: /[*+~.()'"!:@,;\[\]]/g,
-          })
-            .split("-")
-            .slice(0, 7)
-            .join("-");
-          const folderPath = path.join(outputDir, folderName);
-
-          // Check if the episode should be ignored
-          if (podcastsToIgnore.includes(episodeUrl) || podcastsToIgnore.includes(episode.guid)) {
-            console.log(`Skipping episode: ${sanitizedTitle} (ignored)`);
-            ignoredEpisodesCount++;
-            continue;
-          }
-
-          generateEpisodeMdxFile(episode, show.slug, folderPath, source.speakers);
-          allEpisodes.push(episode);
-        }
+        feedData = { episodes: searchEpisodes, showData, source };
       } else if (source.type === "trending") {
         console.log(`Fetching trending podcasts...`);
         const trendingData = await getTrendingPodcasts(importedPodcastData, source.max || 10);
-
-        for (const { episodes: trendingEpisodes, showData } of trendingData) {
-          // Create or update show
-          const show = createOrUpdateShow(showData, importedShowsData);
+        
+        // Handle multiple shows from trending
+        for (const trendingItem of trendingData) {
+          feedDataCollection.push({ 
+            episodes: trendingItem.episodes, 
+            showData: trendingItem.showData, 
+            source 
+          });
+          
+          // Create show
+          const show = createOrUpdateShow(trendingItem.showData, [...importedShowsData, ...allShows]);
           const showExists = allShows.find(s => s.slug === show.slug);
           if (!showExists) {
             allShows.push(show);
             generateShowMdxFile(show, showsDir);
           }
-
-          for (const episode of trendingEpisodes) {
-            const episodeUrl = episode.episodeUrl;
-
-            const sanitizedTitle = episode.title.replace(
-              /[:"""#'''!?@_^%()]/gi,
-              ""
-            );
-            const folderName = slugify(sanitizedTitle, {
-              lower: true,
-              remove: /[*+~.()'"!:@,;\[\]]/g,
-            })
-              .split("-")
-              .slice(0, 7)
-              .join("-");
-            const folderPath = path.join(outputDir, folderName);
-
-            // Check if the episode should be ignored
-            if (podcastsToIgnore.includes(episodeUrl) || podcastsToIgnore.includes(episode.guid)) {
-              console.log(`Skipping episode: ${sanitizedTitle} (ignored)`);
-              ignoredEpisodesCount++;
-              continue;
-            }
-
-            generateEpisodeMdxFile(episode, show.slug, folderPath, source.speakers);
-            allEpisodes.push(episode);
-          }
         }
+        continue; // Skip the single feedData processing below
+      }
+      
+      if (feedData) {
+        feedDataCollection.push(feedData);
+        
+        // Create or update show
+        const show = createOrUpdateShow(feedData.showData, [...importedShowsData, ...allShows]);
+        const showExists = allShows.find(s => s.slug === show.slug);
+        if (!showExists) {
+          allShows.push(show);
+          generateShowMdxFile(show, showsDir);
+        }
+      }
+    }
+
+    // PHASE 2: Process all episodes with access to all shows
+    console.log("Phase 2: Processing episodes...");
+    
+    // Combine imported shows with newly created shows for episode processing
+    const combinedShowsForEpisodes = [...importedShowsData, ...allShows];
+    
+    for (const feedData of feedDataCollection) {
+      const { episodes, showData, source } = feedData;
+      
+      // Find the show that was created in Phase 1
+      const show = combinedShowsForEpisodes.find(s => 
+        s.feedUrl === showData.url || s.slug === generateShowSlug(showData.title)
+      );
+      
+      if (!show) {
+        console.warn(`Could not find show for episodes from ${showData.title}`);
+        continue;
+      }
+
+      for (const episode of episodes) {
+        const episodeUrl = episode.episodeUrl;
+
+        const sanitizedTitle = episode.title.replace(
+          /[:"""#'''!?@_^%()]/gi,
+          ""
+        );
+        const folderName = slugify(sanitizedTitle, {
+          lower: true,
+          remove: /[*+~.()'"!:@,;\[\]]/g,
+        })
+          .split("-")
+          .slice(0, 7)
+          .join("-");
+        const folderPath = path.join(outputDir, folderName);
+
+        // Check if the episode should be ignored
+        if (podcastsToIgnore.includes(episodeUrl) || podcastsToIgnore.includes(episode.guid)) {
+          console.log(`Skipping episode: ${sanitizedTitle} (ignored)`);
+          ignoredEpisodesCount++;
+          continue;
+        }
+
+        // Now we can find the show data because all shows have been processed
+        const showSlug = episode.showSlug || show.slug;
+        const showDataForEpisode = findShowBySlug(showSlug, combinedShowsForEpisodes);
+        
+        generateEpisodeMdxFile(episode, show.slug, folderPath, source.speakers, showDataForEpisode);
+        allEpisodes.push(episode);
       }
     }
 

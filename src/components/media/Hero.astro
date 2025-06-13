@@ -1,0 +1,150 @@
+---
+// src/components/media/Hero.astro
+import MediaImage from './MediaImage.astro';
+import Title from "../Title.astro";
+export interface Props {
+  title: string;
+  image?: { src: string };
+  showArtwork?: boolean;
+  showSlug: string;
+  podcastTitle: string;
+  hasEpisodeImage?: boolean;
+}
+
+const { title, image, showSlug, podcastTitle, hasEpisodeImage, showArtwork = true } = Astro.props;
+
+const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
+  eager: true,
+});
+
+// Then in your image loading logic
+let imageToUse;
+
+if (hasEpisodeImage === false) {
+  // Try to load show poster using glob pattern
+  const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
+  const showImage = showImages[showImagePath];
+  if (showImage) {
+    imageToUse = showImage.default.src;
+  }
+} else if (hasEpisodeImage === true && image) {
+  imageToUse = image.src;
+}
+
+---
+
+<div class="hero-image">
+  <div class="show-container">
+    {showArtwork && (
+      <MediaImage 
+        src={imageToUse} 
+        alt={title} 
+        size="large"
+        class="podcast-artwork"
+      />
+    )}
+  </div>
+    <div class="scrim">
+      <div class="page-title">
+        <Title data-pagefind-meta="title">{title}</Title>
+         {showSlug && (
+     <a
+          href={`/show/${showSlug}/`}
+          class="show"
+          data-pagefind-filter="show"
+          data-pagefind-weight="5">{podcastTitle}</a>
+    )}
+      </div>
+    </div>
+  <div class="background" style={`background-image: url('${image?.src}')`}>
+  </div>
+</div>
+
+<style>
+  .hero-image {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+    height: auto;
+    margin: -1.5rem -1.5rem 0rem -1.5rem;
+    min-height: 300px;
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    overflow: hidden;
+    animation: fadeIn 1.5s;
+  }
+  .background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2.5rem);
+  }
+  .scrim {
+    content: "";
+    z-index: 15;
+    position: relative;
+    margin-top: -6rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5rem 1rem 2rem;
+    background: var(--scrim-gradient);
+  }
+
+  .show-container {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    min-height: 250px;
+    gap: 1.5rem;
+  }
+
+
+  .page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+  }
+  h1.title {
+    padding: 1rem 0 0;
+  }
+  .page-title .show {
+    font-weight: 600;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .hero-image {
+      height: auto;
+      margin: 0;
+    }
+    
+    .show-container {
+      padding: 1.5rem;
+      min-height: 200px;
+    }
+  }
+</style>

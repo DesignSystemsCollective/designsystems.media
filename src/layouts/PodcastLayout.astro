@@ -1,0 +1,118 @@
+---
+// src/layouts/ShowLayout.astro
+import type { CollectionEntry } from "astro:content";
+import { repository } from "../../package.json";
+import Hero from "../components/media/Hero.astro";
+import MetaList from "../components/media/MetaList.astro";
+import MetaItem from "../components/media/MetaItem.astro";
+import SpeakerList from "../components/media/SpeakerList.astro";
+import EpisodeGrid from "../components/episodes/EpisodeGrid.astro";
+
+type Media = CollectionEntry<"podcast">;
+
+export interface Props extends Media["data"] {
+  slug?: Media["slug"];
+}
+
+const { 
+  title, 
+  image, 
+  slug, 
+  speakers, 
+  episodeCount, 
+  explicit,
+  hasEpisodeImage,
+  episodes,
+  showSlug,
+  podcastTitle 
+} = Astro.props;
+---
+
+<article data-pagefind-body data-pagefind-sort>
+  <Hero 
+    title={title} 
+    image={image}
+    hasEpisodeImage={hasEpisodeImage}
+    showSlug={showSlug}
+    podcastTitle={podcastTitle}
+    data-pagefind-meta={`image:${image?.src}`}
+  />
+  
+  <div class="content">
+    <MetaList>
+      <MetaItem icon="fluent:headphones-20-filled" type="inline">
+        {episodeCount} episodes
+      </MetaItem>
+      
+      {explicit && (
+        <MetaItem type="inline">
+          <span class="explicit">Explicit</span>
+        </MetaItem>
+      )}
+
+      {speakers && (
+        <SpeakerList speakers={speakers} />
+      )}
+      
+      <MetaItem icon="fluent:edit-20-filled" type="inline">
+        <a href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}>
+          Edit on GitHub
+        </a>
+      </MetaItem>
+    </MetaList>
+    
+    <div class="prose" data-pagefind-weight="3">
+      <slot />
+       {episodes && (
+      <EpisodeGrid episodes={episodes} />
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  :global(.title) {
+    margin: 0 auto 1em;
+    padding: 2.5rem 0rem 0.5rem;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .prose {
+    margin: auto;
+    color: var(--body-text);
+    overflow-wrap: anywhere;
+  }
+
+  :global(.prose h1),
+  :global(.prose h2),
+  :global(.prose h3),
+  :global(.prose h4),
+  :global(.prose h5),
+  :global(.prose h6) {
+    font-size: 1em;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+    grid-template-columns: minmax(100px, 200px) 1fr;
+  }
+
+  @media screen and (max-width: 1024px) {
+    :global(.title) {
+      padding: 2.5rem 1rem 0.5rem;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+</style>
