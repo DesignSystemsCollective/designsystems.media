@@ -27,7 +27,7 @@ if (hasEpisodeImage === undefined) {
   // This is an episode page
   if (hasEpisodeImage === true && image) {
     // Use episode image if it exists
-    imageToUse = image;
+    imageToUse = image.src;
   } else {
     // Fall back to show poster
     const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
@@ -87,7 +87,7 @@ if (hasEpisodeImage === undefined) {
     background-position: center center;
     opacity: 1;
     overflow: hidden;
-    animation: fadeIn 1.5s;
+    
   }
   .background::before {
     content: "";
@@ -104,7 +104,7 @@ if (hasEpisodeImage === undefined) {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 5rem 1rem 2rem;
+    padding: 7rem 1rem 2rem;
     background: var(--scrim-gradient);
   }
 
