@@ -32,9 +32,9 @@ episodes.sort(
 const { Content } = await show.render();
 
 const headProps = {
-  title: `${post.data.title} | Video`,
-  description: post.data.description || post.data.title,
-  image: post.data.image?.src,
+  title: `${show.data.title} | Video`,
+  description: show.data.description || show.data.title,
+  image: show.data.image?.src,
 };
 ---
 <BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps} >
