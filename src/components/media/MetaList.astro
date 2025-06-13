@@ -15,7 +15,6 @@ const { class: className = '' } = Astro.props;
   .meta-data {
     color: var(--meta-data);
     padding: 1rem 0em;
-    padding-left: 1.8rem;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -37,30 +36,24 @@ const { class: className = '' } = Astro.props;
     color: var(--meta-data);
   }
 
-  .meta-data :global([data-icon]) {
-    margin-right: 0.25em;
-    position: absolute;
-    transform: translateX(-1.8rem);
-  }
-
-  .meta-data :global(span.inline [data-icon]) {
-    margin-top: 0.2em;
-  }
-
   @media screen and (max-width: 1024px) {
-    .meta-data {
-      padding-left: 0;
-      flex-direction: row;
-      gap: 0em 2rem;
-    }
+   
+
+  .meta-data {
+    width: 100%;
+    padding: 1rem 0em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--hr);
+    justify-content: baseline;
+  }
 
     .meta-data :global([data-icon]) {
       position: relative;
-      transform: translateX(0);
-    }
-
-    .meta-data :global(.inline) {
-      margin-block-start: 0.5em;
     }
 
     .meta-data :global(.break) {
@@ -68,6 +61,11 @@ const { class: className = '' } = Astro.props;
       height: 0;
       display: block;
     }
+
+
+  .meta-data {
+    flex-direction: row;
+  }
   }
 
   /* Break element - hidden by default, shown on mobile */

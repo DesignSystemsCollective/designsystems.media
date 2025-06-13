@@ -49,26 +49,21 @@ const {
   <div class="content">
     <MetaList>
       {episodeCount && (
-        <MetaItem icon="fluent:headphones-20-filled" type="inline">
+        <MetaItem icon="fluent:headphones-20-filled">
           {episodeCount} episodes
         </MetaItem>
       )}
       
       {explicit && (
-        <MetaItem type="inline">
+        <MetaItem >
           <span class="explicit">Explicit</span>
         </MetaItem>
       )}
 
       {speakers && (
-        <SpeakerList speakers={speakers} />
+        <MetaItem icon="fluent:person-20-filled" speakers={speakers}>
+        </MetaItem >
       )}
-      
-      <MetaItem icon="fluent:edit-20-filled" type="inline">
-        <a href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}>
-          Edit on GitHub
-        </a>
-      </MetaItem>
     </MetaList>
     
     <div class="prose" data-pagefind-weight="3">
