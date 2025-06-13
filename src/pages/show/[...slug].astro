@@ -30,8 +30,14 @@ episodes.sort(
 );
 
 const { Content } = await show.render();
+
+const headProps = {
+  title: `${post.data.title} | Video`,
+  description: post.data.description || post.data.title,
+  image: post.data.image?.src,
+};
 ---
-<BaseLayout sidebar={false} fullWidth={true} >
+<BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps} >
 <ShowLayout 
   {...show.data}
   slug={show.slug}
