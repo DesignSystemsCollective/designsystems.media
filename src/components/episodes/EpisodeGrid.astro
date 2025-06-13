@@ -16,8 +16,6 @@ const { episodes, class: className = '' } = Astro.props;
 <div class={`episodes-grid-wrapper ${className}`}>
   <div class="episodes-grid">
     <div class="episodes-grid-header">Episode</div>
-    <div class="episodes-grid-header">Date</div>
-    <div class="episodes-grid-header">Duration</div>
 
     {episodes.map((episode, index) => (
       <EpisodeRow 
@@ -31,17 +29,16 @@ const { episodes, class: className = '' } = Astro.props;
 <style>
   .episodes-grid-wrapper {
     border-radius: 0;
-    overflow: hidden;
   }
 
   .episodes-grid {
     display: grid;
     column-gap: 0;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr;
   }
 
   .episodes-grid-header {
-    padding: 12px 0px;
+    padding: 8px 0px;
     font-weight: 600;
     color: #e5e7eb;
     font-size: 14px;

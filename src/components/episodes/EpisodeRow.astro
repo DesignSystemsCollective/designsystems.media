@@ -3,6 +3,7 @@
 import type { CollectionEntry } from "astro:content";
 import MediaImage from '../media/MediaImage.astro';
 import EpisodeBadge from './EpisodeBadge.astro';
+import Badge from '../Badge.astro';
 import { formatDuration } from "../../utils/formatDuration";
 
 type Episode = CollectionEntry<"podcast">;
@@ -51,79 +52,78 @@ if (episode.data.hasEpisodeImage === undefined) {
 ---
 
 <!-- Episode Content Cell -->
-<div class={`episodes-cell ${rowClass}`}>
-     
-  <div class="episode-content">
+
+  <a href={`/podcast/${episode.slug}/`} class={`episodes-row ${rowClass}`}>
     {imageToUse && (
-       <a href={`/podcast/${episode.slug}/`}><MediaImage 
+      <MediaImage 
         src={imageToUse} 
         alt={`${episode.data.title} thumbnail`}
         size="thumbnail"
         class="episode-thumbnail"
-      /></a>
+      />
     )}
     <div class="episode-title-container">
-         <a class="episode-title" href={`/podcast/${episode.slug}/`}>{episode.data.season && episode.data.episode && (
-          <EpisodeBadge 
+         <div class="episode-meta">
+        <Badge 
+            label={dateFormatted}
+            variant='primary' 
+          />
+          {episode.data.season && episode.data.episode && (
+        <Badge 
+            variant='secondary' 
             season={episode.data.season} 
             episode={episode.data.episode} 
           />
         )}
-        {episode.data.title}
-      </a>
+        <Badge 
+            label={formatDuration(episode.data.duration)} 
+            variant='secondary'
+          /></div>
+        <div class="episode-title">{episode.data.title}</div>
     </div>
   </div>
-</div>
-
-<!-- Date Cell -->
-<div class={`episodes-cell ${rowClass} meta`}>
-  {dateFormatted}
-</div>
-
-<!-- Duration Cell -->
-<div class={`episodes-cell ${rowClass} meta duration`}>
-  {formatDuration(episode.data.duration)}
-</div>
+  </a>  
 
 <style>
-  .episodes-cell {
-    padding: 0px 0px;
+  .episodes-row {
+    padding: 12px 0px;
     border-bottom: 1px solid var(--hr);
     display: flex;
     align-items: center;
     min-height: 80px;
-    transition: background-color 0.2s ease;
-  }
-
-  .episodes-cell.even {
-    background-color: transparent;
-  }
-
-  .episodes-cell:hover {
-    background-color: transparent;
-  }
-
-  .episode-content {
-    display: flex;
-    align-items: center;
-    gap: 16px;
     column-gap: 12px;
     width: 100%;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+  }
+
+  .episode-meta {
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .episodes-row.even {
+    background-color: transparent;
+  }
+
+  .episodes-row:hover {
+    background-color: transparent;
   }
 
   .episode-title-container {
     min-width: 0;
     flex: 1;
-    row-gap: 4px;
+    display: flex;
+    row-gap: 8px;
     flex-direction: column;
   }
 
   .episode-title {
-    padding: 8px 4px;
+    padding: 0px 4px;
     color: var(--body-text);
     font-weight: 500;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.4;
     display: flex;
     gap: 8px;
@@ -139,10 +139,11 @@ if (episode.data.hasEpisodeImage === undefined) {
   .meta {
     color: var(--meta-data);
     font-size: 14px;
-    white-space: nowrap;
   }
 
   .duration {
-    font-family: monospace;
+    font-variant-numeric: tabular-nums;
+    justify-content: right;
+    display: flex;
   }
 </style>
