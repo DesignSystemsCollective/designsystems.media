@@ -1,11 +1,9 @@
 ---
 // src/layouts/ShowLayout.astro
 import type { CollectionEntry } from "astro:content";
-import { repository } from "../../package.json";
 import Hero from "../components/media/Hero.astro";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
-import SpeakerList from "../components/media/SpeakerList.astro";
 import EpisodeGrid from "../components/episodes/EpisodeGrid.astro";
 
 type ShowEntry = CollectionEntry<"show">;
@@ -46,7 +44,7 @@ const {
     data-pagefind-meta={`image:${image?.src}`}
   />
   
-  <div class="content">
+  <div class="show-content">
     <MetaList>
       {episodeCount && (
         <MetaItem icon="fluent:headphones-20-filled">
@@ -98,11 +96,13 @@ const {
     font-size: 1em;
   }
 
-  .content {
+  .show-content {
+    position: relative;
     width: 100%;
     max-width: 900px;
     margin: auto;
     padding: 1rem;
+    z-index:20;
     display: grid;
     gap: 2rem;
     justify-content: center;
@@ -115,7 +115,7 @@ const {
       padding: 2.5rem 1rem 0.5rem;
     }
 
-    .content {
+   .show-content  {
       display: flex;
       flex-direction: column;
     }

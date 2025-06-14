@@ -1,19 +1,19 @@
 :root {
   /* colours */
-  --neutral-black: #100f0f;
-  --neutral-950: #1c1b1a;
-  --neutral-900: #282726;
-  --neutral-850: #343331;
-  --neutral-800: #403e3c;
-  --neutral-700: #575653;
-  --neutral-600: #6f6e69;
-  --neutral-500: #878580;
-  --neutral-300: #b7b5ac;
-  --neutral-200: #cecdc3;
-  --neutral-150: #dad8ce;
-  --neutral-100: #e6e4d9;
-  --neutral-50: #f2f0e5;
-  --neutral-paper: #fffcf0;
+--neutral-black: #0f0f10;
+--neutral-950: #1b1b1c;
+--neutral-900: #272728;
+--neutral-850: #323233;
+--neutral-800: #3e3e3f;
+--neutral-700: #545456;
+--neutral-600: #6a6a6c;
+--neutral-500: #818183;
+--neutral-300: #b1b1b4;
+--neutral-200: #c8c8cb;
+--neutral-150: #d4d4d7;
+--neutral-100: #e0e0e3;
+--neutral-50: #ececef;
+--neutral-paper: #f8f8fb;
 
   /* colours named by chatgpt */
   --pure-white: #ffffff; /* Pure white */

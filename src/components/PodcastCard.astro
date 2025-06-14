@@ -9,26 +9,29 @@ type Props = Media["data"] & { slug?: Media["slug"] };
 
 const { title, publishedAt, duration, image, slug, hasEpisodeImage, showSlug,podcastTitle } = Astro.props;
 
-const showImages = import.meta.glob('/src/content/show/*/poster.jpg', { eager: true, 
-  as: 'url'  });
+const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
+  eager: true,
+});
 
-// Then in your image loading logic
+// Image loading logic
 let imageToUse;
 
-if (hasEpisodeImage === false && showSlug) {
-  // Try to load show poster using glob pattern
-  const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
-  const showImage = showImages[showImagePath];
-  
-  console.log('Looking for:', showImagePath);
-  console.log('Found:', showImage);
-  
-  if (showImage) {
-    // With the new query: '?url', import: 'default' syntax, the image should be directly accessible
-    imageToUse = showImage;
+if (hasEpisodeImage === undefined) {
+  // This is a show page - just use the image directly
+  imageToUse = image.src;
+} else {
+  // This is an episode page
+  if (hasEpisodeImage === true && image) {
+    // Use episode image if it exists
+    imageToUse = image.src;
+  } else {
+    // Fall back to show poster
+    const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
+    const showImage = showImages[showImagePath];
+    if (showImage) {
+      imageToUse = showImage.default.src;
+    }
   }
-} else if (hasEpisodeImage === true && image) {
-  imageToUse = image;
 }
 ---
 
@@ -66,6 +69,7 @@ if (hasEpisodeImage === false && showSlug) {
   .media-link:hover {.media-image {
     /* outline: 1px solid var(--accent-hover); */
     box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
+    outline: 1px solid var(--accent-hover);
     transition: box-shadow 1s ease-out;
   }}
   .media-content a {text-decoration: none; border-bottom:none;}
@@ -80,7 +84,7 @@ if (hasEpisodeImage === false && showSlug) {
     background-color: rgba(0, 0, 0, 0.2);
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 1s ease-out;
+    transition: box-shadow 0.2s ease-out;
   }
 
   .media-image img {
