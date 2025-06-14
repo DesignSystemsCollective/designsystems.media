@@ -1,17 +1,27 @@
 ---
 // src/components/media/MediaImage.astro
+
+import { formatDuration } from "../../utils/formatDuration";
+import Badge from '../Badge.astro';
+
 export interface Props {
   src?: string;
   alt: string;
+  duration: string;
   size?: 'small' | 'medium' | 'large' | 'thumbnail';
   class?: string;
 }
 
-const { src, alt, size = 'medium', class: className = '' } = Astro.props;
+const { src, alt, size = 'medium', duration, class: className = '' } = Astro.props;
 ---
 
 <div class={`media-image ${size} ${className}`}>
   <img src={src} alt={alt} />
+  {duration && <div class="duration">{formatDuration(duration)}</div>
+        <Badge 
+            label={formatDuration(duration)}}
+            variant='podcast-duration' 
+          />}
 </div>
 
 <style>
@@ -19,6 +29,7 @@ const { src, alt, size = 'medium', class: className = '' } = Astro.props;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0px 0px var(--accent-glow);
+    position: relative;
   }
 
   .media-image img {
@@ -54,6 +65,21 @@ const { src, alt, size = 'medium', class: className = '' } = Astro.props;
   .podcast-artwork {
     width: 200px;
     height: 200px;
+  }
+  .duration {
+    font-variant: small-caps;
+    position: absolute;
+    display: inline-block;
+    color: var(--tx);
+    background: var(--bg-2);
+    box-sizing: border-box;
+    line-height: 1em;
+    padding: 0.5em 0.5em 0.35em;
+    border-radius: 0.4em;
+    letter-spacing: 0.05em;
+    font-size: 0.8rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
   }
 
   @media screen and (max-width: 1024px) {

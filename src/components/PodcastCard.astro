@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import { formatDuration } from "../utils/formatDuration";
+import MediaImage from './media/MediaImage.astro';
 
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -33,14 +34,16 @@ if (hasEpisodeImage === false && showSlug) {
 
 <div class="media-item media-link">
   <a href={`/podcast/${slug}/`} >
-    <div class="media-image">
-  <img src={imageToUse} alt={`${podcastTitle} artwork`} />
-      {duration && <div class="duration">{formatDuration(duration)}</div>}
-    </div>
+     <MediaImage 
+        src={imageToUse} 
+        alt={title} 
+        size="large"
+        duration={duration}
+        type="podcast-duration"
+      />
   </a>
     <div class="media-content">
     <a href={`/podcast/${slug}/`} class="title"><h3>{title}</h3></a>
-  
       <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
       <span class="date">
         <FormattedDate date={publishedAt} />
@@ -64,8 +67,8 @@ if (hasEpisodeImage === false && showSlug) {
     /* outline: 1px solid var(--accent-hover); */
     box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
     transition: box-shadow 1s ease-out;
-  }
-a.title {color:var(--tx)}; text-decoration: none; border-bottom:none;}
+  }}
+  .media-content a {text-decoration: none; border-bottom:none;}
 
   .media-image {
     max-width: 100%;
@@ -87,8 +90,7 @@ a.title {color:var(--tx)}; text-decoration: none; border-bottom:none;}
     object-fit: cover;
   }
 
-  
-  h3 {
+  .media-content a h3 {
     font-size: 18px;
     font-weight: 600;
     margin: 2px 0;
@@ -96,6 +98,10 @@ a.title {color:var(--tx)}; text-decoration: none; border-bottom:none;}
   .meta {
     font-size: 14px;
     color: var(--tx-3);
+  }
+
+  a.meta:hover {
+    text-decoration: underline;
   }
 
   .showTitle {
@@ -109,36 +115,15 @@ a.title {color:var(--tx)}; text-decoration: none; border-bottom:none;}
     flex-direction: column;
     gap: 2px;
   }
-  .date {
+  .media-content .date {
     font-size: 13px;
     color: var(--tx-3);
-  }
-  .duration {
-    font-variant: small-caps;
-    position: absolute;
-    display: inline-block;
-    color: var(--tx);
-    background: rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-    line-height: 1em;
-    padding: 0.5em 0.5em 0.35em;
-    border-radius: 0.4em;
-    letter-spacing: 0.05em;
-    font-size: 0.8rem;
-    bottom: 0.5rem;
-    right: 0.5rem;
   }
 
   @media screen and (max-width: 768px) {
     .media-link {
       display: grid;
       grid-template-columns: 1fr 4fr;
-    }
-
-    .duration {
-      bottom: 0.4rem;
-      right: 0.4rem;
-      font-size: 0.7rem;
     }
   }
 </style>
