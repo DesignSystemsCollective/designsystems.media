@@ -2,12 +2,11 @@
 import MediaGrid from "../../components/MediaGrid.astro";
 import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
+import { allVideosFilteredAndSorted } from "../../utils/mediaCollection";
 
-const media = allPostsFilteredAndSorted;
+const media = allVideosFilteredAndSorted;
 ---
 
-<BaseLayout sidebar={false} metadataProps={{ title: "All media" }}>
-  <Title>All media</Title>
+<BaseLayout sidebar={false} metadataProps={{ title: "All videos" }}>
   <MediaGrid media={media} />
 </BaseLayout>

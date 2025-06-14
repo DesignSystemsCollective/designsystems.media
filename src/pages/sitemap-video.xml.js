@@ -1,5 +1,5 @@
 import { XMLBuilder } from "fast-xml-parser";
-import { allPostsFilteredAndSorted } from "../utils/mediaCollection";
+import { allVideosFilteredAndSorted } from "../utils/mediaCollection";
 
 export const prerender = true;
 
@@ -38,7 +38,7 @@ function extractFirstParagraph(markdown = "") {
 }
 
 export async function GET() {
-  const videos = allPostsFilteredAndSorted;
+  const videos = allVideosFilteredAndSorted;
 
   // Render the markdown to access the body content
   await Promise.all(

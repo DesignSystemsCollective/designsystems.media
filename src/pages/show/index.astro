@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+import ShowGrid from "../../components/ShowGrid.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { allShows } from "../../utils/mediaCollection";
+
+const media = allShows;
+
+// Get all shows
+const shows = await getCollection('show', ({ data }) => {
+  return !data.draft;
+});
+
+// Sort shows by title
+shows.sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>
+  <ShowGrid media={media} />
+</BaseLayout>

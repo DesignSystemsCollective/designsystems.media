@@ -1,10 +1,14 @@
 ---
 import { Icon } from "astro-icon/components";
-import { postCount, speakers, tags } from "../utils/mediaCollection";
+import { videoCount, podcastCount, speakerCount, tagCount } from "../utils/mediaCollection";
 import CountUp from './CountUp';
 
-const totalTagCount = tags.length;
-const totalSpeakerCount = speakers.length;
+function getStartNumber(finalTotal) {
+  const min = Math.floor(finalTotal * 0.8); // start at 90% of total
+  const max = Math.floor(finalTotal * 0.95); // up to 95%
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 ---
 
 <div class="libraryStats">
@@ -14,13 +18,29 @@ const totalSpeakerCount = speakers.length;
       <div data-type="label">Videos</div>
       <div data-type="count"><CountUp
 client:load
-  from={700}
-  to={postCount}
+  from={getStartNumber(videoCount)}
+  to={videoCount}
   separator=","
   direction="up"
   delay={0}
   duration={1}
   className="count-up-videos"
+/></div>
+    </div>
+  </a>
+  <a href="/podcast/" class="stat">
+    <Icon name="fluent:headphones-24-regular" />
+    <div class="info">
+      <div data-type="label">Podcasts</div>
+      <div data-type="count"><CountUp
+client:load
+  from={getStartNumber(podcastCount)}
+  to={podcastCount}
+  separator=","
+  direction="up"
+  delay={0.4}
+  duration={1}
+  className="count-up-podcasts"
 /></div>
     </div>
   </a>
@@ -30,11 +50,11 @@ client:load
       <div data-type="label">Speakers</div>
       <div data-type="count"><CountUp
 client:load
-  from={550}
-  to={totalSpeakerCount}
+  from={getStartNumber(speakerCount)}
+  to={speakerCount}
   separator=","
   direction="up"
-  delay={0.4}
+  delay={0.8}
   duration={1}
   className="count-up-speakers"
 /></div>
@@ -46,11 +66,11 @@ client:load
       <div data-type="label">Tags</div>
       <div data-type="count"><CountUp
 client:load
-  from={450}
-  to={totalTagCount}
+  from={getStartNumber(tagCount)}
+  to={tagCount}
   separator=","
   direction="up"
-  delay={0.8}
+  delay={1.2}
   duration={1}
   className="count-up-tag"
 /></div>
@@ -61,7 +81,7 @@ client:load
 <style>
   .libraryStats {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     margin-block: 0rem 0.5rem;
     margin-block-end: 1rem;
@@ -84,10 +104,11 @@ client:load
   .libraryStats a:hover {
     outline: 1px solid var(--tagCount-count);
   }
-  .libraryStats a div[data-type="count"] {
+  .libraryStats a span {
+    display: inline-block;
     border-bottom: 2px dashed var(--tagCount-count);
   }
-  .libraryStats a:hover div[data-type="count"] {
+  .libraryStats a:hover span {
     border-bottom: 2px solid var(--tagCount-count);
   }
   .libraryStats [data-icon] {
@@ -123,7 +144,7 @@ min-height: 1em;
   }
 </style>
 
-    <script define:vars={{ postCount, totalTagCount, totalSpeakerCount }}>
+    <script define:vars={{ videoCount, tagCount, speakerCount }}>
         // Cookie utility functions
         const CookieManager = {
             // Set a cookie with a name, value, and optional expiration days
