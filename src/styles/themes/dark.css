@@ -39,8 +39,8 @@ html[data-theme="dark"] {
   rgba(var(--scrim), 0.075) 80.2%,
   rgba(var(--scrim), 0.042) 86.1%,
   rgba(var(--scrim), 0.021) 91%,
-  rgba(var(--scrim), 0.008) 95.2%,
-  rgba(var(--scrim), 0.002) 98.2%,
+  rgba(var(--scrim), 0.012) 95.2%,
+  rgba(var(--scrim), 0.06) 98.2%,
   rgba(var(--scrim), 0) 100%
 );
 
