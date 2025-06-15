@@ -28,6 +28,7 @@ const {
   episodes,
   showSlug,
   podcastTitle,
+  audioUrl,
   // Add any other props that might come from the podcast collection
   // that aren't already listed above
   ...restProps
@@ -42,6 +43,7 @@ const {
     showSlug={showSlug}
     podcastTitle={podcastTitle}
     data-pagefind-meta={`image:${image?.src}`}
+    audioUrl={audioUrl}
   />
   
   <div class="show-content">
@@ -109,6 +111,7 @@ const {
     align-items: start;
     grid-template-columns: minmax(100px, 200px) 1fr;
   }
+
 
   @media screen and (max-width: 1024px) {
     :global(.title) {
