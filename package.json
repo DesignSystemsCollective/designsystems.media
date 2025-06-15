@@ -10,6 +10,7 @@
   },
   "scripts": {
     "videos": "node video-aggregator/scripts/getVideos.js",
+    "podcasts": "node video-aggregator/scripts/getPodcasts.js",
     "images": "node video-aggregator/scripts/getImages.js",
     "aggregate": "npm run videos && npm run images",
     "dev": "astro dev",
@@ -51,6 +52,7 @@
     "react-dom": "^19.0.0",
     "sharp": "^0.34.2",
     "slugify": "^1.6.6",
+    "turndown": "^7.2.0",
     "typescript": "^5.8.2"
   }
 }

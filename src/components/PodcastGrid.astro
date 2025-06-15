@@ -1,0 +1,24 @@
+---
+import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
+import PodcastCard from "./PodcastCard.astro";
+
+const { media } = Astro.props;
+---
+
+<ResponsiveGrid>
+  {
+    media.map((media) => (
+      <PodcastCard
+        title={media.data.title}
+        poster={media.data.poster}
+        duration={media.data.duration}
+        slug={media.slug}
+        publishedAt={media.data.publishedAt}
+        showSlug={media.data.showSlug}
+        hasEpisodeImage={media.data.hasEpisodeImage}
+        podcastTitle={media.data.podcastTitle}
+        image={media.data.image}    
+      />
+    ))
+  }
+</ResponsiveGrid>

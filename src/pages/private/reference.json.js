@@ -1,5 +1,5 @@
 import ignoreData from "../../../video-aggregator/data/ignoreID.json";
-import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
+import { allVideosFilteredAndSorted } from "../../utils/mediaCollection";
 
 // Helper function to extract YouTube ID from a URL
 function extractYoutubeId(url) {
@@ -29,7 +29,7 @@ export async function GET() {
     const ignoredIds = ignoreData;
 
     // Extract YouTube IDs from media collection and directly get the IDs
-    const collectionIds = allPostsFilteredAndSorted
+    const collectionIds = allVideosFilteredAndSorted
       .filter((post) => post.data.videoUrl)
       .map((post) => extractYoutubeId(post.data.videoUrl))
       .filter((id) => id !== null);

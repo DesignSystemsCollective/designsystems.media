@@ -1,0 +1,72 @@
+---
+// src/components/media/SpeakerList.astro
+import { Icon } from "astro-icon/components";
+import { convertToSlug } from "../../utils/convertToSlug";
+
+export interface Props {
+  speakers: string[];
+  class?: string;
+}
+
+const { speakers, class: className = '' } = Astro.props;
+---
+
+<div class={`speakers ${className}`}>
+  <span class="speakers-label">
+    <Icon name="fluent:person-20-filled" size={20} />
+    Speakers
+  </span>
+  {speakers.map((speaker) => (
+    <a
+      href={`/speakers/${convertToSlug(speaker)}/`}
+      class="speaker"
+      data-pagefind-filter="speaker"
+      data-pagefind-weight="5"
+    >
+      {speaker}
+    </a>
+  ))}
+</div>
+
+<style>
+  .speakers {
+    line-height: normal;
+    align-items: baseline;
+    margin-block-start: 0;
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    gap: 0.5em 0em;
+  }
+
+  .speakers-label {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    font-weight: 500;
+  }
+
+  .speaker {
+    color: var(--meta-data-link);
+    text-decoration: none;
+    padding: 0.2em 0;
+    border-radius: 4px;
+    transition: color 0.2s ease;
+  }
+
+  .speaker:hover {
+    color: var(--accent-hover);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .speakers {
+      display: inline-flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      line-height: normal;
+      gap: 0.25em 1em;
+      align-items: baseline;
+      margin-block-start: 0.5em;
+    }
+  }
+</style>

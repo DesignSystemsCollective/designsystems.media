@@ -9,18 +9,29 @@ html[data-theme="dark"] {
   --footer-text: var(--pale-bluish-gray);
 
   --accent-hover: var(--light-lavender-purple);
+  --accent-glow: rgba(166, 136, 250, 0.5);
+
+  --image-shadow: rgba(255, 255, 255, 0);
+  
   --body-text: var(--light-blue-gray);
   --meta-data: var(--light-blue-gray);
 
-  --tx: var(--neutral-200);
-  --tx-2: var(--neutral-500);
-  --tx-3: var(--neutral-700);
+  --tx: var(--neutral-100);
+  --tx-2: var(--neutral-300);
+  --tx-3: var(--neutral-500);
   --tx-inverted: var(--dark-charcoal-gray);
   --ui: var(--neutral-900);
   --ui-2: var(--neutral-850);
   --ui-3: var(--neutral-800);
   --bg: var(--neutral-black);
   --bg-2: var(--neutral-950);
+
+  --scrim: 21.49% 0.008 240.30;
+
+--scrim-gradient: linear-gradient(
+    to top in oklch,
+    oklch(var(--scrim)) 0%, 45%, oklch(var(--scrim) / 0%) 85% 70%
+);
 
   --pagefind-ui-tag: var(--dark-teal-gray);
   --sponsorship: var(--neutral-600);

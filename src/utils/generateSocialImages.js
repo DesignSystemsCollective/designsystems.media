@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
 import { fileURLToPath } from "url";
-import { allPostsFilteredAndSorted } from "./mediaCollection";
+import { allVideosFilteredAndSorted } from "./mediaCollection";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -363,13 +363,10 @@ export async function runAllMosaics() {
   console.log(`[Astro Mosaics] Primary output directory: ${OUTPUT_DIR}`);
   console.log(`[Astro Mosaics] Duplicate output directory: ${PUBLIC_DIR}`);
 
-  const allPosts = allPostsFilteredAndSorted;
-  const sortedPosts = allPosts.sort(
-    (a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
-  );
+  const sortedPosts = allVideosFilteredAndSorted;
 
   const recentPostImagePaths = [];
-  const maxImagesToPull = 35;
+  const maxImagesToPull = 40;
 
   for (const post of sortedPosts.slice(0, maxImagesToPull)) {
     let absoluteImagePathForSharp;

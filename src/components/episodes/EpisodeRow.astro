@@ -1,0 +1,148 @@
+---
+// src/components/episodes/EpisodeRow.astro
+import type { CollectionEntry } from "astro:content";
+import MediaImage from '../media/MediaImage.astro';
+import Badge from '../Badge.astro';
+import { formatDuration } from "../../utils/formatDuration";
+
+type Episode = CollectionEntry<"podcast">;
+
+export interface Props {
+  episode: Episode;
+  index: number;
+}
+
+const { episode, index } = Astro.props;
+
+const isEven = index % 2 === 1;
+const rowClass = isEven ? 'even' : '';
+
+const dateFormatted = new Date(episode.data.publishedAt).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric'
+});
+
+const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
+  eager: true,
+});
+
+// Image loading logic
+let imageToUse;
+
+if (episode.data.hasEpisodeImage === undefined) {
+  // This is a show page - just use the image directly
+  imageToUse = episode.data.image.src;
+} else {
+  // This is an episode page
+  if (episode.data.hasEpisodeImage === true && episode.data.image) {
+    // Use episode image if it exists
+    imageToUse = episode.data.image.src;
+  } else {
+    // Fall back to show poster
+    const showImagePath = `/src/content/show/${episode.data.showSlug}/poster.jpg`;
+    const showImage = showImages[showImagePath];
+    if (showImage) {
+      imageToUse = showImage.default.src;
+    }
+  }
+}
+
+---
+
+<!-- Episode Content Cell -->
+
+  <a href={`/podcast/${episode.slug}/`} class={`episodes-row ${rowClass}`}>
+    {imageToUse && (
+      <MediaImage 
+        src={imageToUse} 
+        alt={`${episode.data.title} thumbnail`}
+        size="thumbnail"
+        class="episode-thumbnail"
+      />
+    )}
+    <div class="episode-title-container">
+         <div class="episode-meta">
+        <Badge 
+            label={dateFormatted}
+            variant='primary' 
+          />
+          {episode.data.season && episode.data.episode && (
+        <Badge 
+            variant='secondary' 
+            season={episode.data.season} 
+            episode={episode.data.episode} 
+          />
+        )}
+        <Badge 
+            label={formatDuration(episode.data.duration)} 
+            variant='secondary'
+          /></div>
+        <div class="episode-title">{episode.data.title}</div>
+    </div>
+  </div>
+  </a>  
+
+<style>
+  .episodes-row {
+    padding: 12px 0px;
+    border-bottom: 1px solid var(--hr);
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    column-gap: 12px;
+    width: 100%;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+  }
+
+  .episode-meta {
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .episodes-row.even {
+    background-color: transparent;
+  }
+
+  .episodes-row:hover {
+    background-color: transparent;
+  }
+
+  .episode-title-container {
+    min-width: 0;
+    flex: 1;
+    display: flex;
+    row-gap: 8px;
+    flex-direction: column;
+  }
+
+  .episode-title {
+    padding: 0px 4px;
+    color: var(--body-text);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.4;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    transition: color 0.2s ease;
+    align-items: flex-start;
+  }
+
+  .episode-title:hover {
+    color: var(--body-text);
+  }
+
+  .meta {
+    color: var(--meta-data);
+    font-size: 14px;
+  }
+
+  .duration {
+    font-variant-numeric: tabular-nums;
+    justify-content: right;
+    display: flex;
+  }
+</style>

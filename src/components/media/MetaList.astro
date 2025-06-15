@@ -1,0 +1,75 @@
+---
+// src/components/media/MetaList.astro
+export interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<div class={`meta-data ${className}`}>
+  <slot />
+</div>
+
+<style>
+  .meta-data {
+    color: var(--meta-data);
+    padding: 1rem 0em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--hr);
+    justify-content: baseline;
+  }
+
+  .meta-data :global(a) {
+    color: var(--meta-data-link);
+  }
+
+  .meta-data :global(a:hover) {
+    color: var(--accent-hover);
+  }
+
+  .meta-data :global(span) {
+    color: var(--meta-data);
+  }
+
+  @media screen and (max-width: 1024px) {
+   
+
+  .meta-data {
+    width: 100%;
+    padding: 1rem 0em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--hr);
+    justify-content: baseline;
+  }
+
+    .meta-data :global([data-icon]) {
+      position: relative;
+    }
+
+    .meta-data :global(.break) {
+      flex-basis: 100%;
+      height: 0;
+      display: block;
+    }
+
+
+  .meta-data {
+    flex-direction: row;
+  }
+  }
+
+  /* Break element - hidden by default, shown on mobile */
+  :global(.break) {
+    display: none;
+  }
+</style>

@@ -3,25 +3,35 @@ import Card from "../components/Card.astro";
 import CardHeader from "../components/CardHeader.astro";
 import LibraryStats from "../components/LibraryStats.astro";
 import MediaGrid from "../components/MediaGrid.astro";
+import PodcastGrid from "../components/PodcastGrid.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import Sponsors from "../components/Sponsors.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
-import { allPostsFilteredAndSorted } from "../utils/mediaCollection";
+import { allVideosFilteredAndSorted } from "../utils/mediaCollection";
+import { allPodcastsFilteredAndSorted } from "../utils/mediaCollection";
 
-const media = allPostsFilteredAndSorted.slice(0, 12);
+const recentVideos = allVideosFilteredAndSorted.slice(0, 12);
+const recentPodcasts = allPodcastsFilteredAndSorted.slice(0, 12);
 ---
 
 <BaseLayout sidebar={false} isHome={true}>
   <LibraryStats />
   <Sponsors />
   <SectionHeader
-    title="Latest media"
+    title="Latest video"
     link="/all/"
-    linkLabel="View all media"
+    linkLabel="View all videos"
     padding={true}
   />
-  <MediaGrid media={media} />
+  <MediaGrid media={recentVideos} />
+   <SectionHeader
+    title="Latest podcast episodes"
+    link="/podcast/"
+    linkLabel="View all podcasts"
+    padding={true}
+  />
+  <PodcastGrid media={recentPodcasts} />
   <ResponsiveGrid gridLayoutGap="1rem" gridColumnCount={3}>
     <Card>
       <CardHeader

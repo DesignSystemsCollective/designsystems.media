@@ -1,13 +1,11 @@
 ---
-import MediaGrid from "../../components/MediaGrid.astro";
-import Title from "../../components/Title.astro";
+import MixedGrid from "../../components/MixedGrid.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allPostsFilteredAndSorted } from "../../utils/mediaCollection";
+import { allVideosFilteredAndSorted } from "../../utils/mediaCollection";
 
-const media = allPostsFilteredAndSorted;
+const media = allVideosFilteredAndSorted;
 ---
 
-<BaseLayout sidebar={false} metadataProps={{ title: "All media" }}>
-  <Title>All media</Title>
-  <MediaGrid media={media} />
+<BaseLayout sidebar={false} metadataProps={{ title: "All videos" }}>
+  <MixedGrid media={media} />
 </BaseLayout>
