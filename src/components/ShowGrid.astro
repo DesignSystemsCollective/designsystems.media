@@ -5,7 +5,7 @@ import ShowCard from "./ShowCard.astro";
 const { media } = Astro.props;
 ---
 
-<ResponsiveGrid>
+<ResponsiveGrid gridColumnCount={4}>
   {
     media.map((media) => (
       <ShowCard

@@ -1,13 +1,12 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
-import { formatDuration } from "../utils/formatDuration";
 import MediaImage from './media/MediaImage.astro';
 
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
-const { title, publishedAt, duration, image, slug, hasEpisodeImage, showSlug,podcastTitle } = Astro.props;
+const { title, publishedAt, duration, image, slug, hasEpisodeImage, showSlug, podcastTitle } = Astro.props;
 
 const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
   eager: true,
@@ -40,7 +39,7 @@ if (hasEpisodeImage === undefined) {
      <MediaImage 
         src={imageToUse} 
         alt={title} 
-        size="large"
+        size="medium"
         duration={duration}
         type="podcast-duration"
       />
@@ -66,23 +65,21 @@ if (hasEpisodeImage === undefined) {
     gap: 1rem;
   }
 
-  .media-link:hover {.media-image {
+  .media-link:hover {.media-image img {
     /* outline: 1px solid var(--accent-hover); */
     box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
     outline: 1px solid var(--accent-hover);
     transition: box-shadow 1s ease-out;
-  }}
+  }
+.title {color: var(--accent)}
+}
+a:hover h3 {color: var(--accent)}
   .media-content a {text-decoration: none; border-bottom:none;}
 
   .media-image {
-    max-width: 100%;
     height: auto;
-    aspect-ratio: auto 1/1;
-    overflow: hidden;
     position: relative;
-    border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.2);
-    overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.2s ease-out;
   }
@@ -94,9 +91,9 @@ if (hasEpisodeImage === undefined) {
     object-fit: cover;
   }
 
-  .media-content a h3 {
-    font-size: 18px;
-    font-weight: 600;
+  a h3 {
+    font-size: 16px;
+    font-weight: 400;
     margin: 2px 0;
   }
   .meta {

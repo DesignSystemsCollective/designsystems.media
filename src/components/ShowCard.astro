@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { Icon } from "astro-icon/components";
-import { Image } from "astro:assets";
+import MediaImage from './media/MediaImage.astro';
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
@@ -10,9 +9,11 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
 
 <div class="media-item">
   <a href={`/show/${slug}/`} class="media-link">
-    <div class="media-image">
-      <Image src={image} alt={title} />
-    </div>
+     <MediaImage 
+        src={image.src} 
+        alt={title} 
+        size="medium"
+      />
     <div class="media-content">
       <h3 class="title">{title}</h3>
       <div class="meta speakers">{speakers.join(", ")}</div>
@@ -33,36 +34,21 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     gap: 1rem;
   }
 
-  .media-link:hover {.media-image {
-    /* outline: 1px solid var(--accent-hover); */
+  .media-link:hover {.media-image img {
     box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
+    outline: 1px solid var(--accent-hover);
     transition: box-shadow 1s ease-out;
   }
-.title a {color:var(--tx-1)}}
+.title {color:var(--accent)}}
 
   .media-image {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: auto 1/1;
-    overflow: hidden;
-    position: relative;
-    border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.2);
-    overflow: hidden;
     box-shadow: 0 10px 30px var(--accent-glow);
     transition: box-shadow 1s ease-out;
   }
 
-  .media-image img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: auto 1/1;
-    object-fit: cover;
-  }
-
   .title {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     margin: 2px 0;
   }
   .meta {
@@ -86,22 +72,6 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
   .date {
     font-size: 13px;
     color: var(--tx-3);
-  }
-  .duration {
-    font-variant: small-caps;
-    position: absolute;
-    display: inline-block;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-    line-height: 1em;
-    padding: 0.5em 0.5em 0.35em;
-    border-radius: 0.4em;
-    letter-spacing: 0.05em;
-
-    font-size: 0.8rem;
-    bottom: 0.5rem;
-    right: 0.5rem;
   }
 
   @media screen and (max-width: 768px) {

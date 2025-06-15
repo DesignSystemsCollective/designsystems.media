@@ -11,7 +11,7 @@ html[data-theme="light"] {
   --accent-hover: var(--dark-lavender-purple);
   --accent-glow: rgba(123, 100, 212, 0.5);
 
-  --image-shadow: rgba(0, 0, 0, 0.1);
+  --image-shadow: rgba(0, 0, 0, 0.3);
 
   --body-text: var(--almost-black);
   --meta-data: var(--muted-blue-gray);

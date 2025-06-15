@@ -1,6 +1,5 @@
 ---
-import MediaGrid from "../../components/MediaGrid.astro";
-import Title from "../../components/Title.astro";
+import MixedGrid from "../../components/MixedGrid.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { allVideosFilteredAndSorted } from "../../utils/mediaCollection";
 
@@ -8,5 +7,5 @@ const media = allVideosFilteredAndSorted;
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All videos" }}>
-  <MediaGrid media={media} />
+  <MixedGrid media={media} />
 </BaseLayout>
