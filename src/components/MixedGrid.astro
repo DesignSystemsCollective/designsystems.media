@@ -6,7 +6,7 @@ import VideoCard from "./VideoCard.astro";
 const { media } = Astro.props;
 ---
 
-<ResponsiveGrid>
+<ResponsiveGrid gridItemMinWidth={}>
   {
     media.map((item) => (
       item.collection === "podcast" ? (
