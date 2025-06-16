@@ -37,20 +37,6 @@ const currentPage = pathname.replace(/\/$/, "");
       <span class="line"></span>
     </button>
     <div class="nav-menu">
-      <div class="main-links">
-        <a href="/all/" class:list={{ active: currentPage === "/all" }}>
-          Videos
-        </a>
-        <a href="/podcast/" class:list={{ active: currentPage === "/podcast" }}>
-          Podcasts
-        </a>
-        <a href="/tags/" class:list={{ active: currentPage === "/tags" }}>
-          Tags
-        </a>
-        <a href="/speakers/" class:list={{ active: currentPage === "/speakers" }}>
-          Speakers
-        </a>
-      </div>
       <div class="nav-search-wrapper">
         <AstroSearch
           id="nav-search"
@@ -62,30 +48,61 @@ const currentPage = pathname.replace(/\/$/, "");
       </div>
       <div class="rh-links">
         <a
-      href="https://bsky.app/profile/designsystems.media"
-      target="_blank"
-      title="@designsystems.bsky.social"
-      aria-label="Follow DesignSystems.media on Bluesky"
-      aria-describedby="description"
-    >
-        <svg role="img" viewBox="0 0 24 24" width="22"
-        height="22" xmlns="http://www.w3.org/2000/svg"><title>Bluesky</title><desc id="description">Follow DesignSystems.media on Bluesky</desc><path fill="currentColor"  d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg>
-    </a> <a
-      href="https://twitter.com/designsysmedia"
-      target="_blank"
-      title="@designsysmedia"
-      aria-label="Follow DesignSystems.media on Twitter"
-      aria-describedby="description"
-    ><svg 
-      astro-icon="social/twitter" role="img" viewBox="0 0 24 24" 
-      width="22"
-      height="22" xmlns="http://www.w3.org/2000/svg"><title>X</title> <desc id="description">Follow DesignSystems.media on Twitter</desc><path 
-        fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
-    </a>
-      <ThemeToggle />
+          href="https://bsky.app/profile/designsystems.media"
+          target="_blank"
+          title="@designsystems.bsky.social"
+          aria-label="Follow DesignSystems.media on Bluesky"
+          aria-describedby="description"
+        >
+          <svg
+            role="img"
+            viewBox="0 0 24 24"
+            width="22"
+            height="22"
+            xmlns="http://www.w3.org/2000/svg"
+            ><title>Bluesky</title><desc id="description"
+              >Follow DesignSystems.media on Bluesky</desc
+            ><path
+              fill="currentColor"
+              d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"
+            ></path></svg
+          >
+        </a>
+        <a
+          href="https://twitter.com/designsysmedia"
+          target="_blank"
+          title="@designsysmedia"
+          aria-label="Follow DesignSystems.media on Twitter"
+          aria-describedby="description"
+          ><svg
+            astro-icon="social/twitter"
+            role="img"
+            viewBox="0 0 24 24"
+            width="22"
+            height="22"
+            xmlns="http://www.w3.org/2000/svg"
+            ><title>X</title>
+            <desc id="description">Follow DesignSystems.media on Twitter</desc
+            ><path
+              fill="currentColor"
+              d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+            ></path></svg
+          >
+        </a>
+        <ThemeToggle />
       </div>
     </div>
   </nav>
+  <div class="main-links">
+    <a href="/all/" class:list={{ active: currentPage === "/all" }}> Videos </a>
+    <a href="/podcast/" class:list={{ active: currentPage === "/podcast" }}>
+      Podcasts
+    </a>
+    <a href="/tags/" class:list={{ active: currentPage === "/tags" }}> Tags </a>
+    <a href="/speakers/" class:list={{ active: currentPage === "/speakers" }}>
+      Speakers
+    </a>
+  </div>
 </header>
 
 <script>
@@ -122,27 +139,26 @@ const currentPage = pathname.replace(/\/$/, "");
   .nav-menu {
     margin: 0 0 0 1rem;
   }
-  .nav-menu a {
+  .nav-menu a,
+  .main-links a {
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid transparent;
   }
-  .nav-menu a.active {
+  .nav-menu a.active,
+  .main-links a.active {
     border-bottom: 1px solid var(--accent-hover);
   }
   .nav-menu a:hover,
-  .nav-menu button:hover {
+  .nav-menu button:hover,
+  .main-links a:hover {
     color: var(--accent-hover);
     fill: currentColor;
   }
-
   .main-links {
     display: flex;
     flex-direction: row;
-    
-  }
-  .main-links a {
-
+    /* justify-content: space-between; */
   }
   nav h2 {
     margin: 0;
@@ -162,12 +178,14 @@ const currentPage = pathname.replace(/\/$/, "");
     text-decoration: none;
     padding: 0;
   }
-  nav a {
+  nav a,
+  .main-links a {
     padding: 0.5em 0.5em;
     color: var(--header-text);
     text-decoration: none;
   }
-  nav a.active {
+  nav a.active,
+  .main-links a.active {
     text-decoration: none;
   }
   nav h2 a {
@@ -225,7 +243,8 @@ const currentPage = pathname.replace(/\/$/, "");
     flex-grow: 1;
     align-items: center;
   }
-  .nav-menu a {
+  .nav-menu a,
+  .main-links a {
     display: flex;
     align-items: center;
     font-size: 0.9em;
@@ -240,7 +259,6 @@ const currentPage = pathname.replace(/\/$/, "");
     max-width: 600px;
     margin: 0 auto;
   }
- 
   .nav-search-wrapper .pagefind-ui__drawer {
     background-color: var(--header-background);
   }
@@ -262,11 +280,10 @@ const currentPage = pathname.replace(/\/$/, "");
   .nav-search-wrapper .pagefind-ui__results-area {
     margin-top: 0;
   }
-
-    .rh-links {
-      display: flex;
-      flex-direction: row;
-    }
+  .rh-links {
+    display: flex;
+    flex-direction: row;
+  }
   @media screen and (max-width: 425px) {
     .logo {
       width: 48px;
