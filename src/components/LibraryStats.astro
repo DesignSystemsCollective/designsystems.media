@@ -1,14 +1,18 @@
 ---
 import { Icon } from "astro-icon/components";
-import { videoCount, podcastCount, speakerCount, tagCount } from "../utils/mediaCollection";
-import CountUp from './CountUp';
+import {
+  videoCount,
+  podcastCount,
+  speakerCount,
+  tagCount,
+} from "../utils/mediaCollection";
+import CountUp from "./CountUp";
 
 function getStartNumber(finalTotal) {
   const min = Math.floor(finalTotal * 0.8); // start at 90% of total
   const max = Math.floor(finalTotal * 0.95); // up to 95%
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
 ---
 
 <div class="libraryStats">
@@ -16,64 +20,72 @@ function getStartNumber(finalTotal) {
     <Icon name="fluent:video-clip-multiple-24-regular" />
     <div class="info">
       <div data-type="label">Videos</div>
-      <div data-type="count"><CountUp
-client:load
-  from={getStartNumber(videoCount)}
-  to={videoCount}
-  separator=","
-  direction="up"
-  delay={0}
-  duration={1}
-  className="count-up-videos"
-/></div>
+      <div data-type="count">
+        <CountUp
+          client:load
+          from={getStartNumber(videoCount)}
+          to={videoCount}
+          separator=","
+          direction="up"
+          delay={0}
+          duration={1}
+          className="count-up-videos"
+        />
+      </div>
     </div>
   </a>
   <a href="/podcast/" class="stat">
     <Icon name="fluent:headphones-24-regular" />
     <div class="info">
       <div data-type="label">Podcasts</div>
-      <div data-type="count"><CountUp
-client:load
-  from={getStartNumber(podcastCount)}
-  to={podcastCount}
-  separator=","
-  direction="up"
-  delay={0.4}
-  duration={1}
-  className="count-up-podcasts"
-/></div>
+      <div data-type="count">
+        <CountUp
+          client:load
+          from={getStartNumber(podcastCount)}
+          to={podcastCount}
+          separator=","
+          direction="up"
+          delay={0.4}
+          duration={1}
+          className="count-up-podcasts"
+        />
+      </div>
     </div>
   </a>
   <a href="/speakers/" class="stat">
     <Icon name="fluent:person-24-regular" />
     <div class="info">
       <div data-type="label">Speakers</div>
-      <div data-type="count"><CountUp
-client:load
-  from={getStartNumber(speakerCount)}
-  to={speakerCount}
-  separator=","
-  direction="up"
-  delay={0.8}
-  duration={1}
-  className="count-up-speakers"
-/></div>
+      <div data-type="count">
+        <CountUp
+          client:load
+          from={getStartNumber(speakerCount)}
+          to={speakerCount}
+          separator=","
+          direction="up"
+          delay={0.8}
+          duration={1}
+          className="count-up-speakers"
+        />
+      </div>
     </div>
   </a>
   <a href="/tags/" class="stat">
     <Icon name="fluent:tag-multiple-24-regular" />
     <div class="info">
       <div data-type="label">Tags</div>
-      <div data-type="count"><CountUp
-client:load
-  from={getStartNumber(tagCount)}
-  to={tagCount}
-  separator=","
-  direction="up"
-  delay={1.2}
-  duration={1}
-  className="count-up-tag"
-/></div>
+      <div data-type="count">
+        <CountUp
+          client:load
+          from={getStartNumber(tagCount)}
+          to={tagCount}
+          separator=","
+          direction="up"
+          delay={1.2}
+          duration={1}
+          className="count-up-tag"
+        />
+      </div>
     </div>
   </a>
 </div>
@@ -114,8 +126,10 @@ client:load
   .libraryStats [data-icon] {
     color: var(--tagCount-icon);
     fill: var(--tagCount-icon);
-    height: 4rem;
-    width: 4rem;
+    width: 100%;
+    max-width: 4em;
+    height: auto;
+    display: block;
   }
   .libraryStats div[data-type="label"] {
     text-transform: uppercase;
@@ -127,99 +141,115 @@ client:load
     font-size: 2em;
     color: var(--tagCount-count);
     line-height: 1em;
-letter-spacing: -0.04em;
+    letter-spacing: -0.04em;
     font-variant: tabular-nums;
-min-height: 1em;
+    min-height: 1em;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .libraryStats {
       gap: 0.5rem;
-      font-size: 0.9em;
+      font-size: 0.7rem;
       padding: 0.75rem;
     }
+    .libraryStats [data-icon] {
+      max-width: 3em;
+    }
     .libraryStats .stat {
-      flex-direction: column;
       align-items: flex-start;
+      padding: 0.75em;
+      gap: 0.5em;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .libraryStats {
+      grid-template-columns: 1fr 1fr;
+      font-size: 0.6rem;
+    }
+    .libraryStats .stat {
+      padding: 0.5em;
     }
   }
 </style>
 
-    <script define:vars={{ videoCount, tagCount, speakerCount }}>
-        // Cookie utility functions
-        const CookieManager = {
-            // Set a cookie with a name, value, and optional expiration days
-            set(name, value, days = 365) {
-                const expires = new Date();
-                expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
-                document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
-            },
+<script define:vars={{ videoCount, tagCount, speakerCount }}>
+  // Cookie utility functions
+  const CookieManager = {
+    // Set a cookie with a name, value, and optional expiration days
+    set(name, value, days = 365) {
+      const expires = new Date();
+      expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+      document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+    },
 
-            // Get a cookie value by name
-            get(name) {
-                const nameEQ = name + "=";
-                const ca = document.cookie.split(';');
-                for (let i = 0; i < ca.length; i++) {
-                    let c = ca[i];
-                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-                }
-                return null;
-            },
+    // Get a cookie value by name
+    get(name) {
+      const nameEQ = name + "=";
+      const ca = document.cookie.split(";");
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === " ") c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0)
+          return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    },
 
-            // Delete a cookie by name
-            delete(name) {
-                document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-            },
+    // Delete a cookie by name
+    delete(name) {
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+    },
 
-            // Get a number from cookie, return 0 if not found or invalid
-            getNumber(name) {
-                const value = this.get(name);
-                const number = parseInt(value);
-                return isNaN(number) ? 0 : number;
-            }
-        };
+    // Get a number from cookie, return 0 if not found or invalid
+    getNumber(name) {
+      const value = this.get(name);
+      const number = parseInt(value);
+      return isNaN(number) ? 0 : number;
+    },
+  };
 
-        // Counter management
-        const Counters = {
-            init() {
-                // Load saved values from cookies
-                this.updateDisplay('video-count', CookieManager.getNumber('videoCount'));
-                this.updateDisplay('tag-count', CookieManager.getNumber('tagCount'));
-                this.updateDisplay('speaker-count', CookieManager.getNumber('speakerCount'));
-            },
+  // Counter management
+  const Counters = {
+    init() {
+      // Load saved values from cookies
+      this.updateDisplay("video-count", CookieManager.getNumber("videoCount"));
+      this.updateDisplay("tag-count", CookieManager.getNumber("tagCount"));
+      this.updateDisplay(
+        "speaker-count",
+        CookieManager.getNumber("speakerCount"),
+      );
+    },
 
-            updateDisplay(elementId, value) {
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.textContent = value;
-                }
-            },
+    updateDisplay(elementId, value) {
+      const element = document.getElementById(elementId);
+      if (element) {
+        element.textContent = value;
+      }
+    },
 
-            // Method to update counter values programmatically
-            updateCounter(counterName, value) {
-                CookieManager.set(counterName, value);
-                
-                // Update display based on counter name
-                const displayMap = {
-                    'videoCount': 'video-count',
-                    'tagCount': 'tag-count',
-                    'speakerCount': 'speaker-count'
-                };
-                
-                const displayId = displayMap[counterName];
-                if (displayId) {
-                    this.updateDisplay(displayId, value);
-                }
-            }
-        };
+    // Method to update counter values programmatically
+    updateCounter(counterName, value) {
+      CookieManager.set(counterName, value);
 
-        // Initialize when page loads
-        document.addEventListener('DOMContentLoaded', () => {
-            Counters.init();
+      // Update display based on counter name
+      const displayMap = {
+        videoCount: "video-count",
+        tagCount: "tag-count",
+        speakerCount: "speaker-count",
+      };
 
-            Counters.updateCounter('videoCount', postCount);
-            Counters.updateCounter('tagCount', totalTagCount);  
-            Counters.updateCounter('speakerCount', totalSpeakerCount);
-        });
+      const displayId = displayMap[counterName];
+      if (displayId) {
+        this.updateDisplay(displayId, value);
+      }
+    },
+  };
 
-    </script>
+  // Initialize when page loads
+  document.addEventListener("DOMContentLoaded", () => {
+    Counters.init();
+
+    Counters.updateCounter("videoCount", postCount);
+    Counters.updateCounter("tagCount", totalTagCount);
+    Counters.updateCounter("speakerCount", totalSpeakerCount);
+  });
+</script>
