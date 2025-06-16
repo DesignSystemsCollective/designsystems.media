@@ -12,7 +12,7 @@ html[data-theme="dark"] {
   --accent-glow: rgba(166, 136, 250, 0.5);
 
   --image-shadow: rgba(255, 255, 255, 0);
-  
+
   --body-text: var(--light-blue-gray);
   --meta-data: var(--light-blue-gray);
 
@@ -26,12 +26,13 @@ html[data-theme="dark"] {
   --bg: var(--neutral-black);
   --bg-2: var(--neutral-950);
 
-  --scrim: 21.49% 0.008 240.30;
-
---scrim-gradient: linear-gradient(
+  --scrim: 21.49% 0.008 240.3;
+  --scrim-gradient: linear-gradient(
     to top in oklch,
-    oklch(var(--scrim)) 0%, 45%, oklch(var(--scrim) / 0%) 85% 70%
-);
+    oklch(var(--scrim)) 0%,
+    45%,
+    oklch(var(--scrim) / 0%) 85% 70%
+  );
 
   --pagefind-ui-tag: var(--dark-teal-gray);
   --sponsorship: var(--neutral-600);
