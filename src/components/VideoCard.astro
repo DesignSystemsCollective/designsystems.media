@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
-import MediaImage from './media/MediaImage.astro';
+import MediaImage from "./media/MediaImage.astro";
 
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -11,13 +11,12 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
 
 <div class="media-item">
   <a href={`/video/${slug}/`} class="media-link">
-     <MediaImage 
-        src={poster.src} 
-        alt={title} 
-        size="medium"
-        duration={duration}
-        ratio="video"
-      />
+    <MediaImage
+      src={poster.src}
+      alt={title}
+      duration={duration}
+      ratio="video"
+    />
     <div class="media-content">
       <h3 class="title">{title}</h3>
       <span class="date">
@@ -40,15 +39,18 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
     transition: box-shadow 1s ease-out;
   }
 
-  .media-link:hover {.media-image img{
-    box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
-    outline: 1px solid var(--accent-hover);
-    transition: box-shadow 1s ease-out;
+  .media-link:hover {
+    .media-image img {
+      box-shadow:
+        0 0px 40px var(--accent-glow),
+        0 0px 10px var(--accent-hover);
+      outline: 1px solid var(--accent-hover);
+      transition: box-shadow 1s ease-out;
+    }
+    .title {
+      color: var(--accent);
+    }
   }
-.title {
-  color: var(--accent)
-}
-}
 
   .title {
     font-size: 16px;
