@@ -1,8 +1,8 @@
 ---
 // src/components/episodes/EpisodeRow.astro
 import type { CollectionEntry } from "astro:content";
-import MediaImage from '../media/MediaImage.astro';
-import Badge from '../Badge.astro';
+import MediaImage from "../media/MediaImage.astro";
+import Badge from "../Badge.astro";
 import { formatDuration } from "../../utils/formatDuration";
 
 type Episode = CollectionEntry<"podcast">;
@@ -15,13 +15,16 @@ export interface Props {
 const { episode, index } = Astro.props;
 
 const isEven = index % 2 === 1;
-const rowClass = isEven ? 'even' : '';
+const rowClass = isEven ? "even" : "";
 
-const dateFormatted = new Date(episode.data.publishedAt).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'short',
-  day: 'numeric'
-});
+const dateFormatted = new Date(episode.data.publishedAt).toLocaleDateString(
+  "en-US",
+  {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  },
+);
 
 const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
   eager: true,
@@ -47,41 +50,40 @@ if (episode.data.hasEpisodeImage === undefined) {
     }
   }
 }
-
 ---
 
 <!-- Episode Content Cell -->
-
-  <a href={`/podcast/${episode.slug}/`} class={`episodes-row ${rowClass}`}>
-    {imageToUse && (
-      <MediaImage 
-        src={imageToUse} 
+<a href={`/podcast/${episode.slug}/`} class={`episodes-row ${rowClass}`}>
+  {
+    imageToUse && (
+      <MediaImage
+        src={imageToUse}
         alt={`${episode.data.title} thumbnail`}
         size="thumbnail"
         class="episode-thumbnail"
       />
-    )}
-    <div class="episode-title-container">
-         <div class="episode-meta">
-        <Badge 
-            label={dateFormatted}
-            variant='primary' 
+    )
+  }
+  <div class="episode-title-container">
+    <div class="episode-meta">
+      <Badge label={dateFormatted} variant="primary" />
+      {
+        episode.data.season && episode.data.episode && (
+          <Badge
+            variant="secondary"
+            season={episode.data.season}
+            episode={episode.data.episode}
           />
-          {episode.data.season && episode.data.episode && (
-        <Badge 
-            variant='secondary' 
-            season={episode.data.season} 
-            episode={episode.data.episode} 
-          />
-        )}
-        <Badge 
-            label={formatDuration(episode.data.duration)} 
-            variant='secondary'
-          /></div>
-        <div class="episode-title">{episode.data.title}</div>
+        )
+      }
+      <Badge
+        label={formatDuration(episode.data.duration)}
+        variant="secondary"
+      />
     </div>
+    <div class="episode-title">{episode.data.title}</div>
   </div>
-  </a>  
+</a>
 
 <style>
   .episodes-row {
@@ -97,7 +99,7 @@ if (episode.data.hasEpisodeImage === undefined) {
   }
 
   .episode-meta {
-    display:flex;
+    display: flex;
     flex-direction: row;
     gap: 8px;
   }

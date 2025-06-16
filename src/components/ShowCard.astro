@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import MediaImage from './media/MediaImage.astro';
+import MediaImage from "./media/MediaImage.astro";
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
@@ -9,11 +9,7 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
 
 <div class="media-item">
   <a href={`/show/${slug}/`} class="media-link">
-     <MediaImage 
-        src={image.src} 
-        alt={title} 
-        size="medium"
-      />
+    <MediaImage src={image.src} alt={title} />
     <div class="media-content">
       <h3 class="title">{title}</h3>
       <div class="meta speakers">{speakers.join(", ")}</div>
@@ -34,12 +30,18 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     gap: 1rem;
   }
 
-  .media-link:hover {.media-image img {
-    box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
-    outline: 1px solid var(--accent-hover);
-    transition: box-shadow 1s ease-out;
+  .media-link:hover {
+    .media-image img {
+      box-shadow:
+        0 0px 40px var(--accent-glow),
+        0 0px 10px var(--accent-hover);
+      outline: 1px solid var(--accent-hover);
+      transition: box-shadow 1s ease-out;
+    }
+    .title {
+      color: var(--accent);
+    }
   }
-.title {color:var(--accent)}}
 
   .media-image {
     box-shadow: 0 10px 30px var(--accent-glow);
@@ -63,7 +65,7 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     font-weight: 400;
     color: var(--tx-2);
   }
-  
+
   .media-content {
     display: flex;
     flex-direction: column;

@@ -1,6 +1,6 @@
 ---
 // src/components/media/Hero.astro
-import MediaImage from './MediaImage.astro';
+import MediaImage from "./MediaImage.astro";
 import Title from "../Title.astro";
 export interface Props {
   title: string;
@@ -12,25 +12,33 @@ export interface Props {
   audioUrl?: string;
 }
 
-const { title, image, showSlug, audioUrl, podcastTitle, hasEpisodeImage, showArtwork = true } = Astro.props;
+const {
+  title,
+  image,
+  showSlug,
+  audioUrl,
+  podcastTitle,
+  hasEpisodeImage,
+  showArtwork = true,
+} = Astro.props;
 
 function getAudioMimeType(url) {
-  if (!url) return 'audio/mpeg'; // fallback if no URL
-  
-  const extension = url.split('.').pop().toLowerCase();
-  
+  if (!url) return "audio/mpeg"; // fallback if no URL
+
+  const extension = url.split(".").pop().toLowerCase();
+
   const mimeTypes = {
-    'mp3': 'audio/mpeg',
-    'wav': 'audio/wav',
-    'ogg': 'audio/ogg',
-    'oga': 'audio/ogg',
-    'm4a': 'audio/mp4',
-    'aac': 'audio/aac',
-    'flac': 'audio/flac',
-    'webm': 'audio/webm'
+    mp3: "audio/mpeg",
+    wav: "audio/wav",
+    ogg: "audio/ogg",
+    oga: "audio/ogg",
+    m4a: "audio/mp4",
+    aac: "audio/aac",
+    flac: "audio/flac",
+    webm: "audio/webm",
   };
-  
-  return mimeTypes[extension] || 'audio/mpeg';
+
+  return mimeTypes[extension] || "audio/mpeg";
 }
 
 const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
@@ -57,47 +65,50 @@ if (hasEpisodeImage === undefined) {
     }
   }
 }
-
 ---
 
 <div class="hero-image">
   <div class="show-container">
-    {showArtwork && (
-      <MediaImage 
-        src={imageToUse} 
-        alt={title} 
-        size="large"
-        class="podcast-artwork"
-      />
-    )}
+    {
+      showArtwork && (
+        <MediaImage
+          src={imageToUse}
+          alt={title}
+          size="large"
+          class="podcast-artwork"
+        />
+      )
+    }
   </div>
-   
-      <div class="page-title">
-        <Title data-pagefind-meta="title">{title}</Title>
-{showSlug && (
-     <a
+
+  <div class="page-title">
+    <Title data-pagefind-meta="title">{title}</Title>
+    {
+      showSlug && (
+        <a
           href={`/show/${showSlug}/`}
           class="show"
           data-pagefind-filter="show"
-          data-pagefind-weight="5">{podcastTitle}</a>
-    )}
-      </div>
+          data-pagefind-weight="5"
+        >
+          {podcastTitle}
+        </a>
+      )
+    }
+  </div>
 
-      {audioUrl && (
-    <audio 
-      controls 
-      preload="metadata"
-      class="audio-embed"
-    >
-      <source src={audioUrl} type={getAudioMimeType(audioUrl)} />
-      Your browser does not support the audio element.
-    </audio>
-  )}
-  
+  {
+    audioUrl && (
+      <audio controls preload="metadata" class="audio-embed">
+        <source src={audioUrl} type={getAudioMimeType(audioUrl)} />
+        Your browser does not support the audio element.
+      </audio>
+    )
+  }
 </div>
 <div class="background" style={`background-image: url('${imageToUse}')`}>
-     <div class="scrim"></div>
-  </div>
+  <div class="scrim"></div>
+</div>
 <style>
   .hero-image {
     position: relative;
@@ -107,7 +118,7 @@ if (hasEpisodeImage === undefined) {
     margin: 0 -1.5rem 0rem -1.5rem;
     padding: 2rem 0 0 0;
     min-height: 300px;
-    z-index:10;
+    z-index: 10;
   }
   .background {
     position: absolute;
@@ -153,7 +164,6 @@ if (hasEpisodeImage === undefined) {
     gap: 1.5rem;
   }
 
-
   .page-title {
     display: flex;
     flex-direction: column;
@@ -167,7 +177,7 @@ if (hasEpisodeImage === undefined) {
     font-weight: 600;
   }
 
-   audio {
+  audio {
     position: relative;
     z-index: 100;
     display: flex;
@@ -184,7 +194,6 @@ if (hasEpisodeImage === undefined) {
     height: 54px;
     border-radius: 8px;
     backdrop-filter: blur(10px);
-
   }
   .audio-embed::-webkit-media-controls-panel {
     background-color: rgba(255, 255, 255, 0.1);
@@ -204,7 +213,7 @@ if (hasEpisodeImage === undefined) {
       height: auto;
       margin: 0;
     }
-    
+
     .show-container {
       padding: 1.5rem;
       min-height: 200px;

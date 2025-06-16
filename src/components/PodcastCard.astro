@@ -1,12 +1,21 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
-import MediaImage from './media/MediaImage.astro';
+import MediaImage from "./media/MediaImage.astro";
 
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
-const { title, publishedAt, duration, image, slug, hasEpisodeImage, showSlug, podcastTitle } = Astro.props;
+const {
+  title,
+  publishedAt,
+  duration,
+  image,
+  slug,
+  hasEpisodeImage,
+  showSlug,
+  podcastTitle,
+} = Astro.props;
 
 const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
   eager: true,
@@ -35,22 +44,21 @@ if (hasEpisodeImage === undefined) {
 ---
 
 <div class="media-item media-link">
-  <a href={`/podcast/${slug}/`} >
-     <MediaImage 
-        src={imageToUse} 
-        alt={title} 
-        size="medium"
-        duration={duration}
-        type="podcast-duration"
-      />
+  <a href={`/podcast/${slug}/`}>
+    <MediaImage
+      src={imageToUse}
+      alt={title}
+      duration={duration}
+      type="podcast-duration"
+    />
   </a>
-    <div class="media-content">
+  <div class="media-content">
     <a href={`/podcast/${slug}/`} class="title"><h3>{title}</h3></a>
-      <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
-      <span class="date">
-        <FormattedDate date={publishedAt} />
-      </span>
-    </div>
+    <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
+    <span class="date">
+      <FormattedDate date={publishedAt} />
+    </span>
+  </div>
 </div>
 
 <style>
@@ -65,16 +73,26 @@ if (hasEpisodeImage === undefined) {
     gap: 1rem;
   }
 
-  .media-link:hover {.media-image img {
-    /* outline: 1px solid var(--accent-hover); */
-    box-shadow: 0 0px 40px var(--accent-glow), 0 0px 10px var(--accent-hover);
-    outline: 1px solid var(--accent-hover);
-    transition: box-shadow 1s ease-out;
+  .media-link:hover {
+    .media-image img {
+      /* outline: 1px solid var(--accent-hover); */
+      box-shadow:
+        0 0px 40px var(--accent-glow),
+        0 0px 10px var(--accent-hover);
+      outline: 1px solid var(--accent-hover);
+      transition: box-shadow 1s ease-out;
+    }
+    .title {
+      color: var(--accent);
+    }
   }
-.title {color: var(--accent)}
-}
-a:hover h3 {color: var(--accent)}
-  .media-content a {text-decoration: none; border-bottom:none;}
+  a:hover h3 {
+    color: var(--accent);
+  }
+  .media-content a {
+    text-decoration: none;
+    border-bottom: none;
+  }
 
   a h3 {
     font-size: 16px;
@@ -95,7 +113,7 @@ a:hover h3 {color: var(--accent)}
     font-weight: 400;
     color: var(--tx-2);
   }
-  
+
   .media-content {
     display: flex;
     flex-direction: column;
