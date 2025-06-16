@@ -14,7 +14,7 @@ export interface Props {
   shadow?: 'shadow' | 'no-shadow';
 }
 
-const { src, alt, size = 'medium', duration, shadow = 'shadow', ratio = 'square', class: className = '' } = Astro.props;
+const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', class: className = '' } = Astro.props;
 ---
 
 <div class={`media-image ${size} ${ratio} ${shadow} ${className}`}>
@@ -31,7 +31,8 @@ const { src, alt, size = 'medium', duration, shadow = 'shadow', ratio = 'square'
     position: relative;
     box-sizing: border-box;
     display: flex;
-    height: fit-content
+    height: fit-content;
+    width: fit-content;
   }
   .media-image.no-shadow img{
     box-shadow: none;
