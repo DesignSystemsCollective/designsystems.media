@@ -27,10 +27,12 @@ html[data-theme="light"] {
   --bg-2: var(--neutral-50);
 
   --scrim: 100% 0 0;
---scrim-gradient: linear-gradient(
+  --scrim-gradient: linear-gradient(
     to top in oklch,
-    oklch(var(--scrim)) 0%, 45%, oklch(var(--scrim) / 0%) 85% 70%
-);
+    oklch(var(--scrim)) 0%,
+    45%,
+    oklch(var(--scrim) / 0%) 85% 70%
+  );
 
   --pagefind-ui-tag: var(--light-gray);
   --sponsorship: var(--neutral-600);

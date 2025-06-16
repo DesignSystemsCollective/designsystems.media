@@ -47,6 +47,9 @@ const currentPage = pathname.replace(/\/$/, "");
         />
       </div>
       <div class="rh-links">
+        <a href="/about/" class:list={{ active: currentPage === "/about" }}>
+          About
+        </a>
         <a
           href="https://bsky.app/profile/designsystems.media"
           target="_blank"
@@ -115,18 +118,33 @@ const currentPage = pathname.replace(/\/$/, "");
 </script>
 
 <style is:global>
-  .nav-home {
-    padding: 0.5rem 0;
-  }
   header {
-    margin: 0;
-    padding: 0 1em;
+    padding: 0.5em 1em 0;
     box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
     border-bottom: 1px solid var(--hr);
     background: var(--header-background);
     z-index: 100;
     position: relative;
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      padding: 0.5em;
+      color: var(--header-text);
+      font-size: 0.9em;
+
+      &.active {
+        border-bottom: 1px solid var(--accent-hover);
+      }
+    }
+
+    a:hover,
+    button:hover {
+      color: var(--accent-hover);
+      fill: currentColor;
+    }
   }
+
   nav {
     --nav-menu-button-display: none;
     --nav-menu-display: flex;
@@ -134,66 +152,33 @@ const currentPage = pathname.replace(/\/$/, "");
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 0.9em;
+
+      a {
+        color: var(--header-text);
+        text-decoration: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+
+        svg {
+          margin-right: 0.5rem;
+          margin-bottom: 0.2rem;
+        }
+      }
+    }
   }
-  .nav-menu {
-    margin: 0 0 0 1rem;
-  }
-  .nav-menu a,
-  .main-links a {
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-  .nav-menu a.active,
-  .main-links a.active {
-    border-bottom: 1px solid var(--accent-hover);
-  }
-  .nav-menu a:hover,
-  .nav-menu button:hover,
-  .main-links a:hover {
-    color: var(--accent-hover);
-    fill: currentColor;
-  }
+
   .main-links {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-  }
-  nav h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 0.9em;
-    font-weight: 400;
   }
 
-  nav h2 a svg {
-    margin-right: 0.5rem;
-    margin-bottom: 0.2rem;
-  }
-
-  nav h2 a,
-  nav h2 a.active {
-    color: var(--header-text);
-    text-decoration: none;
-    padding: 0;
-  }
-  nav a,
-  .main-links a {
-    padding: 0.5em 0.5em;
-    color: var(--header-text);
-    text-decoration: none;
-  }
-  nav a.active,
-  .main-links a.active {
-    text-decoration: none;
-  }
-  nav h2 a {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-  }
   .nav-menu-button {
     appearance: none;
     background: none;
@@ -201,89 +186,98 @@ const currentPage = pathname.replace(/\/$/, "");
     cursor: pointer;
     display: var(--nav-menu-button-display);
     height: 3.25rem;
-    position: relative;
     width: 3.25rem;
-    margin: 0.75rem 0;
+    position: relative;
+    margin: 0;
+
+    .line {
+      --nav-menu-button-span-width: 24px;
+      --nav-menu-button-span-gap: 8px;
+      border-radius: 1px;
+      background-color: var(--header-text);
+      height: 2px;
+      left: calc((3.25rem - var(--nav-menu-button-span-width)) / 2);
+      position: absolute;
+      transform-origin: center;
+      transition-duration: 200ms;
+      transition-property: opacity, transform;
+      transition-timing-function: ease-in-out;
+      width: var(--nav-menu-button-span-width);
+    }
+
+    &:hover .line {
+      background-color: var(--accent-hover);
+    }
+
+    span:first-child {
+      top: calc(50% - var(--nav-menu-button-span-gap));
+    }
+    span:nth-child(2) {
+      top: 50%;
+    }
+    span:nth-child(3) {
+      top: calc(50% + var(--nav-menu-button-span-gap));
+    }
+
+    &.nav-menu-button-active {
+      span:first-child {
+        transform: translateY(var(--nav-menu-button-span-gap)) rotate(45deg);
+      }
+      span:nth-child(2) {
+        opacity: 0;
+      }
+      span:nth-child(3) {
+        transform: translateY(calc(-1 * var(--nav-menu-button-span-gap)))
+          rotate(-45deg);
+      }
+    }
   }
-  .nav-menu-button .line {
-    --nav-menu-button-span-width: 24px;
-    --nav-menu-button-span-gap: 8px;
-    border-radius: 1px;
-    background-color: var(--header-text);
-    height: 2px;
-    left: calc((3.25rem - var(--nav-menu-button-span-width)) / 2);
-    position: absolute;
-    transform-origin: center;
-    transition-duration: 200ms;
-    transition-property: background-color, opacity, transform;
-    transition-timing-function: ease-in-out;
-    width: var(--nav-menu-button-span-width);
-  }
-  .nav-menu-button span:first-child {
-    top: calc(50% - var(--nav-menu-button-span-gap));
-  }
-  .nav-menu-button span:nth-child(2) {
-    top: 50%;
-  }
-  .nav-menu-button span:nth-child(3) {
-    top: calc(50% + var(--nav-menu-button-span-gap));
-  }
-  .nav-menu-button.nav-menu-button-active span:first-child {
-    transform: translateY(var(--nav-menu-button-span-gap)) rotate(45deg);
-  }
-  .nav-menu-button.nav-menu-button-active span:nth-child(2) {
-    opacity: 0;
-  }
-  .nav-menu-button.nav-menu-button-active span:nth-child(3) {
-    transform: translateY(calc(-1 * var(--nav-menu-button-span-gap)))
-      rotate(-45deg);
-  }
+
   .nav-menu {
     display: var(--nav-menu-display);
     flex-grow: 1;
     align-items: center;
+
+    &.nav-menu-active {
+      display: flex;
+    }
   }
-  .nav-menu a,
-  .main-links a {
-    display: flex;
-    align-items: center;
-    font-size: 0.9em;
-  }
-  .nav-menu.nav-menu-active {
-    display: flex;
-  }
+
   .nav-search-wrapper {
     flex-grow: 1;
     padding: 0rem 1rem;
     --pagefind-ui-scale: 0.8;
     max-width: 600px;
     margin: 0 auto;
+
+    .pagefind-ui__drawer {
+      background-color: var(--header-background);
+      box-shadow: 0 2px 8px rgb(var(--shadow) / 8%);
+      padding: calc(1rem * var(--pagefind-ui-scale));
+      border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
+      border-radius: var(--pagefind-ui-border-radius);
+      font-size: calc(21px * var(--pagefind-ui-scale));
+      max-height: calc(100vh - var(--header-height) - 4rem);
+      overflow: scroll;
+      position: absolute;
+      width: 100%;
+      top: 4rem;
+    }
+
+    .pagefind-ui__filter-panel {
+      display: none !important;
+    }
+
+    .pagefind-ui__results-area {
+      margin-top: 0;
+    }
   }
-  .nav-search-wrapper .pagefind-ui__drawer {
-    background-color: var(--header-background);
-  }
-  .nav-search-wrapper .pagefind-ui__drawer {
-    box-shadow: 0 2px 8px rgba(var(--shadow), 8%);
-    padding: calc(1rem * var(--pagefind-ui-scale));
-    border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
-    border-radius: var(--pagefind-ui-border-radius);
-    font-size: calc(21px * var(--pagefind-ui-scale));
-    max-height: calc(100vh - var(--header-height) - 4rem);
-    overflow: scroll;
-    position: absolute;
-    width: 100%;
-    top: 4rem;
-  }
-  .nav-search-wrapper .pagefind-ui__filter-panel {
-    display: none !important;
-  }
-  .nav-search-wrapper .pagefind-ui__results-area {
-    margin-top: 0;
-  }
+
   .rh-links {
     display: flex;
     flex-direction: row;
   }
+
   @media screen and (max-width: 425px) {
     .logo {
       width: 48px;
@@ -293,10 +287,16 @@ const currentPage = pathname.replace(/\/$/, "");
       display: none;
     }
   }
+
   @media screen and (max-width: 768px) {
+    header {
+      padding: 0 1em;
+    }
+
     .nav-menu-button {
       --nav-menu-button-display: block;
     }
+
     .nav-menu {
       --nav-menu-display: none;
       background-color: var(--header-background);
@@ -304,21 +304,23 @@ const currentPage = pathname.replace(/\/$/, "");
       flex-basis: 100%;
       align-items: flex-end;
     }
+
     .nav-search-wrapper {
-      padding: 0 0.5rem 0rem;
+      padding: 0.5rem 0;
       flex-grow: 0;
       max-width: unset;
       width: 100%;
-    }
-    .nav-search-wrapper .pagefind-ui__drawer {
-      box-shadow: unset;
-      padding: unset;
-      border: unset;
-      border-radius: unset;
-      max-height: unset;
-      overflow: unset;
-      position: relative;
-      top: 0;
+
+      .pagefind-ui__drawer {
+        box-shadow: unset;
+        padding: unset;
+        border: unset;
+        border-radius: unset;
+        max-height: unset;
+        overflow: unset;
+        position: relative;
+        top: 0;
+      }
     }
   }
 </style>
