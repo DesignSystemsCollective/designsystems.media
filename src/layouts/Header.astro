@@ -95,9 +95,9 @@ const currentPage = pathname.replace(/\/$/, "");
   </nav>
   <div class="main-links">
   <a href="/all/" class:list={{ active: currentPage.startsWith("/all") }}> Videos </a>
-  <a href="/podcast/" class:list={{ active: currentPage.startsWith("/podcast") }}>
-    Podcasts
-  </a>
+<a href="/podcast/" class:list={{ active: currentPage.startsWith("/podcast") || currentPage.includes("/show") }}>
+  Podcasts
+</a>
   <a href="/tags/" class:list={{ active: currentPage.startsWith("/tags") }}> Tags </a>
   <a href="/speakers/" class:list={{ active: currentPage.startsWith("/speakers") }}>
     Speakers
