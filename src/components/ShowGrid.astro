@@ -5,7 +5,7 @@ import ShowCard from "./ShowCard.astro";
 const { media } = Astro.props;
 ---
 
-<ResponsiveGrid gridColumnCount={4} gridItemMinWidth="260px">
+<ResponsiveGrid gridColumnCount={6} gridItemMinWidth="200px">
   {
     media.map((media) => (
       <ShowCard
@@ -14,6 +14,7 @@ const { media } = Astro.props;
         slug={media.slug}
         episodeCount={media.data.episodeCount}
         speakers={media.data.speakers}
+        lastUpdate={media.data.lastUpdate}
       />
     ))
   }
