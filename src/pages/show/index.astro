@@ -12,7 +12,14 @@ const shows = await getCollection('show', ({ data }) => {
 });
 
 // Sort shows by title
-shows.sort((a, b) => a.data.title.localeCompare(b.data.title));
+shows.sort((a, b) => {
+  const dateA = new Date(a.data.lastUpdate);
+  const dateB = new Date(b.data.lastUpdate);
+
+  // For most recently updated, you want the newer date to come first.
+  // So, if dateA is more recent, it should be "smaller" in the sort order.
+  return dateB.getTime() - dateA.getTime();
+});
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>
