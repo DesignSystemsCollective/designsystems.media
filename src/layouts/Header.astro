@@ -47,9 +47,6 @@ const currentPage = pathname.replace(/\/$/, "");
         />
       </div>
       <div class="rh-links">
-        <a href="/about/" class:list={{ active: currentPage === "/about" }}>
-          About
-        </a>
         <a
           href="https://bsky.app/profile/designsystems.media"
           target="_blank"
@@ -97,15 +94,15 @@ const currentPage = pathname.replace(/\/$/, "");
     </div>
   </nav>
   <div class="main-links">
-    <a href="/all/" class:list={{ active: currentPage === "/all" }}> Videos </a>
-    <a href="/podcast/" class:list={{ active: currentPage === "/podcast" }}>
-      Podcasts
-    </a>
-    <a href="/tags/" class:list={{ active: currentPage === "/tags" }}> Tags </a>
-    <a href="/speakers/" class:list={{ active: currentPage === "/speakers" }}>
-      Speakers
-    </a>
-  </div>
+  <a href="/all/" class:list={{ active: currentPage.startsWith("/all") }}> Videos </a>
+  <a href="/podcast/" class:list={{ active: currentPage.startsWith("/podcast") }}>
+    Podcasts
+  </a>
+  <a href="/tags/" class:list={{ active: currentPage.startsWith("/tags") }}> Tags </a>
+  <a href="/speakers/" class:list={{ active: currentPage.startsWith("/speakers") }}>
+    Speakers
+  </a>
+</div>
 </header>
 
 <script>
@@ -177,6 +174,11 @@ const currentPage = pathname.replace(/\/$/, "");
   .main-links {
     display: flex;
     flex-direction: row;
+    gap: 1em;
+
+    a {
+      padding: 0.5em 0;
+    }
   }
 
   .nav-menu-button {
@@ -276,6 +278,10 @@ const currentPage = pathname.replace(/\/$/, "");
   .rh-links {
     display: flex;
     flex-direction: row;
+
+    a {
+    display: flex;
+    }
   }
 
   @media screen and (max-width: 425px) {

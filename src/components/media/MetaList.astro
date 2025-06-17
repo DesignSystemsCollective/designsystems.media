@@ -18,9 +18,9 @@ const { class: className = '' } = Astro.props;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 1rem 0;
+    gap: 0;
     font-size: 1.1rem;
-    justify-content: baseline;
+    justify-content: center;
   }
 
   .meta-data :global(a) {
@@ -63,6 +63,7 @@ const { class: className = '' } = Astro.props;
 
   .meta-data {
     flex-direction: row;
+    justify-content: start;
   }
   }
 
