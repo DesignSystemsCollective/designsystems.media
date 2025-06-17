@@ -143,7 +143,7 @@ if (hasEpisodeImage === undefined) {
   }
   .background {
     position: absolute;
-    top: -3rem;
+    top: 0rem;
     left: 0;
     right: 0;
     z-index: 0;
@@ -151,8 +151,8 @@ if (hasEpisodeImage === undefined) {
     background-position: center bottom;
     opacity: 1;
     overflow: hidden;
-    min-height: 70vh;
-    max-height: 900px;
+    min-height: 55vh;
+    max-height: 700px;
   }
   .background::before {
     content: "";
@@ -213,10 +213,11 @@ if (hasEpisodeImage === undefined) {
   }
   .audio-embed {
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     height: 54px;
     border-radius: 8px;
     backdrop-filter: blur(10px);
+    padding: 1rem;
   }
   .audio-embed::-webkit-media-controls-panel {
     background-color: rgba(255, 255, 255, 0.1);
