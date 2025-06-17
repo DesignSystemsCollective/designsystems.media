@@ -16,6 +16,24 @@ export interface Props extends Partial<ShowEntry["data"]>, Partial<PodcastEntry[
   episodes?: CollectionEntry<"podcast">[];
 }
 
+// Function to extract domain and extension, removing "www."
+function getDomainFromUrl(url) {
+  try {
+    const urlObject = new URL(url);
+    let hostname = urlObject.hostname;
+
+    // Remove "www." if it exists at the beginning
+    if (hostname.startsWith("www.")) {
+      hostname = hostname.substring(4); // Remove the first 4 characters ("www.")
+    }
+
+    return hostname;
+  } catch (error) {
+    console.error("Invalid URL:", url, error);
+    return url; // Return original if parsing fails
+  }
+}
+
 // Destructure all possible props with fallback values where needed
 const { 
   title, 
@@ -29,10 +47,13 @@ const {
   showSlug,
   podcastTitle,
   audioUrl,
+  websiteUrl,
   // Add any other props that might come from the podcast collection
   // that aren't already listed above
   ...restProps
 } = Astro.props;
+
+const displayUrl = getDomainFromUrl(websiteUrl);
 
 const isShow = showSlug ? false : true;
 const layoutType = !showSlug ? "show" : "episode";
@@ -61,6 +82,11 @@ const layoutType = !showSlug ? "show" : "episode";
         <MetaItem icon="fluent:person-20-filled" speakers={speakers}>
         </MetaItem >
       )}
+      {websiteUrl && isShow && (
+        <MetaItem icon="fluent:globe-20-filled">
+          <a href={websiteUrl} target="_blank">{displayUrl}</a>
+        </MetaItem >
+      )}
     </MetaList>
     
     <div class="prose" data-pagefind-weight="3">
@@ -84,6 +110,10 @@ const layoutType = !showSlug ? "show" : "episode";
     margin: auto;
     color: var(--body-text);
     overflow-wrap: anywhere;
+  }
+
+  .prose .meta-data {
+    margin: 0 0 1rem;
   }
 
   :global(.prose h1),
