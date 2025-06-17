@@ -1,10 +1,13 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import MediaImage from "./media/MediaImage.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
-const { title, image, slug, speakers, episodeCount } = Astro.props;
+const { title, image, slug, speakers, episodeCount, lastUpdate } = Astro.props;
+
+
 ---
 
 <div class="media-item">
@@ -13,7 +16,11 @@ const { title, image, slug, speakers, episodeCount } = Astro.props;
     <div class="media-content">
       <h3 class="title">{title}</h3>
       <div class="meta speakers">{speakers.join(", ")}</div>
-      <div class="meta">{episodeCount} episodes</div>
+       <div class="meta">
+      <span><FormattedDate date={lastUpdate} /></span> 
+      <span>•</span> <span>{episodeCount} episodes</span>
+    
+    </div>
     </div>
   </a>
 </div>
