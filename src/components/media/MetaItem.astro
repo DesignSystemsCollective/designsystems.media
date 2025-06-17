@@ -7,18 +7,18 @@ export interface Props {
   icon?: string;
   iconSize?: number;
   label?: string;
-  type?: 'inline' | 'block';
+  type?: "inline" | "block" | undefined;
   class?: string;
   speakers?: string[];
 }
 
-const { 
+const {
   speakers,
-  icon, 
-  iconSize = 20, 
-  label, 
-  type, 
-  class: className = '' 
+  icon,
+  iconSize = 20,
+  label,
+  type = "inline",
+  class: className = "",
 } = Astro.props;
 ---
 
@@ -27,16 +27,27 @@ const {
   {label && <span class="meta-label">{label}</span>}
   <div class="meta-content">
     <slot />
-  {speakers && speakers.map((speaker) => (
-    <a
-      href={`/speakers/${convertToSlug(speaker)}/`}
-      class="speaker"
-      data-pagefind-filter="speaker"
-      data-pagefind-weight="5"
-    >
-      {speaker}
-    </a>
-  ))}
+    {(
+        // Otherwise (if showSlug does NOT exist)
+         <> {/* Use a fragment to group the speakers content */}
+        {speakers && speakers.length > 0 && (
+          <div class="speakers-container">
+            {speakers.map((speaker, index) => (
+              <>
+                <a
+                  href={`/speakers/${convertToSlug(speaker)}/`}
+                  class="speaker"
+                  data-pagefind-filter="speaker"
+                  data-pagefind-weight="5"
+                >{speaker}</a>{/* Add a comma if it's not the last item */}
+                {index < speakers.length - 1 && <span>,</span> }
+              </>
+            ))}
+          </div>
+        )}
+      </>
+      )
+    }
   </div>
 </div>
 
@@ -48,7 +59,6 @@ const {
     gap: 0.25em;
     flex-direction: column;
   }
-
 
   .meta-item.block {
     display: flex;
@@ -67,26 +77,52 @@ const {
 
   /* Special styling for explicit badge */
   .meta-item :global(.explicit) {
-    background: var(--accent);
+    background: rgb(var(--accent));
     color: white;
-    padding: 0.2em 0.5em;
+    padding: 0.4em 0.5em 0.2rem;
     border-radius: 4px;
     font-size: 0.8em;
     font-weight: 600;
+    line-height: 1em;
     text-transform: uppercase;
   }
 
-  @media screen and (max-width: 1024px) {
-    
-    .meta-item {
-    display: flex;
-    justify-content:flex-start;
-    align-items:center;
-    gap:0.5rem;
-    padding: 1em;
-    flex-direction: column;
-    min-height: 3rem;
-  }
+    .speakers-container span {
+      display: none;
+    }
 
+    .speakers-container {
+      display: flex;
+      flex-direction:column;
+      gap: 0.25rem;
+    }
+
+  @media screen and (max-width: 768px) {
+    .show-content {
+      padding: 0;
+    }
+    .meta-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0em;
+      flex-direction: row;
+      min-height: 1rem;
+    }
+    .meta-content {
+      display: flex;
+      flex-direction: row;
+    }
+    .speakers-container span {
+      display: inline;
+      margin-right: 0.25rem;
+    }
+
+    .speakers-container {
+      display: flex;
+      flex-direction:row;
+      gap: 0rem;
+    }
   }
 </style>

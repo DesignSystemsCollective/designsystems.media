@@ -1,11 +1,15 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
+
+import { formatDuration } from "../utils/formatDuration";
 import MediaImage from "./media/MediaImage.astro";
 
 type Media = CollectionEntry<"podcast">;
-type Props = Media["data"] & { slug?: Media["slug"] };
-
+type Props = Media["data"] & {
+  slug?: Media["slug"];
+  layoutType?: "grid" | "list"; // Add new prop for layout type, with 'grid' as default concept
+};
 const {
   title,
   publishedAt,
@@ -15,6 +19,8 @@ const {
   hasEpisodeImage,
   showSlug,
   podcastTitle,
+  layoutType = "grid", // Default to 'grid' layout (which is your current mobile layout)
+
 } = Astro.props;
 
 const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
@@ -41,9 +47,21 @@ if (hasEpisodeImage === undefined) {
     }
   }
 }
+
+// Determine if it should be a list layout
+const isListLayout = layoutType === "list";
 ---
 
-<div class="media-item media-link">
+<div
+  class:list={[
+    "media-item",
+    "media-link", // Keep this for common styles
+    {
+      "media-list-layout": isListLayout, // Apply this class when it's a list
+      "media-grid-layout": !isListLayout, // Apply this class when it's a grid (default)
+    },
+  ]}
+>
   <a href={`/podcast/${slug}/`}>
     <MediaImage
       src={imageToUse}
@@ -55,9 +73,12 @@ if (hasEpisodeImage === undefined) {
   <div class="media-content">
     <a href={`/podcast/${slug}/`} class="title"><h3>{title}</h3></a>
     <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
-    <span class="date">
-      <FormattedDate date={publishedAt} />
-    </span>
+    <div class="meta">
+      <span><FormattedDate date={publishedAt} /></span> {isListLayout && 
+      <span>•</span> <span>{formatDuration(duration)}</span>
+    }
+    </div>
+    
   </div>
 </div>
 
@@ -83,11 +104,11 @@ if (hasEpisodeImage === undefined) {
       transition: box-shadow 1s ease-out;
     }
     .title {
-      color: var(--accent);
+      color: rgb(var(--accent));
     }
   }
   a:hover h3 {
-    color: var(--accent);
+    color: rgb(var(--accent));
   }
   .media-content a {
     text-decoration: none;
@@ -99,19 +120,14 @@ if (hasEpisodeImage === undefined) {
     font-weight: 400;
     margin: 2px 0;
   }
-  .meta {
-    font-size: 14px;
-    color: var(--tx-3);
-  }
 
-  a.meta:hover {
-    text-decoration: underline;
-  }
-
-  .showTitle {
+  a.showTitle {
     font-size: 14px;
     font-weight: 400;
     color: var(--tx-2);
+  }
+  a.showTitle:hover {
+    text-decoration: underline;
   }
 
   .media-content {
@@ -119,15 +135,34 @@ if (hasEpisodeImage === undefined) {
     flex-direction: column;
     gap: 2px;
   }
-  .media-content .date {
+  .media-content .meta{
     font-size: 13px;
     color: var(--tx-3);
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+  }
+
+  /* Default "grid-like" layout (your current mobile layout) */
+  .media-grid-layout {
+    display: flex; /* Or grid, if you prefer a 2-column layout by default */
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* New list layout (similar to your @media rule) */
+  .media-list-layout {
+    display: grid;
+    grid-template-columns: minmax(80px, 100px) 1fr; /* The layout you want for list */
+    gap: 1rem; /* Adjust gap as needed for list */
+    align-items: center; /* Vertically align items in the list row */
   }
 
   @media screen and (max-width: 768px) {
-    .media-link {
+    .media-grid-layout {
       display: grid;
       grid-template-columns: 1fr 4fr;
+      align-items: center;
     }
   }
 </style>

@@ -2,22 +2,42 @@
 const {
   gridLayoutGap = "24px",
   gridColumnCount = 6,
-  gridItemMinWidth = "200px",
+  gridItemMinWidth = "320px",
+  gridType = "grid", // Default to 'grid'
 } = Astro.props;
+
+// Determine if it's a list layout
+const isList = gridType === "list";
 ---
 
 <div
-  class="responsive-grid"
+  class:list={[
+    "responsive-container", // Renamed for clarity - this holds common styles
+    {
+      "responsive-grid": !isList,
+      "responsive-list": isList,
+    }
+  ]}
   style={{
-    "--grid-layout-gap": gridLayoutGap,
-    "--grid-column-count": gridColumnCount,
-    "--grid-item--min-width": gridItemMinWidth,
+    // These custom properties are only relevant for grid layout,
+    // but setting them conditionally makes the style block cleaner.
+    ...(!isList && {
+      "--grid-layout-gap": gridLayoutGap,
+      "--grid-column-count": gridColumnCount,
+      "--grid-item--min-width": gridItemMinWidth,
+    })
   }}
 >
   <slot />
 </div>
 
 <style>
+
+  .responsive-container {
+    padding: 1rem; /* This should apply to both grid and list */
+    /* Add any other shared styles here, e.g., border, background */
+  }
+
   .responsive-grid {
     /* https://css-tricks.com/an-auto-filling-css-grid-with-max-columns/ */
 
@@ -36,12 +56,24 @@ const {
       minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr)
     );
     grid-gap: var(--grid-layout-gap);
-    padding: 1rem;
   }
+
+   .responsive-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-item-gap, 16px); /* Add a default gap for list items */
+  }
+
+  /* You might want to define custom properties for list layout if needed */
+  /* For example: --list-item-gap: 16px; */
 
   @media screen and (max-width: 768px) {
     .responsive-grid {
       grid-template-columns: 1fr;
     }
+    /* You might want to adjust list styles for smaller screens too if necessary */
+    /* .responsive-list {
+      // potentially change gap or direction
+    } */
   }
 </style>

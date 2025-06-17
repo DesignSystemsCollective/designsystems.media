@@ -33,6 +33,9 @@ const {
   // that aren't already listed above
   ...restProps
 } = Astro.props;
+
+const isShow = showSlug ? false : true;
+const layoutType = !showSlug ? "show" : "episode";
 ---
 
 <article data-pagefind-body data-pagefind-sort>
@@ -44,23 +47,17 @@ const {
     podcastTitle={podcastTitle}
     data-pagefind-meta={`image:${image?.src}`}
     audioUrl={audioUrl}
+    speakers={speakers}
   />
   
-  <div class="show-content">
+  <div class={`show-content ${layoutType}`}>
     <MetaList>
-      {episodeCount && (
-        <MetaItem icon="fluent:headphones-20-filled">
-          {episodeCount} episodes
-        </MetaItem>
-      )}
-      
       {explicit && (
         <MetaItem >
           <span class="explicit">Explicit</span>
         </MetaItem>
       )}
-
-      {speakers && (
+      {speakers && !isShow && (
         <MetaItem icon="fluent:person-20-filled" speakers={speakers}>
         </MetaItem >
       )}
@@ -111,9 +108,12 @@ const {
     align-items: start;
     grid-template-columns: minmax(100px, 200px) 1fr;
   }
+  .show-content.show{
+    grid-template-columns: 1fr;
+  }
 
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 768px) {
     :global(.title) {
       padding: 2.5rem 1rem 0.5rem;
     }
@@ -121,6 +121,7 @@ const {
    .show-content  {
       display: flex;
       flex-direction: column;
+      gap: 0rem;
     }
   }
 </style>

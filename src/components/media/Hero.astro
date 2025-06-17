@@ -2,6 +2,7 @@
 // src/components/media/Hero.astro
 import MediaImage from "./MediaImage.astro";
 import Title from "../Title.astro";
+import { convertToSlug } from "../../utils/convertToSlug";
 export interface Props {
   title: string;
   image?: string | null;
@@ -20,6 +21,7 @@ const {
   podcastTitle,
   hasEpisodeImage,
   showArtwork = true,
+  speakers,
 } = Astro.props;
 
 function getAudioMimeType(url) {
@@ -84,7 +86,7 @@ if (hasEpisodeImage === undefined) {
   <div class="page-title">
     <Title data-pagefind-meta="title">{title}</Title>
     {
-      showSlug && (
+      showSlug ? (
         <a
           href={`/show/${showSlug}/`}
           class="show"
@@ -93,6 +95,25 @@ if (hasEpisodeImage === undefined) {
         >
           {podcastTitle}
         </a>
+      ) : (
+        // Otherwise (if showSlug does NOT exist)
+         <> {/* Use a fragment to group the speakers content */}
+        {speakers && speakers.length > 0 && (
+          <div class="speakers-container">
+            {speakers.map((speaker, index) => (
+              <>
+                <a
+                  href={`/speakers/${convertToSlug(speaker)}/`}
+                  class="speaker"
+                  data-pagefind-filter="speaker"
+                  data-pagefind-weight="5"
+                >{speaker}</a>{/* Add a comma if it's not the last item */}
+                {index < speakers.length - 1 && ", "}
+              </>
+            ))}
+          </div>
+        )}
+      </>
       )
     }
   </div>
@@ -127,10 +148,10 @@ if (hasEpisodeImage === undefined) {
     right: 0;
     z-index: 0;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     opacity: 1;
     overflow: hidden;
-    min-height: 90vh;
+    min-height: 70vh;
     max-height: 900px;
   }
   .background::before {
@@ -176,7 +197,9 @@ if (hasEpisodeImage === undefined) {
   .page-title .show {
     font-weight: 600;
   }
-
+.speakers-container a{
+    font-weight: 600;
+}
   audio {
     position: relative;
     z-index: 100;
@@ -186,7 +209,7 @@ if (hasEpisodeImage === undefined) {
     justify-content: center;
     padding: 0rem;
     gap: 1.5rem;
-    margin: 1rem auto;
+    margin: 1rem auto 0.5rem;
   }
   .audio-embed {
     width: 100%;
@@ -217,6 +240,10 @@ if (hasEpisodeImage === undefined) {
     .show-container {
       padding: 1.5rem;
       min-height: 200px;
+    }
+
+    .background {
+      height: 320px;
     }
   }
 </style>

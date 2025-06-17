@@ -15,7 +15,7 @@ const { episodes, class: className = '' } = Astro.props;
 
 <div class={`episodes-grid-wrapper ${className}`}>
   <div class="episodes-grid">
-    <div class="episodes-grid-header">Episode</div>
+    <div class="episodes-grid-header">{episodes.length} Episodes</div>
 
     {episodes.map((episode, index) => (
       <EpisodeRow 

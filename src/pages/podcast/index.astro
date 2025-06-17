@@ -5,8 +5,8 @@ import SectionHeader from "../../components/SectionHeader.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { allPodcastsFilteredAndSorted, allShows } from "../../utils/mediaCollection";
 
-const podcast = allPodcastsFilteredAndSorted;
-const shows = allShows.slice(0, 4);
+const podcast = allPodcastsFilteredAndSorted.slice(0, 8);
+const shows = allShows.slice(0, 6);
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>
