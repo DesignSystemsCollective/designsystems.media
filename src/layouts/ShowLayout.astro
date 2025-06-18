@@ -5,6 +5,7 @@ import Hero from "../components/media/Hero.astro";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
 import EpisodeGrid from "../components/episodes/EpisodeGrid.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 
 type ShowEntry = CollectionEntry<"show">;
 type PodcastEntry = CollectionEntry<"podcast">;
@@ -46,6 +47,7 @@ const {
   episodes,
   showSlug,
   podcastTitle,
+  publishedAt,
   audioUrl,
   websiteUrl,
   // Add any other props that might come from the podcast collection
@@ -74,17 +76,22 @@ const layoutType = !showSlug ? "show" : "episode";
   <div class={`show-content ${layoutType}`}>
     <MetaList>
       {explicit && (
-        <MetaItem >
+        <MetaItem>
           <span class="explicit">Explicit</span>
         </MetaItem>
       )}
       {speakers && !isShow && (
-        <MetaItem icon="fluent:person-20-filled" speakers={speakers}>
+        <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
         </MetaItem >
       )}
       {websiteUrl && isShow && (
         <MetaItem icon="fluent:globe-20-filled">
           <a href={websiteUrl} target="_blank">{displayUrl}</a>
+        </MetaItem >
+      )}
+      {publishedAt && !isShow && (
+        <MetaItem icon="fluent:calendar-20-filled" label="Published">
+<FormattedDate date={publishedAt} />
         </MetaItem >
       )}
     </MetaList>
