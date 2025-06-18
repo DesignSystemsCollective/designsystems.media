@@ -10,16 +10,21 @@ const shows = allShowsSortedByRecentEpisode.slice(0, 6);
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>
-  <SectionHeader
+  <div class="show"><SectionHeader
     title="Podcasts"
     link="/show/"
     linkLabel="All podcasts"
     padding={true}
   />
-  <ShowGrid media={shows} /> 
+  <ShowGrid media={shows} /></div>
   <SectionHeader
     title="Latest podcast episodes"
     padding={true}
   />
   <PodcastGrid media={podcast} />
 </BaseLayout>
+<style>
+  .show {
+    margin-bottom: 2rem;
+  }
+</style>

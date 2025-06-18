@@ -4,8 +4,9 @@ import type { CollectionEntry } from "astro:content";
 import Hero from "../components/media/Hero.astro";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
-import EpisodeGrid from "../components/episodes/EpisodeGrid.astro";
+import SectionHeader from "../components/SectionHeader.astro";
 import FormattedDate from "../components/FormattedDate.astro";
+import PodcastGrid from "../components/PodcastGrid.astro";
 
 type ShowEntry = CollectionEntry<"show">;
 type PodcastEntry = CollectionEntry<"podcast">;
@@ -49,6 +50,7 @@ const {
   podcastTitle,
   publishedAt,
   audioUrl,
+  tags,
   websiteUrl,
   // Add any other props that might come from the podcast collection
   // that aren't already listed above
@@ -71,6 +73,7 @@ const layoutType = !showSlug ? "show" : "episode";
     data-pagefind-meta={`image:${image?.src}`}
     audioUrl={audioUrl}
     speakers={speakers}
+    tags={tags}
   />
   
   <div class={`show-content ${layoutType}`}>
@@ -82,6 +85,10 @@ const layoutType = !showSlug ? "show" : "episode";
       )}
       {speakers && !isShow && (
         <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
+        </MetaItem >
+      )}
+      {tags && !isShow && (
+        <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
         </MetaItem >
       )}
       {websiteUrl && isShow && (
@@ -97,16 +104,21 @@ const layoutType = !showSlug ? "show" : "episode";
     </MetaList>
     
     <div class="prose" data-pagefind-weight="3">
-      <slot />
+      <div class="description"><slot /></div>
       {episodes && episodes.length > 0 && (
-        <EpisodeGrid episodes={episodes} />
+
+  <SectionHeader
+    title={episodes.length + ` episodes`}
+    padding={false}
+  />
+        <PodcastGrid media={episodes} />
       )}
     </div>
   </div>
 </article>
 
 <style>
-  :global(.title) {
+  .title {
     margin: 0 auto 1em;
     padding: 2.5rem 0rem 0.5rem;
     width: 100%;
@@ -114,10 +126,16 @@ const layoutType = !showSlug ? "show" : "episode";
   }
 
   .prose {
-    margin: auto;
+    margin: 0;
     color: var(--body-text);
     overflow-wrap: anywhere;
   }
+
+  .description {
+    margin: 0 0 2rem;
+  }
+
+  .prose p:first-of-type {margin-top: 0;}
 
   .prose .meta-data {
     margin: 0 0 1rem;
@@ -130,6 +148,10 @@ const layoutType = !showSlug ? "show" : "episode";
   :global(.prose h5),
   :global(.prose h6) {
     font-size: 1em;
+  }
+
+  :global(.prose .responsive-container){
+    padding: 1rem 0 1rem;
   }
 
   .show-content {
@@ -147,11 +169,11 @@ const layoutType = !showSlug ? "show" : "episode";
   }
   .show-content.show{
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
-
   @media screen and (max-width: 768px) {
-    :global(.title) {
+    .title {
       padding: 2.5rem 1rem 0.5rem;
     }
 

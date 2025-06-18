@@ -10,10 +10,12 @@ export interface Props {
   type?: "inline" | "block" | undefined;
   class?: string;
   speakers?: string[];
+  tags?: string[];
 }
 
 const {
   speakers,
+  tags,
   icon,
   iconSize = 20,
   label,
@@ -48,6 +50,27 @@ const {
       </>
       )
     }
+      {(
+        // Otherwise (if showSlug does NOT exist)
+         <> {/* Use a fragment to group the speakers content */}
+        {tags && tags.length > 0 && (
+          <div class="tags-container">
+            {tags.map((tag, index) => (
+              <>
+                <a
+                  href={`/tags/${convertToSlug(tag)}/`}
+                  class="tag"
+                  data-pagefind-filter="tag"
+                  data-pagefind-weight="5"
+                >{tag}</a>{/* Add a comma if it's not the last item */}
+                {index < tags.length - 1 && <span>,</span> }
+              </>
+            ))}
+          </div>
+        )}
+      </>
+      )
+    }
   </div>
 </div>
 
@@ -55,9 +78,9 @@ const {
   .meta-item {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 0.25em;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .meta-item.block {
@@ -68,11 +91,12 @@ const {
   }
 
   .meta-label {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .meta-content {
     display: contents;
+    color: var(--tx)
   }
 
   /* Special styling for explicit badge */
@@ -125,4 +149,20 @@ const {
       gap: 0rem;
     }
   }
+
+
+@media screen and (min-width: 768px) {
+
+ .meta-item {
+  padding: 0 0 0 1.8rem;
+  position: relative;
+  gap: 0px;
+  justify-content: flex-start;
+ }
+  .meta-item svg{
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+  }
+}
 </style>
