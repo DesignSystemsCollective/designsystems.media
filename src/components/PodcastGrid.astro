@@ -2,10 +2,10 @@
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import PodcastCard from "./PodcastCard.astro";
 
-const { media } = Astro.props;
+const { media, gridType = "grid"} = Astro.props;
 ---
 
-<ResponsiveGrid gridItemMinWidth="600px" gridType="grid">
+<ResponsiveGrid gridItemMinWidth="600px" gridType={gridType}>
   {
     media.map((media) => (
       <PodcastCard

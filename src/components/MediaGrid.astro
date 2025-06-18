@@ -2,10 +2,10 @@
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import VideoCard from "./VideoCard.astro";
 
-const { media } = Astro.props;
+const { media, layoutType = "grid" } = Astro.props;
 ---
 
-<ResponsiveGrid>
+<ResponsiveGrid gridItemMinWidth="600px" gridType="grid">
   {
     media.map((media) => (
       <VideoCard
@@ -13,7 +13,8 @@ const { media } = Astro.props;
         poster={media.data.poster}
         duration={media.data.duration}
         slug={media.slug}
-        publishedAt={media.data.publishedAt}
+        publishedAt={media.data.publishedAt}  
+        layoutType={layoutType}
       />
     ))
   }
