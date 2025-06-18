@@ -49,8 +49,7 @@ const podcastCount = podcastPosts.length;
     title={`${videoCount} videos`}
     padding={false}
   />
-    <MediaGrid media={videoPosts} />
-     <PodcastGrid media={videoPosts} />
+     <MediaGrid media={videoPosts}  layoutType="list"/>
   }
    {podcastPosts && podcastPosts.length > 0 &&
        <SectionHeader
@@ -66,18 +65,10 @@ const podcastCount = podcastPosts.length;
   h2 {
     margin-block: 0 2rem;
   }
-  .breadcrumb {
-    text-decoration: none;
+  .container {
+    margin-bottom: 2rem;
   }
-  .breadcrumb:hover {
-    text-decoration: underline;
-  }
-  .breadcrumb [data-icon] {
-    position: relative;
-    top: 0.2em;
-    margin-right: 0.25em;
-    color: var(--tagCount-icon);
-  }
+
   @media (max-width: 1024px) {
     h2,
     .breadcrumb {
