@@ -7,26 +7,40 @@ import { formatDuration } from "../utils/formatDuration";
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
-const { title, publishedAt, duration, poster, slug } = Astro.props;
+const {
+  title,
+  publishedAt,
+  duration,
+  poster,
+  slug,
+  layoutType = "grid",
+} = Astro.props;
+
+// Determine if it should be a list layout
+const isListLayout = layoutType === "list";
 ---
 
-<div class="media-item">
-  <a href={`/video/${slug}/`} class="media-link">
-    <MediaImage
-      src={poster.src}
-      alt={title}
-      ratio="video"
-    />
-    <div class="media-content">
-      <h3 class="title">{title}</h3>
-      <div class="meta">
-      <span><FormattedDate date={publishedAt} /></span> 
-      <span>•</span> <span>{formatDuration(duration)}</span>
-    
-    </div>
-      
-    </div>
+<div
+  class:list={[
+    "media-item",
+    "media-link",
+    {
+      "media-list-layout": isListLayout, // Apply this class when it's a list
+      "media-grid-layout": !isListLayout, // Apply this class when it's a grid (default)
+    },
+  ]}
+>
+  <a href={`/video/${slug}/`}>
+    <MediaImage src={poster.src} alt={title} ratio="video" />
   </a>
+    <div class="media-content">
+     <a href={`/video/${slug}/`}><h3 class="title">{title}</h3></a>
+      <div class="meta">
+        <span><FormattedDate date={publishedAt} /></span>
+        <span>•</span>
+        <span>{formatDuration(duration)}</span>
+      </div>
+    </div>
 </div>
 
 <style>
@@ -41,7 +55,8 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
     gap: 1rem;
     transition: box-shadow 1s ease-out;
   }
-
+a {
+    text-decoration: none;}
   .media-link:hover {
     .media-image img {
       box-shadow:
@@ -56,13 +71,13 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
   }
 
   .title {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     margin: 2px 0;
   }
 
   .meta {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--tx-3);
     display: flex;
     flex-direction: row;
@@ -85,7 +100,21 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
     right: 0.5rem;
   }
 
+  /* New list layout (similar to your @media rule) */
+  .media-list-layout {
+    display: grid;
+    grid-template-columns: minmax(80px, 100px) 1fr; /* The layout you want for list */
+    gap: 1rem; /* Adjust gap as needed for list */
+    align-items: center; /* Vertically align items in the list row */
+  }
+
   @media screen and (max-width: 768px) {
+    .media-grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      align-items: center;
+    }
+
     .media-link {
       display: grid;
       grid-template-columns: 2fr 3fr;

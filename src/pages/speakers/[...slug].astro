@@ -13,7 +13,7 @@ export async function getStaticPaths() {
       };
     const filteredPosts = allMediaFilteredAndSorted
       .filter(
-        (post) => !post.data.draft && post.data.speakers?.includes(speaker),
+        (post) => post.data.speakers?.includes(speaker),
       )
       .sort(
         (a, b) =>
@@ -42,45 +42,43 @@ const videoPosts = posts.filter(post =>
   post.collection === 'media'
 );
 
-  const videoCount = videoPosts.length;
+const videoCount = videoPosts.length;
+const podcastCount = podcastPosts.length;
 
-  const podcastCount = podcastPosts.length;
 ---
 
-<BaseLayout sidebar={true} metadataProps={{ title: speaker }}>
+<BaseLayout sidebar={false} metadataProps={{ title: speaker }}>
   <h1>{speaker}</h1>
-   {podcastPosts && podcastPosts.length > 0 && 
-  <SectionHeader
-    title={`${podcastCount} podcasts`}
-    padding={false}
-  />
-  <PodcastGrid media={podcastPosts} />
-  }
-  {videoPosts && videoPosts.length > 0 && 
-   <SectionHeader
+  <div class="container">
+   {videoPosts && videoPosts.length > 0 && 
+    <SectionHeader
     title={`${videoCount} videos`}
     padding={false}
   />
-  <MediaGrid media={videoPosts} />
+    <MediaGrid media={videoPosts} layoutType="list"/>
+  }</div>
+   {podcastPosts && podcastPosts.length > 0 &&
+       <SectionHeader
+    title={`${podcastCount} podcasts`}
+    padding={false}
+  />
+     <PodcastGrid media={podcastPosts} />
   }
+</div>
+
+
+
+
 </BaseLayout>
 
 <style>
   h2 {
     margin-block: 0 2rem;
   }
-  .breadcrumb {
-    text-decoration: none;
+  .container {
+    margin-bottom: 2rem;
   }
-  .breadcrumb:hover {
-    text-decoration: underline;
-  }
-  .breadcrumb [data-icon] {
-    position: relative;
-    top: 0.2em;
-    margin-right: 0.25em;
-    color: var(--tagCount-icon);
-  }
+
   @media (max-width: 1024px) {
     h2,
     .breadcrumb {

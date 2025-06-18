@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-
-import { Icon } from "astro-icon/components";
-import MixedGrid from "../../components/MixedGrid.astro";
+import MediaGrid from "../../components/MediaGrid.astro";
+import PodcastGrid from "../../components/PodcastGrid.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
 import { allMediaFilteredAndSorted, tags } from "../../utils/mediaCollection";
 
@@ -13,7 +13,7 @@ export async function getStaticPaths() {
         params: { tag },
       };
     const filteredPosts = allMediaFilteredAndSorted
-      .filter((post) => !post.data.draft && post.data.tags?.includes(tag))
+      .filter((post) => post.data.tags?.includes(tag))
       .sort(
         (a, b) =>
           new Date(b.data.publishedAt).getTime() -
@@ -28,15 +28,39 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 const { posts, tag } = Astro.props;
+
+// Separate posts by media type
+const podcastPosts = posts.filter(post => 
+  post.collection === 'podcast'
+);
+
+const videoPosts = posts.filter(post => 
+  post.collection === 'media'
+);
+
+const videoCount = videoPosts.length;
+const podcastCount = podcastPosts.length;
 ---
 
-<BaseLayout sidebar={true} metadataProps={{ title: tag }}>
-  <a href="/tags/" class="breadcrumb">
-    <Icon name="fluent:tag-20-filled" size={20} />Tags
-  </a>
-  <h2>{tag}</h2>
-  <MixedGrid media={posts} />
-</BaseLayout>
+<BaseLayout sidebar={false} metadataProps={{ title: tag }}>
+  <h1>{tag}</h1>
+   {videoPosts && videoPosts.length > 0 && 
+    <SectionHeader
+    title={`${videoCount} videos`}
+    padding={false}
+  />
+    <MediaGrid media={videoPosts} />
+     <PodcastGrid media={videoPosts} />
+  }
+   {podcastPosts && podcastPosts.length > 0 &&
+       <SectionHeader
+    title={`${podcastCount} podcasts`}
+    padding={false}
+  />
+     <PodcastGrid media={podcastPosts} />
+  }
+</div>
+
 
 <style>
   h2 {
