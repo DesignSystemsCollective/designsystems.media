@@ -47,14 +47,14 @@ const podcastCount = podcastPosts.length;
    {videoPosts && videoPosts.length > 0 && 
     <SectionHeader
     title={`${videoCount} videos`}
-    padding={false}
+    padding={true}
   />
      <MediaGrid media={videoPosts}  layoutType="list"/>
   }
    {podcastPosts && podcastPosts.length > 0 &&
        <SectionHeader
     title={`${podcastCount} podcasts`}
-    padding={false}
+    padding={true}
   />
      <PodcastGrid media={podcastPosts} />
   }
@@ -62,6 +62,9 @@ const podcastCount = podcastPosts.length;
 
 
 <style>
+  h1 {
+    margin: 0 1rem;
+  }
   h2 {
     margin-block: 0 2rem;
   }
