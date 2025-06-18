@@ -2,10 +2,10 @@
 import { formatDate } from "../utils/formatDate";
 
 interface Props {
-  date: Date;
+  date: string | Date;
 }
 
-const { date } = Astro.props;
+const date = new Date(Astro.props.date);
 ---
 
 <time datetime={date?.toISOString()}>
