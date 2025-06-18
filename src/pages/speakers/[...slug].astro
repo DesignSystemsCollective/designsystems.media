@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-
-import { Icon } from "astro-icon/components";
-import MixedGrid from "../../components/MixedGrid.astro";
+import MediaGrid from "../../components/MediaGrid.astro";
+import PodcastGrid from "../../components/PodcastGrid.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
 import { allMediaFilteredAndSorted, speakers } from "../../utils/mediaCollection";
 export async function getStaticPaths() {
@@ -32,14 +32,37 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 const { posts, speaker } = Astro.props;
+
+// Separate posts by media type
+const podcastPosts = posts.filter(post => 
+  post.collection === 'podcast'
+);
+
+const videoPosts = posts.filter(post => 
+  post.collection === 'media'
+);
+
+  const videoCount = videoPosts.length;
+
+  const podcastCount = podcastPosts.length;
 ---
 
 <BaseLayout sidebar={true} metadataProps={{ title: speaker }}>
-  <a href="/speakers/" class="breadcrumb">
-    <Icon name="fluent:tag-20-filled" size={20} />Speakers
-  </a>
-  <h2>{speaker}</h2>
-  <MixedGrid media={posts} />
+  <h1>{speaker}</h1>
+   {podcastPosts && podcastPosts.length > 0 && 
+  <SectionHeader
+    title={`${podcastCount} podcasts`}
+    padding={false}
+  />
+  <PodcastGrid media={podcastPosts} />
+  }
+  {videoPosts && videoPosts.length > 0 && 
+   <SectionHeader
+    title={`${videoCount} videos`}
+    padding={false}
+  />
+  <MediaGrid media={videoPosts} />
+  }
 </BaseLayout>
 
 <style>
