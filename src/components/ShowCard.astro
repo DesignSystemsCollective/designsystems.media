@@ -2,11 +2,13 @@
 import type { CollectionEntry } from "astro:content";
 import MediaImage from "./media/MediaImage.astro";
 import FormattedDate from "../components/FormattedDate.astro";
+import { getMostRecentEpisodeDateForShow, allPodcastsFilteredAndSorted } from "../utils/mediaCollection";
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
 const { title, image, slug, speakers, episodeCount, lastUpdate } = Astro.props;
 
+const lastUpdateDate = getMostRecentEpisodeDateForShow(slug, allPodcastsFilteredAndSorted);
 
 ---
 
@@ -17,7 +19,7 @@ const { title, image, slug, speakers, episodeCount, lastUpdate } = Astro.props;
       <h3 class="title">{title}</h3>
       <div class="meta speakers">{speakers.join(", ")}</div>
        <div class="meta">
-      <span><FormattedDate date={lastUpdate} /></span> 
+      <span><FormattedDate date={lastUpdateDate} /></span> 
       <span>•</span> <span>{episodeCount} episodes</span>
     
     </div>
@@ -59,10 +61,18 @@ const { title, image, slug, speakers, episodeCount, lastUpdate } = Astro.props;
     font-size: 16px;
     font-weight: 400;
     margin: 2px 0;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* Limit to 3 lines */
   }
   .meta {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--tx-3);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
   }
   .speakers {
     font-size: 15px;

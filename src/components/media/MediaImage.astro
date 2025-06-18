@@ -12,14 +12,15 @@ export interface Props {
   size?: 'small' | 'medium' | 'large' | 'thumbnail';
   class?: string;
   shadow?: 'shadow' | 'no-shadow';
+  showDuration?: true | false;
 }
 
-const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', class: className = '' } = Astro.props;
+const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDuration = true, class: className = '' } = Astro.props;
 ---
 
 <div class={`media-image ${size} ${ratio} ${shadow} ${className}`}>
   <img src={src} alt={alt} />
-  {duration && 
+  {duration && showDuration && 
         <Badge 
             label={formatDuration(duration)}}
             variant='podcast-duration' 

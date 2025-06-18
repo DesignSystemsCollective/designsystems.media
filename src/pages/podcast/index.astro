@@ -3,10 +3,10 @@ import PodcastGrid from "../../components/PodcastGrid.astro";
 import ShowGrid from "../../components/ShowGrid.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allPodcastsFilteredAndSorted, allShows } from "../../utils/mediaCollection";
+import { allPodcastsFilteredAndSorted, allShowsSortedByRecentEpisode } from "../../utils/mediaCollection";
 
 const podcast = allPodcastsFilteredAndSorted.slice(0, 8);
-const shows = allShows.slice(0, 6);
+const shows = allShowsSortedByRecentEpisode.slice(0, 6);
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>

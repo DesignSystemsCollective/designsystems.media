@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import MediaImage from "./media/MediaImage.astro";
+import { formatDuration } from "../utils/formatDuration";
 
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -14,14 +15,16 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
     <MediaImage
       src={poster.src}
       alt={title}
-      duration={duration}
       ratio="video"
     />
     <div class="media-content">
       <h3 class="title">{title}</h3>
-      <span class="date">
-        <FormattedDate date={publishedAt} />
-      </span>
+      <div class="meta">
+      <span><FormattedDate date={publishedAt} /></span> 
+      <span>•</span> <span>{formatDuration(duration)}</span>
+    
+    </div>
+      
     </div>
   </a>
 </div>
@@ -58,9 +61,12 @@ const { title, publishedAt, duration, poster, slug } = Astro.props;
     margin: 2px 0;
   }
 
-  .date {
+  .meta {
     font-size: 13px;
     color: var(--tx-3);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
   }
   .duration {
     font-variant: small-caps;
