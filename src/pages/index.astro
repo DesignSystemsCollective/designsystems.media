@@ -8,7 +8,10 @@ import SectionHeader from "../components/SectionHeader.astro";
 import Sponsors from "../components/Sponsors.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
-import { allVideosFilteredAndSorted, allPodcastsFilteredAndSorted } from "../utils/mediaCollection";
+import {
+  allVideosFilteredAndSorted,
+  allPodcastsFilteredAndSorted,
+} from "../utils/mediaCollection";
 
 const recentVideos = allVideosFilteredAndSorted.slice(0, 12);
 const recentPodcasts = allPodcastsFilteredAndSorted.slice(0, 12);
@@ -24,7 +27,7 @@ const recentPodcasts = allPodcastsFilteredAndSorted.slice(0, 12);
     padding={true}
   />
   <MediaGrid media={recentVideos} />
-   <SectionHeader
+  <SectionHeader
     title="Latest podcast episodes"
     link="/podcast/"
     linkLabel="View all podcasts"
