@@ -7,6 +7,8 @@ import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
 import { convertToSlug } from "../utils/convertToSlug";
 import { formatDuration } from "../utils/formatDuration";
+import MetaList from "../components/media/MetaList.astro";
+import MetaItem from "../components/media/MetaItem.astro";
 
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -30,65 +32,40 @@ const {
   <div class="hero-image" data-pagefind-meta={`image:${image?.src}`}>
     <YouTube id={videoUrl ?? ""} class="video-embed" poster={poster?.src} />
     <div class="background" style={`background-image: url('${image?.src}')`}>
+  <div class="scrim"></div>
     </div>
   </div>
   <Title data-pagefind-meta="title">{title}</Title>
   <div class="content">
-    <div class="meta-data">
-      <span class="inline">
-        <Icon name="fluent:calendar-date-20-filled" size={20} />
-        <FormattedDate date={publishedAt} data-pagefind-sort="date" />
-      </span>
-      <span class="inline">
-        <Icon name="fluent:clock-20-filled" size={20} />
-        <span data-pagefind-sort="duration">
-          {formatDuration(duration)}
-        </span>
-      </span>
-      <span class="inline">
-        <Icon name="fluent:window-new-20-filled" size={20} />
-        <a href={videoUrl} title={title}>Link to video</a>
-      </span>
-      <div class="break"></div>
-      <div class="tags">
-        <span><Icon name="fluent:tag-20-filled" size={20} />Tags</span>
-        {
-          tags?.map((tag) => (
-            <a
-              href={`/tags/${convertToSlug(tag)}/`}
-              class="tag"
-              data-pagefind-filter="tag"
-              data-pagefind-weight="5"
-            >
-              {tag}
-            </a>
-          ))
-        }
-      </div>
-      <div class="speakers">
-        <span><Icon name="fluent:person-20-filled" size={20} />Speakers</span>
-        {
-          speakers?.map((speaker) => (
-            <a
-              href={`/speakers/${convertToSlug(speaker)}/`}
-              class="speaker"
-              data-pagefind-filter="speaker"
-              data-pagefind-weight="5"
-            >
-              {speaker}
-            </a>
-          ))
-        }
-      </div>
-      <div class="break"></div>
-      <span class="inline">
-        <Icon name="fluent:edit-20-filled" size={20} />
-        <a
-          href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}
-          >Edit on GitHub</a
-        >
-      </span>
-    </div>
+        <MetaList>
+      {speakers && (
+        <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
+        </MetaItem >
+      )}
+      {tags && (
+        <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
+        </MetaItem >
+      )}
+      {publishedAt && (
+        <MetaItem icon="fluent:calendar-20-filled" label="Published">
+<FormattedDate date={publishedAt} data-pagefind-sort="date" />
+        </MetaItem >
+      )}
+      {duration && (
+        <MetaItem icon="fluent:clock-20-filled">
+{formatDuration(duration)}
+        </MetaItem >
+      )}
+      {videoUrl && (
+        <MetaItem icon="fluent:window-new-20-filled">
+ <a href={videoUrl} title={title}>Link to video</a>
+        </MetaItem >
+      )}
+        <MetaItem icon="fluent:edit-20-filled">
+<a href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}
+          >Edit on GitHub</a>
+        </MetaItem >
+    </MetaList>
     <div class="prose" data-pagefind-weight="3">
       <slot />
     </div>
@@ -123,15 +100,31 @@ const {
     height: 100vh;
     backdrop-filter: blur(2.5rem);
   }
+
+  .scrim {
+    content: "";
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    top: 0;
+    background: var(--scrim-gradient);
+  }
   .hero-image .video-embed {
     border-radius: 0px;
-    margin: 0 auto;
+    margin: 4rem auto 2rem;
     z-index: 100;
     aspect-ratio: auto 16/9;
     width: 100%;
-    min-width: 320px;
-    max-width: 1600px;
+    height: auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px var(--image-shadow), 
+   0 0px 0px var(--image-shadow);
+    border-radius: 6px;
   }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -140,14 +133,8 @@ const {
       opacity: 1;
     }
   }
-  :global(.title) {
-    margin: 0 auto 1em;
-    padding: 2.5rem 0rem 0.5rem;
-    width: 100%;
-    max-width: 900px;
-  }
   .prose {
-    margin: auto;
+    margin: 0;
     color: var(--body-text);
     overflow-wrap: anywhere;
   }
@@ -168,7 +155,6 @@ const {
     flex-direction: column;
     gap: 1rem 0;
     font-size: 1.1rem;
-    border-bottom: 1px solid var(--hr);
     justify-content: baseline;
   }
   .meta-data a {
@@ -213,18 +199,17 @@ const {
     align-items: start;
     grid-template-columns: minmax(100px, 200px) 1fr;
   }
+
   @media screen and (max-width: 1024px) {
     .hero-image {
-      max-height: 405px;
       height: auto;
       margin: 0;
     }
     .hero-image .video-embed {
       width: 100%;
-      max-width: 720px;
-    }
-    :global(.title) {
-      padding: 2.5rem 1rem 0.5rem;
+      max-width: 1024px;
+      margin: 0 auto;
+      border-radius: 0px;
     }
     .meta-data {
       padding-left: 0;
