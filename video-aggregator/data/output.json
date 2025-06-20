@@ -1,5 +1,100 @@
 [
   {
+    "title": "Craft Across: Design Tokens",
+    "description": "A big thank you to everyone who joined us for our Craft Across: Design Tokens session (https://infa.ai/events/design-tokens_20250324)! Special thanks to our speakers—Brad Frost (https://www.linkedin.com/in/bradfrost/), Samantha Gordashko (https://www.linkedin.com/in/sgordashko/), Donnie D'Amato (https://www.linkedin.com/in/fauxserious/), and Kaelig Deloumeau-Prigent (https://www.linkedin.com/in/kaelig/)—for sharing their expertise.\n\nWhat's Inside  \nIn this session, we explored the future of design tokens with industry leaders, covering:\n→ What design tokens are and why they matter  \n→ The importance of standardization and the challenges of token bloat  \n→ Real-world examples and best practices for token implementation  \n→ How to keep documentation and libraries up to date  \n→ The impact of AI on design systems  \n→ Tools and workflows shaping the industry (Infa Tokens, Style Dictionary, Figma Variables, and more)  \n→ Fostering collaboration within teams and communities\n\nA Gift for You!  \nAs a thank-you for participating, we're offering 1 month of Infa PRO for free!  \nUse promo code DGNTKN at checkout  \nHurry! This code is valid until upcoming Monday.\n\nDon't miss upcoming Inspect & Reflect: Uber.com’s Base Design System  \nJun 19, 9:00 AM - 10:00 AM (PST)  \nhttps://infa.ai/events/uber_20240619\n\nChapters  \n00:00 Craft Across: Design Tokens  \n03:19 Discussion on Design Tokens  \n04:31 Defining Design Tokens  \n08:25 Standardization Debate  \n14:26 Examples of Design Tokens in Practice  \n18:21 Challenges in Design Tokens  \n22:49 Updating Libraries and Documentation  \n23:30 Makers vs. Users: A Design System Perspective  \n25:24 The Role of AI in Design Systems  \n29:12 Challenges and Solutions in Token Management  \n37:01 Exploring Tools for Design Tokens  \n40:48 Human Collaboration Over Tools  \n43:34 Conclusion and Final Thoughts\n\nKeywords  \n#design #designsystems #designtokens #ux #uxdesign #components #designops #ai #collaboration #figma #styleDictionary #tokenstudio #infa #frontend #documentation",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Fmrxdr8fZ8w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Fmrxdr8fZ8w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Fmrxdr8fZ8w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Fmrxdr8fZ8w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Fmrxdr8fZ8w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Fmrxdr8fZ8w",
+    "publishedAt": "2025-06-13T22:51:14Z",
+    "privacyStatus": "public",
+    "duration": "0:44:04"
+  },
+  {
+    "title": "Exploring Figma's Dev Mode MCP Server",
+    "description": "Join the next cohort of Level Up with Figma — a five-week course to help you feel more confident and comfortable using the design tool. 🎨\n\n🔗 https://maven.com/baseline-design/level-up-with-figma",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/blBdVedwyO4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/blBdVedwyO4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/blBdVedwyO4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/blBdVedwyO4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/blBdVedwyO4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=blBdVedwyO4",
+    "publishedAt": "2025-06-11T16:54:34Z",
+    "privacyStatus": "public",
+    "duration": "0:17:15"
+  },
+  {
+    "title": "Using a component set  | Managing components in zeroheight",
+    "description": "Learn more about managing and tracking components in the design system platform, zeroheight: https://zeroheight.com/help/article/component-sets-an-overview/\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/N0q0_Z-RUkM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/N0q0_Z-RUkM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/N0q0_Z-RUkM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=N0q0_Z-RUkM",
+    "publishedAt": "2025-06-10T11:24:21Z",
+    "privacyStatus": "public",
+    "duration": "0:02:52"
+  },
+  {
     "title": "Getting your component set into shape  | Managing components in zeroheight",
     "description": "00:00 Intro\n00:30 Component set overview\n02:10 Component statuses\n03:22 Reviewing component matches\n04:15 Reviewing \"missing\" matches\n06:41 Reviewing unconfirmed components\n11:00 Component links update via sync setting\n11:50 Syncing the component set\n12:24 Outro\n\nLearn more about managing and tracking components in the design system platform, zeroheight: https://zeroheight.com/help/article/component-sets-an-overview/\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -1728,6 +1823,41 @@
     "publishedAt": "2024-12-23T14:24:25Z",
     "privacyStatus": "public",
     "duration": "0:09:15"
+  },
+  {
+    "title": "Inspect & Reflect: Github Primer Design System",
+    "description": "Join Alexander Fandén (https://www.linkedin.com/in/alexfanden/), Ismaïl Hamila (https://www.linkedin.com/in/ismailhamila/), Jon Reidy (https://www.linkedin.com/in/jonreidy/), and Farid Sabitov (https://www.linkedin.com/in/faridsabitov), as they delve into the intricacies of design systems. From component customization and adoption challenges to practical tips for maintaining visual consistency and accessibility, this session covers it all. Discover actionable insights, ways to prioritize requests, and how to improve patterns and documentation. Whether you're working on a new design system or refining an existing one, this discussion offers valuable guidance on navigating common issues and fostering collaboration within your team.\n\n00:00 Introduction and Speaker Welcome\n04:15 Design System Adoption Challenges\n06:45 Primer Design System Overview\n08:59 Component Inventory and Analysis\n09:21 Action Menu Deep Dive\n09:54 Component Variations and Discussion\n12:03 Adoption Strategies and Challenges\n16:35 Accessibility and Brand Refresh\n20:42 Naming Conventions and Collaboration\n22:31 Approachability and Communication\n22:59 Understanding Design Patterns\n24:30 Decision Trees in UX\n25:08 Interactive Prototypes\n25:33 Design Tokens and Usage\n26:23 Examples from VICE and Decathlon\n26:35 eBay's Design System\n28:06 Handling High-Priority Requests\n28:49 Prioritization Frameworks\n30:35 Modularizing Design Systems\n32:38 Customization Guidelines\n38:24 Component Grouping Strategies\n42:02 Balancing Flexibility and Consistency\n43:46 Customer-Centric Design\n44:37 Conclusion and Thank You",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0HrQ9WWuD5U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0HrQ9WWuD5U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0HrQ9WWuD5U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/0HrQ9WWuD5U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/0HrQ9WWuD5U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0HrQ9WWuD5U",
+    "publishedAt": "2024-12-21T04:10:40Z",
+    "privacyStatus": "public",
+    "duration": "0:45:24"
   },
   {
     "title": "Design Systems WTF #34: How much is too much documentation?",
