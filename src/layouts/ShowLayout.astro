@@ -83,11 +83,11 @@ const layoutType = !showSlug ? "show" : "episode";
           <span class="explicit">Explicit</span>
         </MetaItem>
       )}
-      {speakers && !isShow && (
+      {speakers && speakers.length > 0 && !isShow && (
         <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
         </MetaItem >
       )}
-      {tags && !isShow && (
+      {tags && tags.length > 0 && !isShow && (
         <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
         </MetaItem >
       )}
