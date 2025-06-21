@@ -199,7 +199,7 @@ function generateEpisodeMdxFile(episode, showSlug, folderPath, predefinedSpeaker
   // Use predefined speakers if available, otherwise fall back to podcast title
   const speakers = predefinedSpeakers && predefinedSpeakers.length > 0 
     ? predefinedSpeakers 
-    : [podcastTitle || "Unsorted"];
+    : [podcastTitle || ""];
 
   const today = new Date();
   const formattedDate = today.toISOString().split('T')[0];
@@ -249,7 +249,7 @@ podcastTitle: "${podcastTitle}"
 showSlug: "${showSlug}"
 image: ${imageReference || 'null'}
 localImages: false
-tags: ["Unsorted"]
+tags: []
 categories: ["Podcast"]
 duration: "${episode.duration}"
 durationSeconds: ${episode.durationSeconds}
