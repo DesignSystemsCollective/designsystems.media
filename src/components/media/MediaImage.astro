@@ -53,8 +53,12 @@ const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDurat
 .media-image.square img{
     aspect-ratio: auto 1/1;
 }
+.media-image.video {
+    aspect-ratio: auto 16 / 9;
+}
 .media-image.video img{
     aspect-ratio: auto 16/9;
+    object-fit: cover;
 }
   /* Size variants */
   .media-image.thumbnail img{

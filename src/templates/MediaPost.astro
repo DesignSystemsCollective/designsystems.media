@@ -1,11 +1,9 @@
 ---
 import { YouTube } from "@astro-community/astro-embed-youtube";
-import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
 import { repository } from "../../package.json";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
-import { convertToSlug } from "../utils/convertToSlug";
 import { formatDuration } from "../utils/formatDuration";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
@@ -91,7 +89,6 @@ const {
     background-position: center center;
     opacity: 1;
     overflow: hidden;
-    animation: fadeIn 1.5s;
   }
   .hero-image .background::before {
     content: "";
