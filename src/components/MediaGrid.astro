@@ -2,10 +2,10 @@
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import VideoCard from "./VideoCard.astro";
 
-const { media, layoutType = "grid" } = Astro.props;
+const { media, layoutType = "grid", gridItemMinWidth = "600px" } = Astro.props;
 ---
 
-<ResponsiveGrid gridItemMinWidth="600px" gridType="grid">
+<ResponsiveGrid gridItemMinWidth={gridItemMinWidth}} gridType="grid">
   {
     media.map((media) => (
       <VideoCard

@@ -72,8 +72,9 @@ const podcastCount = podcastPosts.length;
 </BaseLayout>
 
 <style>
+ 
   h1 {
-    margin: 0 1rem;
+    margin: 0rem 1rem 0;
   }
   h2 {
     margin-block: 0 2rem;
@@ -82,7 +83,10 @@ const podcastCount = podcastPosts.length;
     margin-bottom: 2rem;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1024px) {  
+  h1 {
+    margin: 1rem 1rem 0;
+  }
     h2,
     .breadcrumb {
       padding-left: 1rem;
