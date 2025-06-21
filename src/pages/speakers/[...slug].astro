@@ -44,21 +44,28 @@ const videoPosts = posts.filter(post =>
 
 const videoCount = videoPosts.length;
 const podcastCount = podcastPosts.length;
+const totalCount = podcastPosts.length + videoPosts.length;
 
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: speaker }}>
   <h1>{speaker}</h1>
+  <div class="header-links">
+    <soan class="total">{totalCount} items</soan>
+     {videoPosts && videoPosts.length > 0 && <a href="#video">{videoCount} videos</a>}
+     {podcastPosts && podcastPosts.length > 0 &&
+    <a href="#podcast">{podcastCount} podcasts</a>}
+  </div>
   <div class="container">
    {videoPosts && videoPosts.length > 0 && 
-    <SectionHeader
+    <a name="video"></a><SectionHeader
     title={`${videoCount} videos`}
     padding={true}
   />
     <MediaGrid media={videoPosts} layoutType="list"/>
   }</div>
    {podcastPosts && podcastPosts.length > 0 &&
-       <SectionHeader
+       <a name="podcast"></a><SectionHeader
     title={`${podcastCount} podcasts`}
     padding={true}
   />
@@ -81,6 +88,17 @@ const podcastCount = podcastPosts.length;
   }
   .container {
     margin-bottom: 2rem;
+  }
+  .header-links {
+    margin: 0rem 1rem 2rem;
+    display: flex;
+    gap: 1em;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--tx-3)
+  }
+  .header-links a {
+    text-decoration: none;
   }
 
   @media (max-width: 1024px) {  

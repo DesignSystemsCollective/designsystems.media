@@ -80,6 +80,9 @@ b {
 }
 a {
   color: rgb(var(--accent));
+  .badge {
+    text-decoration: none;
+  }
 }
 a:hover {
   color: var(--accent-hover);

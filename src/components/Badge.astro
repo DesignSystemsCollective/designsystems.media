@@ -10,10 +10,7 @@ export interface Props {
 const { label, variant = 'primary', season, episode } = Astro.props;
 ---
 
-<span class={`badge ${variant}`}>
-  {label}
-  {season && episode && `S${season}E${episode}`}
-</span>
+<span class={`badge ${variant}`}>{label}{season && episode && `S${season}E${episode}`}</span>
 
 <style>
 
