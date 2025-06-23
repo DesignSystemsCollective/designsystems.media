@@ -24,6 +24,11 @@ const {
   speakers,
 } = Astro.props;
 
+// Check for autoplay URL parameter
+const url = new URL(Astro.request.url);
+const shouldAutoplay =
+  url.searchParams.has("autoplay");
+
 function getAudioMimeType(url) {
   if (!url) return "audio/mpeg"; // fallback if no URL
 
@@ -97,30 +102,40 @@ if (hasEpisodeImage === undefined) {
         </a>
       ) : (
         // Otherwise (if showSlug does NOT exist)
-         <> {/* Use a fragment to group the speakers content */}
-        {speakers && speakers.length > 0 && (
-          <div class="speakers-container">
-            {speakers.map((speaker, index) => (
-              <>
-                <a
-                  href={`/speakers/${convertToSlug(speaker)}/`}
-                  class="speaker"
-                  data-pagefind-filter="speaker"
-                  data-pagefind-weight="5"
-                >{speaker}</a>{/* Add a comma if it's not the last item */}
-                {index < speakers.length - 1 && ", "}
-              </>
-            ))}
-          </div>
-        )}
-      </>
+        <>
+          {" "}
+          {/* Use a fragment to group the speakers content */}
+          {speakers && speakers.length > 0 && (
+            <div class="speakers-container">
+              {speakers.map((speaker, index) => (
+                <>
+                  <a
+                    href={`/speakers/${convertToSlug(speaker)}/`}
+                    class="speaker"
+                    data-pagefind-filter="speaker"
+                    data-pagefind-weight="5"
+                  >
+                    {speaker}
+                  </a>
+                  {/* Add a comma if it's not the last item */}
+                  {index < speakers.length - 1 && ", "}
+                </>
+              ))}
+            </div>
+          )}
+        </>
       )
     }
   </div>
 
   {
     audioUrl && (
-      <audio controls preload="metadata" class="audio-embed">
+      <audio
+        controls
+        preload="metadata"
+        class="audio-embed"
+        autoplay={shouldAutoplay}
+      >
         <source src={audioUrl} type={getAudioMimeType(audioUrl)} />
         Your browser does not support the audio element.
       </audio>
@@ -130,6 +145,24 @@ if (hasEpisodeImage === undefined) {
 <div class="background" style={`background-image: url('${imageToUse}')`}>
   <div class="scrim"></div>
 </div>
+
+{shouldAutoplay && (
+  <script>
+    // Additional JavaScript to ensure autoplay works
+    document.addEventListener('DOMContentLoaded', function() {
+      const audio = document.getElementById('podcast-audio');
+      if (audio) {
+        // Some browsers require user interaction first, so we try to play
+        // and handle any potential errors gracefully
+        audio.play().catch(function(error) {
+          console.log('Autoplay was prevented:', error);
+          // You could show a play button or notification here
+        });
+      }
+    });
+  </script>
+)}
+
 <style>
   .hero-image {
     position: relative;
@@ -197,9 +230,9 @@ if (hasEpisodeImage === undefined) {
   .page-title .show {
     font-weight: 600;
   }
-.speakers-container a{
+  .speakers-container a {
     font-weight: 600;
-}
+  }
   audio {
     position: relative;
     z-index: 100;
