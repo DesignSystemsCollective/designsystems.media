@@ -77,6 +77,239 @@
           "type": "categories"
         }
       ]
+    },
+    {
+      "name": "podcast",
+      "previewPath": "'podcast'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "publishedAt",
+          "type": "datetime",
+          "default": "{{now}}",
+          "required": true
+        },
+        {
+          "name": "dateAdded",
+          "type": "datetime",
+          "default": "{{now}}"
+        },
+        {
+          "name": "episodeUrl",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "audioUrl",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "podcastTitle",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "showSlug",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "name": "localImages",
+          "type": "boolean",
+          "required": true
+        },
+        {
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "durationSeconds",
+          "type": "number"
+        },
+        {
+          "name": "draft",
+          "type": "draft",
+          "required": true
+        },
+        {
+          "name": "speakers",
+          "type": "taxonomy",
+          "taxonomyId": "speakers"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "single": true,
+          "default": "podcast"
+        },
+        {
+          "name": "season",
+          "type": "number"
+        },
+        {
+          "name": "episode",
+          "type": "number"
+        },
+        {
+          "name": "explicit",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "feedUrl",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "guid",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "hasEpisodeImage",
+          "type": "boolean",
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "show",
+      "previewPath": "'show'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "speakers",
+          "type": "taxonomy",
+          "taxonomyId": "speakers"
+        },
+        {
+          "name": "feedUrl",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "websiteUrl",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "imageReference",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "name": "dateAdded",
+          "type": "datetime",
+          "default": "{{now}}"
+        },
+        {
+          "name": "lastUpdate",
+          "type": "datetime"
+        },
+        {
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "single": true,
+          "default": "en-us"
+        },
+        {
+          "name": "explicit",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "episodeCount",
+          "type": "number"
+        },
+        {
+          "name": "localImages",
+          "type": "boolean",
+          "required": true
+        },
+        {
+          "name": "itunesId",
+          "type": "number"
+        },
+        {
+          "name": "guid",
+          "type": "string",
+          "single": true
+        },
+        {
+          "name": "medium",
+          "type": "string",
+          "single": true,
+          "default": "podcast"
+        },
+        {
+          "name": "dead",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "name": "locked",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "single": true,
+          "default": "show"
+        },
+        {
+          "name": "draft",
+          "type": "draft",
+          "required": true
+        },
+        {
+          "name": "tags",
+          "type": "tags"
+        }
+      ]
     }
   ],
   "frontMatter.framework.id": "astro",
@@ -85,6 +318,14 @@
     {
       "title": "media",
       "path": "[[workspace]]/src/content/media"
+    },
+    {
+      "title": "podcast",
+      "path": "[[workspace]]/src/content/podcast"
+    },
+    {
+      "title": "show",
+      "path": "[[workspace]]/src/content/show"
     }
   ],
   "frontMatter.content.publicFolder": "public",
@@ -263,7 +504,6 @@
         "Donna Chan",
         "Donna Vitan",
         "Donnie D'Amato",
-        "Donnie D’Amato",
         "Drew Clemens",
         "Dániel Vazquez",
         "Débora Ornelas",
