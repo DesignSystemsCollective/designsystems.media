@@ -44,7 +44,7 @@ const mediaCollection = defineCollection({
       tags: z.array(z.string()).optional(),
       categories: z.array(z.string()).optional(),
       speakers: z.array(z.string()).optional(),
-      draft: z.boolean(),
+      draft: z.boolean().default(false),
     }),
 });
 
@@ -84,7 +84,7 @@ const podcastCollection = defineCollection({
       categories: z.array(z.string()).optional(),
       speakers: z.array(z.string()).optional(),
       type: z.literal('podcast').optional(),
-      draft: z.boolean(),
+      draft: z.boolean().default(false),
       showSlug: z.string(),
       hasEpisodeImage: z.boolean()
     }),
