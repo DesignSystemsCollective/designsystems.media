@@ -1,5 +1,61 @@
 [
   {
+    "title": "Ep 81: Disagreements and Alignment",
+    "description": "<p>Another takeaway from our cross-functional discussions, how do design system team members handle disagreements with consumers, or even our own teammates?</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/103954917/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-10%2F860b02d0-3942-a3a2-d287-717c6826d9b3.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/103954917/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-10%2F860b02d0-3942-a3a2-d287-717c6826d9b3.mp3",
+    "publishedAt": "2025-06-19T07:01:00.000Z",
+    "duration": "0:30:48",
+    "durationSeconds": 1848,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 38809412097,
+    "guid": "01685339-a048-4f3d-8576-bf355627f575",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "134 Modernizing a Legend: Catherine Dubut Builds the Future at Ford Pro",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>What does it take to transform 121 years of automotive legacy into a modern digital ecosystem? Catherine Dubut, Director of Global UX Strategy at Ford Pro, joins Chris Strahl to share how her team is reengineering the organization’s fragmented product landscape into a scalable, unified digital assembly line.</p><p>With over 80 legacy sites, 20+ global markets, and deeply siloed teams, the scale and complexity of Ford Pro’s challenge was immense. Catherine explains how her team brought structure to chaos—combining elements from outdated systems, building new foundations where needed, and stitching them together into a single, coherent design system. From establishing governance and cross-functional collaboration to introducing micro frontends and scaling adoption, this episode offers a playbook for modernizing UX at enterprise scale.</p><p>Key themes:</p><ul><li>Designing for fleets, not just drivers—multiple users, journeys, and roles per customer</li><li>Replatforming 80+ tools across legacy systems and international business units</li><li>Building a design system through consolidation, extension, and future-proofing</li><li>Using micro frontends to bridge disparate tech stacks across Ford Pro</li><li>Measuring success through design efficiency, team adoption, and developer alignment</li></ul><p>View the <a href='https://docs.google.com/document/d/1uHWgIWjFhhfcH0olgpsygKp6oqjhwQ0MERW60prpIZ4/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/catherinedubut/'>Catherine Dubut</a> is Director of Global UX Strategy at Ford Pro, the commercial business of Ford Motor Company. She oversees a global team of individual contributors and managers across design, user research, information architecture, and content strategy. Catherine is a seasoned UX leader with a track record of designing impactful experiences, driving UX practice maturity, and digital transformation at dynamic brands at places like Samsung Electronics, REI, and Intuit. Based in Seattle, Catherine’s been involved in design community activities including organizing local events, mentoring underrepresented UX professionals, public speaking, and writing. She enjoys exploring cities, outdoors, architecture, and other adventures with her husband, daughter, and terrier mix rescue.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You ",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17296446-134-modernizing-a-legend-catherine-dubut-builds-the-future-at-ford-pro.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17296446-134-modernizing-a-legend-catherine-dubut-builds-the-future-at-ford-pro.mp3",
+    "publishedAt": "2025-06-13T20:00:00.000Z",
+    "duration": "0:30:33",
+    "durationSeconds": 1833,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 38568405724,
+    "guid": "Buzzsprout-17296446",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 80: Building Single Use Figma Plugins",
     "description": "<p>Davy and PJ talk dive into designers building helpers and plugins to support more specialized design system maintainer workflows, and the beauty of unblocking ourselves.</p>",
     "podcastTitle": "Design System Office Hours",
