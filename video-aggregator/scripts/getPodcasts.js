@@ -253,7 +253,7 @@ tags: []
 categories: ["Podcast"]
 duration: "${episode.duration}"
 durationSeconds: ${episode.durationSeconds}
-draft: true
+draft: false
 speakers: [${speakersYaml}]
 type: "podcast"
 season: ${episode.season || 'null'}
