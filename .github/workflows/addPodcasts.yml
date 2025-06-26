@@ -2,7 +2,7 @@ name: Scheduled Podcast Workflow
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every Friday at midnight UTC (Friday in UTC is Friday 12pm NZT)
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
   
   # Allow manual trigger
   workflow_dispatch:
@@ -29,15 +29,15 @@ jobs:
       run: npm install --prefer-offline --audit=false
     
     - name: Fetch podcasts
-      run: npm run podcasts ** npm run images
+      run: |
+        npm run podcasts
+        npm run images
       env:
         PODCAST_API_KEY: ${{ secrets.PODCAST_API_KEY }}
         PODCAST_API_SECRET: ${{ secrets.PODCAST_API_SECRET }}
     
     - name: Commit and push changes
       run: |
-        git config --local user.email "josh@noworries.nz"
-        git config --local user.name "Josh Harwood"
         git add src/content/**/* video-aggregator/data/podcast/*
         git diff --staged --quiet || git commit -m "Github action add new podcasts"
         git push
