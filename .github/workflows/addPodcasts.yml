@@ -1,0 +1,40 @@
+name: Scheduled Podcast Workflow
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every Friday at midnight UTC (Friday in UTC is Friday 12pm NZT)
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  fetch-new-podcasts:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: latest # Use the appropriate Node.js version here
+    
+    - name: Install dependencies
+      run: npm install --prefer-offline --audit=false
+    
+    - name: Fetch podcasts
+      run: npm run podcasts ** npm run images
+      env:
+        PODCAST_API_KEY: ${{ secrets.P9P43ZXY4EWRPRJA3QQV }}
+        PODCAST_API_SECRET: ${{ secrets.u^UeDGH8tskU$NHPyE^7Tgu$J^XFX2jkJBWRWN2r }}
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "josh@no-worries.co.nz"
+        git config --local user.name "Josh Harwood"
+        git add src/content/**/* video-aggregator/data/podcast/*
+        git diff --staged --quiet || git commit -m "Github action add new podcasts"
+        git push
