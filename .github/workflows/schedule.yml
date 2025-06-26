@@ -1,4 +1,4 @@
-name: Scheduled Workflow
+name: Scheduled Video Workflow
 
 on:
   schedule:
