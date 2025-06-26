@@ -6,7 +6,8 @@
 ![Total Backlog count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdesignsystems.media%2Fapi%2Fstats.json&query=stats.backlog&label=Backlog&color=%23a688fa)
 
 
-[![Scheduled Workflow](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml)
+[![Scheduled Video Workflow](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml/badge.svg?branch=main&event=schedule)](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/schedule.yml)
+[![Scheduled Podcast Workflow](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/addPodcasts.yml/badge.svg)](https://github.com/DesignSystemsCollective/designsystems.media/actions/workflows/addPodcasts.yml)
 
 ![Latest batch of video thumbnails displayed in a grid](https://designsystems.media/social/dsm-linkedin-1200x627.jpg)
 
