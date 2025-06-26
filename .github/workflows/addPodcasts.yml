@@ -33,7 +33,7 @@ jobs:
     
     - name: Commit and push changes
       run: |
-        git config --local user.email "josh@no-worries.co.nz"
+        git config --local user.email "josh@noworries.nz"
         git config --local user.name "Josh Harwood"
         git add src/content/**/* video-aggregator/data/podcast/*
         git diff --staged --quiet || git commit -m "Github action add new podcasts"
