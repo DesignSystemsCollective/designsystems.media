@@ -28,8 +28,8 @@ jobs:
     - name: Fetch podcasts
       run: npm run podcasts ** npm run images
       env:
-        PODCAST_API_KEY: ${{ secrets.P9P43ZXY4EWRPRJA3QQV }}
-        PODCAST_API_SECRET: ${{ secrets.u^UeDGH8tskU$NHPyE^7Tgu$J^XFX2jkJBWRWN2r }}
+        PODCAST_API_KEY: ${{ secrets.PODCAST_API_KEY }}
+        PODCAST_API_SECRET: ${{ secrets.PODCAST_API_SECRET }}
     
     - name: Commit and push changes
       run: |
