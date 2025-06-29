@@ -31,6 +31,12 @@
   },
    {
     "type": "podcast-feed",
+    "url": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "title": "Wireframe by Design Systems House",
+    "speakers": ["Donnie D'Amato"]
+  },
+   {
+    "type": "podcast-feed",
     "url": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
     "title": "Design System Office Hours",
     "speakers": ["Davy Fung", "PJ Onori"]

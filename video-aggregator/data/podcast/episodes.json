@@ -1,5 +1,89 @@
 [
   {
+    "title": "Wireframe Live: Aesthetic Naming",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/7452qe4xc90yv1ge/yt_video_BIW5aH2IU58_5v967g.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/7452qe4xc90yv1ge/yt_video_BIW5aH2IU58_5v967g.mp3",
+    "publishedAt": "2025-06-25T09:36:15.000Z",
+    "duration": "0:34:13",
+    "durationSeconds": 2053,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_6_a2zuj.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_6_a2zuj.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508162,
+    "guid": "yt:video:BIW5aH2IU58",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Overengineered Simplicity",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/l40jul1gn5j2bnim/yt_video_YaekiJ4Rvk4_fdivg7.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/l40jul1gn5j2bnim/yt_video_YaekiJ4Rvk4_fdivg7.mp3",
+    "publishedAt": "2025-06-24T09:30:26.000Z",
+    "duration": "0:23:28",
+    "durationSeconds": 1408,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_5_6t1ny.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_5_6t1ny.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508167,
+    "guid": "yt:video:YaekiJ4Rvk4",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: New Awful UX",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/tk640sj9n7y2j115/yt_video_UwEn1hDjJFg_qnrsgq.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/tk640sj9n7y2j115/yt_video_UwEn1hDjJFg_qnrsgq.mp3",
+    "publishedAt": "2025-06-21T09:09:49.000Z",
+    "duration": "0:09:01",
+    "durationSeconds": 541,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_4_74naz.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_4_74naz.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508172,
+    "guid": "yt:video:UwEn1hDjJFg",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 81: Disagreements and Alignment",
     "description": "<p>Another takeaway from our cross-functional discussions, how do design system team members handle disagreements with consumers, or even our own teammates?</p>",
     "podcastTitle": "Design System Office Hours",
@@ -28,6 +112,90 @@
     "type": "full"
   },
   {
+    "title": "Wireframe Live: AI Fluency",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/lviqsc1kaodm6713/yt_video_RmyFCYX75Zo_ymb6dn.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/lviqsc1kaodm6713/yt_video_RmyFCYX75Zo_ymb6dn.mp3",
+    "publishedAt": "2025-06-18T09:12:49.000Z",
+    "duration": "0:11:42",
+    "durationSeconds": 702,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_3_9u9h7.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_3_9u9h7.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508175,
+    "guid": "yt:video:RmyFCYX75Zo",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Dropping Titles",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/xurfubxczwp33i1m/yt_video_eE3LiyxOxgY_vyauuf.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/xurfubxczwp33i1m/yt_video_eE3LiyxOxgY_vyauuf.mp3",
+    "publishedAt": "2025-06-17T09:16:00.000Z",
+    "duration": "0:15:27",
+    "durationSeconds": 927,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_2_b2sbl.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_2_b2sbl.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508180,
+    "guid": "yt:video:eE3LiyxOxgY",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Information Gatekeeping",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/20vhot600f2nhwsd/yt_video_3FteOht0_9s_yysnkc.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/20vhot600f2nhwsd/yt_video_3FteOht0_9s_yysnkc.mp3",
+    "publishedAt": "2025-06-14T09:27:32.000Z",
+    "duration": "0:25:08",
+    "durationSeconds": 1508,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_1_99hzj.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-3_1_99hzj.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508184,
+    "guid": "yt:video:3FteOht0_9s",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "134 Modernizing a Legend: Catherine Dubut Builds the Future at Ford Pro",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>What does it take to transform 121 years of automotive legacy into a modern digital ecosystem? Catherine Dubut, Director of Global UX Strategy at Ford Pro, joins Chris Strahl to share how her team is reengineering the organization’s fragmented product landscape into a scalable, unified digital assembly line.</p><p>With over 80 legacy sites, 20+ global markets, and deeply siloed teams, the scale and complexity of Ford Pro’s challenge was immense. Catherine explains how her team brought structure to chaos—combining elements from outdated systems, building new foundations where needed, and stitching them together into a single, coherent design system. From establishing governance and cross-functional collaboration to introducing micro frontends and scaling adoption, this episode offers a playbook for modernizing UX at enterprise scale.</p><p>Key themes:</p><ul><li>Designing for fleets, not just drivers—multiple users, journeys, and roles per customer</li><li>Replatforming 80+ tools across legacy systems and international business units</li><li>Building a design system through consolidation, extension, and future-proofing</li><li>Using micro frontends to bridge disparate tech stacks across Ford Pro</li><li>Measuring success through design efficiency, team adoption, and developer alignment</li></ul><p>View the <a href='https://docs.google.com/document/d/1uHWgIWjFhhfcH0olgpsygKp6oqjhwQ0MERW60prpIZ4/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/catherinedubut/'>Catherine Dubut</a> is Director of Global UX Strategy at Ford Pro, the commercial business of Ford Motor Company. She oversees a global team of individual contributors and managers across design, user research, information architecture, and content strategy. Catherine is a seasoned UX leader with a track record of designing impactful experiences, driving UX practice maturity, and digital transformation at dynamic brands at places like Samsung Electronics, REI, and Intuit. Based in Seattle, Catherine’s been involved in design community activities including organizing local events, mentoring underrepresented UX professionals, public speaking, and writing. She enjoys exploring cities, outdoors, architecture, and other adventures with her husband, daughter, and terrier mix rescue.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You ",
     "podcastTitle": "Design Systems Podcast",
@@ -52,6 +220,90 @@
     "guid": "Buzzsprout-17296446",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Apple Liquid Glass",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/kiyuu1j77fsb5qkq/yt_video_nqj-6pPY2rY_eiz9ni.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/kiyuu1j77fsb5qkq/yt_video_nqj-6pPY2rY_eiz9ni.mp3",
+    "publishedAt": "2025-06-10T09:28:29.000Z",
+    "duration": "0:17:00",
+    "durationSeconds": 1020,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Wireframe_YouTube_thumbnail_template_1_6nko1.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Wireframe_YouTube_thumbnail_template_1_6nko1.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508187,
+    "guid": "yt:video:nqj-6pPY2rY",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: CSS Color Contrast",
+    "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/ed9tfynngidg67g5/yt_video_kBsRsz4VypM_uwj8fa.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/ed9tfynngidg67g5/yt_video_kBsRsz4VypM_uwj8fa.mp3",
+    "publishedAt": "2025-06-06T09:19:27.000Z",
+    "duration": "0:19:22",
+    "durationSeconds": 1162,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Wireframe_YouTube_thumbnail_template9c2sa.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Wireframe_YouTube_thumbnail_template9c2sa.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508192,
+    "guid": "yt:video:kBsRsz4VypM",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Adaptive UI",
+    "description": "<p><a href='https://www.youtube.com/@designsyshouse'>https://www.youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/tfiwu9vajth647q5/yt_video_9NZTFnq_Zyc_difn7c.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/tfiwu9vajth647q5/yt_video_9NZTFnq_Zyc_difn7c.mp3",
+    "publishedAt": "2025-06-04T09:22:55.000Z",
+    "duration": "0:26:18",
+    "durationSeconds": 1578,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-4.png",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/Untitled-4.png"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39234508195,
+    "guid": "yt:video:9NZTFnq_Zyc",
+    "season": 1,
+    "episode": 1,
     "explicit": false,
     "type": "full"
   },
