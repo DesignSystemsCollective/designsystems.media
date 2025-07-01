@@ -1,5 +1,135 @@
 [
   {
+    "title": "The new GOV.UK app",
+    "description": "The GOV.UK app is here.\n\nThe first version is available to download in app stores. Anyone in the UK with a smartphone who downloads it can now - for the first time - personalise their GOV.UK experience. \n\nThe app enables each user to easily tailor their homepage by choosing the topics that matter most to them. As a signed-in experience, the GOV.UK app remembers the pages people have visited and what they’ve searched for previously, and gets them quickly to the content they care most about.\n\nDownload the app now at https://www.GOV.UK/app\nFind out more about the app on the Government Digital Service blog at https://gds.blog.gov.uk/2025/07/01/the-gov-uk-app-is-here/\n\n\n\nFollow GOV.UK on social media:\nThreads: https://www.threads.com/govuk\nInstagram: https://www.instagram.com/govuk\nFacebook: https://www.facebook.com/profile.php?id=61556546057412\nX: https://x.com/govuk \nYouTube: https://www.youtube.com/@govuk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dmHmBiJteCc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dmHmBiJteCc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dmHmBiJteCc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=dmHmBiJteCc",
+    "publishedAt": "2025-07-01T09:00:07Z",
+    "privacyStatus": "public",
+    "duration": "0:01:54"
+  },
+  {
+    "title": "How to make a design system that’s not boring",
+    "description": "Critics of design systems say that they make everything look exactly the same. Brad Frost teaches us how design tokens help balance between consistency and creativity.\n\n🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6325663282888704",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3_U2tAz4-gk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3_U2tAz4-gk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3_U2tAz4-gk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3_U2tAz4-gk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3_U2tAz4-gk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3_U2tAz4-gk",
+    "publishedAt": "2025-06-27T06:16:13Z",
+    "privacyStatus": "public",
+    "duration": "1:34:12"
+  },
+  {
+    "title": "Preview: Design tokens workflow in Figma - Into Design Systems Conference",
+    "description": "#designsystems #designtokens \n15-min preview from full 50-min session at Into Design Systems Conference:\n\nDesign tokens workflow in Figma: A practical guide\nPresenter: Philipp Jeroma, Europace\n—\n⭐️ Want the full experience & resources? \nGet access to all 20+ session recordings, templates, certificate and our interactive Miro board to connect with other Design System professionals:\n👉 https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/on5PfISbyVM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/on5PfISbyVM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/on5PfISbyVM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/on5PfISbyVM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/on5PfISbyVM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=on5PfISbyVM",
+    "publishedAt": "2025-06-19T16:55:43Z",
+    "privacyStatus": "public",
+    "duration": "0:15:29"
+  },
+  {
+    "title": "Design Tokens Glossary - Marta Conde at Into Design Systems Conference",
+    "description": "#designsystems #designtokens\nDemo at Into Design Systems Conference 2025 \n\nMissed Into Design Systems Conference?\n👉 Get full access to all recordings → https://www.intodesignsystems.com\n\n\nPresenter:\nMarta Conde\n\nHosts:\nRomina Kavcic\nSil Bormüller",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Vdg1F69NdWE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Vdg1F69NdWE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Vdg1F69NdWE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Vdg1F69NdWE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Vdg1F69NdWE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Vdg1F69NdWE",
+    "publishedAt": "2025-06-14T15:42:19Z",
+    "privacyStatus": "public",
+    "duration": "0:16:15"
+  },
+  {
     "title": "Craft Across: Design Tokens",
     "description": "A big thank you to everyone who joined us for our Craft Across: Design Tokens session (https://infa.ai/events/design-tokens_20250324)! Special thanks to our speakers—Brad Frost (https://www.linkedin.com/in/bradfrost/), Samantha Gordashko (https://www.linkedin.com/in/sgordashko/), Donnie D'Amato (https://www.linkedin.com/in/fauxserious/), and Kaelig Deloumeau-Prigent (https://www.linkedin.com/in/kaelig/)—for sharing their expertise.\n\nWhat's Inside  \nIn this session, we explored the future of design tokens with industry leaders, covering:\n→ What design tokens are and why they matter  \n→ The importance of standardization and the challenges of token bloat  \n→ Real-world examples and best practices for token implementation  \n→ How to keep documentation and libraries up to date  \n→ The impact of AI on design systems  \n→ Tools and workflows shaping the industry (Infa Tokens, Style Dictionary, Figma Variables, and more)  \n→ Fostering collaboration within teams and communities\n\nA Gift for You!  \nAs a thank-you for participating, we're offering 1 month of Infa PRO for free!  \nUse promo code DGNTKN at checkout  \nHurry! This code is valid until upcoming Monday.\n\nDon't miss upcoming Inspect & Reflect: Uber.com’s Base Design System  \nJun 19, 9:00 AM - 10:00 AM (PST)  \nhttps://infa.ai/events/uber_20240619\n\nChapters  \n00:00 Craft Across: Design Tokens  \n03:19 Discussion on Design Tokens  \n04:31 Defining Design Tokens  \n08:25 Standardization Debate  \n14:26 Examples of Design Tokens in Practice  \n18:21 Challenges in Design Tokens  \n22:49 Updating Libraries and Documentation  \n23:30 Makers vs. Users: A Design System Perspective  \n25:24 The Role of AI in Design Systems  \n29:12 Challenges and Solutions in Token Management  \n37:01 Exploring Tools for Design Tokens  \n40:48 Human Collaboration Over Tools  \n43:34 Conclusion and Final Thoughts\n\nKeywords  \n#design #designsystems #designtokens #ux #uxdesign #components #designops #ai #collaboration #figma #styleDictionary #tokenstudio #infa #frontend #documentation",
     "thumbnails": {
@@ -248,6 +378,41 @@
     "publishedAt": "2025-05-21T16:46:21Z",
     "privacyStatus": "public",
     "duration": "0:16:08"
+  },
+  {
+    "title": "Vitaly Friedman – Inclusive Design Patterns: From Gen-Z To to Aging Audiences – btconf Düsseldorf 25",
+    "description": "When designing for a specific user group, we often tend to generalise, following assumptions, biases and stereotypes. So how do we design effectively to invite a use group and broaden our user base? How do we design for children and teenagers? How do we adjust our content and design for Gen-Z? What should we keep in mind for older adults? And what about people who have to make critical decisions under stress and time pressure?\nHow should our products adapt for people who are deaf, autistic and neurodivergent?\n\nIn this session, Vitaly dives into practical design patterns to design better — and help everyone get their tasks done better and faster. With plenty of real-life examples and UX guidelines that you can apply to your work right away.\n\n----   \n\nAbout Vitaly Friedman\n\nVitaly loves beautiful content and does not give up easily. Born in Minsk, Belarus, he studied computer science and mathematics in Germany. While writing algebra proofs and preparing for software engineering at nights in the kitchen, at the same time he discovered passion for typography, interface design and writing. After working as a freelance designer and developer for 6 years, he co-founded Smashing Magazine back in 2006, a leading online magazine for designers and developers. His curiosity drove him from interface design to front-end to performance optimization to accessibility and back to user experience over all the years.\n\nVitaly is the author, co-author and editor of Smashing books, and a curator of Smashing Conferences. He is creative lead of Smashing Magazine and front-end/UX consultant with the European Parliament and Smashing Media, in Europe and abroad, working with Haufe-Lexware, Axel-Springer and a few other companies.\n\nHe also runs Measure UX and Smart Interface Design Patterns, friendly video libraries on UX and design patterns, along with a live UX training for UX and product designers.\n\nOh, and surely you don’t want to miss his full-day workshop at beyond tellerrand titled “Designing For Complex UIs In 2025”.\n\n----  \n\nThis presentation was given at the \"beyond tellerrand\" festival 2025 in Düsseldorf.   \n\nMore information about beyond tellerrand (#btconf in short) here:   \nhttps://beyondtellerrand.com  \n\nbeyond tellerrand is the affordable single-track event where creativity and technology meet in a renowned, familiar and friendly atmosphere.  \n\nLinkedin: https://www.linkedin.com/company/beyondtellerrand/   \nInstagram: https://instagram.com/btconf   \nBluesky: https://bsky.app/profile/beyondtellerrand.com   \nMastodon: https://mastodon.social/@btconf   \n\n----   \n\nIntro (part of the live performed opening titles) by @GavStrange \n\nFilming: Stefan Nitzsche (@ambimyth8746)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YOts73MveTE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YOts73MveTE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YOts73MveTE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/YOts73MveTE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/YOts73MveTE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YOts73MveTE",
+    "publishedAt": "2025-05-21T08:28:07Z",
+    "privacyStatus": "public",
+    "duration": "0:53:22"
   },
   {
     "title": "Deep Dive into Uber’s Design Systems",
@@ -24278,6 +24443,41 @@
     "publishedAt": "2018-07-05T11:17:32Z",
     "privacyStatus": "public",
     "duration": "0:36:07"
+  },
+  {
+    "title": "Practical Tips for Great UI Animation | Pablo Stanley | Design Lead InVision Studio Platform",
+    "description": "Learn practical tips to improve your UI micro-interactions, why animation is important, basic properties of what you can edit in UI animations, and recommended UI Animation Tools from Pablo Stanley Design Lead at InVision Studio Platform.\n\nExperience our conferences! Get out from behind your screen, learn from industry leaders and meet cool designers from all over the world - get your ticket to awwwards New York http://bit.ly/awwwards-conf-new-york\n\nSubscribe now for the latest talks and interviews from digital design industry leaders: https://www.awwwards.com/subscribe/\n\nFor the latest web design trends - follow us: \nBlog: http://awwwards.com/\nTwitter: http://twitter.com/awwwards\nInstagram:https://www.instagram.com/awwwards/\nFacebook: https://www.facebook.com/awwwards/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LmXVxkWjLT8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LmXVxkWjLT8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LmXVxkWjLT8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LmXVxkWjLT8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/LmXVxkWjLT8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LmXVxkWjLT8",
+    "publishedAt": "2018-06-20T13:18:06Z",
+    "privacyStatus": "public",
+    "duration": "0:34:31"
   },
   {
     "title": "Sprint 18: the highlights",
