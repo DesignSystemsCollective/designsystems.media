@@ -20,6 +20,11 @@ export interface Props extends Partial<ShowEntry["data"]>, Partial<PodcastEntry[
 
 // Function to extract domain and extension, removing "www."
 function getDomainFromUrl(url) {
+// Check for undefined or invalid values first
+  if (!url || url === 'undefined') {
+    return null;
+  }
+  
   try {
     const urlObject = new URL(url);
     let hostname = urlObject.hostname;
