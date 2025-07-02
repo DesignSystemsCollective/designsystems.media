@@ -7950,5 +7950,985 @@
     "episode": null,
     "explicit": false,
     "type": "full"
+  },
+  {
+    "title": "35. Leonardo De La Rocha from Intuit: Using one design system to manage dozens of products",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Leonardo De La Rocha and Chris discuss the “federated” design system model, how to connect design systems to business needs, designing friction-free cross-platform experiences, and C-suite awareness of design needs.</p><p><b><em>Guest: </em></b>Lonardo De La Rocha is an engineer turned pixel-pusher turned creative executive and adviser. He currently serves as Director of Intuit Design System in Mountain View, CA, and was previously creative director leading Facebook's art department and business marketing surfaces  and Yahoo's Head of Design for ads and publishing products. You can find Leonardo at his <a href='https://delarocha.myportfolio.com/portfolio'>portfolio site</a>, on Twitter as <a href='https://twitter.com/delarocha'>@delarocha</a>, as a mentor on <a href='https://adplist.org/mentors/leonardo-de-la-rocha'>ADPList</a>, and on <a href='https://www.linkedin.com/in/delarocha/'>LinkedIn</a>. </p><p><b><em>Host: </em></b>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b><em>Sponsor: </em></b>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.</p><p><br/></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8801795-35-leonardo-de-la-rocha-from-intuit-using-one-design-system-to-manage-dozens-of-products.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8801795-35-leonardo-de-la-rocha-from-intuit-using-one-design-system-to-manage-dozens-of-products.mp3",
+    "publishedAt": "2021-07-02T15:00:00.000Z",
+    "duration": "0:25:18",
+    "durationSeconds": 1518,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2909795081,
+    "guid": "Buzzsprout-8801795",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "34. Audrey Tan from Xero: Creating a long-lasting design system vision",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Audrey and Chris discuss the vision guiding Xero’s design system team, how co-ownership helps design system teams thrive, the processes she uses for managing a global team, and how the Xero design system team approaches modernization.</p><p><em>Guest: </em>Audrey has been designing digital experiences at high-growth technology companies for over 12 years. She’s passionate about growing teams to be their best through shipping product with impact. You can find Audrey at her <a href='https://www.audreyhtan.com/'>personal site</a> and on <a href='https://www.linkedin.com/in/autan/'>LinkedIn.</a></p><p><em>Host: </em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><em>Sponsor: </em>Sponsor: Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Design once, build once, use everywhere. Learn more at <a href='http://knapsack.cloud'>knapsack.cloud</a>.</p><p><a href='http://knapsack.cloud/blog/audrey-tan-from-zero'>View the transcript for this episode.</a></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8720269-34-audrey-tan-from-xero-creating-a-long-lasting-design-system-vision.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8720269-34-audrey-tan-from-xero-creating-a-long-lasting-design-system-vision.mp3",
+    "publishedAt": "2021-06-21T16:00:00.000Z",
+    "duration": "0:31:35",
+    "durationSeconds": 1895,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2776584390,
+    "guid": "Buzzsprout-8720269",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "33. Jess Clark from LinkedIn: Old tech, new tech",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Jess Clark and Chris discuss the meaning of design systems and the potential of design systems as a service. What can design systems offer us beyond infrastructure? How can approaching design systems as products, rather than repositories, increase their capabilities?</p><p><br/></p><p><b><em>Guest: </em></b>Jess Clark is Director of Product Design, Design Systems at LinkedIn, where she is responsible for enabling quality design at scale through tools, collaboration, and LinkedIn’s Design System. Her team strives to empower and educate their peers to deliver amazing, inclusive, consistent experiences to members and customers. You can find Jess on <a href='https://www.linkedin.com/in/hellojessclark/'>LinkedIn</a>.</p><p><br/></p><p><b><em>Host: </em></b>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><br/></p><p><b><em>Sponsor: </em></b>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.</p><p><br/></p><p><a href='http://www.knapsack.cloud/blog/dsp-33-jess-clark-from-linkedin'>View the transcript for this episode.</a></p><p><br/></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8645022-33-jess-clark-from-linkedin-old-tech-new-tech.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8645022-33-jess-clark-from-linkedin-old-tech-new-tech.mp3",
+    "publishedAt": "2021-06-07T14:00:00.000Z",
+    "duration": "0:44:13",
+    "durationSeconds": 2653,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2608113888,
+    "guid": "Buzzsprout-8645022",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "32. Deep dive on tokens with Adam Argyle from Google: How do you codify composition?",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>This episode is a little bit longer—okay, a lot longer—than our usual. Chrome developer advocate Adam Argyle and Chris Strahl talk about tokens in all their glory without worrying about time limits. If you’ve ever wondered about the limits of tokens and what’s left to explore in the token stratosphere, check out this podcast.</p><p><b><em>Guest: </em></b>Adam Argyle is a Chrome CSS Developer Advocate at Google, creator of <a href='https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc'>VisBug</a>, co-host of <a href='https://thecsspodcast.libsyn.com/'>The CSS Podcast</a>, developer, former designer, and RPG enthusiast. You can find Adam at <a href='https://nerdy.dev/'>nerdy.dev</a>, on Twitter as <a href='https://twitter.com/argyleink'>@argyleink</a>, and on <a href='https://www.linkedin.com/in/adamargyle/'>LinkedIn</a>.</p><p><b><em>Host: </em></b>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b><em>Sponsor: </em></b>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.</p><p><a href='http://www.knapsack.cloud/blog/deep-dive-on-tokens-with-adam-argyle'>View the transcript for this episode.</a></p><p><b><br/></b><br/></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8521160-32-deep-dive-on-tokens-with-adam-argyle-from-google-how-do-you-codify-composition.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8521160-32-deep-dive-on-tokens-with-adam-argyle-from-google-how-do-you-codify-composition.mp3",
+    "publishedAt": "2021-05-17T16:00:00.000Z",
+    "duration": "2:01:25",
+    "durationSeconds": 7285,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2571263116,
+    "guid": "Buzzsprout-8521160",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "31. Maya Hampton from REI: Pattern-based thinking on all levels",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Maya Hampton and Chris discuss why design systems need to be flexible, the role of a product manager in a design system, and viewing design systems as products.</p><p><b>Guest</b><em>: </em>Maya Hampton is the product manager of REI’s design system, where she leads a cross-functional team, including design and engineering, to help scale REI's branding and consistent UX across the co-op’s digital portfolio. You can find Maya on<a href='https://himaya.medium.com/'> Medium</a>, Twitter as <a href='http://twitter.com/himaya'>@himaya</a>, and <a href='https://www.linkedin.com/in/mayahampton'>LinkedIn</a>.</p><p><b>Host</b><em>: </em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b><em>: </em>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.</p><p><a href='http://www.knapsack.cloud/blog/maya-hampton-rei-dsp'><b>View the transcript for this episode</b></a><b>.</b></p><p><br/></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8435064-31-maya-hampton-from-rei-pattern-based-thinking-on-all-levels.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8435064-31-maya-hampton-from-rei-pattern-based-thinking-on-all-levels.mp3",
+    "publishedAt": "2021-05-03T14:00:00.000Z",
+    "duration": "0:44:27",
+    "durationSeconds": 2667,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2323923649,
+    "guid": "Buzzsprout-8435064",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "30. Jehad Affoneh from Splunk and Scott Mathis from VMware: Schrodinger's tokens, open-source, and components",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Jehad Affoneh, Scott Mathis, and Chris discuss the advantages of open-source, the role of content in design systems, the pattern-based approach to building apps, and similarities between music and tokens.<br/><br/><b><em>Guests:</em></b><em><br/><br/></em>Jehad Affoneh is Chief Design Officer at Splunk (formerly Head of Design at VMware). He’s an experienced design and business leader who writes frequently about user experience, leadership, management, and business. You can find Jehad at <a href='https://twitter.com/jaffoneh'>mynameisjehad.com</a>, on Twitter as <a href='https://twitter.com/jaffoneh'>@jaffoneh</a>, and on <a href='https://www.linkedin.com/in/jaffoneh/'>LinkedIn</a>.<br/><br/>Scott Mathis is the Technical Lead for Clarity Design System Web Components at VMware. He has 10+ years of specialization in user experience and front-end development and co-founded a design system that is being used by thousands of developers across a half-dozen Fortune 500 companies. You can find Scott at <a href='http://github.com/mathisscott'>github.com/mathisscott</a>, on Twitter as <a href='https://twitter.com/mathis_scott'>@mathis_scott</a>, and on <a href='https://www.linkedin.com/in/scott-mathis-7554592/'>LinkedIn</a>.<br/><br/><b><em>Host:</em></b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b><em>Sponsor:</em></b></p><p>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.</p><p><b><em>Links:</em></b></p><p><a href='https://www.knapsack.cloud/blog/ep-30-with-jehad-affoneh-and-scott-mathis'>View the transcript for this episode.</a></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8260464-30-jehad-affoneh-from-splunk-and-scott-mathis-from-vmware-schrodinger-s-tokens-open-source-and-components.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8260464-30-jehad-affoneh-from-splunk-and-scott-mathis-from-vmware-schrodinger-s-tokens-open-source-and-components.mp3",
+    "publishedAt": "2021-04-12T16:00:00.000Z",
+    "duration": "0:41:02",
+    "durationSeconds": 2462,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2128658444,
+    "guid": "Buzzsprout-8260464",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "29. Dave Calleja from Isobar: How agencies build design systems",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Dave Calleja and Chris discuss getting clients to sign off on design systems, strategies for getting executive buy-in, and the role of designer as evangelist.<br/><br/><em>Guest:<br/><br/></em>Dave Calleja is Head of Design at Isobar. He’s been working in digital and UX for over 15 years, from tiny teams to federal government projects. At Isobar he’s pursuing a strong passion for developing insight-aware, hypothesis-led experimentation cultures to empower experience-led transformation. You can find Dave at <a href='https://davecalleja.net/'>davecalleja.net</a>, on Twitter as <a href='https://twitter.com/davecalleja'>@davecalleja</a>, and on <a href='https://www.linkedin.com/in/davecalleja/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/1HB859a7ZpWWJEcwgCrkujGqqCx-aQozw/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8127663-29-dave-calleja-from-isobar-how-agencies-build-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8127663-29-dave-calleja-from-isobar-how-agencies-build-design-systems.mp3",
+    "publishedAt": "2021-03-29T12:00:00.000Z",
+    "duration": "0:37:11",
+    "durationSeconds": 2231,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 2128658445,
+    "guid": "Buzzsprout-8127663",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "28. Matthew Ström from SimpleHealth: Using design tokens to standardize deliverables",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Matthew and Chris discuss what’s exciting about design tokens, how APIs streamline communication, the magic of standardized files, and how to spend less time copy-pasting.<br/><br/><em>Guest:<br/><br/></em>Matthew Ström is a Brooklyn-based design leader currently working as Director of Design at SimpleHealth. He’s previously led design teams at Dow Jones, SoundCloud, and Bitly, and he writes about design on his website, matthewstrom.com. You can find Matthew on Twitter as <a href='https://twitter.com/ilikescience'>@ilikescience</a>, on <a href='https://www.linkedin.com/in/matthewstrom/'>LinkedIn</a>, and at <a href='https://matthewstrom.com/'>matthewstrom.com</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack: design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.<br/><br/><em>Links: <br/><br/></em>View the <a href='https://drive.google.com/file/d/1bUh9rk734IqhUjTM5rouNWgDuluDvzXn/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/8060246-28-matthew-strom-from-simplehealth-using-design-tokens-to-standardize-deliverables.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/8060246-28-matthew-strom-from-simplehealth-using-design-tokens-to-standardize-deliverables.mp3",
+    "publishedAt": "2021-03-15T12:00:00.000Z",
+    "duration": "0:36:55",
+    "durationSeconds": 2215,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 1897332178,
+    "guid": "Buzzsprout-8060246",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "27. Jennie Yip from Atlassian: Storytelling to drive design system success",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Jennie and Chris discuss the critical role of storytelling for your design system, using learning moments to drive adoption, what comes next after launching your system, qualitative and quantitative ways to measure system success, and content strategies for design systems.<br/><br/><em>Guest:<br/><br/></em>Jennie Yip is a hybrid design engineer with a heart for elegant user interfaces, simple user experiences, and beautifully crafted code. She is currently focused on evolving <a href='https://www.atlassian.design'>Atlassian Design System</a>, and previously Udacity’s <a href='https://veritas.udacity.design/'>Veritas Design System</a>. Jennie loves multiplying systems thinking, organizing chaos, community building, and... propagating plants! 🌱. You can find Jennie at <a href='https://www.jennieyip.design'>jennieyip.design</a>, on Twitter <a href='https://twitter.com/jenniesyip'>@jenniesyip</a>, and on <a href='https://www.linkedin.com/in/jenniesyip/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack — Design once, build once, use everywhere. Knapsack is a design system platform rooted in code for shipping consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud'>knapsack.cloud</a>.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/1fecaYLyXDTzcjOVCpbjy2w8qqJ74R34T/view?usp=sharing'>transcript</a> for this episode.<br/><br/>View Atlassian’s design system at <a href='https://atlassian.design'>atlassian.design</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/7306219-27-jennie-yip-from-atlassian-storytelling-to-drive-design-system-success.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/7306219-27-jennie-yip-from-atlassian-storytelling-to-drive-design-system-success.mp3",
+    "publishedAt": "2021-02-02T12:00:00.000Z",
+    "duration": "0:36:40",
+    "durationSeconds": 2200,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 1608778181,
+    "guid": "Buzzsprout-7306219",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "26. Avery Oldt from Blermph: Embracing intentionality and creating trust",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Avery and Chris discuss lessons learned from design and development partnering up vs. making work an “us vs. them” thing, embracing intentionality and viewing all decisions through that lens, focusing on reuse and trust to help your design system gain traction across your organization.<br/><br/><em>Guest:<br/><br/></em>Avery Oldt is Founder & Chief Design Officer at <a href='https://www.blermph.com/'>Blermph</a>, a creative studio that helps organizations build the great teams and great culture that produce great products. He has led design, product, and engineering teams at MTV, Restoration Hardware, LendingHome, LVMH, and Bank of the West BNP Paribas. You can find Avery at <a href='https://www.blermph.com/'>blermph.com</a>, <a href='https://www.instagram.com/designbeardo/'>@designbeardo</a> on Instagram, <a href='https://twitter.com/designbeardo'>@designbeardo</a> on Twitter, and on <a href='https://www.linkedin.com/in/averyoldt/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack — Design once, build once, use everywhere. Knapsack is a design system platform rooted in code that enables teams to ship better, more consistent apps in half the time. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a>.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/15Kgh_fAOtyo5W4QJ4pZru_1-qo9fKxab/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/7306195-26-avery-oldt-from-blermph-embracing-intentionality-and-creating-trust.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/7306195-26-avery-oldt-from-blermph-embracing-intentionality-and-creating-trust.mp3",
+    "publishedAt": "2021-01-19T12:00:00.000Z",
+    "duration": "0:43:27",
+    "durationSeconds": 2607,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 1507327848,
+    "guid": "Buzzsprout-7306195",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "25. Eric Lobdell from Facebook: Anticipating deviation to drive adoption and contribution",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Eric and Chris discuss how and why Facebook’s design system has evolved over time, anticipating deviation and its positive impact on adoption and contribution, getting other teams to think like system designers and empowering them to create their own systems, what signals to consider when measuring the success of your system and advocacy work.<br/><br/><em>Guest:<br/><br/></em>Eric Lobdell is a Design Systems Team Lead at Facebook, managing a button that’s touched over 3 million times an hour. You can find Eric at <a href='https://www.lobdell.me/'>lobdell.me</a>, on Twitter as <a href='https://twitter.com/lobdeli'>@lobdelI</a>, and on <a href='https://www.linkedin.com/in/ericben/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:</em></p><p>Knapsack — Design once. Build Once. Use everywhere. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team working in a better way.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/1oTP5Wr4GAT9ljm3xVr3zATxUNK_vOR4H/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/6875312-25-eric-lobdell-from-facebook-anticipating-deviation-to-drive-adoption-and-contribution.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/6875312-25-eric-lobdell-from-facebook-anticipating-deviation-to-drive-adoption-and-contribution.mp3",
+    "publishedAt": "2021-01-05T13:00:00.000Z",
+    "duration": "0:36:07",
+    "durationSeconds": 2167,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 1407540388,
+    "guid": "Buzzsprout-6875312",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "24. Nick Cochran from ExxonMobil: How to make doing the right thing the easy thing",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Nick and Chris discuss standing up a design system in 2016, serving development teams that didn’t have access to designers at the time, accelerating and amplifying the value of design, freeing up designers to focus on high-value problems, considerations and tactics for driving adoption, how design systems create internal communities that bring design and developers together, building on-brand and UX-compliant apps quickly in a diverse technology ecosystem.<br/><br/><em>Guest:<br/><br/></em>Nick Cochran is the Design Strategy Manager at ExxonMobil, aspiring photographer, baker of artisan breads, and purveyor of dad jokes. You can find Nick on Twitter as <a href='https://twitter.com/internick'>@internick</a>, on Instagram as <a href='https://www.instagram.com/internick.photography/'>@internick.photography</a>, and on <a href='https://www.linkedin.com/in/nickcochran/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team to 80% design and code reusability.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/1zc_Q7hAoXoLibAWawdOJ19IMZvnjf6vD/view?usp=sharing'>transcript for this episode</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/6632488-24-nick-cochran-from-exxonmobil-how-to-make-doing-the-right-thing-the-easy-thing.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/6632488-24-nick-cochran-from-exxonmobil-how-to-make-doing-the-right-thing-the-easy-thing.mp3",
+    "publishedAt": "2020-12-15T13:00:00.000Z",
+    "duration": "0:38:28",
+    "durationSeconds": 2308,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 1280971801,
+    "guid": "Buzzsprout-6632488",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "23. Vidya Nayak from SoFi: Leading design systems across teams",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Vidya and Chris discuss pathways to becoming a design systems leader, having a content strategy within your design system, personalization considerations, measuring the success of your design system, linking your design system to a broader design strategy, and more.<br/><br/><em>Guest:<br/><br/></em>Vidya Nayak is Design Director Member & Design Systems at SoFi, former design lead at Moody’s, Disney, Fox Digital (News Corp), and Rodale. Coffee, books, and travel lover. Guitar and pixel adorer. You can find Vidya at <a href='https://www.nayakvx.com/'>nayakvx.com</a>, on Twitter as <a href='https://twitter.com/nayakvm'>@nayakvm</a>, and on <a href='https://www.linkedin.com/in/vidyanayak/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team to 80% design and code reusability.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/1Usds20MNaPyVeeS-8n5_nNoZnXMUUFy5/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/6425716-23-vidya-nayak-from-sofi-leading-design-systems-across-teams.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/6425716-23-vidya-nayak-from-sofi-leading-design-systems-across-teams.mp3",
+    "publishedAt": "2020-11-25T15:00:00.000Z",
+    "duration": "0:31:36",
+    "durationSeconds": 1896,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 730097025,
+    "guid": "Buzzsprout-6425716",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "22. Demian Borba from Adobe: Understanding and harnessing the power of design tokens",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Demian and Chris discuss what design tokens are and why they are a critical part of any design system, getting developers more involved in the design system discipline, an exciting new way to integrate design tokens between design tools and VS Code, and how surfing relates to design tokens.<br/><br/><em>Guest:<br/><br/></em>Demian Borba is a Product Manager on Adobe XD (working on XD since 2015!), UX & Design Thinking advocate, and speaker. You can find Demian on Twitter as <a href='https://twitter.com/demianborba'>@demianborba</a> and on <a href='https://www.linkedin.com/in/demianborba/'>LinkedIn</a>.<br/><br/><em>Host:<br/><br/></em>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/><em>Sponsor:<br/><br/></em>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team to 80% design and code reusability.<br/><br/><em>Links:<br/><br/></em>View the <a href='https://drive.google.com/file/d/1CS8IvYf6NSZDmdEjq2tERXrAVJG1Hu3v/view?usp=sharing'>transcript for this episode</a>.<br/><br/>Learn more about Adobe’s <a href='https://letsxd.com/vscode'>Design System Package (DSP) and XD plugin for VS Code</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/6202234-22-demian-borba-from-adobe-understanding-and-harnessing-the-power-of-design-tokens.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/6202234-22-demian-borba-from-adobe-understanding-and-harnessing-the-power-of-design-tokens.mp3",
+    "publishedAt": "2020-11-03T15:00:00.000Z",
+    "duration": "0:38:03",
+    "durationSeconds": 2283,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 613227410,
+    "guid": "Buzzsprout-6202234",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "21. Jina Anne from Clarity: A design system origin story",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Jina and Chris discuss the inception of design tokens and Theo during Jina’s time at Salesforce, the correlation between design systems and community building, shared ownership instead of governance, why “design systems are not a thing,” and more. <br/><br/>Guest:<br/><br/>Jina Anne is the Founder of <a href='https://www.clarityconf.com/'>Clarity</a>, Creator of <a href='http://design.systems/'>design.systems</a>, and Co-Chair at Design Tokens W3C Community Group. You can find Jina at <a href='https://jina.design/'>jina.design</a>, on Twitter as <a href='https://twitter.com/jina'>@jina</a>, and on <a href='https://www.linkedin.com/in/sushiandrobots/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team to 80% design and code reusability.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1UucS1NiOS4VANcXVah5VHCJ6ppllnjTd/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/5915098-21-jina-anne-from-clarity-a-design-system-origin-story.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/5915098-21-jina-anne-from-clarity-a-design-system-origin-story.mp3",
+    "publishedAt": "2020-10-21T11:00:00.000Z",
+    "duration": "0:42:31",
+    "durationSeconds": 2551,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 527171477,
+    "guid": "Buzzsprout-5915098",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "20. Rick Rodriguez from Walmart Labs: Creating design systems that scale",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Rick and Chris discuss deputizing evangelists to drive adoption and reduce fragmentation, contribution models and thinking about the areas to own vs. areas to share ownership vs. areas to give up ownership, using design systems to share innovation across teams, measuring design system efficacy, and more.<br/><br/>Guest:<br/><br/>Rick Rodriguez is Head of Design Systems at Walmart Labs, an avid runner, hand letterer and superfan of cappuccinos and donut breaks. You can find Rick on Twitter as <a href='https://twitter.com/rickrodriguez'>@rickrodriguez</a>, and on <a href='https://www.linkedin.com/in/rickrodriguez24/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team to 80% design and code reusability.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1WF7Bq-xia-S7GIvj0QpEJIb6eYqzFwoZ/view?usp=sharing'>transcript</a> for this episode.<br/><br/>Check out the <a href='https://www.adplist.org/'>Amazing Design People List</a> to discover amazing designers worldwide on this community-led talent base during COVID-19.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/5583712-20-rick-rodriguez-from-walmart-labs-creating-design-systems-that-scale.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/5583712-20-rick-rodriguez-from-walmart-labs-creating-design-systems-that-scale.mp3",
+    "publishedAt": "2020-09-29T10:00:00.000Z",
+    "duration": "0:41:14",
+    "durationSeconds": 2474,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 399726196,
+    "guid": "Buzzsprout-5583712",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "19. Morgane Peng from Societe Generale: The right level of complexity for the right people",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Morgane and Chris discuss threading design into the fabric of how business works, capturing a wide range of complexity needs within your design system, moving away from traditional design tools to providing a playground that enables anyone to design with code in the browser, lessons from game development and how they apply to design systems.<br/><br/>Guest:<br/><br/>Morgane Peng is Design Director at <a href='https://www.societegenerale.com/'>Societe Generale</a> Corporate & Investment Banking, illustrator, speaker, and indie game developer at <a href='https://www.koruldia.com/'>Koruldia</a>. You can find Morgane at <a href='https://www.morganepeng.com/'>morganepeng.com</a>, on Twitter as <a href='https://twitter.com/morganepeng'>@morganepeng</a>, on <a href='https://medium.com/@morganepeng'>Medium</a>, and on <a href='https://www.linkedin.com/in/morganepeng/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about Knapsack and getting your team to 65%-80% design and code reusability.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1spPFTAJrExSaBLZwqnmb2MgA0Q_rDnPh/view?usp=sharing'>transcript</a> for this episode.<br/><br/>View the <a href='https://medium.com/societe-generale-design/design-system-5-things-we-did-to-rally-people-over-the-years-a5f92d540411'>screenshots</a> Morgane mentioned showing a simple view vs. one with lots of data.<br/><br/>Check out <a href='https://medium.com/societe-generale-design'>Societe Generale on Medium</a> and a couple of new articles on <a href='https://medium.com/societe-generale-design/taming-design-system-chaos-66bcadbf43e1'>governance at scale</a> and <a href='https://medium.com/societe-generale-design/contributing-to-our-design-system-the-happy-tale-of-creating-a-new-component-767c659bf9cb'>contributing a new component</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/5224063-19-morgane-peng-from-societe-generale-the-right-level-of-complexity-for-the-right-people.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/5224063-19-morgane-peng-from-societe-generale-the-right-level-of-complexity-for-the-right-people.mp3",
+    "publishedAt": "2020-09-01T11:00:00.000Z",
+    "duration": "0:38:18",
+    "durationSeconds": 2298,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687579,
+    "guid": "Buzzsprout-5224063",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "18. Jason Lengstorf from Netlify: Failure, finding your way, and helping others adopt a new way of working",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Jason Lengstorf and Chris discuss failure, self-doubt, and ultimately finding your way before switching gears and getting into designs systems, communicating the things that make teams want to adopt design systems, and an approach for broadening and deepening your experience with the technologies your system may benefit from.<br/><br/>Guest:<br/><br/>Jason Lengstorf is a Principal Developer Experience Engineer at Netlify, host of <a href='https://www.learnwithjason.dev/'>Learn With Jason</a>, and writer. You can find Jason at <a href='https://www.jason.af/'>jason.af</a>, on Twitter as <a href='https://twitter.com/jlengstorf'>@jlengstorf</a>, and on <a href='https://www.linkedin.com/in/jlengstorf/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — Build without rebuilding. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/16OOgwyyEVhu1xk9ZgCY1Kk2mUAdvRWN0/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/4968476-18-jason-lengstorf-from-netlify-failure-finding-your-way-and-helping-others-adopt-a-new-way-of-working.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/4968476-18-jason-lengstorf-from-netlify-failure-finding-your-way-and-helping-others-adopt-a-new-way-of-working.mp3",
+    "publishedAt": "2020-08-19T16:00:00.000Z",
+    "duration": "0:43:50",
+    "durationSeconds": 2630,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687580,
+    "guid": "Buzzsprout-4968476",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "17. Varun Vachar from Rangle: The design graph and computational design",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Varun Vachar and Chris discuss the “design graph,” creating choice in governance models, building a foundation of tools when setting up new systems, and using computational design and machine learning with design systems. Varun was at Rangle when this episode was recorded but is now at Chromatic.<br/><br/>Guest:<br/><br/>Varun Vachar is a Developer Experience Engineer at <a href='https://www.chromatic.com/'>Chromatic</a>, formerly Director of Technology at <a href='https://rangle.io/'>Rangle</a>, and generative art enthusiast. You can find Varun at <a href='https://varun.ca/'>varun.ca</a>, on Twitter as <a href='https://twitter.com/winkerVSbecks'>@winkerVSbecks</a> and on <a href='https://www.linkedin.com/in/varunvachhar/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — The design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/17eHwk5ACJCVr6EV6nPhXM1rw5nTEIotc/view?usp=sharing'>transcript</a> for this episode.<br/><br/>Read more about the concept of <a href='https://jxnblk.com/blog/design-graph/#:~:text=The%20Design%20Graph%20is%20a,a%20term%20from%20graph%20theory.'>The Design Graph</a> by Brent Jackson.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/4865129-17-varun-vachar-from-rangle-the-design-graph-and-computational-design.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/4865129-17-varun-vachar-from-rangle-the-design-graph-and-computational-design.mp3",
+    "publishedAt": "2020-08-06T12:00:00.000Z",
+    "duration": "0:28:53",
+    "durationSeconds": 1733,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687581,
+    "guid": "Buzzsprout-4865129",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "16. Adam Argyle from Google: Making your design system freeing vs. constraining",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Adam Argyle and Chris venture into “spicy opinion” territory and discuss when design systems are freeing vs. constraining, creating appropriate “offramps” for venturing outside of your design system, why designers ought to be proposing changes to code (aka making pull requests!), and decentralizing the human side of design systems to break down silos and enable innovation and enhancements to spread freely throughout your product teams.<br/><br/>Guest:<br/><br/>Adam Argyle is a Chrome CSS Developer Advocate at Google, creator of <a href='https://github.com/GoogleChromeLabs/ProjectVisBug'>VisBug</a>, co-host of <a href='https://pod.link/thecsspodcast'>The CSS Podcast</a>, developer, former designer, and RPG enthusiast. You can find Adam at <a href='https://nerdy.dev/'>nerdy.dev</a>, on Twitter as <a href='https://twitter.com/argyleink'>@argyleink</a>, and on <a href='https://www.linkedin.com/in/adamargyle/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — The design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1wlQCisw4cuFSeEI0DACfHxXZmiheHMQm/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/4471229-16-adam-argyle-from-google-making-your-design-system-freeing-vs-constraining.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/4471229-16-adam-argyle-from-google-making-your-design-system-freeing-vs-constraining.mp3",
+    "publishedAt": "2020-07-08T11:00:00.000Z",
+    "duration": "0:57:26",
+    "durationSeconds": 3446,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687582,
+    "guid": "Buzzsprout-4471229",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "15. Stephen Gates: What are you doing about the people and trust aspects of your design system?",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Stephen Gates (currently at InVision; formerly at Citi and Starwood) and Chris discuss advice for leaders needing to drive adoption and success of their design systems, how to assess and foster trust between design system creators and consumers, treating design systems as infrastructure, and the Amazing Design People List to help designers find work during COVID-19.<br/><br/>Guest:<br/><br/>Stephen Gates is Head Design Evangelist at InVision, host of <a href='http://thecrazy1.com/'>The Crazy One podcast</a>, designer, and international keynote speaker. You can find Stephen on <a href='https://twitter.com/sdgates'>Twitter</a> or <a href='https://www.instagram.com/sdgates/'>Instagram</a> as @sdgates and <a href='https://www.linkedin.com/in/stepdgat/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — The design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1fWccKcE25Kwz9CP4o_DNLT8vZsRh-cD9/view?usp=sharing'>transcript</a> for this episode.<br/><br/>Check out the <a href='https://www.adplist.org/'>Amazing Design People List</a> to discover amazing designers worldwide on this community-led talent base during COVID-19.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/4227284-15-stephen-gates-what-are-you-doing-about-the-people-and-trust-aspects-of-your-design-system.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/4227284-15-stephen-gates-what-are-you-doing-about-the-people-and-trust-aspects-of-your-design-system.mp3",
+    "publishedAt": "2020-06-23T11:00:00.000Z",
+    "duration": "0:35:09",
+    "durationSeconds": 2109,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687583,
+    "guid": "Buzzsprout-4227284",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "14. Mina Markham: Building shared culture and better collaboration between designers and developers",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Mina Markham (currently at Slack, formerly at Hillary For America and IBM) and Chris discuss getting executive buy-in, how to create space to continue advancing your design system, going beyond a shared language by building a shared culture, the story behind the Pantsuit Design System, and Beyoncé, of course.<br/><br/> Guest:<br/><br/>Mina Markham is Staff Engineer at Slack, design systems advocate, and international speaker. You can find Mina at <a href='http://mina.codes/'>mina.codes</a>, on Twitter as <a href='https://twitter.com/MinaMarkham'>@MinaMarkham</a>, and on <a href='https://www.linkedin.com/in/minamarkham/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — the design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1a6TRx17Q8iANOm-h4bbRiIaTxrZwXPch/view?usp=sharing'>transcript</a> for this episode.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/4019558-14-mina-markham-building-shared-culture-and-better-collaboration-between-designers-and-developers.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/4019558-14-mina-markham-building-shared-culture-and-better-collaboration-between-designers-and-developers.mp3",
+    "publishedAt": "2020-06-11T10:00:00.000Z",
+    "duration": "0:33:12",
+    "durationSeconds": 1992,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687584,
+    "guid": "Buzzsprout-4019558",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "13. Micah Godbolt: Design and code meeting in the middle with Fluent UI at Microsoft",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris and Micah discuss creating a singular design system that scales to support a massive app ecosystem, using tokens to align design across disparate products, and transitioning from individual teams working on many products to one company working on a library of products.<br/><br/>Guest:<br/><br/>Micah Godbolt is a design systems advocate, speaker, trainer, and writer. Micah is a software engineer for <a href='https://developer.microsoft.com/en-us/fluentui#/'>Fluent UI</a> at Microsoft and author of <a href='http://shop.oreilly.com/product/0636920040156.do'>Frontend Architecture for Design Systems</a> published by O’Reilly Media. You can find Micah at <a href='https://www.micahgodbolt.com/'>micahgodbolt.com</a>, on Twitter as <a href='https://twitter.com/micahgodbolt'>@micahgodbolt</a>, and on <a href='https://www.linkedin.com/in/micahgodbolt/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — The design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/1AAyA3LnsRYdT1zScYDjuwyesukjY8IDX/view?usp=sharing'>transcript</a> for this episode.<br/><br/><a href='https://www.linkedin.com/posts/mrblackheart_productdesign-userexperience-designsystem-activity-6641420294500286465--EAi'>LinkedIn post via Jason Blackheart</a> showing the time savings of just one component from Microsoft’s Coherence Design System.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/3831266-13-micah-godbolt-design-and-code-meeting-in-the-middle-with-fluent-ui-at-microsoft.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/3831266-13-micah-godbolt-design-and-code-meeting-in-the-middle-with-fluent-ui-at-microsoft.mp3",
+    "publishedAt": "2020-05-20T12:00:00.000Z",
+    "duration": "0:30:41",
+    "durationSeconds": 1841,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687585,
+    "guid": "Buzzsprout-3831266",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "12. Ethan Marcotte: Design systems and the evolution of how we work",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris and Ethan discuss the parallels between design systems and responsive web design in terms of the impact on how teams design/develop digital products, creating a shared language and research as a means to build successful design systems, and where design systems are headed in the years to come.<br/><br/>Guest:<br/><br/>Ethan Marcotte is an independent web designer, writer, and speaker, and the fellow who started that “<a href='https://twitter.com/RWD'>responsive web design</a>” thing. You can find Ethan at <a href='https://ethanmarcotte.com/'>ethanmarcotte.com</a>, on Twitter as <a href='https://twitter.com/beep'>@beep</a> and as <a href='https://twitter.com/RWD'>@RWD</a>, and on <a href='https://www.linkedin.com/in/ethan-marcotte'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://twitter.com/chrisstrahl'>Twitter</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — The design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://drive.google.com/file/d/14P7-k_Rf6A1Gm1CPxWfr3rkZjupTG6zZ/view?usp=sharing'>transcript</a> for this episode.<br/><br/>The tweet Ethan mentioned from <a href='https://twitter.com/kimgoodwin/status/1249802017301598208'>@kimgoodwin</a>: “I think the #1 architectural mistake I see on software teams is failure to articulate the conceptual data model before building things. What are the meaningful objects, how do they relate, and what can users do with them? It’s a small investment for huge dividends.”<br/><br/>The book Chris mentioned: “<a href='https://www.smashingmagazine.com/design-systems-book/'>Design Systems</a>” by Alla Kholmatova</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/3631471-12-ethan-marcotte-design-systems-and-the-evolution-of-how-we-work.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/3631471-12-ethan-marcotte-design-systems-and-the-evolution-of-how-we-work.mp3",
+    "publishedAt": "2020-05-11T12:00:00.000Z",
+    "duration": "0:34:01",
+    "durationSeconds": 2041,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687586,
+    "guid": "Buzzsprout-3631471",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "11. Brad Frost and Evan Lovely: Code is the source of truth",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris talks with Brad Frost and Evan Lovely about why code is the real source of truth, how to bring designers and developers together around the code, and the opportunity design systems provide for designers to focus on creative contribution rather than producing more comps.<br/><br/>Guests:<br/><br/>Brad Frost is a web designer, speaker, writer, consultant, and musician in beautiful Pittsburgh, PA. Author of <a href='https://atomicdesign.bradfrost.com/'>Atomic Design</a>. You can find Brad on <a href='https://twitter.com/brad_frost'>Twitter</a> and <a href='https://www.linkedin.com/in/bradfrost/'>LinkedIn</a>.<br/><br/>Evan Lovely is co-founder and CTO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, crafter of design systems, outdoorsman, and all-round nice guy. You can find Evan on <a href='https://twitter.com/evanlovely'>Twitter</a> and <a href='https://www.linkedin.com/in/evanlovely/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://twitter.com/chrisstrahl'>Twitter</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Sponsor:<br/><br/>Knapsack — The design system platform for ambitious product teams. Learn more at <a href='https://www.knapsack.cloud/'>knapsack.cloud</a> about getting Knapsack for your team.<br/><br/>Links:<br/><br/>View the <a href='https://docs.google.com/document/d/184-lw3MRGdlC_-W3e-hPQRxvDEUjhQ8epsQjyo-xM0k/edit?usp=sharing'>transcript</a> for this episode.<br/><br/>Check out Brad’s book, <a href='https://atomicdesign.bradfrost.com/'>Atomic Design</a>, which introduces a methodology for thinking of our UIs as thoughtful hierarchies, discusses the qualities of effective pattern libraries, and showcases techniques to transform your team's design and development workflow.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/3432682-11-brad-frost-and-evan-lovely-code-is-the-source-of-truth.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/3432682-11-brad-frost-and-evan-lovely-code-is-the-source-of-truth.mp3",
+    "publishedAt": "2020-04-20T16:00:00.000Z",
+    "duration": "0:44:56",
+    "durationSeconds": 2696,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687587,
+    "guid": "Buzzsprout-3432682",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "10. Jeremy Keith: Overcoming entropy and turning chaos into order",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris and Jeremy Keith discuss imbuing teams with a shared sense of ownership of their design system, creating design systems able to address unforeseen scenarios, design ops as an essential part of an effective design system, and more.<br/><br/>Guest:<br/><br/>Jeremy Keith is an Irish web developer working with <a href='https://twitter.com/Clearleft'>@Clearleft</a>, playing music with <a href='https://twitter.com/SalterCane'>@SalterCane</a>, creator of <a href='https://twitter.com/Huffduffer'>@Huffduffer</a>. You can find Jeremy on <a href='https://twitter.com/adactio'>Twitter</a> and <a href='https://www.linkedin.com/in/adactio/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of Knapsack, DnD DM, and occasional river guide. You can find Chris on <a href='https://twitter.com/chrisstrahl'>Twitter</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Links:<br/><br/>Episode transcript → <a href='https://drive.google.com/open?id=1RcR7UBAbksD5ykcp88f6h9pmAOuq4A4dQh0n3icolow'>Google Drive</a><br/><br/>Progressing The Web → <a href='https://medium.com/@adactio/progressing-the-web-9ab55f63f9fa'>Jeremy Keith via Medium</a><br/><br/>Progressive Enhancement: What It Is, And How To Use It? → <a href='https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/'>Sam Dwyer via Smashing Magazine</a></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/3202066-10-jeremy-keith-overcoming-entropy-and-turning-chaos-into-order.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/3202066-10-jeremy-keith-overcoming-entropy-and-turning-chaos-into-order.mp3",
+    "publishedAt": "2020-04-02T11:00:00.000Z",
+    "duration": "0:46:56",
+    "durationSeconds": 2816,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687588,
+    "guid": "Buzzsprout-3202066",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "9. Charles Hall: Accessibility is good for your products and great for your business",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris and Charles Hall talk about the impact of accessibility, how to build more accessible products, and the role design systems play in creating accessible outcomes.<br/><br/>Guest:<br/><br/>Charles Hall is a Senior UX Architect at MRM and an Invited Expert of the W3C Accessibility Guidelines Working Group. You can find Charles on <a href='https://twitter.com/hall_media'>Twitter</a> and <a href='https://www.linkedin.com/in/hallcharles/'>LinkedIn</a>.<br/><br/>Host:<br/><br/>Chris Strahl is co-founder and CEO of Knapsack, DnD DM, and occasional river guide. You can find Chris on <a href='https://twitter.com/chrisstrahl'>Twitter</a> and <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.<br/><br/>Links:<br/><br/>View the full transcript <a href='https://docs.google.com/document/d/10zGFNROzYprVZxHhAGd2sG1dKORfR9G7s2u3T0dYMu0/edit?usp=sharing'>here</a></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/3112402-9-charles-hall-accessibility-is-good-for-your-products-and-great-for-your-business.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/3112402-9-charles-hall-accessibility-is-good-for-your-products-and-great-for-your-business.mp3",
+    "publishedAt": "2020-03-25T12:00:00.000Z",
+    "duration": "0:36:43",
+    "durationSeconds": 2203,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687589,
+    "guid": "Buzzsprout-3112402",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "8. Salem Ghoweri: Bolt Design System and front-end architects",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris talks with Salem about what a front-end architect actually does, they breakdown of web components (what they are and who uses them), cover the tools Pega systems use and how their team works, and much more.<br/><br/>Download the episode transcript: http://files.basalt.io.s3.amazonaws.com/podcast_transcripts/008-Design-Systems-Podcast-Transcript.pdf </p><p><b>Salem Ghoweri</b><br/><em>Lead Front-End Architect for PegaSystem's Bold Design System</em><br/>Salem is the lead front-end architect for the digital team at Pegasystems and the creator of the open-source Bolt Design System. He’s also worked on frontend architectural projects for Wayfair, Akamai, Panera, and Lysol, and is a core maintainer of the popular prototyping tool, Pattern Lab.<br/><br/>Find Salem on <a href='https://twitter.com/@salem_cobalt'>Twitter</a> or <a href='https://linkedin.com/in/salemcobalt/'>LinkedIn</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2928151-8-salem-ghoweri-bolt-design-system-and-front-end-architects.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2928151-8-salem-ghoweri-bolt-design-system-and-front-end-architects.mp3",
+    "publishedAt": "2020-03-05T22:00:00.000Z",
+    "duration": "0:34:59",
+    "durationSeconds": 2099,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687590,
+    "guid": "Buzzsprout-2928151",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "7. Skip Newberry: Technology and design in government",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris talks to the President and CEO of the Technology Association of Oregon (TAO), Skip Newberry. While Skip may not work in the DS community day-to-day, he has a unique view on design and development from working with so many Oregon tech companies. The two talk about focusing on the use of design when helping to reach communities outside of the standard spectrum. Additionally, they discuss the idea of how ubiquity matters, to reach the most people, leveraging technology as much as possible to augment in-person connectivity, how Oregon tech companies are going through digital transformations and much more.<br/><br/>Download episode transcript:<br/>http://files.basalt.io.s3.amazonaws.com/podcast_transcripts/007-Design-Systems-Podcast-Transcript.pdf<br/><br/><br/><b>Skip Newberry</b><br/><em>President and CEO, Technology Association of Oregon</em><br/>Skip is a frequent speaker on technology trends and topics, economic development, public-private partnerships, and civic innovation. Before joining the TAO, Skip served as an economic development policy advisor to Portland Mayor Sam Adams, where he helped create Portland’s first comprehensive economic development strategy in 16 years, recognizing software as a key industry cluster. While at the City of Portland, Skip’s projects included the adoption of the nation’s first open-source software procurement policy at the municipal level, an award-winning regional open data initiative and the development of resources to support entrepreneurship, like the Portland Seed Fund. Previously, Skip was a corporate and IP attorney and entrepreneur. Skip is Chairman Emeritus of the Board of Directors of TECNA, Technology Councils of North America, which is a global network of technology and entrepreneurship associations, and he serves on the community advisory board for Wells Fargo and several community-based organizations in the Portland area. Skip is also a 2012 recipient of the Portland Business Journal’s 40 Under 40 award. When he's not working on behalf of the region's tech industry, Skip enjoys exploring the Pacific Northwest with his family.<br/><br/>You can find Skip on <a href='https://linkedin.com/in/skipnewberry/'>LinkedIn</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2805973-7-skip-newberry-technology-and-design-in-government.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2805973-7-skip-newberry-technology-and-design-in-government.mp3",
+    "publishedAt": "2020-02-21T04:56:00.000Z",
+    "duration": "0:31:03",
+    "durationSeconds": 1863,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687591,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/007-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "6. Marco Suárez: Buying into design systems",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris chats with Marco Suárez about his design experiences in the early days, before the term 'design systems' was official. The two walk through how to drive adoption of a design system within an organization, using branding and design in a physical space as well as digital, Marco's specific design experience and working with companies like MailChimp and Etsy on design systems, and more.<br/><br/>Download the episode transcript: https://files.basalt.io.s3.amazonaws.com/podcast_transcripts/006-Design-Systems-Podcast-Transcript.pdf <br/><br/><b>Marco Suárez</b><br/><em>Product Designer, Design System Consultant, Co-Owner of Methodical Coffee</em><br/>Marco Suárez has built design systems at InVision and Etsy. Now he guides companies through the process of designing and adopting their own design systems. He's also one of the owners of Methodical Coffee, a cafe and roasting company in Greenville, SC.<br/><br/>You can find Marco on <a href='https://twitter.com/MarcoSuarez'>Twitter</a>.<br/><br/><b>Other Show Notes</b><br/>In this episode, Chris and Marco discuss coffee, because sometimes it's too early in the morning for beer.</p><p>Methodical Coffee is located in Greenville, South Carolina, but you can order their beans online for an at-home experience. They serve single-origin coffees, pour overs, siphons, and cold brew.</p><p><a href='https://methodicalcoffee.com/'>https://methodicalcoffee.com/</a></p><p>Follow <a href='https://twitter.com/Methodical_SC'>@Methodical_SC</a> on Twitter.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2799544-6-marco-suarez-buying-into-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2799544-6-marco-suarez-buying-into-design-systems.mp3",
+    "publishedAt": "2020-02-06T18:39:00.000Z",
+    "duration": "0:37:43",
+    "durationSeconds": 2263,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687592,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/006-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "5. Tatiana Mac: Design and inclusivity",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris talks with Tatiana Mac about ensuring design systems, specifically components, are accessible. The two discuss accessibility testing tools, being sure to be inclusive in forms, considering inclusion and the \"why\" when asking for certain data, and more inclusion topics.<br/><br/>Download the episode transcript:<br/>https://files.basalt.io.s3.amazonaws.com/podcast_transcripts/005-Design-Systems-Podcast-Transcript.pdf<br/><br/><br/><b>Tatiana Mac</b><br/>Independent American designer<br/>Tatiana Mac (she/they) is an independent American designer who works directly with organizations to build clear and coherent products and design systems.</p><p>She believes the trifecta of accessibility, performance, and inclusion can work symbiotically to improve our social landscape digitally and physically. When ethically-minded, she thinks technologists can dismantle exclusionary systems in favor of community-focused, inclusive ones.</p><p>Tatiana is an open-source maintainer, currently focused on building a dictionary called <a href='https://www.selfdefined.app/'>Self-Defined</a>. Self-Defined seeks to provide more inclusive, holistic, and fluid definitions to reflect the diverse perspectives of the modern world. The dictionary will eventually include integrated bots and an API to embed into enterprise software.</p><p>Never totally pleased with design tools, she designs in browser to bring performant, semantic, and accessible visual narratives into the web. Her current obsessions are optimizing variable fonts, converting raster images into SVGs, and recreating modernist paintings in CSS grid. When she can successfully :q vim, she finds new countries to explore (36 and counting) and designs tech merch at <a href='https://www.styledotcss.com/'>StyleDotCSS</a>.<br/><br/>You can find Tatiana on <a href='https://twitter.com/TatianaTMac'>Twitter</a> and <a href='https://linkedin.com/in/tatianamac'>LinkedIn</a>.<br/><br/><b>Other Show Notes</b><br/>Want to learn more about Tatiana and her work? Here are some great reference links.</p><ul><li><a href='https://www.youtube.com/watch?list=PLPhd673abXl7PPmhS4FmuTgPmOyv_xvYy&time_continue=1&v=Hzs_8e3Xhhc&feature=emb_title'>YouTube Playlist / Recorded Talks</a></li><li><a href='https://www.tatianamac.com/'>Website</a></li><li><a href='https://www.twitter.com/tatianatmac/'>Twitter</a></li><li><a href='https://codepen.io/tatianamac/'>CodePen</a></li><li><a href='https://github.com/tatianamac/'>GitHub</a></li></ul><p>Other resources discussed:</p><ul><li><a href='https://www.deque.com/axe/'>Axe-Core</a></li><li><a href='https://developers.google.com/web/tools/lighthouse'>Lighthouse</a></li></ul>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2799556-5-tatiana-mac-design-and-inclusivity.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2799556-5-tatiana-mac-design-and-inclusivity.mp3",
+    "publishedAt": "2020-01-17T02:10:00.000Z",
+    "duration": "0:33:10",
+    "durationSeconds": 1990,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687593,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/005-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "4. Dan Mall: How do design systems work in enterprise organizations?",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Dan Mall calls in from the East coast to chat with Chris about design systems and their role in enterprise organizations. How does this affect the teams that work on them? The guys also discuss what digital products actually are in relation to design systems. How to create a \"one ring to rule them all\" type of system and does that even exits? They continue to dive into agile, designers' roles, how teams are finding they're wasting time, and much more.<br/><br/><b>Dan Mall</b><br/><em>Creative Director, Advisor, CEO and Founder of SuperFriendly</em><br/>Dan Mall is a creative director and advisor from Philly. He’s the founder and CEO of SuperFriendly, a design collaborative that helps in-house teams make better digital products with design systems. Dan is an enthralled husband & dad, author of Pricing Design, and co-founder of SuperBooked, a service that helps you find work with a little help from your friends. He writes about design and other issues on Twitter and on his industry-recognized site, <a href='http://danmall.me/'>danmall.me</a>.<br/><br/>You can find Dan on <a href='https://twitter.com/danmall'>Twitter</a> and <a href='https://linkedin.com/in/Dan%20Mall'>LinkedIn</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2805976-4-dan-mall-how-do-design-systems-work-in-enterprise-organizations.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2805976-4-dan-mall-how-do-design-systems-work-in-enterprise-organizations.mp3",
+    "publishedAt": "2020-01-02T19:08:00.000Z",
+    "duration": "0:37:48",
+    "durationSeconds": 2268,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687594,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/004-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "3. Emily Campbell: Design and code convergence",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Chris and Emily Campbell discuss the convergence of design and code, and what that actually looks like. They walk through what a designer role looks like in a modern digital product team and Emily explains her idea that design and development are the same. They just have different approaches to the same process or medium.<br/><br/>Other topics the duo touch on include questioning if designers should learn to code, intent around design and development, the importance of making intentional decisions, and more.<br/><br/><br/><b>Emily Campbell</b><br/><em>Senior Design Specialist, InVision</em><br/>Emily is a veteran design and product practitioner. She is currently a Senior Designer on InVision's Design Transformation team, where she helps teams and leaders increase their impact by maturing their practices and developing a culture of learning and collaboration. She focuses on human-centered design, translating creative strategy into business value, building a culture of leadership, and sharing ownership across disciplines. On the side, Emily enjoys exploring the desert around her home in Moab, Utah with her husband and three kids.<br/><br/>You can find Emily on <a href='https://twitter.com/elou'>Twitter</a> and <a href='https://linkedin.com/in/emmiecampbell'>LinkedIn</a>.<br/><br/><b>Other Show Notes</b><br/>Learn about <a href='https://en.wikipedia.org/wiki/Conway's_law'>Conway's Law</a> and the <a href='https://audubonportland.org/go-outside/swift-watch/'>Portland Swifts</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2805979-3-emily-campbell-design-and-code-convergence.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2805979-3-emily-campbell-design-and-code-convergence.mp3",
+    "publishedAt": "2019-12-18T08:57:00.000Z",
+    "duration": "0:37:46",
+    "durationSeconds": 2266,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687595,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/003-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "2. Nam Ho: Design systems and project management",
+    "description": "<p>Chris talks with Nam Ho about the project manager's perspective when working on design systems. They cover how you build them, what's different about project management when you're building a design system and more.<br><br><b>Nam Ho</b><br><em>EVP of Delivery and Co-Founder, Basalt and Knapsack</em><br>Nam’s energy, enthusiasm, and passion for technology drive his consistent delivery of polished end products. Nam oversees the execution of every moving element of a project and fosters communication and iterative planning at each phase--from strategy to development to implementation. Working closely with clients and core management, Nam builds cohesive, collaborative development teams that ensure every phase of each project runs smoothly stays on schedule and remains within budget. Nam employs over seven years of insight and experience with software projects in high-tech firms, delivering software rapidly, efficiently, and with minimal risk.<br><br>You can find Nam on <a href=\"https://twitter.com/namtheho\">Twitter</a> and <a href=\"https://linkedin.com/in/namtheho\">LinkedIn</a>.<br><br><b>Other Show Notes</b><br>In this episode, the guys are drinking a Portland, OR favorite, <a href=\"https://10barrel.com/beer/apocalypse-ipa/\">10 Barrel</a> IPA. Read Brad Frost's blog on <a href=\"https://bradfrost.com/blog/post/conducting-an-interface-inventory/\">Conducting an Interface Inventory</a>.</p><p><br><br></p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/2805982-2-nam-ho-design-systems-and-project-management.mp3?blob_id=15574310",
+    "audioUrl": "https://www.buzzsprout.com/887923/2805982-2-nam-ho-design-systems-and-project-management.mp3?blob_id=15574310",
+    "publishedAt": "2019-12-17T01:14:00.000Z",
+    "duration": "0:25:32",
+    "durationSeconds": 1532,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687596,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/002-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "1.  Evan Lovely: What are design systems?",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In the pilot episode of the Design Systems Podcast, host Chris Strahl talks with Evan Lovely about design systems as a whole. What are they? Who are they meant for? What are the benefits? And more.<br/><br/><br/><b>Evan Lovely</b><br/><em>CTO and Co-Founder, Basalt and Knapsack</em><br/>Evan is the CTO of Basalt. His pragmatism and craftsmanship are contagious within project teams. He believes that encouraging creativity, tinkering, and close collaboration leads to the most elegant solutions. A respected and trusted resource in the tech community, Evan is the Pattern Lab PHP Maintainer, an open-source platform for static site generation using atomic design.<br/><br/>You can find Evan on <a href='https://twitter.com/evanlovely'>Twitter</a> and <a href='https://linkedin.com/in/evanlovely'>LinkedIn</a>.<br/><br/><b>Other Show Notes</b><br/>In this episode, the guys are drinking <a href='http://migrationbrewing.com/'>Migration Brewing</a>'s Straight Outta Portland IPA.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/2805985-1-evan-lovely-what-are-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/2805985-1-evan-lovely-what-are-design-systems.mp3",
+    "publishedAt": "2019-12-09T20:51:00.000Z",
+    "duration": "0:24:37",
+    "durationSeconds": 1477,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 297687597,
+    "guid": "http://files.basalt.io.s3.amazonaws.com/podcasts/001-Design-Systems-Podcast.mp3",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
   }
 ]
