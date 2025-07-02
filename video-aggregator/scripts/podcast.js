@@ -95,7 +95,7 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
       headers,
       params: {
         id: feedId,
-        max: 100, // Adjust as needed
+        max: 1000, // Adjust as needed
         fulltext: true
       }
     });
