@@ -1,5 +1,30 @@
 [
   {
+    "title": "How to build a semantic color system for your Design System #designsystems",
+    "description": "Victor Nystad, Lead Analyst Digital Design Equinor at Into Design Systems Conference 2025\n\nFull session available at https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/KB3JFxt_yZQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/KB3JFxt_yZQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/KB3JFxt_yZQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=KB3JFxt_yZQ",
+    "publishedAt": "2025-07-01T14:08:35Z",
+    "privacyStatus": "public",
+    "duration": "0:01:14"
+  },
+  {
     "title": "The new GOV.UK app",
     "description": "The GOV.UK app is here.\n\nThe first version is available to download in app stores. Anyone in the UK with a smartphone who downloads it can now - for the first time - personalise their GOV.UK experience. \n\nThe app enables each user to easily tailor their homepage by choosing the topics that matter most to them. As a signed-in experience, the GOV.UK app remembers the pages people have visited and what they’ve searched for previously, and gets them quickly to the content they care most about.\n\nDownload the app now at https://www.GOV.UK/app\nFind out more about the app on the Government Digital Service blog at https://gds.blog.gov.uk/2025/07/01/the-gov-uk-app-is-here/\n\n\n\nFollow GOV.UK on social media:\nThreads: https://www.threads.com/govuk\nInstagram: https://www.instagram.com/govuk\nFacebook: https://www.facebook.com/profile.php?id=61556546057412\nX: https://x.com/govuk \nYouTube: https://www.youtube.com/@govuk",
     "thumbnails": {
@@ -23,6 +48,31 @@
     "publishedAt": "2025-07-01T09:00:07Z",
     "privacyStatus": "public",
     "duration": "0:01:54"
+  },
+  {
+    "title": "How to use Baseline Grids in Figma #designsystems",
+    "description": "Why soft grids fall short and how to achieve perfect vertical rhythm using a hard baseline grid in Figma for cleaner, more professional layouts.\nVictor Nystad, Lead Analyst Digital Design Equinor at Into Design Systems Conference 2025\n\nFull session available at https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JXED0_lYNOQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JXED0_lYNOQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JXED0_lYNOQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=JXED0_lYNOQ",
+    "publishedAt": "2025-06-28T13:38:55Z",
+    "privacyStatus": "public",
+    "duration": "0:01:30"
   },
   {
     "title": "How to make a design system that’s not boring",
@@ -93,6 +143,31 @@
     "publishedAt": "2025-06-19T16:55:43Z",
     "privacyStatus": "public",
     "duration": "0:15:29"
+  },
+  {
+    "title": "Community Demos from Into Design Systems 2025 – Tokens, Tooling & Accessibility",
+    "description": "Explore some of the most innovative tools and community-driven projects from the Into Design Systems Conference 2025. \n\nThis Community Demos session features three powerful lightning talks packed with practical insights and real-world impact.\n\nPresentations included:\n1️⃣ Master Design Tokens with Tokens Glossary\nMarta Conde shares how she uses a token glossary and ChatGPT to bring clarity and consistency to token naming.\n\n2️⃣ Ship Faster with the Quantum Free Design System\nMaxime Podgorski & Thomas Eyaa introduce a fully open-source design system built for speed, scale, and collaboration.\n\n3️⃣ The WCAG 2.2 Card Deck: Making Accessibility More Accessible\nJohannes Lehner presents a tactile, inclusive tool to simplify accessibility audits and spread awareness across teams.\n\n—\n⭐️ Want the full experience?\nGet access to all 20+ session recordings, speaker files, and our interactive Miro board to connect with other Design System professionals:\n👉 https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nuV5MGnFPPQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nuV5MGnFPPQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nuV5MGnFPPQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nuV5MGnFPPQ",
+    "publishedAt": "2025-06-18T07:00:51Z",
+    "privacyStatus": "public",
+    "duration": "0:49:05"
   },
   {
     "title": "Design Tokens Glossary - Marta Conde at Into Design Systems Conference",
@@ -225,6 +300,56 @@
     "duration": "0:02:52"
   },
   {
+    "title": "WCAG 2.2 Card Deck: Making Accessibility More Accessible",
+    "description": "WCAG 2.2 Card Deck: Making Accessibility More Accessible \nDemo at Into Design Systems Conference 2025 \n\nWCAG 2.2 Card Deck Figma: https://www.figma.com/community/file/1409436654182046971\n\nMissed Into Design Systems Conference?\n👉 Get full access to all recordings → https://www.intodesignsystems.com\n\n\nPresenter:\nJohannes Lehner\n\nHosts:\nRomina Kavcic\nSil Bormüller",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4bXjWzOe0CM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4bXjWzOe0CM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4bXjWzOe0CM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4bXjWzOe0CM",
+    "publishedAt": "2025-06-09T07:41:29Z",
+    "privacyStatus": "public",
+    "duration": "0:19:33"
+  },
+  {
+    "title": "Quantum Free Design System - Into Design Systems Conference",
+    "description": "Demo of Quantum Free Design System and Plugin\nLink: https://www.figma.com/community/file/1470884424474781212\n\nMissed Into Design Systems Conference?\n👉 Get full access to all recordings → https://www.intodesignsystems.com\n\n\nPresenters:\nMaxime Podgorski\nThomas Eyaa\n\nHosts:\nRomina Kavcic\nSil Bormüller",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hFmbrfdPy5c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hFmbrfdPy5c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hFmbrfdPy5c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hFmbrfdPy5c",
+    "publishedAt": "2025-06-08T14:06:15Z",
+    "privacyStatus": "public",
+    "duration": "0:08:49"
+  },
+  {
     "title": "Getting your component set into shape  | Managing components in zeroheight",
     "description": "00:00 Intro\n00:30 Component set overview\n02:10 Component statuses\n03:22 Reviewing component matches\n04:15 Reviewing \"missing\" matches\n06:41 Reviewing unconfirmed components\n11:00 Component links update via sync setting\n11:50 Syncing the component set\n12:24 Outro\n\nLearn more about managing and tracking components in the design system platform, zeroheight: https://zeroheight.com/help/article/component-sets-an-overview/\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
@@ -273,6 +398,31 @@
     "publishedAt": "2025-06-02T08:53:39Z",
     "privacyStatus": "public",
     "duration": "0:02:55"
+  },
+  {
+    "title": "What skills do I need to become a Design System Designer?",
+    "description": "Sneak peek into our session \"Design System Portfolio Tips and Tricks\" with Justine Montgomery, Design Systems at Stripe\n\nGet more tips and a template at our online conference:\nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0UqJ9GAFhRI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0UqJ9GAFhRI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0UqJ9GAFhRI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0UqJ9GAFhRI",
+    "publishedAt": "2025-05-23T10:00:03Z",
+    "privacyStatus": "public",
+    "duration": "0:03:07"
   },
   {
     "title": "Config 2025: Typography is the foundation of any design system with Elliot Jay Stocks",
@@ -343,6 +493,31 @@
     "publishedAt": "2025-05-22T08:06:16Z",
     "privacyStatus": "public",
     "duration": "0:14:14"
+  },
+  {
+    "title": "How to create a Design System Portfolio",
+    "description": "#designsystems #portfoliotips #designjobs \nWhat does a good Design System portfolio look like? Do I need a case study?\nSneak peek into our session \"Design System Portfolio Tips and Tricks\" with Justine Montgomery, Design Systems at Stripe\n\nGet more tips and a template at our conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gllhoh6KLU0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gllhoh6KLU0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gllhoh6KLU0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=gllhoh6KLU0",
+    "publishedAt": "2025-05-21T21:37:11Z",
+    "privacyStatus": "public",
+    "duration": "0:04:36"
   },
   {
     "title": "Config London 2025: Building color palettes for the modern web with Dan Hollick",
@@ -684,6 +859,31 @@
     "duration": "1:16:10"
   },
   {
+    "title": "Get the best out of Figma Variables - Conference Preview",
+    "description": "#figma #designsystems #designsystem \nPreview of what to expect at Into Design Systems Conference\nSneak peek into the hands-on session 'Master variables and slot components' with Mr Biscuit and Marcin Spiewak\n\nFull hands-on session (90 minutes) at Into Design Systems Conference:\nhttps://www.intodesignsystems.com\n\nPlugin: Variable Visualizer\nhttps://www.figma.com/community/plugin/1457362132545070106/variable-visualizer\n\nPS:\nWhat’s shown in the video is just beginner level to get you started.\nYou can expect lots of mind-blowing tips, you'll learn to work with Figma variables like never before.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GBDAbO73N0s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GBDAbO73N0s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GBDAbO73N0s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=GBDAbO73N0s",
+    "publishedAt": "2025-05-05T12:09:58Z",
+    "privacyStatus": "public",
+    "duration": "0:06:03"
+  },
+  {
     "title": "“The Unique Challenges of Design Systems at Scale“ - Jen Witkowski (ColorCode: Buffalo 2025)",
     "description": "Jen Witkowski, Associate Design Director @lullabot presents \"The Unique Challenges of Design Systems at Scale\" at ColorCode: Buffalo 2025.\n\nSetting up a design system can help create consistency and guardrails for authors, designers, strategists, developers, and all involved in creating and maintaining websites or applications.\n\nBut what happens when that design system needs to expand to support numerous applications and websites, each with a different purpose and audience?\n\nIn this session, we’ll share some design challenges we’ve encountered when working with large design systems that need to scale. We’ll discus:\n\n– scaling and maintaining design patterns\n– naming systems at scale\n– maintaining a “system of systems.”\n– governance and adoption at scale\n– component content flexibility and guidance at scale\n\nThis session is for designers who are already familiar with design systems but unsure how to scale them to multiple websites and applications.\n\nNOTE: Sorry about the audio quality, we made the wrong microphone / audio decision for this presentation.",
     "thumbnails": {
@@ -907,6 +1107,31 @@
     "videoUrl": "https://www.youtube.com/watch?v=NhK7H2CLyKA",
     "publishedAt": "2025-04-07T16:27:40Z",
     "duration": "1:01:52"
+  },
+  {
+    "title": "Into Design System Lisbon, Portugal",
+    "description": "Into Design System Lisbon, Portugal\n\n​Agenda\n- ​Filipe Simões - co-founder at FFF Design Assembly and Product Design Lead at Nagarro\n- Bruno Ferreira, Product Designer at Tangity (part from NTT DATA)​\n- Cátia Neves, Senior Product Designer at Bliss Applications\n\n​Your friendly hosts\n​Nuno Simões - Senior Design System Designer at Malwarebytes\nRaquel Pereira - UX Lead Designer (Design System) at Nokia",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/s3P4EgZ9VW8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/s3P4EgZ9VW8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/s3P4EgZ9VW8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=s3P4EgZ9VW8",
+    "publishedAt": "2025-03-28T09:14:37Z",
+    "privacyStatus": "public",
+    "duration": "1:35:29"
   },
   {
     "title": "Design systems, the Drupal way",
@@ -2132,6 +2357,31 @@
     "duration": "0:53:34"
   },
   {
+    "title": "Design Systems Accessibility Meetup - Component Review",
+    "description": "#designsystems #accessibility \nCasual, friendly online jam to learn about accessibility in Design Systems\n\nIn this edition, we reviewed Design System components and checked if they meet accessibility standards.\n\nMiro Board: https://miro.com/app/board/uXjVL_3aDMo=/?share_link_id=657639302738\n\n​Speakers:\n\n​Sarah Massengale\nBlind technologist, digital accessibility trainer, tester, and passionate advocate\n\n​Marcelo Paiva\nInclusive Design and Accessibility Leader, Creator of WCAG Plugin for Figma and WCAG Tokens for Design Systems\n\nBecome the go-to Design Systems expert in your company\n✅ Learn from experts who work with Design Systems every day\n✅ Get practical tips and useful takeaways you can use right away\n✅ Feel included in a welcoming and collaborative community\n\n👉 Join our upcoming 3-day online conference: \nhttps://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nN8J0E2rlPQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nN8J0E2rlPQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nN8J0E2rlPQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nN8J0E2rlPQ",
+    "publishedAt": "2024-12-12T20:23:22Z",
+    "privacyStatus": "public",
+    "duration": "1:28:06"
+  },
+  {
     "title": "Supercharging Design Systems with Design and Systems Thinking",
     "description": "Speakers: Ala Wiercińska, Archie MS, Justyna Kupracz\n\nSupercharging design systems involves blending Design Thinking and Systems Thinking for a holistic approach. While both methods emphasize problem-solving, Design Thinking zooms in on user experience, whereas Systems Thinking considers the broader context. By integrating both, teams can build robust design systems that are user-focused yet adaptable to organizational and systemic complexities.",
     "thumbnails": {
@@ -2296,6 +2546,31 @@
     "videoUrl": "https://www.youtube.com/watch?v=n6uXuLNY_xs",
     "publishedAt": "2024-12-06T14:39:22Z",
     "duration": "0:28:34"
+  },
+  {
+    "title": "Into Design Systems Meetup #2 LIVE from WiseTech Global Sydney 🇦🇺",
+    "description": "Into Design Systems hybrid meetup live from  @WiseTechGlobal Sydney, Australia 🇦🇺\n\nAgenda:\nWelcome & Introduction - Marc Obieglo - UI & Design Systems Principal Designer @ WiseTech Global\n\nIntroduction to SustainRecruit, Morgan Fletcher Principal Consultant, Design\n\nSpeaker introduction, Richard Sison, Lead UX Designer @ WiseTech Global\n\n06:15 Setting up variables\nRyan Yu, Lead Frontend Engineer @campaignmonitor2939 \n\n33:17 What the Spec?!\nSarah Federman, Senior Frontend Engineer @canva  \n\n01:00:15 Progress over perfection\nRichard Smith, Principal Product Designer @ServiceNSW \nTrisnadi Kurniawan, Senior Product Designer @ServiceNSW \n\nHosts:\nMarc Obieglo - UI & Design Systems Principal Designer, WiseTech Global\nRichard Sison - Lead UX Designer, WiseTech Global\nMichael Fung - Senior UX Designer, WiseTech Global\n\n💪 Become the go-to Design Systems expert in your company\n✅ Learn from experts who work with Design Systems every day\n✅ Get practical tips and useful takeaways you can use right away\n✅ Feel included in a welcoming and collaborative community\n👉 Join our upcoming 3-day online conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/g7lshNMQI-A/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/g7lshNMQI-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/g7lshNMQI-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=g7lshNMQI-A",
+    "publishedAt": "2024-12-05T00:01:53Z",
+    "privacyStatus": "public",
+    "duration": "1:33:17"
   },
   {
     "title": "Pragma Conference 2024 - Designing APIs: How to ensure Accessibility in Design System - Feli Bernutz",
@@ -3384,6 +3659,31 @@
     "videoUrl": "https://www.youtube.com/watch?v=pyhBOeRdR30",
     "publishedAt": "2024-10-18T09:01:00Z",
     "duration": "0:04:23"
+  },
+  {
+    "title": "Connect your Design System to business value - Roundtable",
+    "description": "Strategies for proving your design system's value and how to draw a straight line to the business metrics your stakeholders and organization care about most.   \n\nMiro board with resources:\nhttps://miro.com/app/board/uXjVLWnpayw=/?share_link_id=746442614410\n\nWe'll walk through the successful practices and experiences design system leaders have used to champion their work, shape perception, and secure ongoing investment in design system initiatives within their organization.  \n\nLearn from our Design System experts:  \n- Elyse Holladay Staff Design Engineer at Color  \n- Marcela Rodriguez Joos Design System Leader @ UPS  \n- Brian Alfaro Design Lead @ The Washington Post  \n\nYour friendly hosts:  \n- Adam Laguerhausen, Sr. Product Marketing Manager @ Omlet \n- Sil Bormüller, Founder Into Design Systems  Shoutout to our sponsor:  Omlet\n\nBecome the go-to Design Systems expert in your company\n✅ Learn from experts who work with Design Systems every day\n✅ Get practical tips and useful takeaways you can use right away\n✅ Feel included in a welcoming and collaborative community\n👉 Join our upcoming 3-day online conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oqr_u1FeoNA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oqr_u1FeoNA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oqr_u1FeoNA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=oqr_u1FeoNA",
+    "publishedAt": "2024-10-16T10:30:13Z",
+    "privacyStatus": "public",
+    "duration": "1:05:36"
   },
   {
     "title": "Design Systems: Choose your own adventure - Geri Reid - Design Systems Week 2024",
