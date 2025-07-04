@@ -25,7 +25,7 @@ export async function GET() {
     );
   } catch (error) {
     console.error("Error generating library stats:", error);
-
+// 
     return new Response(
       JSON.stringify({
         error: "Failed to generate library stats",
