@@ -1,5 +1,5 @@
 # DesignSystems.media
-
+![Total media](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdesignsystems.media%2Fapi%2Fstats.json&query=stats.totalMedia&label=All%20media&color=%23a688fa)
 ![Total video count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdesignsystems.media%2Fapi%2Fstats.json&query=stats.videos&label=Videos&color=%23a688fa)
 ![Total podcast episode count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdesignsystems.media%2Fapi%2Fstats.json&query=stats.podcastEpisodes&label=Podcasts&color=%23a688fa)
 ![Total podcast show count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdesignsystems.media%2Fapi%2Fstats.json&query=stats.podcastShows&label=Shows&color=%23a688fa)
