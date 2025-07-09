@@ -1,5 +1,33 @@
 [
   {
+    "title": "135. The Infrastructure Behind Digital Production: A Conversation with Steve Dodier-Lazaro",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Design systems aren’t just a UI toolkit—they’re the backbone of digital product creation and management. In this episode, engineer and researcher <span style='background-color: highlight;'>Steve Dodier-Lazaro</span> joins Chris Strahl to unpack why treating design systems like standalone products is holding teams back. They explore what it really takes to scale product design and development in enterprise environments—from shared tooling and token standards to how AI and LLMs can bridge messy, real-world workflows.</p><p>In this episode:</p><ul><li>Why design systems are <em>dependencies</em>, not deliverables</li><li>Tools and standards shaping the future of digital production</li><li>How AI will reshape the infrastructure behind design and engineering</li></ul><p>View the <a href='https://docs.google.com/document/d/1AjoDrzWJNnBvnEuFTB2qTsaqon0Kd1pnVrI4vAtIicw/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/stevedodierlazaro/?originalSubdomain=fr'>Steve</a> is a freelance software engineer specialised in design systems and frontend development based in Seine Saint-Denis, France. Steve is dedicated to advancing the design system tooling ecosystem through his open-source contributions as a community advocate, addon author and contributor to Storybook, and through projects around design token tooling.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17445415-135-the-infrastructure-behind-digital-production-a-conversation-with-steve-dodier-lazaro.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17445415-135-the-infrastructure-behind-digital-production-a-conversation-with-steve-dodier-lazaro.mp3",
+    "publishedAt": "2025-07-08T14:00:00.000Z",
+    "duration": "0:36:38",
+    "durationSeconds": 2198,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 39627701191,
+    "guid": "Buzzsprout-17445415",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Figma IPO",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
