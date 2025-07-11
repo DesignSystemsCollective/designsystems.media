@@ -110,6 +110,41 @@
     "duration": "1:34:12"
   },
   {
+    "title": "670: Brad and Ian Frost on DesignTokensCourse.com",
+    "description": "Dave Rupert and Chris Coyier welcome Brad and Ian Frost to discuss the launch of their new design tokens course. The conversation explores the importance of design systems, the challenges of implementing design tokens, and the need for collaboration between designers and developers. They share insights from their travels, cultural observations, and the evolution of design practices in the digital landscape. \n\n✨ Sponsored By ✨\nCodePen Pro: https://codepen.io/features/pro\n\nOriginal episode details: https://shoptalkshow.com/670/\nSubscribe to the show: https://plnk.to/shoptalk\nJoin the Discord: https://patreon.com/Shoptalkshow\n\n✨ Chapters ✨\n00:00 Amsterdam Adventures\n03:54 Design Tokens Course Launch\n09:40 The Importance of Design Systems\n14:51 Separation of Concerns in Design\n19:52 Three-Tiered Architecture for Design Tokens\n27:46 Challenges in Design Token Implementation\n32:28 Design Tokens and Theming Strategies\n39:29 Managing Design Tokens Effectively\n52:03 Cross-Disciplinary Collaboration in Design Systems\n01:00:05 Building Bridges Between Design and Development",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NS51te_wx-s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NS51te_wx-s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NS51te_wx-s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/NS51te_wx-s/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/NS51te_wx-s/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NS51te_wx-s",
+    "publishedAt": "2025-06-24T19:42:20Z",
+    "privacyStatus": "public",
+    "duration": "1:09:03"
+  },
+  {
     "title": "Preview: Design tokens workflow in Figma - Into Design Systems Conference",
     "description": "#designsystems #designtokens \n15-min preview from full 50-min session at Into Design Systems Conference:\n\nDesign tokens workflow in Figma: A practical guide\nPresenter: Philipp Jeroma, Europace\n—\n⭐️ Want the full experience & resources? \nGet access to all 20+ session recordings, templates, certificate and our interactive Miro board to connect with other Design System professionals:\n👉 https://www.intodesignsystems.com",
     "thumbnails": {
