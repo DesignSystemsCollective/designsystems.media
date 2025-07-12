@@ -56,6 +56,34 @@
     "type": "full"
   },
   {
+    "title": "Wireframe Live: All About Wraps",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/wc0dusyu7k6qo24g/yt_video_GHdPLU1NDeA_dkhhuv.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/wc0dusyu7k6qo24g/yt_video_GHdPLU1NDeA_dkhhuv.mp3",
+    "publishedAt": "2025-07-07T20:21:21.000Z",
+    "duration": "0:21:26",
+    "durationSeconds": 1286,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7c794777e809e44aeaf2968893356089.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7c794777e809e44aeaf2968893356089.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 39742643192,
+    "guid": "yt:video:GHdPLU1NDeA",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Figma IPO",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
