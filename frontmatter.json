@@ -334,7 +334,8 @@
     "contentFolders",
     "tags",
     "categories",
-    "speakers"
+    "speakers",
+    "podcastTitle"
   ],
   "frontMatter.content.sorting": [
     {
