@@ -52,5 +52,23 @@
     "url": "https://feeds.buzzsprout.com/2313625.rss",
     "title": "Back to School with Amy Hupe and Geri Reid",
     "speakers": ["Amy Hupe","Geri Reid"]
+  },
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/2123236.rss",
+    "title": "What the DS?!",
+    "speakers": ["Dan Cork","Dan Donald"]
+  },
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/1958356.rss",
+    "title": "Code & Pixels",
+    "speakers": ["Adekunle Oduye","Kelly Harrop"]
+  },
+   {
+    "type": "podcast-feed",
+    "url": "https://feeds.buzzsprout.com/1958356.rss",
+    "title": "Code & Pixels",
+    "speakers": ["Adekunle Oduye","Kelly Harrop"]
   }
 ]
