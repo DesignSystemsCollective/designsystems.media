@@ -1,5 +1,33 @@
 [
   {
+    "title": "136. Are Design Systems Still for People? A Conversation with Elyse Holladay",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In this episode, Chris Strahl talks with Elyse Holladay—staff design engineer at Color Health and host of <em>On Theme</em>—about the evolution of design systems and how AI is reshaping the way we think about abstraction, collaboration, and contribution. They explore what it means to maintain relevance in a landscape where LLMs increasingly influence product development, and reflect on whether design systems are still for people—or for machines. Elyse shares a clear-eyed yet optimistic take on how AI can enhance, rather than replace, the work of design system practitioners.</p><p>Key Points:</p><ul><li>Design systems are shifting focus from components to solving collaboration and workflow problems.</li><li>AI isn’t replacing systems—it’s changing how they’re used and what they need to support.</li><li>Smaller teams can move faster by focusing on what’s most valuable, not doing everything.</li><li>Documentation is evolving to prioritize practical guidance over polished presentations.</li><li>Design systems are becoming infrastructure for both humans and AI.</li></ul><p>View the <a href='https://docs.google.com/document/d/1R5b14nqFdfA31a2du2DcyOLI15e7Nz4Ok_f1ew2Mcs0/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href=' https://www.linkedin.com/in/elyseholladay/'>Elyse Holladay (she/her)</a> is a long-time Design Systems practitioner and speaker, currently the Staff Design Engineer for Color Health's Continuum Design System. She was tapped to start the first Design System team for Indeed, has taught hundreds of hours of technical training content, and has been invited to speak at well-known industry events such as Clarity Conference, CSSConf Berlin, and Frontend Design Conference. She is also the host of <a href='https://www.designsystemsontheme.com'>On Theme: Design Systems in Depth</a>. She's a technical generalist, off-the-charts extrovert, avid reader, and expat Texan with an armadillo tattoo.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17542676-136-are-design-systems-still-for-people-a-conversation-with-elyse-holladay.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17542676-136-are-design-systems-still-for-people-a-conversation-with-elyse-holladay.mp3",
+    "publishedAt": "2025-07-22T14:00:00.000Z",
+    "duration": "0:45:32",
+    "durationSeconds": 2732,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 40212901026,
+    "guid": "Buzzsprout-17542676",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Ok & Cancel",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
