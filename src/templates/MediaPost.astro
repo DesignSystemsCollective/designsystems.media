@@ -1,15 +1,12 @@
 ---
 import { YouTube } from "@astro-community/astro-embed-youtube";
-import type { CollectionEntry } from "astro:content";
 import { repository } from "../../package.json";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
 import { formatDuration } from "../utils/formatDuration";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
-
-type Media = CollectionEntry<"media">;
-type Props = Media["data"] & { slug?: Media["slug"] };
+import type { BaseMediaProps } from "../types/media";
 
 const {
   title,

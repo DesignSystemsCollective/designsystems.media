@@ -1,0 +1,60 @@
+---
+interface Props {
+  imageUrl?: string;
+  alt: string;
+  size?: 'small' | 'medium' | 'large';
+  class?: string;
+}
+
+const { 
+  imageUrl, 
+  alt,
+  size = 'medium',
+  class: className = ''
+} = Astro.props;
+
+const sizes = {
+  small: '150px',
+  medium: '200px',
+  large: '250px'
+};
+---
+
+{
+  imageUrl && (
+    <div class={`podcast-artwork ${size} ${className}`}>
+      <img src={imageUrl} alt={alt} />
+    </div>
+  )
+}
+
+<style define:vars={{ size: sizes[size] }}>
+  .podcast-artwork {
+    width: var(--size);
+    height: var(--size);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .podcast-artwork img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .podcast-artwork.large {
+      width: 200px;
+      height: 200px;
+    }
+    .podcast-artwork.medium {
+      width: 150px;
+      height: 150px;
+    }
+    .podcast-artwork.small {
+      width: 100px;
+      height: 100px;
+    }
+  }
+</style>

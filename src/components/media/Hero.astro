@@ -3,15 +3,10 @@
 import MediaImage from "./MediaImage.astro";
 import Title from "../Title.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
-export interface Props {
-  title: string;
-  image?: string | null;
-  showArtwork?: boolean;
-  showSlug: string;
-  podcastTitle: string;
-  hasEpisodeImage?: boolean;
-  audioUrl?: string;
-}
+import type { HeroProps } from "../../types/components";
+import type { ImageType } from "../../types/media";
+
+export type Props = HeroProps;
 
 const {
   title,
@@ -53,11 +48,11 @@ const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
 });
 
 // Image loading logic
-let imageToUse;
+let imageToUse: string | undefined;
 
 if (hasEpisodeImage === undefined) {
   // This is a show page - just use the image directly
-  imageToUse = image.src;
+  imageToUse = image?.src;
 } else {
   // This is an episode page
   if (hasEpisodeImage === true && image) {
@@ -66,8 +61,8 @@ if (hasEpisodeImage === undefined) {
   } else {
     // Fall back to show poster
     const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
-    const showImage = showImages[showImagePath];
-    if (showImage) {
+    const showImage = showImages[showImagePath] as ImageType;
+    if (showImage?.default) {
       imageToUse = showImage.default.src;
     }
   }
@@ -83,6 +78,8 @@ if (hasEpisodeImage === undefined) {
           alt={title}
           size="large"
           class="podcast-artwork"
+          duration=""
+          showDuration={false}
         />
       )
     }
@@ -150,7 +147,7 @@ if (hasEpisodeImage === undefined) {
   <script>
     // Additional JavaScript to ensure autoplay works
     document.addEventListener('DOMContentLoaded', function() {
-      const audio = document.getElementById('podcast-audio');
+      const audio = document.getElementById('podcast-audio') as HTMLAudioElement;
       if (audio) {
         // Some browsers require user interaction first, so we try to play
         // and handle any potential errors gracefully

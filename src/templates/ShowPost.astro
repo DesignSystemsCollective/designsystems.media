@@ -1,14 +1,11 @@
 ---
 import { Icon } from "astro-icon/components";
-import type { CollectionEntry } from "astro:content";
 import { repository } from "../../package.json";
 import Title from "../components/Title.astro";
 import { convertToSlug } from "../utils/convertToSlug";
 import { getCollection } from "astro:content";
 import { formatDuration } from "../utils/formatDuration";
-
-type Media = CollectionEntry<"show">;
-type Props = Media["data"] & { slug?: Media["slug"] };
+import type { BaseShowProps } from "../types/media";
 
 const { title, image, slug, speakers, episodeCount, explicit } = Astro.props;
 

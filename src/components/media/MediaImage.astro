@@ -13,6 +13,7 @@ export interface Props {
   class?: string;
   shadow?: 'shadow' | 'no-shadow';
   showDuration?: true | false;
+  variant?: string;
 }
 
 const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDuration = true, class: className = '' } = Astro.props;

@@ -1,20 +1,24 @@
 ---
 import { Icon } from "astro-icon/components";
-import type { CollectionEntry } from "astro:content";
 import { repository } from "../../package.json";
 import FormattedDate from "../components/FormattedDate.astro";
 import Title from "../components/Title.astro";
+import MetaDataList from "../components/media/MetaDataList.astro";
+import PodcastArtwork from "../components/media/PodcastArtwork.astro";
 import { convertToSlug } from "../utils/convertToSlug";
 import { formatDuration } from "../utils/formatDuration";
+import { getAudioMimeType } from "../utils/audio";
+import { getShowImage } from "../utils/images";
+import type { BasePodcastProps, ImageType } from "../types/media";
+import type { MetaDataItem } from "../types/metadata";
 
-type Media = CollectionEntry<"podcast">;
-type Props = Media["data"] & { slug?: Media["slug"] };
+type Props = BasePodcastProps;
 
 const {
   title,
   publishedAt,
   image,
-  duration,
+  duration = "",
   audioUrl,
   episodeUrl,
   podcastTitle,
@@ -28,54 +32,17 @@ const {
   hasEpisodeImage,
 } = Astro.props;
 
-function getAudioMimeType(url) {
-  if (!url) return "audio/mpeg"; // fallback if no URL
-
-  const extension = url.split(".").pop().toLowerCase();
-
-  const mimeTypes = {
-    mp3: "audio/mpeg",
-    wav: "audio/wav",
-    ogg: "audio/ogg",
-    oga: "audio/ogg",
-    m4a: "audio/mp4",
-    aac: "audio/aac",
-    flac: "audio/flac",
-    webm: "audio/webm",
-  };
-
-  return mimeTypes[extension] || "audio/mpeg";
-}
-
-const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
-  eager: true,
-});
-
-// Then in your image loading logic
-let imageToUse;
-
-if (hasEpisodeImage === false) {
-  // Try to load show poster using glob pattern
-  const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
-  const showImage = showImages[showImagePath];
-  if (showImage) {
-    imageToUse = showImage.default.src;
-  }
-} else if (hasEpisodeImage === true && image) {
-  imageToUse = image;
-}
+const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
 ---
 
 <article data-pagefind-body data-pagefind-sort>
   <div class="hero-image" data-pagefind-meta={`image:${imageToUse}`}>
     <div class="audio-player-container">
-      {
-        imageToUse && (
-          <div class="podcast-artwork">
-            <img src={imageToUse} alt={`${podcastTitle} artwork`} />
-          </div>
-        )
-      }
+      <PodcastArtwork
+        imageUrl={imageToUse}
+        alt={`${podcastTitle} artwork`}
+        size="large"
+      />
       {
         audioUrl && (
           <audio controls preload="metadata" class="audio-embed">
@@ -100,71 +67,39 @@ if (hasEpisodeImage === false) {
   </div>
 
   <div class="content">
-    <div class="meta-data">
-      <span class="inline">
-        <Icon name="fluent:calendar-date-20-filled" size={20} />
-        <FormattedDate date={publishedAt} data-pagefind-sort="date" />
-      </span>
-      <span class="inline">
-        <Icon name="fluent:clock-20-filled" size={20} />
-        <span data-pagefind-sort="duration">
-          {formatDuration(duration)}
-        </span>
-      </span>
-      {
-        season && episode && (
-          <span class="inline">
-            <Icon name="fluent:number-symbol-20-filled" size={20} />
-            <span>
-              S{season}E{episode}
-            </span>
-          </span>
-        )
-      }
-      <!-- <span class="inline">
-        <Icon name="fluent:window-new-20-filled" size={20} />
-        <a href={episodeUrl || audioUrl} title={title}>Listen on platform</a>
-      </span> -->
-      <div class="break"></div>
-      <div class="tags">
-        <span><Icon name="fluent:tag-20-filled" size={20} />Tags</span>
+      <MetaDataList
+      items={[
         {
-          tags?.map((tag) => (
-            <a
-              href={`/tags/${convertToSlug(tag)}/`}
-              class="tag"
-              data-pagefind-filter="tag"
-              data-pagefind-weight="5"
-            >
-              {tag}
-            </a>
-          ))
-        }
-      </div>
-      <div class="speakers">
-        <span><Icon name="fluent:person-20-filled" size={20} />Speakers</span>
+          icon: "fluent:calendar-date-20-filled",
+          content: <FormattedDate date={publishedAt} data-pagefind-sort="date" />
+        },
         {
-          speakers?.map((speaker) => (
-            <a
-              href={`/speakers/${convertToSlug(speaker)}/`}
-              class="speaker"
-              data-pagefind-filter="speaker"
-              data-pagefind-weight="5"
-            >
-              {speaker}
-            </a>
-          ))
+          icon: "fluent:clock-20-filled",
+          content: <span data-pagefind-sort="duration">{formatDuration(duration)}</span>
+        },
+        ...(season && episode ? [{
+          icon: "fluent:number-symbol-20-filled",
+          content: `S${season}E${episode}`
+        }] : []),
+        ...(tags?.map(tag => ({
+          icon: "fluent:tag-20-filled",
+          content: tag,
+          link: `/tags/${convertToSlug(tag)}/`,
+          filter: "tag"
+        })) || []),
+        ...(speakers?.map(speaker => ({
+          icon: "fluent:person-20-filled",
+          content: speaker,
+          link: `/speakers/${convertToSlug(speaker)}/`,
+          filter: "speaker"
+        })) || []),
+        {
+          icon: "fluent:edit-20-filled",
+          content: "Edit on GitHub",
+          link: `${repository.url}/tree/main/src/content/podcast/${slug}/index.mdx`
         }
-      </div>
-      <div class="break"></div>
-      <span class="inline">
-        <Icon name="fluent:edit-20-filled" size={20} />
-        <a
-          href={`${repository.url}/tree/main/src/content/podcast/${slug}/index.mdx`}
-          >Edit on GitHub</a
-        >
-      </span>
-    </div>
+      ]}
+    />
     <div class="prose" data-pagefind-weight="3">
       <slot />
     </div>

@@ -1,0 +1,85 @@
+---
+import { Icon } from "astro-icon/components";
+import type { MetaDataItem } from "../types/metadata";
+
+interface Props {
+  items: MetaDataItem[];
+  class?: string;
+}
+
+const { items, class: className = '' } = Astro.props;
+---
+
+<div class={`meta-data ${className}`}>
+  {
+    items.map((item) => (
+      <span class="inline">
+        <Icon name={item.icon} size={20} />
+        {item.link ? (
+          <a
+            href={item.link}
+            class={item.filter ? item.filter.toLowerCase() : undefined}
+            {...(item.filter && {
+              ["data-pagefind-filter"]: item.filter,
+              ["data-pagefind-weight"]: item.weight || 5,
+            })}
+          >
+            {item.content}
+          </a>
+        ) : (
+          <span>{item.content}</span>
+        )}
+      </span>
+    ))
+  }
+</div>
+
+<style>
+  .meta-data {
+    color: var(--meta-data);
+    padding: 1rem 0;
+    padding-left: 1.8rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--hr);
+    justify-content: baseline;
+  }
+
+  .meta-data a {
+    color: var(--meta-data-link);
+  }
+
+  .meta-data a:hover {
+    color: var(--accent-hover);
+  }
+
+  .meta-data span {
+    color: var(--meta-data);
+  }
+
+  .meta-data [data-icon] {
+    margin-right: 0.25em;
+    position: absolute;
+    transform: translateX(-1.8rem);
+  }
+
+  .meta-data span.inline [data-icon] {
+    margin-top: 0.2em;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .meta-data {
+      padding-left: 0;
+      flex-direction: row;
+      gap: 0 2rem;
+    }
+
+    .meta-data [data-icon] {
+      position: relative;
+      transform: translateX(0);
+    }
+  }
+</style>
