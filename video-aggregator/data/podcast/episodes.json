@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: New Studio",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/cx6odycclpvlfmzq/yt_video_2Sq0VfTgOes_3eaxd6.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/cx6odycclpvlfmzq/yt_video_2Sq0VfTgOes_3eaxd6.mp3",
+    "publishedAt": "2025-07-30T20:42:40.000Z",
+    "duration": "0:22:41",
+    "durationSeconds": 1361,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a476b2ed03622c1546707237e1da4759.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a476b2ed03622c1546707237e1da4759.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 40575829158,
+    "guid": "yt:video:2Sq0VfTgOes",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 83: Design Systems Education",
     "description": "<p>Davy and PJ discuss the challenges and strategies for design system training, especially when it comes to Figma. We explore the line between providing direct tool training and focusing on how the design system integrates with those tools.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
