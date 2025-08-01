@@ -1,5 +1,55 @@
 [
   {
+    "title": "How I Make Figma Auto Layout Super Easy!",
+    "description": "I show you the few parts of Figma’s auto-layout functionality that I actually find useful and all the other stuff you can ignore.\n\n⏩ CHAPTERS\n0:00 Intro\n1:38 Auto-layout: the quick version\n7:08 Auto-layout deep dive\n\n===\n\nI help designers make more money and get their flowers.\nTake my free 6-Day Revenue Roadmap email course: https://makemoremoney.design/6-day-revenue-roadmap\n\nFollow Dan:\nLinkedIn: https://www.linkedin.com/in/danmall/\nTwitter: https://x.com/danmall\nInstagram: https://www.instagram.com/danmallteaches\nWebsite: https://danmall.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TaC-4LuZhIE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TaC-4LuZhIE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TaC-4LuZhIE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TaC-4LuZhIE",
+    "publishedAt": "2025-07-26T13:00:53Z",
+    "privacyStatus": "public",
+    "duration": "0:23:56"
+  },
+  {
+    "title": "DS Live: Luke Murphy - Building Delight into your Design System",
+    "description": "DS Live is a new webinar series from zeroheight. We invite the best speakers from around the world to deliver talks on design systems and everything that goes on around them, with live Q&A after the talk.\n\nFor the first DS Live, we're inviting our very own design advocate, Luke Murphy, to deliver their talk on Building Delight into your Design System, where they will cover off what it actually means to build delightful products, and how we can integrate that into our design systems work day-to-day.\n\nzeroheight: https://hubs.li/Q03pF_dS0\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nLinkedIn: https://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MGipnmGrYzQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MGipnmGrYzQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MGipnmGrYzQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=MGipnmGrYzQ",
+    "publishedAt": "2025-07-23T14:04:03Z",
+    "privacyStatus": "public",
+    "duration": "0:50:00"
+  },
+  {
     "title": "What do people use GOV.UK for? #shorts",
     "description": "",
     "thumbnails": {
