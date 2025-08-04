@@ -1,22 +1,14 @@
 ---
 // src/layouts/ShowLayout.astro
-import type { CollectionEntry } from "astro:content";
 import Hero from "../components/media/Hero.astro";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import PodcastGrid from "../components/PodcastGrid.astro";
+import type { BaseShowProps } from "../types/media";
 
-type ShowEntry = CollectionEntry<"show">;
-type PodcastEntry = CollectionEntry<"podcast">;
-
-// Create a union type that accepts props from either collection
-export interface Props extends Partial<ShowEntry["data"]>, Partial<PodcastEntry["data"]> {
-  // Common props that might be used by both
-  slug?: ShowEntry["slug"] | PodcastEntry["slug"];
-  episodes?: CollectionEntry<"podcast">[];
-}
+export type Props = BaseShowProps;
 
 // Function to extract domain and extension, removing "www."
 function getDomainFromUrl(url) {

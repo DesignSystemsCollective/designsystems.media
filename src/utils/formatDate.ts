@@ -1,4 +1,12 @@
-export const formatDate = (date) => {
+/**
+ * Formats a date in a human-readable format
+ * If the date is in the current year, shows only month and day (e.g., "Jan 1")
+ * If the date is in a different year, includes the year (e.g., "Jan 1, 2024")
+ * 
+ * @param date - Date object to format
+ * @returns Formatted date string
+ */
+export const formatDate = (date: Date): string => {
   if (!(date instanceof Date)) {
     // Handle cases where 'date' might not be a Date object
     console.error("Invalid date object provided to formatDate:", date);
@@ -8,7 +16,7 @@ export const formatDate = (date) => {
   const now = new Date();
   const isCurrentYear = date.getFullYear() === now.getFullYear();
 
-  let options = {
+  const options: Intl.DateTimeFormatOptions = {
     month: "short", // e.g., "Jan", "Feb"
     day: "numeric", // e.g., "1", "25"
   };
