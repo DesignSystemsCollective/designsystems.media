@@ -2,248 +2,168 @@ require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
-const {
-  getAllVideosFromChannel,
-  getAllVideosFromPlaylist,
-} = require("./youtube");
+const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube");
 const { getAllVideosFromVimeo } = require("./vimeo");
 
-const sourcesData = require(path.join(__dirname, "../data/sources.json"));
-const videosToIgnore = require(path.join(__dirname, "../data/ignore.json"));
-const outputFilename = path.join(__dirname, "../data/output.json");
-const outputDir = path.join(__dirname, "../../src/content/media/");
+// Constants
+const DATA_DIR = path.join(__dirname, "../data");
+const OUTPUT_DIR = path.join(__dirname, "../../src/content/media/");
+const SOURCES_FILE = path.join(DATA_DIR, "sources.json");
+const IGNORE_FILE = path.join(DATA_DIR, "ignore.json");
+const OUTPUT_FILE = path.join(DATA_DIR, "output.json");
 
-// Load previously imported video data from output.json if it exists
-let importedVideoData = [];
+const SLUGIFY_OPTIONS = {
+  lower: true,
+  remove: /[*+~.()'"!:@,;\[\]]/g
+};
 
-if (fs.existsSync(outputFilename)) {
-  importedVideoData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
-}
+// Utility functions
+const loadJsonFile = (filePath) => {
+  return fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, "utf-8")) : [];
+};
 
-// Function to generate an MDX file with video data
-function generateMdxFile(video, folderPath) {
-  const thumbnailUrl = video.thumbnails.high.url;
-
-  const posterUrl = getPosterUrl(video.thumbnails);
-
-  const videoTitle = video.title;
-  const videoUrl = video.videoUrl;
-  const videoDescription = video.description;
-  const privacyStatus = video.privacyStatus;
-
+const getCurrentDate = () => {
   const today = new Date();
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, "0"); // Months are 0-based, so add 1 and pad with leading zero
-  const day = String(today.getDate()).padStart(2, "0"); // Pad with leading zero
-  const formattedDate = `${year}-${month}-${day}`;
+  return today.toISOString().split('T')[0]; // YYYY-MM-DD format
+};
 
-  // Define a function to remove special characters from a string
-  function removeSpecialCharacters(str) {
-    return str
-      .replace(/[^\w\s-:"#]/g, "")
-      .replace(/[\s-:"#]+/g, "-")
-      .trim();
-  }
+const sanitizeTitle = (title) => title.replace(/[:"""#'''!?@_^%()]/gi, "");
 
-  // Remove characters like :, ", and # from the title
-  const sanitizedTitle = videoTitle.replace(/[:"#]/g, "");
-
-  // Generate a folder name without special characters
-  const folderName = removeSpecialCharacters(
-    slugify(sanitizedTitle, { lower: true, remove: /[*+~.()'"!:@,;\[\]]/g })
-  )
+const createFolderName = (title) => {
+  const sanitized = sanitizeTitle(title);
+  return slugify(sanitized, SLUGIFY_OPTIONS)
     .split("-")
-    .slice(0, 5)
+    .slice(0, 7)
     .join("-");
+};
 
-  // Define the file path for the index.mdx file
-  const indexPath = path.join(folderPath, "index.mdx");
-
-  // Create a folder if it doesn't exist
-  if (!fs.existsSync(folderPath)) {
-    fs.mkdirSync(folderPath, { recursive: true });
+const getPosterUrl = (thumbnails) => {
+  if (thumbnails.maxres?.url) {
+    return thumbnails.maxres.url;
   }
+  if (thumbnails.high?.url) {
+    return thumbnails.high.url.replace("hqdefault.jpg", "maxresdefault.jpg");
+  }
+  return "";
+};
 
-  // Skip if index.mdx file already exists
+const generateMdxFile = (video, folderPath) => {
+  const indexPath = path.join(folderPath, "index.mdx");
+  
+  // Skip if file already exists
   if (fs.existsSync(indexPath)) {
     return;
   }
 
-  // Write the frontmatter and description to the index.mdx file
-  fs.writeFileSync(
-    indexPath,
-    `---
-title: "${videoTitle}"
+  // Create folder if it doesn't exist
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+  }
+
+  const frontmatter = `---
+title: "${video.title}"
 publishedAt: "${video.publishedAt}"
-image: "${thumbnailUrl}"
-dateAdded: "${formattedDate}"
-poster: "${posterUrl}"
-videoUrl: "${videoUrl}"
+image: "${video.thumbnails.high.url}"
+dateAdded: "${getCurrentDate()}"
+poster: "${getPosterUrl(video.thumbnails)}"
+videoUrl: "${video.videoUrl}"
 localImages: false
 tags: ["Unsorted"]
 categories: ["Video"]
 duration: "${video.duration}"
-privacyStatus: "${privacyStatus}"
+privacyStatus: "${video.privacyStatus}"
 draft: true
 speakers: ["Unsorted"]
 ---
-${videoDescription}\n`
-  );
+${video.description}
+`;
 
-  console.log(`Created folder and index.mdx file for ${sanitizedTitle}`);
-}
+  fs.writeFileSync(indexPath, frontmatter);
+  console.log(`Created: ${sanitizeTitle(video.title)}`);
+};
 
-// Function to retrieve an appropriate poster URL
-function getPosterUrl(thumbnails) {
-  // Check if maxres thumbnail is available, otherwise use high thumbnail
-  if (thumbnails.maxres && thumbnails.maxres.url) {
-    return thumbnails.maxres.url;
-  } else if (thumbnails.high && thumbnails.high.url) {
-    // Manually construct maxres URL from high URL
-    const highUrl = thumbnails.high.url;
-    return highUrl.replace("hqdefault.jpg", "maxresdefault.jpg");
-  } else {
-    // If no suitable thumbnail is found, return an empty string
-    return "";
+// Video processing handlers
+const videoHandlers = {
+  "youtube-channel": async (source, importedData) => {
+    const channelId = source.url.split("/").pop();
+    return await getAllVideosFromChannel(channelId, importedData);
+  },
+  
+  "youtube-playlist": async (source, importedData) => {
+    const playlistId = source.url.split("list=")[1];
+    return await getAllVideosFromPlaylist(playlistId, importedData);
+  },
+  
+  "vimeo": async () => {
+    return await getAllVideosFromVimeo();
   }
-}
+};
 
-// Main function to retrieve data and generate output files
-async function main() {
-  // Load previously imported video data from output.json if it exists
-  let importedVideoData = [];
+const processVideos = async (videos, videosToIgnore) => {
+  const processedVideos = [];
+  let ignoredCount = 0;
 
-  if (fs.existsSync(outputFilename)) {
-    importedVideoData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
+  for (const video of videos) {
+    if (videosToIgnore.includes(video.videoUrl)) {
+      ignoredCount++;
+      continue;
+    }
+
+    const folderName = createFolderName(video.title);
+    const folderPath = path.join(OUTPUT_DIR, folderName);
+    
+    generateMdxFile(video, folderPath);
+    processedVideos.push(video);
   }
 
+  return { processedVideos, ignoredCount };
+};
+
+const main = async () => {
   try {
     console.log("Start: Gathering video data... 📹");
 
+    const sourcesData = loadJsonFile(SOURCES_FILE);
+    const videosToIgnore = loadJsonFile(IGNORE_FILE);
+    const importedVideoData = loadJsonFile(OUTPUT_FILE);
+
     const allVideos = [];
-    let ignoredVideosCount = 0; // Initialize the count for ignored videos
+    let totalIgnoredCount = 0;
 
+    // Process each source
     for (const source of sourcesData) {
-      if (source.type === "youtube-channel") {
-        const channelUrl = source.url;
-        const channelId = channelUrl.split("/").pop();
-        // console.log(`Fetching videos from channel ${channelId}...`);
-        const channelVideos = await getAllVideosFromChannel(
-          channelId,
-          importedVideoData
-        );
-
-        for (const video of channelVideos) {
-          const videoUrl = video.videoUrl;
-
-          const sanitizedTitle = video.title.replace(
-            /[:"“”#'‘’!?@_^%()]/gi,
-            ""
-          );
-          const folderName = slugify(sanitizedTitle, {
-            lower: true,
-            remove: /[*+~.()'"!:@,;\[\]]/g,
-          })
-            .split("-")
-            .slice(0, 7)
-            .join("-");
-          const folderPath = path.join(outputDir, folderName);
-
-          // Check if the video should be ignored
-          if (videosToIgnore.includes(videoUrl)) {
-            // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
-            ignoredVideosCount++; // Increment the count for ignored videos
-            continue; // Skip processing this video
-          }
-
-          generateMdxFile(video, folderPath);
-          allVideos.push(video);
-        }
-      } else if (source.type === "youtube-playlist") {
-        const playlistUrl = source.url;
-        const playlistId = playlistUrl.split("list=")[1];
-        // console.log(`Fetching videos from playlist ${playlistId}...`);
-        const playlistVideos = await getAllVideosFromPlaylist(
-          playlistId,
-          importedVideoData
-        );
-
-        for (const video of playlistVideos) {
-          const videoUrl = video.videoUrl;
-          const sanitizedTitle = video.title.replace(
-            /[:"“”#'‘’!?@_^%()]/gi,
-            ""
-          );
-          const folderName = slugify(sanitizedTitle, {
-            lower: true,
-            remove: /[*+~.()'"!:@,;\[\]]/g,
-          })
-            .split("-")
-            .slice(0, 7)
-            .join("-");
-          const folderPath = path.join(outputDir, folderName);
-
-          // Check if the video should be ignored
-          if (videosToIgnore.includes(videoUrl)) {
-            console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
-            ignoredVideosCount++; // Increment the count for ignored videos
-            continue; // Skip processing this video
-          }
-
-          generateMdxFile(video, folderPath);
-          allVideos.push(video);
-        }
-      } else if (source.type === "vimeo") {
-        // console.log(`Fetching videos from Vimeo...`);
-        const vimeoVideos = await getAllVideosFromVimeo();
-
-        for (const video of vimeoVideos) {
-          const videoUrl = video.videoUrl;
-          // Implement Vimeo video data processing here
-
-          // Check if the video should be ignored
-          if (videosToIgnore.includes(videoUrl)) {
-            // console.log(`Skipping video: ${sanitizedTitle} (ignored)`);
-            ignoredVideosCount++; // Increment the count for ignored videos
-            continue; // Skip processing this video
-          }
-
-          allVideos.push(video);
-        }
+      const handler = videoHandlers[source.type];
+      if (!handler) {
+        console.warn(`Unknown source type: ${source.type}`);
+        continue;
       }
+
+      const videos = await handler(source, importedVideoData);
+      const { processedVideos, ignoredCount } = await processVideos(videos, videosToIgnore);
+      
+      allVideos.push(...processedVideos);
+      totalIgnoredCount += ignoredCount;
     }
 
-    // Combine existing data with newly fetched data
+    // Combine and sort data
     const combinedVideoData = [...importedVideoData, ...allVideos];
+    combinedVideoData.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 
-    // Calculate the number of videos added
-    const videosAdded = allVideos.length;
+    // Save results
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(combinedVideoData, null, 2));
 
-    // Sort videos by publish date in descending order
-    combinedVideoData.sort((a, b) => {
-      const dateA = new Date(a.publishedAt);
-      const dateB = new Date(b.publishedAt);
-      return dateB - dateA;
-    });
-
-    // Write the combined video data to output.json
-    fs.writeFileSync(
-      outputFilename,
-      JSON.stringify(combinedVideoData, null, 2)
-    );
-
-    // Calculate the new total of videos
-    const newTotalVideos = combinedVideoData.length;
-
-    console.log(`Video data written to ${outputFilename}`);
-    console.log(`Videos added: ${videosAdded}`);
-    console.log(`Ignored videos: ${ignoredVideosCount}`); // Report the count of ignored videos
-    console.log(`New total of videos: ${newTotalVideos}`);
+    // Report results
+    console.log(`Video data written to ${OUTPUT_FILE}`);
+    console.log(`Videos added: ${allVideos.length}`);
+    console.log(`Ignored videos: ${totalIgnoredCount}`);
+    console.log(`New total videos: ${combinedVideoData.length}`);
     console.log("End: Gathering video data. ✅");
+
   } catch (error) {
     console.error("Error:", error.message);
+    process.exit(1);
   }
-}
+};
 
-// Call the main function to start retrieving data
+// Run the script
 main();
