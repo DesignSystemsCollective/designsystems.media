@@ -83,7 +83,7 @@ function convertDescriptionToMarkdown(htmlDescription) {
 function generateShowSlug(title) {
   return slugify(title, { 
     lower: true, 
-    remove: /[*+~.()'"!:@,;\[\]]/g 
+    remove: /[*+~.()'"!?:@,;\[\]]/g 
   }).substring(0, 50); // Limit length
 }
 
@@ -91,12 +91,22 @@ function generateShowSlug(title) {
 function createOrUpdateShow(feedData, existingShows) {
   const showSlug = generateShowSlug(feedData.title);
   
-  // Check if show already exists
+  // First check by ID (most reliable)
+  if (feedData.id) {
+    const existingShowById = existingShows.find(show => show.id === feedData.id);
+    if (existingShowById) {
+      console.log(`Show already exists (by ID): ${feedData.title} (ID: ${feedData.id})`);
+      return existingShowById;
+    }
+  }
+  
+  // Fallback: Check by feedUrl or slug
   const existingShow = existingShows.find(show => 
     show.feedUrl === feedData.url || show.slug === showSlug
   );
   
   if (existingShow) {
+    console.log(`Show already exists (by feedUrl/slug): ${feedData.title}`);
     return existingShow;
   }
 
@@ -127,6 +137,7 @@ function createOrUpdateShow(feedData, existingShows) {
     locked: feedData.locked || 0
   };
 
+  console.log(`Creating new show: ${showData.title} (ID: ${showData.id})`);
   return showData;
 }
 
@@ -290,6 +301,26 @@ function getPosterUrl(thumbnails) {
   }
 }
 
+// Helper function to remove duplicates from shows array based on ID
+function removeDuplicateShows(shows) {
+  const seenIds = new Set();
+  const uniqueShows = [];
+  
+  for (const show of shows) {
+    if (show.id && seenIds.has(show.id)) {
+      console.log(`Removing duplicate show: ${show.title} (ID: ${show.id})`);
+      continue;
+    }
+    
+    if (show.id) {
+      seenIds.add(show.id);
+    }
+    uniqueShows.push(show);
+  }
+  
+  return uniqueShows;
+}
+
 // Main function to retrieve podcast data and generate output files
 async function main() {
   try {
@@ -328,9 +359,9 @@ async function main() {
             source 
           });
           
-          // Create show
+          // Create show - check against both imported and newly created shows
           const show = createOrUpdateShow(trendingItem.showData, [...importedShowsData, ...allShows]);
-          const showExists = allShows.find(s => s.slug === show.slug);
+          const showExists = allShows.find(s => s.id === show.id || s.slug === show.slug);
           if (!showExists) {
             allShows.push(show);
             generateShowMdxFile(show, showsDir);
@@ -342,9 +373,9 @@ async function main() {
       if (feedData) {
         feedDataCollection.push(feedData);
         
-        // Create or update show
+        // Create or update show - check against both imported and newly created shows
         const show = createOrUpdateShow(feedData.showData, [...importedShowsData, ...allShows]);
-        const showExists = allShows.find(s => s.slug === show.slug);
+        const showExists = allShows.find(s => s.id === show.id || s.slug === show.slug);
         if (!showExists) {
           allShows.push(show);
           generateShowMdxFile(show, showsDir);
@@ -363,7 +394,7 @@ async function main() {
       
       // Find the show that was created in Phase 1
       const show = combinedShowsForEpisodes.find(s => 
-        s.feedUrl === showData.url || s.slug === generateShowSlug(showData.title)
+        s.feedUrl === showData.url || s.slug === generateShowSlug(showData.title) || s.id === showData.id
       );
       
       if (!show) {
@@ -405,11 +436,15 @@ async function main() {
 
     // Combine existing data with newly fetched data
     const combinedPodcastData = [...importedPodcastData, ...allEpisodes];
-    const combinedShowsData = [...importedShowsData, ...allShows];
+    const rawCombinedShowsData = [...importedShowsData, ...allShows];
+
+    // Remove duplicates from shows based on ID
+    const combinedShowsData = removeDuplicateShows(rawCombinedShowsData);
 
     // Calculate the number of episodes and shows added
     const episodesAdded = allEpisodes.length;
     const showsAdded = allShows.length;
+    const duplicatesRemoved = rawCombinedShowsData.length - combinedShowsData.length;
 
     // Sort episodes by publish date in descending order
     combinedPodcastData.sort((a, b) => {
@@ -440,6 +475,7 @@ async function main() {
     console.log(`Shows data written to ${showsOutputFilename}`);
     console.log(`Episodes added: ${episodesAdded}`);
     console.log(`Shows added: ${showsAdded}`);
+    console.log(`Duplicate shows removed: ${duplicatesRemoved}`);
     console.log(`Ignored episodes: ${ignoredEpisodesCount}`);
     console.log(`New total of episodes: ${newTotalEpisodes}`);
     console.log(`New total of shows: ${newTotalShows}`);
