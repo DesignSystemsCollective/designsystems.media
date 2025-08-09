@@ -9,12 +9,21 @@ const {
   getTrendingPodcasts,
 } = require("./podcast");
 
-const sourcesData = require(path.join(__dirname, "../data/podcast-sources.json"));
-const podcastsToIgnore = require(path.join(__dirname, "../data/podcast-ignore.json"));
-const outputFilename = path.join(__dirname, "../data/podcast/episodes.json");
-const showsOutputFilename = path.join(__dirname, "../data/podcast/shows.json");
-const outputDir = path.join(__dirname, "../../src/content/podcast/");
-const showsDir = path.join(__dirname, "../../src/content/show/");
+// Configuration
+const CONFIG = {
+  sources: require(path.join(__dirname, "../data/podcast-sources.json")),
+  ignored: require(path.join(__dirname, "../data/podcast-ignore.json")),
+  paths: {
+    episodes: path.join(__dirname, "../data/podcast/episodes.json"),
+    shows: path.join(__dirname, "../data/podcast/shows.json"),
+    episodesDir: path.join(__dirname, "../../src/content/podcast/"),
+    showsDir: path.join(__dirname, "../../src/content/show/")
+  },
+  slugify: {
+    lower: true,
+    remove: /[*+~.()'"!?:@,;\[\]]/g
+  }
+};
 
 // Initialize Turndown service for HTML to Markdown conversion
 const turndownService = new TurndownService({
@@ -25,238 +34,216 @@ const turndownService = new TurndownService({
   fence: '```'
 });
 
-// Optional: Add custom rules for better conversion
+// Remove empty paragraphs during conversion
 turndownService.addRule('removeEmptyParagraphs', {
-  filter: function (node) {
-    return node.nodeName === 'P' && node.innerHTML.trim() === '';
-  },
-  replacement: function () {
-    return '';
-  }
+  filter: node => node.nodeName === 'P' && node.innerHTML.trim() === '',
+  replacement: () => ''
 });
 
-// Load previously imported data
-let importedPodcastData = [];
-let importedShowsData = [];
+// Utility functions
+const utils = {
+  loadJsonFile(filepath) {
+    return fs.existsSync(filepath) ? JSON.parse(fs.readFileSync(filepath, "utf-8")) : [];
+  },
 
-if (fs.existsSync(outputFilename)) {
-  importedPodcastData = JSON.parse(fs.readFileSync(outputFilename, "utf-8"));
-}
-
-if (fs.existsSync(showsOutputFilename)) {
-  importedShowsData = JSON.parse(fs.readFileSync(showsOutputFilename, "utf-8"));
-}
-
-// Function to convert HTML description to clean markdown
-function convertDescriptionToMarkdown(htmlDescription) {
-  if (!htmlDescription || typeof htmlDescription !== 'string') {
-    return '';
-  }
-  
-  try {
-    // Convert HTML to markdown
-    let markdown = turndownService.turndown(htmlDescription);
+  convertHtmlToMarkdown(html) {
+    if (!html || typeof html !== 'string') return '';
     
-    // Clean up common issues
-    markdown = markdown
-      // Remove excessive line breaks
-      .replace(/\n\s*\n\s*\n/g, '\n\n')
-      // Clean up any remaining HTML entities
-      .replace(/&nbsp;/g, ' ')
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'")
-      // Trim whitespace
-      .trim();
-    
-    return markdown;
-  } catch (error) {
-    console.warn('Error converting HTML to markdown:', error.message);
-    // Fallback: strip HTML tags and return plain text
-    return htmlDescription.replace(/<[^>]*>/g, '').trim();
-  }
-}
-
-// Function to generate show slug from title
-function generateShowSlug(title) {
-  return slugify(title, { 
-    lower: true, 
-    remove: /[*+~.()'"!?:@,;\[\]]/g 
-  }).substring(0, 50); // Limit length
-}
-
-// Function to create or update show data
-function createOrUpdateShow(feedData, existingShows) {
-  const showSlug = generateShowSlug(feedData.title);
-  
-  // First check by ID (most reliable)
-  if (feedData.id) {
-    const existingShowById = existingShows.find(show => show.id === feedData.id);
-    if (existingShowById) {
-      console.log(`Show already exists (by ID): ${feedData.title} (ID: ${feedData.id})`);
-      return existingShowById;
+    try {
+      return turndownService.turndown(html)
+        .replace(/\n\s*\n\s*\n/g, '\n\n')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, "'")
+        .trim();
+    } catch (error) {
+      console.warn('Error converting HTML to markdown:', error.message);
+      return html.replace(/<[^>]*>/g, '').trim();
     }
+  },
+
+  generateSlug(title, maxLength = 50) {
+    return slugify(title, CONFIG.slugify).substring(0, maxLength);
+  },
+
+  formatYamlArray(items) {
+    return items.length > 0 ? items.map(item => `"${item}"`).join(', ') : '"Uncategorized"';
+  },
+
+  createDirectory(dirPath) {
+    if (!fs.existsSync(dirPath)) {
+      fs.mkdirSync(dirPath, { recursive: true });
+    }
+  },
+
+  removeDuplicatesById(items) {
+    const seenIds = new Set();
+    return items.filter(item => {
+      if (!item.id || seenIds.has(item.id)) {
+        if (item.id && seenIds.has(item.id)) {
+          console.log(`Removing duplicate: ${item.title} (ID: ${item.id})`);
+        }
+        return !item.id || !seenIds.has(item.id); // Keep items without IDs
+      }
+      seenIds.add(item.id);
+      return true;
+    });
   }
-  
-  // Fallback: Check by feedUrl or slug
-  const existingShow = existingShows.find(show => 
-    show.feedUrl === feedData.url || show.slug === showSlug
-  );
-  
-  if (existingShow) {
-    console.log(`Show already exists (by feedUrl/slug): ${feedData.title}`);
-    return existingShow;
+};
+
+// Show management
+class ShowManager {
+  constructor(existingShows = []) {
+    this.shows = [...existingShows];
+    this.showsMap = new Map(existingShows.map(show => [show.id, show]).filter(([id]) => id));
   }
 
-  const today = new Date();
-  const formattedDate = today.toISOString().split('T')[0];
+  findExisting(feedData) {
+    // Check by ID first (most reliable)
+    if (feedData.id && this.showsMap.has(feedData.id)) {
+      return this.showsMap.get(feedData.id);
+    }
+    
+    // Fallback: check by feedUrl or slug
+    const slug = utils.generateSlug(feedData.title);
+    return this.shows.find(show => 
+      show.feedUrl === feedData.url || show.slug === slug
+    );
+  }
 
-  const showData = {
-    id: feedData.id,
-    slug: showSlug,
-    title: feedData.title || '',
-    description: convertDescriptionToMarkdown(feedData.description || ''),
-    speakers: feedData.author || feedData.ownerName || '',
-    feedUrl: feedData.url || '',
-    websiteUrl: feedData.link || '',
-    imageUrl: feedData.artwork || feedData.image || '',
-    categories: feedData.categories ? Object.values(feedData.categories) : [],
-    language: feedData.language || 'en',
-    explicit: feedData.explicit || false,
-    episodeCount: feedData.episodeCount || 0,
-    lastUpdate: new Date(feedData.lastUpdateTime * 1000).toISOString(),
-    dateAdded: formattedDate,
-    itunesId: feedData.itunesId || null,
-    guid: feedData.podcastGuid || '',
-    funding: feedData.funding || null,
-    value: feedData.value || null,
-    medium: feedData.medium || 'podcast',
-    dead: feedData.dead || 0,
-    locked: feedData.locked || 0
-  };
+  createShow(feedData) {
+    const existing = this.findExisting(feedData);
+    if (existing) {
+      console.log(`Show already exists: ${feedData.title} (ID: ${feedData.id || 'no ID'})`);
+      return existing;
+    }
 
-  console.log(`Creating new show: ${showData.title} (ID: ${showData.id})`);
-  return showData;
+    const show = {
+      id: feedData.id,
+      slug: utils.generateSlug(feedData.title),
+      title: feedData.title || '',
+      description: utils.convertHtmlToMarkdown(feedData.description || ''),
+      speakers: feedData.author || feedData.ownerName || '',
+      feedUrl: feedData.url || '',
+      websiteUrl: feedData.link || '',
+      imageUrl: feedData.artwork || feedData.image || '',
+      categories: feedData.categories ? Object.values(feedData.categories) : [],
+      language: feedData.language || 'en',
+      explicit: feedData.explicit || false,
+      episodeCount: feedData.episodeCount || 0,
+      lastUpdate: new Date(feedData.lastUpdateTime * 1000).toISOString(),
+      dateAdded: new Date().toISOString().split('T')[0],
+      itunesId: feedData.itunesId || null,
+      guid: feedData.podcastGuid || '',
+      funding: feedData.funding || null,
+      value: feedData.value || null,
+      medium: feedData.medium || 'podcast',
+      dead: feedData.dead || 0,
+      locked: feedData.locked || 0
+    };
+
+    console.log(`Creating new show: ${show.title} (ID: ${show.id || 'no ID'})`);
+    this.shows.push(show);
+    
+    if (show.id) {
+      this.showsMap.set(show.id, show);
+    }
+    
+    return show;
+  }
+
+  getAllShows() {
+    return this.shows;
+  }
+
+  findBySlug(slug) {
+    return this.shows.find(show => show.slug === slug);
+  }
 }
 
-// Function to generate show MDX file
-function generateShowMdxFile(showData, showsDir) {
-  const folderPath = path.join(showsDir, showData.slug);
-  const indexPath = path.join(folderPath, "index.mdx");
+// File generators
+const fileGenerators = {
+  generateShowMdx(show) {
+    const folderPath = path.join(CONFIG.paths.showsDir, show.slug);
+    const indexPath = path.join(folderPath, "index.mdx");
 
-  // Create folder if it doesn't exist
-  if (!fs.existsSync(folderPath)) {
-    fs.mkdirSync(folderPath, { recursive: true });
-  }
+    utils.createDirectory(folderPath);
 
-  // Skip if index.mdx file already exists
-  if (fs.existsSync(indexPath)) {
-    return;
-  }
+    // Skip if file already exists
+    if (fs.existsSync(indexPath)) return;
 
-  // Format categories array for YAML
-  const categoriesYaml = showData.categories.length > 0 
-    ? showData.categories.map(cat => `"${cat}"`).join(', ')
-    : '"Uncategorized"';
-
-    
-  // Write the frontmatter and description to the index.mdx file
-  fs.writeFileSync(
-    indexPath,
-    `---
-title: "${showData.title}"
-description: "${showData.description.replace(/"/g, '\\"')}"
-speakers: [${showData.speakers}]
-feedUrl: "${showData.feedUrl}"
-websiteUrl: "${showData.websiteUrl}"
-imageReference: "${showData.imageUrl}"
-image: "${showData.imageUrl}"
-dateAdded: "${showData.dateAdded}"
-lastUpdate: "${showData.lastUpdate}"
+    const categoriesYaml = utils.formatYamlArray(show.categories);
+    const content = `---
+title: "${show.title}"
+description: "${show.description.replace(/"/g, '\\"')}"
+speakers: [${show.speakers}]
+feedUrl: "${show.feedUrl}"
+websiteUrl: "${show.websiteUrl}"
+imageReference: "${show.imageUrl}"
+image: "${show.imageUrl}"
+dateAdded: "${show.dateAdded}"
+lastUpdate: "${show.lastUpdate}"
 categories: [${categoriesYaml}]
-language: "${showData.language}"
-explicit: ${showData.explicit}
-episodeCount: ${showData.episodeCount}
+language: "${show.language}"
+explicit: ${show.explicit}
+episodeCount: ${show.episodeCount}
 localImages: false
-itunesId: ${showData.itunesId}
-guid: "${showData.guid}"
-medium: "${showData.medium}"
-dead: ${showData.dead}
-locked: ${showData.locked}
+itunesId: ${show.itunesId}
+guid: "${show.guid}"
+medium: "${show.medium}"
+dead: ${show.dead}
+locked: ${show.locked}
 type: "show"
 draft: false
 ---
 
-${showData.description}
-`
-  );
+${show.description}
+`;
 
-  console.log(`Created show: ${showData.title}`);
-}
+    fs.writeFileSync(indexPath, content);
+    console.log(`Created show: ${show.title}`);
+  },
 
-// Function to generate an MDX file with podcast episode data
-function generateEpisodeMdxFile(episode, showSlug, folderPath, predefinedSpeakers = null, showData = null) {
-  const episodeTitle = episode.title;
-  const episodeUrl = episode.episodeUrl;
-  const audioUrl = episode.audioUrl;
-  
-  // Convert HTML description to markdown
-  const episodeDescription = convertDescriptionToMarkdown(episode.description);
-  
-  const podcastTitle = episode.podcastTitle;
+  generateEpisodeMdx(episode, showSlug, predefinedSpeakers = null, showData = null) {
+    const sanitizedTitle = episode.title.replace(/[:"""#'''!?@_^%()]/gi, "");
+    const folderName = utils.generateSlug(sanitizedTitle).split("-").slice(0, 7).join("-");
+    const folderPath = path.join(CONFIG.paths.episodesDir, folderName);
+    const indexPath = path.join(folderPath, "index.mdx");
 
-  // Use predefined speakers if available, otherwise fall back to podcast title
-  const speakers = predefinedSpeakers && predefinedSpeakers.length > 0 
-    ? predefinedSpeakers 
-    : [podcastTitle || ""];
+    utils.createDirectory(folderPath);
 
-  const today = new Date();
-  const formattedDate = today.toISOString().split('T')[0];
+    // Skip if file already exists
+    if (fs.existsSync(indexPath)) return;
 
-  // Define the file path for the index.mdx file
-  const indexPath = path.join(folderPath, "index.mdx");
+    // Determine speakers
+    const speakers = predefinedSpeakers?.length > 0 
+      ? predefinedSpeakers 
+      : [episode.podcastTitle || ""];
 
-  // Create a folder if it doesn't exist
-  if (!fs.existsSync(folderPath)) {
-    fs.mkdirSync(folderPath, { recursive: true });
-  }
-
-  // Skip if index.mdx file already exists
-  if (fs.existsSync(indexPath)) {
-    return;
-  }
-
-  // Format speakers array for YAML
-  const speakersYaml = speakers.map(speaker => `"${speaker}"`).join(', ');
-
-  // Determine image to use - check for duplicates with show image
-  let imageReference = null;
-  
-  if (episode.episodeImageUrl) {
-    // If showData is provided, check against show's imageReference
-    if (showData && showData.imageUrl === episode.episodeImageUrl) {
-      // Episode image is same as show image, set to null to reference show's image
-      imageReference = null;
-    } else if (episode.episodeImageUrl !== episode.podcastImageUrl) {
-      // Episode has a different image from both show and podcast default
-      imageReference = `"${episode.episodeImageUrl}"`;
-    } else {
-      // Episode image is same as podcast image, set to null
-      imageReference = null;
+    // Determine image reference
+    let imageReference = null;
+    if (episode.episodeImageUrl) {
+      const isDifferentFromShow = !showData || showData.imageUrl !== episode.episodeImageUrl;
+      const isDifferentFromPodcast = episode.episodeImageUrl !== episode.podcastImageUrl;
+      
+      if (isDifferentFromShow && isDifferentFromPodcast) {
+        imageReference = `"${episode.episodeImageUrl}"`;
+      }
     }
-  }
-  // Write the frontmatter and description to the index.mdx file
-  fs.writeFileSync(
-    indexPath,
-    `---
-title: "${episodeTitle}"
+
+    const speakersYaml = utils.formatYamlArray(speakers);
+    const hasEpisodeImage = Boolean(imageReference);
+
+    const content = `---
+title: "${episode.title}"
 publishedAt: "${episode.publishedAt}"
-dateAdded: "${formattedDate}"
-episodeUrl: "${episodeUrl}"
-audioUrl: "${audioUrl}"
-podcastTitle: "${podcastTitle}"
+dateAdded: "${new Date().toISOString().split('T')[0]}"
+episodeUrl: "${episode.episodeUrl}"
+audioUrl: "${episode.audioUrl}"
+podcastTitle: "${episode.podcastTitle}"
 showSlug: "${showSlug}"
 image: ${imageReference || 'null'}
 localImages: false
@@ -272,218 +259,136 @@ episode: ${episode.episode || 'null'}
 explicit: ${episode.explicit}
 feedUrl: "${episode.feedUrl}"
 guid: "${episode.guid}"
-hasEpisodeImage: ${Boolean(episode.episodeImageUrl && episode.episodeImageUrl !== episode.podcastImageUrl && (!showData || showData.imageUrl !== episode.episodeImageUrl))}
+hasEpisodeImage: ${hasEpisodeImage}
 ---
-${episodeDescription}
-`
-  );
+${utils.convertHtmlToMarkdown(episode.description)}
+`;
 
-  console.log(`Created episode: ${episodeTitle}`);
-}
-
-// Helper function to find show data by slug
-function findShowBySlug(showSlug, showsData) {
-  if (!showSlug || !showsData || !Array.isArray(showsData)) {
-    return null;
+    fs.writeFileSync(indexPath, content);
+    console.log(`Created episode: ${episode.title}`);
   }
-  
-  return showsData.find(show => show && show.slug === showSlug) || null;
-}
+};
 
-// Function to retrieve an appropriate poster URL
-function getPosterUrl(thumbnails) {
-  if (thumbnails.maxres && thumbnails.maxres.url) {
-    return thumbnails.maxres.url;
-  } else if (thumbnails.high && thumbnails.high.url) {
-    return thumbnails.high.url;
-  } else {
-    return "";
-  }
-}
+// Data processors
+const dataProcessors = {
+  async processFeedSource(source, showManager, importedEpisodes) {
+    console.log(`Fetching show data from feed ${source.url}...`);
+    const { episodes, showData } = await getPodcastByFeedUrl(source.url, importedEpisodes);
+    const show = showManager.createShow(showData);
+    fileGenerators.generateShowMdx(show);
+    return { episodes, show, source };
+  },
 
-// Helper function to remove duplicates from shows array based on ID
-function removeDuplicateShows(shows) {
-  const seenIds = new Set();
-  const uniqueShows = [];
-  
-  for (const show of shows) {
-    if (show.id && seenIds.has(show.id)) {
-      console.log(`Removing duplicate show: ${show.title} (ID: ${show.id})`);
-      continue;
-    }
+  async processSearchSource(source, showManager, importedEpisodes) {
+    console.log(`Searching for podcast: ${source.term}...`);
+    const { episodes, showData } = await searchPodcastByTitle(source.term, importedEpisodes);
+    const show = showManager.createShow(showData);
+    fileGenerators.generateShowMdx(show);
+    return { episodes, show, source };
+  },
+
+  async processTrendingSource(source, showManager, importedEpisodes) {
+    console.log(`Fetching trending podcasts...`);
+    const trendingData = await getTrendingPodcasts(importedEpisodes, source.max || 10);
     
-    if (show.id) {
-      seenIds.add(show.id);
+    const results = [];
+    for (const item of trendingData) {
+      const show = showManager.createShow(item.showData);
+      fileGenerators.generateShowMdx(show);
+      results.push({ episodes: item.episodes, show, source });
     }
-    uniqueShows.push(show);
+    return results;
   }
-  
-  return uniqueShows;
-}
+};
 
-// Main function to retrieve podcast data and generate output files
+// Main execution
 async function main() {
   try {
     console.log("Start: Gathering podcast data... 🎙️");
 
+    // Load existing data
+    const importedEpisodes = utils.loadJsonFile(CONFIG.paths.episodes);
+    const importedShows = utils.loadJsonFile(CONFIG.paths.shows);
+    
+    const showManager = new ShowManager(importedShows);
     const allEpisodes = [];
-    const allShows = [];
-    const feedDataCollection = []; // Store feed data for episode processing
+    const feedDataCollection = [];
     let ignoredEpisodesCount = 0;
 
-    // PHASE 1: Process all shows first
+    // Phase 1: Process all sources and create shows
     console.log("Phase 1: Processing shows...");
     
-    for (const source of sourcesData) {
-      let feedData = null;
+    for (const source of CONFIG.sources) {
+      let results = [];
       
-      if (source.type === "podcast-feed") {
-        const feedUrl = source.url;
-        console.log(`Fetching show data from feed ${feedUrl}...`);
-        const { episodes: feedEpisodes, showData } = await getPodcastByFeedUrl(feedUrl, importedPodcastData);
-        feedData = { episodes: feedEpisodes, showData, source };
-      } else if (source.type === "podcast-search") {
-        const searchTerm = source.term;
-        console.log(`Searching for podcast: ${searchTerm}...`);
-        const { episodes: searchEpisodes, showData } = await searchPodcastByTitle(searchTerm, importedPodcastData);
-        feedData = { episodes: searchEpisodes, showData, source };
-      } else if (source.type === "trending") {
-        console.log(`Fetching trending podcasts...`);
-        const trendingData = await getTrendingPodcasts(importedPodcastData, source.max || 10);
-        
-        // Handle multiple shows from trending
-        for (const trendingItem of trendingData) {
-          feedDataCollection.push({ 
-            episodes: trendingItem.episodes, 
-            showData: trendingItem.showData, 
-            source 
-          });
-          
-          // Create show - check against both imported and newly created shows
-          const show = createOrUpdateShow(trendingItem.showData, [...importedShowsData, ...allShows]);
-          const showExists = allShows.find(s => s.id === show.id || s.slug === show.slug);
-          if (!showExists) {
-            allShows.push(show);
-            generateShowMdxFile(show, showsDir);
-          }
-        }
-        continue; // Skip the single feedData processing below
+      switch (source.type) {
+        case "podcast-feed":
+          results = [await dataProcessors.processFeedSource(source, showManager, importedEpisodes)];
+          break;
+        case "podcast-search":  
+          results = [await dataProcessors.processSearchSource(source, showManager, importedEpisodes)];
+          break;
+        case "trending":
+          results = await dataProcessors.processTrendingSource(source, showManager, importedEpisodes);
+          break;
       }
       
-      if (feedData) {
-        feedDataCollection.push(feedData);
-        
-        // Create or update show - check against both imported and newly created shows
-        const show = createOrUpdateShow(feedData.showData, [...importedShowsData, ...allShows]);
-        const showExists = allShows.find(s => s.id === show.id || s.slug === show.slug);
-        if (!showExists) {
-          allShows.push(show);
-          generateShowMdxFile(show, showsDir);
-        }
-      }
+      feedDataCollection.push(...results);
     }
 
-    // PHASE 2: Process all episodes with access to all shows
+    // Phase 2: Process episodes
     console.log("Phase 2: Processing episodes...");
     
-    // Combine imported shows with newly created shows for episode processing
-    const combinedShowsForEpisodes = [...importedShowsData, ...allShows];
-    
-    for (const feedData of feedDataCollection) {
-      const { episodes, showData, source } = feedData;
-      
-      // Find the show that was created in Phase 1
-      const show = combinedShowsForEpisodes.find(s => 
-        s.feedUrl === showData.url || s.slug === generateShowSlug(showData.title) || s.id === showData.id
-      );
-      
-      if (!show) {
-        console.warn(`Could not find show for episodes from ${showData.title}`);
-        continue;
-      }
-
+    for (const { episodes, show, source } of feedDataCollection) {
       for (const episode of episodes) {
-        const episodeUrl = episode.episodeUrl;
-
-        const sanitizedTitle = episode.title.replace(
-          /[:"""#'''!?@_^%()]/gi,
-          ""
-        );
-        const folderName = slugify(sanitizedTitle, {
-          lower: true,
-          remove: /[*+~.()'"!:@,;\[\]]/g,
-        })
-          .split("-")
-          .slice(0, 7)
-          .join("-");
-        const folderPath = path.join(outputDir, folderName);
-
-        // Check if the episode should be ignored
-        if (podcastsToIgnore.includes(episodeUrl) || podcastsToIgnore.includes(episode.guid)) {
-          console.log(`Skipping episode: ${sanitizedTitle} (ignored)`);
+        // Check if episode should be ignored
+        if (CONFIG.ignored.includes(episode.episodeUrl) || CONFIG.ignored.includes(episode.guid)) {
+          console.log(`Skipping episode: ${episode.title} (ignored)`);
           ignoredEpisodesCount++;
           continue;
         }
 
-        // Now we can find the show data because all shows have been processed
-        const showSlug = episode.showSlug || show.slug;
-        const showDataForEpisode = findShowBySlug(showSlug, combinedShowsForEpisodes);
-        
-        generateEpisodeMdxFile(episode, show.slug, folderPath, source.speakers, showDataForEpisode);
+        const showData = showManager.findBySlug(show.slug);
+        fileGenerators.generateEpisodeMdx(episode, show.slug, source.speakers, showData);
         allEpisodes.push(episode);
       }
     }
 
-    // Combine existing data with newly fetched data
-    const combinedPodcastData = [...importedPodcastData, ...allEpisodes];
-    const rawCombinedShowsData = [...importedShowsData, ...allShows];
+    // Combine and deduplicate data
+    const combinedEpisodes = [...importedEpisodes, ...allEpisodes];
+    const combinedShows = utils.removeDuplicatesById([...importedShows, ...showManager.getAllShows()]);
 
-    // Remove duplicates from shows based on ID
-    const combinedShowsData = removeDuplicateShows(rawCombinedShowsData);
+    // Sort data
+    combinedEpisodes.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+    combinedShows.sort((a, b) => a.title.localeCompare(b.title));
 
-    // Calculate the number of episodes and shows added
-    const episodesAdded = allEpisodes.length;
-    const showsAdded = allShows.length;
-    const duplicatesRemoved = rawCombinedShowsData.length - combinedShowsData.length;
+    // Write output files
+    fs.writeFileSync(CONFIG.paths.episodes, JSON.stringify(combinedEpisodes, null, 2));
+    fs.writeFileSync(CONFIG.paths.shows, JSON.stringify(combinedShows, null, 2));
 
-    // Sort episodes by publish date in descending order
-    combinedPodcastData.sort((a, b) => {
-      const dateA = new Date(a.publishedAt);
-      const dateB = new Date(b.publishedAt);
-      return dateB - dateA;
-    });
+    // Report results
+    const stats = {
+      episodesAdded: allEpisodes.length,
+      showsAdded: showManager.getAllShows().length - importedShows.length,
+      duplicatesRemoved: (importedShows.length + showManager.getAllShows().length) - combinedShows.length,
+      ignoredEpisodes: ignoredEpisodesCount,
+      totalEpisodes: combinedEpisodes.length,
+      totalShows: combinedShows.length
+    };
 
-    // Sort shows by title
-    combinedShowsData.sort((a, b) => a.title.localeCompare(b.title));
-
-    // Write the combined data to output files
-    fs.writeFileSync(
-      outputFilename,
-      JSON.stringify(combinedPodcastData, null, 2)
-    );
-
-    fs.writeFileSync(
-      showsOutputFilename,
-      JSON.stringify(combinedShowsData, null, 2)
-    );
-
-    // Calculate the new totals
-    const newTotalEpisodes = combinedPodcastData.length;
-    const newTotalShows = combinedShowsData.length;
-
-    console.log(`Podcast data written to ${outputFilename}`);
-    console.log(`Shows data written to ${showsOutputFilename}`);
-    console.log(`Episodes added: ${episodesAdded}`);
-    console.log(`Shows added: ${showsAdded}`);
-    console.log(`Duplicate shows removed: ${duplicatesRemoved}`);
-    console.log(`Ignored episodes: ${ignoredEpisodesCount}`);
-    console.log(`New total of episodes: ${newTotalEpisodes}`);
-    console.log(`New total of shows: ${newTotalShows}`);
+    console.log(`\nResults:`);
+    console.log(`Episodes added: ${stats.episodesAdded}`);
+    console.log(`Shows added: ${stats.showsAdded}`);
+    console.log(`Duplicate shows removed: ${stats.duplicatesRemoved}`);
+    console.log(`Ignored episodes: ${stats.ignoredEpisodes}`);
+    console.log(`Total episodes: ${stats.totalEpisodes}`);
+    console.log(`Total shows: ${stats.totalShows}`);
     console.log("End: Gathering podcast data. ✅");
+    
   } catch (error) {
     console.error("Error:", error.message);
+    process.exit(1);
   }
 }
 
-// Call the main function to start retrieving data
 main();
