@@ -1,5 +1,65 @@
 [
   {
+    "title": "Up-game your Figma design systems",
+    "description": "Variant systems scale badly. In this video, I showed a complete parametric button built with Figma variables. You get: control points (brands/size/type/shape/state/intent), variable alias graph, and a final output collection ready for binding and AI Plugin used: https://www.variablevisualizer.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TWMCn-Lsyxs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TWMCn-Lsyxs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TWMCn-Lsyxs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/TWMCn-Lsyxs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/TWMCn-Lsyxs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TWMCn-Lsyxs",
+    "publishedAt": "2025-08-20T16:22:19Z",
+    "privacyStatus": "public",
+    "duration": "0:27:09"
+  },
+  {
+    "title": "What's on the front of a UK passport?",
+    "description": "There are two animals - but what are they?\n\nTo apply for a new passport, or to renew old one, visit: https://www.gov.uk/apply-renew-passport",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yrC--bQ7AV8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yrC--bQ7AV8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yrC--bQ7AV8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=yrC--bQ7AV8",
+    "publishedAt": "2025-08-20T12:57:03Z",
+    "privacyStatus": "public",
+    "duration": "0:01:01"
+  },
+  {
     "title": "How I Make Figma Auto Layout Super Easy!",
     "description": "I show you the few parts of Figma’s auto-layout functionality that I actually find useful and all the other stuff you can ignore.\n\n⏩ CHAPTERS\n0:00 Intro\n1:38 Auto-layout: the quick version\n7:08 Auto-layout deep dive\n\n===\n\nI help designers make more money and get their flowers.\nTake my free 6-Day Revenue Roadmap email course: https://makemoremoney.design/6-day-revenue-roadmap\n\nFollow Dan:\nLinkedIn: https://www.linkedin.com/in/danmall/\nTwitter: https://x.com/danmall\nInstagram: https://www.instagram.com/danmallteaches\nWebsite: https://danmall.com/",
     "thumbnails": {

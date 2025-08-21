@@ -1,6 +1,7 @@
-require("dotenv").config();
-const fs = require("fs");
 const path = require("path");
+require("dotenv").config({ path: path.join(__dirname, '../../.env') });
+
+const fs = require("fs");
 const slugify = require("slugify");
 const TurndownService = require('turndown');
 const {
@@ -84,7 +85,7 @@ const utils = {
     return items.filter(item => {
       if (!item.id || seenIds.has(item.id)) {
         if (item.id && seenIds.has(item.id)) {
-          console.log(`Removing duplicate: ${item.title} (ID: ${item.id})`);
+          // console.log(`Removing duplicate: ${item.title} (ID: ${item.id})`);
         }
         return !item.id || !seenIds.has(item.id); // Keep items without IDs
       }
@@ -117,7 +118,7 @@ class ShowManager {
   createShow(feedData) {
     const existing = this.findExisting(feedData);
     if (existing) {
-      console.log(`Show already exists: ${feedData.title} (ID: ${feedData.id || 'no ID'})`);
+      // console.log(`Show already exists: ${feedData.title} (ID: ${feedData.id || 'no ID'})`);
       return existing;
     }
 
@@ -271,13 +272,20 @@ ${utils.convertHtmlToMarkdown(episode.description)}
 
 // Data processors
 const dataProcessors = {
-  async processFeedSource(source, showManager, importedEpisodes) {
-    console.log(`Fetching show data from feed ${source.url}...`);
-    const { episodes, showData } = await getPodcastByFeedUrl(source.url, importedEpisodes);
-    const show = showManager.createShow(showData);
-    fileGenerators.generateShowMdx(show);
-    return { episodes, show, source };
-  },
+  
+async processFeedSource(source, showManager, importedEpisodes) {
+  const { episodes, showData } = await getPodcastByFeedUrl(source.url, importedEpisodes);
+  
+  if (showData && showData.title) {
+    console.log(`🔄 ${showData.title}`);
+  } else {
+    console.log(`Fetching show data from feed ${source.url}... (no title found)`);
+  }
+  
+  const show = showManager.createShow(showData);
+  fileGenerators.generateShowMdx(show);
+  return { episodes, show, source };
+},
 
   async processSearchSource(source, showManager, importedEpisodes) {
     console.log(`Searching for podcast: ${source.term}...`);

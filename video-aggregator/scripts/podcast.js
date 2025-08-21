@@ -37,7 +37,7 @@ function getPodcastArtwork(feed) {
   return "";
 }
 
-// Function to generate podcast API headers
+// Function to generate podcast API headers with debugging
 function generateApiHeaders() {
   const apiHeaderTime = Math.floor(Date.now() / 1000);
 
@@ -47,12 +47,20 @@ function generateApiHeaders() {
   sha1Hash.update(data4Hash);
   const hash4Header = sha1Hash.digest('hex');
 
-  return {
+  // Add debugging
+  // console.log('API Headers Debug:');
+  // console.log('Timestamp:', apiHeaderTime);
+  // console.log('API Key:', API_KEY ? `${API_KEY.substring(0, 8)}...` : 'MISSING');
+  // console.log('Hash:', hash4Header.substring(0, 16) + '...');
+
+  const headers = {
     'X-Auth-Date': apiHeaderTime.toString(),
     'X-Auth-Key': API_KEY,
     'Authorization': hash4Header,
-    'User-Agent': 'YourAppName/1.0' // Consider using a more specific User-Agent
+    'User-Agent': 'PodcastAggregator/1.0'
   };
+
+  return headers;
 }
 
 // Function to search for podcasts by feed URL
