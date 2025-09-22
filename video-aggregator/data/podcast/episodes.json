@@ -1,5 +1,33 @@
 [
   {
+    "title": "On Theme S1 Minisode 3: This summer's AI vibe shift and conference news!",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Text the show your thoughts!</a></p><p>Surprise minisode! In this quick episode, hear a few ways AI tools are useful for design systems <em>now</em>, my new favorite design-eng handoff tool, and three can't-miss industry events this fall.</p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://www.buzzsprout.com/2417527/episodes/17864420-on-theme-s1-minisode-3-this-summer-s-ai-vibe-shift-and-conference-news.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2417527/episodes/17864420-on-theme-s1-minisode-3-this-summer-s-ai-vibe-shift-and-conference-news.mp3",
+    "publishedAt": "2025-09-21T20:00:00.000Z",
+    "duration": "0:19:31",
+    "durationSeconds": 1171,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 42817921876,
+    "guid": "Buzzsprout-17864420",
+    "season": 1,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
     "title": "Ep 86: I'm New to the TEAM",
     "description": "<p>Davy talks special co-host, Guy Segal, about his first month at his new design systems job at Atlassian, and the fun of being a newbie after the first 30 days, when the going really starts getting tough.</p>",
     "podcastTitle": "Design System Office Hours",
