@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 87: Thinking Like an Engineer",
+    "description": "<p>Davy and PJ talk about how amongst many good engineering traits, the rigor, and ways they work should be more adopted by product designers and specially us, maintainers. If we can track, version, and test our work as rigorously as engineers, we would be in a higher quality bar.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/109001953/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-30%2Fdc64c1a5-2ff8-fcda-47bf-73d8988f271d.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/109001953/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-30%2Fdc64c1a5-2ff8-fcda-47bf-73d8988f271d.mp3",
+    "publishedAt": "2025-09-30T07:05:00.000Z",
+    "duration": "0:28:01",
+    "durationSeconds": 1681,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 43184043210,
+    "guid": "d59b3208-0dd0-483f-9b2a-fbe0228b9466",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "On Theme S1 Minisode 3: This summer's AI vibe shift and conference news!",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Text the show your thoughts!</a></p><p>Surprise minisode! In this quick episode, hear a few ways AI tools are useful for design systems <em>now</em>, my new favorite design-eng handoff tool, and three can't-miss industry events this fall.</p>",
     "podcastTitle": "On Theme: Design Systems in Depth",
@@ -36,6 +64,34 @@
     "publishedAt": "2025-09-18T17:05:52.000Z",
     "duration": "0:36:07",
     "durationSeconds": 2167,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 42700468003,
+    "guid": "a90c1647-ee33-4278-8bb9-fd8d4f8e4d1a",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Ep 86: I'm New to the TEAM w/ Guy Segal",
+    "description": "<p>Davy talks special co-host, Guy Segal, about his first month at his new design systems job at Atlassian, and the fun of being a newbie after the first 30 days, when the going really starts getting tough.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/108492472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-30%2Fe4204e2f-51da-602b-3eec-29433a8a5635.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/108492472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-30%2Fe4204e2f-51da-602b-3eec-29433a8a5635.mp3",
+    "publishedAt": "2025-09-18T17:05:52.000Z",
+    "duration": "0:35:57",
+    "durationSeconds": 2157,
     "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
     "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
     "thumbnails": {
@@ -148,6 +204,34 @@
     "publishedAt": "2025-09-04T07:00:00.000Z",
     "duration": "0:37:44",
     "durationSeconds": 2264,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 42071413903,
+    "guid": "7ef4a515-cbfd-47d0-8ce0-3b1632498101",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Ep 85: Design Systems Ambassador",
+    "description": "<p>Davy and PJ talk about the role of our designers on the ground, we call them our ambassadors. These good eggs not only inform our day-to-day product improvements, but help keep up informed across the org.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/107784393/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-30%2F8e28623b-b39f-2af9-9941-22f71cb865c9.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/107784393/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-30%2F8e28623b-b39f-2af9-9941-22f71cb865c9.mp3",
+    "publishedAt": "2025-09-04T07:00:00.000Z",
+    "duration": "0:37:32",
+    "durationSeconds": 2252,
     "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
     "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
     "thumbnails": {
