@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: Bad UX for Fun",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/6i760qob6cr4saei/yt_video_R9z-ijkMJAk_x32d4q.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/6i760qob6cr4saei/yt_video_R9z-ijkMJAk_x32d4q.mp3",
+    "publishedAt": "2025-10-10T20:42:31.000Z",
+    "duration": "0:02:15",
+    "durationSeconds": 135,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/abb7139b02a7d988a4f80919229e0aea.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/abb7139b02a7d988a4f80919229e0aea.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 43628651981,
+    "guid": "yt:video:R9z-ijkMJAk",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Storefront & Warehouse",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
