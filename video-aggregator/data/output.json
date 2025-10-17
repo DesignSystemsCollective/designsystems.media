@@ -1,5 +1,30 @@
 [
   {
+    "title": "Vibe Code with Figma Make and Figma MCP",
+    "description": "Learn how to vibe code Design System components with Laura Fehre, Designer Advocate at Figma 🎨\n\nAI is changing how we build and scale Design Systems\nAlmost every new Design System job now lists AI skills as a must-have\nThe best time to upskill is now 💪\n\nIn this session you’ll learn:\n✅ How vibe coding connects Figma, AI, and real components\n✅ How experts automate and speed up their Design System workflows\n✅ How to start building your own AI-powered components\n\nJoin our upcoming online events and learn from real-world examples:\n⭐️ Vibe Coding Jams (online) → https://luma.com/embed/calendar/cal-STH3OlGbIUGAReD/events?tag=Vibe%20Coding\n⭐️ Vibe Coding 2-Day Conference (online) → https://www.intodesignsystems.com/\n\nSubscribe for more practical Design System and AI tutorials ✨\n#DesignSystems #AI #Figma #VibeCoding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Yv6ESghltSE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Yv6ESghltSE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Yv6ESghltSE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Yv6ESghltSE",
+    "publishedAt": "2025-10-15T20:23:53Z",
+    "privacyStatus": "public",
+    "duration": "0:39:51"
+  },
+  {
     "title": "Design Systems London # 12 - Q&A session",
     "description": "Q&A session with Mary Godservant, Raul Menezes and Venessa Bennett",
     "thumbnails": {
