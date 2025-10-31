@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 89: Figma Slots Conference",
+    "description": "<p>Davy talks to PJ about his trip to see Figma's slots conference, formerly known as Schema. We talk about the releases and rejoice on a focus on the main editor again.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/110427660/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-30%2F5a73c75b-23be-85fd-ac0b-4f7891e07fc0.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/110427660/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-30%2F5a73c75b-23be-85fd-ac0b-4f7891e07fc0.mp3",
+    "publishedAt": "2025-10-30T07:30:26.000Z",
+    "duration": "0:40:02",
+    "durationSeconds": 2402,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 44482630480,
+    "guid": "47d8d806-a227-462b-b15b-86234ca643b2",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 88: Stay in Learning Mode w/ Ben Callahan",
     "description": "<p>Davy talks to friend of the program, Ben Callahan from Sparkbox about his series The Question, which brings together design system designers bi-weekly to share and learn collaboratively in a 60-min workshop. </p>",
     "podcastTitle": "Design System Office Hours",
