@@ -1,5 +1,33 @@
 [
   {
+    "title": "On Theme S1 Minisode 4: Converge conference 2025 Recap",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Text the show your thoughts!</a></p><p>I'm back from Zeroheight's Converge conference in Bristol, UK, with my recap and thoughts. In this minisode, find out my three major themes from the event: reducing complexity, the shift from code to design, and the narratives \"framing our future\". </p><p><br/></p><p><b>Resources & Links:</b></p><ul><li><a href='https://converge.zeroheight.com/'>Zeroheight's Converge</a></li><li><a href='https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/'>3 practical ways LLMs can support design systems teams today</a>, on the Zeroheight blog</li><li><a href='https://www.elyseholladay.com/talks/promises'>From Promises to Practice: the Future of Design Systems, my talk at Converge </a>(video coming soon)</li><li><a href='https://www.linkedin.com/feed/update/urn:li:activity:7389780197740433408/'>John Voss's talk Framing the Future</a> (coming soon)</li><li><a href='https://qz.com/tech-layoffs-tax-code-trump-section-174-microsoft-meta-1851783502'>US Section 174 R&D Tax explained</a></li></ul>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://www.buzzsprout.com/2417527/episodes/18166706-on-theme-s1-minisode-4-converge-conference-2025-recap.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2417527/episodes/18166706-on-theme-s1-minisode-4-converge-conference-2025-recap.mp3",
+    "publishedAt": "2025-11-10T21:00:00.000Z",
+    "duration": "0:30:05",
+    "durationSeconds": 1805,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 44984061618,
+    "guid": "Buzzsprout-18166706",
+    "season": 1,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
     "title": "Ep 89: Figma Slots Conference",
     "description": "<p>Davy talks to PJ about his trip to see Figma's slots conference, formerly known as Schema. We talk about the releases and rejoice on a focus on the main editor again.</p>",
     "podcastTitle": "Design System Office Hours",
