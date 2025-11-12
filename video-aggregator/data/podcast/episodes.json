@@ -1,5 +1,33 @@
 [
   {
+    "title": "137. Why You Shouldn’t Aim for Perfect: Building Design Systems That Deliver Business Value with Noelle Lansford",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>If you’ve ever struggled to balance perfection with business reality, this episode is for you. In this episode of the Design Systems Podcast, Chris Strahl talks with Noelle Lansford, founder of <em>Shep</em>, about why chasing the “perfect system” often breaks more than it fixes. Drawing on her experience across startups and Fortune 5 companies, Noelle argues that design systems succeed when they serve people and the business—not when they chase architectural purity. She and Chris dig into the realities of relational alignment between design, engineering, and product, the shift from component factories to consulting mindsets, and what AI means for the next generation of design leadership.</p><p>Here’s what stood out:</p><ul><li>Perfection shouldn’t be your goal</li><li>Design systems teams should pursue an infrastructure + enablement structure</li><li>Systems of systems thinking works—if the cultural conditions are right</li><li>AI makes iteration faster, which makes human oversight more essential</li></ul><p>View the <a href='https://docs.google.com/document/d/1AyrneJiEVHc3d9Z8D2hRWmjYFkZz6JshX7BGUt8sIHU/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/noellelansford/'><b>Noelle Lansford</b> </a>began her career as an engineer on design system teams before transitioning into design, where she discovered her passion for connecting the technical and human sides of digital product creation. Today, as the founder of <a href='https://www.linkedin.com/company/howdyshep/'><b>Shep</b></a>, a design systems consultancy that partners with organizations from early-stage startups to Fortune 5 companies, Noelle helps bridge the gap between design, engineering, and business strategy. Her work focuses on creating systems that balance structure with flexibility, prioritize people over process, and deliver lasting business value instead of chasing perfection.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18165074-137-why-you-shouldn-t-aim-for-perfect-building-design-systems-that-deliver-business-value-with-noelle-lansford.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18165074-137-why-you-shouldn-t-aim-for-perfect-building-design-systems-that-deliver-business-value-with-noelle-lansford.mp3",
+    "publishedAt": "2025-11-11T17:00:00.000Z",
+    "duration": "0:44:45",
+    "durationSeconds": 2685,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://feeds.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 45022289148,
+    "guid": "Buzzsprout-18165074",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "On Theme S1 Minisode 4: Converge conference 2025 Recap",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Text the show your thoughts!</a></p><p>I'm back from Zeroheight's Converge conference in Bristol, UK, with my recap and thoughts. In this minisode, find out my three major themes from the event: reducing complexity, the shift from code to design, and the narratives \"framing our future\". </p><p><br/></p><p><b>Resources & Links:</b></p><ul><li><a href='https://converge.zeroheight.com/'>Zeroheight's Converge</a></li><li><a href='https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/'>3 practical ways LLMs can support design systems teams today</a>, on the Zeroheight blog</li><li><a href='https://www.elyseholladay.com/talks/promises'>From Promises to Practice: the Future of Design Systems, my talk at Converge </a>(video coming soon)</li><li><a href='https://www.linkedin.com/feed/update/urn:li:activity:7389780197740433408/'>John Voss's talk Framing the Future</a> (coming soon)</li><li><a href='https://qz.com/tech-layoffs-tax-code-trump-section-174-microsoft-meta-1851783502'>US Section 174 R&D Tax explained</a></li></ul>",
     "podcastTitle": "On Theme: Design Systems in Depth",
