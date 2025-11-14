@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 90: WTF is Craft",
+    "description": "<p>Davy and PJ talk about the term \"craft,\" emphasizing that high-quality design work requires designers to understand engineering constraints and that a good design system needs to provide education, not just components and prototypes.</p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/111107230/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-13%2Ffe3adde9-2765-6e45-5a9b-903c81151939.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/111107230/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-13%2Ffe3adde9-2765-6e45-5a9b-903c81151939.mp3",
+    "publishedAt": "2025-11-13T08:05:00.000Z",
+    "duration": "0:31:27",
+    "durationSeconds": 1887,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 45105528560,
+    "guid": "701d5958-a046-46d7-b654-dc38ea517aa0",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "137. Why You Shouldn’t Aim for Perfect: Building Design Systems That Deliver Business Value with Noelle Lansford",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>If you’ve ever struggled to balance perfection with business reality, this episode is for you. In this episode of the Design Systems Podcast, Chris Strahl talks with Noelle Lansford, founder of <em>Shep</em>, about why chasing the “perfect system” often breaks more than it fixes. Drawing on her experience across startups and Fortune 5 companies, Noelle argues that design systems succeed when they serve people and the business—not when they chase architectural purity. She and Chris dig into the realities of relational alignment between design, engineering, and product, the shift from component factories to consulting mindsets, and what AI means for the next generation of design leadership.</p><p>Here’s what stood out:</p><ul><li>Perfection shouldn’t be your goal</li><li>Design systems teams should pursue an infrastructure + enablement structure</li><li>Systems of systems thinking works—if the cultural conditions are right</li><li>AI makes iteration faster, which makes human oversight more essential</li></ul><p>View the <a href='https://docs.google.com/document/d/1AyrneJiEVHc3d9Z8D2hRWmjYFkZz6JshX7BGUt8sIHU/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/noellelansford/'><b>Noelle Lansford</b> </a>began her career as an engineer on design system teams before transitioning into design, where she discovered her passion for connecting the technical and human sides of digital product creation. Today, as the founder of <a href='https://www.linkedin.com/company/howdyshep/'><b>Shep</b></a>, a design systems consultancy that partners with organizations from early-stage startups to Fortune 5 companies, Noelle helps bridge the gap between design, engineering, and business strategy. Her work focuses on creating systems that balance structure with flexibility, prioritize people over process, and deliver lasting business value instead of chasing perfection.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
     "podcastTitle": "Design Systems Podcast",
