@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: Discord Hype",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/ss8pl4u3gwijo635/yt_video_v66eFjLy_LU_8ihnx6.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/ss8pl4u3gwijo635/yt_video_v66eFjLy_LU_8ihnx6.mp3",
+    "publishedAt": "2025-11-14T21:21:01.000Z",
+    "duration": "0:03:32",
+    "durationSeconds": 212,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/35dff4299c3597596f4d88fffed1663b.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/35dff4299c3597596f4d88fffed1663b.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 45210946491,
+    "guid": "yt:video:v66eFjLy_LU",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 90: WTF is Craft",
     "description": "<p>Davy and PJ talk about the term \"craft,\" emphasizing that high-quality design work requires designers to understand engineering constraints and that a good design system needs to provide education, not just components and prototypes.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
@@ -84,6 +112,34 @@
     "type": "bonus"
   },
   {
+    "title": "Wireframe Live: Bias in Design",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/6qtxhegswf5tipff/yt_video_kvEgREX37SE_z33crg.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/6qtxhegswf5tipff/yt_video_kvEgREX37SE_z33crg.mp3",
+    "publishedAt": "2025-11-04T21:33:08.000Z",
+    "duration": "0:58:17",
+    "durationSeconds": 3497,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/452fa089ff4bb4413b2608e494e10484.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/452fa089ff4bb4413b2608e494e10484.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 45210946492,
+    "guid": "yt:video:kvEgREX37SE",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 89: Figma Slots Conference",
     "description": "<p>Davy talks to PJ about his trip to see Figma's slots conference, formerly known as Schema. We talk about the releases and rejoice on a focus on the main editor again.</p>",
     "podcastTitle": "Design System Office Hours",
@@ -134,6 +190,34 @@
     "feedId": 4813998,
     "episodeId": 43818068719,
     "guid": "ed281a4a-24af-47fd-b52d-904e74a161fa",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Tokenscript",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/8el9fpjour4wv0kp/yt_video_rq-05FV8-X0_58zi5g.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/8el9fpjour4wv0kp/yt_video_rq-05FV8-X0_58zi5g.mp3",
+    "publishedAt": "2025-10-14T20:31:55.000Z",
+    "duration": "0:03:21",
+    "durationSeconds": 201,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/4f6230ada324b1ca96fd0f5b91cd45c2.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/4f6230ada324b1ca96fd0f5b91cd45c2.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 45210946493,
+    "guid": "yt:video:rq-05FV8-X0",
     "season": null,
     "episode": null,
     "explicit": false,
