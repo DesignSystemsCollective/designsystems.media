@@ -1,5 +1,405 @@
 [
   {
+    "title": "Design token interfaces by James Nash",
+    "description": "James Nash (Lead Design System Engineer, Investec) explored how the concept of an \"interface\" in programming can be applied to the world of design tokens, and how, if done right, this can help us better manage theming, evolve our design systems, and perhaps even open the door to new kinds of tools.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lcjc0oQZBIk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lcjc0oQZBIk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lcjc0oQZBIk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lcjc0oQZBIk",
+    "publishedAt": "2025-11-19T09:09:19Z",
+    "privacyStatus": "public",
+    "duration": "0:23:39"
+  },
+  {
+    "title": "What to do when the future turns your Design System team upside down by Diane Larsen",
+    "description": "With 20+ years in brand, visual, and UI design, Diane shaped digital experiences across agencies, startups, and global organisations. Her focus now is on enabling teams and scaling impact through systems thinking.\n\nAt our DSL event, Diane Larsen talked about \"What to do when the future turns your Design System team upside down\", reflecting on how we’re navigating the shift and building a team ready for what’s next.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/k-36wHCmKNE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/k-36wHCmKNE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/k-36wHCmKNE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=k-36wHCmKNE",
+    "publishedAt": "2025-11-17T10:25:28Z",
+    "privacyStatus": "public",
+    "duration": "0:21:58"
+  },
+  {
+    "title": "AI-dapt or perish: Why the only constant in Design is change by Matt Bailey",
+    "description": "With two decades of experience across design, product, and systems thinking, Matt Bailey thrives at the intersection of design, technology, and change — aligning people, processes, and platforms so good ideas move faster. He’s passionate about helping designers thrive through change, embracing imperfection, staying curious, and using emerging tools like AI to amplify creativity while keeping people at the heart of it all.\n\nAt our DSL event, he talked about finding calm in the chaos, embracing imperfection, and remembering that the most human thing we can do is keep learning.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IlXWkpJusYk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IlXWkpJusYk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IlXWkpJusYk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=IlXWkpJusYk",
+    "publishedAt": "2025-11-13T12:43:56Z",
+    "privacyStatus": "public",
+    "duration": "0:26:09"
+  },
+  {
+    "title": "Student budgeting tips",
+    "description": "Calling all students! 🚨\n\nThink you’re good at budgeting? We spoke to students to find out their best budgeting tips to help manage money at uni.\n\nWatch and comment below with your tips 👀 👉",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/h8dzGNsS31Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/h8dzGNsS31Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/h8dzGNsS31Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=h8dzGNsS31Q",
+    "publishedAt": "2025-11-07T12:01:23Z",
+    "privacyStatus": "public",
+    "duration": "0:01:10"
+  },
+  {
+    "title": "Introducing Supernova.io 3.0 - vibes for real product teams",
+    "description": "Step inside the Supernova Portal and see how it is transforming the way product teams build. In this overview, our CEO shows how Supernova shortens your entire product development journey. From idea to prototype, spec, and final feature, it saves a fraction of the usual time.\n\nBuilt on the world’s most powerful design system platform and trusted by thousands of leading product teams, Supernova helps you deliver faster, innovate smarter, and bring ideas to life like never before.\n\nLearn how you can craft truly impactful features, generate product documents and win stakeholder buy-in faster using Supernova! 🚀\n\nIn this video:\n[0:00] Introduction\n[0:18] Exploring ideas & prototyping\n[0:52] Collaboration with product teams\n[1:27] Threads & parallel explorations\n[1:44] Branching & merging\n[2:35] Product specifications\n[2:50] Suggestions\n[3:15] Code export\n[3:35] Design systems\n[4:05] Generating product documents\n[5:00] Iterative workflows\n[5:50] Outro\n\n----------",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7IY9w0JbZH8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7IY9w0JbZH8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7IY9w0JbZH8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=7IY9w0JbZH8",
+    "publishedAt": "2025-11-04T07:02:00Z",
+    "privacyStatus": "public",
+    "duration": "0:06:10"
+  },
+  {
+    "title": "How to name and automate Design Tokens - Into Design Systems Conference",
+    "description": "#designsystems #designtokens\nPresented at: Into Design Systems Conference \n\nPresenters:\nSam Gordashko - Freelance Design Systems Lead (https://bento.me/samiam)\nRomina Kavcic - Freelance Design Systems Lead (https://thedesignsystem.guide/design-tokens-naming-playbook)\n\n\n⭐️ Want to become a Design Systems expert?\n👉 Get 20 hours of practical content on Design Systems, Design Tokens, Accessibility and more — all from leading experts. https://www.intodesignsystems.com/conference-2025\n\nAbout Into Design Systems:\nInto Design Systems is the largest Design Systems conference in the world, bringing together experts in Design Systems, Design Tokens, AI, automation and hands-on practices — all within a friendly community of thousands of Design System friends.\n\n⭐️ Upcoming jams and meetups: https://luma.com/intodesignsystems\n⭐️ Into Design Systems Vibe Coding Conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/irsPXBHjPXs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/irsPXBHjPXs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/irsPXBHjPXs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=irsPXBHjPXs",
+    "publishedAt": "2025-10-28T18:00:06Z",
+    "privacyStatus": "public",
+    "duration": "1:23:50"
+  },
+  {
+    "title": "Design tokens and interoperability: What's to come - DSL #13 in Paris",
+    "description": "\"Design tokens and interoperability: What's to come\" with Steve Dodier-Lazaro (Freelance engineer - Design Systems)\n\nSteve shared a recurring challenge they face with design tokens: moving them seamlessly across an entire tooling ecosystem.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I38zgn2p5KA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I38zgn2p5KA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I38zgn2p5KA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=I38zgn2p5KA",
+    "publishedAt": "2025-10-27T16:04:11Z",
+    "privacyStatus": "public",
+    "duration": "0:22:33"
+  },
+  {
+    "title": "The unexpected odyssey of building a money input - DSL #13 in Paris",
+    "description": "\"The unexpected odyssey of building a money input\" with Vincent Manzoni (Product Designer, Société Générale)\n\nIn this talk, Vincent shared what he learned along the way: the hidden complexities of input design, the challenges of replacing existing implementations, and strategies for managing Design System updates at scale.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SCVH-78vFsU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SCVH-78vFsU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SCVH-78vFsU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SCVH-78vFsU",
+    "publishedAt": "2025-10-27T16:04:08Z",
+    "privacyStatus": "public",
+    "duration": "0:20:47"
+  },
+  {
+    "title": "Scaling Design—Connecting digital, industrial, and services for end-to-end experiences - DSL #13",
+    "description": "\"Scaling Design—Connecting digital, industrial, and services for end-to-end experiences\" with Estelle Pelleterat De Borde (Design System Lead, Thales)\n\nDuring her talk, Estelle gave an inside look at the Thales Design System, and explored how they enhance every touchpoint: from booking to in-flight entertainment, leveraging storyboards, service blueprints, and deep cross-functional collaboration.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XaU-FD7pu58/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XaU-FD7pu58/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XaU-FD7pu58/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XaU-FD7pu58",
+    "publishedAt": "2025-10-27T16:04:05Z",
+    "privacyStatus": "public",
+    "duration": "0:24:58"
+  },
+  {
+    "title": "Balancing act: Building a scalable yet intuitive Design System - DSL #13 in Paris",
+    "description": "\"Balancing act: Building a scalable yet intuitive Design System\" with Abla Ammami (Senior Frontend Engineer), Benoît Lucet (Senior Staff Product Manager) and Laurine Devergne (Senior Product Designer - Design System) at Ledger\n\nAbla Ammami, Benoît Lucet and Laurine Devergne explored how the Ledger Design System prioritises the experience of the teams using it, while preserving its scalability and power to grow.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9oGWHhSzXe8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9oGWHhSzXe8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9oGWHhSzXe8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9oGWHhSzXe8",
+    "publishedAt": "2025-10-27T16:04:01Z",
+    "privacyStatus": "public",
+    "duration": "0:28:08"
+  },
+  {
+    "title": "DSL # 13 in Paris - Full recording",
+    "description": "Full recording of our DSL #13 in Paris, organised by YLD and sponsored by Ledger\n\n00:00 Intros\n15:43 \"Balancing act: Building a scalable yet intuitive Design System\" with Abla Ammami (Senior Frontend Engineer), Benoît Lucet (Senior Staff Product Manager) and Laurine Devergne (Senior Product Designer - Design System) at Ledger\n43:28 \"Scaling Design—Connecting digital, industrial, and services for end-to-end experiences\" with Estelle Pelleterat De Borde (Design System Lead, Thales)\n1:08:38 \"The unexpected odyssey of building a money input\" with Vincent Manzoni (Product Designer, Société Générale)\n1:29:10 \"Design tokens and interoperability: What's to come\" with Steve Dodier-Lazaro (Freelance engineer - Design Systems)\n1:51:35 Wrap up",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4PbE1pbZFUY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4PbE1pbZFUY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4PbE1pbZFUY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4PbE1pbZFUY",
+    "publishedAt": "2025-10-27T16:03:58Z",
+    "privacyStatus": "public",
+    "duration": "1:57:36"
+  },
+  {
+    "title": "When are the clocks changing?",
+    "description": "The clocks are changing: forwards or backwards? Comment below👇\n\nWatch to find out more 👀 ⏰",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2CzCZ44T058/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2CzCZ44T058/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2CzCZ44T058/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2CzCZ44T058",
+    "publishedAt": "2025-10-25T11:00:08Z",
+    "privacyStatus": "public",
+    "duration": "0:01:05"
+  },
+  {
+    "title": "Algorithmic Design Systems - Into Design Systems Conference 2025",
+    "description": "Presenter: Marco-Christian Krenn, Tokens Studio \nPresented at: Into Design Systems Conference 2025\n\n💪 Want to become an expert in Design Systems?\nGet access to 20 hours of hands-on content from our online conference:\nhttps://www.intodesignsystems.com/conference-2025\n\nWant to learn how to vibe code Design Systems?\n⭐️ Upcoming jams and meetups: https://luma.com/intodesignsystems\n⭐️ Into Design Systems Vibe Coding Conference: https://www.intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TJgzjNWOUWM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TJgzjNWOUWM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TJgzjNWOUWM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=TJgzjNWOUWM",
+    "publishedAt": "2025-10-23T12:20:43Z",
+    "privacyStatus": "public",
+    "duration": "0:53:33"
+  },
+  {
+    "title": "32 Design Client Leads in a Day?!",
+    "description": "If you’re lucky enough to get a big influx of leads, what do you do about it? Freelancer and agency owner coach Dan Mall shares 3 strategies for handling inquiries in a way that grow your business the way you want.\n\n⏩ CHAPTERS\n\n0:00 Intro\n0:42 Don’t staff up\n1:54 Do nothing\n4:20 Raise prices\n5:49 Money math\n\n===\n\nI help designers make more money and get their flowers.\n\nNeed revenue fast without a funnel, large audience, or fancy pitch deck? Take my free “6-Day Revenue Roadmap” email course: https://make-more-money.link/viKZGyy\n\nReady to do the work to take your freelancer or agency business to the next level? Apply to join the Make More Money 3-month group coaching program: https://make-more-money.link/Wo9837E\n\nFollow Dan:\nLinkedIn: https://www.linkedin.com/in/danmall/\nTwitter: https://x.com/danmall\nInstagram: https://www.instagram.com/danmallteaches\nWebsite: https://danmall.com/\n\n#danmallteaches #freelance #freelancedesign #freelancedesigner #agencyowner #designbusiness",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/PIt04Fo-GcY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/PIt04Fo-GcY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/PIt04Fo-GcY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=PIt04Fo-GcY",
+    "publishedAt": "2025-10-18T13:01:00Z",
+    "privacyStatus": "public",
+    "duration": "0:14:28"
+  },
+  {
+    "title": "What's the difference between flood alerts and warnings?",
+    "description": "You can sign up for flood warnings and learn more about preparing for a flood on GOV.UK",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3C6cNjIpado/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3C6cNjIpado/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3C6cNjIpado/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3C6cNjIpado",
+    "publishedAt": "2025-10-17T13:21:55Z",
+    "privacyStatus": "public",
+    "duration": "0:01:12"
+  },
+  {
+    "title": "Vibe Code with Figma Make and Figma MCP",
+    "description": "Learn how to vibe code Design System components with Laura Fehre, Designer Advocate at Figma 🎨\n\nAI is changing how we build and scale Design Systems\nAlmost every new Design System job now lists AI skills as a must-have\nThe best time to upskill is now 💪\n\nIn this session you’ll learn:\n✅ How vibe coding connects Figma, AI, and real components\n✅ How experts automate and speed up their Design System workflows\n✅ How to start building your own AI-powered components\n\nJoin our upcoming online events and learn from real-world examples:\n⭐️ Vibe Coding Jams (online) → https://luma.com/embed/calendar/cal-STH3OlGbIUGAReD/events?tag=Vibe%20Coding\n⭐️ Vibe Coding 2-Day Conference (online) → https://www.intodesignsystems.com/\n\nSubscribe for more practical Design System and AI tutorials ✨\n#DesignSystems #AI #Figma #VibeCoding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Yv6ESghltSE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Yv6ESghltSE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Yv6ESghltSE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Yv6ESghltSE",
+    "publishedAt": "2025-10-15T20:23:53Z",
+    "privacyStatus": "public",
+    "duration": "0:39:51"
+  },
+  {
     "title": "Design Systems London # 12 - Q&A session",
     "description": "Q&A session with Mary Godservant, Raul Menezes and Venessa Bennett",
     "thumbnails": {
