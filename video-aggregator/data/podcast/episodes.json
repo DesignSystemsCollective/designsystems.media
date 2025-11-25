@@ -28,6 +28,34 @@
     "type": "full"
   },
   {
+    "title": "Wireframe Live: You Down With MCP?",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/5hiahb0y2wfwuh3l/yt_video_b9Zk5yDaino_h4ncbj.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/5hiahb0y2wfwuh3l/yt_video_b9Zk5yDaino_h4ncbj.mp3",
+    "publishedAt": "2025-11-17T22:40:49.000Z",
+    "duration": "0:36:17",
+    "durationSeconds": 2177,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6a04811678f3ed213198c1d79e3d29ef.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6a04811678f3ed213198c1d79e3d29ef.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 45686102614,
+    "guid": "yt:video:b9Zk5yDaino",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Text Alignment",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
