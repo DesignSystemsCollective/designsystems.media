@@ -1,5 +1,33 @@
 [
   {
+    "title": "Are we finally at the point of contextual documentation?",
+    "description": "<p><b>Season 2 Episode 1</b></p><p><b>Design Systems WTF is the fortnightly podcast where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with Q&A from the live audience.</b></p><p><b>We took a few months off and y'all went and changed everything... We dive into the wonderful world of contextual design systems. Do MCPs finally offer what we need to make our design systems serve information up contextually? Are there major things we need to refactor? Or is it all smoke and mirrors?</b></p><p><b>Show notes: </b></p><ul><li><a href='https://chsmc.org/2021/08/systems-as-knowledge-graphs/'><b>Knowledge graphs article from Chase</b></a></li><li><a href='https://webinars.zeroheight.com/videos/converge-us-2023-luke-murphy-the-future-of-documentation-is-structured/signup'><b>Luke’s talk on Contextual Documentation</b></a></li><li><a href='https://webinars.zeroheight.com/converge'><b>Converge videos</b></a></li><li><a href='https://webinars.zeroheight.com/videos/zeroheight-ds-live-tj-pitre-context-based-design-systems-preparing-for-an-ai-driven-future/signup'><b>DS Live with TJ Pitre</b></a></li><li><a href='https://www.linkedin.com/in/tpitre/'><b>TJ Pitre on LinkedIn</b></a></li></ul><p><b><br/><br/></b><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18244101-are-we-finally-at-the-point-of-contextual-documentation.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18244101-are-we-finally-at-the-point-of-contextual-documentation.mp3",
+    "publishedAt": "2025-11-25T04:00:00.000Z",
+    "duration": "0:39:44",
+    "durationSeconds": 2384,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 45694934692,
+    "guid": "Buzzsprout-18244101",
+    "season": 2,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "27: Cohost Corner - PR Reviews",
     "description": "<p>Join our cohosts as they share their thoughts on PR Reviews.</p>",
     "podcastTitle": "Code & Pixels",
@@ -33,6 +61,34 @@
     "podcastTitle": "Wireframe by Design Systems House",
     "episodeUrl": "https://mcdn.podbean.com/mf/web/5hiahb0y2wfwuh3l/yt_video_b9Zk5yDaino_h4ncbj.mp3",
     "audioUrl": "https://mcdn.podbean.com/mf/web/5hiahb0y2wfwuh3l/yt_video_b9Zk5yDaino_h4ncbj.mp3",
+    "publishedAt": "2025-11-17T22:40:49.000Z",
+    "duration": "0:36:17",
+    "durationSeconds": 2177,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6a04811678f3ed213198c1d79e3d29ef.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6a04811678f3ed213198c1d79e3d29ef.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 45686102614,
+    "guid": "yt:video:b9Zk5yDaino",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: You Down With MCP?",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/5hiahb0y2wfwuh3l/yt_video_b9Zk5yDaino_h4ncbj_bzgapj.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/5hiahb0y2wfwuh3l/yt_video_b9Zk5yDaino_h4ncbj_bzgapj.mp3",
     "publishedAt": "2025-11-17T22:40:49.000Z",
     "duration": "0:36:17",
     "durationSeconds": 2177,
