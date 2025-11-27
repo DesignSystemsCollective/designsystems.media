@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: Modes in Real Life w/ Arko Sen",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/i29e99an1ldjleo2/yt_video_fjIwRE6N_x8_njz8t8_aewfnh.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/i29e99an1ldjleo2/yt_video_fjIwRE6N_x8_njz8t8_aewfnh.mp3",
+    "publishedAt": "2025-11-25T20:07:15.000Z",
+    "duration": "0:03:20",
+    "durationSeconds": 200,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d3285056b232cc4c0821c463bcf93154.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d3285056b232cc4c0821c463bcf93154.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 45748282259,
+    "guid": "yt:video:fjIwRE6N_x8",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Are we finally at the point of contextual documentation?",
     "description": "<p><b>Season 2 Episode 1</b></p><p><b>Design Systems WTF is the fortnightly podcast where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with Q&A from the live audience.</b></p><p><b>We took a few months off and y'all went and changed everything... We dive into the wonderful world of contextual design systems. Do MCPs finally offer what we need to make our design systems serve information up contextually? Are there major things we need to refactor? Or is it all smoke and mirrors?</b></p><p><b>Show notes: </b></p><ul><li><a href='https://chsmc.org/2021/08/systems-as-knowledge-graphs/'><b>Knowledge graphs article from Chase</b></a></li><li><a href='https://webinars.zeroheight.com/videos/converge-us-2023-luke-murphy-the-future-of-documentation-is-structured/signup'><b>Luke’s talk on Contextual Documentation</b></a></li><li><a href='https://webinars.zeroheight.com/converge'><b>Converge videos</b></a></li><li><a href='https://webinars.zeroheight.com/videos/zeroheight-ds-live-tj-pitre-context-based-design-systems-preparing-for-an-ai-driven-future/signup'><b>DS Live with TJ Pitre</b></a></li><li><a href='https://www.linkedin.com/in/tpitre/'><b>TJ Pitre on LinkedIn</b></a></li></ul><p><b><br/><br/></b><br/></p>",
     "podcastTitle": "Design Systems WTF",
