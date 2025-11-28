@@ -1,5 +1,80 @@
 [
   {
+    "title": "Design Systems London # 14 Recap",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yitdqwMaqF4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yitdqwMaqF4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yitdqwMaqF4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=yitdqwMaqF4",
+    "publishedAt": "2025-11-21T14:49:14Z",
+    "privacyStatus": "public",
+    "duration": "0:01:30"
+  },
+  {
+    "title": "Q&A session - Design Systems London #14",
+    "description": "Q&A session with Matt Bailey, Diane Larsen, James Nash, hosted by Luis Klefsjö",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/y5FyGhlQkEI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/y5FyGhlQkEI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/y5FyGhlQkEI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=y5FyGhlQkEI",
+    "publishedAt": "2025-11-21T09:45:15Z",
+    "privacyStatus": "public",
+    "duration": "0:36:25"
+  },
+  {
+    "title": "Design Systems London # 14 - Full recording",
+    "description": "Full recording of our DSL #14 event, organised by YLD and sponsored by GSK\n\n00:00 Intros\n11:52 \"AI-dapt or perish: Why the only constant in Design is change\" with Matt Bailey (UX Design Lead, GSK)\n39:00 \"What to do when the future turns your Design System team upside down\" with Diane Larsen (Design System Manager, Tesco)\n1:04:10 \"Design token interfaces\" with James Nash (Lead Design System Engineer, Investec)\n1:29:50 Q&A session with with Matt Bailey, Diane Larsen and James Nash\nHosted by Luis Klefsjö\n2:06:45 Wrap up",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/__0ro8l7EuA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/__0ro8l7EuA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/__0ro8l7EuA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=__0ro8l7EuA",
+    "publishedAt": "2025-11-21T09:45:03Z",
+    "privacyStatus": "public",
+    "duration": "2:10:02"
+  },
+  {
     "title": "Design token interfaces by James Nash",
     "description": "James Nash (Lead Design System Engineer, Investec) explored how the concept of an \"interface\" in programming can be applied to the world of design tokens, and how, if done right, this can help us better manage theming, evolve our design systems, and perhaps even open the door to new kinds of tools.",
     "thumbnails": {
