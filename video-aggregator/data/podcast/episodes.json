@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: Burnt Toast",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/8en0tm7x2uykbf4p/yt_video_B8rbXN8BF-Y_stqyvr.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/8en0tm7x2uykbf4p/yt_video_B8rbXN8BF-Y_stqyvr.mp3",
+    "publishedAt": "2025-12-01T21:36:03.000Z",
+    "duration": "0:42:59",
+    "durationSeconds": 2579,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/9cb8f5800890d2ed1998b42cd3b59259.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/9cb8f5800890d2ed1998b42cd3b59259.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 46060254930,
+    "guid": "yt:video:B8rbXN8BF-Y",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: The Future of UNIQUEWAYS w/ Thomas Girard",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
