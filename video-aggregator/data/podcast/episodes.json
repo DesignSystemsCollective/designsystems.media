@@ -1,5 +1,61 @@
 [
   {
+    "title": "138. Scaling Inclusive Design: An Accessibility Conversation with Anna Thielke",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>How do teams turn accessibility from individual effort into system wide practice? Chris talks with Anna Thielke, founder and CEO of Mantis and Company, to find out. They explore why representation on system teams leads to better standards, how designing for the edges strengthens products for everyone, and what it takes for accessibility work to spread across large organizations in a sustainable way. Anna also shares how lived experience shapes her perspective and why accessibility becomes more effective when teams view it as shared responsibility rather than a late stage requirement.</p><p><b>Key Takeaways</b></p><ul><li>Design systems provide the structure needed to scale accessibility across teams.</li><li>Representation on system teams shapes the standards that reach every product.</li><li>Designing for the edges leads to more inclusive and resilient experiences.</li></ul><p>View the <a href='https://docs.google.com/document/d/1ftNyHwllNoQGXG_RoCVOTS6mxR_MwiXXPCZ9c223_rI/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/stellarjae/'>Anna Thielke</a> is an entrepreneur and systems thinker who leads Mantis & Co., a disability-owned accessibility and inclusive design agency. Drawing on 15+ years of experience and her background as a blind, neurodivergent leader, she helps teams build products and cultures that work for everyone. Previously Director of Inclusive Design at CVS Health, Anna is known for blending creativity, honesty, and practicality to move organizations from intention to action.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18300930-138-scaling-inclusive-design-an-accessibility-conversation-with-anna-thielke.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18300930-138-scaling-inclusive-design-an-accessibility-conversation-with-anna-thielke.mp3",
+    "publishedAt": "2025-12-04T20:00:00.000Z",
+    "duration": "0:24:54",
+    "durationSeconds": 1494,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 46213961217,
+    "guid": "Buzzsprout-18300930",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Ep 91: The Erosion of Open Design Systems",
+    "description": "<p>Davy and PJ discuss a potential trend of major design systems going from public to internal only, stressing that public documentation is the ultimate forcing function for quality and a huge win for the community.</p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/112115898/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-4%2F1288943e-2760-b9fc-af8b-9625bbdd152a.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/112115898/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-4%2F1288943e-2760-b9fc-af8b-9625bbdd152a.mp3",
+    "publishedAt": "2025-12-04T08:05:00.000Z",
+    "duration": "0:26:59",
+    "durationSeconds": 1619,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 46192324086,
+    "guid": "dffb07d5-2f11-412a-bdd3-0f22a31a67c9",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Burnt Toast",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
