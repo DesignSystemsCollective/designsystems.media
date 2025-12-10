@@ -1,5 +1,33 @@
 [
   {
+    "title": "Episode 44 - Should we care about consistency?",
+    "description": "<p><b>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</b></p><p><b>A bit of a deep topic this week – how important is consistency as a concept to be aiming for with design systems? Obviously, it's one of our design systems' selling points, but in a world where we're moving more and more towards browserless, how important is component consistency, or can we see a place where foundational consistency is all we need?</b></p><p><b>Show notes</b></p><ul><li><a href='https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/'><b>A List Apart - Design Dialects: Breaking the rules, not the system</b></a></li><li><a href='https://awards.zeroheight.com/voting/inno-bloom/'><b>Vinted - Greenhouse</b></a></li></ul>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18317925-episode-44-should-we-care-about-consistency.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18317925-episode-44-should-we-care-about-consistency.mp3",
+    "publishedAt": "2025-12-09T04:00:00.000Z",
+    "duration": "0:46:53",
+    "durationSeconds": 2813,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 46435845481,
+    "guid": "Buzzsprout-18317925",
+    "season": 2,
+    "episode": 44,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "138. Scaling Inclusive Design: An Accessibility Conversation with Anna Thielke",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>How do teams turn accessibility from individual effort into system wide practice? Chris talks with Anna Thielke, founder and CEO of Mantis and Company, to find out. They explore why representation on system teams leads to better standards, how designing for the edges strengthens products for everyone, and what it takes for accessibility work to spread across large organizations in a sustainable way. Anna also shares how lived experience shapes her perspective and why accessibility becomes more effective when teams view it as shared responsibility rather than a late stage requirement.</p><p><b>Key Takeaways</b></p><ul><li>Design systems provide the structure needed to scale accessibility across teams.</li><li>Representation on system teams shapes the standards that reach every product.</li><li>Designing for the edges leads to more inclusive and resilient experiences.</li></ul><p>View the <a href='https://docs.google.com/document/d/1ftNyHwllNoQGXG_RoCVOTS6mxR_MwiXXPCZ9c223_rI/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/stellarjae/'>Anna Thielke</a> is an entrepreneur and systems thinker who leads Mantis & Co., a disability-owned accessibility and inclusive design agency. Drawing on 15+ years of experience and her background as a blind, neurodivergent leader, she helps teams build products and cultures that work for everyone. Previously Director of Inclusive Design at CVS Health, Anna is known for blending creativity, honesty, and practicality to move organizations from intention to action.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
     "podcastTitle": "Design Systems Podcast",
