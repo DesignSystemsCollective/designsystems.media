@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live",
+    "description": "<p><a href='https://wireframe.ds.house'>https://wireframe.ds.house</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/egerwxq0zujt7w3s/yt_video_YFpzgs9iYgA_9iiw3u.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/egerwxq0zujt7w3s/yt_video_YFpzgs9iYgA_9iiw3u.mp3",
+    "publishedAt": "2025-12-12T22:03:30.000Z",
+    "duration": "0:11:20",
+    "durationSeconds": 680,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/20faceb0de2bf256ae46da9933699534.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/20faceb0de2bf256ae46da9933699534.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 46653011690,
+    "guid": "yt:video:YFpzgs9iYgA",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Episode 44 - Should we care about consistency?",
     "description": "<p><b>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</b></p><p><b>A bit of a deep topic this week – how important is consistency as a concept to be aiming for with design systems? Obviously, it's one of our design systems' selling points, but in a world where we're moving more and more towards browserless, how important is component consistency, or can we see a place where foundational consistency is all we need?</b></p><p><b>Show notes</b></p><ul><li><a href='https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/'><b>A List Apart - Design Dialects: Breaking the rules, not the system</b></a></li><li><a href='https://awards.zeroheight.com/voting/inno-bloom/'><b>Vinted - Greenhouse</b></a></li></ul>",
     "podcastTitle": "Design Systems WTF",
@@ -78,6 +106,34 @@
     "feedId": 4813998,
     "episodeId": 46192324086,
     "guid": "dffb07d5-2f11-412a-bdd3-0f22a31a67c9",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Studio Upgrade!",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/xxpbmp68jb6mdpf4/yt_video_Akxdh_Niy_c_jzc9tz.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/xxpbmp68jb6mdpf4/yt_video_Akxdh_Niy_c_jzc9tz.mp3",
+    "publishedAt": "2025-12-03T22:31:06.000Z",
+    "duration": "0:02:52",
+    "durationSeconds": 172,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/cc37008dfa7f65bf8c5f8ae5a1970b05.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/cc37008dfa7f65bf8c5f8ae5a1970b05.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 46653011695,
+    "guid": "yt:video:Akxdh_Niy_c",
     "season": null,
     "episode": null,
     "explicit": false,
