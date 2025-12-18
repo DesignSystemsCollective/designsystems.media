@@ -1,5 +1,33 @@
 [
   {
+    "title": "139. Why the Future of Digital Production Starts With Code, Not a Canvas",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>As AI compresses the distance between idea and execution, the abstractions that once made design tools necessary are becoming points of friction. In this conversation, Knapsack leaders Chris Strahl, Evan Lovely, and Robin Cannon make the case that the future of digital production starts in the medium products actually ship in, code. They unpack why design systems are infrastructure, not artifacts, how context becomes the critical input for enterprise AI, and why creating directly in code unlocks faster iteration with higher fidelity. This shift changes who gets to create, how teams work together, and what it means to scale ideas instead of just processes.</p><p>In this episode, you’ll hear about:</p><ul><li>AI as an enabler of human creativity, not a replacement</li><li>Why prototype-first workflows are breaking down</li><li>How the Intelligent Product Engine supports real product creation</li><li>What it looks like for designers, developers, and product teams to build, refine, and ship together</li></ul><p>View the <a href='https://docs.google.com/document/d/1D4UbGctohLwfM74xhbL1UhbJnEblSh8CMa6DieaswTo/edit?tab=t.0'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/evanlovely/'>Evan Lovely </a>is the co-founder and CTO of Knapsack</p><p><a href='https://www.linkedin.com/in/robincannon/'>Robin Cannon</a> is the Head of Product at Knapsack</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Design Systems Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18375079-139-why-the-future-of-digital-production-starts-with-code-not-a-canvas.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18375079-139-why-the-future-of-digital-production-starts-with-code-not-a-canvas.mp3",
+    "publishedAt": "2025-12-17T20:00:00.000Z",
+    "duration": "0:34:39",
+    "durationSeconds": 2079,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/mbxl3o7h5ounnqlvynef7sfo9c3d?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 46916194243,
+    "guid": "Buzzsprout-18375079",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live",
     "description": "<p><a href='https://wireframe.ds.house'>https://wireframe.ds.house</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
