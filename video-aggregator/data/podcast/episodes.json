@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: The BS of Role Consolidation",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/87ag6o3ncxijxqbm/yt_video_kgP27k4PFpY_qz2abr.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/87ag6o3ncxijxqbm/yt_video_kgP27k4PFpY_qz2abr.mp3",
+    "publishedAt": "2025-12-18T20:16:06.000Z",
+    "duration": "1:01:48",
+    "durationSeconds": 3708,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/f941e580aff8e32c5b8b62f0c09923ac.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/f941e580aff8e32c5b8b62f0c09923ac.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 47044481613,
+    "guid": "yt:video:kgP27k4PFpY",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 92: Naming is Hard",
     "description": "<p>Davy and PJ tackle the notorious difficulty of naming in design systems, advocating for human-readable, descriptive language over \"cute\" metaphors and discussing how AI is making file cleanliness more critical than ever.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
@@ -1254,6 +1282,34 @@
     "feedId": 7394197,
     "episodeId": 40976702137,
     "guid": "yt:video:al34kcA2czc",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: AirBnB’s New Design System",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/kapw7bber5q8wfy7/yt_video_9QPF7tP8os8_adxgyk.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/kapw7bber5q8wfy7/yt_video_9QPF7tP8os8_adxgyk.mp3",
+    "publishedAt": "2025-08-06T20:36:17.000Z",
+    "duration": "0:54:40",
+    "durationSeconds": 3280,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/79bfec3b638a6202cc9d384d03d566d2.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/79bfec3b638a6202cc9d384d03d566d2.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 40976702138,
+    "guid": "yt:video:9QPF7tP8os8",
     "season": null,
     "episode": null,
     "explicit": false,
