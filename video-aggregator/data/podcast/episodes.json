@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: Source of Truth",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/tbd686jsni8nginl/yt_video_EIzmFJIuj4Q_rmdvar.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/tbd686jsni8nginl/yt_video_EIzmFJIuj4Q_rmdvar.mp3",
+    "publishedAt": "2025-12-22T21:42:20.000Z",
+    "duration": "0:26:53",
+    "durationSeconds": 1613,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/bab191749672f8383a32834b3ffdee05.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/bab191749672f8383a32834b3ffdee05.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 47204928684,
+    "guid": "yt:video:EIzmFJIuj4Q",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: The BS of Role Consolidation",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
