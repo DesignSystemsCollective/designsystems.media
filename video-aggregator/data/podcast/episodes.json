@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: Empowering Users",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/vji3p4osxbd63e8t/yt_video_-tHoqj1I2l8_h8nyh5.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/vji3p4osxbd63e8t/yt_video_-tHoqj1I2l8_h8nyh5.mp3",
+    "publishedAt": "2025-12-23T21:35:22.000Z",
+    "duration": "0:16:47",
+    "durationSeconds": 1007,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/2fdcdd83475437caed3d48aff1b1c5ed.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/2fdcdd83475437caed3d48aff1b1c5ed.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 47266518122,
+    "guid": "yt:video:-tHoqj1I2l8",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Are we reducing complexity with design systems??",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Time to get spicy... One of the big promises of the hype of design systems was that it would reduce organizational and product complexity by providing efficient, replicable ways of doing things. Now that we've bedded in, its time to ask - how much do design systems actually reduce complexity? Do they just reorganize and make complexity more palatable?</p><p><b>Show notes</b></p><ul><li><a href='https://webinars.zeroheight.com/watch/zeroheight-design-systems-wtf-45-do-design-systems-reduce-complexity-or-just-reorganize-it'><b>Product Deep Dive on Systematizing your Documentation</b></a></li><li><a href='https://help.zeroheight.com/hc/en-us/articles/36474095888923-How-to-structure-your-documentation-s-information-architecture-IA'><b>Michelle’s article on structuring your design systems</b></a></li></ul>",
     "podcastTitle": "Design Systems WTF",
