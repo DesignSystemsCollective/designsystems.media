@@ -1,5 +1,33 @@
 [
   {
+    "title": "What's with the emotional baggage with design systems?",
+    "description": "<p><b>Design system folks seem to be prone to burnout, arguments, and generally feeling underappreciated within their organizations. What makes design systems folks so prone to being loaded with additional weight? We discuss why this happens, as well as some strategies to overcome it.</b></p><p><b>Show Notes</b></p><ul><li><b>Amy Hupe – \"Burn baby burnout\" (based on her Converge Manchester 2023 talk):</b><a href='https://amyhupe.co.uk/articles/burn-baby-burnout/'><b> https://amyhupe.co.uk/articles/burn-baby-burnout/</b></a></li><li><b>Lauren LoPrete – \"Design Systems Burnout\" talk at Clarity 2021:</b><a href='https://www.clarityconf.com/session/design-systems-burnout'><b> https://www.clarityconf.com/session/design-systems-burnout</b></a></li><li><b>Robin Rendle – \"Design Systems Burnout\" newsletter:</b><a href='https://robinrendle.com/the-cascade/012-design-systems-burnout/'><b> https://robinrendle.com/the-cascade/012-design-systems-burnout/</b></a></li></ul><p><b>Brad Frost - “Master design systems governance with this one weird trick: </b><a href='https://bradfrost.com/blog/post/master-design-system-governance-with-this-one-weird-trick/'><b>bradfrost.com/blog/post/master-design-system-governance-with-this-one-weird-trick/</b></a></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18454830-what-s-with-the-emotional-baggage-with-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18454830-what-s-with-the-emotional-baggage-with-design-systems.mp3",
+    "publishedAt": "2026-01-06T04:00:00.000Z",
+    "duration": "0:37:35",
+    "durationSeconds": 2255,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 47933225751,
+    "guid": "Buzzsprout-18454830",
+    "season": 2,
+    "episode": 46,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 93: 2026 and our 4th Podcast Bday",
     "description": "<p>Davy and PJ celebrate four years of <em>Design System Office Hours</em> by looking ahead at the shifting landscape of 2026. They explore how interoperability, open-source tooling, and AI-driven documentation being major themes to uplevel design system practices.</p>",
     "podcastTitle": "Design System Office Hours",
