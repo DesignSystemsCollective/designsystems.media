@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wireframe Live: The Wind in our Tails w/ Matthew Ström-Awn",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a><br>\n</p>\n<p><br>\n</p>\n<p>Featuring <a href='https://mattstromawn.com/'>https://mattstromawn.com/</a><br>\n</p>\n<p><br>\n</p>\n<p>The video discusses various aspects of web design and development, particularly focusing on the use of AI and CSS frameworks. Key themes include:<br>\n</p>\n<p><br>\n</p>\n<p>- The evolution of web design practices and the importance of understanding what made previous frameworks successful.<br>\n</p>\n<p>- The role of AI in coding and how it can potentially improve user interface outcomes, questioning whether the quality of code matters if the interface performs well.<br>\n</p>\n<p>- A presentation on \"HTML by CSS,\" which critiques the semantic clarity of class names in CSS and suggests improvements for better understanding and usability.<br>\n</p>\n<p>- The impact of frameworks like Tailwind on development, emphasizing their short, unique class names that are beneficial for machine learning models.<br>\n</p>\n<p>- A reflection on the rapid evolution of development practices and the necessity of adapting to new technologies.<br>\n</p>\n<p><br>\n</p>\n<p>Critical insights include:<br>\n</p>\n<p><br>\n</p>\n<p>- The importance of analyzing successful design frameworks to inform future developments.<br>\n</p>\n<p>- The optimistic view of AI's capabilities in coding and its implications for user experience.<br>\n</p>\n<p>- A discussion on the semantic challenges of CSS class naming conventions.<br>\n</p>\n<p>- The advantages of Tailwind's structure for both developers and AI systems.<br>\n</p>\n<p>- The ongoing evolution of development practices and the challenges that arise from new technologies.<br>\n</p>\n<p>- The overall tone is analytical, highlighting both the potential and challenges within the web development landscape.</p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/oe7jmnl948v40z71/yt_video_roCpGZvY4t4_pr4and.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/oe7jmnl948v40z71/yt_video_roCpGZvY4t4_pr4and.mp3",
+    "publishedAt": "2026-01-06T11:12:22.000Z",
+    "duration": "1:02:02",
+    "durationSeconds": 3722,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/c379a709215cf9ca8276f6179065bf14.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/c379a709215cf9ca8276f6179065bf14.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 47988598834,
+    "guid": "yt:video:roCpGZvY4t4",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "What's with the emotional baggage with design systems?",
     "description": "<p><b>Design system folks seem to be prone to burnout, arguments, and generally feeling underappreciated within their organizations. What makes design systems folks so prone to being loaded with additional weight? We discuss why this happens, as well as some strategies to overcome it.</b></p><p><b>Show Notes</b></p><ul><li><b>Amy Hupe – \"Burn baby burnout\" (based on her Converge Manchester 2023 talk):</b><a href='https://amyhupe.co.uk/articles/burn-baby-burnout/'><b> https://amyhupe.co.uk/articles/burn-baby-burnout/</b></a></li><li><b>Lauren LoPrete – \"Design Systems Burnout\" talk at Clarity 2021:</b><a href='https://www.clarityconf.com/session/design-systems-burnout'><b> https://www.clarityconf.com/session/design-systems-burnout</b></a></li><li><b>Robin Rendle – \"Design Systems Burnout\" newsletter:</b><a href='https://robinrendle.com/the-cascade/012-design-systems-burnout/'><b> https://robinrendle.com/the-cascade/012-design-systems-burnout/</b></a></li></ul><p><b>Brad Frost - “Master design systems governance with this one weird trick: </b><a href='https://bradfrost.com/blog/post/master-design-system-governance-with-this-one-weird-trick/'><b>bradfrost.com/blog/post/master-design-system-governance-with-this-one-weird-trick/</b></a></p>",
     "podcastTitle": "Design Systems WTF",
@@ -24,6 +52,34 @@
     "guid": "Buzzsprout-18454830",
     "season": 2,
     "episode": 46,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Wireframe Live: Pin GPT",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/ak9bwj34qi9j8k0t/yt_video_6EJRFKePBsU_4c9bau.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/ak9bwj34qi9j8k0t/yt_video_6EJRFKePBsU_4c9bau.mp3",
+    "publishedAt": "2026-01-05T23:03:04.000Z",
+    "duration": "0:23:05",
+    "durationSeconds": 1385,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/079ea8074c53fac9aa3c362715f122d0.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/079ea8074c53fac9aa3c362715f122d0.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 47988598837,
+    "guid": "yt:video:6EJRFKePBsU",
+    "season": null,
+    "episode": null,
     "explicit": false,
     "type": "full"
   },
