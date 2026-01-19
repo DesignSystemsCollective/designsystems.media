@@ -96,9 +96,23 @@ export const runAllMosaics = async (): Promise<void> => {
     await ensureDir(path.join(OUTPUT_DIR, "social"));
     await ensureDir(path.join(PUBLIC_DIR, "social"));
 
+
+    // Social image dimensions
+    const socialImageSpecs = [
+      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, imageCount: 22 },
+      { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, imageCount: 25 },
+      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, imageCount: 28 }
+    ];
+
     // Get video thumbnails for the mosaic
-    const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, 30);
+const IMAGES_NEEDED = Math.max(...socialImageSpecs.map(spec => spec.imageCount));
+const FETCH_BUFFER = 2; // Fetch 50% more to be safe
+const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(IMAGES_NEEDED * FETCH_BUFFER));
     const validPostImages: string[] = [];
+
+    if (validPostImages.length < IMAGES_NEEDED) {
+  console.warn(`[Astro Mosaics] Warning: Only found ${validPostImages.length} valid images, but need ${IMAGES_NEEDED}. Some mosaics may be incomplete.`);
+}
 
     for (const post of recentPosts) {
       const imagePath = path.join(process.cwd(), "src/content/media", post.slug, "maxresdefault.jpg");
@@ -121,12 +135,6 @@ export const runAllMosaics = async (): Promise<void> => {
       throw new Error("Overlay image not found at: " + overlayPath);
     }
 
-    // Social image dimensions
-    const socialImageSpecs = [
-      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, imageCount: 22 },
-      { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, imageCount: 25 },
-      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, imageCount: 28 }
-    ];
 
     // Create each social image variant
     for (const spec of socialImageSpecs) {
