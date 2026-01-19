@@ -106,13 +106,9 @@ export const runAllMosaics = async (): Promise<void> => {
 
     // Get video thumbnails for the mosaic
 const IMAGES_NEEDED = Math.max(...socialImageSpecs.map(spec => spec.imageCount));
-const FETCH_BUFFER = 4; // Fetch 50% more to be safe
+const FETCH_BUFFER = 5; // Fetch 50% more to be safe
 const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(IMAGES_NEEDED * FETCH_BUFFER));
     const validPostImages: string[] = [];
-
-    if (validPostImages.length < IMAGES_NEEDED) {
-  console.warn(`[Astro Mosaics] Warning: Only found ${validPostImages.length} valid images, but need ${IMAGES_NEEDED}. Some mosaics may be incomplete.`);
-}
 
     for (const post of recentPosts) {
       const imagePath = path.join(process.cwd(), "src/content/media", post.slug, "maxresdefault.jpg");
@@ -125,6 +121,10 @@ const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(
     }
 
     console.log("[Astro Mosaics] Found", validPostImages.length, "valid recent post images.");
+
+        if (validPostImages.length < IMAGES_NEEDED) {
+  console.warn(`[Astro Mosaics] Warning: Only found ${validPostImages.length} valid images, but need ${IMAGES_NEEDED}. Some mosaics may be incomplete.`);
+}
 
     // Load overlay image
     const overlayPath = path.join(process.cwd(), "public/DSMoverlay.png");
