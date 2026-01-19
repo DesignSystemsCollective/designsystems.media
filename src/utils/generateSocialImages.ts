@@ -99,14 +99,14 @@ export const runAllMosaics = async (): Promise<void> => {
 
     // Social image dimensions
     const socialImageSpecs = [
-      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, imageCount: 22 },
+      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, imageCount: 25 },
       { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, imageCount: 25 },
       { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, imageCount: 28 }
     ];
 
     // Get video thumbnails for the mosaic
 const IMAGES_NEEDED = Math.max(...socialImageSpecs.map(spec => spec.imageCount));
-const FETCH_BUFFER = 5; // Fetch 50% more to be safe
+const FETCH_BUFFER = 10; // Fetch 50% more to be safe
 const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(IMAGES_NEEDED * FETCH_BUFFER));
     const validPostImages: string[] = [];
 
