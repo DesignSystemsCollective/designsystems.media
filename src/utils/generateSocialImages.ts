@@ -106,7 +106,7 @@ export const runAllMosaics = async (): Promise<void> => {
 
     // Get video thumbnails for the mosaic
 const IMAGES_NEEDED = Math.max(...socialImageSpecs.map(spec => spec.imageCount));
-const FETCH_BUFFER = 2; // Fetch 50% more to be safe
+const FETCH_BUFFER = 4; // Fetch 50% more to be safe
 const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(IMAGES_NEEDED * FETCH_BUFFER));
     const validPostImages: string[] = [];
 
