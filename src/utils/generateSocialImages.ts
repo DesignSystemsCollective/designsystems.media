@@ -73,20 +73,20 @@ const calculateMosaicLayout = (
   // Calculate cell width based on 16:9 ratio
   const cellWidth = Math.ceil(cellHeight * imageRatio);
   
-  // Calculate how many columns fit across the width
+  // Calculate how many columns fit across the width for non-offset rows
   const columns = Math.ceil(canvasWidth / cellWidth);
   
-  // Total base images (without offset consideration)
-  const baseImages = columns * desiredRows;
-  
-  // Calculate offset rows (every other row)
+  // Calculate offset rows (every other row gets offset)
   const offsetRows = Math.floor(desiredRows / 2);
+  const normalRows = desiredRows - offsetRows;
   
-  // Total images needed including extra for offset rows
-  const totalImages = baseImages + offsetRows;
+  // Normal rows: columns * normalRows
+  // Offset rows need one extra column because of the half-cell shift revealing more space
+  // Offset rows: (columns + 1) * offsetRows
+  const totalImages = (columns * normalRows) + ((columns + 1) * offsetRows);
   
   return {
-    columns,
+    columns: columns + 1, // Use extra column for positioning offset rows
     rows: desiredRows,
     totalImages,
     cellWidth,
