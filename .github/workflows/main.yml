@@ -1,0 +1,59 @@
+name: Generate Social Media Mosaics
+
+on:
+  # Trigger when media content changes
+  push:
+    paths:
+      - 'src/content/media/**'
+  
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+  
+  # Optional: run on a schedule (e.g., daily at 2am UTC)
+  # schedule:
+  #   - cron: '0 2 * * *'
+
+jobs:
+  generate-mosaics:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required to push changes back to repo
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Generate mosaic images
+        run: npm run generate-mosaics
+        env:
+          NODE_ENV: production
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet public/social/*.jpg || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+          git add public/social/*.jpg
+          git commit -m "🎨 Update social media mosaics [skip ci]"
+          git push
+      
+      - name: No changes detected
+        if: steps.check_changes.outputs.changed != 'true'
+        run: echo "No changes to mosaic images detected"
