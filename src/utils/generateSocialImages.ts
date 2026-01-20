@@ -25,6 +25,13 @@ interface CompositeLayer {
   left: number;
 }
 
+interface ImagePosition {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
 const getOutputDir = (): string => {
   if (process.env.NETLIFY || process.env.NODE_ENV === 'production') {
     return path.resolve(process.cwd(), "dist");
@@ -58,6 +65,7 @@ interface ImagePosition {
  * @param canvasWidth - Width of the output image
  * @param canvasHeight - Height of the output image
  * @param desiredRows - Number of rows you want in the final mosaic
+ * @param extraPerOffsetRow - Extra images to add per offset row (adjust based on testing)
  * @param imageRatio - Aspect ratio of source images (width/height), default 16/9
  * @returns Object with columns, rows, totalImages needed
  */
@@ -65,8 +73,9 @@ const calculateMosaicLayout = (
   canvasWidth: number,
   canvasHeight: number,
   desiredRows: number,
+  extraPerOffsetRow: number = 2,
   imageRatio: number = 16 / 9
-): { columns: number; rows: number; totalImages: number; cellWidth: number; cellHeight: number } => {
+): { columns: number; rows: number; totalImages: number; cellWidth: number; cellHeight: number; extraPerOffsetRow: number } => {
   // Calculate cell height based on desired rows
   const cellHeight = Math.ceil(canvasHeight / desiredRows);
   
@@ -74,49 +83,53 @@ const calculateMosaicLayout = (
   const cellWidth = Math.ceil(cellHeight * imageRatio);
   
   // Calculate how many columns fit across the width for non-offset rows
-  const columns = Math.ceil(canvasWidth / cellWidth);
+  const baseColumns = Math.ceil(canvasWidth / cellWidth);
   
   // Calculate offset rows (every other row gets offset)
   const offsetRows = Math.floor(desiredRows / 2);
   const normalRows = desiredRows - offsetRows;
   
-  // Normal rows: columns * normalRows
-  // Offset rows need one extra column because of the half-cell shift revealing more space
-  // Offset rows: (columns + 1) * offsetRows
-  const totalImages = (columns * normalRows) + ((columns + 1) * offsetRows);
+  // Use the provided extra images per offset row
+  const totalImages = (baseColumns * normalRows) + ((baseColumns + extraPerOffsetRow) * offsetRows);
   
   return {
-    columns: columns + 1, // Use extra column for positioning offset rows
+    columns: baseColumns,
     rows: desiredRows,
     totalImages,
     cellWidth,
-    cellHeight
+    cellHeight,
+    extraPerOffsetRow
   };
 };
 
 // Updated function to apply horizontal offset to alternating rows
+// This version correctly handles different column counts per row
 const getImagePositions = (
-  imageCount: number,
-  columns: number,
+  totalImages: number,
+  baseColumns: number,
+  rows: number,
   cellWidth: number,
   cellHeight: number,
-  rowOffset: number = 0
+  rowOffset: number = 0,
+  extraPerOffsetRow: number = 2
 ): ImagePosition[] => {
   const positions: ImagePosition[] = [];
+  let imageIndex = 0;
 
-  for (let i = 0; i < imageCount; i++) {
-    const row = Math.floor(i / columns);
-    const col = i % columns;
+  for (let row = 0; row < rows; row++) {
+    const isOffsetRow = row % 2 === 1;
+    const columnsInThisRow = isOffsetRow ? baseColumns + extraPerOffsetRow : baseColumns;
+    const horizontalOffset = isOffsetRow ? rowOffset : 0;
 
-    // Apply offset to every other row (odd rows)
-    const horizontalOffset = (row % 2 === 1) ? rowOffset : 0;
-
-    positions.push({
-      x: col * cellWidth + horizontalOffset,
-      y: row * cellHeight,
-      width: cellWidth,
-      height: cellHeight,
-    });
+    for (let col = 0; col < columnsInThisRow && imageIndex < totalImages; col++) {
+      positions.push({
+        x: col * cellWidth + horizontalOffset,
+        y: row * cellHeight,
+        width: cellWidth,
+        height: cellHeight,
+      });
+      imageIndex++;
+    }
   }
 
   return positions;
@@ -131,17 +144,17 @@ export const runAllMosaics = async (): Promise<void> => {
     await ensureDir(path.join(OUTPUT_DIR, "social"));
     await ensureDir(path.join(PUBLIC_DIR, "social"));
 
-    // Now you just specify the number of ROWS you want!
+    // Now you just specify the number of ROWS you want and extra images per offset row!
     const socialImageSpecs = [
-      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, rows: 4 },
-      { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, rows: 5 },
-      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, rows: 6 }
+      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, rows: 4, extraPerOffsetRow: 3 },
+      { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, rows: 5, extraPerOffsetRow: 2 },
+      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, rows: 6, extraPerOffsetRow: 3 }
     ];
 
     // Calculate max images needed across all specs
     const maxImagesNeeded = Math.max(
       ...socialImageSpecs.map(spec => 
-        calculateMosaicLayout(spec.width, spec.height, spec.rows).totalImages
+        calculateMosaicLayout(spec.width, spec.height, spec.rows, spec.extraPerOffsetRow).totalImages
       )
     );
     
@@ -180,21 +193,23 @@ export const runAllMosaics = async (): Promise<void> => {
 
     for (const spec of socialImageSpecs) {
       // Calculate optimal layout based on desired rows
-      const layout = calculateMosaicLayout(spec.width, spec.height, spec.rows);
+      const layout = calculateMosaicLayout(spec.width, spec.height, spec.rows, spec.extraPerOffsetRow);
       
       console.log("[Mosaic Creation] Starting mosaic for", spec.name, `(${spec.width}x${spec.height})`);
       console.log(`[Mosaic Creation] Layout: ${layout.columns} columns × ${layout.rows} rows`);
       console.log(`[Mosaic Creation] Cell size: ${layout.cellWidth}×${layout.cellHeight}px`);
-      console.log(`[Mosaic Creation] Using ${layout.totalImages} images total`);
+      console.log(`[Mosaic Creation] Using ${layout.totalImages} images total (${layout.extraPerOffsetRow} extra per offset row)`);
 
       const rowOffset = -Math.floor(layout.cellWidth / 2); // NEGATIVE offset to shift left
       
       const positions = getImagePositions(
         layout.totalImages,
         layout.columns,
+        layout.rows,
         layout.cellWidth,
         layout.cellHeight,
-        rowOffset
+        rowOffset,
+        layout.extraPerOffsetRow
       );
 
       const canvas = sharp({
