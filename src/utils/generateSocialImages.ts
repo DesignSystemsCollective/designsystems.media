@@ -53,19 +53,56 @@ interface ImagePosition {
   height: number;
 }
 
+/**
+ * Calculate how many images are needed for a mosaic with offset rows
+ * @param canvasWidth - Width of the output image
+ * @param canvasHeight - Height of the output image
+ * @param desiredRows - Number of rows you want in the final mosaic
+ * @param imageRatio - Aspect ratio of source images (width/height), default 16/9
+ * @returns Object with columns, rows, totalImages needed
+ */
+const calculateMosaicLayout = (
+  canvasWidth: number,
+  canvasHeight: number,
+  desiredRows: number,
+  imageRatio: number = 16 / 9
+): { columns: number; rows: number; totalImages: number; cellWidth: number; cellHeight: number } => {
+  // Calculate cell height based on desired rows
+  const cellHeight = Math.ceil(canvasHeight / desiredRows);
+  
+  // Calculate cell width based on 16:9 ratio
+  const cellWidth = Math.ceil(cellHeight * imageRatio);
+  
+  // Calculate how many columns fit across the width
+  const columns = Math.ceil(canvasWidth / cellWidth);
+  
+  // Total base images (without offset consideration)
+  const baseImages = columns * desiredRows;
+  
+  // Calculate offset rows (every other row)
+  const offsetRows = Math.floor(desiredRows / 2);
+  
+  // Total images needed including extra for offset rows
+  const totalImages = baseImages + offsetRows;
+  
+  return {
+    columns,
+    rows: desiredRows,
+    totalImages,
+    cellWidth,
+    cellHeight
+  };
+};
+
 // Updated function to apply horizontal offset to alternating rows
 const getImagePositions = (
-  imageCount: number, 
-  canvasWidth: number, 
-  canvasHeight: number, 
-  rowOffset: number = 0  // Offset to apply to odd rows
+  imageCount: number,
+  columns: number,
+  cellWidth: number,
+  cellHeight: number,
+  rowOffset: number = 0
 ): ImagePosition[] => {
   const positions: ImagePosition[] = [];
-  const columns = Math.ceil(Math.sqrt(imageCount));
-  const rows = Math.ceil(imageCount / columns);
-
-  const cellWidth = Math.ceil(canvasWidth / columns);
-  const cellHeight = Math.ceil(canvasHeight / rows);
 
   for (let i = 0; i < imageCount; i++) {
     const row = Math.floor(i / columns);
@@ -94,15 +131,22 @@ export const runAllMosaics = async (): Promise<void> => {
     await ensureDir(path.join(OUTPUT_DIR, "social"));
     await ensureDir(path.join(PUBLIC_DIR, "social"));
 
+    // Now you just specify the number of ROWS you want!
     const socialImageSpecs = [
-      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, imageCount: 27 },
-      { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, imageCount: 27 },
-      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, imageCount: 31 }
+      { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, rows: 4 },
+      { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, rows: 5 },
+      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, rows: 6 }
     ];
 
-    const IMAGES_NEEDED = Math.max(...socialImageSpecs.map(spec => spec.imageCount));
-    const FETCH_BUFFER = 10;
-    const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(IMAGES_NEEDED * FETCH_BUFFER));
+    // Calculate max images needed across all specs
+    const maxImagesNeeded = Math.max(
+      ...socialImageSpecs.map(spec => 
+        calculateMosaicLayout(spec.width, spec.height, spec.rows).totalImages
+      )
+    );
+    
+    const FETCH_BUFFER = 2;
+    const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(maxImagesNeeded * FETCH_BUFFER));
     const validPostImages: string[] = [];
 
     for (const post of recentPosts) {
@@ -117,8 +161,8 @@ export const runAllMosaics = async (): Promise<void> => {
 
     console.log("[Astro Mosaics] Found", validPostImages.length, "valid recent post images.");
 
-    if (validPostImages.length < IMAGES_NEEDED) {
-      console.warn(`[Astro Mosaics] Warning: Only found ${validPostImages.length} valid images, but need ${IMAGES_NEEDED}. Some mosaics may be incomplete.`);
+    if (validPostImages.length < maxImagesNeeded) {
+      console.warn(`[Astro Mosaics] Warning: Only found ${validPostImages.length} valid images, but need ${maxImagesNeeded}. Some mosaics may be incomplete.`);
     }
 
     const overlayPath = path.join(process.cwd(), "public/DSMoverlay.png");
@@ -135,14 +179,23 @@ export const runAllMosaics = async (): Promise<void> => {
     const overlayHeight = overlayMetadata.height || 0;
 
     for (const spec of socialImageSpecs) {
-      console.log("[Mosaic Creation] Starting offset mosaic for", spec.name, `(${spec.width}x${spec.height})`, "using", spec.imageCount, "images...");
-
-      // Calculate positions with horizontal offset for alternating rows
-      const columns = Math.ceil(Math.sqrt(spec.imageCount));
-      const cellWidth = Math.ceil(spec.width / columns);
-      const rowOffset = Math.floor(cellWidth / 2); // Offset by half a cell width
+      // Calculate optimal layout based on desired rows
+      const layout = calculateMosaicLayout(spec.width, spec.height, spec.rows);
       
-      const positions = getImagePositions(spec.imageCount, spec.width, spec.height, rowOffset);
+      console.log("[Mosaic Creation] Starting mosaic for", spec.name, `(${spec.width}x${spec.height})`);
+      console.log(`[Mosaic Creation] Layout: ${layout.columns} columns × ${layout.rows} rows`);
+      console.log(`[Mosaic Creation] Cell size: ${layout.cellWidth}×${layout.cellHeight}px`);
+      console.log(`[Mosaic Creation] Using ${layout.totalImages} images total`);
+
+      const rowOffset = -Math.floor(layout.cellWidth / 2); // NEGATIVE offset to shift left
+      
+      const positions = getImagePositions(
+        layout.totalImages,
+        layout.columns,
+        layout.cellWidth,
+        layout.cellHeight,
+        rowOffset
+      );
 
       const canvas = sharp({
         create: {
@@ -156,7 +209,7 @@ export const runAllMosaics = async (): Promise<void> => {
       const compositeOperations: CompositeLayer[] = [];
 
       // Add grid images
-      for (let i = 0; i < spec.imageCount && i < validPostImages.length; i++) {
+      for (let i = 0; i < layout.totalImages && i < validPostImages.length; i++) {
         const pos = positions[i];
         const resizedImage = await sharp(validPostImages[i])
           .resize(pos.width, pos.height, { fit: "cover" })
