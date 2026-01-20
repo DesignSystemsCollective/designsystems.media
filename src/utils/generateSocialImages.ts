@@ -148,7 +148,8 @@ export const runAllMosaics = async (): Promise<void> => {
     const socialImageSpecs = [
       { name: "dsm-linkedin-1200x627.jpg", width: 1200, height: 627, rows: 4, extraPerOffsetRow: 3 },
       { name: "dsm-bluesky-1000x1000.jpg", width: 1000, height: 1000, rows: 5, extraPerOffsetRow: 2 },
-      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, rows: 6, extraPerOffsetRow: 3 }
+      { name: "dsm-insta-1080x1350.jpg", width: 1080, height: 1350, rows: 6, extraPerOffsetRow: 3 },
+      { name: "dsm-github-1280x640.jpg", width: 1280, height: 640, rows: 5, extraPerOffsetRow: 3 }
     ];
 
     // Calculate max images needed across all specs
