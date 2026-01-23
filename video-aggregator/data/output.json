@@ -4182,6 +4182,41 @@
     "duration": "0:02:10"
   },
   {
+    "title": "Q&A with Atlassian's Lead Design System's Designer",
+    "description": "Highlights from Design System Bootcamp's live Q&A with Lewis Healey. The Lead Designer, Design Systems, at Atlassian. \n\nDesign System Bootcamp: https://maven.com/ui-prep/design-system-bootcamp\nAtlassian's Design System: https://atlassian.design/\n\n00:00 Introduction to the Atlassian Design System Team\n01:19 Team Structure and Roles\n01:40 Current Challenges and Resource Needs\n02:07 Figma Structure and Design Principles\n02:48 Design Tokens and Foundations\n04:23 Component Customization and Usage\n05:26 Color Variables and Design Tokens\n07:13 Library Management and Permissions\n08:46 Patterns and Detachment Philosophy\n10:42 Background vs. Surface Explanation\n14:47 Typography Variables and Styles\n16:28 Education and Advocacy for Designers\n20:33 Tracking Design System Adoption",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Y2yNTtPMjLs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Y2yNTtPMjLs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Y2yNTtPMjLs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Y2yNTtPMjLs/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Y2yNTtPMjLs/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Y2yNTtPMjLs",
+    "publishedAt": "2024-10-31T21:35:40Z",
+    "privacyStatus": "public",
+    "duration": "0:23:52"
+  },
+  {
     "title": "Information vs Experience: How to Build Mature Design Systems | Gustavo Teodoro",
     "description": "Vancouver Javascript Meetup - Halloween Edition.\n\nProjecting and implementing a Design System can be challenging. One of the main questions is: How can we ensure that the Design System will positively impact the user experience? This talk proposes to answer this question through a reflection in dialogue with the ideas of a Doctor in Pedagogy about Information and Knowledge of Experience to achieve the next level of maturity for Design Systems.\n\nGustavo Teodoro is a Staff Front-End Engineer at Thinkific. Passionate about Design Systems, User Experience and Web Accessibility.\n\nVanJS discord: https://discord.gg/vx3rHVbY\nSubmit your talk idea: https://github.com/VanJS/meetup/blob/master/SPEAKING.md\n\nVancouver JS: https://www.vanjs.com/",
     "thumbnails": {
@@ -17965,6 +18000,41 @@
     "videoUrl": "https://www.youtube.com/watch?v=yvqBzKH1lkc",
     "publishedAt": "2022-02-11T15:44:06Z",
     "duration": "1:00:24"
+  },
+  {
+    "title": "Design Systems Explained: The Beginners Guide for New Web Designers & Developers",
+    "description": "If you're just starting out in web design or development, understanding design systems can seem daunting. But don't worry, in this 10 minute guide I'll explain everything you need to know! From what they are, to how they work and why they're important, by the end of this video you'll be ready to start using them on your own projects.\n\nLINKS:\n\n👉 Join my Ultimate Web Designer Course & Become a Pro Web Designer: https://bradhussey.ca/udemy-uwd\n\n👉 Join Code College to access all of my courses for a low monthly subscription: https://codecollege.ca\n\n👉 Join my email list if you want to learn how to get fully booked with clients as a web designer: https://bradhussey.ca\n\n👉 Read my Design Systems Article on my Blog:\nhttps://www.bradhussey.ca/design-systems/\n\n- - - \n\nHey, I'm Brad Hussey, an entrepreneurial web designer, creator and marketing consultant from Canada. I've been designing and developing websites for over 10 years and have taught and coached more than 600,000 others to do the same.\n\nThis video was a segment from my popular course, The Ultimate Web Designer Course on Udemy and Code College. If you'd like to learn more about becoming a professional web designer, consider joining the course today!\n\nhttps://www.udemy.com/course/web-developer-course/?referralCode=DFE17F75EDA5905A9497",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5MK3SkNST-0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5MK3SkNST-0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5MK3SkNST-0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/5MK3SkNST-0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/5MK3SkNST-0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5MK3SkNST-0",
+    "publishedAt": "2022-02-10T17:56:17Z",
+    "privacyStatus": "public",
+    "duration": "0:08:42"
   },
   {
     "title": "Coding Design Systems | ep07 | Custom Personal Design System with Kaelig",
