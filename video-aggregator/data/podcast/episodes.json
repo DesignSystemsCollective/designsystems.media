@@ -1,5 +1,33 @@
 [
   {
+    "title": "Sync your Stuff w/ Dan Schmitz | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/njjxj4wuwaqn2fxk/yt_video_ujbhU4RY74c_4cdz9h.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/njjxj4wuwaqn2fxk/yt_video_ujbhU4RY74c_4cdz9h.mp3",
+    "publishedAt": "2026-01-20T23:02:00.000Z",
+    "duration": "0:06:30",
+    "durationSeconds": 390,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/c1785d10bd01ad435fb07d72f2570349.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/c1785d10bd01ad435fb07d72f2570349.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 48804141191,
+    "guid": "yt:video:ujbhU4RY74c",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Trusting the Machine w/ Karl Koch | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
