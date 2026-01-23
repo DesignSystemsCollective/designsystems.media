@@ -4,7 +4,7 @@ import MediaGrid from "../../components/MediaGrid.astro";
 import PodcastGrid from "../../components/PodcastGrid.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
-import { allMediaFilteredAndSorted, tags } from "../../utils/mediaCollection";
+import { allMediaFilteredAndSorted, tags, normalizeTag } from "../../utils/mediaCollection";
 
 export async function getStaticPaths() {
   return tags.map((tag) => {
@@ -13,7 +13,7 @@ export async function getStaticPaths() {
         params: { tag },
       };
     const filteredPosts = allMediaFilteredAndSorted
-      .filter((post) => post.data.tags?.includes(tag))
+      .filter((post) => post.data.tags?.map(normalizeTag).includes(tag))
       .sort(
         (a, b) =>
           new Date(b.data.publishedAt).getTime() -
@@ -46,7 +46,7 @@ const totalCount = podcastPosts.length + videoPosts.length;
 <BaseLayout sidebar={false} metadataProps={{ title: tag }}>
   <h1>{tag}</h1>
   <div class="header-links">
-    <soan class="total">{totalCount} items</soan>
+    <span class="total">{totalCount} items</span>
      {videoPosts && videoPosts.length > 0 && <a href="#video">{videoCount} videos</a>}
      {podcastPosts && podcastPosts.length > 0 &&
     <a href="#podcast">{podcastCount} podcasts</a>}
@@ -55,6 +55,7 @@ const totalCount = podcastPosts.length + videoPosts.length;
     <SectionHeader
     title={`${videoCount} videos`}
     padding={true}
+    anchor="video"
   />
      <MediaGrid media={videoPosts}  layoutType="list"/>
   }
@@ -62,6 +63,7 @@ const totalCount = podcastPosts.length + videoPosts.length;
        <SectionHeader
     title={`${podcastCount} podcasts`}
     padding={true}
+    anchor="podcast"
   />
      <PodcastGrid media={podcastPosts} />
   }

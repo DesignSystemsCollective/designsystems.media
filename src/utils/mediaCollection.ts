@@ -85,8 +85,16 @@ export const postsWithTags = allMediaFilteredAndSorted.filter((post) => {
   return post.data.tags && post.data.tags.length > 0;
 });
 
+// Normalize tags - capitalize first letter of each word
+export const normalizeTag = (tag: string): string => {
+  return tag
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+};
+
 export const tags: string[] = [
-  ...new Set(postsWithTags.flatMap((post) => post.data.tags || [])),
+  ...new Set(postsWithTags.flatMap((post) => (post.data.tags || []).map(normalizeTag))),
 ].sort();
 
 // Unsorted
@@ -100,7 +108,7 @@ export const postsWithSpeakers = allMediaFilteredAndSorted.filter((post) => {
 });
 
 export const speakers: string[] = [
-  ...new Set(postsWithSpeakers.flatMap((post) => post.data.speakers || [])),
+  ...new Set(postsWithSpeakers.flatMap((post) => (post.data.speakers || []).map(normalizeTag))),
 ].sort();
 
 // Counts
