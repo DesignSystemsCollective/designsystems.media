@@ -1,0 +1,149 @@
+---
+import PodcastCard from "../../components/PodcastCard.astro";
+import VideoCard from "../../components/VideoCard.astro";
+import MediaImage from "../../components/media/MediaImage.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPlaylistsWithResolvedItems } from "../../utils/playlistCollection";
+import type { MediaEntry, PodcastEntry, ResolvedPlaylistItem } from "../../types/media";
+
+export async function getStaticPaths() {
+  const playlists = await getPlaylistsWithResolvedItems();
+
+  return playlists.map((playlist) => ({
+    params: { slug: playlist.slug },
+    props: { playlist },
+  }));
+}
+
+const { playlist } = Astro.props;
+const playlistItems: ResolvedPlaylistItem[] = playlist.resolvedItems;
+const hasImage = Boolean(playlist.data.image);
+---
+
+<BaseLayout
+  sidebar={false}
+  metadataProps={{
+    title: `${playlist.data.name} playlist`,
+    description: playlist.data.description,
+  }}
+>
+  <section class:list={{ "playlist-hero": true, "has-image": hasImage }}>
+    {hasImage && (
+      <MediaImage
+        src={playlist.data.image.src}
+        alt={playlist.data.name}
+        duration=""
+        ratio="video"
+        showDuration={false}
+        shadow="no-shadow"
+        class="hero-image"
+      />
+    )}
+    <div class="playlist-header">
+      <p class="eyebrow">Playlist</p>
+      <h1>{playlist.data.name}</h1>
+      <p class="description">{playlist.data.description}</p>
+      <div class="meta">{playlistItems.length} items</div>
+    </div>
+  </section>
+
+  <section class="playlist-items">
+    <h2>Playlist items</h2>
+    <div class="playlist-list">
+      {
+        playlistItems.map((item) => {
+          if (item.type === "media") {
+            const mediaEntry = item.entry as MediaEntry;
+            const poster = mediaEntry.data.poster ?? mediaEntry.data.image;
+
+            if (!poster) {
+              return null;
+            }
+
+            return (
+              <VideoCard
+                title={mediaEntry.data.title}
+                poster={poster}
+                duration={mediaEntry.data.duration}
+                slug={mediaEntry.slug}
+                publishedAt={mediaEntry.data.publishedAt}
+                layoutType="list"
+              />
+            );
+          }
+
+          const podcastEntry = item.entry as PodcastEntry;
+
+          return (
+            <PodcastCard
+              title={podcastEntry.data.title}
+              poster={podcastEntry.data.poster}
+              duration={podcastEntry.data.duration}
+              slug={podcastEntry.slug}
+              publishedAt={podcastEntry.data.publishedAt}
+              showSlug={podcastEntry.data.showSlug}
+              hasEpisodeImage={podcastEntry.data.hasEpisodeImage}
+              podcastTitle={podcastEntry.data.podcastTitle}
+              image={podcastEntry.data.image}
+              layoutType="list"
+            />
+          );
+        })
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .playlist-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .playlist-hero.has-image .hero-image img {
+    width: 100%;
+  }
+
+  .playlist-header h1 {
+    margin: 0 0 0.5rem;
+    line-height: 1.2;
+  }
+
+  .playlist-header .description {
+    color: var(--tx-2);
+    margin: 0 0 0.75rem;
+  }
+
+  .meta {
+    color: var(--tx-3);
+    font-size: 0.95rem;
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--tx-3);
+    margin: 0 0 0.25rem;
+    font-size: 0.85rem;
+  }
+
+  .playlist-items h2 {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+  }
+
+  .playlist-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    .playlist-hero {
+      gap: 1rem;
+    }
+  }
+</style>
+

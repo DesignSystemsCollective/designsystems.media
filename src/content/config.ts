@@ -1,5 +1,21 @@
 import { defineCollection, z } from "astro:content";
 
+const playlistsCollection = defineCollection({
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      description: z.string(),
+      image: image().optional(),
+      items: z.array(
+        z.object({
+          type: z.enum(["media", "podcast"]),
+          slug: z.string(),
+        })
+      ),
+      draft: z.boolean().default(false),
+    }),
+});
+
 const showCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
@@ -91,6 +107,7 @@ const podcastCollection = defineCollection({
 });
 
 export const collections = {
+  playlists: playlistsCollection,
   media: mediaCollection,
   podcast: podcastCollection,
   show: showCollection
