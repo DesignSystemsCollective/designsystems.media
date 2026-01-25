@@ -164,12 +164,25 @@ export const runAllMosaics = async (): Promise<void> => {
     const validPostImages: string[] = [];
 
     for (const post of recentPosts) {
-      const imagePath = path.join(process.cwd(), "src/content/media", post.slug, "maxresdefault.jpg");
-      try {
-        await fs.access(imagePath);
-        validPostImages.push(imagePath);
-      } catch (error) {
-        console.log("[Astro Mosaics] Warning: Image file not found at path:", imagePath, "for post", `"${post.data.title}"`, ". Skipping.");
+      const baseDir = path.join(process.cwd(), "src/content/media", post.slug);
+      const imageFilenames = ["maxresdefault.jpg", "hqdefault.jpg", "poster.jpg"];
+      let foundImage: string | null = null;
+
+      for (const filename of imageFilenames) {
+        const imagePath = path.join(baseDir, filename);
+        try {
+          await fs.access(imagePath);
+          foundImage = imagePath;
+          break;
+        } catch (error) {
+          // Continue to next filename
+        }
+      }
+
+      if (foundImage) {
+        validPostImages.push(foundImage);
+      } else {
+        console.log("[Astro Mosaics] Warning: No image files found in", baseDir, "for post", `"${post.data.title}"`, ". Skipping.");
       }
     }
 

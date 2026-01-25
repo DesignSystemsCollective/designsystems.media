@@ -1,23 +1,26 @@
-import type { ImageType } from '../types/media';
+import type { ImageMetadata } from 'astro';
 
-const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
-  eager: true,
-}) as Record<string, ImageType>;
+const showImages = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/show/*/poster.jpg",
+  { eager: true }
+);
 
 /**
- * Safely gets the show poster image URL, handling special characters in paths
+ * Safely gets the show poster image metadata, handling special characters in paths
+ * Returns image metadata for use with Astro Image component
  * @param showSlug - The show's slug
  * @param hasEpisodeImage - Whether the episode has its own image
- * @param episodeImage - Optional episode-specific image
- * @returns The URL of the image to use
+ * @param episodeImage - Optional episode-specific image URL
+ * @returns The image metadata for the poster
  */
 export function getShowImage(
   showSlug: string | undefined,
   hasEpisodeImage: boolean = false,
   episodeImage?: string | null
-): string | undefined {
+): ImageMetadata | undefined {
   if (hasEpisodeImage && episodeImage) {
-    return episodeImage;
+    // External images are handled differently
+    return undefined;
   }
 
   if (!showSlug) {
@@ -28,20 +31,20 @@ export function getShowImage(
   const normalizedPath = `/src/content/show/${showSlug}/poster.jpg`;
   const image = showImages[normalizedPath];
 
-  return image?.default?.src;
+  return image?.default;
 }
 
 /**
  * Gets all available show images
- * @returns Record of show slugs to image URLs
+ * @returns Record of show slugs to image metadata
  */
-export function getAllShowImages(): Record<string, string> {
-  const images: Record<string, string> = {};
+export function getAllShowImages(): Record<string, ImageMetadata> {
+  const images: Record<string, ImageMetadata> = {};
   
   Object.entries(showImages).forEach(([path, image]) => {
     const slug = path.split('/').slice(-2)[0]; // Extract slug from path
-    if (image?.default?.src) {
-      images[slug] = image.default.src;
+    if (image?.default) {
+      images[slug] = image.default;
     }
   });
 

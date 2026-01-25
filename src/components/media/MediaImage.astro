@@ -7,7 +7,7 @@ import Badge from '../Badge.astro';
 export interface Props {
   src?: string;
   alt: string;
-  duration: string;
+  duration?: string;
   ratio?: 'square' | 'video';
   size?: 'small' | 'medium' | 'large' | 'thumbnail';
   class?: string;
@@ -20,7 +20,7 @@ const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDurat
 ---
 
 <div class={`media-image ${size} ${ratio} ${shadow} ${className}`}>
-  <img src={src} alt={alt} />
+  <img src={src} alt={alt} loading="lazy" decoding="async" />
   {duration && showDuration && 
         <Badge 
             label={formatDuration(duration)}}
