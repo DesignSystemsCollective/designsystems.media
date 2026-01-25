@@ -1,6 +1,9 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
 interface Props {
-  imageUrl?: string;
+  imageUrl?: string | ImageMetadata;
   alt: string;
   size?: 'small' | 'medium' | 'large';
   class?: string;
@@ -18,12 +21,24 @@ const sizes = {
   medium: '200px',
   large: '250px'
 };
+
+const sizePixels = {
+  small: 150,
+  medium: 200,
+  large: 250,
+};
+
+const isImageMetadata = imageUrl && typeof imageUrl === 'object' && 'src' in imageUrl;
 ---
 
 {
   imageUrl && (
     <div class={`podcast-artwork ${size} ${className}`}>
-      <img src={imageUrl} alt={alt} loading="lazy" decoding="async" />
+      {isImageMetadata ? (
+        <Image src={imageUrl as ImageMetadata} alt={alt} width={sizePixels[size]} loading="lazy" />
+      ) : (
+        <img src={imageUrl} alt={alt} loading="lazy" decoding="async" />
+      )}
     </div>
   )
 }

@@ -1,5 +1,7 @@
 ---
 // src/components/media/Hero.astro
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 import MediaImage from "./MediaImage.astro";
 import Title from "../Title.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
@@ -48,39 +50,55 @@ const showImages = import.meta.glob("/src/content/show/*/poster.jpg", {
 });
 
 // Image loading logic
-let imageToUse: string | undefined;
+let imageToUse: ImageMetadata | string | undefined;
+let backgroundImageUrl: string | undefined;
 
 if (hasEpisodeImage === undefined) {
   // This is a show page - just use the image directly
-  imageToUse = image?.src;
+  imageToUse = image;
+  backgroundImageUrl = image?.src;
 } else {
   // This is an episode page
   if (hasEpisodeImage === true && image) {
     // Use episode image if it exists
-    imageToUse = image.src;
+    imageToUse = image;
+    backgroundImageUrl = typeof image === 'string' ? image : image?.src;
   } else {
     // Fall back to show poster
     const showImagePath = `/src/content/show/${showSlug}/poster.jpg`;
     const showImage = showImages[showImagePath] as ImageType;
     if (showImage?.default) {
-      imageToUse = showImage.default.src;
+      imageToUse = showImage.default;
+      backgroundImageUrl = showImage.default.src;
     }
   }
 }
+
+const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in imageToUse;
 ---
 
 <div class="hero-image">
   <div class="show-container">
     {
-      showArtwork && (
-        <MediaImage
-          src={imageToUse}
-          alt={title}
-          size="large"
-          class="podcast-artwork"
-          duration=""
-          showDuration={false}
-        />
+      showArtwork && imageToUse && (
+        isImageMetadata ? (
+          <Image
+            src={imageToUse as ImageMetadata}
+            alt={title}
+            width={320}
+            loading="lazy"
+            class="podcast-artwork"
+          />
+        ) : (
+          <MediaImage
+            src={imageToUse as string}
+            alt={title}
+            size="large"
+            class="podcast-artwork"
+            duration=""
+            showDuration={false}
+          />
+        )
       )
     }
   </div>
@@ -139,7 +157,7 @@ if (hasEpisodeImage === undefined) {
     )
   }
 </div>
-<div class="background" style={`background-image: url('${imageToUse}')`}>
+<div class="background" style={`background-image: url('${backgroundImageUrl}')`}>
   <div class="scrim"></div>
 </div>
 
@@ -213,6 +231,13 @@ if (hasEpisodeImage === undefined) {
     padding: 2rem;
     min-height: 250px;
     gap: 1.5rem;
+
+    img {
+
+    box-shadow: 0 10px 30px var(--accent-glow);
+    border-radius: 6px;
+    overflow: hidden;
+    }
   }
 
   .page-title {

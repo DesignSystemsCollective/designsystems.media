@@ -1,11 +1,13 @@
 ---
 // src/components/media/MediaImage.astro
 
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import { formatDuration } from "../../utils/formatDuration";
 import Badge from '../Badge.astro';
 
 export interface Props {
-  src?: string;
+  src?: string | ImageMetadata;
   alt: string;
   duration?: string;
   ratio?: 'square' | 'video';
@@ -17,10 +19,25 @@ export interface Props {
 }
 
 const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDuration = true, class: className = '' } = Astro.props;
+
+// Map sizes to widths for responsive images
+const widthMap: Record<string, number> = {
+  thumbnail: 70,
+  small: 120,
+  medium: 320,
+  large: 640,
+};
+
+const width = widthMap[size || 'medium'] || 300;
+const isImageMetadata = src && typeof src === 'object' && 'src' in src;
 ---
 
 <div class={`media-image ${size} ${ratio} ${shadow} ${className}`}>
-  <img src={src} alt={alt} loading="lazy" decoding="async" />
+  {isImageMetadata ? (
+    <Image src={src as ImageMetadata} alt={alt} width={width} loading="lazy" />
+  ) : (
+    <img src={src} alt={alt} loading="lazy" decoding="async" />
+  )}
   {duration && showDuration && 
         <Badge 
             label={formatDuration(duration)}}
