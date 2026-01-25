@@ -1,28 +1,43 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import MediaImage from "./media/MediaImage.astro";
+import { Image } from "astro:assets";
+import { getShowImage } from "../utils/images";
 import FormattedDate from "../components/FormattedDate.astro";
 import { getMostRecentEpisodeDateForShow, allPodcastsFilteredAndSorted } from "../utils/mediaCollection";
+
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
 
 const { title, image, slug, speakers, episodeCount, lastUpdate } = Astro.props;
 
 const lastUpdateDate = getMostRecentEpisodeDateForShow(slug, allPodcastsFilteredAndSorted);
+const posterImage = getShowImage(slug, false);
 
 ---
 
 <div class="media-item">
   <a href={`/show/${slug}/`} class="media-link">
-    <MediaImage src={image.src} alt={title} />
+    <div class="media-image square shadow">
+      {posterImage ? (
+        <Image 
+          src={posterImage}
+          alt={title}
+          widths={[240, 540, 900]}
+          sizes="(max-width: 640px) 240px, (max-width: 1024px) 540px, 900px"
+          loading="lazy"
+          decoding="async"
+        />
+      ) : (
+        <img src={image.src} alt={title} loading="lazy" decoding="async" />
+      )}
+    </div>
     <div class="media-content">
       <h3 class="title">{title}</h3>
       <div class="meta speakers">{speakers.join(", ")}</div>
-       <div class="meta">
-      <span><FormattedDate date={lastUpdateDate} /></span> 
-      <span>•</span> <span>{episodeCount} episodes</span>
-    
-    </div>
+      <div class="meta">
+        <span><FormattedDate date={lastUpdateDate} /></span> 
+        <span>•</span> <span>{episodeCount} episodes</span>
+      </div>
     </div>
   </a>
 </div>

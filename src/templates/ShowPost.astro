@@ -25,7 +25,7 @@ episodes.sort(
 <article data-pagefind-body data-pagefind-sort>
   <div class="hero-image" data-pagefind-meta={`image:${image?.src}`}>
     <div class="show-container">
-      <div class="podcast-artwork"><img src={image?.src} alt={title} /></div>
+      <div class="podcast-artwork"><img src={image?.src} alt={title} loading="lazy" decoding="async" /></div>
     </div>
     <div class="background" style={`background-image: url('${image?.src}')`}>
     </div>
@@ -86,7 +86,7 @@ episodes.sort(
           <div class={`episodes-cell ${rowClass}`}>
             <div class="episode-content">
               {episode.data.image && (
-                <img src={episode.data.image} alt={`${episode.data.title} thumbnail`} class="episode-thumbnail" />
+                <img src={episode.data.image} alt={`${episode.data.title} thumbnail`} class="episode-thumbnail" loading="lazy" decoding="async" />
               )}
               <div class="episode-title-container">
                 <a class="episode-title" href={`/podcast/${episode.slug}/`}>

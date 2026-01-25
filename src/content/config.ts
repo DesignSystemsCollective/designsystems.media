@@ -54,7 +54,7 @@ const mediaCollection = defineCollection({
       image: image().optional(),
       poster: image().optional(),
       localImages: z.boolean(),
-      duration: z.string().optional(),
+      duration: z.union([z.string(), z.number()]).optional(),
       privacyStatus: z.string().optional(),
       videoUrl: z.string().optional(),
       tags: z.array(z.string()).optional(),
@@ -80,7 +80,7 @@ const podcastCollection = defineCollection({
       localImages: z.boolean(),
       
       // Podcast-specific fields
-      duration: z.string().optional(),
+      duration: z.union([z.string(), z.number()]).optional(),
       durationSeconds: z.number().optional(),
       episodeUrl: z.string().optional(),
       audioUrl: z.string().optional(),

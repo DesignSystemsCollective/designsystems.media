@@ -23,7 +23,7 @@ const sizes = {
 {
   imageUrl && (
     <div class={`podcast-artwork ${size} ${className}`}>
-      <img src={imageUrl} alt={alt} />
+      <img src={imageUrl} alt={alt} loading="lazy" decoding="async" />
     </div>
   )
 }

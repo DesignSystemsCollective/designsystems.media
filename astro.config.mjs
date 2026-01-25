@@ -4,7 +4,7 @@ import react from "@astrojs/react";
 import icon from "astro-icon";
 import pagefind from "astro-pagefind";
 import sitemap from "astro-sitemap";
-import { defineConfig, passthroughImageService } from "astro/config";
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,9 +24,6 @@ export default defineConfig({
     "A curated collection of design systems videos, tagged with speakers and topics for easy discovery.",
   output: "static",
   adapter: netlify(),
-  image: {
-    service: passthroughImageService(),
-  },
   trailingSlash: "always",
   exclude: ["src/pages/generate-social-mosaics.astro"],
 });

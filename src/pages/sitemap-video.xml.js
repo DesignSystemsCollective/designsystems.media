@@ -3,9 +3,19 @@ import { allVideosFilteredAndSorted } from "../utils/mediaCollection";
 
 export const prerender = true;
 
-function timeToSeconds(timeString) {
+function timeToSeconds(duration) {
+  // If it's already a number, return it (assume it's already in seconds)
+  if (typeof duration === 'number') {
+    return duration;
+  }
+  
+  // If it's undefined or null, return 0
+  if (!duration) {
+    return 0;
+  }
+  
   // Split the time string by colon
-  const parts = timeString.split(':');
+  const parts = duration.split(':');
   
   // Convert to numbers and calculate total seconds
   const hours = parseInt(parts[0], 10);
