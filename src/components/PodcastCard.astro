@@ -23,7 +23,10 @@ const {
   layoutType = "grid",
 } = Astro.props;
 
-const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
+// If episode has its own image, use it; otherwise, use show poster
+const imageToUse = hasEpisodeImage && image?.src 
+  ? image.src 
+  : getShowImage(showSlug, false);
 
 // Determine if it should be a list layout
 const isListLayout = layoutType === "list";

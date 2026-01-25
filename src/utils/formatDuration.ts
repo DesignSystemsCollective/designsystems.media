@@ -1,18 +1,26 @@
 /**
  * Formats a duration string in the format "hh:mm:ss" to a human-readable format
- * @param duration - Duration string in the format "hh:mm:ss"
+ * @param duration - Duration string or number in the format "hh:mm:ss" or ISO 8601
  * @returns Formatted duration string (e.g., "5m 30s", "1h 15m", etc.)
  */
-export function formatDuration(duration: string): string {
+export function formatDuration(duration: string | number | undefined): string {
+  // Check if duration exists
+  if (duration === undefined || duration === null) {
+    return "?";
+  }
+
+  // Convert to string if it's a number
+  const durationStr = typeof duration === "number" ? String(duration) : duration;
+
   // Check if durationStr is a string
-  if (typeof duration !== "string") {
+  if (typeof durationStr !== "string") {
     console.error("Invalid input: not a string");
     return "?";
   }
 
   // Check if the durationStr matches the expected format "hh:mm:ss"
   const regex = /^(\d{1,2}):(\d{1,2}):(\d{1,2})$/;
-  const match = duration.match(regex);
+  const match = durationStr.match(regex);
 
   if (match) {
     const [, hours, minutes, seconds] = match.map(Number);
