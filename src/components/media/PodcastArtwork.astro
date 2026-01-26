@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../../utils/imageSizes";
 
 interface Props {
   imageUrl?: string | ImageMetadata;
@@ -22,12 +23,21 @@ const sizes = {
   large: '250px'
 };
 
-const sizePixels = {
-  small: 150,
-  medium: 200,
-  large: 250,
+// Map size to standardized widths and sizes
+const sizeToWidths: Record<string, readonly number[]> = {
+  small: IMAGE_WIDTHS.podcastSmall,
+  medium: IMAGE_WIDTHS.podcastMedium,
+  large: IMAGE_WIDTHS.podcastLarge,
 };
 
+const sizeToSizes: Record<string, string> = {
+  small: IMAGE_SIZES.podcastSmall,
+  medium: IMAGE_SIZES.podcastMedium,
+  large: IMAGE_SIZES.podcastLarge,
+};
+
+const widths = sizeToWidths[size] || IMAGE_WIDTHS.podcastMedium;
+const sizesAttr = sizeToSizes[size] || IMAGE_SIZES.podcastMedium;
 const isImageMetadata = imageUrl && typeof imageUrl === 'object' && 'src' in imageUrl;
 ---
 
@@ -35,8 +45,15 @@ const isImageMetadata = imageUrl && typeof imageUrl === 'object' && 'src' in ima
   imageUrl && (
     <div class={`podcast-artwork ${size} ${className}`}>
       {isImageMetadata ? (
-        <Image src={imageUrl as ImageMetadata} alt={alt} width={sizePixels[size]} loading="lazy" />
+        <Image 
+          src={imageUrl as ImageMetadata} 
+          alt={alt} 
+          widths={[...widths]}
+          sizes={sizesAttr}
+          loading="lazy" 
+        />
       ) : (
+        // For string URLs (external images), use img tag as Image component requires width/height
         <img src={imageUrl} alt={alt} loading="lazy" decoding="async" />
       )}
     </div>

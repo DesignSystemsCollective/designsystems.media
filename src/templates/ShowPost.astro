@@ -6,6 +6,9 @@ import { convertToSlug } from "../utils/convertToSlug";
 import { getCollection } from "astro:content";
 import { formatDuration } from "../utils/formatDuration";
 import type { BaseShowProps } from "../types/media";
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 const { title, image, slug, speakers, episodeCount, explicit } = Astro.props;
 
@@ -25,7 +28,18 @@ episodes.sort(
 <article data-pagefind-body data-pagefind-sort>
   <div class="hero-image" data-pagefind-meta={`image:${image?.src}`}>
     <div class="show-container">
-      <div class="podcast-artwork"><img src={image?.src} alt={title} loading="lazy" decoding="async" /></div>
+      <div class="podcast-artwork">
+        {image && (
+          <Image 
+            src={image} 
+            alt={title} 
+            widths={[...IMAGE_WIDTHS.medium]}
+            sizes={IMAGE_SIZES.artwork}
+            loading="lazy" 
+            decoding="async" 
+          />
+        )}
+      </div>
     </div>
     <div class="background" style={`background-image: url('${image?.src}')`}>
     </div>
@@ -86,7 +100,26 @@ episodes.sort(
           <div class={`episodes-cell ${rowClass}`}>
             <div class="episode-content">
               {episode.data.image && (
-                <img src={episode.data.image} alt={`${episode.data.title} thumbnail`} class="episode-thumbnail" loading="lazy" decoding="async" />
+                typeof episode.data.image === 'object' && 'src' in episode.data.image ? (
+                  <Image 
+                    src={episode.data.image as ImageMetadata} 
+                    alt={`${episode.data.title} thumbnail`} 
+                    class="episode-thumbnail" 
+                    widths={[...IMAGE_WIDTHS.thumbnail]}
+                    sizes={IMAGE_SIZES.thumbnail}
+                    loading="lazy" 
+                    decoding="async" 
+                  />
+                ) : (
+                  // For string URLs (external images), use img tag
+                  <img 
+                    src={episode.data.image as string} 
+                    alt={`${episode.data.title} thumbnail`} 
+                    class="episode-thumbnail" 
+                    loading="lazy" 
+                    decoding="async" 
+                  />
+                )
               )}
               <div class="episode-title-container">
                 <a class="episode-title" href={`/podcast/${episode.slug}/`}>

@@ -7,7 +7,7 @@ const { media, layoutType = "grid", gridItemMinWidth = "600px" } = Astro.props;
 
 <ResponsiveGrid gridItemMinWidth={gridItemMinWidth}} gridType="grid">
   {
-    media.map((media) => (
+    media.map((media, index) => (
       <VideoCard
         title={media.data.title}
         poster={media.data.poster}
@@ -15,6 +15,7 @@ const { media, layoutType = "grid", gridItemMinWidth = "600px" } = Astro.props;
         slug={media.slug}
         publishedAt={media.data.publishedAt}  
         layoutType={layoutType}
+        loading={index < 8 ? "eager" : "lazy"}
       />
     ))
   }

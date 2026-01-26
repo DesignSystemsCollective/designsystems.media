@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import { getShowImage } from "../utils/images";
 import FormattedDate from "../components/FormattedDate.astro";
 import { getMostRecentEpisodeDateForShow, allPodcastsFilteredAndSorted } from "../utils/mediaCollection";
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { slug?: Media["slug"] };
@@ -22,14 +23,22 @@ const posterImage = getShowImage(slug, false);
         <Image 
           src={posterImage}
           alt={title}
-          widths={[240, 540, 900]}
-          sizes="(max-width: 640px) 240px, (max-width: 1024px) 540px, 900px"
+          widths={[...IMAGE_WIDTHS.extraLarge]}
+          sizes={IMAGE_SIZES.card}
           loading="lazy"
           decoding="async"
         />
-      ) : (
-        <img src={image.src} alt={title} loading="lazy" decoding="async" />
-      )}
+      ) : image ? (
+        // image is ImageMetadata from content collection, use it directly
+        <Image 
+          src={image}
+          alt={title}
+          widths={[...IMAGE_WIDTHS.extraLarge]}
+          sizes={IMAGE_SIZES.card}
+          loading="lazy"
+          decoding="async"
+        />
+      ) : null}
     </div>
     <div class="media-content">
       <h3 class="title">{title}</h3>

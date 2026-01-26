@@ -7,13 +7,14 @@ const { media } = Astro.props;
 
 <ResponsiveGrid >
   {
-    media.map((item) => (
+    media.map((item, index) => (
         <VideoCard
         title={item.data.title}
         poster={item.data.poster}
         duration={item.data.duration}
         slug={item.slug}
         publishedAt={item.data.publishedAt}
+        loading={index < 12 ? "eager" : "lazy"}
       />
     ))
   }

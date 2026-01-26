@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import { formatDuration } from "../../utils/formatDuration";
 import Badge from '../Badge.astro';
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../../utils/imageSizes";
 
 export interface Props {
   src?: string | ImageMetadata;
@@ -16,28 +17,82 @@ export interface Props {
   shadow?: 'shadow' | 'no-shadow';
   showDuration?: true | false;
   variant?: string;
+  loading?: "lazy" | "eager";
 }
 
-const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDuration = true, class: className = '' } = Astro.props;
+const { src, alt, size, duration, shadow = 'shadow', ratio = 'square', showDuration = true, class: className = '', loading = 'lazy' } = Astro.props;
 
-// Map sizes to widths for responsive images
-const widthMap: Record<string, number> = {
-  thumbnail: 70,
-  small: 120,
-  medium: 320,
-  large: 640,
+// Map sizes to widths and sizes for responsive images
+const sizeToWidths: Record<string, readonly number[]> = {
+  thumbnail: IMAGE_WIDTHS.thumbnail,
+  small: IMAGE_WIDTHS.small,
+  medium: IMAGE_WIDTHS.medium,
+  large: IMAGE_WIDTHS.large,
 };
 
-const width = widthMap[size || 'medium'] || 300;
+const sizeToSizes: Record<string, string> = {
+  thumbnail: IMAGE_SIZES.thumbnail,
+  small: IMAGE_SIZES.small,
+  medium: IMAGE_SIZES.medium,
+  large: IMAGE_SIZES.large,
+};
+
+const currentSize = size || 'medium';
+const widths = sizeToWidths[currentSize] || IMAGE_WIDTHS.medium;
+const sizes = sizeToSizes[currentSize] || IMAGE_SIZES.medium;
 const isImageMetadata = src && typeof src === 'object' && 'src' in src;
+
+// Check if string is a local file path (not a remote URL)
+const isLocalPath = (url: string): boolean => {
+  return url.startsWith('./') || 
+         url.startsWith('../') || 
+         url.startsWith('/src/') ||
+         url.startsWith('/@fs/') ||
+         !url.startsWith('http://') && !url.startsWith('https://');
+};
+
+// Map sizes to width/height for remote images (string URLs)
+const sizeToDimensions: Record<string, { width: number; height: number }> = {
+  thumbnail: { width: 70, height: 70 },
+  small: { width: 120, height: 120 },
+  medium: { width: 320, height: 320 },
+  large: { width: 640, height: 640 },
+};
+
+// Adjust height for video ratio
+const dimensions = sizeToDimensions[currentSize] || sizeToDimensions.medium;
+const imageHeight = ratio === 'video' 
+  ? Math.round(dimensions.width * (9 / 16)) 
+  : dimensions.height;
 ---
 
 <div class={`media-image ${size} ${ratio} ${shadow} ${className}`}>
   {isImageMetadata ? (
-    <Image src={src as ImageMetadata} alt={alt} width={width} loading="lazy" />
-  ) : (
-    <img src={src} alt={alt} loading="lazy" decoding="async" />
-  )}
+    <Image 
+      src={src as ImageMetadata} 
+      alt={alt} 
+      widths={[...widths]}
+      sizes={sizes}
+      loading={loading} 
+    />
+  ) : src && typeof src === 'string' ? (
+    // Check if it's a local file path or remote URL
+    isLocalPath(src) ? (
+      // Local file paths cannot be used with Image component - must use img tag
+      <img src={src} alt={alt} loading={loading} decoding="async" />
+    ) : (
+      // Remote URLs can use Image component with width/height
+      <Image 
+        src={src} 
+        alt={alt} 
+        width={dimensions.width}
+        height={imageHeight}
+        widths={[...widths]}
+        sizes={sizes}
+        loading={loading} 
+      />
+    )
+  ) : null}
   {duration && showDuration && 
         <Badge 
             label={formatDuration(duration)}}

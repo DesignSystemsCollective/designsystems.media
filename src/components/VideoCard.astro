@@ -5,9 +5,13 @@ import type { ImageMetadata } from "astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import MediaImage from "./media/MediaImage.astro";
 import { formatDuration } from "../utils/formatDuration";
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 type Media = CollectionEntry<"media">;
-type Props = Media["data"] & { slug?: Media["slug"] };
+type Props = Media["data"] & { 
+  slug?: Media["slug"];
+  loading?: "lazy" | "eager";
+};
 
 const {
   title,
@@ -16,6 +20,7 @@ const {
   poster,
   slug,
   layoutType = "grid",
+  loading = "lazy",
 } = Astro.props;
 
 // Determine if it should be a list layout
@@ -39,13 +44,12 @@ const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
       <Image 
         src={poster as ImageMetadata} 
         alt={title} 
-        width={640}
-        height={360}
-        sizes="(max-width: 768px) 100px, (max-width: 1440px) 320px, 640px"
-        loading="lazy" 
+        widths={[...IMAGE_WIDTHS.large]}
+        sizes={IMAGE_SIZES.large}
+        loading={loading} 
       />
     ) : (
-      <MediaImage src={poster} alt={title} ratio="video" />
+      <MediaImage src={poster} alt={title} ratio="video" loading={loading} />
     )}
   </a>
     <div class="media-content">

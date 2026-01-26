@@ -6,6 +6,7 @@ import type { ImageMetadata } from "astro";
 import MediaImage from "../media/MediaImage.astro";
 import Badge from "../Badge.astro";
 import { formatDuration } from "../../utils/formatDuration";
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../../utils/imageSizes";
 
 type Episode = CollectionEntry<"podcast">;
 
@@ -64,7 +65,8 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
         <Image
           src={imageToUse as ImageMetadata}
           alt={`${episode.data.title} thumbnail`}
-          width={70}
+          widths={[...IMAGE_WIDTHS.thumbnail]}
+          sizes={IMAGE_SIZES.thumbnail}
           loading="lazy"
           class="episode-thumbnail"
         />

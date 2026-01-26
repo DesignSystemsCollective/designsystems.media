@@ -7,6 +7,7 @@ import Title from "../Title.astro";
 import { convertToSlug } from "../../utils/convertToSlug";
 import type { HeroProps } from "../../types/components";
 import type { ImageType } from "../../types/media";
+import { IMAGE_WIDTHS, IMAGE_SIZES } from "../../utils/imageSizes";
 
 export type Props = HeroProps;
 
@@ -85,7 +86,8 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
           <Image
             src={imageToUse as ImageMetadata}
             alt={title}
-            width={320}
+            widths={[...IMAGE_WIDTHS.medium]}
+            sizes={IMAGE_SIZES.artwork}
             loading="lazy"
             class="podcast-artwork"
           />

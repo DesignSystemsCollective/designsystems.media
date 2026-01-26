@@ -25,7 +25,8 @@ const {
 
 // If episode has its own image, use it; otherwise, use show poster
 const showPoster = getShowImage(showSlug, false);
-const imageToUse = (hasEpisodeImage && image) ? image.src : (showPoster ? showPoster.src : undefined);
+// Use ImageMetadata objects directly, not .src strings
+const imageToUse = (hasEpisodeImage && image) ? image : showPoster;
 
 // Determine if it should be a list layout
 const isListLayout = layoutType === "list";
