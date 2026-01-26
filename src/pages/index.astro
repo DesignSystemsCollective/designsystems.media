@@ -33,7 +33,7 @@ const recentPodcasts = allPodcastsFilteredAndSorted.slice(0, 12);
     linkLabel="View all podcasts"
     padding={true}
   />
-  <PodcastGrid media={recentPodcasts} />
+  <PodcastGrid media={recentPodcasts}  eagerLoadCount={8} />
   <ResponsiveGrid gridLayoutGap="1rem" gridColumnCount={3}>
     <Card>
       <CardHeader
