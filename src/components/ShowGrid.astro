@@ -7,7 +7,7 @@ const { media } = Astro.props;
 
 <ResponsiveGrid gridColumnCount={6} gridItemMinWidth="200px">
   {
-    media.map((media) => (
+    media.map((media, index) => (
       <ShowCard
         title={media.data.title}
         image={media.data.image}
@@ -15,6 +15,7 @@ const { media } = Astro.props;
         episodeCount={media.data.episodeCount}
         speakers={media.data.speakers}
         lastUpdate={media.data.lastUpdate}
+        loading={index < 8 ? "eager" : "lazy"}
       />
     ))
   }

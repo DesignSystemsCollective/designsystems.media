@@ -7,9 +7,12 @@ import { getMostRecentEpisodeDateForShow, allPodcastsFilteredAndSorted } from ".
 import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 type Media = CollectionEntry<"show">;
-type Props = Media["data"] & { slug?: Media["slug"] };
+type Props = Media["data"] & { 
+  slug?: Media["slug"];
+  loading?: "lazy" | "eager";
+};
 
-const { title, image, slug, speakers, episodeCount, lastUpdate } = Astro.props;
+const { title, image, slug, speakers, episodeCount, lastUpdate, loading = "lazy" } = Astro.props;
 
 const lastUpdateDate = getMostRecentEpisodeDateForShow(slug, allPodcastsFilteredAndSorted);
 const posterImage = getShowImage(slug, false);
@@ -25,7 +28,7 @@ const posterImage = getShowImage(slug, false);
           alt={title}
           widths={[...IMAGE_WIDTHS.extraLarge]}
           sizes={IMAGE_SIZES.card}
-          loading="lazy"
+          loading={loading}
           decoding="async"
         />
       ) : image ? (
@@ -35,7 +38,7 @@ const posterImage = getShowImage(slug, false);
           alt={title}
           widths={[...IMAGE_WIDTHS.extraLarge]}
           sizes={IMAGE_SIZES.card}
-          loading="lazy"
+          loading={loading}
           decoding="async"
         />
       ) : null}

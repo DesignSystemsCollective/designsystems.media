@@ -108,7 +108,7 @@ const layoutType = !showSlug ? "show" : "episode";
     title={episodes.length + ` episodes`}
     padding={false}
   />
-        <PodcastGrid media={episodes} />
+        <PodcastGrid media={episodes} eagerLoadCount={2} />
       )}
     </div>
   </div>

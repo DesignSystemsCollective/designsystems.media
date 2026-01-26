@@ -88,7 +88,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
             alt={title}
             widths={[...IMAGE_WIDTHS.extraLarge]}
             sizes="(max-width: 1024px) 320px, 900px"
-            loading="lazy"
+            loading="eager"
             class="podcast-artwork"
           />
         ) : (
@@ -99,6 +99,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
             class="podcast-artwork"
             duration=""
             showDuration={false}
+            loading="eager"
           />
         )
       )

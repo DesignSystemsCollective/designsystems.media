@@ -21,7 +21,7 @@ const shows = allShowsSortedByRecentEpisode.slice(0, 6);
     title="Latest podcast episodes"
     padding={true}
   />
-  <PodcastGrid media={podcast} />
+  <PodcastGrid media={podcast} eagerLoadCount={6} />
 </BaseLayout>
 <style>
   .show {

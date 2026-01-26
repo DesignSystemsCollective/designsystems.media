@@ -2,12 +2,21 @@
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
 import PodcastCard from "./PodcastCard.astro";
 
-const { media, gridType = "grid"} = Astro.props;
+interface Props {
+  media: any[];
+  gridType?: "grid" | "list";
+  eagerLoadCount?: number;
+}
+
+const { media, gridType = "grid", eagerLoadCount = 8 } = Astro.props;
+
+// Debug: Log the eagerLoadCount to verify it's being received
+// console.log('PodcastGrid eagerLoadCount:', eagerLoadCount, 'media length:', media.length);
 ---
 
 <ResponsiveGrid gridItemMinWidth="600px" gridType={gridType}>
   {
-    media.map((media) => (
+    media.map((media, index) => (
       <PodcastCard
         title={media.data.title}
         poster={media.data.poster}
@@ -19,6 +28,7 @@ const { media, gridType = "grid"} = Astro.props;
         podcastTitle={media.data.podcastTitle}
         image={media.data.image}    
         layoutType="list"
+        loading={index < eagerLoadCount ? "eager" : "lazy"}
       />
     ))
   }

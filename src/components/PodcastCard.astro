@@ -9,6 +9,7 @@ type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & {
   slug?: Media["slug"];
   layoutType?: "grid" | "list";
+  loading?: "lazy" | "eager";
 };
 
 const {
@@ -21,6 +22,7 @@ const {
   showSlug,
   podcastTitle,
   layoutType = "grid",
+  loading = "lazy",
 } = Astro.props;
 
 // If episode has its own image, use it; otherwise, use show poster
@@ -49,6 +51,7 @@ const isListLayout = layoutType === "list";
       duration={duration}
       variant="podcast-duration"
       showDuration={!isListLayout}
+      loading={loading}
     />
   </a>
   <div class="media-content">
