@@ -86,8 +86,8 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
           <Image
             src={imageToUse as ImageMetadata}
             alt={title}
-            widths={[...IMAGE_WIDTHS.medium]}
-            sizes={IMAGE_SIZES.artwork}
+            widths={[...IMAGE_WIDTHS.extraLarge]}
+            sizes="(max-width: 1024px) 320px, 900px"
             loading="lazy"
             class="podcast-artwork"
           />
@@ -233,13 +233,33 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     padding: 2rem;
     min-height: 250px;
     gap: 1.5rem;
+  }
 
-    img {
-
+  .show-container img,
+  .show-container :global(img) {
     box-shadow: 0 10px 30px var(--accent-glow);
     border-radius: 6px;
     overflow: hidden;
-    }
+    max-height: 506px;
+    max-width: 900px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .podcast-artwork {
+    max-height: 506px;
+    max-width: 900px;
+    width: auto;
+    height: auto;
+  }
+
+  .podcast-artwork img {
+    max-height: 506px;
+    max-width: 900px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
   }
 
   .page-title {
