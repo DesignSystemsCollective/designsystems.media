@@ -476,6 +476,34 @@
     "type": "full"
   },
   {
+    "title": "DSP 139. Why the Future of Digital Production Starts With Code, Not a Canvas",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>As AI compresses the distance between idea and execution, the abstractions that once made design tools necessary are becoming points of friction. In this conversation, Knapsack leaders Chris Strahl, Evan Lovely, and Robin Cannon make the case that the future of digital production starts in the medium products actually ship in, code. They unpack why design systems are infrastructure, not artifacts, how context becomes the critical input for enterprise AI, and why creating directly in code unlocks faster iteration with higher fidelity. This shift changes who gets to create, how teams work together, and what it means to scale ideas instead of just processes.</p><p>In this episode, you’ll hear about:</p><ul><li>AI as an enabler of human creativity, not a replacement</li><li>Why prototype-first workflows are breaking down</li><li>How the Intelligent Product Engine supports real product creation</li><li>What it looks like for designers, developers, and product teams to build, refine, and ship together</li></ul><p>View the <a href='https://docs.google.com/document/d/1D4UbGctohLwfM74xhbL1UhbJnEblSh8CMa6DieaswTo/edit?tab=t.0'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/evanlovely/'>Evan Lovely </a>is the co-founder and CTO of Knapsack</p><p><a href='https://www.linkedin.com/in/robincannon/'>Robin Cannon</a> is the Head of Product at Knapsack</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18375079-dsp-139-why-the-future-of-digital-production-starts-with-code-not-a-canvas.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18375079-dsp-139-why-the-future-of-digital-production-starts-with-code-not-a-canvas.mp3",
+    "publishedAt": "2025-12-17T20:00:00.000Z",
+    "duration": "0:34:39",
+    "durationSeconds": 2079,
+    "episodeImageUrl": "https://storage.buzzsprout.com/v5bohz95jo1nieswknlkphwhzk8f?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/v5bohz95jo1nieswknlkphwhzk8f?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 46916194243,
+    "guid": "Buzzsprout-18375079",
+    "season": 1,
+    "episode": 139,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live",
     "description": "<p><a href='https://wireframe.ds.house'>https://wireframe.ds.house</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
@@ -556,6 +584,34 @@
     "guid": "Buzzsprout-18300930",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "DSP 138. Scaling Inclusive Design: An Accessibility Conversation with Anna Thielke",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>How do teams turn accessibility from individual effort into system wide practice? Chris talks with Anna Thielke, founder and CEO of Mantis and Company, to find out. They explore why representation on system teams leads to better standards, how designing for the edges strengthens products for everyone, and what it takes for accessibility work to spread across large organizations in a sustainable way. Anna also shares how lived experience shapes her perspective and why accessibility becomes more effective when teams view it as shared responsibility rather than a late stage requirement.</p><p><b>Key Takeaways</b></p><ul><li>Design systems provide the structure needed to scale accessibility across teams.</li><li>Representation on system teams shapes the standards that reach every product.</li><li>Designing for the edges leads to more inclusive and resilient experiences.</li></ul><p>View the <a href='https://docs.google.com/document/d/1ftNyHwllNoQGXG_RoCVOTS6mxR_MwiXXPCZ9c223_rI/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/stellarjae/'>Anna Thielke</a> is an entrepreneur and systems thinker who leads Mantis & Co., a disability-owned accessibility and inclusive design agency. Drawing on 15+ years of experience and her background as a blind, neurodivergent leader, she helps teams build products and cultures that work for everyone. Previously Director of Inclusive Design at CVS Health, Anna is known for blending creativity, honesty, and practicality to move organizations from intention to action.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18300930-dsp-138-scaling-inclusive-design-an-accessibility-conversation-with-anna-thielke.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18300930-dsp-138-scaling-inclusive-design-an-accessibility-conversation-with-anna-thielke.mp3",
+    "publishedAt": "2025-12-04T20:00:00.000Z",
+    "duration": "0:24:54",
+    "durationSeconds": 1494,
+    "episodeImageUrl": "https://storage.buzzsprout.com/l9qfkdqby3krh55ak7ubt324n6z6?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/l9qfkdqby3krh55ak7ubt324n6z6?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 46213961217,
+    "guid": "Buzzsprout-18300930",
+    "season": 1,
+    "episode": 138,
     "explicit": false,
     "type": "full"
   },
@@ -920,6 +976,34 @@
     "guid": "Buzzsprout-18165074",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "DSP 137. Why You Shouldn’t Aim for Perfect: Building Design Systems That Deliver Business Value with Noelle Lansford",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>If you’ve ever struggled to balance perfection with business reality, this episode is for you. In this episode of the Design Systems Podcast, Chris Strahl talks with Noelle Lansford, founder of <em>Shep</em>, about why chasing the “perfect system” often breaks more than it fixes. Drawing on her experience across startups and Fortune 5 companies, Noelle argues that design systems succeed when they serve people and the business—not when they chase architectural purity. She and Chris dig into the realities of relational alignment between design, engineering, and product, the shift from component factories to consulting mindsets, and what AI means for the next generation of design leadership.</p><p>Here’s what stood out:</p><ul><li>Perfection shouldn’t be your goal</li><li>Design systems teams should pursue an infrastructure + enablement structure</li><li>Systems of systems thinking works—if the cultural conditions are right</li><li>AI makes iteration faster, which makes human oversight more essential</li></ul><p>View the <a href='https://docs.google.com/document/d/1AyrneJiEVHc3d9Z8D2hRWmjYFkZz6JshX7BGUt8sIHU/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/noellelansford/'><b>Noelle Lansford</b> </a>began her career as an engineer on design system teams before transitioning into design, where she discovered her passion for connecting the technical and human sides of digital product creation. Today, as the founder of <a href='https://www.linkedin.com/company/howdyshep/'><b>Shep</b></a>, a design systems consultancy that partners with organizations from early-stage startups to Fortune 5 companies, Noelle helps bridge the gap between design, engineering, and business strategy. Her work focuses on creating systems that balance structure with flexibility, prioritize people over process, and deliver lasting business value instead of chasing perfection.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18165074-dsp-137-why-you-shouldn-t-aim-for-perfect-building-design-systems-that-deliver-business-value-with-noelle-lansford.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18165074-dsp-137-why-you-shouldn-t-aim-for-perfect-building-design-systems-that-deliver-business-value-with-noelle-lansford.mp3",
+    "publishedAt": "2025-11-11T17:00:00.000Z",
+    "duration": "0:44:45",
+    "durationSeconds": 2685,
+    "episodeImageUrl": "https://storage.buzzsprout.com/2i2tzzm1ynf3zgszdb0uk1434jhu?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/2i2tzzm1ynf3zgszdb0uk1434jhu?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 45022289148,
+    "guid": "Buzzsprout-18165074",
+    "season": 1,
+    "episode": 137,
     "explicit": false,
     "type": "full"
   },
@@ -1876,6 +1960,34 @@
     "type": "full"
   },
   {
+    "title": "DSP 136. Are Design Systems Still for People? A Conversation with Elyse Holladay",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In this episode, Chris Strahl talks with Elyse Holladay—staff design engineer at Color Health and host of <em>On Theme</em>—about the evolution of design systems and how AI is reshaping the way we think about abstraction, collaboration, and contribution. They explore what it means to maintain relevance in a landscape where LLMs increasingly influence product development, and reflect on whether design systems are still for people—or for machines. Elyse shares a clear-eyed yet optimistic take on how AI can enhance, rather than replace, the work of design system practitioners.</p><p>Key Points:</p><ul><li>Design systems are shifting focus from components to solving collaboration and workflow problems.</li><li>AI isn’t replacing systems—it’s changing how they’re used and what they need to support.</li><li>Smaller teams can move faster by focusing on what’s most valuable, not doing everything.</li><li>Documentation is evolving to prioritize practical guidance over polished presentations.</li><li>Design systems are becoming infrastructure for both humans and AI.</li></ul><p>View the <a href='https://docs.google.com/document/d/1R5b14nqFdfA31a2du2DcyOLI15e7Nz4Ok_f1ew2Mcs0/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href=' https://www.linkedin.com/in/elyseholladay/'>Elyse Holladay (she/her)</a> is a long-time Design Systems practitioner and speaker, currently the Staff Design Engineer for Color Health's Continuum Design System. She was tapped to start the first Design System team for Indeed, has taught hundreds of hours of technical training content, and has been invited to speak at well-known industry events such as Clarity Conference, CSSConf Berlin, and Frontend Design Conference. She is also the host of <a href='https://www.designsystemsontheme.com'>On Theme: Design Systems in Depth</a>. She's a technical generalist, off-the-charts extrovert, avid reader, and expat Texan with an armadillo tattoo.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17542676-dsp-136-are-design-systems-still-for-people-a-conversation-with-elyse-holladay.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17542676-dsp-136-are-design-systems-still-for-people-a-conversation-with-elyse-holladay.mp3",
+    "publishedAt": "2025-07-22T14:00:00.000Z",
+    "duration": "0:45:32",
+    "durationSeconds": 2732,
+    "episodeImageUrl": "https://storage.buzzsprout.com/sxdtmdn0cb47id1rqw6rwr63yi9j?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/sxdtmdn0cb47id1rqw6rwr63yi9j?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 40212901026,
+    "guid": "Buzzsprout-17542676",
+    "season": 1,
+    "episode": 136,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Ok & Cancel",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
@@ -1956,6 +2068,34 @@
     "guid": "Buzzsprout-17445415",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "DSP 135. The Infrastructure Behind Digital Production: A Conversation with Steve Dodier-Lazaro",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Design systems aren’t just a UI toolkit—they’re the backbone of digital product creation and management. In this episode, engineer and researcher Steve Dodier-Lazaro joins Chris Strahl to unpack why treating design systems like standalone products is holding teams back. They explore what it really takes to scale product design and development in enterprise environments—from shared tooling and token standards to how AI and LLMs can bridge messy, real-world workflows.</p><p>In this episode:</p><ul><li>Why design systems are <em>dependencies</em>, not deliverables</li><li>Tools and standards shaping the future of digital production</li><li>How AI will reshape the infrastructure behind design and engineering</li></ul><p>View the <a href='https://docs.google.com/document/d/1AjoDrzWJNnBvnEuFTB2qTsaqon0Kd1pnVrI4vAtIicw/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/stevedodierlazaro/?originalSubdomain=fr'>Steve Dodier-Lazaro</a> is a freelance software engineer specialised in design systems and frontend development based in Seine Saint-Denis, France. Steve is dedicated to advancing the design system tooling ecosystem through his open-source contributions as a community advocate, addon author and contributor to Storybook, and through projects around design token tooling.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.linkedin.com/in/chrisstrahl/'>LinkedIn</a>.</p><p><b>Sponsor</b></p><p>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17445415-dsp-135-the-infrastructure-behind-digital-production-a-conversation-with-steve-dodier-lazaro.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17445415-dsp-135-the-infrastructure-behind-digital-production-a-conversation-with-steve-dodier-lazaro.mp3",
+    "publishedAt": "2025-07-08T14:00:00.000Z",
+    "duration": "0:36:38",
+    "durationSeconds": 2198,
+    "episodeImageUrl": "https://storage.buzzsprout.com/g4n5rqeswrys5ksr1cgux6j6i5cw?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/g4n5rqeswrys5ksr1cgux6j6i5cw?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 39627701191,
+    "guid": "Buzzsprout-17445415",
+    "season": 1,
+    "episode": 135,
     "explicit": false,
     "type": "full"
   },
@@ -2324,6 +2464,34 @@
     "type": "full"
   },
   {
+    "title": "DSP 134 Modernizing a Legend: Catherine Dubut Builds the Future at Ford Pro",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>What does it take to transform 121 years of automotive legacy into a modern digital ecosystem? Catherine Dubut, Director of Global UX Strategy at Ford Pro, joins Chris Strahl to share how her team is reengineering the organization’s fragmented product landscape into a scalable, unified digital assembly line.</p><p>With over 80 legacy sites, 20+ global markets, and deeply siloed teams, the scale and complexity of Ford Pro’s challenge was immense. Catherine explains how her team brought structure to chaos—combining elements from outdated systems, building new foundations where needed, and stitching them together into a single, coherent design system. From establishing governance and cross-functional collaboration to introducing micro frontends and scaling adoption, this episode offers a playbook for modernizing UX at enterprise scale.</p><p>Key themes:</p><ul><li>Designing for fleets, not just drivers—multiple users, journeys, and roles per customer</li><li>Replatforming 80+ tools across legacy systems and international business units</li><li>Building a design system through consolidation, extension, and future-proofing</li><li>Using micro frontends to bridge disparate tech stacks across Ford Pro</li><li>Measuring success through design efficiency, team adoption, and developer alignment</li></ul><p>View the <a href='https://docs.google.com/document/d/1uHWgIWjFhhfcH0olgpsygKp6oqjhwQ0MERW60prpIZ4/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/catherinedubut/'>Catherine Dubut</a> is Director of Global UX Strategy at Ford Pro, the commercial business of Ford Motor Company. She oversees a global team of individual contributors and managers across design, user research, information architecture, and content strategy. Catherine is a seasoned UX leader with a track record of designing impactful experiences, driving UX practice maturity, and digital transformation at dynamic brands at places like Samsung Electronics, REI, and Intuit. Based in Seattle, Catherine’s been involved in design community activities including organizing local events, mentoring underrepresented UX professionals, public speaking, and writing. She enjoys exploring cities, outdoors, architecture, and other adventures with her husband, daughter, and terrier mix rescue.</p><p><b>Host</b></p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You ",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17296446-dsp-134-modernizing-a-legend-catherine-dubut-builds-the-future-at-ford-pro.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17296446-dsp-134-modernizing-a-legend-catherine-dubut-builds-the-future-at-ford-pro.mp3",
+    "publishedAt": "2025-06-13T20:00:00.000Z",
+    "duration": "0:30:33",
+    "durationSeconds": 1833,
+    "episodeImageUrl": "https://storage.buzzsprout.com/6shrdb9ht91usfvdvdaj46693u4w?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/6shrdb9ht91usfvdvdaj46693u4w?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 38568405724,
+    "guid": "Buzzsprout-17296446",
+    "season": 1,
+    "episode": 134,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Wireframe Live: Apple Liquid Glass",
     "description": "<p><a href='https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g'>https://youtube.com/@UCK3vdwEmPCo1Wn2gSJksd-g</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
@@ -2488,6 +2656,34 @@
     "guid": "Buzzsprout-17172395",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "DSP 133. Garth Braithwaite on Design Tokens, Governance, and Scaling Spectrum at Adobe",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>The design token nerds are taking over the pod! In this episode, guest host Christopher Bloom sits down with Garth Braithwaite, Lead Senior Staff Design Engineer at Adobe, for a deep dive into the inner workings of Spectrum’s design tokens. Garth shares how Adobe manages the complexity of scaling a multi-platform design system, and how thoughtful collaboration across teams builds real value for users.</p><p>They get into the weeds on cross-team communication, naming conventions, accessibility, versioning, and Garth’s own <em>front-end manifesto</em>. If you’re building, scaling, or just geeking out over design tokens—this one’s pure gold.</p><p>View the <a href='https://docs.google.com/document/d/1Z3_MXCJemcu06Ovio80bm1FYYhnrfz77evqq4Buqybc/edit?tab=t.0#heading=h.3zlwuvcqbz1d'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest<br/></b><a href='https://www.linkedin.com/in/garthdb/'>Garth Braithwaite </a>is a Lead Senior Staff Design Engineer at Adobe, where he plays a key role in maintaining the Spectrum design system. With a background in both design and engineering, Garth brings a unique perspective to scaling design systems and improving workflows across teams.</p><p><b>Host<br/></b>Christopher Bloom is a Principal Front-end Engineer at Knapsack. He's a design system nerd, avid mountain biker, and all-around ball of insight and energy.</p><p><b>Sponsor<br/></b>Sponsored by Knapsack, the digital production platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.<br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17172395-dsp-133-garth-braithwaite-on-design-tokens-governance-and-scaling-spectrum-at-adobe.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17172395-dsp-133-garth-braithwaite-on-design-tokens-governance-and-scaling-spectrum-at-adobe.mp3",
+    "publishedAt": "2025-05-27T14:00:00.000Z",
+    "duration": "0:59:34",
+    "durationSeconds": 3574,
+    "episodeImageUrl": "https://storage.buzzsprout.com/48x7tmrwapu6a82v4pyq65pqs0e8?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/48x7tmrwapu6a82v4pyq65pqs0e8?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 37666023580,
+    "guid": "Buzzsprout-17172395",
+    "season": 1,
+    "episode": 133,
     "explicit": false,
     "type": "full"
   },
@@ -2744,6 +2940,34 @@
     "type": "full"
   },
   {
+    "title": "DSP 132. The Evolution of Digital Production: TJ Pitre Talks Flash, Figma, and the Future of Dynamic Design",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In this episode, TJ Pitre, founder of South Left, joins the podcast to trace the real evolution of digital production — from the early days of Flash and Fireworks to today's dynamic, system-driven workflows. TJ shares his journey bridging design and development, reflects on the rise of modern tools like Figma, and explores the shift toward more connected, production-ready design. Along the way, he breaks down the growing role of the design engineer, the impact of AI on creative workflows, and what the future holds for building smarter, faster digital products.</p><p>View the <a href='https://docs.google.com/document/d/1QrTL_0XSOmnY19XK_P46HGU7iyJChwTQkJNpsKBzrHg/edit?usp=drive_link'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/tpitre/'>TJ Pitre</a> is the founder of South Left, a boutique front-end agency that lives at the intersection of design and development. With roots in illustration, UI design, and engineering, TJ helps teams transform static ideas into dynamic, production-ready systems. He’s a passionate advocate for design engineering, smarter workflows, and the evolving future of digital production.</p><p><b>Host</b></p><p><a href='https://www.linkedin.com/in/andrewrohman/'>Andrew Rohman </a>is EVP of Strategy at Knapsack, where he helps enterprises close the gap between design and code and accelerate digital product delivery at scale. He’s passionate about building better systems, reducing risk, and creating positive change across teams and organizations.</p><p><b>Sponsor<br/></b>Sponsored by Knapsack, the digital production platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/17045357-dsp-132-the-evolution-of-digital-production-tj-pitre-talks-flash-figma-and-the-future-of-dynamic-design.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/17045357-dsp-132-the-evolution-of-digital-production-tj-pitre-talks-flash-figma-and-the-future-of-dynamic-design.mp3",
+    "publishedAt": "2025-04-29T14:00:00.000Z",
+    "duration": "0:29:49",
+    "durationSeconds": 1789,
+    "episodeImageUrl": "https://storage.buzzsprout.com/244ldig4drm9dfl6zj8dnji675wt?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/244ldig4drm9dfl6zj8dnji675wt?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 36711170178,
+    "guid": "Buzzsprout-17045357",
+    "season": 1,
+    "episode": 132,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Naming is hard, but have you tried working with people? with Guy Segal — #15",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Text the show your thoughts!</a></p><p>Guy Segal joins Elyse to unpack the messy, complicated world of… people. Guy shares practical strategies from his experience at Thomson Reuters, including the powerful \"pre-mortem\" exercise he used to rebuild trust and alignment for the design system. They get vulnerable and unpack why (as cliche as it sounds!) genuine listening, storytelling, learning to give and receive feedback, and actively engaging with product teams, is so much more impactful than relying solely on processes or artifacts. Plus, Guy shares why he hated it at first when product teams started using the name of the design system.</p><p><b>Links & References</b></p><ul><li><a href='https://www.linkedin.com/in/guysegal/'>Guy Segal on LinkedIn</a></li><li>Guy's talk at BeMore Festival on feedback, <a href='https://www.youtube.com/watch?v=46geT3t6Tqc'>Working with Humans: Resolving Conflicts with Empathy</a></li><li>Guy's talk <a href='https://www.youtube.com/watch?v=NqW4nQQtSGw'>Mastering the Painless Design Critique</a></li><li><a href='https://www.knapsack.cloud/blog/designed-for-success-how-guy-segal-built-a-design-system-that-product-teams-want-to-use'>Guy on the Knapsack Design Systems Podcast</a></li><li>Guy's podcast, <a href='https://rss.com/podcasts/designdowntime/'>Design Downtime</a>, celebrating the joys of living a balanced creative life outside the pixels and wireframes</li><li>Brad Frost's article Choosing a Name for your Design System</li></ul><p><br/></p><p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href='http://designsystemsontheme.com/'><b>designsystemsontheme.com</b></a><b>!</b></p><p><br/>🎨🎟️ <b>Into Design Systems is May 25-28<br/>Get your ticket at </b><a href='http://intodesignsystems.com/ontheme'><b>intodesignsystems.com/ontheme</b></a><b><br/><br/></b>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>",
     "podcastTitle": "On Theme: Design Systems in Depth",
@@ -2880,6 +3104,34 @@
     "guid": "Buzzsprout-16977346",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "DSP 131. DSP Rewind | Rick Rodriguez on Building an Adaptable and Scalable Design system",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>This week, we're digging into the Design Systems Podcast archives. Guest host Richard Banfield, VP of Design Leadership at Knapsack, revisits a 2020 conversation between host Chris Strahl and Rick Rodriguez, then Head of Design Systems at Walmart Labs.</p><p>Rick shares how his team developed Living Design, Walmart’s internal design system, to support both customer-facing and associate-facing digital products. The conversation explores what it takes to design for scale across a massive enterprise ecosystem, how to navigate legacy technologies while planning for the future, and how to engage people across your organization to drive alignment and adoption.</p><p>You’ll also hear about:</p><ul><li>Lessons in contribution, ownership, and iteration within a federated design organization</li><li>The ambassador program that helped evangelize and align teams across the enterprise</li><li>Insights into how data and qualitative feedback drive system decisions — especially around complex components like carousels</li></ul><p>Although this conversation originally aired five years ago, the lessons Rick shares remain strikingly relevant. As design systems continue to mature, this episode offers a timeless perspective on scaling thoughtfully, building collaboratively, and evolving with intention.</p><p>View the <a href='https://docs.google.com/document/d/1sEFQpA6sJnNUso2YnfMHa1AzC2rquofauXV7wIlQMyc/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p>Rick Rodriguez is currently a Product Design Manager at Meta, but at the time of our original episode he wast the Head of Design Systems at Walmart Labs.  He is an avid runner, hand letterer, and superfan of cappuccinos and donut breaks. You can find Rick on Twitter as <a href='https://twitter.com/rickrodriguez'>@rickrodriguez</a>, and on <a href='https://www.linkedin.com/in/rickrodriguez24/'>LinkedIn</a>.</p><p><b>Hosts</b></p><p><a href='https://www.linkedin.com/in/richardbanfield/'>Richard Benfield </a>is the VP of Design Leadership at Knapsack. He's acted as an <b>advisor and interim executive</b> to category-leading organizations, ia a best selling author, been a founder/CEO, and built and sold several businesses over the last 20+ years.</p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/16977346-dsp-131-dsp-rewind-rick-rodriguez-on-building-an-adaptable-and-scalable-design-system.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/16977346-dsp-131-dsp-rewind-rick-rodriguez-on-building-an-adaptable-and-scalable-design-system.mp3",
+    "publishedAt": "2025-04-15T14:00:00.000Z",
+    "duration": "0:31:59",
+    "durationSeconds": 1919,
+    "episodeImageUrl": "https://storage.buzzsprout.com/pzb43rpwm1d5oybwhmk5iud0hii5?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/pzb43rpwm1d5oybwhmk5iud0hii5?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 36117066585,
+    "guid": "Buzzsprout-16977346",
+    "season": 1,
+    "episode": 131,
     "explicit": false,
     "type": "full"
   },
@@ -3076,6 +3328,34 @@
     "guid": "Buzzsprout-16900608",
     "season": null,
     "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "DSP 130. Jon Warden on How GSK Uses Design Systems to Balance Scale, Flexibility, and Innovation",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In this episode of the Design Systems Podcast, guest host Andrew Rohman sits down with Jon Warden to explore how GSK leverages design systems to drive consistency, innovation, and efficiency across a highly complex global organization. With multiple brands, multi-product ecosystems, and diverse regional needs, GSK must balance scale and flexibility while embracing automation, AI, and modern workflows—all while keeping the customer experience at the center of their digital strategy.</p><p>Key Topics Covered:</p><ul><li>How GSK creates design consistency across multiple brands, products, and global regions</li><li>The role of design systems in managing complexity at scale</li><li>AI and automation in streamlining workflows and driving efficiency</li><li>How GSK balances innovation with regulatory and operational constraints</li><li>The impact of scalable workflows on accelerating digital transformation</li><li>Building digital experiences that meet customer needs while maintaining global consistency</li></ul><p>Tune in for a deep dive into how one of the world’s leading pharmaceutical companies is leveraging design systems to power its digital strategy, drive innovation, and create seamless customer experiences at scale.</p><p>View the <a href='https://docs.google.com/document/d/1Ld3f_VaypWnlnO9lQ2nlk02TskRggmHb0clV2IGQ8R4/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p>Jon Warden is a user experience, design, and product strategist with over 25 years of experience. In the past decade, he has created, led, and managed UX, design, and product teams across various sectors, including news (The Times, London), B2B, B2C, media agencies, telecoms, and charity. Jon focuses on providing clear UX direction throughout the development lifecycle. He and his teams emphasize outcome-based user research, data, and user testing programs. Through UX design practices, they support the creation of user-centric products that engage customers across all channels. Currently, Jon is the Global Director of UX, Design & Research in the Commercial Digital & AI division at GSK.</p><p><b>Sponsor<br/></b>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/16900608-dsp-130-jon-warden-on-how-gsk-uses-design-systems-to-balance-scale-flexibility-and-innovation.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/16900608-dsp-130-jon-warden-on-how-gsk-uses-design-systems-to-balance-scale-flexibility-and-innovation.mp3",
+    "publishedAt": "2025-04-02T00:00:00.000Z",
+    "duration": "0:41:08",
+    "durationSeconds": 2468,
+    "episodeImageUrl": "https://storage.buzzsprout.com/dvgd2qpkq979ar9f3ft4omxfu9gw?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/dvgd2qpkq979ar9f3ft4omxfu9gw?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 35578722192,
+    "guid": "Buzzsprout-16900608",
+    "season": 1,
+    "episode": 130,
     "explicit": false,
     "type": "full"
   },
