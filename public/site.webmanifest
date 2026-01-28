@@ -19,17 +19,44 @@
   "display": "standalone",
   "categories": ["productivity", "entertainment"],
   "shortcuts": [
-  {
-    "name": "All videos",
-    "url": "/all"
-  },
-  {
-    "name": "All speakers",
-    "url": "/speakers"
-  },
-  {
-    "name": "All tags",
-    "url": "/tags"
-  }
-]
+    {
+      "name": "All videos",
+      "short_name": "Videos",
+      "description": "Browse all videos",
+      "url": "/all",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "All speakers",
+      "short_name": "Speakers",
+      "description": "Browse all speakers",
+      "url": "/speakers",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "All tags",
+      "short_name": "Tags",
+      "description": "Browse all tags",
+      "url": "/tags",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
 }
