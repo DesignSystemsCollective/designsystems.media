@@ -27,10 +27,10 @@ const url = new URL(Astro.request.url);
 const shouldAutoplay =
   url.searchParams.has("autoplay");
 
-function getAudioMimeType(url) {
+function getAudioMimeType(url: string): string {
   if (!url) return "audio/mpeg"; // fallback if no URL
 
-  const extension = url.split(".").pop().toLowerCase();
+  const extension = url?.split(".")?.pop()?.toLowerCase();
 
   const mimeTypes = {
     mp3: "audio/mpeg",
@@ -71,6 +71,10 @@ if (hasEpisodeImage === undefined) {
     if (showImage?.default) {
       imageToUse = showImage.default;
       backgroundImageUrl = showImage.default.src;
+    } else {
+      // Handle case where showImage.default is not valid
+      imageToUse = undefined;
+      backgroundImageUrl = undefined;
     }
   }
 }

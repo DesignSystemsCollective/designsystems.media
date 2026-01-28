@@ -47,7 +47,7 @@ if (episode.data.hasEpisodeImage === undefined) {
   } else {
     // Fall back to show poster
     const showImagePath = `/src/content/show/${episode.data.showSlug}/poster.jpg`;
-    const showImage = showImages[showImagePath] as { default: ImageMetadata };
+    const showImage = showImages[showImagePath] as { default: ImageMetadata } | undefined;
     if (showImage?.default) {
       imageToUse = showImage.default;
     }

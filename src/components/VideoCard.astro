@@ -39,6 +39,7 @@ const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
     },
   ]}
 >
+
   <a href={`/video/${slug}/`} class="media-image">
     {isImageMetadata ? (
       <Image 
@@ -75,7 +76,7 @@ const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
     transition: box-shadow 1s ease-out;
   }
 a {
-    text-decoration: none
+    text-decoration: none;
   } .media-image img {
     border-radius: 6px;
   }
