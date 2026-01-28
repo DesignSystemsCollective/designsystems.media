@@ -1,5 +1,33 @@
 [
   {
+    "title": "Designing the Learning Loop: Context, AI, and Compound Systems",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In the first episode of <em>Patterns</em>, Chris Strahl sits down with Dave Brown, design leader at Qualtrics, to explore what modern systems thinking looks like in an AI-driven product landscape. Moving beyond traditional notions of software design, the conversation reframes product creation as a shift from a single golden path toward a world where every experience is effectively an edge case. Together, they unpack why context, not features, is becoming the primary design material and how AI is forcing teams to rethink how systems are structured, constrained, and evolved.</p><p>Drawing on his experience leading AI and ML initiatives at AWS and now at Qualtrics, Dave explores how designers and builders can shape better outcomes by designing for context, learning loops, and adaptability. The discussion spans designing <em>for</em> AI versus designing <em>with</em> AI, the rise of compound engineering, and the collapse of rigid boundaries between design, product, and engineering. Rather than shipping static features, the future points toward systems that learn continuously, respond in real time, and improve through every interaction.</p><p>Key takeaways</p><ul><li><b>Context is the core design challenge of 2026</b>, shaping how AI systems behave, adapt, and deliver value.</li><li>Product <b>systems are moving from golden paths to infinite edge cases</b>, driven by personalization and real-time decision making.</li><li><b>Designing for AI means creating learning loops</b>, where systems improve through continuous feedback rather than static rules.</li><li><b>Compound engineering reframes software creation</b> around systems that get smarter over time, collapsing traditional role boundaries.</li></ul><p>View the <a href='https://docs.google.com/document/d/1JjKXg2gIUJ9-oOqp0csXb_xzyYi0ynpRLw8FpLU3P7Q/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/davestevenbrown/'><b>Dave Brown</b></a> is a design leader at Qualtrics, where he focuses on AI initiatives and the evolution of the company’s design system. Previously, he spent nearly a decade at Amazon, including six years leading design for AI and machine learning services at AWS. His work centers on building adaptive, scalable product systems, with a particular interest in context, learning loops, and how teams can design systems that get smarter over time.</p><p><b>Host</b></p><p><a href='https://www.linkedin.com/in/chrisstrahl/'><b>Chris Stroll </b></a>is the host of the Patterns podcast and a pi",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18574987-designing-the-learning-loop-context-ai-and-compound-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18574987-designing-the-learning-loop-context-ai-and-compound-systems.mp3",
+    "publishedAt": "2026-01-27T15:00:00.000Z",
+    "duration": "0:48:22",
+    "durationSeconds": 2902,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 49099324869,
+    "guid": "Buzzsprout-18574987",
+    "season": 2,
+    "episode": 1,
+    "explicit": 1,
+    "type": "full"
+  },
+  {
     "title": "Ep 94: Tech Dependencies",
     "description": "<p>Building vs. Inheriting: Davy and PJ discuss the performance cost of design system dependencies. Learn how to choose the right framework without bloating your system or losing control of your architecture.</p>",
     "podcastTitle": "Design System Office Hours",
