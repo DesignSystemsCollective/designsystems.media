@@ -1,5 +1,33 @@
 [
   {
+    "title": "Do our design systems give new joiners anxiety?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Set the scene - you've joined a new company as a product designer or engineer, and you're confronted with a massive system, with custom naming and opaque decisions. Queue anxiety. So how do we make our design systems easy to understand, and make them a strength for onboarding new joiners?</p><p>Show notes</p><ul><li><a href='https://webinars.zeroheight.com/videos/zeroheight-ds-live-amy-hupe-a-whole-lot-of-nonsense/signup'>Amy’s talk about jargon</a></li><li><a href='https://help.zeroheight.com/hc/en-us/articles/35887017130651-Enabling-AI-powered-features-in-zeroheight'>zh’s AI features</a></li></ul>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18590166-do-our-design-systems-give-new-joiners-anxiety.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18590166-do-our-design-systems-give-new-joiners-anxiety.mp3",
+    "publishedAt": "2026-02-03T04:00:00.000Z",
+    "duration": "0:32:55",
+    "durationSeconds": 1975,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 49454158946,
+    "guid": "Buzzsprout-18590166",
+    "season": 2,
+    "episode": 48,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Intent to Interface w/ Farid Sabitov | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
