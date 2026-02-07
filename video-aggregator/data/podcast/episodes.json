@@ -28,6 +28,34 @@
     "type": "full"
   },
   {
+    "title": "Chicken or Egg | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/quiagwig62hmdm7m/yt_video_AVLgXLk6gJw_u58k6g.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/quiagwig62hmdm7m/yt_video_AVLgXLk6gJw_u58k6g.mp3",
+    "publishedAt": "2026-01-30T23:04:07.000Z",
+    "duration": "0:46:58",
+    "durationSeconds": 2818,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/b79d81708898af1fd965f96a07768508.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/b79d81708898af1fd965f96a07768508.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 49636762491,
+    "guid": "yt:video:AVLgXLk6gJw",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Intent to Interface w/ Farid Sabitov | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
