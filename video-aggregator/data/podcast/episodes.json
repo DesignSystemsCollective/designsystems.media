@@ -1,5 +1,61 @@
 [
   {
+    "title": "Ep 95: When Docs Becomes a Liability",
+    "description": "<p>Davy and PJ discuss the \"liability\" of stale documentation and why AI still needs human oversight. They explore using Figma’s API to automate visual updates and kill the \"pain in the butt\" of manual maintenance.</p><p><br /></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/115330696/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-11%2F90161e2e-a0c6-ce02-2d17-f1edda6b9bb5.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/115330696/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-11%2F90161e2e-a0c6-ce02-2d17-f1edda6b9bb5.mp3",
+    "publishedAt": "2026-02-11T08:05:00.000Z",
+    "duration": "0:38:10",
+    "durationSeconds": 2290,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 49905973527,
+    "guid": "d199505c-525f-4822-8ca7-e4ad84fa7d1c",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Surviving the Waves w/ Mike Rispoli | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/g9oqfph7ela9nrjs/yt_video_wAyRclj0B98_87jduj.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/g9oqfph7ela9nrjs/yt_video_wAyRclj0B98_87jduj.mp3",
+    "publishedAt": "2026-02-10T21:36:05.000Z",
+    "duration": "1:00:20",
+    "durationSeconds": 3620,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/3f562760f9ab8b4968a44938619d88be.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/3f562760f9ab8b4968a44938619d88be.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 49897883815,
+    "guid": "yt:video:wAyRclj0B98",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Inside the Alaska–Hawaiian Merger: Shipping a Multi-Brand Experience in 10 Months",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>The Alaska Airlines and Hawaiian Airlines merger came with physical and regulatory deadlines that dictated an inflexible 10-month delivery window for digital and design work. With the timeline tied to real-world change, combined design, product, and engineering teams had to build and ship alongside a transformation that was already in motion.</p><p>Chris Strahl talks with Noelle Lansford and Forrest Akemann about what it took to deliver a multi-brand experience under that pressure, while respecting the long histories and cultural significance of two iconic airline brands. From foundational decisions around color, typography, and tokens to close collaboration across teams, this conversation offers a realistic look at how systems work gets done when speed is non-negotiable and the stakes are real.</p><p>We'll explore:</p><ul><li>What changes when deadlines are tied to physical and regulatory reality?</li><li>Why is merger-driven multi-brand work harder than planned multi-brand?</li><li>How do shared foundations like color, typography, and tokens enable teams to move faster together?</li></ul><p>View the <a href='https://docs.google.com/document/d/1T5pwy68Dw5fWnmcb5ZKSyc_uMG4TQ939lYxxmz8g5-E/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/noellelansford/'><b>Noelle Lansford</b> </a>began her career as an engineer on design system teams before transitioning into design, where she discovered her passion for connecting the technical and human sides of digital product creation. Today, as the founder of <a href='https://www.linkedin.com/company/howdyshep/'><b>Shep</b></a>, a design systems consultancy that partners with organizations from early-stage startups to Fortune 5 companies, Noelle helps bridge the gap between design, engineering, and business strategy. Her work focuses on creating systems that balance structure with flexibility, prioritize people over process, and deliver lasting business value instead of chasing perfection.</p><p><a href='https://www.linkedin.com/in/forrest-akemann/'><b>Forrest Akemann</b> </a>is a design systems lead at Hawaiian Airlines, where he has worked since 2019 across product design and design systems. He played a key role in building Hawaiian’s design system and later helped lead the system work through the Alaska–Hawaiian merger, focusing on multi-brand foundations, theming, and system adoption.</p><p><b>Hostt</b></p><p><a href='https://www.linkedin.com/in/chrisstrahl/'><b>Chris Strahl </b></a>is the host of the",
     "podcastTitle": "Patterns Podcast",
