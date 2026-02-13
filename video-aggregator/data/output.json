@@ -1,5 +1,80 @@
 [
   {
+    "title": "Into Design Systems Online Hackathon - Final Pitches",
+    "description": "150 designers built tools for design systems using Figma Make and Cursor and Claude Code and Supernova\nLive demo pitches from the hackathon",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hOUN5crsNVI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hOUN5crsNVI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hOUN5crsNVI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hOUN5crsNVI",
+    "publishedAt": "2026-02-09T09:23:52Z",
+    "privacyStatus": "public",
+    "duration": "2:57:31"
+  },
+  {
+    "title": "How does the Warm Home Discount Scheme work if you live in Scotland?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8UZypNpMuNI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8UZypNpMuNI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8UZypNpMuNI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8UZypNpMuNI",
+    "publishedAt": "2026-02-07T12:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:01:10"
+  },
+  {
+    "title": "Unlock Supernova: 3 Features Power Users Swear By",
+    "description": "Go beyond documentation and make your design system work for your team. 🚀\n\nMany teams spend months or even years building a design system, but too often, it stops at documentation and manual handoffs. Supernova helps you turn that investment into something your team actively uses, queries, and builds with every day.\n\nIn this webinar, you’ll learn how to:\n\nFind answers fast: Ask AI feature makes your system conversational, empowering designers and engineers to find the right information without leaving their workflow.\n\nWork in context: Access system data directly in the IDE with MCP for faster implementation and fewer mistakes.\n\nAutomate building: Streamline exports from Figma to code, keeping design and development in sync.\n\nPrototype confidently: Use real design system constraints to validate ideas faster and avoid surprises in production.\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on X 👉 https://x.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/iwxFIqWd6eA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/iwxFIqWd6eA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/iwxFIqWd6eA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iwxFIqWd6eA",
+    "publishedAt": "2026-02-06T11:07:30Z",
+    "privacyStatus": "public",
+    "duration": "0:52:32"
+  },
+  {
     "title": "Driving test myths",
     "description": "",
     "thumbnails": {
