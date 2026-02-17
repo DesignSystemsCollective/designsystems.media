@@ -112,6 +112,34 @@
     "type": "full"
   },
   {
+    "title": "2025 Predictions Recap with Noelle Lansford",
+    "description": "<p>My <a href='https://www.buzzsprout.com/2417527/episodes/16373923'>very first minisode</a> of the entire podcast was some 2025 predictions, and a <em>lot</em> has changed. (Honestly, what was I thinking trying to make predictions in the era of AI? fml) <a href='https://www.linkedin.com/in/noellelansford/'>Noelle Lansford</a> joined me for Season Two's official first episode to  recap my 2025 predictions with me and look back on the trends and themes we saw in design-systems-land last year.</p><p>Stay tuned for part two where we dive in to our 2026 predictions!</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://www.buzzsprout.com/2417527/episodes/18646998-2025-predictions-recap-with-noelle-lansford.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2417527/episodes/18646998-2025-predictions-recap-with-noelle-lansford.mp3",
+    "publishedAt": "2026-02-09T10:00:00.000Z",
+    "duration": "0:41:21",
+    "durationSeconds": 2481,
+    "episodeImageUrl": "https://storage.buzzsprout.com/7fn4gekf3oiap3ljrm0ge80uihfy?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/7fn4gekf3oiap3ljrm0ge80uihfy?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 49786622727,
+    "guid": "Buzzsprout-18646998",
+    "season": 2,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Do our design systems give new joiners anxiety?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Set the scene - you've joined a new company as a product designer or engineer, and you're confronted with a massive system, with custom naming and opaque decisions. Queue anxiety. So how do we make our design systems easy to understand, and make them a strength for onboarding new joiners?</p><p>Show notes</p><ul><li><a href='https://webinars.zeroheight.com/videos/zeroheight-ds-live-amy-hupe-a-whole-lot-of-nonsense/signup'>Amy’s talk about jargon</a></li><li><a href='https://help.zeroheight.com/hc/en-us/articles/35887017130651-Enabling-AI-powered-features-in-zeroheight'>zh’s AI features</a></li></ul>",
     "podcastTitle": "Design Systems WTF",
