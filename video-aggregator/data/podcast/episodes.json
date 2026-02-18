@@ -1,5 +1,61 @@
 [
   {
+    "title": "System Colors | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/7lc7v87kvoebycpl/yt_video_DM5Lw4iIr-c_bz7njs.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/7lc7v87kvoebycpl/yt_video_DM5Lw4iIr-c_bz7njs.mp3",
+    "publishedAt": "2026-02-17T21:50:03.000Z",
+    "duration": "0:31:47",
+    "durationSeconds": 1907,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7f44a3cc2608d955d4438ac8bb900b82.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7f44a3cc2608d955d4438ac8bb900b82.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 50279301013,
+    "guid": "yt:video:DM5Lw4iIr-c",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Are we delighting enough in our design systems?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Design systems kill creativity, right? We've heard that said so many times. But are we actually taking the time to inject joy into the system itself? Not only considering it as a part of the process for what we include in the system, but also in how we do documentation, release notes, and general communication around the design system? Or controversially... is it even important?</p><p><b>Show notes</b></p><ul><li><a href='https://zeroheight.com/blog/building-delight-in-your-design-system/'><b>Luke’s article on delighting in design systems</b></a></li><li><a href='https://medium.com/societe-generale-design/surviving-design-systems-c4b8caf4a019'><b>Societe Generale release notes article</b></a></li><li><a href='https://www.nngroup.com/articles/theory-user-delight/'><b>Aaron Walter’s Heirarchy of User Needs</b></a></li><li><a href='https://design.gitlab.com/components/socks'><b>The socks component in Gitlab’s Pyjamas design system</b></a></li></ul>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18694234-are-we-delighting-enough-in-our-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18694234-are-we-delighting-enough-in-our-design-systems.mp3",
+    "publishedAt": "2026-02-17T04:00:00.000Z",
+    "duration": "0:41:00",
+    "durationSeconds": 2460,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 50230599186,
+    "guid": "Buzzsprout-18694234",
+    "season": 2,
+    "episode": 49,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 95: When Docs Becomes a Liability",
     "description": "<p>Davy and PJ discuss the \"liability\" of stale documentation and why AI still needs human oversight. They explore using Figma’s API to automate visual updates and kill the \"pain in the butt\" of manual maintenance.</p><p><br /></p>",
     "podcastTitle": "Design System Office Hours",
