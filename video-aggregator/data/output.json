@@ -1,5 +1,180 @@
 [
   {
+    "title": "Thinking about leaving uni? Here’s what you need to know.",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FOAj-NEOUo8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FOAj-NEOUo8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FOAj-NEOUo8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FOAj-NEOUo8",
+    "publishedAt": "2026-02-19T12:00:34Z",
+    "privacyStatus": "public",
+    "duration": "0:01:40"
+  },
+  {
+    "title": "Design Systems London#15 - Full recording",
+    "description": "Full recording of our DSL #15 event, organised by YLD and sponsored by Lloyds Banking Group.\n\n00:00 Intros\n10:46 Architecting the experience operating system with Kishan Koriya (Design Systems Manager, Lloyds Banking Group)\n27:58 Two worlds, one system, and keeping our sanity with Murray Brown (Head of Product Design, BPP) and Mahir Rahman (Senior Product Designer, BPP)\n48:10 Tokenisation Revolution with Vicky Kocan (User Experience Designer, JPMorgan & Chase)\n1:02:43 Q&A\n1:46:42 Wrap UP\n--\nWho are YLD?\nYLD is one of London’s fastest growing product design and software engineering consultancies building exciting products and platforms using established product development processes, Design Thinking and User Centric Design. They are experts in Design Systems, React / Node and have helped companies such as Trainline, Dazn, The Economist and many more to achieve excellence.\nThe team is committed to the Open Source community aiming to create a long-standing product culture and delivery capability in each piece of work.\n\n👩🏻‍💻YLD is hiring - see our open roles: https://www.yld.com/join-us\n🤳Connect with us:\nYLD LinkedIn page: https://uk.linkedin.com/company/yld\nDesign Systems London Linkedin page: https://www.linkedin.com/showcase/design-systems-london/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LcgWBdsAqxQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LcgWBdsAqxQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LcgWBdsAqxQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LcgWBdsAqxQ",
+    "publishedAt": "2026-02-17T12:43:01Z",
+    "privacyStatus": "public",
+    "duration": "1:47:53"
+  },
+  {
+    "title": "What’s it like doing an apprenticeship?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LOXb-HDSeiU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LOXb-HDSeiU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LOXb-HDSeiU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LOXb-HDSeiU",
+    "publishedAt": "2026-02-15T12:00:29Z",
+    "privacyStatus": "public",
+    "duration": "0:02:04"
+  },
+  {
+    "title": "How does the marriage process work?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nx30qAc7low/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nx30qAc7low/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nx30qAc7low/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=nx30qAc7low",
+    "publishedAt": "2026-02-14T12:01:22Z",
+    "privacyStatus": "public",
+    "duration": "0:01:36"
+  },
+  {
+    "title": "Into Design Systems Online Hackathon - Final Pitches",
+    "description": "150 designers built tools for design systems using Figma Make and Cursor and Claude Code and Supernova\nLive demo pitches from the hackathon",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hOUN5crsNVI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hOUN5crsNVI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hOUN5crsNVI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=hOUN5crsNVI",
+    "publishedAt": "2026-02-09T09:23:52Z",
+    "privacyStatus": "public",
+    "duration": "2:57:31"
+  },
+  {
+    "title": "How does the Warm Home Discount Scheme work if you live in Scotland?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8UZypNpMuNI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8UZypNpMuNI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8UZypNpMuNI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8UZypNpMuNI",
+    "publishedAt": "2026-02-07T12:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:01:10"
+  },
+  {
+    "title": "Unlock Supernova: 3 Features Power Users Swear By",
+    "description": "Go beyond documentation and make your design system work for your team. 🚀\n\nMany teams spend months or even years building a design system, but too often, it stops at documentation and manual handoffs. Supernova helps you turn that investment into something your team actively uses, queries, and builds with every day.\n\nIn this webinar, you’ll learn how to:\n\nFind answers fast: Ask AI feature makes your system conversational, empowering designers and engineers to find the right information without leaving their workflow.\n\nWork in context: Access system data directly in the IDE with MCP for faster implementation and fewer mistakes.\n\nAutomate building: Streamline exports from Figma to code, keeping design and development in sync.\n\nPrototype confidently: Use real design system constraints to validate ideas faster and avoid surprises in production.\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on X 👉 https://x.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/iwxFIqWd6eA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/iwxFIqWd6eA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/iwxFIqWd6eA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=iwxFIqWd6eA",
+    "publishedAt": "2026-02-06T11:07:30Z",
+    "privacyStatus": "public",
+    "duration": "0:52:32"
+  },
+  {
     "title": "Driving test myths",
     "description": "",
     "thumbnails": {
