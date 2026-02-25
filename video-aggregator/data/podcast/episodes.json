@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 96: Trying Out New Tooling",
+    "description": "<p>Davy and PJ discuss why the future of design workflow isn't just better handoff—it’s starting with the code itself.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/115954947/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-24%2F3ac1d239-67e1-2a7e-b663-5a4ad1036a50.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/115954947/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-24%2F3ac1d239-67e1-2a7e-b663-5a4ad1036a50.mp3",
+    "publishedAt": "2026-02-24T08:03:00.000Z",
+    "duration": "0:29:25",
+    "durationSeconds": 1765,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 50650958626,
+    "guid": "21a50fcc-3f3f-4630-9183-50088485c0f2",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "CSS is Hacked | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a><br>\n</p>\n<p><br>\n</p>\n<p>Original video: <a href='https://www.youtube.com/watch?v=AZUp5nY7BWU'>https://www.youtube.com/watch?v=AZUp5nY7BWU</a><br>\n</p>\n<p>Report: <a href='https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html'>https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html</a><br>\n</p>\n<p>MDN: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-feature-values'>https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-feature-values</a><br>\n</p>\n<p>CSS-Tricks: <a href='https://css-tricks.com/almanac/rules/f/font-feature-values/'>https://css-tricks.com/almanac/rules/f/font-feature-values/</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
