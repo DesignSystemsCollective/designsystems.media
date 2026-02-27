@@ -1,5 +1,33 @@
 [
   {
+    "title": "Chip Away | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a><br>\n</p>\n<p><br>\n</p>\n<p><a href='https://blog.damato.design/posts/chip-away/'>https://blog.damato.design/posts/chip-away/</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/a16thjpzt9mkr3md/yt_video_fz6dBV-r1Dw_htf232.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/a16thjpzt9mkr3md/yt_video_fz6dBV-r1Dw_htf232.mp3",
+    "publishedAt": "2026-02-25T21:47:00.000Z",
+    "duration": "0:31:18",
+    "durationSeconds": 1878,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7354cf5a367811bb62cf8eed82d104f8.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7354cf5a367811bb62cf8eed82d104f8.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 50755290742,
+    "guid": "yt:video:fz6dBV-r1Dw",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 96: Trying Out New Tooling",
     "description": "<p>Davy and PJ discuss why the future of design workflow isn't just better handoff—it’s starting with the code itself.</p>",
     "podcastTitle": "Design System Office Hours",
