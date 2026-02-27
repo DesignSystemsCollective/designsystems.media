@@ -1,5 +1,130 @@
 [
   {
+    "title": "Tutorial: Claude Code designs for me in Figma ❌ No MCP needed",
+    "description": "#figma #claude #claudecode \nConnect Claude Code to Figma in 60 seconds. No API key. No MCP. No complex setup.\n\nI built a CLI that talks to Figma Desktop through Chrome DevTools so Claude can design directly in your Figma files using your existing session. No configuration needed.\n\nWhat you will learn in this tutorial:\n→ How to set up the Figma CLI in under a minute\n→ How to connect Claude Code to your Figma Desktop app\n\nWhy this beats MCP for designers:\n✓ No API key needed (uses your existing Figma session)\n✓ Free Figma account works\n✓ Burns fewer tokens\n✓ Faster local connection\n\nLinks:\n📖 Full setup guide and article: \nhttps://www.intodesignsystems.com/blog/claude-code-figma-no-mcp\n💻 GitHub repo: https://github.com/silships/figma-cli\n🎓 AI Online Conference for Designers: https://www.intodesignsystems.com/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DEsxUXlXv5M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DEsxUXlXv5M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DEsxUXlXv5M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DEsxUXlXv5M",
+    "publishedAt": "2026-02-25T12:51:17Z",
+    "privacyStatus": "public",
+    "duration": "0:02:16"
+  },
+  {
+    "title": "Vibe Coding Jam with Supernova.io | Into Design Systems",
+    "description": "🎨 Design Systems + AI context = Better prototypes\n\nJohnny (PM at Supernova) shows how to connect your design system to vibe coding - so prototypes actually look and feel like your product.\n\nTimestamps:\n\n00:00 - Introduction\n01:10 - Agenda: Why AI context matters\n05:37 - The problem with vibe coding today\n11:53 - Code Containers: Bring your components to AI\n22:42 - Live demo: Creating prototypes\n28:18 - Crafting prompts for better results\n30:46 - Live coding demo\n31:00 - Multiplayer collaboration\n40:04 - MCP integration for Cursor/Claude Code\n41:27 - Summary & key takeaways\n42:41 - Q&A\n\nLearn more about Supernova: https://www.supernova.io/\n\nLearn the AI and vibe coding workflows top design teams use:\nInto Design Systems AI Conference 2026\n\n🗓️ March 19-20, 2026 (Online)\n⏱️ 14+ hours of sessions + 120 min bonus AI content\n🎤 24+ speakers from Adobe, GitHub, WhatsApp, Miro, Atlassian, Figma\n📦 Includes: Recordings, slides, templates, certificate\n🎟️ https://intodesignsystems.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5JNYwUGkkGQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5JNYwUGkkGQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5JNYwUGkkGQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=5JNYwUGkkGQ",
+    "publishedAt": "2026-02-24T22:27:36Z",
+    "privacyStatus": "public",
+    "duration": "0:54:22"
+  },
+  {
+    "title": "Tokenisation Revolution by Vicky Kocan",
+    "description": "Wiktoria (Vicky) Kocan is a User Experience Designer for JPMorgan & Chase, in the Design System team for their Asset Management platform. Previously, she worked as a Product Designer in publishing and proptech, building design systems and asset libraries. Besides systemic design, she’s passionate about art, gaming, and landing a great joke.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qMMiNmj4KcM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qMMiNmj4KcM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qMMiNmj4KcM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qMMiNmj4KcM",
+    "publishedAt": "2026-02-23T12:57:50Z",
+    "privacyStatus": "public",
+    "duration": "0:14:07"
+  },
+  {
+    "title": "Two worlds, one system and keeping our sanity by Murray Brown and Mahir Rahman",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/86mt2UYqfqw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/86mt2UYqfqw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/86mt2UYqfqw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=86mt2UYqfqw",
+    "publishedAt": "2026-02-23T12:16:59Z",
+    "privacyStatus": "public",
+    "duration": "0:20:03"
+  },
+  {
+    "title": "Architecting the experience operating system by Kishan Koriya",
+    "description": "Kishan Koriya is a Design System Manager at Lloyds Banking Group and a core member of the Cancara OS squad, where he helps shape the operating system that supports seven brands and reaches nearly thirty million customers. His work focuses on defining system level foundations across both Native and Web platforms, enabling product teams to build consistent experiences at scale.\n\nKishan played a major role in the 2024 digital first transformation of Lloyds, contributing to the shift toward an experience led brand and helping establish the structures that underpin the multi-brand ecosystem. \n\nIn 2025 he delivered the Re-imagine Lloyds talk at Config, presenting Cancara OS and demonstrating how design systems can act as catalysts for cultural change and organisational evolution. \n\nHis leadership spans end to end system governance, design to engineering alignment and the creation of shared architectural frameworks that support Native and Web teams across the organisation. He is recognised for his systems thinking, collaborative approach and ability to bring structure and clarity to large scale digital transformation",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZSHK4929v8U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZSHK4929v8U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZSHK4929v8U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ZSHK4929v8U",
+    "publishedAt": "2026-02-23T11:51:47Z",
+    "privacyStatus": "public",
+    "duration": "0:16:44"
+  },
+  {
     "title": "Thinking about leaving uni? Here’s what you need to know.",
     "description": "",
     "thumbnails": {
