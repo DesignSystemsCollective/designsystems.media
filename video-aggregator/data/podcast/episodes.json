@@ -1,5 +1,33 @@
 [
   {
+    "title": "Do MCPs care more about patterns or components?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Now we're in the business of creating context for AI (ew), what is actually important when we're creating documentation that will be used by machines AND humans? Are detailed component guidelines important? Are the foundations essential to get right? Or can we rely on top-level patterns and vague guidance?</p><p><b>Show notes</b></p><ul><li><a href='https://zeroheight.com/blog/how-llms-use-mcps-to-read-your-design-system-and-how-to-write-prompts-that-work-with-that/'><b>How LLMs use MCPs to read your design system and how to write prompts that work with that</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-mcp-vibe-coding-your-design-system-what-s-possible'><b>Product Deep Dive Webinar: MCP, vibe coding, and your design system</b></a></li><li><a href='https://arl.human.cornell.edu/linked%20docs/Alexander_A_Pattern_Language.pdf'><b>PDF of A Pattern Language by Christopher Alexander et al.</b></a></li><li><a href='https://www.coursera.org/specializations/prompting-essentials-google?utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_prompting-essentials-google_google_ftcof_specializations_cx_dr_bau_gg_sem_pr_gb_en_m_hyb_25-05_x&campaignid=22605810230&adgroupid=178527994445&device=c&keyword=google%20prompting%20essentials%20course&matchtype=e&network=g&devicemodel=&creativeid=754714884712&assetgroupid=&targetid=kwd-2371579665116&extensionid=&placement=&gad_source=1&gad_campaignid=22605810230&gbraid=0AAAAADdKX6aVtzP2DBCjW91cv8sh9EoTn&gclid=CjwKCAiA-__MBhAKEiwASBmsBASSjAs692IhPirTUVy44G6VeGkq1xP6xnVaf8rNVyErfsI-jkBtChoCj0IQAvD_BwE'><b>Google Prompting Essentials course on Coursera</b></a></li><li><a href='https://podcasts.apple.com/gb/podcast/marketing-against-the-grain/id1616700934'><b>Marketing Against the Grain podcast</b></a></li><li><a href='https://aianddesign.systems/'><b>AI and Design Systems course with Brad Frost, Ian Frost and TJ Pitre</b></a></li><li><a href='https://www.linkedin.com/in/tpitre'><b>TJ Pitre on LinkedIn</b></a></li><li><a href='https://www.linkedin.com/in/domyen/'><b>Dom Nguyen on LinkedIn</b></a></li><li><a href='https://www.linkedin.com/in/silbormueller/'><b>Sil Bormüller on LinkedIn</b></a></li></ul><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18774029-do-mcps-care-more-about-patterns-or-components.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18774029-do-mcps-care-more-about-patterns-or-components.mp3",
+    "publishedAt": "2026-03-03T04:00:00.000Z",
+    "duration": "0:47:05",
+    "durationSeconds": 2825,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 51033198131,
+    "guid": "Buzzsprout-18774029",
+    "season": 2,
+    "episode": 50,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Five 2026 Predictions for Design Systems with Noelle Lansford",
     "description": "<p>Noelle joins me again for some 2026 predictions trend encapsulations, and we try to unpack the absolute madness of the first two months of 2026. </p><p>1️⃣ <b> Designing with code is in, making pictures of UIs is out.</b> </p><p>2️⃣ <b>The new critical deliverables for systems teams are design guidelines, agent rules, tokens, and semantic APIs.</b> </p><p>3️⃣ <b>We're gonna see a real focus on brand expression, but also on one-offs.</b> </p><p>4️⃣ <b>Design system teams, you do organizational behavior change.</b> </p><p>5️⃣ <b>The next chapter of the design system narrative is around quality rather than efficiency. </b></p><p>Plus: the rise of the design engineer and a return to the early 2000s ways of working? I hope so!, nothingburger brands, and design systems gatekeeping.</p><p>Season 2 of On Theme is officially here! 🎉 💖 If you like what you're hearing from On Theme, please hit subscribe on your favorite podcast platform. On Theme is  sponsor free and listener supported, so please support the show with a monthly donation.</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
     "podcastTitle": "On Theme: Design Systems in Depth",
