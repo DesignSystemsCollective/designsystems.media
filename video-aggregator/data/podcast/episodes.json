@@ -1,5 +1,33 @@
 [
   {
+    "title": "Building Trust: Designing Product Ecosystems in the Age of AI",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Digital products no longer exist as standalone apps. They live inside complex ecosystems of interfaces, AI systems, legacy infrastructure, and workflows that all have to work together. In this episode of <em>Patterns</em>, Chris Strahl talks with product design leader Andi Rusu about what it takes to design reliable digital experiences in environments where multiple systems—and increasingly AI—are shaping how products behave.</p><p>Drawing on experience at Disney, Sonos, Axon, and Microsoft, Andi explains why trust is becoming the central design challenge in modern product development. As AI becomes embedded in digital products, the job of design expands beyond crafting interfaces to shaping how complex systems behave, how decisions are made, and how users understand what’s happening behind the scenes. The conversation explores how designers can balance abstraction and transparency, when friction actually improves the experience, and why human judgment still plays a critical role in building trustworthy AI-powered products.</p><p>We’ll explore:</p><ul><li><b>Why modern digital products behave more like ecosystems than individual apps</b>, and how fragmentation across systems creates new design challenges for product teams</li><li><b>How AI is becoming a new layer inside product development</b>, influencing how workflows, decisions, and automation shape the user experience</li><li><b>Why trust becomes harder to maintain in AI-driven products</b>, especially when systems make decisions users cannot see or easily understand</li><li><b>Why human judgment still matters in AI-powered design</b>, and how designers balance abstraction, transparency, and intentional friction to create reliable user experiences</li></ul><p>View the <a href='https://docs.google.com/document/d/1b_DoyVmz5RfxwpfGhoIxRjGmQ15f5O_AESsAUm3XEHI/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/andirusu/'><b>Andi Rusu</b></a> is a product design and research leader focused on creating user-centered experiences across complex product ecosystems. He has led design teams and initiatives at Disney, Axon, Sonos, Microsoft, and Deloitte, helping organizations deliver impactful digital products at scale. He has also taught experience design at Cornish College of the Arts, the University of Washington, and the School of Visual Concepts.</p><p><b>Hostt</b></p><p><a href='https://www.linkedin.com/in/chrisstrahl/'><b>Chris Strahl </b></a>is the host of the Patterns podcast and a pioneer in ",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/18818404-building-trust-designing-product-ecosystems-in-the-age-of-ai.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/18818404-building-trust-designing-product-ecosystems-in-the-age-of-ai.mp3",
+    "publishedAt": "2026-03-10T14:00:00.000Z",
+    "duration": "0:33:52",
+    "durationSeconds": 2032,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 51501342173,
+    "guid": "Buzzsprout-18818404",
+    "season": 2,
+    "episode": 3,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Do MCPs care more about patterns or components?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Now we're in the business of creating context for AI (ew), what is actually important when we're creating documentation that will be used by machines AND humans? Are detailed component guidelines important? Are the foundations essential to get right? Or can we rely on top-level patterns and vague guidance?</p><p><b>Show notes</b></p><ul><li><a href='https://zeroheight.com/blog/how-llms-use-mcps-to-read-your-design-system-and-how-to-write-prompts-that-work-with-that/'><b>How LLMs use MCPs to read your design system and how to write prompts that work with that</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-mcp-vibe-coding-your-design-system-what-s-possible'><b>Product Deep Dive Webinar: MCP, vibe coding, and your design system</b></a></li><li><a href='https://arl.human.cornell.edu/linked%20docs/Alexander_A_Pattern_Language.pdf'><b>PDF of A Pattern Language by Christopher Alexander et al.</b></a></li><li><a href='https://www.coursera.org/specializations/prompting-essentials-google?utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_prompting-essentials-google_google_ftcof_specializations_cx_dr_bau_gg_sem_pr_gb_en_m_hyb_25-05_x&campaignid=22605810230&adgroupid=178527994445&device=c&keyword=google%20prompting%20essentials%20course&matchtype=e&network=g&devicemodel=&creativeid=754714884712&assetgroupid=&targetid=kwd-2371579665116&extensionid=&placement=&gad_source=1&gad_campaignid=22605810230&gbraid=0AAAAADdKX6aVtzP2DBCjW91cv8sh9EoTn&gclid=CjwKCAiA-__MBhAKEiwASBmsBASSjAs692IhPirTUVy44G6VeGkq1xP6xnVaf8rNVyErfsI-jkBtChoCj0IQAvD_BwE'><b>Google Prompting Essentials course on Coursera</b></a></li><li><a href='https://podcasts.apple.com/gb/podcast/marketing-against-the-grain/id1616700934'><b>Marketing Against the Grain podcast</b></a></li><li><a href='https://aianddesign.systems/'><b>AI and Design Systems course with Brad Frost, Ian Frost and TJ Pitre</b></a></li><li><a href='https://www.linkedin.com/in/tpitre'><b>TJ Pitre on LinkedIn</b></a></li><li><a href='https://www.linkedin.com/in/domyen/'><b>Dom Nguyen on LinkedIn</b></a></li><li><a href='https://www.linkedin.com/in/silbormueller/'><b>Sil Bormüller on LinkedIn</b></a></li></ul><p><br/></p>",
     "podcastTitle": "Design Systems WTF",
