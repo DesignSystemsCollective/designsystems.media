@@ -84,6 +84,34 @@
     "type": "full"
   },
   {
+    "title": "Code on Your TV w/ Jason Lengstrof | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/2z9ere5of4p9youv/yt_video_bi5YK9QL_ck_k3r7p9.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/2z9ere5of4p9youv/yt_video_bi5YK9QL_ck_k3r7p9.mp3",
+    "publishedAt": "2026-02-27T22:40:48.000Z",
+    "duration": "1:02:21",
+    "durationSeconds": 3741,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/bebfcb2454c3c883c8f50fb5195f5c53.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/bebfcb2454c3c883c8f50fb5195f5c53.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 51683526639,
+    "guid": "yt:video:bi5YK9QL_ck",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Native Dialog | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
