@@ -1,5 +1,33 @@
 [
   {
+    "title": "Pimpin’ My Type w/ Oliver Schöndorfer | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/skayq2vwlfwqsz22/yt_video_FxvO_ZfFt3A_7wkp4j.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/skayq2vwlfwqsz22/yt_video_FxvO_ZfFt3A_7wkp4j.mp3",
+    "publishedAt": "2026-03-13T20:32:22.000Z",
+    "duration": "0:59:14",
+    "durationSeconds": 3554,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/233792f09d51080c9bba1ab89385fb49.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/233792f09d51080c9bba1ab89385fb49.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 51742980867,
+    "guid": "yt:video:FxvO_ZfFt3A",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Building Trust: Designing Product Ecosystems in the Age of AI",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>Digital products no longer exist as standalone apps. They live inside complex ecosystems of interfaces, AI systems, legacy infrastructure, and workflows that all have to work together. In this episode of <em>Patterns</em>, Chris Strahl talks with product design leader Andi Rusu about what it takes to design reliable digital experiences in environments where multiple systems—and increasingly AI—are shaping how products behave.</p><p>Drawing on experience at Disney, Sonos, Axon, and Microsoft, Andi explains why trust is becoming the central design challenge in modern product development. As AI becomes embedded in digital products, the job of design expands beyond crafting interfaces to shaping how complex systems behave, how decisions are made, and how users understand what’s happening behind the scenes. The conversation explores how designers can balance abstraction and transparency, when friction actually improves the experience, and why human judgment still plays a critical role in building trustworthy AI-powered products.</p><p>We’ll explore:</p><ul><li><b>Why modern digital products behave more like ecosystems than individual apps</b>, and how fragmentation across systems creates new design challenges for product teams</li><li><b>How AI is becoming a new layer inside product development</b>, influencing how workflows, decisions, and automation shape the user experience</li><li><b>Why trust becomes harder to maintain in AI-driven products</b>, especially when systems make decisions users cannot see or easily understand</li><li><b>Why human judgment still matters in AI-powered design</b>, and how designers balance abstraction, transparency, and intentional friction to create reliable user experiences</li></ul><p>View the <a href='https://docs.google.com/document/d/1b_DoyVmz5RfxwpfGhoIxRjGmQ15f5O_AESsAUm3XEHI/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/andirusu/'><b>Andi Rusu</b></a> is a product design and research leader focused on creating user-centered experiences across complex product ecosystems. He has led design teams and initiatives at Disney, Axon, Sonos, Microsoft, and Deloitte, helping organizations deliver impactful digital products at scale. He has also taught experience design at Cornish College of the Arts, the University of Washington, and the School of Visual Concepts.</p><p><b>Hostt</b></p><p><a href='https://www.linkedin.com/in/chrisstrahl/'><b>Chris Strahl </b></a>is the host of the Patterns podcast and a pioneer in ",
     "podcastTitle": "Patterns Podcast",
