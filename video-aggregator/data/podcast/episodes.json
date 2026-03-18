@@ -1,5 +1,33 @@
 [
   {
+    "title": "What do you actually test?",
+    "description": "<h1><b>Episode 51 - What do you actually test?</b></h1><p><br/></p><p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Once you've done a first pass on anything in your design system, how do you validate it? Do you create complicated automated tests to ensure absolute consistency? Or do you even put it in front of real people to make sure it works?</p><p>Show notes</p><ul><li><a href='https://sensible.com/rocket-surgery-made-easy/'>Rocket Surgery Made Easy by Steve Krug</a></li><li><a href='https://www.deque.com/axe/mcp-server/'>AXE MCP server</a></li><li><a href='https://tetralogical.com/'>Tetralogical - a great accessibility agency</a></li></ul><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18854352-what-do-you-actually-test.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18854352-what-do-you-actually-test.mp3",
+    "publishedAt": "2026-03-17T04:00:00.000Z",
+    "duration": "0:34:43",
+    "durationSeconds": 2083,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 51925916577,
+    "guid": "Buzzsprout-18854352",
+    "season": 2,
+    "episode": 51,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "What comes after the infinite canvas? with Robin Cannon",
     "description": "<p>Y’all know I am fully bought in on design-with-code tools, so I loved this episode with Robin Cannon, VP of Product at Knapsack and former IBM Carbon and J.P. Morgan Salt design system exec, on why he thinks the infinite canvas is obsolete, and what we might replace it with. </p><p>Robin chats with us about a future where software design happens in the same medium as production code, making the “infinite canvas” abstraction obsolete. But what does “designing with code” really look like today… and in the future? We explore a world with tools that could enable us to build with design-system rules plus broader product context. Plus we discuss why today’s design-with-code tools aren’t quite there yet, the enterprise barriers to working in new ways, and you as a designer can make this shift.</p><p><br/></p><p><b>Links & References</b></p><ul><li><a href='https://www.linkedin.com/in/robincannon/'>Robin Cannon on LinkedIn</a></li><li><a href='https://www.robin-cannon.com/'>robin-cannon.com</a></li><li><a href='https://blog.murphytrueman.com/building-for-coherence-not-compliance/'>Building for coherence, not compliance, lessons from Baldurs Gate 3, by Murphy Trueman</a></li><li>Erika Flowers, <a href='https://zerovector.design/'>Zero Vector</a> and <a href='https://zerovector.design/open/learn/approach'>Open Vector design approach</a></li><li><a href='https://eflowers.substack.com/p/agentic-development-is-just-mmos'>Agentic Development is just MMOs for Coding, and I am LFG</a>, Erika Flowers</li><li><a href='https://www.knapsack.cloud/'>Knapsack</a></li><li><a href='https://www.dessn.ai/'>Dessn</a> and <a href='https://www.mockdown.design/'>Mockdown</a></li></ul><p><br/></p><p><b>💖 Season 2 of On Theme is officially here! 🎉 💖 If you like what you're hearing from On Theme, hit subscribe in your favorite podcast platform and sign up to get episode release notes at </b><a href='http://designsystemsontheme.com/'><b>designsystemsontheme.com</b></a><b>! On Theme is  sponsor free and listener supported, so please support the show with a monthly donation.</b></p><p><br/></p><p><br/></p><p><br/></p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
     "podcastTitle": "On Theme: Design Systems in Depth",
