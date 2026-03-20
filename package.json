@@ -21,7 +21,9 @@
     "astro": "astro",
     "serve": "npx serve -l 4321 dist",
     "test:unit": "node --experimental-strip-types --test src/tests/unit/content-domain.test.ts src/tests/unit/content-validation.test.mjs",
-    "test": "npx playwright test"
+    "test:smoke": "npm run build && npx playwright test --project=smoke",
+    "test:visual": "npm run build && npx playwright test --project=visual-desktop --project=visual-mobile",
+    "test:visual:update": "npm run build && npx playwright test --update-snapshots --project=visual-desktop --project=visual-mobile"
   },
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.5.6",

@@ -102,8 +102,8 @@ This keeps Astro `getCollection()` access inside a single boundary and removes d
 │   ├── pages/               # File-based routes and API endpoints
 │   ├── styles/              # Global CSS, themes, and tokens
 │   ├── templates/           # Content templates for posts
-│   ├── tests/               # Unit and Playwright tests
-│   └── utils/               # General helpers and compatibility wrappers
+│   ├── tests/               # Unit, smoke, and visual regression tests
+│   └── utils/               # General helpers
 ├── video-aggregator/        # Content ingestion automation
 │   ├── data/                # Source configurations and generated outputs
 │   └── scripts/             # Collection and processing scripts
@@ -127,7 +127,9 @@ This keeps Astro `getCollection()` access inside a single boundary and removes d
 | `npm run podcasts` | Run the podcast ingestion script |
 | `npm run images` | Fetch or generate content images |
 | `npm run test:unit` | Run unit tests for content selectors and validation |
-| `npm run test` | Run Playwright end-to-end tests |
+| `npm run test:smoke` | Build the site, then verify generated pages and internal links |
+| `npm run test:visual` | Build the site, then run curated Playwright screenshot checks |
+| `npm run test:visual:update` | Rebuild the site and refresh Playwright screenshot baselines |
 
 ### Build and Validation Flow
 
@@ -172,18 +174,52 @@ Run them with:
 npm run test:unit
 ```
 
-### End-to-End Tests
+### Smoke Tests
 
-Playwright smoke-tests generated pages and internal links.
+Smoke coverage lives under `src/tests/smoke/` and verifies that the built site is intact:
 
-Run them with:
+- every generated HTML page loads successfully
+- internal links resolve without 4xx or 5xx responses
+
+Run it with:
 
 ```bash
-npm run build
-npm run serve
+npm run test:smoke
+```
 
-# In another terminal
-npm run test
+### Visual Regression Tests
+
+Visual coverage lives under `src/tests/visual/` and snapshots a curated set of stable routes in Chromium desktop and mobile viewports.
+
+Covered surfaces currently include:
+
+- homepage
+- `/all/`
+- `/podcast/`
+- one representative video detail page
+- one representative podcast episode page
+- one show page
+- one tag page
+- one speaker page
+- one playlist page
+
+To keep baselines stable, the visual tests:
+
+- force reduced motion and disable CSS transitions
+- wait for fonts and page chrome before capturing screenshots
+- mask animated homepage counters
+- mask dynamic content grids on `/all/` and `/podcast/`
+
+Run the visual suite with:
+
+```bash
+npm run test:visual
+```
+
+Refresh baselines locally with:
+
+```bash
+npm run test:visual:update
 ```
 
 ## Deployment
@@ -205,7 +241,7 @@ We welcome contributions. A typical change flow is:
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Run `npm run test:unit` and `npm run build`
+4. Run `npm run test:unit`, `npm run test:smoke`, and `npm run build`
 5. Commit and push your branch
 6. Open a Pull Request
 
@@ -225,6 +261,7 @@ When adding new pages or APIs:
 - consume data through `src/lib/content-domain/`
 - avoid direct `getCollection()` usage outside the content-domain layer
 - keep route files focused on shaping page props, not indexing collections
+- run `npm run test:visual` when changing layout, styling, or component rendering
 
 ### Adding New Video Sources
 
