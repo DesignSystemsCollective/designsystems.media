@@ -1,28 +1,11 @@
 ---
 import LabelCount from "../../components/LabelCount.astro";
-import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
-import { convertToSlug } from "../../utils/convertToSlug";
-import { allMediaFilteredAndSorted, speakers } from "../../utils/mediaCollection";
+import { getTaxonomyIndex } from "../../lib/content-domain";
 
-function calculatePostCountForSpeaker(speakerName) {
-  // Assuming 'posts' is an array of post objects with 'speakers' property
-  return allMediaFilteredAndSorted.filter((post) => post.data.speakers?.includes(speakerName))
-    .length;
-}
 const title = "Speakers";
-const groupedSpeakers = {};
-
-// Group the speakers by the first letter
-speakers.forEach((speaker) => {
-  if (!speaker) return;
-  const firstLetter = speaker[0].toUpperCase(); // Convert to uppercase for consistency
-  if (!groupedSpeakers[firstLetter]) {
-    groupedSpeakers[firstLetter] = [];
-  }
-  groupedSpeakers[firstLetter].push(speaker);
-});
+const { groupedItems: groupedSpeakers } = await getTaxonomyIndex("speakers");
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title }}>
@@ -38,13 +21,13 @@ speakers.forEach((speaker) => {
       Object.keys(groupedSpeakers).map((letter) => (
         <div>
           <h2 id={letter}>{letter}</h2>
-          <div class="grid">
-            {groupedSpeakers[letter].map((speaker) => (
+            <div class="grid">
+            {groupedSpeakers[letter].map((speakerItem) => (
               <LabelCount
-                link={`${convertToSlug(speaker)}/`}
+                link={`${speakerItem.slug}/`}
                 type="speakers"
-                name={speaker}
-                count={calculatePostCountForSpeaker(speaker)}
+                name={speakerItem.name}
+                count={speakerItem.count}
               />
             ))}
           </div>

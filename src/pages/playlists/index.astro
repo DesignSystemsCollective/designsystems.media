@@ -4,9 +4,9 @@ import SectionHeader from "../../components/SectionHeader.astro";
 import MediaImage from "../../components/media/MediaImage.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
-import { getPlaylistsWithResolvedItems } from "../../utils/playlistCollection";
+import { getPlaylistEntries } from "../../lib/content-domain";
 
-const playlists = await getPlaylistsWithResolvedItems();
+const playlists = await getPlaylistEntries();
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "Playlists" }}>
@@ -71,4 +71,3 @@ const playlists = await getPlaylistsWithResolvedItems();
     color: var(--tx-3);
   }
 </style>
-

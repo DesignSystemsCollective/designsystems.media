@@ -1,12 +1,10 @@
 ---
 import { Icon } from "astro-icon/components";
-import {
-  videoCount,
-  podcastCount,
-  speakerCount,
-  tagCount,
-} from "../utils/mediaCollection";
+import { getSiteStats } from "../lib/content-domain";
 import CountUp from "./CountUp";
+
+const { videos: videoCount, podcastEpisodes: podcastCount, speakers: speakerCount, tags: tagCount } =
+  await getSiteStats();
 
 function getStartNumber(finalTotal) {
   const min = Math.floor(finalTotal * 0.8); // start at 90% of total

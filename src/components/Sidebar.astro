@@ -1,18 +1,11 @@
 ---
 import { Icon } from "astro-icon/components";
-import { allMediaFilteredAndSorted, speakers, tags } from "../utils/mediaCollection";
-import { convertToSlug } from "../utils/convertToSlug";
+import { getTaxonomyIndex } from "../lib/content-domain";
 
-function calculatePostCountForTag(tagName) {
-  // Assuming 'posts' is an array of post objects with 'tags' property
-  return allMediaFilteredAndSorted.filter((post) => post.data.tags?.includes(tagName)).length;
-}
-
-function calculatePostCountForSpeaker(speakerName) {
-  // Assuming 'posts' is an array of post objects with 'speakers' property
-  return allMediaFilteredAndSorted.filter((post) => post.data.speakers?.includes(speakerName))
-    .length;
-}
+const [tagIndex, speakerIndex] = await Promise.all([
+  getTaxonomyIndex("tags"),
+  getTaxonomyIndex("speakers"),
+]);
 ---
 
 <aside id="sidebar">
@@ -23,13 +16,12 @@ function calculatePostCountForSpeaker(speakerName) {
     </summary>
     <ul class="tags">
       {
-        tags.map((tag) => {
-          const postCountForTag = calculatePostCountForTag(tag);
+        tagIndex.items.map((tag) => {
           return (
             <li>
-              <a href={`/tags/${convertToSlug(tag)}/`} class="tag">
-                <span data-type="label">{tag}</span>{" "}
-                <span data-type="count">{postCountForTag}</span>
+              <a href={`/tags/${tag.slug}/`} class="tag">
+                <span data-type="label">{tag.name}</span>{" "}
+                <span data-type="count">{tag.count}</span>
               </a>
             </li>
           );
@@ -44,13 +36,12 @@ function calculatePostCountForSpeaker(speakerName) {
     </summary>
     <ul class="tags">
       {
-        speakers.map((speaker) => {
-          const postCountForSpeaker = calculatePostCountForSpeaker(speaker);
+        speakerIndex.items.map((speaker) => {
           return (
             <li>
-              <a href={`/speakers/${convertToSlug(speaker)}/`} class="tag">
-                <span data-type="label">{speaker}</span>{" "}
-                <span data-type="count">{postCountForSpeaker}</span>
+              <a href={`/speakers/${speaker.slug}/`} class="tag">
+                <span data-type="label">{speaker.name}</span>{" "}
+                <span data-type="count">{speaker.count}</span>
               </a>
             </li>
           );

@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
 import { fileURLToPath } from "url";
-import { allVideosFilteredAndSorted } from "./mediaCollection";
+import { getVideoEntries } from "../lib/content-domain";
 import type { MediaEntry } from "../types/media";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -160,7 +160,10 @@ export const runAllMosaics = async (): Promise<void> => {
     );
     
     const FETCH_BUFFER = 2;
-    const recentPosts: MediaEntry[] = allVideosFilteredAndSorted.slice(0, Math.ceil(maxImagesNeeded * FETCH_BUFFER));
+    const recentPosts: MediaEntry[] = (await getVideoEntries()).slice(
+      0,
+      Math.ceil(maxImagesNeeded * FETCH_BUFFER),
+    );
     const validPostImages: string[] = [];
 
     for (const post of recentPosts) {

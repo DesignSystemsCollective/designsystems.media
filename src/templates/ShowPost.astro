@@ -3,26 +3,13 @@ import { Icon } from "astro-icon/components";
 import { repository } from "../../package.json";
 import Title from "../components/Title.astro";
 import { convertToSlug } from "../utils/convertToSlug";
-import { getCollection } from "astro:content";
 import { formatDuration } from "../utils/formatDuration";
 import type { BaseShowProps } from "../types/media";
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
-const { title, image, slug, speakers, episodeCount, explicit } = Astro.props;
-
-// Get episodes for this show
-const episodes = await getCollection("podcast", ({ data }) => {
-  return data.showSlug === slug;
-});
-
-// Sort episodes by published date (newest first)
-episodes.sort(
-  (a, b) =>
-    new Date(b.data.publishedAt).getTime() -
-    new Date(a.data.publishedAt).getTime()
-);
+const { title, image, slug, speakers, episodeCount, explicit, episodes = [] } = Astro.props;
 ---
 
 <article data-pagefind-body data-pagefind-sort>

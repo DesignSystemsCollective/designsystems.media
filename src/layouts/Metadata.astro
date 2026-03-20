@@ -5,9 +5,9 @@ import "../styles/global.css";
 
 import { GoogleAnalytics } from "astro-google-analytics";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
-import { allMediaFilteredAndSorted } from "../utils/mediaCollection";
+import { getSiteStats } from "../lib/content-domain";
 
-const postCount = allMediaFilteredAndSorted.length;
+const { totalMedia: postCount } = await getSiteStats();
 
 export interface Props {
   title?: string;

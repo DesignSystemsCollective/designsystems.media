@@ -1,6 +1,5 @@
 ---
-import { getCollection } from "astro:content";
-import { isDurationOneMinuteOrUnder } from "../../utils/isDurationOneMinuteOrUnder";
+import { getVideoEntries } from "../../lib/content-domain";
 
 // Determine the base URL depending on whether it's in DEV or PROD
 const baseUrl =
@@ -12,13 +11,8 @@ const baseUrl =
 const cutoffDate = new Date("2025-05-15T00:00:00Z");
 
 // Get all videos
-const videos = (await getCollection("media"))
-  .filter(
-    (post) =>
-      !post.data.draft &&
-      !isDurationOneMinuteOrUnder(post.data.duration) &&
-      new Date(post.data.publishedAt) < cutoffDate,
-  )
+const videos = (await getVideoEntries())
+  .filter((post) => new Date(post.data.publishedAt) < cutoffDate)
   .sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
 
 // Generate redirect rules

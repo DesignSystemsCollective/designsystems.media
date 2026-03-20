@@ -1,25 +1,9 @@
 ---
-import { getCollection } from "astro:content";
 import ShowGrid from "../../components/ShowGrid.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allShowsSortedByRecentEpisode } from "../../utils/mediaCollection";
+import { getShowsSortedByRecentEpisode } from "../../lib/content-domain";
 
-const media = allShowsSortedByRecentEpisode;
-
-// Get all shows
-const shows = await getCollection('show', ({ data }) => {
-  return !data.draft;
-});
-
-// Sort shows by title
-shows.sort((a, b) => {
-  const dateA = new Date(a.data.lastUpdate);
-  const dateB = new Date(b.data.lastUpdate);
-
-  // For most recently updated, you want the newer date to come first.
-  // So, if dateA is more recent, it should be "smaller" in the sort order.
-  return dateB.getTime() - dateA.getTime();
-});
+const media = await getShowsSortedByRecentEpisode();
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>
