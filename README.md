@@ -85,6 +85,8 @@ The site now uses a shared content-domain layer so content collections are loade
 
 This keeps Astro `getCollection()` access inside a single boundary and removes duplicated route logic for tags, speakers, shows, playlists, stats, and sitemap generation.
 
+Decision records for the major refactors live under [docs/adr/](./docs/adr/README.md).
+
 ## Project Structure
 
 ```text
@@ -107,6 +109,8 @@ This keeps Astro `getCollection()` access inside a single boundary and removes d
 ├── video-aggregator/        # Content ingestion automation
 │   ├── data/                # Source configurations and generated outputs
 │   └── scripts/             # Collection and processing scripts
+├── docs/
+│   └── adr/                 # Architecture decision records
 ├── astro.config.mjs         # Astro framework configuration
 └── package.json             # Dependencies and scripts
 ```
