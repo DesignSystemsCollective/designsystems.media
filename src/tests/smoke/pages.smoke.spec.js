@@ -3,10 +3,8 @@ import fs from "fs";
 import { JSDOM } from "jsdom";
 import path from "path";
 
-const baseUrl = "http://localhost:4321";
 const distDir = "dist";
 
-// Shared request cache to avoid re-fetching the same links
 const responseCache = new Map();
 
 function getAllHtmlFiles(dirPath) {
@@ -14,8 +12,12 @@ function getAllHtmlFiles(dirPath) {
 
   return entries.flatMap((entry) => {
     const fullPath = path.join(dirPath, entry.name);
-    if (entry.isDirectory()) return getAllHtmlFiles(fullPath);
-    if (entry.isFile() && fullPath.endsWith(".html")) return [fullPath];
+    if (entry.isDirectory()) {
+      return getAllHtmlFiles(fullPath);
+    }
+    if (entry.isFile() && fullPath.endsWith(".html")) {
+      return [fullPath];
+    }
     return [];
   });
 }
@@ -26,47 +28,44 @@ function getUrls(file) {
     .replace(/index\.html$/, "")
     .replace(/\.html$/, "");
   const urlPath = relativePath === "" ? "/" : `${relativePath}`;
-  const url = `${baseUrl}${urlPath}`;
-  return { urlPath, url };
+  return { urlPath, url: urlPath };
 }
 
 const htmlFiles = getAllHtmlFiles(distDir);
 
-test.describe("Check all site pages and links", () => {
-  // Run page load tests first to preload the responseCache
+test.describe("smoke: built pages and internal links", () => {
   htmlFiles.forEach((file) => {
     const { urlPath, url } = getUrls(file);
 
-    test(`Page ${urlPath} should load without errors`, async ({ page }) => {
+    test(`page ${urlPath} should load without errors`, async ({ page }) => {
       const response = await page.goto(url);
-      const status = response.status();
+      const status = response?.status() ?? 500;
       responseCache.set(url, status);
 
       expect(status).toBeLessThan(400);
     });
   });
 
-  // Run internal link tests after page load tests to preload the responseCache
   htmlFiles.forEach((file) => {
     const { urlPath, url } = getUrls(file);
 
-    test(`Check internal links on ${urlPath}`, async ({ request }) => {
+    test(`internal links on ${urlPath}`, async ({ request, baseURL }) => {
       const htmlContent = fs.readFileSync(file, "utf-8");
       const dom = new JSDOM(htmlContent);
       const anchors = Array.from(dom.window.document.querySelectorAll("a"))
-        .map((a) => a.getAttribute("href"))
-        .filter((href) => !!href && href.startsWith("/"));
+        .map((anchor) => anchor.getAttribute("href"))
+        .filter((href) => href && href.startsWith("/"));
 
       for (const href of anchors) {
-        const targetUrl = `${baseUrl}${href}`;
-
+        const targetUrl = new URL(href, baseURL).toString();
         let status;
-        if (responseCache.has(targetUrl)) {
-          status = responseCache.get(targetUrl);
+
+        if (responseCache.has(href)) {
+          status = responseCache.get(href);
         } else {
           const response = await request.get(targetUrl);
           status = response.status();
-          responseCache.set(targetUrl, status);
+          responseCache.set(href, status);
         }
 
         expect(status, `Broken link: ${href} on page ${url}`).toBeLessThan(400);
