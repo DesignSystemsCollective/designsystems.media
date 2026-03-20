@@ -1,5 +1,115 @@
 [
   {
+    "title": "Code containers in the Design system platform | February 2026",
+    "description": "📦 Introducing Code Containers in Supernova's Design System Platform!\n\nManage and track all your uploaded code containers in one centralized location. This new read-only view gives design system teams complete visibility into their prototyping infrastructure—see all container versions, connected contexts, and dependencies at a glance.\n\nWhat's New:\n✨ Centralized list of all uploaded code containers\n📊 Version history tracking for each container\n🔗 View shared contexts using specific containers\n🎯 New \"Portal Create\" section in navigation\n👁️ Clear overview of components, dependencies & configurations\n\nComing soon: Full content visibility showing components, templates, and patterns inside each container!\n\nNote: This is Enterprise feature - contact us to learn more https://www.supernova.io/request-a-demo\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ASIWsvvKnns/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ASIWsvvKnns/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ASIWsvvKnns/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ASIWsvvKnns",
+    "publishedAt": "2026-03-16T15:28:09Z",
+    "privacyStatus": "public",
+    "duration": "0:02:59"
+  },
+  {
+    "title": "How to Choose the Right AI Coding Tool (It's Not About Hype)",
+    "description": "Not all vibe-coding platforms are built for the same job. The best tool depends on what you're building and where you're building it—not what's trending.\n\nQuick Guide:\n🔹 Technical teams working in existing codebases → Cursor or Claude\n🔹 Rapid prototyping new projects from scratch → Lovable or v0\n🔹 Evolving products with established design systems → Supernova\n\nThe Key Insight:\nIn established companies, the challenge isn't generating something that looks good. It's generating something that actually fits your real product context. The moment you have to say \"ignore the UI, focus on the idea,\" you've already lost significant value.\n\nChoose your platform based on your environment, your design system, and your team's needs and not the hype cycle.\n\n0:00 - Why another vibe-coding platform?\n0:33 - The problem with generic AI coding tools\n1:01 - How Supernova is different\n1:30 - Grounded in your design system\n2:00 - Faster handoff to engineers\n2:35 - Supernova vs Cursor/Claude vs Lovable/v0\n3:08 - Who should use what tool\n3:39 - Try Supernova\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VRiOxLsQ2Fo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VRiOxLsQ2Fo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VRiOxLsQ2Fo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VRiOxLsQ2Fo",
+    "publishedAt": "2026-03-16T10:00:32Z",
+    "privacyStatus": "public",
+    "duration": "0:04:06"
+  },
+  {
+    "title": "Have you claimed your Child Trust Fund yet?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OAsyEJ9BnLQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OAsyEJ9BnLQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OAsyEJ9BnLQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OAsyEJ9BnLQ",
+    "publishedAt": "2026-03-11T12:00:47Z",
+    "privacyStatus": "public",
+    "duration": "0:01:09"
+  },
+  {
+    "title": "Luis Ouriach - How are design systems changing?",
+    "description": "Today's episode is with Luis Ouriach (https://x.com/disco_lu) whose role as a designer advocate at Figma means he's constantly helping teams navigate this rapidly changing landscape... especially when it comes to design systems.\nSo we're going to do a deep dive into the trends he's noticing and what it all means for designers.\n\nSome highlights:\n\n- How design systems are changing with AI\n- Luis’s ideas around agentic design systems\n- Pitfalls to avoid when adopting AI with your team\n- What trends we can ignore vs. what is really important\n- Luis’s journey as a builder and his career plan moving forward\n- What Figma's new integration with Claude and Codex unlocks\n\nLuis’s agentic design systems article:  https://medium.com/@disco_lu/building-agentic-design-systems-the-future-of-ai-enhanced-design-6ad0470cf1e3\n\nDive is where the best designers never stop learning 🤿\n\n🌐 dive.club\n🐦 twitter.com/joindiveclub\n\nNow you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪\n\nChapters\n0:00 Intro\n1:11 What's happening in design systems\n6:59 What Luis is seeing in today's landscape\n14:05 Why we shouldn't say \"design system\"\n23:58 The gap between enterprise and startups\n27:21 What the Figma MCP unlocks\n37:27 Luis's journey with AI\n44:22 How Luis thinks about his career moving forward",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Pn2G7JhxNKc",
+    "publishedAt": "2026-03-10T12:17:51Z",
+    "privacyStatus": "public",
+    "duration": "0:55:11"
+  },
+  {
     "title": "AI-powered design token linting with zeroheight MCP | Demo",
     "description": "We just shipped MCP token linting tools for zeroheight — and they change how you keep AI-generated code aligned with your design system.\n\nInstead of manually hunting for hard-coded values like `#F03E3E` or `16px`, you can now lint your code directly against your token sets in zeroheight and get suggested replacements instantly — or auto-apply them.\n\n🔍 What it does:\n• Scans code for hard-coded colors and spacing values\n• Compares them against your linked zeroheight token sets\n• Flags violations with the closest matching token\n• Auto-applies fixes before you merge\n\n⚙️ How to set it up:\n1. Go to Styleguide Settings → MCP and Markdown\n2. Link one or more token sets\n3. In your MCP client (e.g. Cursor), ask it to \"lint this code using zeroheight\"\n\nThis helps to close the loop on AI-generated code: generate → lint → fix → ship.\n\n📖 Learn more: https://help.zeroheight.com/hc/en-us/articles/43780251357979-Using-the-remote-zeroheight-MCP-server\n\n----\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
