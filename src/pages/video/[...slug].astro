@@ -1,19 +1,16 @@
 ---
-import { type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import MediaPost from "../../templates/MediaPost.astro";
 import { convertToISO8601Duration } from "../../utils/convertToISO8601Duration";
-import { allVideosFilteredAndSorted } from "../../utils/mediaCollection";
+import { getVideoEntries } from "../../lib/content-domain";
 
 export async function getStaticPaths() {
-  const posts = allVideosFilteredAndSorted;
+  const posts = await getVideoEntries();
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: post,
   }));
 }
-type Props = CollectionEntry<"media">;
-
 const post = Astro.props;
 const { Content } = await post.render();
 const headProps = {

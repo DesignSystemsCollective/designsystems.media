@@ -8,13 +8,12 @@ import SectionHeader from "../components/SectionHeader.astro";
 import Sponsors from "../components/Sponsors.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
-import {
-  allVideosFilteredAndSorted,
-  allPodcastsFilteredAndSorted,
-} from "../utils/mediaCollection";
+import { getRecentPodcasts, getRecentVideos } from "../lib/content-domain";
 
-const recentVideos = allVideosFilteredAndSorted.slice(0, 12);
-const recentPodcasts = allPodcastsFilteredAndSorted.slice(0, 12);
+const [recentVideos, recentPodcasts] = await Promise.all([
+  getRecentVideos(12),
+  getRecentPodcasts(12),
+]);
 ---
 
 <BaseLayout sidebar={false} isHome={true}>

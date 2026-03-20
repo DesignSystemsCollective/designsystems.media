@@ -3,18 +3,17 @@ import type { CollectionEntry } from "astro:content";
 import { Image } from "astro:assets";
 import { getShowImage } from "../utils/images";
 import FormattedDate from "../components/FormattedDate.astro";
-import { getMostRecentEpisodeDateForShow, allPodcastsFilteredAndSorted } from "../utils/mediaCollection";
 import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 type Media = CollectionEntry<"show">;
 type Props = Media["data"] & { 
   slug?: Media["slug"];
   loading?: "lazy" | "eager";
+  latestEpisodeDate?: Date | null;
 };
 
-const { title, image, slug, speakers, episodeCount, lastUpdate, loading = "lazy" } = Astro.props;
-
-const lastUpdateDate = getMostRecentEpisodeDateForShow(slug, allPodcastsFilteredAndSorted);
+const { title, image, slug, speakers, episodeCount, lastUpdate, latestEpisodeDate, loading = "lazy" } = Astro.props;
+const lastUpdateDate = latestEpisodeDate ?? new Date(lastUpdate);
 const posterImage = getShowImage(slug, false);
 
 ---

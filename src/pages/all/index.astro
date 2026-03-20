@@ -1,9 +1,9 @@
 ---
 import MixedGrid from "../../components/MixedGrid.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allVideosFilteredAndSorted } from "../../utils/mediaCollection";
+import { getVideoEntries } from "../../lib/content-domain";
 
-const media = allVideosFilteredAndSorted;
+const media = await getVideoEntries();
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All videos" }}>

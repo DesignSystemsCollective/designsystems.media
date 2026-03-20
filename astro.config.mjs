@@ -1,9 +1,9 @@
 import mdx from "@astrojs/mdx";
 import netlify from "@astrojs/netlify";
 import react from "@astrojs/react";
+import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 import pagefind from "astro-pagefind";
-import sitemap from "astro-sitemap";
 import { defineConfig } from "astro/config";
 
 // https://astro.build/config

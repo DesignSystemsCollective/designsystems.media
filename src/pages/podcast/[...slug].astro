@@ -1,33 +1,17 @@
 ---
-// src/pages/shows/[slug].astro
-import type { CollectionEntry } from "astro:content";
-import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ShowLayout from "../../layouts/ShowLayout.astro";
+import { getPodcastEntries } from "../../lib/content-domain";
 
 export async function getStaticPaths() {
-  const shows = await getCollection("podcast");
-  return shows.map((show) => ({
-    params: { slug: show.slug },
-    props: show,
+  const podcasts = await getPodcastEntries();
+  return podcasts.map((podcast) => ({
+    params: { slug: podcast.slug },
+    props: podcast,
   }));
 }
 
-type Props = CollectionEntry<"podcast">;
-
 const post = Astro.props;
-
-// Get episodes for this show
-const episodes = await getCollection("podcast", ({ data }) => {
-  return data.showSlug === post.slug;
-});
-
-// Sort episodes by published date (newest first)
-episodes.sort(
-  (a, b) =>
-    new Date(b.data.publishedAt).getTime() -
-    new Date(a.data.publishedAt).getTime()
-);
 
 const { Content } = await post.render();
 const headProps = {

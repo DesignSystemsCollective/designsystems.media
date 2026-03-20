@@ -13,13 +13,17 @@
     "podcasts": "node video-aggregator/scripts/getPodcasts.js",
     "images": "node video-aggregator/scripts/getImages.js",
     "aggregate": "npm run videos && npm run images",
+    "validate:content": "node scripts/validate-content.mjs",
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm run validate:content && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "serve": "npx serve -l 4321 dist",
-    "test": "npx playwright test"
+    "test:unit": "node --experimental-strip-types --test src/tests/unit/content-domain.test.ts src/tests/unit/content-validation.test.mjs",
+    "test:smoke": "npm run build && npx playwright test --project=smoke",
+    "test:visual": "npm run build && npx playwright test --project=visual-desktop --project=visual-mobile",
+    "test:visual:update": "npm run build && npx playwright test --update-snapshots --project=visual-desktop --project=visual-mobile"
   },
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.5.6",

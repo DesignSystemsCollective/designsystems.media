@@ -1,20 +1,11 @@
-import {totalVideoAndPodcastEpisodes, videoCount,podcastCount, showCount, tagCount, speakerCount, draftCount, unsortedCount, underOneMinute } from "../../utils/mediaCollection";
+import { getSiteStats } from "../../lib/content-domain";
 
 export async function GET() {
   try {
+    const stats = await getSiteStats();
     return new Response(
       JSON.stringify({
-        stats: {
-          totalMedia: totalVideoAndPodcastEpisodes,
-          videos: videoCount,
-          podcastShows: showCount,
-          podcastEpisodes: podcastCount,
-          tags: tagCount,
-          speakers: speakerCount,
-          underMinute: underOneMinute, // Add the backlog count to the stats
-          drafts: draftCount, // Add the backlog count to the stats
-          unsortedTag: unsortedCount, // Add the unsorted count to the stats
-        },
+        stats,
       }),
       {
         status: 200,
