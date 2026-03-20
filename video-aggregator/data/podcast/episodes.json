@@ -1,5 +1,33 @@
 [
   {
+    "title": "My Book is Out | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/wbi1bnokaywxwaip/yt_video_6XobGsaPRKo_6xk88u.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/wbi1bnokaywxwaip/yt_video_6XobGsaPRKo_6xk88u.mp3",
+    "publishedAt": "2026-03-19T21:16:21.000Z",
+    "duration": "0:14:02",
+    "durationSeconds": 842,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/54e753c286e70d48d51bf0b4b617d57b.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/54e753c286e70d48d51bf0b4b617d57b.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 52109706497,
+    "guid": "yt:video:6XobGsaPRKo",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 97: Tokenize Everything",
     "description": "<p>Davy and PJ dive into the future of <strong>design tokens</strong>, exploring how to \"tokenize everything\" from complex color transformations (OKLCH) to <strong>utility tokens</strong> for motion and content strings.</p>",
     "podcastTitle": "Design System Office Hours",
