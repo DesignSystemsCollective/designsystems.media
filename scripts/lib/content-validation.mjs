@@ -57,35 +57,6 @@ export async function loadContentEntries(contentRoot) {
   return Object.fromEntries(collections);
 }
 
-export function findMissingAssetErrors(contentEntries) {
-  const errors = [];
-
-  for (const collectionEntries of Object.values(contentEntries)) {
-    for (const entry of collectionEntries) {
-      for (const field of LOCAL_ASSET_FIELDS) {
-        const value = entry.frontmatter[field];
-        if (!isLocalAssetReference(value)) {
-          continue;
-        }
-
-        const assetPath = path.resolve(entry.dirPath, value);
-        try {
-          errors.push({
-            type: "missing-asset",
-            message: `${entry.collection}/${entry.slug} references missing asset "${value}" in "${field}"`,
-            assetPath,
-          });
-          continue;
-        } catch {
-          continue;
-        }
-      }
-    }
-  }
-
-  return errors;
-}
-
 export async function resolveMissingAssetErrors(contentEntries) {
   const errors = [];
 
