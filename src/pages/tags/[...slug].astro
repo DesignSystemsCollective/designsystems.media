@@ -3,72 +3,55 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import MediaGrid from "../../components/MediaGrid.astro";
 import PodcastGrid from "../../components/PodcastGrid.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
-import { convertToSlug } from "../../utils/convertToSlug";
-import { allMediaFilteredAndSorted, tags, normalizeTag } from "../../utils/mediaCollection";
+import { getTaxonomyIndex, getTaxonomyPage } from "../../lib/content-domain";
 
 export async function getStaticPaths() {
-  return tags.map((tag) => {
-    if (!tag)
-      return {
-        params: { tag },
-      };
-    const filteredPosts = allMediaFilteredAndSorted
-      .filter((post) => post.data.tags?.map(normalizeTag).includes(tag))
-      .sort(
-        (a, b) =>
-          new Date(b.data.publishedAt).getTime() -
-          new Date(a.data.publishedAt).getTime(),
-      ); // Sorting by date, most recent first
-    return {
-      params: { slug: convertToSlug(tag) },
-      props: { posts: filteredPosts, tag },
-    };
-  });
+  const taxonomy = await getTaxonomyIndex("tags");
+
+  return Promise.all(
+    taxonomy.items.map(async (item) => ({
+      params: { slug: item.slug },
+      props: { page: await getTaxonomyPage("tags", item.slug) },
+    })),
+  );
 }
 
-const { slug } = Astro.params;
-const { posts, tag } = Astro.props;
-
-// Separate posts by media type
-const podcastPosts = posts.filter(post => 
-  post.collection === 'podcast'
-);
-
-const videoPosts = posts.filter(post => 
-  post.collection === 'media'
-);
-
+const { page } = Astro.props;
+const { posts, item, podcastPosts, videoPosts } = page;
 const videoCount = videoPosts.length;
 const podcastCount = podcastPosts.length;
-const totalCount = podcastPosts.length + videoPosts.length;
+const totalCount = posts.length;
 ---
 
-<BaseLayout sidebar={false} metadataProps={{ title: tag }}>
-  <h1>{tag}</h1>
+<BaseLayout sidebar={false} metadataProps={{ title: item.name }}>
+  <h1>{item.name}</h1>
   <div class="header-links">
     <span class="total">{totalCount} items</span>
      {videoPosts && videoPosts.length > 0 && <a href="#video">{videoCount} videos</a>}
      {podcastPosts && podcastPosts.length > 0 &&
     <a href="#podcast">{podcastCount} podcasts</a>}
   </div>
-   {videoPosts && videoPosts.length > 0 && 
-    <SectionHeader
-    title={`${videoCount} videos`}
-    padding={true}
-    anchor="video"
-  />
-     <MediaGrid media={videoPosts}  layoutType="list"/>
-  }
-   {podcastPosts && podcastPosts.length > 0 &&
-       <SectionHeader
-    title={`${podcastCount} podcasts`}
-    padding={true}
-    anchor="podcast"
-  />
-     <PodcastGrid media={podcastPosts} />
-  }
-</div>
-
+  {videoPosts && videoPosts.length > 0 && (
+    <>
+      <SectionHeader
+        title={`${videoCount} videos`}
+        padding={true}
+        anchor="video"
+      />
+      <MediaGrid media={videoPosts} layoutType="list" />
+    </>
+  )}
+  {podcastPosts && podcastPosts.length > 0 && (
+    <>
+      <SectionHeader
+        title={`${podcastCount} podcasts`}
+        padding={true}
+        anchor="podcast"
+      />
+      <PodcastGrid media={podcastPosts} />
+    </>
+  )}
+</BaseLayout>
 
 <style>
   h1 {

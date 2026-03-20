@@ -3,19 +3,20 @@ import PodcastCard from "../../components/PodcastCard.astro";
 import VideoCard from "../../components/VideoCard.astro";
 import MediaImage from "../../components/media/MediaImage.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getPlaylistsWithResolvedItems } from "../../utils/playlistCollection";
+import { getPlaylistEntries, getPlaylistPage } from "../../lib/content-domain";
 import type { MediaEntry, PodcastEntry, ResolvedPlaylistItem } from "../../types/media";
 
 export async function getStaticPaths() {
-  const playlists = await getPlaylistsWithResolvedItems();
+  const playlists = await getPlaylistEntries();
 
-  return playlists.map((playlist) => ({
+  return Promise.all(playlists.map(async (playlist) => ({
     params: { slug: playlist.slug },
-    props: { playlist },
-  }));
+    props: { page: await getPlaylistPage(playlist.slug) },
+  })));
 }
 
-const { playlist } = Astro.props;
+const { page } = Astro.props;
+const { playlist } = page;
 const playlistItems: ResolvedPlaylistItem[] = playlist.resolvedItems;
 const hasImage = Boolean(playlist.data.image);
 ---
@@ -146,4 +147,3 @@ const hasImage = Boolean(playlist.data.image);
     }
   }
 </style>
-

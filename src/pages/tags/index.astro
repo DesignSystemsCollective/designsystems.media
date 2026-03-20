@@ -1,27 +1,11 @@
 ---
 import LabelCount from "../../components/LabelCount.astro";
-import Title from "../../components/Title.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
-import { convertToSlug } from "../../utils/convertToSlug";
-import { allMediaFilteredAndSorted, tags, normalizeTag } from "../../utils/mediaCollection";
+import { getTaxonomyIndex } from "../../lib/content-domain";
 
-function calculatePostCountForTag(tagName) {
-  // Normalize post tags before comparing
-  return allMediaFilteredAndSorted.filter((post) => post.data.tags?.map(normalizeTag).includes(tagName)).length;
-}
 const title = "Tags";
-const groupedTags = {};
-
-// Group the tags by the first letter
-tags.forEach((tag) => {
-  if (!tag) return;
-  const firstLetter = tag[0].toUpperCase(); // Convert to uppercase for consistency
-  if (!groupedTags[firstLetter]) {
-    groupedTags[firstLetter] = [];
-  }
-  groupedTags[firstLetter].push(tag);
-});
+const { groupedItems: groupedTags } = await getTaxonomyIndex("tags");
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title }}>
@@ -37,13 +21,13 @@ tags.forEach((tag) => {
       Object.keys(groupedTags).map((letter) => (
         <div>
           <h2 id={letter}>{letter}</h2>
-          <div class="grid">
-            {groupedTags[letter].map((tag) => (
+            <div class="grid">
+            {groupedTags[letter].map((tagItem) => (
               <LabelCount
-                link={`${convertToSlug(tag)}/`}
+                link={`${tagItem.slug}/`}
                 type="tags"
-                name={tag}
-                count={calculatePostCountForTag(tag)}
+                name={tagItem.name}
+                count={tagItem.count}
               />
             ))}
           </div>

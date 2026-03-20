@@ -3,10 +3,12 @@ import PodcastGrid from "../../components/PodcastGrid.astro";
 import ShowGrid from "../../components/ShowGrid.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allPodcastsFilteredAndSorted, allShowsSortedByRecentEpisode } from "../../utils/mediaCollection";
+import { getRecentPodcasts, getRecentShows } from "../../lib/content-domain";
 
-const podcast = allPodcastsFilteredAndSorted.slice(0, 8);
-const shows = allShowsSortedByRecentEpisode.slice(0, 6);
+const [podcast, shows] = await Promise.all([
+  getRecentPodcasts(8),
+  getRecentShows(6),
+]);
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: "All podcasts" }}>

@@ -1,36 +1,25 @@
 ---
-// src/pages/shows/[slug].astro
-import type { CollectionEntry } from "astro:content";
-import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ShowLayout from "../../layouts/ShowLayout.astro";
+import { getShowEntries, getShowPage } from "../../lib/content-domain";
 
 export async function getStaticPaths() {
-  const shows = await getCollection("show");
-  return shows.map((show) => ({
+  const shows = await getShowEntries();
+  return Promise.all(shows.map(async (show) => ({
     params: { slug: show.slug },
-    props: show,
-  }));
+    props: { page: await getShowPage(show.slug) },
+  })));
 }
 
-type Props = CollectionEntry<"show">;
+const { page } = Astro.props;
+const show = page?.show;
+const episodes = page?.episodes ?? [];
 
-const show = Astro.props;
-
-// Get episodes for this show
-const episodes = await getCollection("podcast", ({ data }) => {
-  return data.showSlug === show.slug;
-});
-
-// Sort episodes by published date (newest first)
-episodes.sort(
-  (a, b) =>
-    new Date(b.data.publishedAt).getTime() -
-    new Date(a.data.publishedAt).getTime()
-);
+if (!show) {
+  throw new Error(`Show page data missing for slug "${Astro.params.slug}"`);
+}
 
 const { Content } = await show.render();
-
 const headProps = {
   title: `${show.data.title} | Podcast`,
   description: show.data.description || show.data.title,
