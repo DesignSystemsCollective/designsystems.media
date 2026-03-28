@@ -24,12 +24,14 @@ const totalCount = posts.length;
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title: speakerItem.name }}>
-  <h1>{speakerItem.name}</h1>
-  <div class="header-links">
-    <span class="total">{totalCount} items</span>
+  <div class="taxonomy-header">
+    <h1 class="taxonomy-header__title">{speakerItem.name}</h1>
+    <div class="taxonomy-header__links">
+    <span class="taxonomy-header__count">{totalCount} items</span>
      {videoPosts && videoPosts.length > 0 && <a href="#video">{videoCount} videos</a>}
      {podcastPosts && podcastPosts.length > 0 &&
     <a href="#podcast">{podcastCount} podcasts</a>}
+    </div>
   </div>
   <div class="container">
     {videoPosts && videoPosts.length > 0 && (
@@ -58,36 +60,7 @@ const totalCount = posts.length;
 </BaseLayout>
 
 <style>
- 
-  h1 {
-    margin: 0rem 1rem 0;
-  }
-  h2 {
-    margin-block: 0 2rem;
-  }
   .container {
     margin-bottom: 2rem;
-  }
-  .header-links {
-    margin: 0rem 1rem 2rem;
-    display: flex;
-    gap: 1em;
-    font-size: 0.9em;
-    font-weight: 600;
-    color: var(--tx-3)
-  }
-  .header-links a {
-    text-decoration: none;
-  }
-
-  @media (max-width: 1024px) {  
-  h1 {
-    margin: 1rem 1rem 0;
-  }
-    h2,
-    .breadcrumb {
-      padding-left: 1rem;
-      margin: 0;
-    }
   }
 </style>

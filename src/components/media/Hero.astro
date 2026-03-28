@@ -128,12 +128,12 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
           {" "}
           {/* Use a fragment to group the speakers content */}
           {speakers && speakers.length > 0 && (
-            <div class="speakers-container">
+            <div class="hero-speakers meta-links meta-links--inline">
               {speakers.map((speaker, index) => (
                 <>
                   <a
                     href={`/speakers/${convertToSlug(speaker)}/`}
-                    class="speaker"
+                    class="meta-links__item"
                     data-pagefind-filter="speaker"
                     data-pagefind-weight="5"
                   >
@@ -277,9 +277,6 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     padding: 1rem 0 0;
   }
   .page-title .show {
-    font-weight: 600;
-  }
-  .speakers-container a {
     font-weight: 600;
   }
   audio {

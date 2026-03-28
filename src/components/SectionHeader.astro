@@ -10,44 +10,13 @@ interface Props {
 const { title, link, linkLabel, padding,anchor } = Astro.props;
 ---
 
-<div class:list={{ padding: padding }}>
-  <h2 id={anchor}>{title}</h2>
+<div class:list={["section-heading", { "section-heading--padding": padding, "section-heading--loose": padding }]}>
+  <h2 id={anchor} class="section-heading__title section-heading__title--large">{title}</h2>
   {
     link && (
-      <a href={link} title={`View more ${title}`}>
+      <a href={link} title={`View more ${title}`} class="section-heading__link">
         {linkLabel}
       </a>
     )
   }
 </div>
-
-<style>
-  div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-block: 0rem 0;
-    margin-inline: 0rem;
-    align-items: baseline;
-  }
-  div.padding {
-    margin-inline: 1rem;
-    margin-block: 1rem 0;
-  }
-  h2 {
-    padding: 0;
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  a {
-    color: rgb(var(--accent));
-    text-decoration: none;
-    border-bottom: 1px dashed var(--accent-hover);
-    line-height: 1.1;
-    font-size: 0.8em;
-  }
-  a:hover {
-    color: var(--accent-hover);
-    border-bottom: 1px solid var(--accent-hover);
-  }
-</style>
