@@ -34,7 +34,7 @@ const {
     data-pagefind-meta={`image:${image?.src}`}
   />
   
-  <div class="content">
+  <div class="content-shell">
     <MetaList>
       <MetaItem icon="fluent:headphones-20-filled" type="inline">
         {episodeCount} episodes
@@ -42,7 +42,7 @@ const {
       
       {explicit && (
         <MetaItem type="inline">
-          <span class="explicit">Explicit</span>
+          <span class="explicit meta-badge--explicit">Explicit</span>
         </MetaItem>
       )}
 
@@ -57,7 +57,7 @@ const {
       </MetaItem>
     </MetaList>
     
-    <div class="prose" data-pagefind-weight="3">
+    <div class="content-shell__prose" data-pagefind-weight="3">
       <slot />
        {episodes && (
       <EpisodeGrid episodes={episodes} />
@@ -68,47 +68,14 @@ const {
 
 <style>
   :global(.title) {
-    margin: 0 auto 1em;
-    padding: 2.5rem 0rem 0.5rem;
-    width: 100%;
-    max-width: 900px;
+    margin: 0 auto 0;
   }
 
-  .prose {
+  :global(.content-shell__title) {
+    margin-bottom: 1em;
+  }
+
+  .content-shell__prose {
     margin: auto;
-    color: var(--body-text);
-    overflow-wrap: anywhere;
-  }
-
-  :global(.prose h1),
-  :global(.prose h2),
-  :global(.prose h3),
-  :global(.prose h4),
-  :global(.prose h5),
-  :global(.prose h6) {
-    font-size: 1em;
-  }
-
-  .content {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    padding: 1rem;
-    display: grid;
-    gap: 2rem;
-    justify-content: center;
-    align-items: start;
-    grid-template-columns: minmax(100px, 200px) 1fr;
-  }
-
-  @media screen and (max-width: 1024px) {
-    :global(.title) {
-      padding: 2.5rem 1rem 0.5rem;
-    }
-
-    .content {
-      display: flex;
-      flex-direction: column;
-    }
   }
 </style>
