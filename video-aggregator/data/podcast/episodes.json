@@ -1,5 +1,61 @@
 [
   {
+    "title": "Does your design system need a PM?",
+    "description": "<h1>Episode 52 - Does your design system need a PM?</h1><p><br/></p><p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience. Time for the hot takes - do design systems need product management? Or is it something that just gets in the way and stops work happening?</p><p><b>Show notes</b></p><ul><li><a href='https://report.zeroheight.com/'><b>Design System Report 2026</b></a></li><li><a href='https://wearefrankly.co/'><b>Amy Hupe</b></a></li></ul><p><b><br/></b><br/></p><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/18929395-does-your-design-system-need-a-pm.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/18929395-does-your-design-system-need-a-pm.mp3",
+    "publishedAt": "2026-03-31T03:00:00.000Z",
+    "duration": "0:40:46",
+    "durationSeconds": 2446,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 52783451065,
+    "guid": "Buzzsprout-18929395",
+    "season": 2,
+    "episode": 52,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "What to do with AI on your design system right now (and make a better way of working)",
+    "description": "<p>There’s <em>so much</em> happening in the world of design systems: so much noise, so many new tools, and so much pressure. Where to start?</p><p>Building on <a href='https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/'>what I wrote on the Zeroheight blog</a>, in this minisode I’m offering tactical suggestions for cutting through the noise.</p><p>I cover the three areas you should be focusing on in your design system right now—MCPs, skills, and agents.md; how to get started designing with code; and defining design guidelines and semantic components—plus a detour into governance and ways of working.</p><p>But the bit that’s occupying my brain space right now is that I believe that design system practitioners are uniquely positioned to help organizations change how they work with AI, because we own the layer that says: this is how you build UI and how design and engineering collaborate. </p><p>Maybe the most important thing that you can be doing is thinking about how you can help your product teams think about what it means to build products today, and how we do it.</p><p><br/></p><p><b>Resources</b></p><ul><li>My writing for Zeroheight:<ul><li><a href='https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/'>AI in design systems: What’s changing in 2026</a></li><li><a href='https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/'>3 practical ways LLMs can support design systems teams today</a> (Oct 2025)</li></ul></li><li>Some Murphy Trueman hits:<ul><li><a href='https://blog.murphytrueman.com/the-prompt-you-never-wrote/'>The prompt you never wrote</a></li><li><a href='https://blog.murphytrueman.com/your-next-design-system-user/'>Your next design system user is an agent</a></li><li><a href='https://blog.murphytrueman.com/your-design-system-might-be-ai-ready/'>Your design system might be AI-ready. Your organisation probably isn't.</a></li><li><a href='https://blog.murphytrueman.com/your-design-system-has-opinions/'>Your design system has opinions. They're just not being enforced</a></li><li><a href='https://blog.murphytrueman.com/the-ai-feedback-loop/'>The AI feedback loop: When design systems train the models that critique them</a></li><li><a href='https://blog.murphytrueman.com/the-bidirectional-design-system/'>The bidirectional design system: When code talks back to design</a></li></ul></li><li>Erika Flowers, <a href='https://open.zerovector.design/'>Open Vector</a></li></ul><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://www.buzzsprout.com/2417527/episodes/18923656-what-to-do-with-ai-on-your-design-system-right-now-and-make-a-better-way-of-working.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2417527/episodes/18923656-what-to-do-with-ai-on-your-design-system-right-now-and-make-a-better-way-of-working.mp3",
+    "publishedAt": "2026-03-30T13:00:00.000Z",
+    "duration": "0:23:25",
+    "durationSeconds": 1405,
+    "episodeImageUrl": "https://storage.buzzsprout.com/19u98nkx40kwjps3iklh9ngzzn9n?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/19u98nkx40kwjps3iklh9ngzzn9n?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 52745859624,
+    "guid": "Buzzsprout-18923656",
+    "season": 2,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
     "title": "My Book is Out | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
