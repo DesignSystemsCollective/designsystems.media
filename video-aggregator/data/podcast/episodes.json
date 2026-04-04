@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 98: Zeroheight's 2026 Survey Chatter",
+    "description": "<p>Davy and PJ dive into the Zeroheight's 2026 Design Systems Survey to figure out why 61% of teams are drowning in work while a third of them still have \"no plans\" to automate—plus, Davy forces PJ to listen to some truly questionable AI-generated design jokes.</p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/117884660/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-3%2F1693d701-3091-0dbd-651e-a7852b3a8d54.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/117884660/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-3%2F1693d701-3091-0dbd-651e-a7852b3a8d54.mp3",
+    "publishedAt": "2026-04-03T07:00:00.000Z",
+    "duration": "0:36:25",
+    "durationSeconds": 2185,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 52950214224,
+    "guid": "731c6c82-12e2-4235-b853-9ac78f50fd04",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Does your design system need a PM?",
     "description": "<h1>Episode 52 - Does your design system need a PM?</h1><p><br/></p><p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience. Time for the hot takes - do design systems need product management? Or is it something that just gets in the way and stops work happening?</p><p><b>Show notes</b></p><ul><li><a href='https://report.zeroheight.com/'><b>Design System Report 2026</b></a></li><li><a href='https://wearefrankly.co/'><b>Amy Hupe</b></a></li></ul><p><b><br/></b><br/></p><p><br/></p>",
     "podcastTitle": "Design Systems WTF",
