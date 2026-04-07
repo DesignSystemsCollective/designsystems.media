@@ -1,5 +1,33 @@
 [
   {
+    "title": "Brand imagery & color swatches: lessons from building for e-comm, with Maya Hampton",
+    "description": "<p>Maya draws on her experience as a design systems PM at both REI and lululemon to explore what makes ecommerce design systems distinct. From the component library decisions to supporting editorial flexibility and brand storytelling, this episode digs into the real differences between ecommerce systems and other product contexts — and what's driving non-tech companies to invest in designs systems now.</p><p><b>Resources & Links</b></p><ul><li><a href='https://www.linkedin.com/in/mayahampton/'>Maya Hampton on LinkedIn</a></li><li><a href='https://himaya.medium.com/'>Maya's writing on Medium</a></li><li><a href='https://uxdesign.cc/driving-design-system-adoption-54f2abf9e32c'>Driving design system adoption</a></li><li><a href='https://cedar.rei.com/'>REI Cedar system</a></li></ul><p><br/></p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://www.buzzsprout.com/2417527/episodes/18956493-brand-imagery-color-swatches-lessons-from-building-for-e-comm-with-maya-hampton.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2417527/episodes/18956493-brand-imagery-color-swatches-lessons-from-building-for-e-comm-with-maya-hampton.mp3",
+    "publishedAt": "2026-04-06T13:00:00.000Z",
+    "duration": "0:54:46",
+    "durationSeconds": 3286,
+    "episodeImageUrl": "https://storage.buzzsprout.com/8qzbqbugtp54y6rb83xswasimijf?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/8qzbqbugtp54y6rb83xswasimijf?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 53073895418,
+    "guid": "Buzzsprout-18956493",
+    "season": 2,
+    "episode": 4,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 98: Zeroheight's 2026 Survey Chatter",
     "description": "<p>Davy and PJ dive into the Zeroheight's 2026 Design Systems Survey to figure out why 61% of teams are drowning in work while a third of them still have \"no plans\" to automate—plus, Davy forces PJ to listen to some truly questionable AI-generated design jokes.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
