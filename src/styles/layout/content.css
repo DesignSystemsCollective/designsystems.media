@@ -1,0 +1,169 @@
+.content-shell {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  grid-template-columns: minmax(100px, 200px) 1fr;
+}
+
+.content-shell--single {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.content-shell__meta {
+  padding: 1rem 0;
+}
+
+.content-shell__meta .inline {
+  position: relative;
+  padding: 0 0 0 1.8rem;
+}
+
+.content-shell__meta .inline [data-icon] {
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+}
+
+.content-shell__meta .speakers {
+  line-height: normal;
+  align-items: baseline;
+  margin-block-start: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em 0;
+}
+
+.content-shell__meta .break {
+  display: none;
+}
+
+.content-shell__prose {
+  margin: 0;
+  color: var(--body-text);
+  overflow-wrap: anywhere;
+}
+
+.content-shell__prose p:first-of-type {
+  margin-top: 0;
+}
+
+.content-shell__description {
+  margin: 0 0 2rem;
+}
+
+.content-shell__title,
+.title.content-shell__title {
+  margin: 0 auto 1em;
+  padding: 2.5rem 0 0.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.content-shell__prose .meta-data {
+  margin: 0 0 1rem;
+}
+
+.content-shell__meta .meta-item--inline {
+  padding: 0 0 0 1.8rem;
+}
+
+.content-shell__meta .meta-item--inline svg {
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+}
+
+.content-shell__prose .responsive-container {
+  padding: 1rem 0;
+}
+
+.content-shell__prose :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 1em;
+}
+
+.taxonomy-header {
+  margin: 0 1rem 2rem;
+}
+
+.taxonomy-header__title {
+  margin: 0;
+}
+
+.taxonomy-header__links {
+  display: flex;
+  gap: 1em;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--tx-3);
+}
+
+.taxonomy-header__links a {
+  text-decoration: none;
+}
+
+.taxonomy-header__count {
+  color: inherit;
+}
+
+@media (max-width: 1024px) {
+  .content-shell,
+  .content-shell--single {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-shell__meta {
+    padding: 0 0 1rem;
+  }
+
+  .content-shell__meta .inline {
+    padding-left: 0;
+  }
+
+  .content-shell__meta .inline [data-icon] {
+    position: relative;
+    left: auto;
+    top: 0;
+  }
+
+  .content-shell__meta .speakers {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.25em 1em;
+    align-items: baseline;
+    margin-block-start: 0.5em;
+  }
+
+  .content-shell__meta .break {
+    flex-basis: 100%;
+    height: 0;
+    display: block;
+  }
+
+  .content-shell__meta .meta-item--inline {
+    padding-left: 0;
+  }
+
+  .content-shell__meta .meta-item--inline svg {
+    position: relative;
+    left: auto;
+    top: 0;
+  }
+
+  .content-shell__title,
+  .title.content-shell__title {
+    padding-inline: 1rem;
+  }
+
+  .taxonomy-header {
+    margin-top: 1rem;
+  }
+}

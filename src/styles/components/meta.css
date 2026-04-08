@@ -1,0 +1,157 @@
+.meta-data {
+  color: var(--meta-data);
+  padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 1.1rem;
+  justify-content: flex-start;
+}
+
+.meta-data a,
+.meta-link {
+  color: var(--meta-data-link);
+}
+
+.meta-data a:hover,
+.meta-link:hover {
+  color: var(--accent-hover);
+}
+
+.meta-data span {
+  color: var(--meta-data);
+}
+
+.meta-item {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 0.25em;
+  flex-direction: column;
+}
+
+.meta-item--inline {
+  padding: 0 0 0 1.8rem;
+  position: relative;
+  gap: 0;
+  justify-content: flex-start;
+}
+
+.meta-item--inline svg {
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+}
+
+.meta-item--block {
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.meta-label,
+.meta-links__label {
+  font-weight: 600;
+}
+
+.meta-content {
+  display: contents;
+  color: var(--tx);
+}
+
+.meta-badge--explicit,
+.explicit {
+  background: rgb(var(--accent));
+  color: white;
+  padding: 0.4em 0.5em 0.2rem;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.meta-links {
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.meta-links--inline {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.meta-links__label {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  font-weight: 500;
+}
+
+.meta-links__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.meta-links--inline .meta-links__items {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.meta-links__item {
+  color: var(--meta-data-link);
+  text-decoration: none;
+  padding: 0.2em 0;
+  border-radius: 4px;
+  transition: color 0.2s ease;
+}
+
+.meta-links__separator {
+  display: none;
+  margin-right: 0.25rem;
+}
+
+.hero-speakers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-speakers .meta-links__item {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .meta-data {
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .meta-data {
+    gap: 0.75rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .meta-content {
+    display: contents;
+  }
+
+  .meta-links__items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .meta-links__separator {
+    display: inline;
+  }
+}
