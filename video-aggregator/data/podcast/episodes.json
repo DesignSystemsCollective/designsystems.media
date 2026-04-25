@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 99: Durable vs Temporal Artifacts",
+    "description": "<p>Davy talks about trading a week of manual Figma updates for a \"code-to-canvas\" workflow that gets us \"close enough\" while PJ talks about running multiple worker-based agents to do production and qa work in tandem. Are these burner tasks?</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/118961477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-24%2Fa23a2c75-1ab9-0637-f498-e68ab0290b9e.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/118961477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-24%2Fa23a2c75-1ab9-0637-f498-e68ab0290b9e.mp3",
+    "publishedAt": "2026-04-24T07:06:00.000Z",
+    "duration": "0:36:16",
+    "durationSeconds": 2176,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 53811023503,
+    "guid": "2fc74696-7c0d-4a7c-9437-7a5db2f71743",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Brand imagery & color swatches: lessons from building for e-comm, with Maya Hampton",
     "description": "<p>Maya draws on her experience as a design systems PM at both REI and lululemon to explore what makes ecommerce design systems distinct. From the component library decisions to supporting editorial flexibility and brand storytelling, this episode digs into the real differences between ecommerce systems and other product contexts — and what's driving non-tech companies to invest in designs systems now.</p><p><b>Resources & Links</b></p><ul><li><a href='https://www.linkedin.com/in/mayahampton/'>Maya Hampton on LinkedIn</a></li><li><a href='https://himaya.medium.com/'>Maya's writing on Medium</a></li><li><a href='https://uxdesign.cc/driving-design-system-adoption-54f2abf9e32c'>Driving design system adoption</a></li><li><a href='https://cedar.rei.com/'>REI Cedar system</a></li></ul><p><br/></p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
     "podcastTitle": "On Theme: Design Systems in Depth",
