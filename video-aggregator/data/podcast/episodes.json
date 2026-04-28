@@ -1,5 +1,61 @@
 [
   {
+    "title": "Is a design system mandate worth fighting for?",
+    "description": "<h1><b>Episode #53 - Is a design system mandate worth fighting for?</b></h1><p><br/></p><p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>The Design System Report this year suggested that the number one thing design system teams with low adoption rates were missing was a company mandate. However, is that really the thing you should be fighting for? Or is your time better spent focusing on something else? Luke and Michelle will dive into what actually drives good adoption, and whether a mandate is just a wolf in sheep's clothing.</p><p><b>Show notes</b></p><ul><li><a href='https://report.zeroheight.com/'><b>Design System Report 2026</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-design-systems-report-2026-adoption-as-an-existential-challenge'><b>Design System Report webinar on Adoption</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-design-systems-report-2026-we-need-more-people'><b>Design System Report webinar on Resourcing</b></a></li><li><a href='https://bencallahan.com/the-question'><b>The Question</b></a></li><li><a href='https://bencallahan.com/redwoods'><b>Redwoods Community</b></a></li><li><a href='https://zeroheight.com/case-studies/'><b>Zeroheight Case Studies</b></a></li></ul><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19083634-is-a-design-system-mandate-worth-fighting-for.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19083634-is-a-design-system-mandate-worth-fighting-for.mp3",
+    "publishedAt": "2026-04-28T03:00:00.000Z",
+    "duration": "0:40:30",
+    "durationSeconds": 2430,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 53917838884,
+    "guid": "Buzzsprout-19083634",
+    "season": 2,
+    "episode": 53,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Design system quality has a business case now (and it's ... AI?), with Murphy Trueman",
+    "description": "<p>Murphy Trueman joins me to dig into something most design system teams already know but haven't wanted to say out loud: your design system isn't ready for AI. Ambiguous tokens, undocumented rules, and a lack of parity that only works because experienced humans know how to use the system... we've been getting away with it for years. AI just made the bill come due. We discuss what it actually means to treat your design system like a semantic API, how to think about governance, and why the fixes AI demands are ones we probably should have made years ago. Plus, what it means to allow more roles (and LLMs) to build with the system, and and what teams can do right now to get their house in order.</p><p><b>Resources & Links</b></p><ul><li><a href='https://murphytrueman.com/'>https://murphytrueman.com/</a></li><li><a href='https://blog.murphytrueman.com/'>https://blog.murphytrueman.com/</a></li><li><a href='https://designsystemsforai.com/'>https://designsystemsforai.com/</a></li><li><a href='https://designsystemops.com/'>https://designsystemops.com/</a></li></ul><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p><p><a rel=\"payment\" href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://www.buzzsprout.com/2417527/episodes/19080354-design-system-quality-has-a-business-case-now-and-it-s-ai-with-murphy-trueman.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2417527/episodes/19080354-design-system-quality-has-a-business-case-now-and-it-s-ai-with-murphy-trueman.mp3",
+    "publishedAt": "2026-04-27T13:00:00.000Z",
+    "duration": "0:37:12",
+    "durationSeconds": 2232,
+    "episodeImageUrl": "https://storage.buzzsprout.com/45bhwrkogjt9cxncmya249qxx87f?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/45bhwrkogjt9cxncmya249qxx87f?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/d5gj6wruowzieacunzw8quhiyjkt?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 53896144099,
+    "guid": "Buzzsprout-19080354",
+    "season": 2,
+    "episode": 5,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 99: Durable vs Temporal Artifacts",
     "description": "<p>Davy talks about trading a week of manual Figma updates for a \"code-to-canvas\" workflow that gets us \"close enough\" while PJ talks about running multiple worker-based agents to do production and qa work in tandem. Are these burner tasks?</p>",
     "podcastTitle": "Design System Office Hours",
