@@ -1,5 +1,33 @@
 [
   {
+    "title": "Startup Whirlwind w/ Frank Stallone | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/eoegwjlj2s7w4iji/yt_video_MSzFdWRHn2Q_4ievbz.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/eoegwjlj2s7w4iji/yt_video_MSzFdWRHn2Q_4ievbz.mp3",
+    "publishedAt": "2026-04-28T20:35:40.000Z",
+    "duration": "0:58:52",
+    "durationSeconds": 3532,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/2ab844eb83bddf972b527d0d86fd0317.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/2ab844eb83bddf972b527d0d86fd0317.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 53957011008,
+    "guid": "yt:video:MSzFdWRHn2Q",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Is a design system mandate worth fighting for?",
     "description": "<h1><b>Episode #53 - Is a design system mandate worth fighting for?</b></h1><p><br/></p><p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>The Design System Report this year suggested that the number one thing design system teams with low adoption rates were missing was a company mandate. However, is that really the thing you should be fighting for? Or is your time better spent focusing on something else? Luke and Michelle will dive into what actually drives good adoption, and whether a mandate is just a wolf in sheep's clothing.</p><p><b>Show notes</b></p><ul><li><a href='https://report.zeroheight.com/'><b>Design System Report 2026</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-design-systems-report-2026-adoption-as-an-existential-challenge'><b>Design System Report webinar on Adoption</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-design-systems-report-2026-we-need-more-people'><b>Design System Report webinar on Resourcing</b></a></li><li><a href='https://bencallahan.com/the-question'><b>The Question</b></a></li><li><a href='https://bencallahan.com/redwoods'><b>Redwoods Community</b></a></li><li><a href='https://zeroheight.com/case-studies/'><b>Zeroheight Case Studies</b></a></li></ul><p><br/></p>",
     "podcastTitle": "Design Systems WTF",
