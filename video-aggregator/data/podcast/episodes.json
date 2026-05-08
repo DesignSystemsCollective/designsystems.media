@@ -1,5 +1,61 @@
 [
   {
+    "title": "Ep 100: Happy Podcast Bday, and Schemas",
+    "description": "<p>We hit the Centennial! In our 100th episode, Davy and PJ look back on 4 years of our design systems chatter, before diving deep into the future of design systems: a community-driven, machine-readable schema that moves us past the \"Figma-as-Source-of-Truth\" era.</p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/119620375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-7%2F2f681a40-a468-5092-ab46-35df824f43cd.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/119620375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-7%2F2f681a40-a468-5092-ab46-35df824f43cd.mp3",
+    "publishedAt": "2026-05-07T07:05:00.000Z",
+    "duration": "0:35:48",
+    "durationSeconds": 2148,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 54347741209,
+    "guid": "99a51f34-8fc8-41de-a919-4cbf0e640134",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Spicy Chicken w/ Brad Frost | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/sfxg7uzukcozxnc0/yt_video_9j4SoENooDM_xgchvh.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/sfxg7uzukcozxnc0/yt_video_9j4SoENooDM_xgchvh.mp3",
+    "publishedAt": "2026-05-06T20:34:58.000Z",
+    "duration": "1:00:13",
+    "durationSeconds": 3613,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/8c10d9bbbe8093498208ee46e4d295c1.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/8c10d9bbbe8093498208ee46e4d295c1.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 54325104635,
+    "guid": "yt:video:9j4SoENooDM",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Special Agents w/ Kaelig Deloumeau-Prigent | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
