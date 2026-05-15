@@ -31,16 +31,14 @@ const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
 
 <div
   class:list={[
-    "media-item",
-    "media-link",
+    "media-card",
+    "media-card--hover",
     {
-      "media-list-layout": isListLayout,
-      "media-grid-layout": !isListLayout,
+      "media-card--list": isListLayout,
     },
   ]}
 >
-
-  <a href={`/video/${slug}/`} class="media-image">
+  <a href={`/video/${slug}/`} class="media-card__link media-card__image media-card__image--video">
     {isImageMetadata ? (
       <Image 
         src={poster as ImageMetadata} 
@@ -53,9 +51,9 @@ const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
       <MediaImage src={poster} alt={title} ratio="video" loading={loading} />
     )}
   </a>
-    <div class="media-content">
-     <a href={`/video/${slug}/`}><h3 class="title">{title}</h3></a>
-      <div class="meta">
+    <div class="media-card__content">
+     <a href={`/video/${slug}/`} class="media-card__title-link"><h3 class="media-card__title">{title}</h3></a>
+      <div class="media-card__meta">
         <span><FormattedDate date={publishedAt} /></span>
         <span>•</span>
         <span>{formatDuration(duration)}</span>
@@ -64,48 +62,10 @@ const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
 </div>
 
 <style>
-  /* Style for each media item */
-  .media-item {
-    margin: 0;
-  }
-  .media-link {
+  a {
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    transition: box-shadow 1s ease-out;
-  }
-a {
-    text-decoration: none;
-  } .media-image img {
-    border-radius: 6px;
-  }
-  .media-link:hover {
-    .media-image img {
-      box-shadow:
-        0 0px 40px var(--accent-glow),
-        0 0px 10px var(--accent-hover);
-      outline: 1px solid var(--accent-hover);
-      transition: box-shadow 1s ease-out;
-    }
-    .title {
-      color: rgb(var(--accent));
-    }
   }
 
-  .title {
-    font-size: 17px;
-    font-weight: 400;
-    margin: 2px 0;
-  }
-
-  .meta {
-    font-size: 14px;
-    color: var(--tx-3);
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-  }
   .duration {
     font-variant: small-caps;
     position: absolute;
@@ -123,29 +83,10 @@ a {
     right: 0.5rem;
   }
 
-  /* New list layout (similar to your @media rule) */
-  .media-list-layout {
-    display: grid;
-    grid-template-columns: minmax(80px, 100px) 1fr; /* The layout you want for list */
-    gap: 1rem; /* Adjust gap as needed for list */
-    align-items: center; /* Vertically align items in the list row */
-  }
-
   @media screen and (max-width: 768px) {
-    .media-grid-layout {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      align-items: center;
-    }
-
-    .media-link {
-      display: grid;
-      grid-template-columns: 2fr 3fr;
-    }
-
-    .media-image {
+    /* .media-card__image {
       border-radius: 2px;
-    }
+    } */
 
     .duration {
       bottom: 0.4rem;
