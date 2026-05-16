@@ -1,5 +1,33 @@
 [
   {
+    "title": "Vibe Styling w/ Mike Aparicio | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/uz52iq15r5jahbbr/yt_video_8L6uoTaW9kU_65bkzg.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/uz52iq15r5jahbbr/yt_video_8L6uoTaW9kU_65bkzg.mp3",
+    "publishedAt": "2026-05-15T19:35:16.000Z",
+    "duration": "1:02:26",
+    "durationSeconds": 3746,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/efd6bc328045332b5735e3d5888bf15a.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/efd6bc328045332b5735e3d5888bf15a.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 54759888610,
+    "guid": "yt:video:8L6uoTaW9kU",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Building in the Age of Agents with Alex Wilson, Engineering Leader at T. Rowe Price.",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/887923/fan_mail/new\">Send us feedback or episode suggestions.</a></p><p>Software teams are operating in an environment where the job description changes every two months. As agentic AI moves from novelty to real engineering capability, the assumptions that have held enterprise software together — long SaaS contracts, stable teams, predictable agile rhythms — are starting to bend. In this episode of Patterns, Chris Strahl talks with engineering leader Alex Wilson about what it actually takes to bring AI into a large, regulated organization, and how the math behind building, buying, and structuring teams is shifting underneath everyone at once.</p><p>Drawing on his work leading the design system at T. Rowe Price and driving AI activation across the firm, Alex explains how agentic capabilities are reshaping build-vs-buy, the shape of teams, and how engineering leaders need to show up. The conversation moves from the cultural pressure to be \"AI-native\" to the practical questions of modular architecture, smaller delivery pods, and why the best leaders are now building alongside their teams.</p><p>We'll explore:</p><ul><li>Why \"build vs. buy\" looks different when agents can build and maintain internal tools, and how that's pushing companies to shorten SaaS contracts and treat vendor software as a stop-gap</li><li>How teams are shifting from large pods running classic agile toward smaller groups of \"big gear\" and \"small clockwork\" builders with compressed spike-to-ship cycles</li><li>Why modular, replaceable architecture is becoming a strategic requirement as SaaS feels less permanent and internal builds become more viable</li><li>How engineering leaders set the tone by adopting AI tools themselves — treating personal experimentation as a path back into the company's roadmap</li></ul><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p><a href='https://www.linkedin.com/in/alex-wilson-mba/'>Alex Wilson</a> is an engineering leader focused on design systems and AI-enabled product development. He leads Beacon, T. Rowe Price’s design system, driving broad adoption across the firm and generating more than $15 million in design and development cost avoidance.</p><p>He works at the intersection of design, platform architecture, and AI, where he focuses on improving how digital products are built and evolve at enterprise scale. From this perspective, he explores how intelligent systems can enable more adaptive, context-aware experiences while maintaining consistency and design integrity. He also defines technical strategy around agentic workflows that enable teams to build in new ways.</p><p>Beyond his work at T. Rowe Price, he is an ac",
     "podcastTitle": "Patterns Podcast",
