@@ -1,5 +1,61 @@
 [
   {
+    "title": "Mind the Gap w/ Kelly Harrop | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/942bycq49wmw2y9m/yt_video_oxzCGpBJzgQ_5jvnqx.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/942bycq49wmw2y9m/yt_video_oxzCGpBJzgQ_5jvnqx.mp3",
+    "publishedAt": "2026-05-26T20:36:51.000Z",
+    "duration": "0:56:01",
+    "durationSeconds": 3361,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/060141e30145f20bb1fdbd0af8f5884c.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/060141e30145f20bb1fdbd0af8f5884c.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 55296861936,
+    "guid": "yt:video:oxzCGpBJzgQ",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Ep 101: Sharing Ideas and Open Source",
+    "description": "<p>Why do we build in public when corporate nature tells us to hoard our work? Davy and PJ break down the unglamorous reality of sharing open-source tools, micro-contributions, and why 90s music is a hill worth dying on.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/120475088/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F1ffef071-f62b-8918-f89a-b7846fcf3432.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/120475088/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F1ffef071-f62b-8918-f89a-b7846fcf3432.mp3",
+    "publishedAt": "2026-05-26T07:00:00.000Z",
+    "duration": "0:36:45",
+    "durationSeconds": 2205,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 55274636810,
+    "guid": "da70eed9-7e97-453c-9787-9ed77cead64e",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Is Figma holding design systems back?",
     "description": "<h1><b>Is Figma holding design systems back?</b></h1><p><br/></p><p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>It's the month before Config! So we're diving into a spicy topic - is Figma helping or hindering design systems? Is the future of design systems a world where Figma doesn't exist? Or are design tools like Figma essential for the work we do in design systems day to day?</p><p><b>Show notes</b></p><ul><li><a href='https://www.figma.com/blog/welcome-weavy-to-figma/'><b>Figma Weave (acquisition / launch)</b></a></li><li><a href='https://www.figma.com/blog/introducing-make-kits-and-make-attachments/'><b>Figma Make Kits announcement</b></a></li><li><a href='https://zeroheight.com/resources/state-of-ai-in-design-systems/'><b>The State of AI in Design Systems (zeroheight)</b></a></li><li><a href='https://zeroheight.com/how-we-document/'><b>Design Systems Report 2025 (zeroheight)</b></a></li><li><a href='https://www.uxtools.co/survey/design-systems/overview'><b>UX Tools Design Tools Survey</b></a></li><li><a href='https://converge.zeroheight.com/'><b>Converge (zeroheight)</b></a></li><li><a href='https://bsky.app/profile/lurkmoophy.bsky.social'><b>Luke Murphy on Bluesky</b></a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'><b>Michelle Chin on Bluesky</b></a></li></ul><p><br/></p>",
     "podcastTitle": "Design Systems WTF",
