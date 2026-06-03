@@ -1,5 +1,33 @@
 [
   {
+    "title": "29: Joey Banks - Design & AI Tooling",
+    "description": "<p>We're joined by Joey Banks, who shares his experience as Founder of Baseline Design.</p><p><b>Episode Links:</b></p><ul><li>You’re Not Behind: <a href='https://www.joeyabanks.me/posts/you-re-not-behind'>https://www.joeyabanks.me/posts/you-re-not-behind</a></li></ul><p><b>Socials:</b></p><ul><li>Website: <a href='https://www.baselinedesign.com/'>https://www.baselinedesign.com/</a></li><li>Linkedin: <a href='https://www.linkedin.com/in/joeyabanks/'>https://www.linkedin.com/in/joeyabanks/</a></li></ul>",
+    "podcastTitle": "Code & Pixels",
+    "episodeUrl": "https://www.buzzsprout.com/1958356/episodes/19254391-29-joey-banks-design-ai-tooling.mp3",
+    "audioUrl": "https://www.buzzsprout.com/1958356/episodes/19254391-29-joey-banks-design-ai-tooling.mp3",
+    "publishedAt": "2026-06-02T15:00:00.000Z",
+    "duration": "0:35:31",
+    "durationSeconds": 2131,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/1958356.rss",
+    "feedId": 5328591,
+    "episodeId": 55612601874,
+    "guid": "Buzzsprout-19254391",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Designing in Code w/ Elyse Holladay | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
