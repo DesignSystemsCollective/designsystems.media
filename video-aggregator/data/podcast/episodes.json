@@ -532,6 +532,34 @@
     "type": "full"
   },
   {
+    "title": "Brand imagery & color swatches: lessons from building for e-comm, with Maya Hampton",
+    "description": "<p>Maya draws on her experience as a design systems PM at both REI and lululemon to explore what makes ecommerce design systems distinct. From the component library decisions to supporting editorial flexibility and brand storytelling, this episode digs into the real differences between ecommerce systems and other product contexts — and what's driving non-tech companies to invest in designs systems now.</p>    <p><b>Resources & Links</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/mayahampton/\">Maya Hampton on LinkedIn</a></p></li>\n<li><p><a href=\"https://himaya.medium.com/\">Maya's writing on Medium</a></p></li>\n<li><p><a href=\"https://uxdesign.cc/driving-design-system-adoption-54f2abf9e32c\">Driving design system adoption</a></p></li>\n<li><p><a href=\"https://cedar.rei.com/\">REI Cedar system</a></p></li>\n</ul>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf76-781d-8d66-6fa5d72fe962/019d89f6-c1cb-78f5-a3ab-52be3f34f257.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf76-781d-8d66-6fa5d72fe962/019d89f6-c1cb-78f5-a3ab-52be3f34f257.mp3",
+    "publishedAt": "2026-04-06T13:00:00.000Z",
+    "duration": "0:54:46",
+    "durationSeconds": 3286,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/0daed736-7b47-4fe3-800c-0b9a6f79efeb/podcast_import_artwork_20260414-254-ljj94c.jpg?t=1776136149",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/0daed736-7b47-4fe3-800c-0b9a6f79efeb/podcast_import_artwork_20260414-254-ljj94c.jpg?t=1776136149"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278174,
+    "guid": " Buzzsprout-18956493 ",
+    "season": 2,
+    "episode": 4,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 98: Zeroheight's 2026 Survey Chatter",
     "description": "<p>Davy and PJ dive into the Zeroheight's 2026 Design Systems Survey to figure out why 61% of teams are drowning in work while a third of them still have \"no plans\" to automate—plus, Davy forces PJ to listen to some truly questionable AI-generated design jokes.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
@@ -610,6 +638,34 @@
     "feedId": 7065988,
     "episodeId": 52745859624,
     "guid": "Buzzsprout-18923656",
+    "season": 2,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
+    "title": "What to do with AI on your design system right now (and make a better way of working)",
+    "description": "<p>There’s <i>so much</i> happening in the world of design systems: so much noise, so many new tools, and so much pressure. Where to start?</p>    <p>Building on <a href=\"https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/\">what I wrote on the Zeroheight blog</a>, in this minisode I’m offering tactical suggestions for cutting through the noise.</p>    <p>I cover the three areas you should be focusing on in your design system right now—MCPs, skills, and agents.md; how to get started designing with code; and defining design guidelines and semantic components—plus a detour into governance and ways of working.</p>    <p>But the bit that’s occupying my brain space right now is that I believe that design system practitioners are uniquely positioned to help organizations change how they work with AI, because we own the layer that says: this is how you build UI and how design and engineering collaborate. </p>    <p>Maybe the most important thing that you can be doing is thinking about how you can help your product teams think about what it means to build products today, and how we do it.</p>    <p><b>Resources</b></p>   <ul>\n<li>\n<p>My writing for Zeroheight:</p>\n<ul>\n<li><p><a href=\"https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/\">AI in design systems: What’s changing in 2026</a></p></li>\n<li><p><a href=\"https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/\">3 practical ways LLMs can support design systems teams today</a> (Oct 2025)</p></li>\n</ul>\n</li>\n<li>\n<p>Some Murphy Trueman hits:</p>\n<ul>\n<li><p><a href=\"https://blog.murphytrueman.com/the-prompt-you-never-wrote/\">The prompt you never wrote</a></p></li>\n<li><p><a href=\"https://blog.murphytrueman.com/your-next-design-system-user/\">Your next design system user is an agent</a></p></li>\n<li><p><a href=\"https://blog.murphytrueman.com/your-design-system-might-be-ai-ready/\">Your design system might be AI-ready. Your organisation probably isn't.</a></p></li>\n<li><p><a href=\"https://blog.murphytrueman.com/your-design-system-has-opinions/\">Your design system has opinions. They're just not being enforced</a></p></li>\n<li><p><a href=\"https://blog.murphytrueman.com/the-ai-feedback-loop/\">The AI feedback loop: When design systems train the models that critique them</a></p></li>\n<li><p><a href=\"https://blog.murphytrueman.com/the-bidirectional-design-system/\">The bidirectional design system: When code talks back to design</a></p></li>\n</ul>\n</li>\n<li><p>Erika Flowers, <a href=\"https://open.zerovector.design/\">Open Vector</a></p></li>\n</ul>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-be3e-7c98-8823-28e5bfd5988a/019d89f6-c029-7f13-83c7-0988386048da.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-be3e-7c98-8823-28e5bfd5988a/019d89f6-c029-7f13-83c7-0988386048da.mp3",
+    "publishedAt": "2026-03-30T13:00:00.000Z",
+    "duration": "0:23:25",
+    "durationSeconds": 1405,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b1a2c873-c2ad-4df8-b61f-2c6adc8d4522/podcast_import_artwork_20260414-224-8n9er9.jpg?t=1776136148",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b1a2c873-c2ad-4df8-b61f-2c6adc8d4522/podcast_import_artwork_20260414-224-8n9er9.jpg?t=1776136148"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278177,
+    "guid": " Buzzsprout-18923656 ",
     "season": 2,
     "episode": null,
     "explicit": false,
@@ -812,6 +868,34 @@
     "type": "full"
   },
   {
+    "title": "What comes after the infinite canvas? with Robin Cannon",
+    "description": "<p>Y’all know I am fully bought in on design-with-code tools, so I loved this episode with Robin Cannon, VP of Product at Knapsack and former IBM Carbon and J.P. Morgan Salt design system exec, on why he thinks the infinite canvas is obsolete, and what we might replace it with. </p>    <p>Robin chats with us about a future where software design happens in the same medium as production code, making the “infinite canvas” abstraction obsolete. But what does “designing with code” really look like today… and in the future? We explore a world with tools that could enable us to build with design-system rules plus broader product context. Plus we discuss why today’s design-with-code tools aren’t quite there yet, the enterprise barriers to working in new ways, and you as a designer can make this shift.</p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/robincannon/\">Robin Cannon on LinkedIn</a></p></li>\n<li><p><a href=\"https://www.robin-cannon.com/\">robin-cannon.com</a></p></li>\n<li><p><a href=\"https://blog.murphytrueman.com/building-for-coherence-not-compliance/\">Building for coherence, not compliance, lessons from Baldurs Gate 3, by Murphy Trueman</a></p></li>\n<li><p>Erika Flowers, <a href=\"https://zerovector.design/\">Zero Vector</a> and <a href=\"https://zerovector.design/open/learn/approach\">Open Vector design approach</a></p></li>\n<li><p><a href=\"https://eflowers.substack.com/p/agentic-development-is-just-mmos\">Agentic Development is just MMOs for Coding, and I am LFG</a>, Erika Flowers</p></li>\n<li><p><a href=\"https://www.knapsack.cloud/\">Knapsack</a></p></li>\n<li><p><a href=\"https://www.dessn.ai/\">Dessn</a> and <a href=\"https://www.mockdown.design/\">Mockdown</a></p></li>\n</ul>    <p><b>💖 Season 2 of On Theme is officially here! 🎉 💖 If you like what you're hearing from On Theme, hit subscribe in your favorite podcast platform and sign up to get episode release notes at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>! On Theme is  sponsor free and listener supported, so please support the show with a monthly donation.</b></p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bfac-7f3e-bdef-183eb6a85fc9/019d89f6-c108-7cb0-b0e2-df3a182cd0d0.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bfac-7f3e-bdef-183eb6a85fc9/019d89f6-c108-7cb0-b0e2-df3a182cd0d0.mp3",
+    "publishedAt": "2026-03-16T13:00:00.000Z",
+    "duration": "0:55:03",
+    "durationSeconds": 3303,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c4de886e-5c95-4913-addd-7a41fe41f9dc/podcast_import_artwork_20260414-224-bncxxr.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c4de886e-5c95-4913-addd-7a41fe41f9dc/podcast_import_artwork_20260414-224-bncxxr.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278178,
+    "guid": " Buzzsprout-18850911 ",
+    "season": 2,
+    "episode": 3,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Pimpin’ My Type w/ Oliver Schöndorfer | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
@@ -918,6 +1002,34 @@
     "feedId": 7065988,
     "episodeId": 50999723342,
     "guid": "Buzzsprout-18771736",
+    "season": 2,
+    "episode": 2,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Five 2026 Predictions for Design Systems with Noelle Lansford",
+    "description": "<p>Noelle joins me again for some 2026 predictions trend encapsulations, and we try to unpack the absolute madness of the first two months of 2026. </p>    <p>1️⃣ <b> Designing with code is in, making pictures of UIs is out.</b> </p>    <p>2️⃣ <b>The new critical deliverables for systems teams are design guidelines, agent rules, tokens, and semantic APIs.</b> </p>    <p>3️⃣ <b>We're gonna see a real focus on brand expression, but also on one-offs.</b> </p>    <p>4️⃣ <b>Design system teams, you do organizational behavior change.</b> </p>    <p>5️⃣ <b>The next chapter of the design system narrative is around quality rather than efficiency. </b></p>    <p>Plus: the rise of the design engineer and a return to the early 2000s ways of working? I hope so!, nothingburger brands, and design systems gatekeeping.</p>    <p>Season 2 of On Theme is officially here! 🎉 💖 If you like what you're hearing from On Theme, please hit subscribe on your favorite podcast platform. On Theme is  sponsor free and listener supported, so please support the show with a monthly donation.</p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c628-7a64-bcb7-164566be305a/019d89f6-c716-7d01-976c-3f952e0a897c.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c628-7a64-bcb7-164566be305a/019d89f6-c716-7d01-976c-3f952e0a897c.mp3",
+    "publishedAt": "2026-03-02T14:00:00.000Z",
+    "duration": "0:54:45",
+    "durationSeconds": 3285,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/7ae8ac87-63ca-4f83-b43f-5b016789e773/podcast_import_artwork_20260414-204-rdlokw.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/7ae8ac87-63ca-4f83-b43f-5b016789e773/podcast_import_artwork_20260414-204-rdlokw.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278180,
+    "guid": " Buzzsprout-18771736 ",
     "season": 2,
     "episode": 2,
     "explicit": false,
@@ -1254,6 +1366,34 @@
     "feedId": 7065988,
     "episodeId": 49786622727,
     "guid": "Buzzsprout-18646998",
+    "season": 2,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "2025 Predictions Recap with Noelle Lansford",
+    "description": "<p>My <a href=\"https://www.buzzsprout.com/2417527/episodes/16373923\">very first minisode</a> of the entire podcast was some 2025 predictions, and a <i>lot</i> has changed. (Honestly, what was I thinking trying to make predictions in the era of AI? fml) <a href=\"https://www.linkedin.com/in/noellelansford/\">Noelle Lansford</a> joined me for Season Two's official first episode to  recap my 2025 predictions with me and look back on the trends and themes we saw in design-systems-land last year.</p>    <p>Stay tuned for part two where we dive in to our 2026 predictions!</p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c014-7ed5-8c92-279152bd4d07/019d89f6-c144-75d9-aeb2-97684c09f5ca.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c014-7ed5-8c92-279152bd4d07/019d89f6-c144-75d9-aeb2-97684c09f5ca.mp3",
+    "publishedAt": "2026-02-09T10:00:00.000Z",
+    "duration": "0:41:21",
+    "durationSeconds": 2481,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/bd6b6868-3da0-4b47-9ba8-d8c12bb57a25/podcast_import_artwork_20260414-215-jio006.jpg?t=1776136148",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/bd6b6868-3da0-4b47-9ba8-d8c12bb57a25/podcast_import_artwork_20260414-215-jio006.jpg?t=1776136148"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278182,
+    "guid": " Buzzsprout-18646998 ",
     "season": 2,
     "episode": 1,
     "explicit": false,
@@ -2436,6 +2576,34 @@
     "type": "bonus"
   },
   {
+    "title": "On Theme S1 Minisode 4: Converge conference 2025 Recap",
+    "description": "<p>I'm back from Zeroheight's Converge conference in Bristol, UK, with my recap and thoughts. In this minisode, find out my three major themes from the event: reducing complexity, shifting towards code to design, and the narratives \"framing our future\". </p>    <p><b>Resources & Links:</b></p>   <ul>\n<li><p><a href=\"https://converge.zeroheight.com/\">Zeroheight's Converge</a></p></li>\n<li><p><a href=\"https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/\">3 practical ways LLMs can support design systems teams today</a>, on the Zeroheight blog</p></li>\n<li><p><a href=\"https://www.elyseholladay.com/talks/promises\">From Promises to Practice: the Future of Design Systems, my talk at Converge </a>(video coming soon)</p></li>\n<li><p><a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7389780197740433408/\">John Voss's talk Framing the Future</a> (coming soon)</p></li>\n<li><p><a href=\"https://qz.com/tech-layoffs-tax-code-trump-section-174-microsoft-meta-1851783502\">US Section 174 R&D Tax explained</a></p></li>\n</ul>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c451-75e0-b6c0-4106165d499d/019d89f6-c648-78c5-a96f-443bcf370060.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c451-75e0-b6c0-4106165d499d/019d89f6-c648-78c5-a96f-443bcf370060.mp3",
+    "publishedAt": "2025-11-10T21:00:00.000Z",
+    "duration": "0:30:05",
+    "durationSeconds": 1805,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278183,
+    "guid": " Buzzsprout-18166706 ",
+    "season": 1,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
     "title": "Wireframe Live: Bias in Design",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
@@ -2682,6 +2850,34 @@
     "feedId": 7065988,
     "episodeId": 42817921876,
     "guid": "Buzzsprout-17864420",
+    "season": 1,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
+    "title": "On Theme S1 Minisode 3: This summer's AI vibe shift and conference news!",
+    "description": "<p>Surprise minisode! In this quick episode, hear a few ways AI tools are useful for design systems <i>now</i>, my new favorite design-eng handoff tool, and three can't-miss industry events this fall.</p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-be0a-7661-a71f-9c2830a4b6d1/019d89f6-bfcc-71ff-918a-37feb016ec1e.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-be0a-7661-a71f-9c2830a4b6d1/019d89f6-bfcc-71ff-918a-37feb016ec1e.mp3",
+    "publishedAt": "2025-09-21T20:00:00.000Z",
+    "duration": "0:19:31",
+    "durationSeconds": 1171,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278184,
+    "guid": " Buzzsprout-17864420 ",
     "season": 1,
     "episode": null,
     "explicit": false,
@@ -4228,6 +4424,34 @@
     "type": "full"
   },
   {
+    "title": "Creativity and design system leadership in the age of AI, with Natalya Shelburne — #17",
+    "description": "<p>Chat, this is the last episode of season one! Thank you for listening and supporting the show! There's no better way to wrap up, IMO, than an optimistic and curious exploration of what it means to be a creative human in an increasingly technological world.</p>    <p>So to wrap up season one, Natalya Shelburne joins me to explore how design leaders can cultivate creativity in an era of rapid technological and organizational change. Drawing from her degree and research in creativity, Natalya shares insights on fostering innovation, overcoming fear-driven management styles, and why embracing artistic thinking is essential for teams navigating the age of AI. She explains the importance of creating safe environments to unlock creative potential and why outdated corporate structures simply can't compete. Plus, flow state, goats, expansive thinking, and hobbies. </p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/natalyashelburne/\">Natalya Shelburne on LinkedIn</a></p></li>\n<li><p><a href=\"https://primer.style/\">GitHub Primer</a></p></li>\n<li><p><a href=\"https://beyondtellerrand.com/events/dusseldorf-2024/speakers/natalya-shelburne\">Natalya's talk at Beyond Tellerand, Channeling Chaos: Role of the Artist in the Age of AI</a></p></li>\n<li><p><a href=\"https://paste-docs.vercel.app/assistant\">Twilio's Paste design system assistant</a></p></li>\n<li>\n<p>Research and books mentioned:</p>\n<ul>\n<li><p>Lev Vygotsky on <a href=\"https://www.simplypsychology.org/vygotsky.html\">cognitive development</a></p></li>\n<li><p>Lauren Sosniak on phases of learning</p></li>\n<li><p>Dr. Mihaly Csikszentmihalyi's classic book <a href=\"https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202\">Flow</a> and an <a href=\"https://positivepsychology.com/what-is-flow/\">overview</a></p></li>\n<li><p><a href=\"https://www.oliverburkeman.com/books\">Oliver Burkeman's Four Thousand Weeks</a></p></li>\n<li><p><a href=\"https://www.amazon.com/Thinking-Outside-Brain-Annie-Murphy-ebook/dp/B07FKB3V5S?sr=8-1\">The Extended Mind</a></p></li>\n</ul>\n</li>\n</ul>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/f",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf93-77e2-9c00-367b14604979/019d89f6-c212-7189-830c-ceabae837471.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf93-77e2-9c00-367b14604979/019d89f6-c212-7189-830c-ceabae837471.mp3",
+    "publishedAt": "2025-05-12T16:00:00.000Z",
+    "duration": "0:58:34",
+    "durationSeconds": 3514,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2cc32098-573a-4683-9cbe-df4461b226d1/podcast_import_artwork_20260414-235-adt12k.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2cc32098-573a-4683-9cbe-df4461b226d1/podcast_import_artwork_20260414-235-adt12k.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278186,
+    "guid": " Buzzsprout-17097094 ",
+    "season": 1,
+    "episode": 17,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 78: Davy and PJ go to Figma's Config",
     "description": "<p>Because it was PJ's first Config, we decided to record a live, IRL episode, recap our first thoughts about the new product releases and a thread that we started about who Figma is designing for, dating back from last year's event.</p>",
     "podcastTitle": "Design System Office Hours",
@@ -4306,6 +4530,34 @@
     "feedId": 7065988,
     "episodeId": 36893754214,
     "guid": "Buzzsprout-17049273",
+    "season": 1,
+    "episode": 16,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "But “design systems as infrastructure“ is boring, with Sam Anderson — #16",
+    "description": "<p>Y’all, I’ll be honest. Some days, I’m scared and nervous and uncomfortable with AI’s emergence, and implications, too. But I am also curiously optimistic, and more importantly — I don’t want to use any platform I have to spread even more fear and discontent and drama. So today you’re getting a dose of two things that I love: infrastructure and optimism.</p>    <p>Drawing from his experience leading design systems at three very large orgs, Sam Anderson from Intuit shares how framing design systems as infrastructure can help them be recognized as essential to business success. He shares his vision for the importance of patterns as the next frontier of systems work, particularly in a rapidly changing tech landscape accelerated by AI, and we talk about what leadership conversations look like. Plus, Sam drops a spicy take that he believes AI won’t destroy design system jobs but make us even more valuable.</p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/sam-design?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app\">Sam Anderson on LinkedIn</a></p></li>\n<li><p>Sam's article <a href=\"https://www.linkedin.com/pulse/design-systems-infrastructure-evolution-age-ai-sam-anderson-w29bc/\">Design Systems are Infrastructure: The evolution of design systems in the age of AI</a></p></li>\n<li><p>Nate Baldwin's <a href=\"https://medium.com/@NateBaldwin/leonardo-an-open-source-contrast-based-color-generator-92d61b6521d2\">Leonardo</a> and <a href=\"https://medium.com/design-bootcamp/proportional-design-systems-with-proportio-app-2dd1d27f7206\">Proportio</a></p></li>\n</ul>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf81-7091-840c-af79507370a2/019d89f6-c217-7321-b9f2-86d26ba6feff.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf81-7091-840c-af79507370a2/019d89f6-c217-7321-b9f2-86d26ba6feff.mp3",
+    "publishedAt": "2025-05-05T16:00:00.000Z",
+    "duration": "0:47:38",
+    "durationSeconds": 2858,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/4420cc2b-b6cb-41c2-80a9-496fe4b04552/podcast_import_artwork_20260414-235-s3e8le.jpg?t=1776136149",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/4420cc2b-b6cb-41c2-80a9-496fe4b04552/podcast_import_artwork_20260414-235-s3e8le.jpg?t=1776136149"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278188,
+    "guid": " Buzzsprout-17049273 ",
     "season": 1,
     "episode": 16,
     "explicit": false,
@@ -4396,6 +4648,34 @@
     "type": "full"
   },
   {
+    "title": "Naming is hard, but have you tried working with people? with Guy Segal — #15",
+    "description": "<p>Guy Segal joins Elyse to unpack the messy, complicated world of… people. Guy shares practical strategies from his experience at Thomson Reuters, including the powerful \"pre-mortem\" exercise he used to rebuild trust and alignment for the design system. They get vulnerable and unpack why (as cliche as it sounds!) genuine listening, storytelling, learning to give and receive feedback, and actively engaging with product teams, is so much more impactful than relying solely on processes or artifacts. Plus, Guy shares why he hated it at first when product teams started using the name of the design system.</p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/guysegal/\">Guy Segal on LinkedIn</a></p></li>\n<li><p>Guy's talk at BeMore Festival on feedback, <a href=\"https://www.youtube.com/watch?v=46geT3t6Tqc\">Working with Humans: Resolving Conflicts with Empathy</a></p></li>\n<li><p>Guy's talk <a href=\"https://www.youtube.com/watch?v=NqW4nQQtSGw\">Mastering the Painless Design Critique</a></p></li>\n<li><p><a href=\"https://www.knapsack.cloud/blog/designed-for-success-how-guy-segal-built-a-design-system-that-product-teams-want-to-use\">Guy on the Knapsack Design Systems Podcast</a></p></li>\n<li><p>Guy's podcast, <a href=\"https://rss.com/podcasts/designdowntime/\">Design Downtime</a>, celebrating the joys of living a balanced creative life outside the pixels and wireframes</p></li>\n<li><p>Brad Frost's article Choosing a Name for your Design System</p></li>\n</ul>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c52c-7a06-b682-96ef5d6bfa27/019d89f6-c74c-7131-9644-cbcbee6cf9c6.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c52c-7a06-b682-96ef5d6bfa27/019d89f6-c74c-7131-9644-cbcbee6cf9c6.mp3",
+    "publishedAt": "2025-04-28T16:00:00.000Z",
+    "duration": "1:05:32",
+    "durationSeconds": 3932,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e1c78980-1609-4b08-9bd2-46a783f54da8/podcast_import_artwork_20260414-184-p69v8x.jpg?t=1776136151",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e1c78980-1609-4b08-9bd2-46a783f54da8/podcast_import_artwork_20260414-184-p69v8x.jpg?t=1776136151"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278189,
+    "guid": " Buzzsprout-17048873 ",
+    "season": 1,
+    "episode": 15,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 77: Component Flexibility",
     "description": "<p>We're back with an episode an episode about component and design system flexibility. How opinionated should your design system be, vs a large set of reusable pieces that can be put in any which way together. Davy and PJ weigh in on both methods and where you may want to dive into a framework that allows you to build starting from anywhere.</p>",
     "podcastTitle": "Design System Office Hours",
@@ -4480,6 +4760,34 @@
     "type": "full"
   },
   {
+    "title": "The Four Quadrants of Design System Impact, with Ben Callahan — #14",
+    "description": "<p>Ben Callahan joins Elyse for a fun conversation on creating impact with design systems. Ben shares insights from his consulting experience, discussing common pitfalls like organizations expecting a design system without adequately supporting their teams. They break down the \"Four Quadrants of Design System Impact\" framework, which breaks down tactical versus strategic work, helping teams avoid pitfalls like endless component creation. Plus, hear Ben’s predictions for the future of design systems</p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/bencallahan/\">Ben Callahan on LinkedIn</a></p></li>\n<li><p><a href=\"https://bencallahan.com/the-question\">The Question</a></p></li>\n<li><p><a href=\"https://bencallahan.com/redwoods\">Redwoods</a>, Ben's community supporting design system practitioners</p></li>\n<li><p>Ben's post on <a href=\"https://bencallahan.com/design-system-holistic-impact-2\">The Four Quadrants and Why you’re NOT seeing Holistic Impact from your Design System</a></p></li>\n<li><p><a href=\"https://bencallahan.com/design-system-what-to-work-on-2\">Ben's overview of our episode of The Question</a></p></li>\n<li><p><a href=\"https://www.youtube.com/watch?v=BQXTt-NZ2Bs\">Cam Worboy's Broken Promises of Design Systems talk at Config 2024</a> (and the worst screen made with DS components)</p></li>\n<li><p><a href=\"https://www.kotterinc.com/methodology/8-steps/\">Kotter's Leading Change book</a></p></li>\n</ul>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c02d-7968-b26f-0d10777b57d1/019d89f6-c2ed-71af-b818-e51a7154410b.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c02d-7968-b26f-0d10777b57d1/019d89f6-c2ed-71af-b818-e51a7154410b.mp3",
+    "publishedAt": "2025-04-21T16:00:00.000Z",
+    "duration": "1:13:10",
+    "durationSeconds": 4390,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/48261610-304b-4220-9a8a-112b29852f89/podcast_import_artwork_20260414-185-s823sb.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/48261610-304b-4220-9a8a-112b29852f89/podcast_import_artwork_20260414-185-s823sb.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278191,
+    "guid": " Buzzsprout-17006361 ",
+    "season": 1,
+    "episode": 14,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "131. DSP Rewind | Rick Rodriguez on Building an Adaptable and Scalable Design system",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>This week, we're digging into the Design Systems Podcast archives. Guest host Richard Banfield, VP of Design Leadership at Knapsack, revisits a 2020 conversation between host Chris Strahl and Rick Rodriguez, then Head of Design Systems at Walmart Labs.</p><p>Rick shares how his team developed Living Design, Walmart’s internal design system, to support both customer-facing and associate-facing digital products. The conversation explores what it takes to design for scale across a massive enterprise ecosystem, how to navigate legacy technologies while planning for the future, and how to engage people across your organization to drive alignment and adoption.</p><p>You’ll also hear about:</p><ul><li>Lessons in contribution, ownership, and iteration within a federated design organization</li><li>The ambassador program that helped evangelize and align teams across the enterprise</li><li>Insights into how data and qualitative feedback drive system decisions — especially around complex components like carousels</li></ul><p>Although this conversation originally aired five years ago, the lessons Rick shares remain strikingly relevant. As design systems continue to mature, this episode offers a timeless perspective on scaling thoughtfully, building collaboratively, and evolving with intention.</p><p>View the <a href='https://docs.google.com/document/d/1sEFQpA6sJnNUso2YnfMHa1AzC2rquofauXV7wIlQMyc/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p>Rick Rodriguez is currently a Product Design Manager at Meta, but at the time of our original episode he wast the Head of Design Systems at Walmart Labs.  He is an avid runner, hand letterer, and superfan of cappuccinos and donut breaks. You can find Rick on Twitter as <a href='https://twitter.com/rickrodriguez'>@rickrodriguez</a>, and on <a href='https://www.linkedin.com/in/rickrodriguez24/'>LinkedIn</a>.</p><p><b>Hosts</b></p><p><a href='https://www.linkedin.com/in/richardbanfield/'>Richard Benfield </a>is the VP of Design Leadership at Knapsack. He's acted as an <b>advisor and interim executive</b> to category-leading organizations, ia a best selling author, been a founder/CEO, and built and sold several businesses over the last 20+ years.</p><p>Chris Strahl is co-founder and CEO of <a href='https://www.knapsack.cloud/'>Knapsack</a>, host of <a href='https://twitter.com/thedspod'>@TheDSPod</a>, DnD DM, and occasional river guide. You can find Chris on Twitter as <a href='https://twitter.com/chrisstrahl'>@chrisstrahl</a> and on <a href='https://www.",
     "podcastTitle": "Design Systems Podcast",
@@ -4558,6 +4866,34 @@
     "feedId": 7065988,
     "episodeId": 36078350329,
     "guid": "Buzzsprout-16972048",
+    "season": 1,
+    "episode": 13,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Shipping new ways of working to a classic organization with the One UPS system, with Marcela Rodriguez Joos — #13",
+    "description": "<p>Marcela Rodriguez Joos shares the story behind the One UPS project, a massive effort to modernize and unify UPS’ brand and digital experiences through a new design system. Marcela reveals how a “why does everything look different?” moment from their CEO was the catalyst for this ambitious effort, how they’re collaborating across a massive org, and successfully reducing development timelines from years down to months. Plus, Marcela’s team dishes out their design system spice takes!</p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/roisy/\">Marcela Rodriguez Joos on LinkedIn</a></p></li>\n<li><p>Marcela on the Into Design Systems <a href=\"https://www.youtube.com/watch?v=oqr_u1FeoNA&t=840s\">Connect your Design System to business value Roundtable</a></p></li>\n</ul>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c610-790c-b615-72637a306932/019d89f6-c73e-7464-bd89-92104abbc98d.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c610-790c-b615-72637a306932/019d89f6-c73e-7464-bd89-92104abbc98d.mp3",
+    "publishedAt": "2025-04-14T16:00:00.000Z",
+    "duration": "0:54:05",
+    "durationSeconds": 3245,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/07daf851-b4a7-46b7-8e3b-376230952b2c/podcast_import_artwork_20260414-214-ht97ay.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/07daf851-b4a7-46b7-8e3b-376230952b2c/podcast_import_artwork_20260414-214-ht97ay.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278192,
+    "guid": " Buzzsprout-16972048 ",
     "season": 1,
     "episode": 13,
     "explicit": false,
@@ -4704,6 +5040,34 @@
     "type": "full"
   },
   {
+    "title": "The flaws of the  “accessibility is built in to the design system” argument, with Daniel Henderson-Ede — #12",
+    "description": "<p>Ever had a team come to you after an a11y audit like, \"but I used the design system, why does my product have accessibility defects??\" Daniel Henderson-Ede, one of design systems' leading accessibility voices, joins me on the show today to unpack a spicy myth in design systems: that accessibility can be fully \"built-in.\" Daniel walks us through the common pitfalls of overselling accessibility, how teams often mistakenly assume the system handles everything, and we explore the challenges and missteps of managing accessibility.</p>    <p>📋 Plus, check out <a href=\"https://mantisandco.com/resources/tools/systems-accessibility-ownership-matrix\">Daniel's Systems-Accessibility Ownership Matrix</a> resource that you can use on your Design System team!</p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/danhendersonede/\">Daniel Henderson-Ede on LinkedIn</a></p></li>\n<li><p><a href=\"https://daniel.hendersonede.com/\">Daniel's website</a></p></li>\n<li><p><a href=\"https://daniel.hendersonede.com/talks/\">Daniel's recorded talks and shows</a></p></li>\n<li><p><a href=\"https://mantisandco.com/expertise#product-accessibility-design-support\">Mantis & Co accessibility services</a></p></li>\n<li><p>Download Daniel and CVS's Figma <a href=\"https://www.figma.com/community/file/1311421011482282592\">Web Accessibility Annotation Kit</a></p></li>\n<li><p><a href=\"https://www.figma.com/community/plugin/732603254453395948/stark-contrast-accessibility-checker\">Stark Figma plugin</a></p></li>\n<li><p>Use this for your teams! <a href=\"https://mantisandco.com/resources/tools/systems-accessibility-ownership-matrix\">Daniel's Systems-Accessibility Ownership Matrix</a></p></li>\n<li><p><a href=\"https://mantisandco.com/resources/articles/inconsistent-consistency-within-design-systems\">Inconsistent consistency within design systems</a></p></li>\n</ul>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c5bd-7a85-921b-69d8d08f1e77/019d89f6-c787-72b4-874e-6e90c9812c10.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c5bd-7a85-921b-69d8d08f1e77/019d89f6-c787-72b4-874e-6e90c9812c10.mp3",
+    "publishedAt": "2025-04-07T16:00:00.000Z",
+    "duration": "0:38:40",
+    "durationSeconds": 2320,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/46147617-1140-4066-8330-56b716a291e0/podcast_import_artwork_20260414-192-ro6nn9.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/46147617-1140-4066-8330-56b716a291e0/podcast_import_artwork_20260414-192-ro6nn9.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278194,
+    "guid": " Buzzsprout-16922645 ",
+    "season": 1,
+    "episode": 12,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "130. Jon Warden on How GSK Uses Design Systems to Balance Scale, Flexibility, and Innovation",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In this episode of the Design Systems Podcast, guest host Andrew Rohman sits down with Jon Warden to explore how GSK leverages design systems to drive consistency, innovation, and efficiency across a highly complex global organization. With multiple brands, multi-product ecosystems, and diverse regional needs, GSK must balance scale and flexibility while embracing automation, AI, and modern workflows—all while keeping the customer experience at the center of their digital strategy.</p><p>Key Topics Covered:</p><ul><li>How GSK creates design consistency across multiple brands, products, and global regions</li><li>The role of design systems in managing complexity at scale</li><li>AI and automation in streamlining workflows and driving efficiency</li><li>How GSK balances innovation with regulatory and operational constraints</li><li>The impact of scalable workflows on accelerating digital transformation</li><li>Building digital experiences that meet customer needs while maintaining global consistency</li></ul><p>Tune in for a deep dive into how one of the world’s leading pharmaceutical companies is leveraging design systems to power its digital strategy, drive innovation, and create seamless customer experiences at scale.</p><p>View the <a href='https://docs.google.com/document/d/1Ld3f_VaypWnlnO9lQ2nlk02TskRggmHb0clV2IGQ8R4/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Guest</b></p><p>Jon Warden is a user experience, design, and product strategist with over 25 years of experience. In the past decade, he has created, led, and managed UX, design, and product teams across various sectors, including news (The Times, London), B2B, B2C, media agencies, telecoms, and charity. Jon focuses on providing clear UX direction throughout the development lifecycle. He and his teams emphasize outcome-based user research, data, and user testing programs. Through UX design practices, they support the creation of user-centric products that engage customers across all channels. Currently, Jon is the Global Director of UX, Design & Research in the Commercial Digital & AI division at GSK.</p><p><b>Sponsor<br/></b>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
     "podcastTitle": "Design Systems Podcast",
@@ -4782,6 +5146,34 @@
     "feedId": 7065988,
     "episodeId": 35521744423,
     "guid": "Buzzsprout-16886779",
+    "season": 1,
+    "episode": 11,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Help, I'm starting a new design system job! with Amy Ogg — #11",
+    "description": "<p>This one’s a little bit different than some of the projects and topics that we've had on the podcast so far — we’re talking about starting a new role. I think it's one of the hardest things that we do sometimes as design system practitioners, because the design system is really about changing your organization, changing the way we build UI, and so there's a lot of weight on your shoulders when you come into a new role.</p>    <p>Starting a new job as a design system practitioner can feel exciting and terrifying all at once—but Amy Ogg has some insights to help us navigate the emotional rollercoaster. Amy and Elyse chat about how to spend your first 30-60-90 days, building genuine trust, and why making big changes as a new hire can actually backfire. They commiserate over balancing the overwhelming backlog as a small team, and Amy shares why she thinks cross-training outside your expertise is a must. Plus, Amy shares how her experience as a barista shaped her approach to UX design ☕️</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b></p>    <p><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/amyogg\">Amy Ogg on LinkedIn</a></p></li>\n<li><p><a href=\"https://medium.com/design-bootcamp/what-desire-paths-teach-us-about-ux-design-3aa6eeb56dff\">Desire paths in UX</a></p></li>\n<li><p>Amy’s article on <a href=\"https://blog.designsystemsforfigma.com/empathy-first-how-understanding-users-shapes-effective-design-systems-15c227ce3735\">how starting out with research and understanding users can help shape effective design systems on the Design Systems for Figma blog</a></p></li>\n<li><p><a href=\"https://uxplaybook.org/articles/a-guide-to-your-first-90-days-in-a-new-ux-role?srsltid=AfmBOor3o_ct8wCjim1G7FMzliZftApTQVXc7d2cTrcIwOTezr2n4aoY\">Your first 90 days in a UX design role by Christopher Nguyen</a></p></li>\n<li><p><a href=\"https://www.amazon.com/First-90-Days-Strategies-Expanded/dp/1422188612\">The First 90 Days (original book) by Michael D Watkins</a></p></li>\n<li><p><a href=\"https://www.linkedin.com/company/into-design-systems-seattle-usa/\">Into Design Systems Meetups - Seattle, USA chapter</a></p></li>\n<li><p>Will Larson's book <a href=\"https://staffeng.com/guides/\">Staff Eng</a></p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and he",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c028-7a7f-bb69-62408ef2594f/019d89f6-c2ed-7fc6-bd2a-51c0c06ff0b1.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c028-7a7f-bb69-62408ef2594f/019d89f6-c2ed-7fc6-bd2a-51c0c06ff0b1.mp3",
+    "publishedAt": "2025-03-31T16:00:00.000Z",
+    "duration": "0:59:15",
+    "durationSeconds": 3555,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/5a24560c-a57e-4748-ab46-130f5c6dc348/podcast_import_artwork_20260414-185-nxmwun.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/5a24560c-a57e-4748-ab46-130f5c6dc348/podcast_import_artwork_20260414-185-nxmwun.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278195,
+    "guid": " Buzzsprout-16886779 ",
     "season": 1,
     "episode": 11,
     "explicit": false,
@@ -4872,6 +5264,34 @@
     "type": "full"
   },
   {
+    "title": "Hand off the API: a design & build workflow for components, with Jeff Pelletier — #10",
+    "description": "<p>Design systems aren’t just about components—they’re about how teams work together to build better UI. Jeff Pelletier, a frontend engineer with a design background, joins the show to talk about feature workflows for design systems, how design and engineering can work in parallel, and why documentation should be part of the process, not an afterthought. Jeff and Elyse dive into how to create API-first component specs, the challenge of design-code parity, and the ~drama~ of having a formal process.</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/withinsight/\">Jeff Pelletier on LinkedIn</a> and <a href=\"https://jeffpelletier.me/\">website</a></p></li>\n<li><p>Nathan Curtis, <a href=\"https://medium.com/eightshapes-llc/system-features-step-by-step-e69c90982630\">Design System Features Step by Step</a></p></li>\n<li><p>Jeff's article <a href=\"https://hackernoon.com/front-end-roles-and-responsibilities-6ee8654f1649\">Front-end Roles and Responsibilities</a></p></li>\n<li><p>Jeff on <a href=\"https://medium.com/@withinsight1/design-system-tiers-b9f0d2c0cca4\">Design System Tiers</a></p></li>\n<li><p>Chris Coyier, <a href=\"https://css-tricks.com/the-widening-responsibility-for-front-end-developers/\">The Widening Responsibility for Front-End Developers</a></p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c6d3-737e-8576-24cedc0fc693/019d89f6-c7f1-7de4-b00d-1dcda2449d35.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c6d3-737e-8576-24cedc0fc693/019d89f6-c7f1-7de4-b00d-1dcda2449d35.mp3",
+    "publishedAt": "2025-03-24T16:00:00.000Z",
+    "duration": "0:50:37",
+    "durationSeconds": 3037,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/776320fa-b03e-4f04-8318-79de2340e907/podcast_import_artwork_20260414-184-n3g740.jpg?t=1776136151",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/776320fa-b03e-4f04-8318-79de2340e907/podcast_import_artwork_20260414-184-n3g740.jpg?t=1776136151"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278197,
+    "guid": " Buzzsprout-16841208 ",
+    "season": 1,
+    "episode": 10,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "129. DSP Mashup | The Future of AI and Digital Production",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/887923/open_sms\">Send us feedback or episode suggestions.</a></p><p>In this episode of The Design Systems Podcast, guest host Richard Banfield takes us on a journey through the intersection of artificial intelligence and design systems. We revisit some of the most compelling discussions featuring experts David Calleja, Nick Hahn, Ranjeet Tayi, and Kate Moran. Together, they unravel how AI is transforming the way digital products are designed and developed. From AI's potential as a creative partner to its role in automating repetitive tasks, this episode dives into the profound impact AI is having on design workflows. We explore how AI can serve as a copilot, adapting in real time to deliver personalized user experiences, and discuss the importance of maintaining human oversight to ensure quality and integrity. Whether it's hyper-personalizing user interfaces or enhancing the efficiency of design processes, AI is not set to replace humans but to augment our creativity and productivity. Join us as we explore the exciting possibilities AI brings to the world of design systems.</p><p>Check out the original episodes:</p><ul><li><a href='https://www.buzzsprout.com/887923/episodes/15238316-111-how-ai-is-revolutionizing-design-systems-and-customer-experiences-with-dave-calleja.mp3?download=true'>How AI is Revolutionizing Design Systems and Customer Experiences with Dave Calleja</a></li><li><a href='https://www.buzzsprout.com/887923/episodes/15382348-114-design-systems-and-ways-of-working-nick-hahn-on-collaboration-adoption-and-ai.mp3?download=true'>Design Systems and Ways of Working: Nick Hahn on Collaboration, Adoption, and AI</a></li><li><a href='https://www.buzzsprout.com/887923/episodes/14712486-105-ranjeet-tayi-from-informatica-ai-driven-design.mp3?download=true'>Ranjeet Tayi from Informatica: AI-Driven Design</a></li><li><a href='https://www.buzzsprout.com/887923/episodes/15664684-117-why-kate-moran-thinks-humans-are-essential-to-the-future-of-generative-ui-and-ai.mp3?download=true'>Why Kate Moran Thinks Humans Are Essential to the Future of Generative UI and AI</a></li></ul><p>View the <a href='https://docs.google.com/document/d/1ox6wsmvQKdTyED34R_U55RNOEaxixrdlfDktyYxtKdg/edit?usp=sharing'>transcript</a> of this episode.</p><p>Check out our <a href='https://www.knapsack.cloud/events'>upcoming events</a>.</p><p>If you want to get in touch with the show, ask some questions, or tell us what you think, <a href='https://www.linkedin.com/showcase/design-systems-podcast/?viewAsMember=true'>send us a message over on LinkedIn</a>.</p><p><b>Sponsor<br/></b>Sponsored by Knapsack, the design system platform that brings teams together. Learn more at <a href='https://www.knapsack.cloud/?utm_source=podcast'>knapsack.cloud</a>.</p>",
     "podcastTitle": "Design Systems Podcast",
@@ -4950,6 +5370,34 @@
     "feedId": 7065988,
     "episodeId": 34965884209,
     "guid": "Buzzsprout-16794149",
+    "season": 1,
+    "episode": 9,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Bye Purple! A redesign powered by local & global design system layers at Spotify, with Smith Schwartz & Tyce Clee — #09",
+    "description": "<p>Spotify’s ad platform just got a serious glow-up, and Smith and Tyce are here to tell us how they pulled it off. Smith Schwartz, Product Design Manager, and Tyce Clee, Engineering Manager, walk us through the redesign of Spotify Ads Manager—why it was needed, how they used design systems to make it happen, and what it took to get buy-in. Smith and Tyce tell us about the shift from a playful UI to a more data-dense, enterprise-friendly experience, how their local design system worked alongside Spotify’s global Encore system, and why storytelling (not just metrics) is key to selling design system work internally. Plus, how a simple name like \"Bye Purple\" helped them drive alignment and make the redesign a company-wide priority.</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/smithschwartz/\">Smith Schwartz on LinkedIn</a></p></li>\n<li><p><a href=\"https://www.linkedin.com/in/iamtyce/\">Tyce Clee on LinkedIn</a></p></li>\n<li><p>Backstory time! <a href=\"https://open.spotify.com/episode/3NkdXAdx5ZUXL0vAqImtey\">Smith & Tyce on the Knapsack Design Systems podcast</a> last year talking about Ads Manager pre-redesign</p></li>\n<li><p><a href=\"https://spotify.design/article/reimagining-design-systems-at-spotify\">Reimagining Design Systems at Spotify on spotify.design</a></p></li>\n<li><p><a href=\"https://www.figma.com/blog/creating-coherence-how-spotifys-design-system-goes-beyond-platforms/\">Creating coherence: How Spotify’s design system goes beyond platforms</a>, on the Figma Shortcut blog</p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c535-7aa4-9e07-2638b45d993a/019d89f6-c61b-7bb2-852d-51153a5f2e6b.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c535-7aa4-9e07-2638b45d993a/019d89f6-c61b-7bb2-852d-51153a5f2e6b.mp3",
+    "publishedAt": "2025-03-17T15:00:00.000Z",
+    "duration": "0:56:13",
+    "durationSeconds": 3373,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/6c076d9f-2e3a-494b-829b-dfe2161f1591/podcast_import_artwork_20260414-205-zw702r.jpg?t=1776136149",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/6c076d9f-2e3a-494b-829b-dfe2161f1591/podcast_import_artwork_20260414-205-zw702r.jpg?t=1776136149"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278198,
+    "guid": " Buzzsprout-16794149 ",
     "season": 1,
     "episode": 9,
     "explicit": false,
@@ -5040,6 +5488,34 @@
     "type": "full"
   },
   {
+    "title": "What happens when your system can’t support your flagship product?, with Adriana Morales — #08",
+    "description": "<p>Adriana Morales from HEB (aka the best grocery store) poses a tricky question for the show: what happens when your design system can't support all your products, or your flagship product? Hashtag enterprise organization problems. Adriana and I explore some of the scenarios where this might occur, the \"system of systems\" concept, product team autonomy, and pace layers. Don't miss Adriana's explanation of her \"ways of working\" workshops and thoughts on creating empathy across your org.</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/adrianaamorales/\">Adriana Morales on LinkedIn</a></p></li>\n<li><p><a href=\"https://careers.heb.com/about-h-e-b/\">HEB</a></p></li>\n<li><p><a href=\"https://bigmedium.com/ideas/design-system-pace-layers-slow-fast.html\">Pace layers</a> (might as well just link this from every episode??)</p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c5a1-72d0-8ef7-097ab9b37551/019d89f6-c73b-7cd8-9b37-ed6850db9b35.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c5a1-72d0-8ef7-097ab9b37551/019d89f6-c73b-7cd8-9b37-ed6850db9b35.mp3",
+    "publishedAt": "2025-03-10T15:00:00.000Z",
+    "duration": "0:57:12",
+    "durationSeconds": 3432,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/3823f499-0d3d-4d0f-a10c-65fd5f880272/podcast_import_artwork_20260414-224-qlla7y.jpg?t=1776136151",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/3823f499-0d3d-4d0f-a10c-65fd5f880272/podcast_import_artwork_20260414-224-qlla7y.jpg?t=1776136151"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278199,
+    "guid": " Buzzsprout-16626654 ",
+    "season": 1,
+    "episode": 8,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 74: Maintaining Large Component Libraries",
     "description": "<p>Davy and PJ talk about design and code parity, how we keep our artifacts aligned with live product, and other nuances to maintaining large scale component libraries.</p>",
     "podcastTitle": "Design System Office Hours",
@@ -5096,6 +5572,34 @@
     "type": "full"
   },
   {
+    "title": "I’m a design system consumer now: lessons from the other side, with Beau Ulrey — #07",
+    "description": "<p>I invited Beau to the podcast because of his great Medium articles on design systems... but he's not working on a system team right now! Beau shares his experiences on both sides of the—fence? aisle?—and the lessons he's taken away. We chat about the tradeoffs of building for speed vs stability, bringing new designs for AI products into the system, onboarding, cross-team empathy, and why we're always complaining about the other side. Plus, find out what Beau wanted to be when he grew up.</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/beauulrey/\">Beau Ulrey on LinkedIn</a></p></li>\n<li><p><a href=\"https://www.knapsack.cloud/blog/beau-ulrey-on-building-trust-through-design-systems\">Beau on the Knapsack Design System Podcast</a></p></li>\n<li><p><a href=\"https://beauulrey.medium.com/\">Beau's articles on Medium</a></p></li>\n<li><p><a href=\"https://www.designsystemsforfigma.com/blog/a-design-system-that-holds-your-hand\">A Design System That Holds Your Hand</a></p></li>\n<li><p><a href=\"https://www.linkedin.com/posts/beauulrey_designsystems-components-documentation-activity-7087565603753897985-08Zs/\">US Bank Shield Design System</a></p></li>\n<li><p><a href=\"https://redwood.oracle.com/\">Oracle Redwood Design System</a></p></li>\n<li><p><a href=\"https://bigmedium.com/ideas/design-system-pace-layers-slow-fast.html\">Ship Faster by Building Design Systems Slower - Big Medium</a> (pace layers)</p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-be93-7897-8da5-6d25893f26ac/019d89f6-c028-7e60-a680-f82b4eb93bca.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-be93-7897-8da5-6d25893f26ac/019d89f6-c028-7e60-a680-f82b4eb93bca.mp3",
+    "publishedAt": "2025-03-03T16:00:00.000Z",
+    "duration": "0:43:58",
+    "durationSeconds": 2638,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/a24217cb-41cd-4ad9-a609-81964c2a766c/podcast_import_artwork_20260414-205-u3xie2.jpg?t=1776136148",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/a24217cb-41cd-4ad9-a609-81964c2a766c/podcast_import_artwork_20260414-205-u3xie2.jpg?t=1776136148"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278201,
+    "guid": " Buzzsprout-16626529 ",
+    "season": 1,
+    "episode": 7,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Building a multi-brand joint venture design system for BetMGM, with ToniAnn Drenckhahn — #06",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/twilio/text_messages/2417527/open_sms\">📲 Text the show your thoughts!</a></p><p>ToniAnn joins the show to share her experience building a multi-brand design system for BetMGM and Entain's joint venture. This episode is our first project deep dive and it's full of legacy codebases, lessons learned, and big wins. ToniAnn talks to us about dealing with ambiguity, owning your decisions, and keeping leadership on board as you ship a system that changes the way your business works—and your partners businesses, too.</p><p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href='http://designsystemsontheme.com/'><b>designsystemsontheme.com</b></a><b>!<br/></b><br/><b>Links & References</b></p><ul><li><a href='https://www.linkedin.com/in/tonianndrenckhahn/'>ToniAnn Drenckhahn on LinkedIn</a></li><li><a href='https://www.betmgminc.com/'>BetMGM</a></li></ul><p><br/>🎨🎟️ <b>Into Design Systems is May 25-28<br/>Get your ticket at </b><a href='http://intodesignsystems.com/ontheme'><b>intodesignsystems.com/ontheme</b></a><b><br/><br/></b>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p><p><br/></p>",
     "podcastTitle": "On Theme: Design Systems in Depth",
@@ -5118,6 +5622,34 @@
     "feedId": 7065988,
     "episodeId": 34161654282,
     "guid": "Buzzsprout-16584801",
+    "season": 1,
+    "episode": 6,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Building a multi-brand joint venture design system for BetMGM, with ToniAnn Drenckhahn — #06",
+    "description": "<p>ToniAnn joins the show to share her experience building a multi-brand design system for BetMGM and Entain's joint venture. This episode is our first project deep dive and it's full of legacy codebases, lessons learned, and big wins. ToniAnn talks to us about dealing with ambiguity, owning your decisions, and keeping leadership on board as you ship a system that changes the way your business works—and your partners businesses, too.</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/tonianndrenckhahn/\">ToniAnn Drenckhahn on LinkedIn</a></p></li>\n<li><p><a href=\"https://www.betmgminc.com/\">BetMGM</a></p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c01e-7f4b-af49-e55a657a59b6/019d89f6-c0e7-7edf-a3bc-c6d17854ba48.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c01e-7f4b-af49-e55a657a59b6/019d89f6-c0e7-7edf-a3bc-c6d17854ba48.mp3",
+    "publishedAt": "2025-02-24T16:00:00.000Z",
+    "duration": "1:02:39",
+    "durationSeconds": 3759,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9d4a7c4d-79db-4bd8-b050-b71dcd55ea43/podcast_import_artwork_20260414-243-ursapd.jpg?t=1776136149",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9d4a7c4d-79db-4bd8-b050-b71dcd55ea43/podcast_import_artwork_20260414-243-ursapd.jpg?t=1776136149"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278202,
+    "guid": " Buzzsprout-16584801 ",
     "season": 1,
     "episode": 6,
     "explicit": false,
@@ -5180,6 +5712,34 @@
     "type": "full"
   },
   {
+    "title": "Stop waiting for permission! and other ways to show design systems value, with Brian Alfaro — #05",
+    "description": "<p>If the way we're building design systems has a fatal flaw, it's \"waiting for enough investment to get it right.\" <b>In this episode, Brian teaches us to not wait for permission and how your product teams' success is your success. </b>Brian reminds us how important it is to remember that we're all on the same team, building the same product—and why internal politics and storytelling matters way more than components. Plus, why design systems are like toilets (not a Dad joke, I promise) and why Brian and I think \"measuring the system is hard\" is a beautiful thing.💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/brian-alfaro-99505895/\">Brian Alfaro on LinkedIn</a></p></li>\n<li><p><a href=\"https://build.washingtonpost.com/\">The Washington Post Design System</a></p></li>\n<li><p>Brian on bringing value first on the <a href=\"https://youtu.be/oqr_u1FeoNA?t=812\">Connecting your Design System to business value</a> panel with Into Design Systems</p></li>\n<li><p>Brian on <a href=\"https://www.figma.com/blog/the-anatomy-of-a-component-sprint/\">the anatomy of WaPo's component sprints</a> on the Figma blog</p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c601-764b-8b40-1efbce5fc8bc/019d89f6-c78b-75d1-aa1b-7accc88b4714.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c601-764b-8b40-1efbce5fc8bc/019d89f6-c78b-75d1-aa1b-7accc88b4714.mp3",
+    "publishedAt": "2025-02-17T16:00:00.000Z",
+    "duration": "0:42:58",
+    "durationSeconds": 2578,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/f86a9d2c-c2a9-43f2-8cdd-5c68f70e87a9/podcast_import_artwork_20260414-192-ozk153.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/f86a9d2c-c2a9-43f2-8cdd-5c68f70e87a9/podcast_import_artwork_20260414-192-ozk153.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278204,
+    "guid": " Buzzsprout-16572921 ",
+    "season": 1,
+    "episode": 5,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "How much is too much documentation?",
     "description": "<p>Sometimes we may feel the urge to include everything in our documentation, to the point where it rivals Lord of the Rings for length and density. However, we may be doing ourselves a disservice! How much is too much documentation? How much is not enough documentation? Do we even need documentation at all? join us for the last Design Systems WTF of the year!</p>",
     "podcastTitle": "Design Systems WTF",
@@ -5230,6 +5790,34 @@
     "feedId": 7065988,
     "episodeId": 33627731853,
     "guid": "Buzzsprout-16573554",
+    "season": 1,
+    "episode": 4,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "All the things you shouldn’t do for design system success, with Dan Mall — #04",
+    "description": "<p>I'm thrilled to have the one and only Dan Mall on the show, and in this episode, we get deep into all the things you maybe <i>don't</i> want to do if you want your design system to be successful. <b>Dan shares his experiences with failed design systems, one very failed attempt at pitching a system to leadership,  why he thinks design systems should be specific not generic and maybe... not include foundations? </b>Plus, we talk about useless documentation, what's next for systems, and THE spiciest take on tokens.</p>    <p>(Honestly, there are so many 🌶️ Spicy Takes™️ in this episode, we might have to rename the show to Design System Spicy Takes!)</p>    <p>💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/danmall/\">Dan Mall on LinkedIn</a></p></li>\n<li><p><a href=\"https://danmall.com/\">Dan Mall's portfolio</a></p></li>\n<li><p><a href=\"https://designsystem.university/courses/design-system-in-90-days\">Design System in 90 Days</a></p></li>\n<li><p>❗️Free Resource: <a href=\"https://www.figma.com/community/file/1275210165201477676\">Design Systems in 90 Days Figjam Canvas</a></p></li>\n<li><p><a href=\"https://danmall.com/free-resources/\">More of Dan's free resources, talks, writing</a></p></li>\n<li><p><a href=\"https://designsystem.university/books/design-that-scales\">Design that Scales book</a></p></li>\n<li><p><a href=\"https://intro.co/danmall\">Book a 1:1 with Dan</a></p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf73-7a3d-9680-4666adbe7c9e/019d89f6-c09a-7b16-8c6a-73b5d4d6c0a4.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bf73-7a3d-9680-4666adbe7c9e/019d89f6-c09a-7b16-8c6a-73b5d4d6c0a4.mp3",
+    "publishedAt": "2025-02-10T16:00:00.000Z",
+    "duration": "0:54:25",
+    "durationSeconds": 3265,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/05c69fd4-73d6-4213-8a64-e10b9cd2f9ad/podcast_import_artwork_20260414-193-7may0q.jpg?t=1776136149",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/05c69fd4-73d6-4213-8a64-e10b9cd2f9ad/podcast_import_artwork_20260414-193-7may0q.jpg?t=1776136149"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278205,
+    "guid": " Buzzsprout-16573554 ",
     "season": 1,
     "episode": 4,
     "explicit": false,
@@ -5348,6 +5936,34 @@
     "type": "full"
   },
   {
+    "title": "Layoffs, rebrands, and getting “zero results“ from your design system, with Noelle Lansford — #03",
+    "description": "<p>You can't talk about design systems lately without addressing the elephant in the room: layoffs. <b>Noelle walks us through her experience of multiple layoffs in one year, why 2023 was so different than 2020, and how the success criteria of design systems correlated with team layoffs.</b> We discuss the bogeyman of \"getting zero results from your design system\" and what Noelle was hearing from business leadership about that, and how storytelling might matter more than metrics. Plus, a very spicy take on ~the rebrand~, and why at least one company was hiring for someone to <i>delete </i> their design system 😱<i>Warning: F-word/language.</i> 💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.linkedin.com/in/noellelansford/\">Noelle Lansford on LinkedIn</a></p></li>\n<li><p>Hire Noelle on your system: <a href=\"https://www.noellelansford.com/\">NoelleLansford.com</a></p></li>\n<li><p><a href=\"https://www.noellelansford.com/thoughts/state-of-ds-where-have-we-been-where-are-we-going\">Noelle's semi-viral blog post, The State of Design Systems</a></p></li>\n<li><p><a href=\"https://layoffs.fyi/\">layoffs.fyi</a></p></li>\n<li><p>Sam Anderson's <a href=\"https://www.linkedin.com/pulse/design-systems-infrastructure-evolution-age-ai-sam-anderson-w29bc/\">Design Systems are Infrastructure</a></p></li>\n<li><p><a href=\"https://playbook.ebay.com/\">eBay Design Playbook</a></p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c687-75e2-b3dc-da33a5b948f1/019d89f6-c82f-7a96-ad99-85b0f3b4c056.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c687-75e2-b3dc-da33a5b948f1/019d89f6-c82f-7a96-ad99-85b0f3b4c056.mp3",
+    "publishedAt": "2025-02-03T17:00:00.000Z",
+    "duration": "0:58:25",
+    "durationSeconds": 3505,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/0b8e3a55-a2a4-47d9-998d-ce06ec3e6e67/podcast_import_artwork_20260414-224-m4w9te.jpg?t=1776136152",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/0b8e3a55-a2a4-47d9-998d-ce06ec3e6e67/podcast_import_artwork_20260414-224-m4w9te.jpg?t=1776136152"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278207,
+    "guid": " Buzzsprout-16530448 ",
+    "season": 1,
+    "episode": 3,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Where should design systems sit in your org?",
     "description": "<p>Design systems should sit in the design team. Design systems should sit in the designops team. Design systems should sit in their own team. There are so many different options that are presented as the ‘truth’ when it comes to design systems and org design. Michelle and Luke are going to wade through the options, weigh up their merits and probably tear the entire thing down to the ground by the end of the half hour.</p>",
     "podcastTitle": "Design Systems WTF",
@@ -5398,6 +6014,34 @@
     "feedId": 7065988,
     "episodeId": 33016519748,
     "guid": "Buzzsprout-16458094",
+    "season": 1,
+    "episode": 2,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "When Design Systems became A Thing with Jina Anne — #02",
+    "description": "<p><b>Jina Anne gives us a history of the journey from early style guides to widespread industry adoption of design systems</b>, and the challenges and successes. We explore how tokens came to be, how it feels when the engineering team just starts using your work before it's ready, the separation of HTML/CSS/JS concerns, and how ClarityConf got started. Plus, the origin of the phrase \"design systems\" (maybe?), and  what the NASA Graphic Standards Manual has to do with ClarityConf. 💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com/\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://www.jina.me/\">Jina Anne</a></p></li>\n<li><p><a href=\"https://www.clarityconf.com/\">ClarityConf</a></p></li>\n<li><p><a href=\"https://www.design.systems/\">The Design Systems Slack</a></p></li>\n<li><p><a href=\"https://en.wikipedia.org/wiki/QuarkXPress\">Quark</a></p></li>\n<li><p><a href=\"https://github.com/salesforce-ux/theo\">Salesforce Theo</a> for design tokens</p></li>\n<li><p>Old-school CSS tools <a href=\"https://sass-lang.com/\">Sass</a>, <a href=\"https://lesscss.org/\">Less</a>, and <a href=\"https://stylus-lang.com/\">Stylus</a></p></li>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties\">CSS Custom Properties</a> (variables)</p></li>\n<li><p><a href=\"https://mrmrs.io/\">Adam Morris</a> and <a href=\"https://tachyons.io/\">Tachyons</a></p></li>\n<li><p><a href=\"https://www.lightningdesignsystem.com/resources/faq/#what-is-the-salesforce-lightning-design-system\">Salesforce Lightning Design System</a></p></li>\n<li><p><a href=\"https://medium.com/salesforce-ux/nicole-sullivan-mark-otto-talk-front-end-e60b814f0bda\">Nicole Sullivan and Mark Otto at The Mixin meetup</a></p></li>\n<li><p><a href=\"https://www.clarityconf.com/session/designing-for-earthlings-astronauts\">Richard Danne, Designing for Earthlings and Astronauts at ClarityConf 2016</a></p></li>\n<li><p>The original 1976 <a href=\"https://www.nasa.gov/wp-content/uploads/2015/01/nasa_graphics_manual_nhb_1430-2_jan_1976.pdf\">NASA Graphic Standards Manual</a></p></li>\n<li><p><a href=\"https://amplitude.com/resources/hype-cycle-user-experience-2024\">Gartner Hype Cycle for UX 2024</a></p></li>\n<li><p><a href=\"https://penpot.app/\">Penpot</a> (Figma alt)</p></li>\n<li><p><a href=\"https://portal.cca.edu/people/josh/\">Josh Silverman at CCA</a></p></li>\n<li><p><a href=\"https://bencallahan.com/the-question\">Ben Callahan's The Question</a></p></li>\n</ul>    <p>🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused ",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c5cd-768c-8573-9877decba573/019d89f6-c73e-7117-a754-bae308a5183a.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c5cd-768c-8573-9877decba573/019d89f6-c73e-7117-a754-bae308a5183a.mp3",
+    "publishedAt": "2025-01-27T16:00:00.000Z",
+    "duration": "0:54:50",
+    "durationSeconds": 3290,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/91d95726-4fd4-41ca-845e-5910d6e1b915/podcast_import_artwork_20260414-234-bewsdl.jpg?t=1776136150",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/91d95726-4fd4-41ca-845e-5910d6e1b915/podcast_import_artwork_20260414-234-bewsdl.jpg?t=1776136150"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278208,
+    "guid": " Buzzsprout-16458094 ",
     "season": 1,
     "episode": 2,
     "explicit": false,
@@ -5510,6 +6154,34 @@
     "feedId": 7065988,
     "episodeId": 32705584397,
     "guid": "Buzzsprout-16450362",
+    "season": 1,
+    "episode": 1,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Efficiency, respect, and the origins of design systems with Brad Frost — #01",
+    "description": "<p><b>Brad Frost takes us back in time to the early days of design systems</b>, and walks us through some of the significant moments of evolution from style guides to modern design systems. We dig in to the multiple proto-Storybook-esque projects, the original problem of sharing UI patterns, what React did, and Brad's personal moment of \"oh, it's called design systems now.\" Plus, a bonus podcast throwback from the Style Guides Podcast feat. Dave Rupert and some early proto-Storybook madness.💖 <b>On Theme is a brand new podcast, so if you like what you're hearing, please hit subscribe and sign up at </b><a href=\"http://designsystemsontheme.com\"><b>designsystemsontheme.com</b></a><b>!</b><b>Links & References</b></p>   <ul>\n<li><p><a href=\"https://bradfrost.com/\">Brad Frost</a></p></li>\n<li><p><a href=\"https://designtokenscourse.com/\">Brad's new tokens course, Subatomic</a></p></li>\n<li><p><a href=\"https://patternlab.io/\">patternlab.io</a></p></li>\n<li><p><a href=\"https://www.smashingmagazine.com/2016/07/building-maintaining-atomic-design-systems-pattern-lab/\">How Pattern Lab worked</a></p></li>\n<li><p><a href=\"https://bradfrost.com/blog/post/this-is-responsive/\">This is Responsive</a></p></li>\n<li><p><a href=\"http://styleguides.io/\">styleguides.io</a></p></li>\n<li><p><a href=\"https://www.maban.co.uk/\">Anna Debenham</a></p></li>\n<li><p><a href=\"https://www.stubbornella.org/2009/02/28/object-oriented-css-grids-on-github/\">Nicole Sullivan OOCSS</a></p></li>\n<li><p><a href=\"https://smacss.com/book/about/\">Jonathan Snook SMACSS Book</a></p></li>\n<li><p><a href=\"https://www.slideshare.net/slideshow/practical-maintainable-css-short-version/5618935#17\">Natalie Downe \"Practical Maintainable CSS\"</a></p></li>\n<li><p>Ethan Marcotte's original <a href=\"https://alistapart.com/article/responsive-web-design/\">Responsive Design article</a> in A List Apart</p></li>\n<li><p><a href=\"https://www.youtube.com/watch?v=Wm_xI7KntDs\">The Story of React</a></p></li>\n<li><p><a href=\"https://speakerdeck.com/vjeux/react-css-in-js?slide=2\">THAT React CSS in JS slide</a></p></li>\n<li><p><a href=\"http://styleguides.io/podcast/dave-rupert/\">Style Guides podcast with Dave Rupert</a></p></li>\n<li><p>RetailMeNot's <a href=\"https://github.com/RetailMeNotSandbox?q=roux\">Roux project</a></p></li>\n</ul>    <p> 🎨🎟️ <b>Into Design Systems is May 25-28</b><b>Get your ticket at </b><a href=\"http://intodesignsystems.com/ontheme\"><b>intodesignsystems.com/ontheme</b></a>Into Design Systems is back with their annual virtual conference, May 28-30, 2025. Get your ticket now for three days of practical, hands on sessions showing the what, why, and how of design systems. This year, the conference is focused on developer handoff, accessibility, multi brand theming, and governance. You'll get hands on knowledge you can put to use at work immediately, files and resources to take away, and hear from very well known industry speakers. </p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019e323a-6bf7-70bf-812a-14fe3af7af4c/019e323a-6c55-7339-a90e-cebdd6aa1229.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019e323a-6bf7-70bf-812a-14fe3af7af4c/019e323a-6c55-7339-a90e-cebdd6aa1229.mp3",
+    "publishedAt": "2025-01-20T16:00:00.000Z",
+    "duration": "0:43:32",
+    "durationSeconds": 2612,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/148f5a96-187c-4fac-9556-2108221d6e53/podcast_import_artwork_20260516-193-lbp9j7.jpg?t=1778959151",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/148f5a96-187c-4fac-9556-2108221d6e53/podcast_import_artwork_20260516-193-lbp9j7.jpg?t=1778959151"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278210,
+    "guid": " Buzzsprout-16450362 ",
     "season": 1,
     "episode": 1,
     "explicit": false,
@@ -5650,6 +6322,34 @@
     "feedId": 7065988,
     "episodeId": 32071681859,
     "guid": "Buzzsprout-16373923",
+    "season": 1,
+    "episode": null,
+    "explicit": false,
+    "type": "bonus"
+  },
+  {
+    "title": "On Theme S1 Minisode 2: 2025 Predictions",
+    "description": "<p>Elyse shares five predictions for design systems in 2025 and beyond in the second pre-season minisode. Text the show to share your thoughts and predictions and maybe even be featured in a future minisode!Early Bird tickets are available until January 15th for Into Design System's excellent annual virtual conference, featuring Nathan Curtis, Romina Kavcic, Cintia Romero, and more. Get your tickets now before prices go up at intodesignsystems.com/ontheme</p>    <p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c278-790e-9c35-131744f45fdb/019d89f6-c5d8-7099-82b5-cd2cf48fc38f.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-c278-790e-9c35-131744f45fdb/019d89f6-c5d8-7099-82b5-cd2cf48fc38f.mp3",
+    "publishedAt": "2025-01-06T13:00:00.000Z",
+    "duration": "0:18:31",
+    "durationSeconds": 1111,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278211,
+    "guid": " Buzzsprout-16373923 ",
     "season": 1,
     "episode": null,
     "explicit": false,
@@ -6156,6 +6856,34 @@
     "guid": "Buzzsprout-15981806",
     "season": 1,
     "episode": 1,
+    "explicit": false,
+    "type": "trailer"
+  },
+  {
+    "title": "On Theme: The Trailer",
+    "description": "<p><a href=\"https://www.buzzsprout.com/2417527/fan_mail/new\">📲 Send me a text!</a></p>    <p><a href=\"https://www.buzzsprout.com/2417527/support\">Support the show</a></p>",
+    "podcastTitle": "On Theme: Design Systems in Depth",
+    "episodeUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bdd9-7c33-87b5-112d147350b9/019d89f6-bfab-7149-9d7f-a42b3d9e09c0.mp3",
+    "audioUrl": "https://podcasts.beehiiv.com/866d6ac3-e09f-4ea1-a4b7-c6ed281fee46/019d89f3-3428-77c5-b2f5-bc5bb93b6be7/019d89f6-bdd9-7c33-87b5-112d147350b9/019d89f6-bfab-7149-9d7f-a42b3d9e09c0.mp3",
+    "publishedAt": "2024-10-24T02:00:00.000Z",
+    "duration": "0:02:17",
+    "durationSeconds": 137,
+    "episodeImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "podcastImageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914",
+    "thumbnails": {
+      "high": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      },
+      "maxres": {
+        "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/254eca37-9a79-41e3-a602-011979baca0c/podcast_import_artwork_20260414-195-f64az2.jpg?t=1776135914"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2417527.rss",
+    "feedId": 7065988,
+    "episodeId": 55816278213,
+    "guid": " Buzzsprout-15981806 ",
+    "season": 1,
+    "episode": null,
     "explicit": false,
     "type": "trailer"
   },
