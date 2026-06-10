@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 102: Figma's History with AI",
+    "description": "<p>From the comical wizard prompts of 2024 to the heavy-lifting reality of Figma MCP, Davy and PJ chart the compressed timeline of design system and canvas automation. </p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/121207967/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-9%2F6a558e8f-05f7-6889-c390-f5078c87e7ec.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/121207967/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-9%2F6a558e8f-05f7-6889-c390-f5078c87e7ec.mp3",
+    "publishedAt": "2026-06-09T07:05:00.000Z",
+    "duration": "0:36:05",
+    "durationSeconds": 2165,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 55948771043,
+    "guid": "66927462-c8a5-4693-917c-c5aedc10921b",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "29: Joey Banks - Design & AI Tooling",
     "description": "<p>We're joined by Joey Banks, who shares his experience as Founder of Baseline Design.</p><p><b>Episode Links:</b></p><ul><li>You’re Not Behind: <a href='https://www.joeyabanks.me/posts/you-re-not-behind'>https://www.joeyabanks.me/posts/you-re-not-behind</a></li></ul><p><b>Socials:</b></p><ul><li>Website: <a href='https://www.baselinedesign.com/'>https://www.baselinedesign.com/</a></li><li>Linkedin: <a href='https://www.linkedin.com/in/joeyabanks/'>https://www.linkedin.com/in/joeyabanks/</a></li></ul>",
     "podcastTitle": "Code & Pixels",
