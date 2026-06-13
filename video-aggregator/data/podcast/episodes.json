@@ -1,5 +1,33 @@
 [
   {
+    "title": "Working with AI w/ David White Wolf | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/890bmko88dw5fns5/yt_video_cfsQTg9-ads_i4bpqa.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/890bmko88dw5fns5/yt_video_cfsQTg9-ads_i4bpqa.mp3",
+    "publishedAt": "2026-06-11T20:39:01.000Z",
+    "duration": "1:00:03",
+    "durationSeconds": 3603,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7a7adc13c762adf2cfe855c07b9b8411.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7a7adc13c762adf2cfe855c07b9b8411.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 56068412861,
+    "guid": "yt:video:cfsQTg9-ads",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 102: Figma's History with AI",
     "description": "<p>From the comical wizard prompts of 2024 to the heavy-lifting reality of Figma MCP, Davy and PJ chart the compressed timeline of design system and canvas automation. </p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
