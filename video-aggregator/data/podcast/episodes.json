@@ -1,5 +1,33 @@
 [
   {
+    "title": "30: Karl Koch - Design Engineering as a Discipline",
+    "description": "<p>We're joined by Karl Koch, who shares his experience as a Sr. Design Engineer at DuckDuckGo.</p><p><b>Socials:</b></p><ul><li>Website: <a href='https://www.designengineer.xyz/course'>https://www.designengineer.xyz/course</a> and <a href='https://karlkoch.me'>https://karlkoch.me</a> </li><li>Linkedin: <a href='https://www.linkedin.com/in/kejk/'>https://www.linkedin.com/in/kejk/</a></li><li>Twitter: <a href='https://x.com/_kejk'>https://x.com/_kejk</a></li><li>Github: <a href='https://github.com/kemiljk'>https://github.com/kemiljk</a></li></ul><p><b>Discount code for designengineer.xyz: </b>CODEANDPIXELS</p><p><br/></p>",
+    "podcastTitle": "Code & Pixels",
+    "episodeUrl": "https://www.buzzsprout.com/1958356/episodes/19374460-30-karl-koch-design-engineering-as-a-discipline.mp3",
+    "audioUrl": "https://www.buzzsprout.com/1958356/episodes/19374460-30-karl-koch-design-engineering-as-a-discipline.mp3",
+    "publishedAt": "2026-06-23T15:00:00.000Z",
+    "duration": "0:32:16",
+    "durationSeconds": 1936,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/1958356.rss",
+    "feedId": 5328591,
+    "episodeId": 56596069542,
+    "guid": "Buzzsprout-19374460",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "⁠⁠Is driving adoption just a polite way of begging?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>The State of AI in Design Systems report came out recently, and it shows that everyone is using AI to create documentation. Is this a good thing? Luke and Seb dive into the question of what good documentation is, whether it's even relevant anymore and what parts we should let AI own, and the parts we need to protect.</p><p><br/></p>",
     "podcastTitle": "Design Systems WTF",
