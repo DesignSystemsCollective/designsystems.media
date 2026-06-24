@@ -73,11 +73,11 @@ const layoutType = !showSlug ? "show" : "episode";
     tags={tags}
   />
   
-  <div class={`show-content ${layoutType}`}>
+  <div class:list={["content-shell", { "content-shell--single": layoutType === "show" }]}>
     <MetaList>
       {explicit && (
         <MetaItem>
-          <span class="explicit">Explicit</span>
+          <span class="explicit meta-badge--explicit">Explicit</span>
         </MetaItem>
       )}
       {speakers && speakers.length > 0 && !isShow && (
@@ -100,8 +100,8 @@ const layoutType = !showSlug ? "show" : "episode";
       )}
     </MetaList>
     
-    <div class="prose" data-pagefind-weight="3">
-      <div class="description"><slot /></div>
+    <div class="content-shell__prose" data-pagefind-weight="3">
+      <div class="content-shell__description"><slot /></div>
       {episodes && episodes.length > 0 && (
 
   <SectionHeader
@@ -115,69 +115,8 @@ const layoutType = !showSlug ? "show" : "episode";
 </article>
 
 <style>
-  .title {
-    margin: 0 auto 1em;
-    padding: 2.5rem 0rem 0.5rem;
-    width: 100%;
-    max-width: 900px;
-  }
-
-  .prose {
-    margin: 0;
-    color: var(--body-text);
-    overflow-wrap: anywhere;
-  }
-
-  .description {
-    margin: 0 0 2rem;
-  }
-
-  .prose p:first-of-type {margin-top: 0;}
-
-  .prose .meta-data {
-    margin: 0 0 1rem;
-  }
-
-  :global(.prose h1),
-  :global(.prose h2),
-  :global(.prose h3),
-  :global(.prose h4),
-  :global(.prose h5),
-  :global(.prose h6) {
-    font-size: 1em;
-  }
-
-  :global(.prose .responsive-container){
-    padding: 1rem 0 1rem;
-  }
-
-  .show-content {
+  :global(.content-shell) {
     position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    padding: 1rem;
     z-index:20;
-    display: grid;
-    gap: 2rem;
-    justify-content: center;
-    align-items: start;
-    grid-template-columns: minmax(100px, 200px) 1fr;
-  }
-  .show-content.show{
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  @media screen and (max-width: 768px) {
-    .title {
-      padding: 2.5rem 1rem 0.5rem;
-    }
-
-   .show-content  {
-      display: flex;
-      flex-direction: column;
-      gap: 0rem;
-    }
   }
 </style>

@@ -36,15 +36,14 @@ const isListLayout = layoutType === "list";
 
 <div
   class:list={[
-    "media-item",
-    "media-link", // Keep this for common styles
+    "media-card",
+    "media-card--hover",
     {
-      "media-list-layout": isListLayout, // Apply this class when it's a list
-      "media-grid-layout": !isListLayout, // Apply this class when it's a grid (default)
+      "media-card--list": isListLayout,
     },
   ]}
 >
-  <a href={`/podcast/${slug}/`}>
+  <a href={`/podcast/${slug}/`} class="media-card__link media-card__image media-card__image--video">
     <MediaImage
       src={imageToUse}
       alt={title}
@@ -54,10 +53,10 @@ const isListLayout = layoutType === "list";
       loading={loading}
     />
   </a>
-  <div class="media-content">
-    <a href={`/podcast/${slug}/`} class="title"><h3>{title}</h3></a>
-    <a href={`/show/${showSlug}/`} class="meta showTitle">{podcastTitle}</a>
-    <div class="meta">
+  <div class="media-card__content">
+    <a href={`/podcast/${slug}/`} class="media-card__title-link"><h3 class="media-card__title">{title}</h3></a>
+    <a href={`/show/${showSlug}/`} class="media-card__eyebrow">{podcastTitle}</a>
+    <div class="media-card__meta">
       <span><FormattedDate date={publishedAt} /></span> {isListLayout && 
       <span>•</span> <span>{formatDuration(duration)}</span>
     }
@@ -67,94 +66,8 @@ const isListLayout = layoutType === "list";
 </div>
 
 <style>
-  /* Style for each media item */
-  .media-item {
-    margin: 0;
-  }
-  .media-link {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
-   img {
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-  }
-
-  .media-link:hover {
-    .media-image img {
-      /* outline: 1px solid var(--accent-hover); */
-      box-shadow:
-        0 0px 40px var(--accent-glow),
-        0 0px 10px var(--accent-hover);
-      outline: 1px solid var(--accent-hover);
-      transition: box-shadow 1s ease-out;
-    }
-    .title {
-      color: rgb(var(--accent));
-    }
-  }
-  a:hover h3 {
-    color: rgb(var(--accent));
-  }
-  .media-content a {
+  .media-card__content a {
     text-decoration: none;
     border-bottom: none;
-  }
-
-  a h3 {
-    font-size: 17px;
-    font-weight: 400;
-    margin: 2px 0;
-  }
-
-  a.showTitle {
-    font-size: 15px;
-    font-weight: 400;
-    color: var(--tx-2);
-  }
-  a.showTitle:hover {
-    text-decoration: underline;
-  }
-
-  .media-content {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  .media-content .meta{
-    font-size: 14px;
-    color: var(--tx-3);
-    display: flex;
-    flex-direction: row;
-    gap: 8px
-  }
-
-  /* Default "grid-like" layout (your current mobile layout) */
-  .media-grid-layout {
-    display: flex; /* Or grid, if you prefer a 2-column layout by default */
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  /* New list layout (similar to your @media rule) */
-  .media-list-layout {
-    display: grid;
-    grid-template-columns: minmax(80px, 100px) 1fr; /* The layout you want for list */
-    gap: 1rem; /* Adjust gap as needed for list */
-    align-items: start; /* Align items to top */
-  }
-
-  @media screen and (max-width: 768px) {
-    .media-grid-layout {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      align-items: center;
-    }
   }
 </style>

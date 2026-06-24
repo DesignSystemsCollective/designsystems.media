@@ -2,6 +2,10 @@
 @import "tokens/semantic.css";
 @import "themes/light.css";
 @import "themes/dark.css";
+@import "layout/content.css";
+@import "components/cards.css";
+@import "components/meta.css";
+@import "components/sections.css";
 
 @font-face {
   font-family: "Atkinson";
@@ -80,12 +84,12 @@ b {
 }
 a {
   color: rgb(var(--accent));
-  .badge {
-    text-decoration: none;
-  }
 }
 a:hover {
   color: var(--accent-hover);
+}
+.badge {
+  text-decoration: none;
 }
 p {
   margin-bottom: 1em;

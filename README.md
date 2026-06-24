@@ -149,6 +149,17 @@ Validation currently checks for:
 - Playlist items that reference missing content
 - Podcast episodes that reference unknown `showSlug` values
 
+### Styling Conventions
+
+The CSS refactor keeps global and shared concerns separate from one-off component rules:
+
+- `src/styles/global.css` is the root entrypoint for base rules and shared stylesheet imports
+- `src/styles/layout/` contains reusable page and content-shell layout primitives
+- `src/styles/components/` contains shared card, metadata, and section-header primitives
+- component-local `<style>` blocks should only keep rules that are unique to that component
+
+If a style is repeated across multiple cards, layouts, metadata rows, or section headers, it belongs in the shared `src/styles/` layer rather than being copied into another Astro component.
+
 ### Content Aggregation
 
 The ingestion scripts collect data from:
@@ -226,6 +237,8 @@ Refresh baselines locally with:
 npm run test:visual:update
 ```
 
+Run `npm run test:visual` after changing shared styling, layout structure, or reusable component rendering. If the changes are intentional and the new screenshots are correct, refresh the baselines with `npm run test:visual:update`.
+
 ## Deployment
 
 The site is deployed via Netlify when code is pushed to the main branch. Content aggregation runs on scheduled GitHub Actions to keep the collection up to date.
@@ -266,6 +279,12 @@ When adding new pages or APIs:
 - avoid direct `getCollection()` usage outside the content-domain layer
 - keep route files focused on shaping page props, not indexing collections
 - run `npm run test:visual` when changing layout, styling, or component rendering
+
+When changing CSS:
+
+- prefer shared primitives in `src/styles/` for reused patterns
+- keep one-off styles inside the component that owns them
+- update or add an ADR when the styling change introduces a durable architectural convention
 
 ### Adding New Video Sources
 

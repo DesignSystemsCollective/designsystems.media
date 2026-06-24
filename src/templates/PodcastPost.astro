@@ -66,8 +66,9 @@ const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
     </div>
   </div>
 
-  <div class="content">
+  <div class="content-shell">
       <MetaDataList
+      class="content-shell__meta"
       items={[
         {
           icon: "fluent:calendar-date-20-filled",
@@ -100,7 +101,7 @@ const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
         }
       ]}
     />
-    <div class="prose" data-pagefind-weight="3">
+    <div class="content-shell__prose prose" data-pagefind-weight="3">
       <slot />
     </div>
   </div>
@@ -199,17 +200,6 @@ const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
       opacity: 1;
     }
   }
-  :global(.title) {
-    margin: 0 auto 1em;
-    padding: 2.5rem 0rem 0.5rem;
-    width: 100%;
-    max-width: 900px;
-  }
-  .prose {
-    margin: 0;
-    color: var(--body-text);
-    overflow-wrap: anywhere;
-  }
   :global(.prose h1),
   :global(.prose h2),
   :global(.prose h3),
@@ -217,60 +207,6 @@ const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
   :global(.prose h5),
   :global(.prose h6) {
     font-size: 1em;
-  }
-  .meta-data {
-    color: var(--meta-data);
-    padding: 1rem 0em;
-    padding-left: 1.8rem;
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 1rem 0;
-    font-size: 1.1rem;
-    border-bottom: 1px solid var(--hr);
-    justify-content: baseline;
-  }
-  .meta-data a {
-    color: var(--meta-data-link);
-  }
-
-  .meta-data a:hover {
-    color: var(--accent-hover);
-  }
-  .meta-data span {
-    color: var(--meta-data);
-  }
-  .tags,
-  .speakers {
-    line-height: normal;
-    align-items: baseline;
-    margin-block-start: 0;
-    display: flex;
-    flex-wrap: none;
-    flex-direction: column;
-    gap: 0.5em 0em;
-  }
-  .break {
-    display: none;
-  }
-  .meta-data [data-icon] {
-    margin-right: 0.25em;
-    position: absolute;
-    transform: translateX(-1.8rem);
-  }
-  .meta-data span.inline [data-icon] {
-    margin-top: 0.2em;
-  }
-  .content {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    padding: 1rem;
-    display: grid;
-    gap: 2rem;
-    justify-content: center;
-    align-items: start;
-    grid-template-columns: minmax(100px, 200px) 1fr;
   }
   @media screen and (max-width: 1024px) {
     .hero-image {
@@ -287,40 +223,6 @@ const imageToUse = getShowImage(showSlug, hasEpisodeImage ?? false, image?.src);
     }
     .audio-embed {
       max-width: 100%;
-    }
-    :global(.title) {
-      padding: 2.5rem 1rem 0.5rem;
-    }
-    .meta-data {
-      padding-left: 0;
-      flex-direction: row;
-      gap: 0em 2rem;
-    }
-    .meta-data [data-icon] {
-      position: relative;
-      transform: translateX(0);
-    }
-    .tags,
-    .speakers {
-      display: inline-flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      line-height: normal;
-      gap: 0.25em 1em;
-      align-items: baseline;
-      margin-block-start: 0.5em;
-    }
-    .inline {
-      margin-block-start: 0.5em;
-    }
-    .break {
-      flex-basis: 100%;
-      height: 0;
-      display: block;
-    }
-    .content {
-      display: flex;
-      flex-direction: column;
     }
   }
 </style>
