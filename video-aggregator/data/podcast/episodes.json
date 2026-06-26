@@ -1,5 +1,33 @@
 [
   {
+    "title": "Config 2026 | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/v75i6sp3uszg0vol/yt_video_2e5VbAnyrgc_cm7eq2.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/v75i6sp3uszg0vol/yt_video_2e5VbAnyrgc_cm7eq2.mp3",
+    "publishedAt": "2026-06-24T20:45:48.000Z",
+    "duration": "0:41:25",
+    "durationSeconds": 2485,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/b0d7325557c9426fb4c9912dedba8e01.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/b0d7325557c9426fb4c9912dedba8e01.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 56686681750,
+    "guid": "yt:video:2e5VbAnyrgc",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "30: Karl Koch - Design Engineering as a Discipline",
     "description": "<p>We're joined by Karl Koch, who shares his experience as a Sr. Design Engineer at DuckDuckGo.</p><p><b>Socials:</b></p><ul><li>Website: <a href='https://www.designengineer.xyz/course'>https://www.designengineer.xyz/course</a> and <a href='https://karlkoch.me'>https://karlkoch.me</a> </li><li>Linkedin: <a href='https://www.linkedin.com/in/kejk/'>https://www.linkedin.com/in/kejk/</a></li><li>Twitter: <a href='https://x.com/_kejk'>https://x.com/_kejk</a></li><li>Github: <a href='https://github.com/kemiljk'>https://github.com/kemiljk</a></li></ul><p><b>Discount code for designengineer.xyz: </b>CODEANDPIXELS</p><p><br/></p>",
     "podcastTitle": "Code & Pixels",
@@ -33,6 +61,34 @@
     "podcastTitle": "Design Systems WTF",
     "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19387374-is-driving-adoption-just-a-polite-way-of-begging.mp3",
     "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19387374-is-driving-adoption-just-a-polite-way-of-begging.mp3",
+    "publishedAt": "2026-06-22T23:00:00.000Z",
+    "duration": "0:43:10",
+    "durationSeconds": 2590,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 56563738956,
+    "guid": "Buzzsprout-19387374",
+    "season": 2,
+    "episode": 56,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "If AI can generate your design system docs, what does that say about how valuable those docs were in the first place?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>The State of AI in Design Systems report came out recently, and it shows that everyone is using AI to create documentation. Is this a good thing? Luke and Seb dive into the question of what good documentation is, whether it's even relevant anymore and what parts we should let AI own, and the parts we need to protect.</p><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19387374-if-ai-can-generate-your-design-system-docs-what-does-that-say-about-how-valuable-those-docs-were-in-the-first-place.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19387374-if-ai-can-generate-your-design-system-docs-what-does-that-say-about-how-valuable-those-docs-were-in-the-first-place.mp3",
     "publishedAt": "2026-06-22T23:00:00.000Z",
     "duration": "0:43:10",
     "durationSeconds": 2590,
