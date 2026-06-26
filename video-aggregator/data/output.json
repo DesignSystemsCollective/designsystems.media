@@ -1,5 +1,815 @@
 [
   {
+    "title": "Funding your part time study",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qXbLKkBuC1Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qXbLKkBuC1Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qXbLKkBuC1Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qXbLKkBuC1Q",
+    "publishedAt": "2026-06-25T11:00:00Z",
+    "privacyStatus": "public",
+    "duration": "0:01:36"
+  },
+  {
+    "title": "Getting an Electronic Travel Authorisation (ETA)",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NJTp_ey3OXA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NJTp_ey3OXA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NJTp_ey3OXA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NJTp_ey3OXA",
+    "publishedAt": "2026-06-19T11:00:19Z",
+    "privacyStatus": "public",
+    "duration": "0:01:02"
+  },
+  {
+    "title": "Annual leave explained",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-fmwHov8NbI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-fmwHov8NbI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-fmwHov8NbI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=-fmwHov8NbI",
+    "publishedAt": "2026-06-17T11:00:06Z",
+    "privacyStatus": "public",
+    "duration": "0:01:06"
+  },
+  {
+    "title": "Design Systems Portfolio Tips & Tricks | Into Design Systems Conference",
+    "description": "In this session from the Into Design Systems Conference, Justine Montgomery (Design Systems @ Stripe) breaks down how to build a design systems portfolio that actually lands you the job, even when most of your work is locked behind NDAs. Three years ago she was sitting in the audience with zero design systems experience. Now she shares the exact approach that took her from self-taught graphic designer to design system specialist at Stripe.\n\nYou will learn how to pick the right case study, who you are really designing your portfolio for, how to turn a single component like a date picker into a full story, how to talk about impact in a language leadership understands and how to get around NDAs without hiding everything behind a password. Romina Kavcic hosts and runs the audience Q&A at the end.\n\nTimestamps\n00:00 – Intro: Justine's path to Design Systems @ Stripe\n03:34 – Treat your case study as a passion project\n05:26 – Where to start and who you are designing for\n09:50 – Case study idea 1: one component deep dive (the date picker)\n11:21 – Case study idea 2: implement tokens\n12:49 – Case study idea 3: a 0 to 1 process\n16:46 – Build the case study before the website\n19:14 – Stop making people guess: zoom in, not out\n23:21 – Tie design to business impact and leadership language\n30:01 – Mistakes to avoid: over-design, passwords, link-outs\n35:03 – Get testimonials to validate NDA work\n36:17 – Key takeaways\n41:40 – Q&A: metrics, biggest mistakes and animation tools\n46:32 – Wrap-up\n\nLinks Mentioned:\nJitter (animation tool): https://jitter.video/\nAtlassian Design System: https://atlassian.design/\nMaterial UI: https://mui.com/\nArticulating Design Decisions (book by Tom Greever): https://www.oreilly.com/library/view/articulating-design-decisions/9781492079248/\n\n🎥 Watch all Into Design Systems conference recordings: https://www.intodesignsystems.com/\n\nKey Points\n• You can land a design system role with one strong case study, you do not need a fancy website first.\n• Treat your case studies like passion projects. If you are not enjoying making it, the person viewing it will not enjoy it either.\n• People love to see the failures, not just the outcomes, because you only really learn once you fail.\n• Pick one component like a date picker and go deep: states, edge cases, tokens, theming and collaboration with engineers tell a whole story.\n• Design is only about 30% of the job. The community, documentation, communication and advocating matter just as much.\n• NDAs are not a wall. Build unbranded fake projects to show how you think, and gather testimonials to validate the work you cannot show.\n• Stop making people guess. Zoom in on the actual problem instead of zooming out to show a wall of artboards and sticky notes.\n\nLearn Design Systems from experts at WhatsApp, Atlassian, Miro, Figma and more: https://www.intodesignsystems.com/\n\nFIND US ON SOCIAL\nLinkedIn: https://www.linkedin.com/company/into-design-systems/",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VtExikfN6HM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VtExikfN6HM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VtExikfN6HM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VtExikfN6HM",
+    "publishedAt": "2026-06-14T11:37:22Z",
+    "privacyStatus": "public",
+    "duration": "0:47:33"
+  },
+  {
+    "title": "Disabled Students' Allowance: what you need to know",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/woLMiK-RK9c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/woLMiK-RK9c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/woLMiK-RK9c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=woLMiK-RK9c",
+    "publishedAt": "2026-06-12T11:00:20Z",
+    "privacyStatus": "public",
+    "duration": "0:01:24"
+  },
+  {
+    "title": "View your driving licence on GOV.UK | Step-by-step guide",
+    "description": "To view your driving licence online, go to https://www.gov.uk/view-driving-licence.\n\nYou’ll be able to see if you have any points on your licence, check what types of vehicles you can drive and generate a check code to share your licence information with other people.\n\nTo view your driving licence online, you’ll need:\n- your driving licence number\n- your National Insurance number\n- the postcode on your driving licence\n\n You can also get a check code by calling the DVLA on 0300 083 0013. Lines are open:\n- Monday to Friday, 8am to 7pm\n- Saturday, 8am to 2pm\n\nFollow GOV.UK on social media:\n*Threads:* https://www.threads.com/govuk\n*Instagram:* https://www.instagram.com/govuk\n*Facebook:* https://www.facebook.com/profile.php?id=61556546057412\n*X:* https://x.com/govuk \n*YouTube:* https://www.youtube.com/@govuk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SHnJfCmmCH4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SHnJfCmmCH4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SHnJfCmmCH4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SHnJfCmmCH4",
+    "publishedAt": "2026-06-10T14:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:01:22"
+  },
+  {
+    "title": "Lithium battery travel quiz",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/av9YqmTUnK4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/av9YqmTUnK4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/av9YqmTUnK4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=av9YqmTUnK4",
+    "publishedAt": "2026-06-10T11:00:13Z",
+    "privacyStatus": "public",
+    "duration": "0:01:10"
+  },
+  {
+    "title": "Council Tax explained",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/x3si4nG-YVs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/x3si4nG-YVs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/x3si4nG-YVs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=x3si4nG-YVs",
+    "publishedAt": "2026-06-05T11:00:29Z",
+    "privacyStatus": "public",
+    "duration": "0:01:03"
+  },
+  {
+    "title": "Token pipelines done right: a Style Dictionary deep dive",
+    "description": "Exporting tokens is the easy part. What comes out the other side often needs work before it's useful in production, and most teams hit the same friction points getting there.\n\nIn this session we cover where Style Dictionary fits in a modern token pipeline, why teams choose it over direct outputs, and the transforms you'll actually reach for: naming, units, references, platform formats. We also share a checklist for getting reliable, code-ready token outputs every time. \n\nWhat you'll learn:\n\n- Why most teams need a transform step rather than direct outputs\n- When Style Dictionary is the right choice versus a custom script\n- The common transforms to plan for and why each exists\n- Real-world gotchas and how to avoid them\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YzzxIh1NOXM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YzzxIh1NOXM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YzzxIh1NOXM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=YzzxIh1NOXM",
+    "publishedAt": "2026-06-04T14:24:03Z",
+    "privacyStatus": "public",
+    "duration": "0:54:40"
+  },
+  {
+    "title": "Are you job hunting?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NdtTFbV7bYw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NdtTFbV7bYw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NdtTFbV7bYw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=NdtTFbV7bYw",
+    "publishedAt": "2026-05-30T11:00:05Z",
+    "privacyStatus": "public",
+    "duration": "0:01:47"
+  },
+  {
+    "title": "Supernova Portal | Prototyping with your product made for the whole company",
+    "description": "Claude Code knows your codebase but locks out designers. v0 lets everyone in but ships a generic UI. Supernova Portal is what happens when you don't have to compromise.\n\nSupernova Portal - AI prototyping grounded in your real codebase and design system, so anyone on your team can build high-fidelity prototypes that actually look and work like your product.\n\nIn this video:\n0:00 — Why existing tools force you to choose between power and ease\n0:15 — Load your real code components, patterns, and templates into Portal\n0:30 — Live demo: from template + Figma frame to a working prototype\n1:10 — Real-time collaboration across designers, PMs, and reviewers\n1:45 — Engineering handoff that continues the work instead of restarting it\n\nWhat makes Portal different: No terminal. No Git. No local setup. Just describe what you want, and Portal builds it using your actual components and design rules. Not a generic approximation of them.\n \nYou're prototyping with production code in a cloud-based collaborative environment. When you're ready, share it with your team or customers with a single link. When engineers pick it up, they're extending a prototype built from the components they already use and maintain.\nThe gap between idea and shipped feature just got a lot smaller.\n\n----------\n\n🚀 Try Supernova Portal for free: supernova.io\n 📅 Book a demo: supernova.io/request-a-demo\n\n----------\n\n#AIPrototyping #DesignSystem #ProductDesign #vibecoding  #DesignToCode #UXDesign #ProductManagement\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on X 👉  https://x.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Fpqt9J3bhWA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Fpqt9J3bhWA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Fpqt9J3bhWA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Fpqt9J3bhWA",
+    "publishedAt": "2026-05-27T18:56:22Z",
+    "privacyStatus": "public",
+    "duration": "0:02:05"
+  },
+  {
+    "title": "How Designers Built a Working Figma Plugin in 48 Hours (with AI)",
+    "description": "Can designers really build a working Figma plugin in 48 hours? Christoph Hellmuth (NordVPN), Raquel Pereira (Nokia) and Casandra Sandu (Trackunit) walk through exactly how their team of 10 designers built Swap Wizard during the Into Design Systems AI Hackathon, won first place out of 150 designers and shipped a real plugin that solves component library migrations in Figma.\n\nYou'll see the full process: how they scoped the problem, planned before prompting, used Cursor's Plan, Agent, Ask and Debug modes, set up GitHub for async collaboration across time zones, built a landing page with Lovable, and refactored 4,000 lines of AI-generated spaghetti into a production-ready codebase. They also share the free Figma Plugin Developer Skill that saves you tokens and prevents the most common plugin bugs from day one.\n\nThis session was presented at the AI Conference for Designers 2026 by Into Design Systems.\n\nGet all 15+ hours of recordings from the AI Conference for Designers: https://www.intodesignsystems.com/\n\n⏱ Chapters\n00:00 Intro: Can designers ship a Figma plugin in 48 hours?\n01:15 Meet the Swap Wizard team (10 designers, never met before)\n02:30 The problem: Why Figma library swaps break\n03:45 Live demo: Swapping libraries and reattaching detached components\n06:30 The 5 tools they used (Figma, Cursor, GitHub, Lovable, Claude)\n07:45 Step 1: Plan before you prompt\n09:30 Technical research before writing any code\n11:15 Setting up GitHub for 10 designers across time zones\n12:30 Git for designers: 6 concepts you actually need\n14:00 Prompting tips: Clarity, Context, Constraints\n16:15 How AI tokens and pricing actually work\n18:30 Cursor modes explained: Agent, Plan, Ask, Debug\n21:00 Walkthrough: Using Plan mode to scope a plugin\n23:30 Debug mode in action (finding bugs without guessing)\n26:00 Vibe debugging: What to do when AI goes in circles\n27:45 AI Skills: Turning your agent into a subject matter expert\n29:30 Free Figma Plugin Developer Skill (link below)\n31:00 Refactoring 4,000 lines of AI-generated code\n33:00 Vibe marketing: Building the landing page in Lovable\n34:30 Publishing your plugin to the Figma Community\n35:30 6 takeaways to ship your own plugin\n37:00 Q&A: Detached components, UI design, hackathon advice\n\n🔗 Links Mentioned\nSwap Wizard plugin: https://www.figma.com/community/plugin/1609887873208346705/swapwizard\nInto Design Systems: https://www.intodesignsystems.com/\n\n💡 Key Points\n\n• Every minute you spend planning before prompting saves an hour of debugging later. The team spent the first few hours of a 48-hour hackathon not writing any code.\n\n• A vague prompt cost them $9 over two minutes with low precision. A clear, structured prompt with the right model did the same task in seconds for almost nothing. 500x cheaper.\n\n• Use the right Cursor mode for the job: Plan mode to scope, Agent mode to build, Ask mode to learn, Debug mode to fix root causes instead of guessing.\n\n• Designers are already great at spotting problems. Identifying the bug is 80% of the work. AI just needs the right context, screenshots and logs to fix it.\n\n• AI Skills work like Legos. They're modular, plug-and-play and turn your generalist agent into a domain expert. But always read a skill before installing it. Prompt injection is real.\n\n• You don't need engineering skills to ship. You need good scope, the right tools and the discipline to commit often and roll back when things break.\n\n🎬 Get all 15+ hours of recordings from the AI Conference for Designers, with sessions from WhatsApp, Atlassian, Miro, Figma, Nokia, NordVPN, Trackunit and more: https://www.intodesignsystems.com/\n\nFIND INTO DESIGN SYSTEMS ON SOCIAL\nLinkedIn: https://www.linkedin.com/company/into-design-systems/\nYouTube: https://www.youtube.com/@IntoDesignSystems\n\nFIND THE SPEAKERS ON SOCIAL\n\nRaquel Pereira (Lead UX Designer, Design System, Nokia)\nLinkedIn: https://www.linkedin.com/in/raqper/\n\nCasandra Sandu (Design System Specialist, Trackunit)\nLinkedIn: https://www.linkedin.com/in/casandrasandu/\n\nChristoph Hellmuth (Lead Product Designer, Design Systems, NordVPN)\nLinkedIn: https://www.linkedin.com/in/chellmuth/\n\n#designsystems #figma #vibecoding #cursor #ai #lovable",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0upNxrEAHb0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0upNxrEAHb0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0upNxrEAHb0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=0upNxrEAHb0",
+    "publishedAt": "2026-05-22T12:33:13Z",
+    "privacyStatus": "public",
+    "duration": "0:40:21"
+  },
+  {
+    "title": "Agentic Design Online Jam - May 2026 - Full recording",
+    "description": "Sessions:\n1. Into by Into Design Systems\n2. From Linting to Decisions\nPegah Ahmadi (she/her) - Principal Design Systems Architect Savvas Learning Company\n​3. Teaching Claude Code to Speak Figma\nCristian Morales Achiardi (he/him) - Design Engineer Enara Health\n\n​From Linting to Decisions\n\n​AI tools speed up execution, but they also introduce a lot of small, silent decisions that end up shaping our design systems. I'll walk through a prototype I built with Claude and Cursor that treats those moments as decisions instead of deviations and captures them in real time. The idea is to explore how AI can help us make and own decisions, not just execute them faster.\n\nLevel: Beginner to intermediate. Accessible, no heavy AI or engineering background needed.\n\n​Teaching Claude Code to Speak Figma\n\n​Learn the structure and possibilities of complex agent skills and how to chain them into pipelines. Demos using some custom plugins, the Figma-CLI, and the native Figma MCP running diferent kind of tasks from generation on Figma, code and auditing your Figma to code parity.\n\n​Level: intermediate, pro\n\n​👋 Your friendly hosts:\n\n​Raquel Pereira (she/her) - Lead UX Designer - Design System, Nokia\n​Sil Bormüller (he/him) - Founder @ Into Design Systems\n\n🔗 Resources mentioned:\nInto Design Systems AI Conference recordings: https://www.intodesignsystems.com\nSwap Wizard - Figma plugin built during our AI hackathon: https://www.figma.com/community/plugin/1609887873208346705\nFigma CLI: https://github.com/silships/figma-cli\nFigma CLI tutorial: https://evangelineng.substack.com/p/how-to-let-claude-code-design-in\nWarp Terminal: https://www.warp.dev\nGhostty Terminal: https://ghostty.org\n\n\nWant to learn the AI and vibe coding workflows top design teams use?\n​Get access to 15+ hours of recordings from our sold-out AI Design Systems Conference 2026.\n\nLearn vibe coding, agentic design systems, Figma MCP and production-ready AI workflows for designers from 21 experts at WhatsApp, GitHub, Figma, Adobe, Miro, Atlassian and more\n👉 https://www.intodesignsystems.com\n\n#ai #design #claude #claudecode #designsystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OziA3qVH3kg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OziA3qVH3kg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OziA3qVH3kg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OziA3qVH3kg",
+    "publishedAt": "2026-05-21T09:28:02Z",
+    "privacyStatus": "public",
+    "duration": "1:42:49"
+  },
+  {
+    "title": "Into Design Systems at Spotify Stockholm",
+    "description": "⭐️ Learn AI as a designer: https://www.intodesignsystems.com/\n\nIntro by Into Design Systems and Spotify\n • Andressa Lombardo (she/her) – Design Systems at Miro, Teacher at Memorisely, Host at Into Design Systems\nhttps://www.linkedin.com/in/dedylombardo/\n • Sil Bormüller (he/him) – Founder at Into Design Systems\nhttps://www.linkedin.com/in/silbormueller/\n • Serah Njambi Kiburu – Senior Developer Advocate (tech and communities) at Spotify\nhttps://www.linkedin.com/in/serahkiburu/\n\nA design system that enables humans and machines to co-create production-ready UI at scale\n\nPresenters:\n • Victoria Tholerus (she/her) – Web Engineer at Spotify\nhttps://www.linkedin.com/in/victoria-tholerus-130aab175/\n • Aleksander Djordjevic (he/him) – Senior Product Designer at Spotify\nhttps://www.linkedin.com/in/aleksander-djordjevic-b8219384/\n\nIKEA’s Design System Skapa — How to build smart card components\n\nPresenters:\n • Caroline Dahl – Product Owner, IKEA Digital Design System, Skapa\nhttps://www.linkedin.com/in/caroline-dahl-bb7b579/\n • Jonatan Grönkvist – Senior Design System Designer, IKEA Digital Design System, Skapa\nhttps://www.linkedin.com/in/jonatan-gronkvist/\n\nWhat do Labubus and Birkenstocks have to do with the future of design and AI?\n • Laura Fehre (she/them) – Designer Advocate at Figma\nhttps://www.linkedin.com/in/laura-fehre/\n\nPitch to Friends\n\nCome on stage and let the community know about you, your project, your job, or anything else.\n\n#designsystems #ai #mcp #vibecoding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/W_gbQS78Fuw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/W_gbQS78Fuw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/W_gbQS78Fuw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=W_gbQS78Fuw",
+    "publishedAt": "2026-05-21T09:16:46Z",
+    "privacyStatus": "public",
+    "duration": "2:07:03"
+  },
+  {
+    "title": "zeroheight new Tokens experience | Demo",
+    "description": "zeroheight has an all-new tokens experience!\n\n- Import token sets from multiple Figma files, aliases resolved automatically\n- View token modes side-by-side in the new Token Manager\n- Document multi-mode tokens clearly with the new Token Block\n-Export tokens in the latest DTCG 2025.10 format\n\nWatch the demo to see it step by step.\n\n--\n\nhttps://zeroheight.com/\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/E4CbPd4Pnkk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/E4CbPd4Pnkk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/E4CbPd4Pnkk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=E4CbPd4Pnkk",
+    "publishedAt": "2026-05-18T15:55:26Z",
+    "privacyStatus": "public",
+    "duration": "0:03:19"
+  },
+  {
+    "title": "What is a Child Trust Fund?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/u4f5Yj3OVmU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/u4f5Yj3OVmU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/u4f5Yj3OVmU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=u4f5Yj3OVmU",
+    "publishedAt": "2026-05-18T11:01:19Z",
+    "privacyStatus": "public",
+    "duration": "0:01:25"
+  },
+  {
+    "title": "Changes to renters' rights",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XIqz-oFrDx4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XIqz-oFrDx4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XIqz-oFrDx4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XIqz-oFrDx4",
+    "publishedAt": "2026-05-05T11:01:00Z",
+    "privacyStatus": "public",
+    "duration": "0:01:35"
+  },
+  {
+    "title": "Design system adoption dashboard | May 2026",
+    "description": "Design System Adoption Dashboard just dropped! 📊🔥\nWondering which components your teams actually use? Now you can see it. The Adoption tab is live inside each design system in Supernova, showing real component usage data from your codebase.\n\nRead more in release notes 👉 https://learn.supernova.io/latest/releases/may-2026/design-system-adoption-dashboard-aouBHXev-aouBHXev\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8uUGkbzrlCo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8uUGkbzrlCo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8uUGkbzrlCo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=8uUGkbzrlCo",
+    "publishedAt": "2026-05-05T05:32:47Z",
+    "privacyStatus": "public",
+    "duration": "0:04:07"
+  },
+  {
+    "title": "Some facts about Income Tax",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sqhWi2VsNPE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sqhWi2VsNPE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sqhWi2VsNPE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sqhWi2VsNPE",
+    "publishedAt": "2026-04-29T11:01:29Z",
+    "privacyStatus": "public",
+    "duration": "0:01:04"
+  },
+  {
+    "title": "What you need to know about the Renters’ Rights Act",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/87Jg_7ZTf2c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/87Jg_7ZTf2c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/87Jg_7ZTf2c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=87Jg_7ZTf2c",
+    "publishedAt": "2026-04-27T15:30:05Z",
+    "privacyStatus": "public",
+    "duration": "0:01:13"
+  },
+  {
+    "title": "Are you a dog or cat person?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/EuFN3adAE8Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/EuFN3adAE8Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/EuFN3adAE8Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=EuFN3adAE8Y",
+    "publishedAt": "2026-04-26T11:00:21Z",
+    "privacyStatus": "public",
+    "duration": "0:01:09"
+  },
+  {
+    "title": "Some facts about Income Tax",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/43jcUra3OWA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/43jcUra3OWA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/43jcUra3OWA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=43jcUra3OWA",
+    "publishedAt": "2026-04-22T11:00:17Z",
+    "privacyStatus": "public",
+    "duration": "0:01:02"
+  },
+  {
+    "title": "The new National Minimum Wage and National Living Wage rates",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/i3XEonxNRnI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/i3XEonxNRnI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/i3XEonxNRnI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=i3XEonxNRnI",
+    "publishedAt": "2026-04-20T11:01:18Z",
+    "privacyStatus": "public",
+    "duration": "0:01:15"
+  },
+  {
+    "title": "Registering to vote: what you need to know",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4kHObDLFHJ8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4kHObDLFHJ8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4kHObDLFHJ8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4kHObDLFHJ8",
+    "publishedAt": "2026-04-18T11:00:09Z",
+    "privacyStatus": "public",
+    "duration": "0:01:25"
+  },
+  {
+    "title": "[Webinar] AI Prototyping Beyond the Hype: Product Manager Edition",
+    "description": "Product teams are under pressure to “use AI” — but most AI prototypes never make it to production. In this webinar for Product Managers, we break down the AI prototyping landscape and show how teams move from one-off experiments to scalable product workflows.\n\nFor PMs who need AI to ship — not just impress. Watch to learn:\n\n• Why most AI prototypes get stuck as demos\n• The 3 categories of AI tools and where they break at scale\n• How design systems unlock production-ready prototyping\n• A simple adoption model for PMs to ship features faster\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on X 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wcG0ZWSB99U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wcG0ZWSB99U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wcG0ZWSB99U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wcG0ZWSB99U",
+    "publishedAt": "2026-04-17T07:49:26Z",
+    "privacyStatus": "public",
+    "duration": "1:02:11"
+  },
+  {
+    "title": "Selection Mode: Point to What You Want Changed | April 2026",
+    "description": "Stop describing element locations in words. With Selection Mode, you can click directly on any element in your Supernova prototype, annotate it, and send precise changes to the AI.\n \nWhat's new:\n👉​ Click elements directly in your prototype\n​📝 ​Annotate what you want changed\n📚​ Stack multiple annotations before sending\n🤖 AI gets exact element paths for accurate changes\n\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ieN_Qvv9Uxg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ieN_Qvv9Uxg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ieN_Qvv9Uxg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ieN_Qvv9Uxg",
+    "publishedAt": "2026-04-07T12:37:11Z",
+    "privacyStatus": "public",
+    "duration": "0:01:13"
+  },
+  {
+    "title": "The latest UK travel rules",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LG5fsjayFAA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LG5fsjayFAA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LG5fsjayFAA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LG5fsjayFAA",
+    "publishedAt": "2026-04-05T11:00:27Z",
+    "privacyStatus": "public",
+    "duration": "0:01:42"
+  },
+  {
+    "title": "Connect your design system to AI tools using zeroheight remote MCP",
+    "description": "Learn how to connect your zeroheight design system to ChatGPT and Claude Code using the remote MCP server — and how to share access with your whole team.\n\nLearn more:\n→ zeroheight MCP overview: https://help.zeroheight.com/hc/en-us/articles/48004395674011-zeroheight-MCP-overview\n→ Set up the remote MCP server: https://help.zeroheight.com/hc/en-us/articles/43737291730331-Set-up-the-remote-MCP-server\n→ Connect your AI coding tool to a zeroheight design system: https://help.zeroheight.com/hc/en-us/articles/48004792583195-Connect-your-AI-tool-to-a-zeroheight-design-system\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/u5vpqx8eHOA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/u5vpqx8eHOA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/u5vpqx8eHOA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=u5vpqx8eHOA",
+    "publishedAt": "2026-03-20T16:39:19Z",
+    "privacyStatus": "public",
+    "duration": "0:07:55"
+  },
+  {
+    "title": "Code containers in the Design system platform | February 2026",
+    "description": "📦 Introducing Code Containers in Supernova's Design System Platform!\n\nManage and track all your uploaded code containers in one centralized location. This new read-only view gives design system teams complete visibility into their prototyping infrastructure—see all container versions, connected contexts, and dependencies at a glance.\n\nWhat's New:\n✨ Centralized list of all uploaded code containers\n📊 Version history tracking for each container\n🔗 View shared contexts using specific containers\n🎯 New \"Portal Create\" section in navigation\n👁️ Clear overview of components, dependencies & configurations\n\nComing soon: Full content visibility showing components, templates, and patterns inside each container!\n\nNote: This is Enterprise feature - contact us to learn more https://www.supernova.io/request-a-demo\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ASIWsvvKnns/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ASIWsvvKnns/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ASIWsvvKnns/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ASIWsvvKnns",
+    "publishedAt": "2026-03-16T15:28:09Z",
+    "privacyStatus": "public",
+    "duration": "0:02:59"
+  },
+  {
+    "title": "How to Choose the Right AI Coding Tool (It's Not About Hype)",
+    "description": "Not all vibe-coding platforms are built for the same job. The best tool depends on what you're building and where you're building it—not what's trending.\n\nQuick Guide:\n🔹 Technical teams working in existing codebases → Cursor or Claude\n🔹 Rapid prototyping new projects from scratch → Lovable or v0\n🔹 Evolving products with established design systems → Supernova\n\nThe Key Insight:\nIn established companies, the challenge isn't generating something that looks good. It's generating something that actually fits your real product context. The moment you have to say \"ignore the UI, focus on the idea,\" you've already lost significant value.\n\nChoose your platform based on your environment, your design system, and your team's needs and not the hype cycle.\n\n0:00 - Why another vibe-coding platform?\n0:33 - The problem with generic AI coding tools\n1:01 - How Supernova is different\n1:30 - Grounded in your design system\n2:00 - Faster handoff to engineers\n2:35 - Supernova vs Cursor/Claude vs Lovable/v0\n3:08 - Who should use what tool\n3:39 - Try Supernova\n----------\nLearn more about Supernova 👉 https://supernova.io\nFollow Supernova on Twitter 👉  https://twitter.com/supernova_io\nFollow Supernova on LinkedIn 👉 https://www.linkedin.com/company/supernova-io/\nJoin the Supernova Friends Slack 👉 https://bit.ly/3Pe84Mh",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VRiOxLsQ2Fo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VRiOxLsQ2Fo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VRiOxLsQ2Fo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=VRiOxLsQ2Fo",
+    "publishedAt": "2026-03-16T10:00:32Z",
+    "privacyStatus": "public",
+    "duration": "0:04:06"
+  },
+  {
+    "title": "Have you claimed your Child Trust Fund yet?",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OAsyEJ9BnLQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OAsyEJ9BnLQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OAsyEJ9BnLQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=OAsyEJ9BnLQ",
+    "publishedAt": "2026-03-11T12:00:47Z",
+    "privacyStatus": "public",
+    "duration": "0:01:09"
+  },
+  {
+    "title": "Luis Ouriach - How are design systems changing?",
+    "description": "Today's episode is with Luis Ouriach (https://x.com/disco_lu) whose role as a designer advocate at Figma means he's constantly helping teams navigate this rapidly changing landscape... especially when it comes to design systems.\nSo we're going to do a deep dive into the trends he's noticing and what it all means for designers.\n\nSome highlights:\n\n- How design systems are changing with AI\n- Luis’s ideas around agentic design systems\n- Pitfalls to avoid when adopting AI with your team\n- What trends we can ignore vs. what is really important\n- Luis’s journey as a builder and his career plan moving forward\n- What Figma's new integration with Claude and Codex unlocks\n\nLuis’s agentic design systems article:  https://medium.com/@disco_lu/building-agentic-design-systems-the-future-of-ai-enhanced-design-6ad0470cf1e3\n\nDive is where the best designers never stop learning 🤿\n\n🌐 dive.club\n🐦 twitter.com/joindiveclub\n\nNow you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪\n\nChapters\n0:00 Intro\n1:11 What's happening in design systems\n6:59 What Luis is seeing in today's landscape\n14:05 Why we shouldn't say \"design system\"\n23:58 The gap between enterprise and startups\n27:21 What the Figma MCP unlocks\n37:27 Luis's journey with AI\n44:22 How Luis thinks about his career moving forward",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Pn2G7JhxNKc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Pn2G7JhxNKc",
+    "publishedAt": "2026-03-10T12:17:51Z",
+    "privacyStatus": "public",
+    "duration": "0:55:11"
+  },
+  {
     "title": "AI-powered design token linting with zeroheight MCP | Demo",
     "description": "We just shipped MCP token linting tools for zeroheight — and they change how you keep AI-generated code aligned with your design system.\n\nInstead of manually hunting for hard-coded values like `#F03E3E` or `16px`, you can now lint your code directly against your token sets in zeroheight and get suggested replacements instantly — or auto-apply them.\n\n🔍 What it does:\n• Scans code for hard-coded colors and spacing values\n• Compares them against your linked zeroheight token sets\n• Flags violations with the closest matching token\n• Auto-applies fixes before you merge\n\n⚙️ How to set it up:\n1. Go to Styleguide Settings → MCP and Markdown\n2. Link one or more token sets\n3. In your MCP client (e.g. Cursor), ask it to \"lint this code using zeroheight\"\n\nThis helps to close the loop on AI-generated code: generate → lint → fix → ship.\n\n📖 Learn more: https://help.zeroheight.com/hc/en-us/articles/43780251357979-Using-the-remote-zeroheight-MCP-server\n\n----\n\nzeroheight: https://bit.ly/3DEvORN\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
