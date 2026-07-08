@@ -51,7 +51,13 @@ test.describe("smoke: built pages and internal links", () => {
 
     test(`internal links on ${urlPath}`, async ({ request, baseURL }) => {
       const htmlContent = fs.readFileSync(file, "utf-8");
-      const dom = new JSDOM(htmlContent);
+      // Strip <style> blocks before parsing: Astro emits native CSS nesting
+      // (e.g. `.media-link { img { ... } }`) which real browsers support but
+      // jsdom's CSS parser (cssom) can't handle, throwing "Could not parse
+      // CSS stylesheet" and aborting JSDOM construction. We only need the
+      // anchor tags here, so stylesheets are irrelevant to this check.
+      const htmlWithoutStyles = htmlContent.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "");
+      const dom = new JSDOM(htmlWithoutStyles);
       const anchors = Array.from(dom.window.document.querySelectorAll("a"))
         .map((anchor) => anchor.getAttribute("href"))
         .filter((href) => href && href.startsWith("/"));
