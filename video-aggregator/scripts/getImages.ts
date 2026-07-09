@@ -1,3 +1,19 @@
+// getImages.ts
+//
+// Converted to TypeScript in Phase 4 - see the accompanying ADR. Function
+// signatures are typed; the `data` object parsed from each file's
+// frontmatter is left as `any` (gray-matter's `matter()` call is itself
+// untyped, via the same plain require() pattern used throughout this
+// conversion) rather than typed against Frontmatter and cast at every
+// property access. This file's whole job is dynamically reading, mutating,
+// and rewriting YAML frontmatter across three different content shapes
+// (show/episode/media) with the same code paths - fighting that with casts
+// at every `data.image`/`data.localImages` access would add noise without
+// catching real bugs, unlike updateMarkdownFile below where `data` really
+// is just "some object" being serialized generically.
+
+import type { Frontmatter } from "./types";
+
 const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
@@ -13,7 +29,11 @@ const folderPaths = [
 ];
 
 // Helper function to download an image with retries
-async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
+async function downloadImageWithRetry(
+  url: string,
+  outputFilePath: string,
+  retryCount: number = 0,
+): Promise<void> {
   try {
    // console.log(`Downloading: ${url}`);
     await downloadImage(url, outputFilePath);
@@ -29,22 +49,22 @@ async function downloadImageWithRetry(url, outputFilePath, retryCount = 0) {
 }
 
 // Helper function to download an image
-function downloadImage(url, outputFilePath) {
+function downloadImage(url: string, outputFilePath: string): Promise<void> {
   return axios({
     method: "get",
     url,
     responseType: "stream",
-  }).then((response) => {
-    return new Promise((resolve, reject) => {
+  }).then((response: any) => {
+    return new Promise<void>((resolve, reject) => {
       const stream = response.data.pipe(fs.createWriteStream(outputFilePath));
       stream.on("finish", () => resolve());
-      stream.on("error", (error) => reject(error));
+      stream.on("error", (error: any) => reject(error));
     });
   });
 }
 
 // Function to process show Markdown files
-async function processShowMarkdownFile(filePath) {
+async function processShowMarkdownFile(filePath: string): Promise<void> {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
@@ -69,7 +89,7 @@ async function processShowMarkdownFile(filePath) {
       data.localImages = true; // Mark as locally handled
 
       updateMarkdownFile(filePath, data, content);
-    } catch (err) {
+    } catch (err: any) {
       // Download failed after retries. Astro's image() schema resolves this
       // field as a local file path at build time and throws a fatal error
       // if it can't be resolved - so we must not point it at a file that
@@ -87,7 +107,7 @@ async function processShowMarkdownFile(filePath) {
 }
 
 // Function to process episode Markdown files
-async function processEpisodeMarkdownFile(filePath) {
+async function processEpisodeMarkdownFile(filePath: string): Promise<void> {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
@@ -112,7 +132,7 @@ async function processEpisodeMarkdownFile(filePath) {
       data.localImages = true;
 
       updateMarkdownFile(filePath, data, content);
-    } catch (err) {
+    } catch (err: any) {
       // Fallback to the show's image if the episode-specific download
       // fails. Only use it if the show's poster.jpg genuinely exists on
       // disk - otherwise this trades one broken reference for another (e.g.
@@ -143,12 +163,12 @@ async function processEpisodeMarkdownFile(filePath) {
     // Just mark as processed if it references a show image
     if (data.image && (data.image.startsWith('../show/') || data.showSlug)) {
       data.localImages = true;
-      
+
       // Ensure the image path is correctly formatted
       if (data.showSlug && !data.image.startsWith('../show/')) {
         data.image = `../show/${data.showSlug}/poster.jpg`;
       }
-      
+
       updateMarkdownFile(filePath, data, content);
       console.log(`Episode references show image: ${data.image}`);
     }
@@ -156,7 +176,7 @@ async function processEpisodeMarkdownFile(filePath) {
 }
 
 // Function to process the Markdown file with error handling and delays (legacy support)
-async function processMarkdownFile(filePath) {
+async function processMarkdownFile(filePath: string): Promise<void> {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
@@ -190,7 +210,7 @@ async function processMarkdownFile(filePath) {
       data.localImages = true; // Mark as locally handled
 
       updateMarkdownFile(filePath, data, content);
-    } catch (err) {
+    } catch (err: any) {
       // Download failed after retries. Astro's image() schema throws a
       // fatal build error if this field can't be resolved to a real local
       // file, so we must not point it at a nonexistent placeholder - remove
@@ -216,7 +236,7 @@ async function processMarkdownFile(filePath) {
         data.poster = `./${newPosterFileName}`;
         data.localImages = true;
         updateMarkdownFile(filePath, data, content);
-      } catch (err) {
+      } catch (err: any) {
         console.error(
           `Error downloading image for poster fallback "${data.image}": ${err.message}. Leaving image unset for retry on next run.`
         );
@@ -230,12 +250,12 @@ async function processMarkdownFile(filePath) {
 }
 
 // Helper function to introduce a delay
-function delay(ms) {
+function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Function to update the Markdown file with new front matter and content
-function updateMarkdownFile(filePath, data, content) {
+function updateMarkdownFile(filePath: string, data: Frontmatter, content: string): void {
   const updatedFrontMatter = Object.entries(data)
     .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
     .join("\n");
@@ -245,7 +265,7 @@ function updateMarkdownFile(filePath, data, content) {
 }
 
 // Function to recursively process Markdown files in a directory
-async function processMarkdownFiles(directory) {
+async function processMarkdownFiles(directory: string): Promise<void> {
   const files = fs.readdirSync(directory);
 
   for (const file of files) {
@@ -261,7 +281,7 @@ async function processMarkdownFiles(directory) {
 }
 
 // Process shows first, then episodes
-async function processInOrder() {
+async function processInOrder(): Promise<void> {
   console.log("Processing show images first...");
   const showsPath = path.join(__dirname, "../../src/content/show/");
   if (fs.existsSync(showsPath)) {
@@ -282,7 +302,7 @@ async function processInOrder() {
     if (folderPath.includes("/show/") || folderPath.includes("/podcast/")) {
       continue; // Already processed above
     }
-    
+
     if (fs.existsSync(folderPath)) {
       // console.log(`Processing files in: ${folderPath}`);
       await processMarkdownFiles(folderPath);

@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "fs";
 import os from "os";
 import path from "path";
-import shared from "../../../video-aggregator/scripts/shared.js";
+import shared from "../../../video-aggregator/scripts/shared.ts";
 
 const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl } = shared;
 

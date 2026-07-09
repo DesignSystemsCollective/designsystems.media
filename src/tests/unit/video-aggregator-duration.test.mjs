@@ -1,8 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import shared from "../../../video-aggregator/scripts/shared.js";
-import youtube from "../../../video-aggregator/scripts/youtube.js";
-import podcast from "../../../video-aggregator/scripts/podcast.js";
+import shared from "../../../video-aggregator/scripts/shared.ts";
+import youtube from "../../../video-aggregator/scripts/youtube.ts";
+import podcast from "../../../video-aggregator/scripts/podcast.ts";
 
 const { parseISO8601DurationToSeconds, formatSecondsAsDuration } = shared;
 const { formatDuration: formatYoutubeDuration, calculateTotalSeconds } = youtube;
