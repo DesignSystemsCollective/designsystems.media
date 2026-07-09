@@ -13,7 +13,10 @@ export default defineConfig({
     mdx(),
     sitemap({
       filter(page) {
-        return !/video/.test(page);
+        // /dev/ - internal-only pages (e.g. the visual-regression card
+        // fixture route added in Phase 6a) that should never be indexed
+        // or listed.
+        return !/video/.test(page) && !/\/dev\//.test(page);
       },
     }),
     pagefind(),
