@@ -301,14 +301,29 @@ interface FeedResult {
 // Data processors
 const dataProcessors = {
 
+// getPodcastByFeedUrl/searchPodcastByTitle/getTrendingPodcasts already catch
+// their own errors and return `showData: null` rather than throwing (a bad
+// feed URL, missing API credentials, network failure, or a search/feed
+// with no results all land here) - see podcast.ts. Previously nothing
+// downstream checked for that: `showManager.createShow(showData)` was
+// called unconditionally, and createShow's very first line reads
+// `feedData.id`, which throws on null and took down the *entire*
+// ingestion run over a single bad source. Fixed by skipping just that
+// source (logged clearly) instead of letting it crash everything else.
+
 async processFeedSource(
   source: PodcastFeedSource,
   showManager: ShowManager,
   importedEpisodes: Episode[],
-): Promise<FeedResult> {
+): Promise<FeedResult | null> {
   const { episodes, showData } = await getPodcastByFeedUrl(source.url, importedEpisodes);
 
-  if (showData && showData.title) {
+  if (!showData) {
+    console.warn(`Skipping feed ${source.url}: no show data returned (the fetch likely failed - see the error logged above, if any).`);
+    return null;
+  }
+
+  if (showData.title) {
     console.log(`🔄 ${showData.title}`);
   } else {
     console.log(`Fetching show data from feed ${source.url}... (no title found)`);
@@ -323,9 +338,15 @@ async processFeedSource(
     source: PodcastSource & { term: string },
     showManager: ShowManager,
     importedEpisodes: Episode[],
-  ): Promise<FeedResult> {
+  ): Promise<FeedResult | null> {
     console.log(`Searching for podcast: ${source.term}...`);
     const { episodes, showData } = await searchPodcastByTitle(source.term, importedEpisodes);
+
+    if (!showData) {
+      console.warn(`Skipping search "${source.term}": no podcast found, or the search failed.`);
+      return null;
+    }
+
     const show = showManager.createShow(showData);
     fileGenerators.generateShowMdx(show);
     return { episodes, show, source };
@@ -341,6 +362,15 @@ async processFeedSource(
 
     const results: FeedResult[] = [];
     for (const item of trendingData) {
+      // Defensive, same reasoning as above: getTrendingPodcasts builds
+      // showData directly from a real API response array today, so this
+      // shouldn't be null in practice, but skipping a bad entry here costs
+      // nothing and matches the guard used for the other two sources.
+      if (!item.showData) {
+        console.warn(`Skipping a trending result with no show data.`);
+        continue;
+      }
+
       const show = showManager.createShow(item.showData);
       fileGenerators.generateShowMdx(show);
       results.push({ episodes: item.episodes, show, source });
@@ -370,12 +400,19 @@ async function main(): Promise<void> {
       let results: FeedResult[] = [];
 
       switch (source.type) {
-        case "podcast-feed":
-          results = [await dataProcessors.processFeedSource(source, showManager, importedEpisodes)];
+        case "podcast-feed": {
+          // processFeedSource returns null for a source it skipped (see its
+          // own comment above) rather than throwing - filter that out
+          // instead of pushing a null into feedDataCollection.
+          const result = await dataProcessors.processFeedSource(source, showManager, importedEpisodes);
+          results = result ? [result] : [];
           break;
-        case "podcast-search":
-          results = [await dataProcessors.processSearchSource(source, showManager, importedEpisodes)];
+        }
+        case "podcast-search": {
+          const result = await dataProcessors.processSearchSource(source, showManager, importedEpisodes);
+          results = result ? [result] : [];
           break;
+        }
         case "trending":
           results = await dataProcessors.processTrendingSource(source, showManager, importedEpisodes);
           break;
