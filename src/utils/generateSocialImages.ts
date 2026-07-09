@@ -4,6 +4,7 @@ import sharp from "sharp";
 import { fileURLToPath } from "url";
 import { getVideoEntries } from "../lib/content-domain";
 import type { MediaEntry } from "../types/media";
+import { findFirstExistingImage } from "./findFirstExistingImage";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -168,19 +169,7 @@ export const runAllMosaics = async (): Promise<void> => {
 
     for (const post of recentPosts) {
       const baseDir = path.join(process.cwd(), "src/content/media", post.slug);
-      const imageFilenames = ["maxresdefault.jpg", "hqdefault.jpg", "poster.jpg"];
-      let foundImage: string | null = null;
-
-      for (const filename of imageFilenames) {
-        const imagePath = path.join(baseDir, filename);
-        try {
-          await fs.access(imagePath);
-          foundImage = imagePath;
-          break;
-        } catch (error) {
-          // Continue to next filename
-        }
-      }
+      const foundImage = await findFirstExistingImage(baseDir);
 
       if (foundImage) {
         validPostImages.push(foundImage);
