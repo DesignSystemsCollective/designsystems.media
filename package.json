@@ -44,7 +44,7 @@
     "dotenv": "^16.4.7",
     "fast-xml-parser": "^5.2.3",
     "framer-motion": "^12.16.0",
-    "googleapis": "^148.0.0",
+    "googleapis": "^173.0.0",
     "gray-matter": "^4.0.3",
     "he": "^1.2.0",
     "jsdom": "^26.1.0",
