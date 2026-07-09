@@ -9,6 +9,11 @@ const {
   searchPodcastByTitle,
   getTrendingPodcasts,
 } = require("./podcast");
+const {
+  loadJsonFile: sharedLoadJsonFile,
+  createDirectory: sharedCreateDirectory,
+  sanitizeTitle,
+} = require("./shared");
 
 // Configuration
 const CONFIG = {
@@ -43,9 +48,7 @@ turndownService.addRule('removeEmptyParagraphs', {
 
 // Utility functions
 const utils = {
-  loadJsonFile(filepath) {
-    return fs.existsSync(filepath) ? JSON.parse(fs.readFileSync(filepath, "utf-8")) : [];
-  },
+  loadJsonFile: sharedLoadJsonFile,
 
   convertHtmlToMarkdown(html) {
     if (!html || typeof html !== 'string') return '';
@@ -74,11 +77,7 @@ const utils = {
     return items.length > 0 ? items.map(item => `"${item}"`).join(', ') : '"Uncategorized"';
   },
 
-  createDirectory(dirPath) {
-    if (!fs.existsSync(dirPath)) {
-      fs.mkdirSync(dirPath, { recursive: true });
-    }
-  },
+  createDirectory: sharedCreateDirectory,
 
   removeDuplicatesById(items) {
     const seenIds = new Set();
@@ -209,7 +208,7 @@ ${show.description}
   },
 
   generateEpisodeMdx(episode, showSlug, predefinedSpeakers = null, showData = null) {
-    const sanitizedTitle = episode.title.replace(/[:"""#'''!?@_^%()]/gi, "");
+    const sanitizedTitle = sanitizeTitle(episode.title);
     const folderName = utils.generateSlug(sanitizedTitle).split("-").slice(0, 7).join("-");
     const folderPath = path.join(CONFIG.paths.episodesDir, folderName);
     const indexPath = path.join(folderPath, "index.mdx");

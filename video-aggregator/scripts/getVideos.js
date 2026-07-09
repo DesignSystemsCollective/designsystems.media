@@ -4,6 +4,7 @@ const path = require("path");
 const slugify = require("slugify");
 const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube");
 const { getAllVideosFromVimeo } = require("./vimeo");
+const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl } = require("./shared");
 
 // Constants
 const DATA_DIR = path.join(__dirname, "../data");
@@ -18,16 +19,10 @@ const SLUGIFY_OPTIONS = {
 };
 
 // Utility functions
-const loadJsonFile = (filePath) => {
-  return fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, "utf-8")) : [];
-};
-
 const getCurrentDate = () => {
   const today = new Date();
   return today.toISOString().split('T')[0]; // YYYY-MM-DD format
 };
-
-const sanitizeTitle = (title) => title.replace(/[:"""#'''!?@_^%()]/gi, "");
 
 const createFolderName = (title) => {
   const sanitized = sanitizeTitle(title);
@@ -37,28 +32,16 @@ const createFolderName = (title) => {
     .join("-");
 };
 
-const getPosterUrl = (thumbnails) => {
-  if (thumbnails.maxres?.url) {
-    return thumbnails.maxres.url;
-  }
-  if (thumbnails.high?.url) {
-    return thumbnails.high.url.replace("hqdefault.jpg", "maxresdefault.jpg");
-  }
-  return "";
-};
-
 const generateMdxFile = (video, folderPath) => {
   const indexPath = path.join(folderPath, "index.mdx");
-  
+
   // Skip if file already exists
   if (fs.existsSync(indexPath)) {
     return;
   }
 
   // Create folder if it doesn't exist
-  if (!fs.existsSync(folderPath)) {
-    fs.mkdirSync(folderPath, { recursive: true });
-  }
+  createDirectory(folderPath);
 
   const frontmatter = `---
 title: "${video.title}"

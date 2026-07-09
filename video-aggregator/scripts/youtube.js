@@ -1,6 +1,7 @@
 // youtube.js
 const he = require("he");
 const { google } = require("googleapis");
+const { getPosterUrl } = require("./shared");
 
 // Initialize the YouTube Data API client
 const youtube = google.youtube("v3");
@@ -82,21 +83,6 @@ function formatDuration(rawDuration) {
   )}:${String(seconds).padStart(2, "0")}`;
 
   return formattedDuration;
-}
-
-// Function to retrieve an appropriate poster URL (YouTube-specific)
-function getPosterUrl(thumbnails) {
-  // Check if maxres thumbnail is available, otherwise use high thumbnail
-  if (thumbnails.maxres && thumbnails.maxres.url) {
-    return thumbnails.maxres.url;
-  } else if (thumbnails.high && thumbnails.high.url) {
-    // Manually construct maxres URL from high URL
-    const highUrl = thumbnails.high.url;
-    return highUrl.replace("hqdefault.jpg", "maxresdefault.jpg");
-  } else {
-    // If no suitable thumbnail is found, return an empty string
-    return "";
-  }
 }
 
 // Function to retrieve all video data from a channel
