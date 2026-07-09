@@ -36,6 +36,7 @@ test("generateMdxFile writes the expected frontmatter shape", () => {
     },
     videoUrl: "https://youtube.com/watch?v=abc123",
     duration: "1:02:03",
+    durationSeconds: 3723,
     privacyStatus: "public",
     description: "A description.",
   };
@@ -50,6 +51,7 @@ test("generateMdxFile writes the expected frontmatter shape", () => {
   assert.equal(data.poster, "https://img/max.jpg");
   assert.equal(data.videoUrl, "https://youtube.com/watch?v=abc123");
   assert.equal(data.duration, "1:02:03");
+  assert.equal(data.durationSeconds, 3723);
   assert.equal(data.privacyStatus, "public");
   assert.equal(data.draft, true);
   assert.deepEqual(data.tags, ["Unsorted"]);
@@ -101,6 +103,30 @@ test("generateMdxFile does not overwrite an existing file", () => {
   const after = fs.readFileSync(path.join(folderPath, "index.mdx"), "utf-8");
 
   assert.equal(before, after);
+});
+
+test("generateMdxFile writes durationSeconds as null rather than crashing when absent (Vimeo case)", () => {
+  const tmp = mkTmpDir("dsm-video-no-duration-");
+  const folderPath = path.join(tmp, "vimeo-video");
+
+  // Mirrors what vimeo.js actually returns today: no durationSeconds field
+  // at all. gray-matter's YAML serializer throws on `undefined` (unlike
+  // JSON.stringify, which silently drops it), so this must not blow up.
+  const video = {
+    title: "A Vimeo Video",
+    publishedAt: "2025-01-01T00:00:00Z",
+    thumbnails: { high: { url: "https://img/hq.jpg" } },
+    videoUrl: "https://vimeo.com/123",
+    duration: "",
+    privacyStatus: "public",
+    description: "desc",
+  };
+
+  assert.doesNotThrow(() => generateMdxFile(video, folderPath));
+
+  const written = fs.readFileSync(path.join(folderPath, "index.mdx"), "utf-8");
+  const { data } = matter(written);
+  assert.equal(data.durationSeconds, null);
 });
 
 // getPodcasts.js: fileGenerators.generateShowMdx / generateEpisodeMdx

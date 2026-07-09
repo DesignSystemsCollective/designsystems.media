@@ -2,6 +2,7 @@
 const he = require("he");
 const axios = require("axios");
 const crypto = require('crypto'); // Ensure crypto is imported here
+const { formatSecondsAsDuration } = require("./shared");
 
 // Podcast Index API credentials (you'll need to get these from https://podcastindex.org/)
 const API_KEY = process.env.PODCAST_API_KEY;
@@ -13,17 +14,11 @@ function replaceQuotesWithFancyQuotes(title) {
   return fancyTitle;
 }
 
-// Function to format podcast duration (seconds to HH:MM:SS)
+// Thin wrapper kept under its original name so nothing importing
+// podcast.js's public API has to change. As of Phase 3 this delegates to
+// shared.js's canonical formatter instead of its own copy - see ADR 0004.
 function formatDuration(durationInSeconds) {
-  if (!durationInSeconds || durationInSeconds === 0) {
-    return "0:00:00";
-  }
-
-  const hours = Math.floor(durationInSeconds / 3600);
-  const minutes = Math.floor((durationInSeconds % 3600) / 60);
-  const seconds = durationInSeconds % 60;
-
-  return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  return formatSecondsAsDuration(durationInSeconds);
 }
 
 // Function to get podcast artwork URL (already good, but keeping for completeness)

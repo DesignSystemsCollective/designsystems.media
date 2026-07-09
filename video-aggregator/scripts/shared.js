@@ -65,10 +65,60 @@ function writeContentFile(frontmatter, body = "") {
   return matter.stringify(body, frontmatter);
 }
 
+// Parses an ISO 8601 duration string (e.g. "PT1H2M3S", as returned by the
+// YouTube Data API) into total seconds. Canonical parser - previously
+// duplicated as two independent implementations inside youtube.js itself:
+// calculateTotalSeconds, and a second regex-based parse buried inside
+// formatDuration that never called calculateTotalSeconds at all (see
+// ADR 0004).
+function parseISO8601DurationToSeconds(rawDuration) {
+  if (!rawDuration || typeof rawDuration !== "string") {
+    return 0;
+  }
+
+  // Live streams, premieres, or still-processing videos report one of
+  // these rather than a real duration.
+  if (rawDuration === "P0D" || rawDuration === "PT0S" || rawDuration === "PT") {
+    return 0;
+  }
+
+  // Day-only durations (e.g. "P2D") - rare, but the API can return them.
+  const daysMatch = rawDuration.match(/^P(\d+)D$/);
+  if (daysMatch) {
+    return parseInt(daysMatch[1], 10) * 24 * 60 * 60;
+  }
+
+  const hours = parseInt(rawDuration.match(/(\d+)H/)?.[1] || 0, 10);
+  const minutes = parseInt(rawDuration.match(/(\d+)M/)?.[1] || 0, 10);
+  const seconds = parseInt(rawDuration.match(/(\d+)S/)?.[1] || 0, 10);
+  return hours * 3600 + minutes * 60 + seconds;
+}
+
+// Formats a total-seconds duration as "H:MM:SS". Canonical formatter -
+// previously duplicated as youtube.js's own ISO-8601-parsing formatDuration
+// and podcast.js's raw-seconds formatDuration (see ADR 0004). Both
+// produced identical output for every normal input; the one deliberate
+// behavior change from unifying them is documented in the ADR (day-only
+// ISO 8601 durations like "P2D" now format as their real duration, e.g.
+// "48:00:00", instead of youtube.js's old hardcoded "24:00:00" placeholder).
+function formatSecondsAsDuration(totalSeconds) {
+  if (!totalSeconds || totalSeconds <= 0) {
+    return "0:00:00";
+  }
+
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = Math.floor(totalSeconds % 60);
+
+  return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
 module.exports = {
   loadJsonFile,
   createDirectory,
   sanitizeTitle,
   getPosterUrl,
   writeContentFile,
+  parseISO8601DurationToSeconds,
+  formatSecondsAsDuration,
 };

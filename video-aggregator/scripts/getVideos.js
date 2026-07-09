@@ -54,6 +54,11 @@ const generateMdxFile = (video, folderPath) => {
     tags: ["Unsorted"],
     categories: ["Video"],
     duration: video.duration,
+    // gray-matter's YAML serializer throws on `undefined` (unlike
+    // JSON.stringify, which silently drops it) - durationSeconds is
+    // undefined for Vimeo videos and any video where the source API never
+    // returned a duration, so this must be a real value, not undefined.
+    durationSeconds: video.durationSeconds ?? null,
     privacyStatus: video.privacyStatus,
     draft: true,
     speakers: ["Unsorted"],
