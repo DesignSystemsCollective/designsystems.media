@@ -1,7 +1,11 @@
 // youtube.js
 const he = require("he");
 const { google } = require("googleapis");
-const { getPosterUrl } = require("./shared");
+const {
+  getPosterUrl,
+  parseISO8601DurationToSeconds,
+  formatSecondsAsDuration,
+} = require("./shared");
 
 // Initialize the YouTube Data API client
 const youtube = google.youtube("v3");
@@ -16,73 +20,27 @@ function replaceQuotesWithFancyQuotes(title) {
   return fancyTitle;
 }
 
-// Also update the totalSeconds calculation in your existing code
+// Thin wrappers kept under their original names so nothing importing
+// youtube.js's public API has to change. As of Phase 3 both delegate to
+// shared.js's canonical parser/formatter instead of each maintaining an
+// independent ISO 8601 parse - see ADR 0004.
 function calculateTotalSeconds(rawDuration) {
-  if (!rawDuration || typeof rawDuration !== 'string') {
-    return 0;
-  }
-
-  // Handle special cases
-  if (rawDuration === 'P0D' || rawDuration === 'PT0S' || rawDuration === 'PT') {
-    return 0; // Treat as 0 seconds for filtering purposes
-  }
-
-  // Handle P[n]D format (days only)
-  const daysMatch = rawDuration.match(/^P(\d+)D$/);
-  if (daysMatch) {
-    const days = parseInt(daysMatch[1], 10);
-    return days * 24 * 60 * 60; // Convert days to seconds
-  }
-
-  const hours = parseInt(rawDuration.match(/(\d+)H/)?.[1] || 0, 10);
-  const minutes = parseInt(rawDuration.match(/(\d+)M/)?.[1] || 0, 10);
-  const seconds = parseInt(rawDuration.match(/(\d+)S/)?.[1] || 0, 10);
-  
-  return hours * 3600 + minutes * 60 + seconds;
+  return parseISO8601DurationToSeconds(rawDuration);
 }
 
-// Function to format video duration
 function formatDuration(rawDuration) {
-  // Safety check for null/undefined input
-  if (!rawDuration || typeof rawDuration !== 'string') {
-    console.warn('Invalid duration format:', rawDuration);
-    return '0:00:00';
-  }
+  return formatSecondsAsDuration(parseISO8601DurationToSeconds(rawDuration));
+}
 
-  // Handle special cases
-  if (rawDuration === 'P0D' || rawDuration === 'PT0S' || rawDuration === 'PT') {
-    // This is likely a live stream, premiere, or video still processing
-    console.log('Duration indicates live/processing video:', rawDuration);
-    return '0:00:00';
-  }
-
-  // Handle P[n]D format (days only - rare but possible)
-  if (rawDuration.match(/^P\d+D$/)) {
-    console.log('Duration in days format, treating as long video:', rawDuration);
-    return '24:00:00'; // Placeholder for very long content
-  }
-
-  // Extract hours, minutes, and seconds from the raw duration
-  // More robust regex that handles edge cases
-  const match = rawDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-  
-  // If no match, return default duration
-  if (!match) {
-    console.warn('Could not parse duration:', rawDuration);
-    return '0:00:00';
-  }
-
-  const hours = match[1] ? parseInt(match[1], 10) : 0;
-  const minutes = match[2] ? parseInt(match[2], 10) : 0;
-  const seconds = match[3] ? parseInt(match[3], 10) : 0;
-
-  // Format the duration as "HH:MM:SS"
-  const formattedDuration = `${hours}:${String(minutes).padStart(
-    2,
-    "0"
-  )}:${String(seconds).padStart(2, "0")}`;
-
-  return formattedDuration;
+// Computes both the display string and canonical seconds for a video's raw
+// ISO 8601 duration in one place - previously this same block (format +
+// calculate + shorts check) was copy-pasted between
+// getAllVideosFromChannel and getAllVideosFromPlaylist below.
+function applyDuration(videoData, rawDuration) {
+  const durationSeconds = parseISO8601DurationToSeconds(rawDuration);
+  videoData.duration = formatSecondsAsDuration(durationSeconds);
+  videoData.durationSeconds = durationSeconds;
+  return durationSeconds;
 }
 
 // Function to retrieve all video data from a channel
@@ -149,12 +107,8 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
           }
 
           if (contentDetails && contentDetails.duration) {
-            // Extract and format the duration
-            const rawDuration = contentDetails.duration;
-            const formattedDuration = formatDuration(rawDuration);
-            videoData.duration = formattedDuration;
+            const totalSeconds = applyDuration(videoData, contentDetails.duration);
             // Skip Shorts (videos 60 seconds or shorter)
-            const totalSeconds = calculateTotalSeconds(rawDuration);
             if (totalSeconds <= 60) {
               continue; // Skip shorts
             }
@@ -231,12 +185,8 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             videoData.description = videoDetails.description;
           }
           if (contentDetails && contentDetails.duration) {
-            // Extract and format the duration
-            const rawDuration = contentDetails.duration;
-            const formattedDuration = formatDuration(rawDuration);
-            videoData.duration = formattedDuration;
+            const totalSeconds = applyDuration(videoData, contentDetails.duration);
             // Skip Shorts (videos 60 seconds or shorter)
-            const totalSeconds = calculateTotalSeconds(rawDuration);
             if (totalSeconds <= 60) {
               continue; // Skip shorts
             }
