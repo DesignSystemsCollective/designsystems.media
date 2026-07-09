@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import fs from "fs";
 import os from "os";
 import path from "path";
+import matter from "gray-matter";
 import getVideos from "../../../video-aggregator/scripts/getVideos.js";
 import getPodcasts from "../../../video-aggregator/scripts/getPodcasts.js";
 
@@ -12,6 +13,13 @@ const { CONFIG, fileGenerators } = getPodcasts;
 function mkTmpDir(prefix) {
   return fs.mkdtempSync(path.join(os.tmpdir(), prefix));
 }
+
+// As of Phase 2, frontmatter is built via shared.js's writeContentFile
+// (gray-matter's stringify) instead of hand-rolled template literals, so
+// these tests parse the written file back with gray-matter and assert on
+// the resulting data rather than matching exact YAML text - the whole
+// point of the fix is that arbitrary strings round-trip correctly
+// regardless of the serializer's formatting choices.
 
 // getVideos.js: generateMdxFile
 
@@ -34,21 +42,22 @@ test("generateMdxFile writes the expected frontmatter shape", () => {
 
   generateMdxFile(video, folderPath);
   const written = fs.readFileSync(path.join(folderPath, "index.mdx"), "utf-8");
+  const { data, content } = matter(written);
 
-  assert.match(written, /^title: "Design Systems 101"$/m);
-  assert.match(written, /^publishedAt: "2025-01-01T00:00:00Z"$/m);
-  assert.match(written, /^image: "https:\/\/img\/hq\.jpg"$/m);
-  assert.match(written, /^poster: "https:\/\/img\/max\.jpg"$/m);
-  assert.match(written, /^videoUrl: "https:\/\/youtube\.com\/watch\?v=abc123"$/m);
-  assert.match(written, /^duration: "1:02:03"$/m);
-  assert.match(written, /^privacyStatus: "public"$/m);
-  assert.match(written, /^draft: true$/m);
-  assert.match(written, /^tags: \["Unsorted"\]$/m);
-  assert.match(written, /^speakers: \["Unsorted"\]$/m);
-  assert.ok(written.endsWith("A description.\n"));
+  assert.equal(data.title, "Design Systems 101");
+  assert.equal(data.publishedAt, "2025-01-01T00:00:00Z");
+  assert.equal(data.image, "https://img/hq.jpg");
+  assert.equal(data.poster, "https://img/max.jpg");
+  assert.equal(data.videoUrl, "https://youtube.com/watch?v=abc123");
+  assert.equal(data.duration, "1:02:03");
+  assert.equal(data.privacyStatus, "public");
+  assert.equal(data.draft, true);
+  assert.deepEqual(data.tags, ["Unsorted"]);
+  assert.deepEqual(data.speakers, ["Unsorted"]);
+  assert.equal(content.trim(), "A description.");
 });
 
-test("generateMdxFile: a title containing quotes produces broken YAML (known bug, pinned for Phase 2)", () => {
+test("generateMdxFile: a title containing quotes round-trips correctly (Phase 2 fix)", () => {
   const tmp = mkTmpDir("dsm-video-quote-");
   const folderPath = path.join(tmp, "quoted-video");
 
@@ -64,9 +73,11 @@ test("generateMdxFile: a title containing quotes produces broken YAML (known bug
 
   generateMdxFile(video, folderPath);
   const written = fs.readFileSync(path.join(folderPath, "index.mdx"), "utf-8");
+  const { data } = matter(written);
 
-  // The embedded quotes are NOT escaped - this line is invalid YAML today.
-  assert.match(written, /^title: "Design Systems: The "Right" Way"$/m);
+  // Previously this produced invalid YAML (unescaped embedded quotes).
+  // It must now round-trip to the exact original title.
+  assert.equal(data.title, `Design Systems: The "Right" Way`);
 });
 
 test("generateMdxFile does not overwrite an existing file", () => {
@@ -98,7 +109,7 @@ test("generateMdxFile does not overwrite an existing file", () => {
 // than accepting a path argument, so tests redirect CONFIG.paths to a temp
 // directory before calling them.
 
-test("generateShowMdx escapes the description but not the title (pinning the inconsistency)", () => {
+test("generateShowMdx: title and description both round-trip correctly (Phase 2 fix)", () => {
   const tmp = mkTmpDir("dsm-show-");
   CONFIG.paths.showsDir = path.join(tmp, "show");
 
@@ -128,16 +139,54 @@ test("generateShowMdx escapes the description but not the title (pinning the inc
     path.join(CONFIG.paths.showsDir, "my-show", "index.mdx"),
     "utf-8",
   );
+  const { data } = matter(written);
 
-  // description: escaped correctly
-  assert.match(written, /^description: "A show about \\"design\\"\."$/m);
-  // title: NOT escaped - broken YAML today, same bug class as getVideos.js
-  assert.match(written, /^title: "The "Best" Show"$/m);
-  assert.match(written, /^draft: false$/m);
-  assert.match(written, /^type: "show"$/m);
+  // Both were previously inconsistent - description was escaped by hand,
+  // title was not. Both must now round-trip to the original value.
+  assert.equal(data.title, `The "Best" Show`);
+  assert.equal(data.description, `A show about "design".`);
+  assert.deepEqual(data.speakers, ["Host Name"]);
+  assert.equal(data.draft, false);
+  assert.equal(data.type, "show");
 });
 
-test("generateEpisodeMdx: title is unescaped, HTML description converts to markdown, folder name is sanitized", () => {
+test("generateShowMdx falls back to Uncategorized for empty categories", () => {
+  const tmp = mkTmpDir("dsm-show-empty-cat-");
+  CONFIG.paths.showsDir = path.join(tmp, "show");
+
+  const show = {
+    slug: "no-category-show",
+    title: "No Category Show",
+    description: "Desc",
+    speakers: "Host",
+    feedUrl: "https://example.com/feed.xml",
+    websiteUrl: "https://example.com",
+    imageUrl: "https://example.com/art.jpg",
+    dateAdded: "2025-01-01",
+    lastUpdate: "2025-01-02T00:00:00.000Z",
+    categories: [],
+    language: "en",
+    explicit: false,
+    episodeCount: 0,
+    itunesId: null,
+    guid: "guid",
+    medium: "podcast",
+    dead: 0,
+    locked: 0,
+  };
+
+  fileGenerators.generateShowMdx(show);
+  const written = fs.readFileSync(
+    path.join(CONFIG.paths.showsDir, "no-category-show", "index.mdx"),
+    "utf-8",
+  );
+  const { data } = matter(written);
+
+  assert.deepEqual(data.categories, ["Uncategorized"]);
+  assert.equal(data.itunesId, null);
+});
+
+test("generateEpisodeMdx: title round-trips correctly, HTML description converts to markdown, folder name is sanitized", () => {
   const tmp = mkTmpDir("dsm-episode-");
   CONFIG.paths.episodesDir = path.join(tmp, "podcast");
 
@@ -164,15 +213,19 @@ test("generateEpisodeMdx: title is unescaped, HTML description converts to markd
     path.join(CONFIG.paths.episodesDir, folders[0], "index.mdx"),
     "utf-8",
   );
+  const { data, content } = matter(written);
 
-  // Title is not escaped - same known bug as show/video frontmatter.
-  assert.match(written, /^title: "Episode: The "Big" One"$/m);
-  assert.match(written, /^showSlug: "my-show"$/m);
-  assert.match(written, /^draft: false$/m);
+  // Previously unescaped - same known bug as show/video frontmatter.
+  assert.equal(data.title, `Episode: The "Big" One`);
+  assert.equal(data.showSlug, "my-show");
+  assert.equal(data.draft, false);
+  assert.equal(data.image, null);
+  assert.equal(data.season, null);
+  assert.equal(data.episode, null);
   // No predefined speakers -> falls back to [podcastTitle]
-  assert.match(written, /^speakers: \["The Best Show"\]$/m);
+  assert.deepEqual(data.speakers, ["The Best Show"]);
   // HTML description gets converted to Markdown via turndown
-  assert.ok(written.trim().endsWith("Episode about **design**."));
+  assert.equal(content.trim(), "Episode about **design**.");
 });
 
 test("generateEpisodeMdx does not overwrite an existing episode file", () => {

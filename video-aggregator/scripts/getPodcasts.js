@@ -13,6 +13,7 @@ const {
   loadJsonFile: sharedLoadJsonFile,
   createDirectory: sharedCreateDirectory,
   sanitizeTitle,
+  writeContentFile,
 } = require("./shared");
 
 // Configuration
@@ -175,35 +176,31 @@ const fileGenerators = {
     // Skip if file already exists
     if (fs.existsSync(indexPath)) return;
 
-    const categoriesYaml = utils.formatYamlArray(show.categories);
-    const content = `---
-title: "${show.title}"
-description: "${show.description.replace(/"/g, '\\"')}"
-speakers: [${show.speakers}]
-feedUrl: "${show.feedUrl}"
-websiteUrl: "${show.websiteUrl}"
-imageReference: "${show.imageUrl}"
-image: "${show.imageUrl}"
-dateAdded: "${show.dateAdded}"
-lastUpdate: "${show.lastUpdate}"
-categories: [${categoriesYaml}]
-language: "${show.language}"
-explicit: ${show.explicit}
-episodeCount: ${show.episodeCount}
-localImages: false
-itunesId: ${show.itunesId}
-guid: "${show.guid}"
-medium: "${show.medium}"
-dead: ${show.dead}
-locked: ${show.locked}
-type: "show"
-draft: false
----
+    const frontmatter = {
+      title: show.title,
+      description: show.description,
+      speakers: [show.speakers],
+      feedUrl: show.feedUrl,
+      websiteUrl: show.websiteUrl,
+      imageReference: show.imageUrl,
+      image: show.imageUrl,
+      dateAdded: show.dateAdded,
+      lastUpdate: show.lastUpdate,
+      categories: show.categories.length > 0 ? show.categories : ["Uncategorized"],
+      language: show.language,
+      explicit: show.explicit,
+      episodeCount: show.episodeCount,
+      localImages: false,
+      itunesId: show.itunesId,
+      guid: show.guid,
+      medium: show.medium,
+      dead: show.dead,
+      locked: show.locked,
+      type: "show",
+      draft: false,
+    };
 
-${show.description}
-`;
-
-    fs.writeFileSync(indexPath, content);
+    fs.writeFileSync(indexPath, writeContentFile(frontmatter, `\n${show.description}`));
     console.log(`Created show: ${show.title}`);
   },
 
@@ -228,43 +225,44 @@ ${show.description}
     if (episode.episodeImageUrl) {
       const isDifferentFromShow = !showData || showData.imageUrl !== episode.episodeImageUrl;
       const isDifferentFromPodcast = episode.episodeImageUrl !== episode.podcastImageUrl;
-      
+
       if (isDifferentFromShow && isDifferentFromPodcast) {
-        imageReference = `"${episode.episodeImageUrl}"`;
+        imageReference = episode.episodeImageUrl;
       }
     }
 
-    const speakersYaml = utils.formatYamlArray(speakers);
+    const speakersList = speakers.length > 0 ? speakers : ["Uncategorized"];
     const hasEpisodeImage = Boolean(imageReference);
 
-    const content = `---
-title: "${episode.title}"
-publishedAt: "${episode.publishedAt}"
-dateAdded: "${new Date().toISOString().split('T')[0]}"
-episodeUrl: "${episode.episodeUrl}"
-audioUrl: "${episode.audioUrl}"
-podcastTitle: "${episode.podcastTitle}"
-showSlug: "${showSlug}"
-image: ${imageReference || 'null'}
-localImages: false
-tags: []
-categories: ["Podcast"]
-duration: "${episode.duration}"
-durationSeconds: ${episode.durationSeconds}
-draft: false
-speakers: [${speakersYaml}]
-type: "podcast"
-season: ${episode.season || 'null'}
-episode: ${episode.episode || 'null'}
-explicit: ${episode.explicit}
-feedUrl: "${episode.feedUrl}"
-guid: "${episode.guid}"
-hasEpisodeImage: ${hasEpisodeImage}
----
-${utils.convertHtmlToMarkdown(episode.description)}
-`;
+    const frontmatter = {
+      title: episode.title,
+      publishedAt: episode.publishedAt,
+      dateAdded: new Date().toISOString().split('T')[0],
+      episodeUrl: episode.episodeUrl,
+      audioUrl: episode.audioUrl,
+      podcastTitle: episode.podcastTitle,
+      showSlug: showSlug,
+      image: imageReference,
+      localImages: false,
+      tags: [],
+      categories: ["Podcast"],
+      duration: episode.duration,
+      durationSeconds: episode.durationSeconds,
+      draft: false,
+      speakers: speakersList,
+      type: "podcast",
+      season: episode.season || null,
+      episode: episode.episode || null,
+      explicit: episode.explicit,
+      feedUrl: episode.feedUrl,
+      guid: episode.guid,
+      hasEpisodeImage: hasEpisodeImage,
+    };
 
-    fs.writeFileSync(indexPath, content);
+    fs.writeFileSync(
+      indexPath,
+      writeContentFile(frontmatter, utils.convertHtmlToMarkdown(episode.description)),
+    );
     console.log(`Created episode: ${episode.title}`);
   }
 };
