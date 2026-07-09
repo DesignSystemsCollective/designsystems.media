@@ -1,6 +1,11 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    // TypeScript 6.0 defaults `strict` to true when unset. Explicitly
+    // pinning it to false preserves today's type-checking behavior -
+    // adopting strict mode is a separate decision, not a side effect of
+    // this dependency bump. strictNullChecks stays on as before.
+    "strict": false,
     "strictNullChecks": true,
     "jsx": "react-jsx",
     "jsxImportSource": "react"
