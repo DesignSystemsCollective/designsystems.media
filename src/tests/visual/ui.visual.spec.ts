@@ -82,4 +82,17 @@ test.describe("visual regression coverage", () => {
       fullPage: true,
     });
   });
+
+  // Phase 6a: deterministic card fixtures (VideoCard/PodcastCard/ShowCard
+  // in both grid and list layout, hard-coded props - no live-content
+  // dependency). Deliberately unmasked, unlike the grid sections on
+  // routes above - see docs/adr/0007-visual-fixture-route.md for why the
+  // existing suite couldn't already cover this.
+  test("card visual fixtures", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.cardFixtures);
+
+    await expect(page).toHaveScreenshot("card-fixtures.png", {
+      fullPage: true,
+    });
+  });
 });

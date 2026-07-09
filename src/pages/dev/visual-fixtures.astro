@@ -1,0 +1,210 @@
+---
+// /dev/visual-fixtures/ - a deterministic fixture route for the card
+// components (VideoCard, PodcastCard, ShowCard), added in Phase 6a of the
+// refactor plan ahead of Phase 6's card de-duplication work.
+//
+// Every prop here is hard-coded, not sourced from a content collection:
+// no live video/episode/show can ever change this page's output, which is
+// the whole point - see docs/adr/0007-visual-fixture-route.md. Dates are
+// deliberately from a past year (not the current one) so formatDate's
+// "omit the year if it's the current year" behavior can never flip the
+// rendered string as time passes; the poster image is a small solid-color
+// JPG checked into src/assets/visual-fixtures/ specifically for this page,
+// imported the same way a real content entry's image() field would
+// resolve, so the cards render through their real <Image> code path
+// rather than a placeholder/broken-image state.
+//
+// Excluded from the sitemap (astro.config.mjs) and not linked from nav
+// (Header.astro's links are hand-written, not derived from the page tree),
+// with noindex set via Metadata's noindex prop as a second layer.
+//
+// One deliberate, narrow exception to "no live-content dependency": the
+// card components build their own <a href> from the slug/showSlug props
+// (e.g. VideoCard always links to `/video/${slug}/`), and the smoke suite
+// (pages.smoke.spec.js) makes a real request to every internal link on
+// every built page, failing on a 404. A fully-invented slug like
+// "fixture-video-one" would 404 and break smoke, not visual, coverage. So
+// the slugs below reuse the same three routes VISUAL_ROUTES already
+// hardcodes as stable fixtures elsewhere in this exact suite
+// (videoDetail/podcastDetail/showDetail) - only the *link target*
+// depends on real content; every visible prop (title, dates, duration,
+// image, speaker names) is still fully hard-coded.
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
+import VideoCard from "../../components/VideoCard.astro";
+import PodcastCard from "../../components/PodcastCard.astro";
+import ShowCard from "../../components/ShowCard.astro";
+import fixturePoster from "../../assets/visual-fixtures/fixture-poster.jpg";
+
+// Slugs deliberately reuse the same stable routes VISUAL_ROUTES hardcodes
+// (see comment above) so the cards' auto-generated links resolve for the
+// smoke suite. Every other field is invented/fixed.
+const REAL_VIDEO_SLUG = "clarity-2018-recap";
+const REAL_PODCAST_SLUG = "26-dominic-nguyen-storybook-and-chromatic";
+const REAL_SHOW_SLUG = "design-systems-podcast";
+
+const videoFixtures = [
+  {
+    title: "Fixture Video One",
+    publishedAt: "2024-03-15T00:00:00.000Z",
+    duration: "0:12:34",
+    slug: REAL_VIDEO_SLUG,
+  },
+  {
+    title: "Fixture Video Two: A Longer Title That Might Wrap Onto a Second Line",
+    publishedAt: "2024-06-01T00:00:00.000Z",
+    duration: "1:05:00",
+    slug: REAL_VIDEO_SLUG,
+  },
+];
+
+const podcastFixtures = [
+  {
+    title: "Fixture Episode One",
+    publishedAt: "2024-03-15T00:00:00.000Z",
+    duration: "0:45:00",
+    slug: REAL_PODCAST_SLUG,
+    showSlug: REAL_SHOW_SLUG,
+    podcastTitle: "Fixture Show",
+  },
+  {
+    title: "Fixture Episode Two: A Longer Title That Might Wrap Onto a Second Line",
+    publishedAt: "2024-06-01T00:00:00.000Z",
+    duration: "1:15:30",
+    slug: REAL_PODCAST_SLUG,
+    showSlug: REAL_SHOW_SLUG,
+    podcastTitle: "Fixture Show",
+  },
+];
+
+const showFixtures = [
+  {
+    title: "Fixture Show One",
+    slug: REAL_SHOW_SLUG,
+    episodeCount: 42,
+    speakers: ["Fixture Speaker"],
+    lastUpdate: "2024-03-15T00:00:00.000Z",
+  },
+  {
+    title: "Fixture Show Two: A Longer Title That Might Wrap Onto a Second Line",
+    slug: REAL_SHOW_SLUG,
+    episodeCount: 7,
+    speakers: ["Speaker One", "Speaker Two"],
+    lastUpdate: "2024-06-01T00:00:00.000Z",
+  },
+];
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title: "Visual fixtures (dev)", noindex: true }}>
+  <h1>Card visual fixtures</h1>
+  <p>
+    Deterministic, hard-coded card renders used by the visual regression
+    suite (<code>test:visual</code>). Not linked from navigation, excluded
+    from the sitemap. See docs/adr/0007-visual-fixture-route.md.
+  </p>
+
+  <h2>VideoCard - grid</h2>
+  <ResponsiveGrid gridType="grid">
+    {
+      videoFixtures.map((video) => (
+        <VideoCard
+          title={video.title}
+          poster={fixturePoster}
+          duration={video.duration}
+          slug={video.slug}
+          publishedAt={new Date(video.publishedAt)}
+          layoutType="grid"
+          loading="eager"
+        />
+      ))
+    }
+  </ResponsiveGrid>
+
+  <h2>VideoCard - list</h2>
+  <ResponsiveGrid gridType="list">
+    {
+      videoFixtures.map((video) => (
+        <VideoCard
+          title={video.title}
+          poster={fixturePoster}
+          duration={video.duration}
+          slug={video.slug}
+          publishedAt={new Date(video.publishedAt)}
+          layoutType="list"
+          loading="eager"
+        />
+      ))
+    }
+  </ResponsiveGrid>
+
+  <h2>PodcastCard - grid</h2>
+  <ResponsiveGrid gridType="grid" gridItemMinWidth="600px">
+    {
+      podcastFixtures.map((episode) => (
+        <PodcastCard
+          title={episode.title}
+          poster={fixturePoster}
+          image={fixturePoster}
+          hasEpisodeImage={true}
+          duration={episode.duration}
+          slug={episode.slug}
+          publishedAt={new Date(episode.publishedAt)}
+          showSlug={episode.showSlug}
+          podcastTitle={episode.podcastTitle}
+          layoutType="grid"
+          loading="eager"
+        />
+      ))
+    }
+  </ResponsiveGrid>
+
+  <h2>PodcastCard - list</h2>
+  <ResponsiveGrid gridType="list" gridItemMinWidth="600px">
+    {
+      podcastFixtures.map((episode) => (
+        <PodcastCard
+          title={episode.title}
+          poster={fixturePoster}
+          image={fixturePoster}
+          hasEpisodeImage={true}
+          duration={episode.duration}
+          slug={episode.slug}
+          publishedAt={new Date(episode.publishedAt)}
+          showSlug={episode.showSlug}
+          podcastTitle={episode.podcastTitle}
+          layoutType="list"
+          loading="eager"
+        />
+      ))
+    }
+  </ResponsiveGrid>
+
+  <h2>ShowCard</h2>
+  <p>
+    ShowCard has no list/grid variant - it renders one way everywhere it's
+    used (<code>ShowGrid.astro</code>), so it's only shown once here.
+  </p>
+  <ResponsiveGrid gridColumnCount={6} gridItemMinWidth="200px">
+    {
+      showFixtures.map((show) => (
+        <ShowCard
+          title={show.title}
+          image={fixturePoster}
+          slug={show.slug}
+          episodeCount={show.episodeCount}
+          speakers={show.speakers}
+          lastUpdate={show.lastUpdate}
+          loading="eager"
+        />
+      ))
+    }
+  </ResponsiveGrid>
+</BaseLayout>
+
+<style>
+  h1,
+  h2 {
+    padding: 0 1rem;
+  }
+</style>

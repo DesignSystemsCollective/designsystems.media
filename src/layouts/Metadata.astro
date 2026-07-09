@@ -14,6 +14,7 @@ export interface Props {
   description?: string;
   image?: string;
   canonicalURL?: string;
+  noindex?: boolean;
   video?: {
     title: string;
     description: string;
@@ -33,6 +34,7 @@ const {
     Astro.url.pathname.replace(/\/?$/, "/"),
     Astro.site,
   ).toString(),
+  noindex = false,
   video,
 } = Astro.props;
 
@@ -45,7 +47,7 @@ const metaDescription = dynamicDescription || description;
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="author" content="DesignSystems.media" />
-<meta name="robots" content="index, follow" />
+<meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
 
 <meta name="description" content={metaDescription} />
 
