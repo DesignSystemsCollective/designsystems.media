@@ -8,6 +8,7 @@
 // behavior change from what each caller had before.
 
 const fs = require("fs");
+const matter = require("gray-matter");
 
 // Reads and parses a JSON file, returning [] if it doesn't exist yet.
 // Previously duplicated as getVideos.js's loadJsonFile and
@@ -48,9 +49,26 @@ function getPosterUrl(thumbnails) {
   return "";
 }
 
+// Builds a `.mdx` file's full contents (YAML frontmatter + body) from a
+// plain data object, via gray-matter's stringify (already a project
+// dependency, previously only used for reading in getImages.js).
+//
+// Phase 2 of the refactor plan: replaces hand-built template literals like
+// `title: "${video.title}"` in getVideos.js/getPodcasts.js, which never
+// escaped embedded quotes and produced invalid YAML for any title
+// containing a `"` (see ADR 0003). Passing real JS values through a real
+// YAML serializer instead of string interpolation fixes that whole bug
+// class at once: strings are quoted/escaped correctly, and other types
+// (numbers, booleans, null, arrays) are emitted as proper YAML rather than
+// relying on each call site to format them by hand.
+function writeContentFile(frontmatter, body = "") {
+  return matter.stringify(body, frontmatter);
+}
+
 module.exports = {
   loadJsonFile,
   createDirectory,
   sanitizeTitle,
   getPosterUrl,
+  writeContentFile,
 };

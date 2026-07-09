@@ -4,7 +4,7 @@ const path = require("path");
 const slugify = require("slugify");
 const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube");
 const { getAllVideosFromVimeo } = require("./vimeo");
-const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl } = require("./shared");
+const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl, writeContentFile } = require("./shared");
 
 // Constants
 const DATA_DIR = path.join(__dirname, "../data");
@@ -43,25 +43,23 @@ const generateMdxFile = (video, folderPath) => {
   // Create folder if it doesn't exist
   createDirectory(folderPath);
 
-  const frontmatter = `---
-title: "${video.title}"
-publishedAt: "${video.publishedAt}"
-image: "${video.thumbnails.high.url}"
-dateAdded: "${getCurrentDate()}"
-poster: "${getPosterUrl(video.thumbnails)}"
-videoUrl: "${video.videoUrl}"
-localImages: false
-tags: ["Unsorted"]
-categories: ["Video"]
-duration: "${video.duration}"
-privacyStatus: "${video.privacyStatus}"
-draft: true
-speakers: ["Unsorted"]
----
-${video.description}
-`;
+  const frontmatter = {
+    title: video.title,
+    publishedAt: video.publishedAt,
+    image: video.thumbnails.high.url,
+    dateAdded: getCurrentDate(),
+    poster: getPosterUrl(video.thumbnails),
+    videoUrl: video.videoUrl,
+    localImages: false,
+    tags: ["Unsorted"],
+    categories: ["Video"],
+    duration: video.duration,
+    privacyStatus: video.privacyStatus,
+    draft: true,
+    speakers: ["Unsorted"],
+  };
 
-  fs.writeFileSync(indexPath, frontmatter);
+  fs.writeFileSync(indexPath, writeContentFile(frontmatter, video.description));
   console.log(`Created: ${sanitizeTitle(video.title)}`);
 };
 
