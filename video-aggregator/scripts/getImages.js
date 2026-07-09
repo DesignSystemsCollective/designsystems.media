@@ -70,12 +70,17 @@ async function processShowMarkdownFile(filePath) {
 
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      // Fallback in case of download error
-      data.image = `./hqdefault.jpg`;
+      // Download failed after retries. Astro's image() schema resolves this
+      // field as a local file path at build time and throws a fatal error
+      // if it can't be resolved - so we must not point it at a file that
+      // doesn't exist (as the old `./hqdefault.jpg` placeholder did).
+      // Instead, remove the field and leave localImages false so a future
+      // run retries the download.
       console.error(
-        `Error downloading show image "${data.image}": ${err.message}. Manually set as: ${data.image}`
+        `Error downloading show image "${data.image}": ${err.message}. Leaving image unset for retry on next run.`
       );
-      data.localImages = true; // Still mark as local even if using fallback
+      delete data.image;
+      data.localImages = false;
       updateMarkdownFile(filePath, data, content);
     }
   }
@@ -108,16 +113,28 @@ async function processEpisodeMarkdownFile(filePath) {
 
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      // Fallback to show image reference if episode image download fails
+      // Fallback to the show's image if the episode-specific download
+      // fails. Only use it if the show's poster.jpg genuinely exists on
+      // disk - otherwise this trades one broken reference for another (e.g.
+      // if the show's own image download also failed).
       console.error(`Error downloading episode image "${data.image}": ${err.message}. Falling back to show image.`);
-      
-      if (data.showSlug) {
-        data.image = `../show/${data.showSlug}/poster.jpg`;
+
+      const showPosterRelativePath = data.showSlug ? `../show/${data.showSlug}/poster.jpg` : null;
+      const showPosterAbsolutePath = showPosterRelativePath
+        ? path.join(path.dirname(filePath), showPosterRelativePath)
+        : null;
+
+      if (showPosterAbsolutePath && fs.existsSync(showPosterAbsolutePath)) {
+        data.image = showPosterRelativePath;
+        data.localImages = true;
       } else {
-        data.image = `./hqdefault.jpg`;
+        // No usable fallback. Astro's image() schema requires this field to
+        // resolve to a real local file when present, so we can't point it
+        // at a nonexistent placeholder - leave it unset for retry instead.
+        data.image = null;
+        data.localImages = false;
       }
-      
-      data.localImages = true;
+
       data.hasEpisodeImage = false; // Mark that we're not using episode-specific image
       updateMarkdownFile(filePath, data, content);
     }
@@ -174,13 +191,16 @@ async function processMarkdownFile(filePath) {
 
       updateMarkdownFile(filePath, data, content);
     } catch (err) {
-      // Fallback in case of download error for poster
-      data.image = `./hqdefault.jpg`; // You might also want a specific fallback for 'image'
-      data.poster = `./hqdefault.jpg`;
+      // Download failed after retries. Astro's image() schema throws a
+      // fatal build error if this field can't be resolved to a real local
+      // file, so we must not point it at a nonexistent placeholder - remove
+      // both fields and leave localImages false so a future run retries.
       console.error(
-        `Error downloading poster image "${data.poster}": ${err.message}. Manually set as: ${data.poster}`
+        `Error downloading poster image "${data.poster}": ${err.message}. Leaving image unset for retry on next run.`
       );
-      data.localImages = true; // Still mark as local even if using fallback
+      delete data.image;
+      delete data.poster;
+      data.localImages = false;
       updateMarkdownFile(filePath, data, content);
     }
   } else {
@@ -197,11 +217,12 @@ async function processMarkdownFile(filePath) {
         data.localImages = true;
         updateMarkdownFile(filePath, data, content);
       } catch (err) {
-        console.error(`Error downloading image for poster fallback "${data.image}": ${err.message}.`);
-        // Fallback for both if image download also fails
-        data.image = `./hqdefault.jpg`;
-        data.poster = `./hqdefault.jpg`;
-        data.localImages = true;
+        console.error(
+          `Error downloading image for poster fallback "${data.image}": ${err.message}. Leaving image unset for retry on next run.`
+        );
+        delete data.image;
+        delete data.poster;
+        data.localImages = false;
         updateMarkdownFile(filePath, data, content);
       }
     }
@@ -269,5 +290,15 @@ async function processInOrder() {
   }
 }
 
-// Run the processing in order
-processInOrder().catch(console.error);
+// Run the processing in order (only when executed directly, not when
+// required by tests)
+if (require.main === module) {
+  processInOrder().catch(console.error);
+}
+
+module.exports = {
+  processShowMarkdownFile,
+  processEpisodeMarkdownFile,
+  processMarkdownFile,
+  updateMarkdownFile,
+};
