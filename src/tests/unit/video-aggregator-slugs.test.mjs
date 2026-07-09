@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import getVideos from "../../../video-aggregator/scripts/getVideos.js";
-import getPodcasts from "../../../video-aggregator/scripts/getPodcasts.js";
+import getVideos from "../../../video-aggregator/scripts/getVideos.ts";
+import getPodcasts from "../../../video-aggregator/scripts/getPodcasts.ts";
 
 const { sanitizeTitle, createFolderName } = getVideos;
 const { utils } = getPodcasts;

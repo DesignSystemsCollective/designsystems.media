@@ -1,3 +1,9 @@
+// getPodcasts.ts
+//
+// Converted to TypeScript in Phase 4 - see the accompanying ADR.
+
+import type { Episode, PodcastSource, PodcastFeedSource, Show } from "./types";
+
 const path = require("path");
 require("dotenv").config({ path: path.join(__dirname, '../../.env') });
 
@@ -8,18 +14,22 @@ const {
   getPodcastByFeedUrl,
   searchPodcastByTitle,
   getTrendingPodcasts,
-} = require("./podcast");
+} = require("./podcast.ts");
 const {
   loadJsonFile: sharedLoadJsonFile,
   createDirectory: sharedCreateDirectory,
   sanitizeTitle,
   writeContentFile,
-} = require("./shared");
+} = require("./shared.ts");
 
 // Configuration
 const CONFIG = {
-  sources: require(path.join(__dirname, "../data/podcast-sources.json")),
-  ignored: require(path.join(__dirname, "../data/podcast-ignore.json")),
+  // `as` casts, not typed generics: these come from require()-ing JSON
+  // files directly, and require()'s return is untyped (`any`) regardless
+  // of what it's assigned to - same reasoning as getVideos.ts's
+  // loadJsonFile() casts.
+  sources: require(path.join(__dirname, "../data/podcast-sources.json")) as PodcastSource[],
+  ignored: require(path.join(__dirname, "../data/podcast-ignore.json")) as string[],
   paths: {
     episodes: path.join(__dirname, "../data/podcast/episodes.json"),
     shows: path.join(__dirname, "../data/podcast/shows.json"),
@@ -43,7 +53,7 @@ const turndownService = new TurndownService({
 
 // Remove empty paragraphs during conversion
 turndownService.addRule('removeEmptyParagraphs', {
-  filter: node => node.nodeName === 'P' && node.innerHTML.trim() === '',
+  filter: (node: any) => node.nodeName === 'P' && node.innerHTML.trim() === '',
   replacement: () => ''
 });
 
@@ -51,9 +61,12 @@ turndownService.addRule('removeEmptyParagraphs', {
 const utils = {
   loadJsonFile: sharedLoadJsonFile,
 
-  convertHtmlToMarkdown(html) {
+  // Parameter is `unknown`, not `string`: the guard on the next line is
+  // exactly the kind of defensive runtime check that's only meaningful if
+  // the type doesn't already rule out what it's checking for.
+  convertHtmlToMarkdown(html: unknown): string {
     if (!html || typeof html !== 'string') return '';
-    
+
     try {
       return turndownService.turndown(html)
         .replace(/\n\s*\n\s*\n/g, '\n\n')
@@ -64,24 +77,24 @@ const utils = {
         .replace(/&quot;/g, '"')
         .replace(/&#39;/g, "'")
         .trim();
-    } catch (error) {
+    } catch (error: any) {
       console.warn('Error converting HTML to markdown:', error.message);
       return html.replace(/<[^>]*>/g, '').trim();
     }
   },
 
-  generateSlug(title, maxLength = 50) {
+  generateSlug(title: string, maxLength: number = 50): string {
     return slugify(title, CONFIG.slugify).substring(0, maxLength);
   },
 
-  formatYamlArray(items) {
+  formatYamlArray(items: string[]): string {
     return items.length > 0 ? items.map(item => `"${item}"`).join(', ') : '"Uncategorized"';
   },
 
   createDirectory: sharedCreateDirectory,
 
-  removeDuplicatesById(items) {
-    const seenIds = new Set();
+  removeDuplicatesById<T extends { id?: unknown }>(items: T[]): T[] {
+    const seenIds = new Set<unknown>();
     return items.filter(item => {
       if (!item.id || seenIds.has(item.id)) {
         if (item.id && seenIds.has(item.id)) {
@@ -97,32 +110,37 @@ const utils = {
 
 // Show management
 class ShowManager {
-  constructor(existingShows = []) {
+  shows: Show[];
+  showsMap: Map<unknown, Show>;
+
+  constructor(existingShows: Show[] = []) {
     this.shows = [...existingShows];
-    this.showsMap = new Map(existingShows.map(show => [show.id, show]).filter(([id]) => id));
+    this.showsMap = new Map(
+      existingShows.map((show): [unknown, Show] => [show.id, show]).filter(([id]) => id),
+    );
   }
 
-  findExisting(feedData) {
+  findExisting(feedData: any): Show | undefined {
     // Check by ID first (most reliable)
     if (feedData.id && this.showsMap.has(feedData.id)) {
       return this.showsMap.get(feedData.id);
     }
-    
+
     // Fallback: check by feedUrl or slug
     const slug = utils.generateSlug(feedData.title);
-    return this.shows.find(show => 
+    return this.shows.find(show =>
       show.feedUrl === feedData.url || show.slug === slug
     );
   }
 
-  createShow(feedData) {
+  createShow(feedData: any): Show {
     const existing = this.findExisting(feedData);
     if (existing) {
       // console.log(`Show already exists: ${feedData.title} (ID: ${feedData.id || 'no ID'})`);
       return existing;
     }
 
-    const show = {
+    const show: Show = {
       id: feedData.id,
       slug: utils.generateSlug(feedData.title),
       title: feedData.title || '',
@@ -148,26 +166,26 @@ class ShowManager {
 
     console.log(`Creating new show: ${show.title} (ID: ${show.id || 'no ID'})`);
     this.shows.push(show);
-    
+
     if (show.id) {
       this.showsMap.set(show.id, show);
     }
-    
+
     return show;
   }
 
-  getAllShows() {
+  getAllShows(): Show[] {
     return this.shows;
   }
 
-  findBySlug(slug) {
+  findBySlug(slug: string): Show | undefined {
     return this.shows.find(show => show.slug === slug);
   }
 }
 
 // File generators
 const fileGenerators = {
-  generateShowMdx(show) {
+  generateShowMdx(show: Show): void {
     const folderPath = path.join(CONFIG.paths.showsDir, show.slug);
     const indexPath = path.join(folderPath, "index.mdx");
 
@@ -204,7 +222,12 @@ const fileGenerators = {
     console.log(`Created show: ${show.title}`);
   },
 
-  generateEpisodeMdx(episode, showSlug, predefinedSpeakers = null, showData = null) {
+  generateEpisodeMdx(
+    episode: Episode,
+    showSlug: string,
+    predefinedSpeakers: string[] | null = null,
+    showData: Show | null | undefined = null,
+  ): void {
     const sanitizedTitle = sanitizeTitle(episode.title);
     const folderName = utils.generateSlug(sanitizedTitle).split("-").slice(0, 7).join("-");
     const folderPath = path.join(CONFIG.paths.episodesDir, folderName);
@@ -216,12 +239,12 @@ const fileGenerators = {
     if (fs.existsSync(indexPath)) return;
 
     // Determine speakers
-    const speakers = predefinedSpeakers?.length > 0 
-      ? predefinedSpeakers 
+    const speakers = predefinedSpeakers && predefinedSpeakers.length > 0
+      ? predefinedSpeakers
       : [episode.podcastTitle || ""];
 
     // Determine image reference
-    let imageReference = null;
+    let imageReference: string | null = null;
     if (episode.episodeImageUrl) {
       const isDifferentFromShow = !showData || showData.imageUrl !== episode.episodeImageUrl;
       const isDifferentFromPodcast = episode.episodeImageUrl !== episode.podcastImageUrl;
@@ -267,24 +290,40 @@ const fileGenerators = {
   }
 };
 
+// A processed source's episodes, plus the show they belong to and the
+// source config that produced them.
+interface FeedResult {
+  episodes: Episode[];
+  show: Show;
+  source: PodcastSource;
+}
+
 // Data processors
 const dataProcessors = {
-  
-async processFeedSource(source, showManager, importedEpisodes) {
+
+async processFeedSource(
+  source: PodcastFeedSource,
+  showManager: ShowManager,
+  importedEpisodes: Episode[],
+): Promise<FeedResult> {
   const { episodes, showData } = await getPodcastByFeedUrl(source.url, importedEpisodes);
-  
+
   if (showData && showData.title) {
     console.log(`🔄 ${showData.title}`);
   } else {
     console.log(`Fetching show data from feed ${source.url}... (no title found)`);
   }
-  
+
   const show = showManager.createShow(showData);
   fileGenerators.generateShowMdx(show);
   return { episodes, show, source };
 },
 
-  async processSearchSource(source, showManager, importedEpisodes) {
+  async processSearchSource(
+    source: PodcastSource & { term: string },
+    showManager: ShowManager,
+    importedEpisodes: Episode[],
+  ): Promise<FeedResult> {
     console.log(`Searching for podcast: ${source.term}...`);
     const { episodes, showData } = await searchPodcastByTitle(source.term, importedEpisodes);
     const show = showManager.createShow(showData);
@@ -292,11 +331,15 @@ async processFeedSource(source, showManager, importedEpisodes) {
     return { episodes, show, source };
   },
 
-  async processTrendingSource(source, showManager, importedEpisodes) {
+  async processTrendingSource(
+    source: PodcastSource & { max?: number },
+    showManager: ShowManager,
+    importedEpisodes: Episode[],
+  ): Promise<FeedResult[]> {
     console.log(`Fetching trending podcasts...`);
     const trendingData = await getTrendingPodcasts(importedEpisodes, source.max || 10);
-    
-    const results = [];
+
+    const results: FeedResult[] = [];
     for (const item of trendingData) {
       const show = showManager.createShow(item.showData);
       fileGenerators.generateShowMdx(show);
@@ -307,43 +350,43 @@ async processFeedSource(source, showManager, importedEpisodes) {
 };
 
 // Main execution
-async function main() {
+async function main(): Promise<void> {
   try {
     console.log("Start: Gathering podcast data... 🎙️");
 
     // Load existing data
-    const importedEpisodes = utils.loadJsonFile(CONFIG.paths.episodes);
-    const importedShows = utils.loadJsonFile(CONFIG.paths.shows);
-    
+    const importedEpisodes = utils.loadJsonFile(CONFIG.paths.episodes) as Episode[];
+    const importedShows = utils.loadJsonFile(CONFIG.paths.shows) as Show[];
+
     const showManager = new ShowManager(importedShows);
-    const allEpisodes = [];
-    const feedDataCollection = [];
+    const allEpisodes: Episode[] = [];
+    const feedDataCollection: FeedResult[] = [];
     let ignoredEpisodesCount = 0;
 
     // Phase 1: Process all sources and create shows
     console.log("Phase 1: Processing shows...");
-    
+
     for (const source of CONFIG.sources) {
-      let results = [];
-      
+      let results: FeedResult[] = [];
+
       switch (source.type) {
         case "podcast-feed":
           results = [await dataProcessors.processFeedSource(source, showManager, importedEpisodes)];
           break;
-        case "podcast-search":  
+        case "podcast-search":
           results = [await dataProcessors.processSearchSource(source, showManager, importedEpisodes)];
           break;
         case "trending":
           results = await dataProcessors.processTrendingSource(source, showManager, importedEpisodes);
           break;
       }
-      
+
       feedDataCollection.push(...results);
     }
 
     // Phase 2: Process episodes
     console.log("Phase 2: Processing episodes...");
-    
+
     for (const { episodes, show, source } of feedDataCollection) {
       for (const episode of episodes) {
         // Check if episode should be ignored
@@ -354,7 +397,7 @@ async function main() {
         }
 
         const showData = showManager.findBySlug(show.slug);
-        fileGenerators.generateEpisodeMdx(episode, show.slug, source.speakers, showData);
+        fileGenerators.generateEpisodeMdx(episode, show.slug, source.speakers ?? null, showData);
         allEpisodes.push(episode);
       }
     }
@@ -364,7 +407,9 @@ async function main() {
     const combinedShows = utils.removeDuplicatesById([...importedShows, ...showManager.getAllShows()]);
 
     // Sort data
-    combinedEpisodes.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+    combinedEpisodes.sort(
+      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+    );
     combinedShows.sort((a, b) => a.title.localeCompare(b.title));
 
     // Write output files
@@ -389,8 +434,8 @@ async function main() {
     console.log(`Total episodes: ${stats.totalEpisodes}`);
     console.log(`Total shows: ${stats.totalShows}`);
     console.log("End: Gathering podcast data. ✅");
-    
-  } catch (error) {
+
+  } catch (error: any) {
     console.error("Error:", error.message);
     process.exit(1);
   }

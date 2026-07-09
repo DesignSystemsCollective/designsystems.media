@@ -1,28 +1,45 @@
-// podcast.js
+// podcast.ts
+//
+// Converted to TypeScript in Phase 4 - see the accompanying ADR. Function
+// signatures and the constructed episode objects are typed against the
+// shared Episode/PodcastFetchResult types in ./types.ts. Raw Podcast Index
+// API response traversal (`feed`, `episode`, `response.data`) is
+// deliberately left as `any` - same reasoning as youtube.ts.
+
+import type { Episode, PodcastFetchResult } from "./types";
+
 const he = require("he");
 const axios = require("axios");
 const crypto = require('crypto'); // Ensure crypto is imported here
-const { formatSecondsAsDuration } = require("./shared");
+const { formatSecondsAsDuration } = require("./shared.ts");
 
 // Podcast Index API credentials (you'll need to get these from https://podcastindex.org/)
-const API_KEY = process.env.PODCAST_API_KEY;
-const API_SECRET = process.env.PODCAST_API_SECRET;
+// Asserted as string rather than left `string | undefined`: these are
+// required config, and casting (not defaulting to "") preserves the exact
+// existing runtime behavior if they're ever actually missing - a defaulted
+// empty string would change what gets hashed into the auth header, an
+// assertion doesn't change the value at all, just how TS treats its type.
+const API_KEY = process.env.PODCAST_API_KEY as string;
+const API_SECRET = process.env.PODCAST_API_SECRET as string;
 
 // Function to replace plain quotes with fancy quotes
-function replaceQuotesWithFancyQuotes(title) {
-  const fancyTitle = title.replace(/"/g, "\u201C").replace(/"/g, "\u201D");
+function replaceQuotesWithFancyQuotes(title: string): string {
+  const fancyTitle = title.replace(/"/g, "“").replace(/"/g, "”");
   return fancyTitle;
 }
 
 // Thin wrapper kept under its original name so nothing importing
 // podcast.js's public API has to change. As of Phase 3 this delegates to
 // shared.js's canonical formatter instead of its own copy - see ADR 0004.
-function formatDuration(durationInSeconds) {
+// Parameter stays `unknown`, not `number`: this wrapper is documented (see
+// its own test, "still does no type-checking on its input") to pass
+// through whatever it's given without validating it first.
+function formatDuration(durationInSeconds: unknown): string {
   return formatSecondsAsDuration(durationInSeconds);
 }
 
 // Function to get podcast artwork URL (already good, but keeping for completeness)
-function getPodcastArtwork(feed) {
+function getPodcastArtwork(feed: any): string {
   // Try to get the highest quality artwork available
   if (feed.artwork) {
     return feed.artwork;
@@ -33,7 +50,7 @@ function getPodcastArtwork(feed) {
 }
 
 // Function to generate podcast API headers with debugging
-function generateApiHeaders() {
+function generateApiHeaders(): Record<string, string> {
   const apiHeaderTime = Math.floor(Date.now() / 1000);
 
   const sha1Algorithm = "sha1";
@@ -59,11 +76,14 @@ function generateApiHeaders() {
 }
 
 // Function to search for podcasts by feed URL
-async function getPodcastByFeedUrl(feedUrl, importedPodcastData = []) {
+async function getPodcastByFeedUrl(
+  feedUrl: string,
+  importedPodcastData: Episode[] = [],
+): Promise<PodcastFetchResult> {
   try {
     const headers = generateApiHeaders();
 
-    const response = await axios.get('https://api.podcastindex.org/api/1.0/podcasts/byfeedurl', {
+    const response: any = await axios.get('https://api.podcastindex.org/api/1.0/podcasts/byfeedurl', {
       headers,
       params: {
         url: feedUrl
@@ -73,7 +93,7 @@ async function getPodcastByFeedUrl(feedUrl, importedPodcastData = []) {
     if (response.data && response.data.feed) {
       const feed = response.data.feed;
       const episodes = await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
-      
+
       return {
         episodes: episodes,
         showData: feed
@@ -81,20 +101,24 @@ async function getPodcastByFeedUrl(feedUrl, importedPodcastData = []) {
     }
 
     return { episodes: [], showData: null };
-  } catch (error) {
+  } catch (error: any) {
     console.error(`Error retrieving podcast by feed URL ${feedUrl}:`, error.message);
     return { episodes: [], showData: null };
   }
 }
 
 // Function to get all episodes from a podcast feed
-async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = null) {
+async function getEpisodesFromFeed(
+  feedId: unknown,
+  importedPodcastData: Episode[] = [],
+  feedInfo: any = null,
+): Promise<Episode[]> {
   try {
-    const episodes = [];
+    const episodes: Episode[] = [];
     const headers = generateApiHeaders();
 
     // Get episodes from the feed
-    const response = await axios.get('https://api.podcastindex.org/api/1.0/episodes/byfeedid', {
+    const response: any = await axios.get('https://api.podcastindex.org/api/1.0/episodes/byfeedid', {
       headers,
       params: {
         id: feedId,
@@ -123,7 +147,7 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
         const episodeSpecificImageUrl = episode.image || null; // This is the image specific to the episode
         const finalEpisodeImageUrl = episodeSpecificImageUrl || podcastMainImageUrl; // Fallback logic for the 'image' field
 
-        const episodeData = {
+        const episodeData: Episode = {
           title: replaceQuotesWithFancyQuotes(he.decode(episode.title || '')),
           description: episode.description || '',
           podcastTitle: feedInfo ? feedInfo.title : episode.feedTitle || '',
@@ -154,18 +178,21 @@ async function getEpisodesFromFeed(feedId, importedPodcastData = [], feedInfo = 
     }
 
     return episodes;
-  } catch (error) {
+  } catch (error: any) {
     console.error(`Error retrieving episodes for feed ${feedId}:`, error.message);
     return [];
   }
 }
 
 // Function to search for podcasts by title
-async function searchPodcastByTitle(title, importedPodcastData = []) {
+async function searchPodcastByTitle(
+  title: string,
+  importedPodcastData: Episode[] = [],
+): Promise<PodcastFetchResult> {
   try {
     const headers = generateApiHeaders();
 
-    const response = await axios.get('https://api.podcastindex.org/api/1.0/search/byterm', {
+    const response: any = await axios.get('https://api.podcastindex.org/api/1.0/search/byterm', {
       headers,
       params: {
         q: title,
@@ -178,7 +205,7 @@ async function searchPodcastByTitle(title, importedPodcastData = []) {
       // Get the first (most relevant) podcast
       const feed = response.data.feeds[0];
       const episodes = await getEpisodesFromFeed(feed.id, importedPodcastData, feed);
-      
+
       return {
         episodes: episodes,
         showData: feed
@@ -186,18 +213,21 @@ async function searchPodcastByTitle(title, importedPodcastData = []) {
     }
 
     return { episodes: [], showData: null };
-  } catch (error) {
+  } catch (error: any) {
     console.error(`Error searching for podcast "${title}":`, error.message);
     return { episodes: [], showData: null };
   }
 }
 
 // Function to get trending podcasts
-async function getTrendingPodcasts(importedPodcastData = [], max = 10) {
+async function getTrendingPodcasts(
+  importedPodcastData: Episode[] = [],
+  max: number = 10,
+): Promise<PodcastFetchResult[]> {
   try {
     const headers = generateApiHeaders();
 
-    const response = await axios.get('https://api.podcastindex.org/api/1.0/podcasts/trending', {
+    const response: any = await axios.get('https://api.podcastindex.org/api/1.0/podcasts/trending', {
       headers,
       params: {
         max: max,
@@ -205,7 +235,7 @@ async function getTrendingPodcasts(importedPodcastData = [], max = 10) {
       }
     });
 
-    const allPodcastData = [];
+    const allPodcastData: PodcastFetchResult[] = [];
 
     if (response.data && response.data.feeds) {
       for (const feed of response.data.feeds) {
@@ -218,7 +248,7 @@ async function getTrendingPodcasts(importedPodcastData = [], max = 10) {
     }
 
     return allPodcastData;
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error retrieving trending podcasts:', error.message);
     return [];
   }

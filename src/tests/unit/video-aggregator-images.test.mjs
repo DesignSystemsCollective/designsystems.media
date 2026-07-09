@@ -4,7 +4,7 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import matter from "gray-matter";
-import getImages from "../../../video-aggregator/scripts/getImages.js";
+import getImages from "../../../video-aggregator/scripts/getImages.ts";
 
 const { processShowMarkdownFile, processEpisodeMarkdownFile, processMarkdownFile, updateMarkdownFile } =
   getImages;

@@ -4,8 +4,8 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import matter from "gray-matter";
-import getVideos from "../../../video-aggregator/scripts/getVideos.js";
-import getPodcasts from "../../../video-aggregator/scripts/getPodcasts.js";
+import getVideos from "../../../video-aggregator/scripts/getVideos.ts";
+import getPodcasts from "../../../video-aggregator/scripts/getPodcasts.ts";
 
 const { generateMdxFile } = getVideos;
 const { CONFIG, fileGenerators } = getPodcasts;

@@ -1,11 +1,26 @@
-// youtube.js
+// youtube.ts
+//
+// Converted to TypeScript in Phase 4 - see the accompanying ADR. Function
+// signatures and the constructed `Video` objects are typed against the
+// shared Video/VideoThumbnails types in ./types.ts (replacing the ad hoc
+// inline object shapes this file used to build by hand). Raw YouTube Data
+// API response traversal (`item`, `response.data`, `contentDetails`, etc.)
+// is deliberately left as `any` rather than modeled against googleapis'
+// own response types - those are deeply nested and only partially used
+// here, and typing them precisely is a separate, larger undertaking than
+// this conversion pass is scoped to. What matters for catching real bugs
+// is that the *output* of this file (the Video objects it builds and
+// hands to getVideos.js) is properly typed, which it now is.
+
+import type { Video } from "./types";
+
 const he = require("he");
 const { google } = require("googleapis");
 const {
   getPosterUrl,
   parseISO8601DurationToSeconds,
   formatSecondsAsDuration,
-} = require("./shared");
+} = require("./shared.ts");
 
 // Initialize the YouTube Data API client
 const youtube = google.youtube("v3");
@@ -14,7 +29,7 @@ const youtube = google.youtube("v3");
 const API_KEY = process.env.API_KEY;
 
 // Function to replace plain quotes with fancy quotes
-function replaceQuotesWithFancyQuotes(title) {
+function replaceQuotesWithFancyQuotes(title: string): string {
   // Replace straight quotes with fancy quotes
   const fancyTitle = title.replace(/"/g, "“").replace(/"/g, "”");
   return fancyTitle;
@@ -24,11 +39,11 @@ function replaceQuotesWithFancyQuotes(title) {
 // youtube.js's public API has to change. As of Phase 3 both delegate to
 // shared.js's canonical parser/formatter instead of each maintaining an
 // independent ISO 8601 parse - see ADR 0004.
-function calculateTotalSeconds(rawDuration) {
+function calculateTotalSeconds(rawDuration: unknown): number {
   return parseISO8601DurationToSeconds(rawDuration);
 }
 
-function formatDuration(rawDuration) {
+function formatDuration(rawDuration: unknown): string {
   return formatSecondsAsDuration(parseISO8601DurationToSeconds(rawDuration));
 }
 
@@ -36,7 +51,7 @@ function formatDuration(rawDuration) {
 // ISO 8601 duration in one place - previously this same block (format +
 // calculate + shorts check) was copy-pasted between
 // getAllVideosFromChannel and getAllVideosFromPlaylist below.
-function applyDuration(videoData, rawDuration) {
+function applyDuration(videoData: Video, rawDuration: unknown): number {
   const durationSeconds = parseISO8601DurationToSeconds(rawDuration);
   videoData.duration = formatSecondsAsDuration(durationSeconds);
   videoData.durationSeconds = durationSeconds;
@@ -44,13 +59,16 @@ function applyDuration(videoData, rawDuration) {
 }
 
 // Function to retrieve all video data from a channel
-async function getAllVideosFromChannel(channelId, importedVideoData) {
+async function getAllVideosFromChannel(
+  channelId: string,
+  importedVideoData: Video[],
+): Promise<Video[]> {
   try {
-    const videos = [];
-    let nextPageToken = null;
+    const videos: Video[] = [];
+    let nextPageToken: string | null = null;
 
     do {
-      const response = await youtube.search.list({
+      const response: any = await youtube.search.list({
         // TODO: Think we can replace this with another call that uses less quota. We could pull the channels playlist IDs and then run those through the other function? https://developers.google.com/youtube/v3/docs/channels
         auth: API_KEY,
         channelId: channelId,
@@ -76,7 +94,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
             continue; // Skip this video and continue to the next one
           }
 
-          const videoData = {
+          const videoData: Video = {
             title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
@@ -87,7 +105,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
           };
 
           // Retrieve the full video description
-          const videoDetailsResponse = await youtube.videos.list({
+          const videoDetailsResponse: any = await youtube.videos.list({
             auth: API_KEY,
             id: videoId,
             part: "snippet,contentDetails,status", // Include contentDetails
@@ -120,7 +138,7 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
     } while (nextPageToken);
 
     return videos;
-  } catch (error) {
+  } catch (error: any) {
     console.error(
       `Error retrieving channel videos for channel ${channelId}:`,
       error.message
@@ -130,13 +148,16 @@ async function getAllVideosFromChannel(channelId, importedVideoData) {
 }
 
 // Function to retrieve all video data from a playlist
-async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
+async function getAllVideosFromPlaylist(
+  playlistId: string,
+  importedVideoData: Video[],
+): Promise<Video[]> {
   try {
-    const videos = [];
-    let nextPageToken = null;
+    const videos: Video[] = [];
+    let nextPageToken: string | null = null;
 
     do {
-      const response = await youtube.playlistItems.list({
+      const response: any = await youtube.playlistItems.list({
         auth: API_KEY,
         playlistId: playlistId,
         maxResults: 50,
@@ -160,7 +181,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
             continue; // Skip this video and continue to the next one
           }
 
-          const videoData = {
+          const videoData: Video = {
             title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
             description: "", // Initialize description as an empty string
             thumbnails: item.snippet.thumbnails,
@@ -171,7 +192,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
           };
 
           // Retrieve the full video description
-          const videoDetailsResponse = await youtube.videos.list({
+          const videoDetailsResponse: any = await youtube.videos.list({
             auth: API_KEY,
             id: videoId,
             part: "snippet,contentDetails",
@@ -198,7 +219,7 @@ async function getAllVideosFromPlaylist(playlistId, importedVideoData) {
     } while (nextPageToken);
 
     return videos;
-  } catch (error) {
+  } catch (error: any) {
     console.error(
       `Error retrieving playlist videos for playlist ${playlistId}:`,
       error.message
