@@ -275,4 +275,6 @@ module.exports = {
   getAllVideosFromChannel,
   getAllVideosFromPlaylist,
   getPosterUrl,
+  formatDuration,
+  calculateTotalSeconds,
 };

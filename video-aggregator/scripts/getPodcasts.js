@@ -399,4 +399,14 @@ async function main() {
   }
 }
 
-main();
+// Run the script (only when executed directly, not when required by tests)
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  CONFIG,
+  utils,
+  ShowManager,
+  fileGenerators,
+};

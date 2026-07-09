@@ -165,5 +165,14 @@ const main = async () => {
   }
 };
 
-// Run the script
-main();
+// Run the script (only when executed directly, not when required by tests)
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  sanitizeTitle,
+  createFolderName,
+  getPosterUrl,
+  generateMdxFile,
+};
