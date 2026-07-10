@@ -5,7 +5,9 @@
 import type { Episode, PodcastSource, PodcastFeedSource, Show } from "./types";
 
 const path = require("path");
-require("dotenv").config({ path: path.join(__dirname, '../../.env') });
+// dotenv 17 logs a "injecting env..." message on every config() call by
+// default - quiet it to keep this script's output limited to its own logs.
+require("dotenv").config({ path: path.join(__dirname, '../../.env'), quiet: true });
 
 const fs = require("fs");
 const slugify = require("slugify");
