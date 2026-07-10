@@ -72,7 +72,7 @@ export async function GET() {
       const description = extractFirstParagraph(data);
 
       return {
-        loc: `${baseUrl}/video/${video.slug}/`, // Absolute URL based on the environment
+        loc: `${baseUrl}/video/${video.id}/`, // Absolute URL based on the environment
         "video:video": {
           "video:thumbnail_loc": new URL(
             data.poster?.src || data.image?.src || "",

@@ -9,7 +9,7 @@ import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & { 
-  slug?: Media["slug"];
+  slug?: Media["id"];
   loading?: "lazy" | "eager";
 };
 

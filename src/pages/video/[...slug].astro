@@ -1,4 +1,5 @@
 ---
+import { render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import MediaPost from "../../templates/MediaPost.astro";
 import { convertToISO8601Duration } from "../../utils/convertToISO8601Duration";
@@ -7,12 +8,12 @@ import { getVideoEntries } from "../../lib/content-domain";
 export async function getStaticPaths() {
   const posts = await getVideoEntries();
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: post,
   }));
 }
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 const headProps = {
   title: `${post.data.title} | Video`,
   description: post.data.description || post.data.title,
@@ -34,7 +35,7 @@ const headProps = {
 ---
 
 <BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps}>
-  <MediaPost {...post.data} slug={post.slug}>
+  <MediaPost {...post.data} slug={post.id}>
     <Content />
   </MediaPost>
 </BaseLayout>

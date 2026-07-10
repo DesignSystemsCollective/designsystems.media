@@ -176,15 +176,19 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
     normalizeTaxonomyValues(entry.data.tags).includes("Unsorted"),
   );
 
-  const videosBySlug = new Map(allVideos.map((entry) => [entry.slug, entry]));
-  const podcastsBySlug = new Map(allPodcasts.map((entry) => [entry.slug, entry]));
-  const showsBySlug = new Map(allShows.map((entry) => [entry.slug, entry]));
+  // Astro 6 removed CollectionEntry.slug in favor of .id (which, for this
+  // repo's folder-per-entry content layout, carries the same value slug
+  // used to). These Maps keep their "BySlug" names for readability even
+  // though the key now comes from .id - see ADR 0008.
+  const videosBySlug = new Map(allVideos.map((entry) => [entry.id, entry]));
+  const podcastsBySlug = new Map(allPodcasts.map((entry) => [entry.id, entry]));
+  const showsBySlug = new Map(allShows.map((entry) => [entry.id, entry]));
 
   const latestEpisodeDateByShow = buildLatestEpisodeDateMap(podcasts);
   const showsByRecentEpisode: ShowWithLatestEpisode[] = [...shows]
     .map((show) => ({
       ...show,
-      _latestEpisodeDate: latestEpisodeDateByShow.get(show.slug) ?? new Date(0),
+      _latestEpisodeDate: latestEpisodeDateByShow.get(show.id) ?? new Date(0),
     }))
     .sort(
       (left, right) =>
@@ -279,6 +283,6 @@ export function getPlaylistPageData(
   index: ContentIndex,
   slug: string,
 ): PlaylistPageData | null {
-  const playlist = index.resolvedPlaylists.find((entry) => entry.slug === slug);
+  const playlist = index.resolvedPlaylists.find((entry) => entry.id === slug);
   return playlist ? { playlist } : null;
 }

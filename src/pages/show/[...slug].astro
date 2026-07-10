@@ -1,4 +1,5 @@
 ---
+import { render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ShowLayout from "../../layouts/ShowLayout.astro";
 import { getShowEntries, getShowPage } from "../../lib/content-domain";
@@ -6,8 +7,8 @@ import { getShowEntries, getShowPage } from "../../lib/content-domain";
 export async function getStaticPaths() {
   const shows = await getShowEntries();
   return Promise.all(shows.map(async (show) => ({
-    params: { slug: show.slug },
-    props: { page: await getShowPage(show.slug) },
+    params: { slug: show.id },
+    props: { page: await getShowPage(show.id) },
   })));
 }
 
@@ -19,7 +20,7 @@ if (!show) {
   throw new Error(`Show page data missing for slug "${Astro.params.slug}"`);
 }
 
-const { Content } = await show.render();
+const { Content } = await render(show);
 const headProps = {
   title: `${show.data.title} | Podcast`,
   description: show.data.description || show.data.title,
@@ -29,7 +30,7 @@ const headProps = {
 <BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps} >
 <ShowLayout 
   {...show.data}
-  slug={show.slug}
+  slug={show.id}
   episodes={episodes}
 >
   <Content />

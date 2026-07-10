@@ -10,15 +10,18 @@ import {
 // Mirrors the fixture shape used in content-domain.test.ts. Kept local
 // rather than shared/exported so each test file stays self-contained.
 
-// `slug`/`id` live at the top level of a collection entry, not under
-// `data`, so they're pulled out of overrides separately rather than being
-// swallowed by the `...overrides` spread into `data` below.
+// Astro 6 removed CollectionEntry.slug in favor of .id (see ADR 0008) -
+// these fixtures model the real post-migration shape (id only, no slug),
+// so `id` is pulled out of overrides separately rather than being
+// swallowed by the `...overrides` spread into `data` below. Playlist
+// items still carry their own `slug` field (a plain frontmatter/schema
+// field unrelated to Astro's CollectionEntry API - see types.ts), which
+// is why `createPlaylistEntry`'s default item below is untouched.
 
 function createMediaEntry(overrides: Record<string, unknown> = {}) {
-  const { slug, id, ...dataOverrides } = overrides;
+  const { id, ...dataOverrides } = overrides;
   return {
-    id: id ?? "media-entry",
-    slug: slug ?? "video-entry",
+    id: id ?? "video-entry",
     body: "",
     collection: "media",
     data: {
@@ -35,10 +38,9 @@ function createMediaEntry(overrides: Record<string, unknown> = {}) {
 }
 
 function createPodcastEntry(overrides: Record<string, unknown> = {}) {
-  const { slug, id, ...dataOverrides } = overrides;
+  const { id, ...dataOverrides } = overrides;
   return {
     id: id ?? "podcast-entry",
-    slug: slug ?? "podcast-entry",
     body: "",
     collection: "podcast",
     data: {
@@ -58,10 +60,9 @@ function createPodcastEntry(overrides: Record<string, unknown> = {}) {
 }
 
 function createShowEntry(overrides: Record<string, unknown> = {}) {
-  const { slug, id, ...dataOverrides } = overrides;
+  const { id, ...dataOverrides } = overrides;
   return {
     id: id ?? "show-entry",
-    slug: slug ?? "show-entry",
     body: "",
     collection: "show",
     data: {
@@ -83,10 +84,9 @@ function createShowEntry(overrides: Record<string, unknown> = {}) {
 }
 
 function createPlaylistEntry(overrides: Record<string, unknown> = {}) {
-  const { slug, id, ...dataOverrides } = overrides;
+  const { id, ...dataOverrides } = overrides;
   return {
     id: id ?? "playlist-entry",
-    slug: slug ?? "playlist-entry",
     body: "",
     collection: "playlists",
     data: {
@@ -128,11 +128,11 @@ test("getShowPageData excludes draft episodes and computes latestEpisodeDate fro
     media: [] as never[],
     podcast: [
       createPodcastEntry({
-        slug: "published-episode",
+        id: "published-episode",
         publishedAt: new Date("2025-02-02T00:00:00Z"),
       }),
       createPodcastEntry({
-        slug: "draft-episode",
+        id: "draft-episode",
         draft: true,
         publishedAt: new Date("2025-05-01T00:00:00Z"),
       }),
@@ -145,7 +145,7 @@ test("getShowPageData excludes draft episodes and computes latestEpisodeDate fro
 
   assert.ok(page);
   assert.equal(page?.episodes.length, 1);
-  assert.equal(page?.episodes[0].slug, "published-episode");
+  assert.equal(page?.episodes[0].id, "published-episode");
   // The draft episode's later date must not leak into latestEpisodeDate.
   assert.equal(page?.latestEpisodeDate?.toISOString(), "2025-02-02T00:00:00.000Z");
 });
@@ -191,9 +191,9 @@ test("getTaxonomyPageData splits posts into videoPosts and podcastPosts", () => 
   assert.ok(page);
   assert.equal(page?.posts.length, 2);
   assert.equal(page?.videoPosts.length, 1);
-  assert.equal(page?.videoPosts[0].slug, "video-entry");
+  assert.equal(page?.videoPosts[0].id, "video-entry");
   assert.equal(page?.podcastPosts.length, 1);
-  assert.equal(page?.podcastPosts[0].slug, "podcast-entry");
+  assert.equal(page?.podcastPosts[0].id, "podcast-entry");
 });
 
 // getPlaylistPageData: null handling
@@ -220,7 +220,7 @@ test("getPlaylistPageData returns the resolved playlist for a known slug", () =>
   const page = getPlaylistPageData(index, "playlist-entry");
 
   assert.ok(page);
-  assert.equal(page?.playlist.slug, "playlist-entry");
+  assert.equal(page?.playlist.id, "playlist-entry");
   assert.equal(page?.playlist.resolvedItems.length, 1);
 });
 
@@ -244,7 +244,7 @@ test("a playlist item referencing a missing slug is silently dropped, not thrown
 
   assert.equal(index.resolvedPlaylists.length, 1);
   assert.equal(index.resolvedPlaylists[0].resolvedItems.length, 1);
-  assert.equal(index.resolvedPlaylists[0].resolvedItems[0].entry.slug, "video-entry");
+  assert.equal(index.resolvedPlaylists[0].resolvedItems[0].entry.id, "video-entry");
 });
 
 test("draft playlists are excluded from resolvedPlaylists entirely", () => {

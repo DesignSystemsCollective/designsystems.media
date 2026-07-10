@@ -17,7 +17,7 @@ const videos = (await getVideoEntries())
 
 // Generate redirect rules
 const redirectRules = videos.map(
-  (video) => `/${video.slug}/ /video/${video.slug}/`,
+  (video) => `/${video.id}/ /video/${video.id}/`,
 );
 ---
 

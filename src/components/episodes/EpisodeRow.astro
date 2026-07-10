@@ -58,7 +58,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
 ---
 
 <!-- Episode Content Cell -->
-<a href={`/podcast/${episode.slug}/`} class={`episodes-row ${rowClass}`}>
+<a href={`/podcast/${episode.id}/`} class={`episodes-row ${rowClass}`}>
   {
     imageToUse && (
       isImageMetadata ? (

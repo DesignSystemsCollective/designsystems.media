@@ -7,7 +7,7 @@ import MediaImage from "./media/MediaImage.astro";
 
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & {
-  slug?: Media["slug"];
+  slug?: Media["id"];
   layoutType?: "grid" | "list";
   loading?: "lazy" | "eager";
 };

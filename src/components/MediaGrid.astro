@@ -12,7 +12,7 @@ const { media, layoutType = "grid", gridItemMinWidth = "600px" } = Astro.props;
         title={media.data.title}
         poster={media.data.poster}
         duration={media.data.duration}
-        slug={media.slug}
+        slug={media.id}
         publishedAt={media.data.publishedAt}  
         layoutType={layoutType}
         loading={index < 8 ? "eager" : "lazy"}

@@ -21,7 +21,7 @@ const { media, gridType = "grid", eagerLoadCount = 8 } = Astro.props;
         title={media.data.title}
         poster={media.data.poster}
         duration={media.data.duration}
-        slug={media.slug}
+        slug={media.id}
         publishedAt={media.data.publishedAt}
         showSlug={media.data.showSlug}
         hasEpisodeImage={media.data.hasEpisodeImage}

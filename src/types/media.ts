@@ -25,16 +25,16 @@ export type PlaylistEntry = CollectionEntry<"playlists">;
 export type PlaylistItemRef = PlaylistEntry["data"]["items"][number];
 
 export interface BaseShowProps extends Partial<ShowEntry["data"]>, Partial<PodcastEntry["data"]> {
-  slug?: ShowEntry["slug"] | PodcastEntry["slug"];
+  slug?: ShowEntry["id"] | PodcastEntry["id"];
   episodes?: CollectionEntry<"podcast">[];
 }
 
 export type BasePodcastProps = PodcastEntry["data"] & {
-  slug?: PodcastEntry["slug"];
+  slug?: PodcastEntry["id"];
 }
 
 export type BaseMediaProps = MediaEntry["data"] & {
-  slug?: MediaEntry["slug"];
+  slug?: MediaEntry["id"];
 }
 
 export type {
