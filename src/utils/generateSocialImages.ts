@@ -168,7 +168,7 @@ export const runAllMosaics = async (): Promise<void> => {
     const validPostImages: string[] = [];
 
     for (const post of recentPosts) {
-      const baseDir = path.join(process.cwd(), "src/content/media", post.slug);
+      const baseDir = path.join(process.cwd(), "src/content/media", post.id);
       const foundImage = await findFirstExistingImage(baseDir);
 
       if (foundImage) {

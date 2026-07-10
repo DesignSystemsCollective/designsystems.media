@@ -10,8 +10,8 @@ export async function getStaticPaths() {
   const playlists = await getPlaylistEntries();
 
   return Promise.all(playlists.map(async (playlist) => ({
-    params: { slug: playlist.slug },
-    props: { page: await getPlaylistPage(playlist.slug) },
+    params: { slug: playlist.id },
+    props: { page: await getPlaylistPage(playlist.id) },
   })));
 }
 
@@ -66,7 +66,7 @@ const hasImage = Boolean(playlist.data.image);
                 title={mediaEntry.data.title}
                 poster={poster}
                 duration={mediaEntry.data.duration}
-                slug={mediaEntry.slug}
+                slug={mediaEntry.id}
                 publishedAt={mediaEntry.data.publishedAt}
                 layoutType="list"
               />
@@ -80,7 +80,7 @@ const hasImage = Boolean(playlist.data.image);
               title={podcastEntry.data.title}
               poster={podcastEntry.data.poster}
               duration={podcastEntry.data.duration}
-              slug={podcastEntry.slug}
+              slug={podcastEntry.id}
               publishedAt={podcastEntry.data.publishedAt}
               showSlug={podcastEntry.data.showSlug}
               hasEpisodeImage={podcastEntry.data.hasEpisodeImage}

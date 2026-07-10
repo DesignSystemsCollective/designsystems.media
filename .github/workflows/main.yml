@@ -29,7 +29,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          # Astro 6 requires Node 22.12+; the other workflows already use
+          # `latest`, this one was still pinned to 20 and would have broken
+          # on the first push after the Phase 9 astro 5->6 bump.
+          node-version: '22'
           cache: 'npm'
       
       - name: Install dependencies

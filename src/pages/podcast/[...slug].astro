@@ -1,4 +1,5 @@
 ---
+import { render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ShowLayout from "../../layouts/ShowLayout.astro";
 import { getPodcastEntries } from "../../lib/content-domain";
@@ -6,14 +7,14 @@ import { getPodcastEntries } from "../../lib/content-domain";
 export async function getStaticPaths() {
   const podcasts = await getPodcastEntries();
   return podcasts.map((podcast) => ({
-    params: { slug: podcast.slug },
+    params: { slug: podcast.id },
     props: podcast,
   }));
 }
 
 const post = Astro.props;
 
-const { Content } = await post.render();
+const { Content } = await render(post);
 const headProps = {
   title: `${post.data.title} | Podcast`,
   description: post.data.description || post.data.title,
@@ -23,7 +24,7 @@ const headProps = {
 <BaseLayout sidebar={false} fullWidth={true} metadataProps={headProps}>
 <ShowLayout 
   {...post.data}
-  slug={post.slug}
+  slug={post.id}
 >
   <Content />
 </ShowLayout>

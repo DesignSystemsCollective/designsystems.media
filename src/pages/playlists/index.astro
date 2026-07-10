@@ -14,7 +14,7 @@ const playlists = await getPlaylistEntries();
   <ResponsiveGrid gridItemMinWidth="320px" gridType="grid">
     {playlists.map((playlist) => (
       <Card>
-        <a class="playlist-card" href={`/playlists/${playlist.slug}/`}>
+        <a class="playlist-card" href={`/playlists/${playlist.id}/`}>
           {playlist.data.image && (
             <MediaImage
               src={playlist.data.image.src}

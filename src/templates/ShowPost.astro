@@ -109,7 +109,7 @@ const { title, image, slug, speakers, episodeCount, explicit, episodes = [] } = 
                 )
               )}
               <div class="episode-title-container">
-                <a class="episode-title" href={`/podcast/${episode.slug}/`}>
+                <a class="episode-title" href={`/podcast/${episode.id}/`}>
                 {episode.data.season && episode.data.episode && (
               <span class="episode-badge">S{episode.data.season}E{episode.data.episode}</span><br/>
             )}

@@ -12,7 +12,7 @@ const { media } = Astro.props;
         title={item.data.title}
         poster={item.data.poster}
         duration={item.data.duration}
-        slug={item.slug}
+        slug={item.id}
         publishedAt={item.data.publishedAt}
         loading={index < 12 ? "eager" : "lazy"}
       />
