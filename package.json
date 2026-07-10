@@ -55,5 +55,8 @@
     "slugify": "^1.6.6",
     "turndown": "^7.2.0",
     "typescript": "6.0.3"
+  },
+  "overrides": {
+    "sharp": "0.34.2"
   }
 }

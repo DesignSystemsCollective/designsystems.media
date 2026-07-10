@@ -1,6 +1,18 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
+
+// Astro 6 removed the implicit "no loader = auto-scan src/content/<name>/"
+// fallback that Astro 5's legacy-collections compat kept alive - every
+// collection now needs an explicit loader (see ADR 0008). Each collection
+// here is one folder per entry with an index.mdx inside (except playlists,
+// which are flat .mdx files) - glob()'s default id generation already
+// strips the "/index" suffix for index.md(x) files, so entry.id keeps
+// matching what entry.slug used to be. `z` also moves from "astro:content"
+// to "astro/zod" - astro:content's re-export is deprecated in Astro 6.
 
 const playlistsCollection = defineCollection({
+  loader: glob({ pattern: "*.mdx", base: "./src/content/playlists" }),
   schema: ({ image }) =>
     z.object({
       name: z.string(),
@@ -17,6 +29,7 @@ const playlistsCollection = defineCollection({
 });
 
 const showCollection = defineCollection({
+  loader: glob({ pattern: "**/index.mdx", base: "./src/content/show" }),
   schema: ({ image }) =>
     z.object({
     title: z.string(),
@@ -43,6 +56,7 @@ const showCollection = defineCollection({
 });
 
 const mediaCollection = defineCollection({
+  loader: glob({ pattern: "**/index.mdx", base: "./src/content/media" }),
   // Type-check frontmatter using a schema
   schema: ({ image }) =>
     z.object({
@@ -67,6 +81,7 @@ const mediaCollection = defineCollection({
 
 
 const podcastCollection = defineCollection({
+  loader: glob({ pattern: "**/index.mdx", base: "./src/content/podcast" }),
   // Type-check frontmatter using a schema
   schema: ({ image }) =>
     z.object({
