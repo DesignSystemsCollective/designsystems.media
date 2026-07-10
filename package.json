@@ -41,7 +41,7 @@
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^2.0.1",
     "axios": "^1.8.4",
-    "dotenv": "^16.4.7",
+    "dotenv": "^17.4.2",
     "fast-xml-parser": "^5.2.3",
     "framer-motion": "^12.16.0",
     "googleapis": "^173.0.0",
@@ -51,12 +51,12 @@
     "markdown-it": "^14.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sharp": "0.34.2",
+    "sharp": "0.35.3",
     "slugify": "^1.6.6",
     "turndown": "^7.2.0",
     "typescript": "6.0.3"
   },
   "overrides": {
-    "sharp": "0.34.2"
+    "sharp": "0.35.3"
   }
 }

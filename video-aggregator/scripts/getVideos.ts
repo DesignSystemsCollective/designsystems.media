@@ -4,7 +4,9 @@
 
 import type { Source, Video } from "./types";
 
-require("dotenv").config();
+// dotenv 17 logs a "injecting env..." message on every config() call by
+// default - quiet it to keep this script's output limited to its own logs.
+require("dotenv").config({ quiet: true });
 const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
