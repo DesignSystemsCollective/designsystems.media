@@ -36,4 +36,105 @@
   --gray-gradient: rgba(var(--gray-light), 50%), var(--pure-white);
   --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
+
+  /* spacing scale
+     Structural/layout spacing (padding, margin, gap). Named by px value
+     at the default 16px root font-size, expressed in rem so it still
+     respects a user's browser zoom/font-size setting. Every step below
+     matches a literal already in use somewhere in the codebase as of
+     the 2026-07-08 audit - this scale doesn't invent new values, it
+     names the ones already there. Font-relative (em) spacing used
+     inside small self-contained components (badges, code, meta rows -
+     values like 0.1em/0.35em/0.6em that intentionally scale with their
+     own element's font-size, not the page's layout grid) is left
+     un-tokenized for now; those are a per-usage judgment call for
+     Phase 12, not a layout-scale concern. See ADR 0010. */
+  --space-2: 0.125rem; /* 2px */
+  --space-4: 0.25rem; /* 4px */
+  --space-6: 0.375rem; /* 6px */
+  --space-8: 0.5rem; /* 8px */
+  --space-12: 0.75rem; /* 12px */
+  --space-16: 1rem; /* 16px */
+  --space-20: 1.25rem; /* 20px */
+  --space-24: 1.5rem; /* 24px */
+  --space-32: 2rem; /* 32px */
+  --space-40: 2.5rem; /* 40px */
+  --space-48: 3rem; /* 48px */
+  --space-64: 4rem; /* 64px */
+  --space-80: 5rem; /* 80px */
+
+  /* typography scale
+     Two families, deliberately kept separate - see ADR 0010:
+
+     1. UI text sizes (--font-size-N, N = px at 16px root, in rem).
+        Covers the plain, non-heading font sizes already used for body
+        copy, meta rows, badges, etc.
+     2. Heading sizes (--font-size-hN / -tablet). global.css's h1-h5
+        are already a deliberate, hand-tuned scale (h4/h3's 1.563em/
+        1.953em are literally 1.25^2 and 1.25^3 - a modular scale the
+        original author was following, even though h1/h2 break from
+        it and h3 renders larger than h2, a pre-existing quirk this
+        phase preserves rather than "corrects"). Kept as em, not
+        converted to rem, because they're deliberately relative to
+        body's own font-size (20px desktop / 18px at <=768px) - a
+        genuine, working design decision, not an oversight. -tablet
+        variants capture the <=1024px media-query overrides that only
+        exist for h1-h3. */
+  --font-size-12: 0.75rem;
+  --font-size-13: 0.8125rem;
+  --font-size-14: 0.875rem;
+  --font-size-15: 0.9375rem;
+  --font-size-16: 1rem;
+  --font-size-17: 1.0625rem;
+  --font-size-18: 1.125rem;
+  --font-size-20: 1.25rem;
+
+  --font-size-h1: 2.2em;
+  --font-size-h2: 1.8em;
+  --font-size-h3: 1.953em;
+  --font-size-h4: 1.563em;
+  --font-size-h5: 1.25em;
+  --font-size-h1-tablet: 1.75em;
+  --font-size-h2-tablet: 1.3em;
+  --font-size-h3-tablet: 1.2em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* line-height. Named by value x100 (e.g. --leading-170 = 1.7) since
+     the actual values in use don't cluster neatly into "tight/normal/
+     loose"-style names - matches every distinct value found. */
+  --leading-100: 1;
+  --leading-110: 1.1;
+  --leading-120: 1.2;
+  --leading-130: 1.3;
+  --leading-135: 1.35;
+  --leading-140: 1.4;
+  --leading-150: 1.5;
+  --leading-170: 1.7;
+
+  /* border-radius scale, same px-at-16px-root-in-rem convention as
+     spacing. The one observed "1px" radius (a single occurrence) is
+     deliberately left out - not worth a scale step, a Phase 12
+     judgment call same as the excluded em-spacing values above. */
+  --radius-none: 0;
+  --radius-2: 0.125rem; /* 2px */
+  --radius-4: 0.25rem; /* 4px */
+  --radius-6: 0.375rem; /* 6px */
+  --radius-8: 0.5rem; /* 8px */
+  --radius-12: 0.75rem; /* 12px */
+  --radius-16: 1rem; /* 16px */
+  --radius-full: 9999px;
+
+  /* shadow / elevation. Three steps, each matched to the codebase's
+     dominant literal for that "weight" of shadow (see ADR 0010) -
+     these are plain drop-shadows only. The hover-glow effects
+     (MediaCard's box-shadow/outline using --accent-glow) are a
+     separate, intentionally distinct visual language already
+     expressed through existing color tokens, not folded in here. */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 2px 8px rgb(var(--shadow) / 8%);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
