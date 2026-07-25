@@ -4,11 +4,12 @@ import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import MediaImage from "./media/MediaImage.astro";
+import MediaCard from "./media/MediaCard.astro";
 import { formatDuration } from "../utils/formatDuration";
 import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
 
 type Media = CollectionEntry<"media">;
-type Props = Media["data"] & { 
+type Props = Media["data"] & {
   slug?: Media["id"];
   loading?: "lazy" | "eager";
 };
@@ -23,80 +24,45 @@ const {
   loading = "lazy",
 } = Astro.props;
 
-// Determine if it should be a list layout
-const isListLayout = layoutType === "list";
-
 const isImageMetadata = poster && typeof poster === 'object' && 'src' in poster;
+const href = `/video/${slug}/`;
 ---
 
-<div
-  class:list={[
-    "media-item",
-    "media-link",
-    {
-      "media-list-layout": isListLayout,
-      "media-grid-layout": !isListLayout,
-    },
-  ]}
+<MediaCard
+  title={title}
+  titleHref={href}
+  layoutType={layoutType}
+  mobileGridColumns="2fr-3fr"
 >
-
-  <a href={`/video/${slug}/`} class="media-image">
+  <a href={href} slot="image" class="media-image">
     {isImageMetadata ? (
-      <Image 
-        src={poster as ImageMetadata} 
-        alt={title} 
+      <Image
+        src={poster as ImageMetadata}
+        alt={title}
         widths={[...IMAGE_WIDTHS.large]}
         sizes={IMAGE_SIZES.large}
-        loading={loading} 
+        loading={loading}
       />
     ) : (
       <MediaImage src={poster} alt={title} ratio="video" loading={loading} />
     )}
   </a>
-    <div class="media-content">
-     <a href={`/video/${slug}/`}><h3 class="title">{title}</h3></a>
-      <div class="meta">
-        <span><FormattedDate date={publishedAt} /></span>
-        <span>•</span>
-        <span>{formatDuration(duration)}</span>
-      </div>
-    </div>
-</div>
+  <div slot="meta" class="meta">
+    <span><FormattedDate date={publishedAt} /></span>
+    <span>•</span>
+    <span>{formatDuration(duration)}</span>
+  </div>
+</MediaCard>
 
 <style>
-  /* Style for each media item */
-  .media-item {
-    margin: 0;
-  }
-  .media-link {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    transition: box-shadow 1s ease-out;
-  }
-a {
-    text-decoration: none;
-  } .media-image img {
+  .media-image img {
     border-radius: 6px;
   }
-  .media-link:hover {
-    .media-image img {
-      box-shadow:
-        0 0px 40px var(--accent-glow),
-        0 0px 10px var(--accent-hover);
-      outline: 1px solid var(--accent-hover);
-      transition: box-shadow 1s ease-out;
-    }
-    .title {
-      color: rgb(var(--accent));
-    }
-  }
 
-  .title {
-    font-size: 17px;
-    font-weight: 400;
-    margin: 2px 0;
+  @media screen and (max-width: 768px) {
+    .media-image {
+      border-radius: 2px;
+    }
   }
 
   .meta {
@@ -105,52 +71,5 @@ a {
     display: flex;
     flex-direction: row;
     gap: 8px;
-  }
-  .duration {
-    font-variant: small-caps;
-    position: absolute;
-    display: inline-block;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-    line-height: 1em;
-    padding: 0.5em 0.5em 0.35em;
-    border-radius: 0.4em;
-    letter-spacing: 0.05em;
-
-    font-size: 0.8rem;
-    bottom: 0.5rem;
-    right: 0.5rem;
-  }
-
-  /* New list layout (similar to your @media rule) */
-  .media-list-layout {
-    display: grid;
-    grid-template-columns: minmax(80px, 100px) 1fr; /* The layout you want for list */
-    gap: 1rem; /* Adjust gap as needed for list */
-    align-items: center; /* Vertically align items in the list row */
-  }
-
-  @media screen and (max-width: 768px) {
-    .media-grid-layout {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      align-items: center;
-    }
-
-    .media-link {
-      display: grid;
-      grid-template-columns: 2fr 3fr;
-    }
-
-    .media-image {
-      border-radius: 2px;
-    }
-
-    .duration {
-      bottom: 0.4rem;
-      right: 0.4rem;
-      font-size: 0.7rem;
-    }
   }
 </style>

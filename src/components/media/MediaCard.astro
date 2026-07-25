@@ -1,0 +1,163 @@
+---
+// src/components/media/MediaCard.astro
+//
+// Shared base for VideoCard/PodcastCard/ShowCard - see ADR for the
+// extraction rationale and what's shared vs. type-specific.
+//
+// Astro's scoped CSS only applies to elements a component renders
+// directly - content passed into a slot keeps its *originating*
+// component's scope, not this one's (see "Styling a slot" in Astro's
+// docs). That's why the wrapper/title/meta markup lives here (so this
+// file's <style> block can target it normally), while each card's image
+// block stays a slot - it differs too much per type (aspect ratio,
+// duration badge, image source resolution) to be worth sharing, and
+// each card's own <style> block already scopes its own image CSS
+// correctly. The one place shared CSS needs to reach into slotted
+// content - the hover glow on the image - uses :global() deliberately,
+// which requires every card to keep using the literal "media-image"
+// class on its slotted image wrapper (all three already do).
+export interface Props {
+  title: string;
+  // If set, the title renders as its own link. If omitted, the title
+  // renders as plain text - for cards (ShowCard) where an ancestor
+  // element outside MediaCard already wraps the whole card in one link,
+  // so a second nested <a> would be invalid HTML.
+  titleHref?: string;
+  layoutType?: "grid" | "list";
+  // "show" tightens the title's font size and clamps it to one line -
+  // ShowCard's titles run longer relative to its narrower square card
+  // than Video/PodcastCard's. (Meta/subtitle font sizes are each card's
+  // own concern - see the "meta itself is NOT styled here" note below.)
+  variant?: "media" | "show";
+  // List-layout vertical alignment of the image column against the
+  // content column. Genuinely differs today: VideoCard uses "center",
+  // PodcastCard uses "start" (its longer 3-line content - title, show
+  // name, meta - would center-align awkwardly against a short image).
+  listAlign?: "center" | "start";
+  // Mobile (<=768px) grid-layout column ratio. Genuinely differs today:
+  // PodcastCard and ShowCard both use the default "1fr 4fr", but
+  // VideoCard's original CSS had two competing same-specificity rules
+  // where a later .media-link rule silently overrode its own
+  // .media-grid-layout rule, so its *effective* mobile ratio has
+  // actually been "2fr 3fr" - kept here rather than "corrected", since
+  // this is a behavior-preservation pass, not a redesign.
+  mobileGridColumns?: "1fr-4fr" | "2fr-3fr";
+}
+
+const {
+  title,
+  titleHref,
+  layoutType = "grid",
+  variant = "media",
+  listAlign = "center",
+  mobileGridColumns = "1fr-4fr",
+} = Astro.props;
+const isListLayout = layoutType === "list";
+---
+
+<div
+  class:list={[
+    "media-item",
+    "media-link",
+    {
+      "media-list-layout": isListLayout,
+      "media-grid-layout": !isListLayout,
+      "media-show": variant === "show",
+      "media-list-align-start": listAlign === "start",
+      "media-mobile-cols-2-3": mobileGridColumns === "2fr-3fr",
+    },
+  ]}
+>
+  <slot name="image" />
+  <div class="media-content">{titleHref ? (
+      <a href={titleHref}><h3 class="title">{title}</h3></a>
+    ) : (
+      <h3 class="title">{title}</h3>
+    )}{Astro.slots.has("subtitle") && <slot name="subtitle" />}<slot name="meta" /></div>
+</div>
+
+<style>
+  .media-item {
+    margin: 0;
+  }
+  .media-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: box-shadow 1s ease-out;
+  }
+
+  .media-link:hover :global(.media-image img) {
+    box-shadow:
+      0 0px 40px var(--accent-glow),
+      0 0px 10px var(--accent-hover);
+    outline: 1px solid var(--accent-hover);
+    transition: box-shadow 1s ease-out;
+  }
+  .media-link:hover .title {
+    color: rgb(var(--accent));
+  }
+
+  .media-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .media-content a {
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  .title {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 2px 0;
+  }
+  .media-show .title {
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  /* .meta itself is NOT styled here, deliberately - it's slotted content
+     (each card renders its own <div class="meta"> directly), and an
+     earlier version of this file wrapped the slot in a MediaCard-owned
+     div specifically so this rule could apply. That extra layer of
+     indirection introduced a small, hard-to-pin-down spacing diff in
+     visual regression testing (see ADR), so each card now owns its
+     .meta rule locally instead - 14px/13px (show) duplicated 3 ways,
+     a small tradeoff for a structure that matches each card's original
+     markup exactly. */
+
+  /* Default "grid-like" layout (stacked image over content) */
+  .media-grid-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* List layout: fixed-width image column beside content */
+  .media-list-layout {
+    display: grid;
+    grid-template-columns: minmax(80px, 100px) 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+  .media-list-align-start.media-list-layout {
+    align-items: start;
+  }
+
+  @media screen and (max-width: 768px) {
+    .media-grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      align-items: center;
+    }
+    .media-mobile-cols-2-3.media-grid-layout {
+      grid-template-columns: 2fr 3fr;
+    }
+  }
+</style>
