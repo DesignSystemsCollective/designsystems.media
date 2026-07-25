@@ -4,9 +4,10 @@ import { Image } from "astro:assets";
 import { getShowImage } from "../utils/images";
 import FormattedDate from "../components/FormattedDate.astro";
 import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
+import MediaCard from "./media/MediaCard.astro";
 
 type Media = CollectionEntry<"show">;
-type Props = Media["data"] & { 
+type Props = Media["data"] & {
   slug?: Media["id"];
   loading?: "lazy" | "eager";
   latestEpisodeDate?: Date | null;
@@ -15,14 +16,14 @@ type Props = Media["data"] & {
 const { title, image, slug, speakers, episodeCount, lastUpdate, latestEpisodeDate, loading = "lazy" } = Astro.props;
 const lastUpdateDate = latestEpisodeDate ?? new Date(lastUpdate);
 const posterImage = getShowImage(slug, false);
-
+const href = `/show/${slug}/`;
 ---
 
-<div class="media-item">
-  <a href={`/show/${slug}/`} class="media-link">
-    <div class="media-image square shadow">
+<a href={href} class="show-link">
+  <MediaCard title={title} variant="show">
+    <div slot="image" class="media-image square shadow">
       {posterImage ? (
-        <Image 
+        <Image
           src={posterImage}
           alt={title}
           widths={[...IMAGE_WIDTHS.extraLarge]}
@@ -32,7 +33,7 @@ const posterImage = getShowImage(slug, false);
         />
       ) : image ? (
         // image is ImageMetadata from content collection, use it directly
-        <Image 
+        <Image
           src={image}
           alt={title}
           widths={[...IMAGE_WIDTHS.extraLarge]}
@@ -42,67 +43,44 @@ const posterImage = getShowImage(slug, false);
         />
       ) : null}
     </div>
-    <div class="media-content">
-      <h3 class="title">{title}</h3>
-      <div class="meta speakers">{speakers.join(", ")}</div>
-      <div class="meta">
-        <span><FormattedDate date={lastUpdateDate} /></span> 
-        <span>•</span> <span>{episodeCount} episodes</span>
-      </div>
+    <div slot="subtitle" class="speakers">{speakers.join(", ")}</div>
+    <div slot="meta" class="meta">
+      <span><FormattedDate date={lastUpdateDate} /></span>
+      <span>•</span> <span>{episodeCount} episodes</span>
     </div>
-  </a>
-</div>
+  </MediaCard>
+</a>
 
 <style>
-  /* Style for each media item */
-  .media-item {
-    margin: 0;
-  }
-  .media-link {
+  /* MediaCard's own wrapper is a <div> (Video/PodcastCard have separate
+     image/title links, so it can't be the single link itself), but a
+     show card has always been one link covering the whole card - wrap
+     it from outside instead of changing MediaCard's root element. */
+  .show-link {
+    display: block;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    img {
-      max-width: 100%;
-      height: auto;
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
-    }
-  }
-
-  .media-link:hover {
-    .media-image img {
-      box-shadow:
-        0 0px 40px var(--accent-glow),
-        0 0px 10px var(--accent-hover);
-      outline: 1px solid var(--accent-hover);
-      transition: box-shadow 1s ease-out;
-    }
-    .title {
-      color: rgb(var(--accent)) ;
-    }
+    color: inherit;
   }
 
   .media-image {
     transition: box-shadow 1s ease-out;
-      aspect-ratio: 1 / 1;
-        max-height: fit-content;
+    aspect-ratio: 1 / 1;
+    max-height: fit-content;
     border-radius: 6px;
     overflow: hidden;
   }
-
-  .title {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 2px 0;
-
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1; /* Limit to 3 lines */
+  .media-image img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
+
+  /* .meta is "show" variant's tighter 13px (vs 14px for Video/Podcast).
+     .speakers reuses the same base styling plus the 15px size override
+     that line has always had. Both are slotted content (this file's own
+     scope, not MediaCard's), so each is defined fully, locally. */
   .meta {
     font-size: 13px;
     color: var(--tx-3);
@@ -112,32 +90,9 @@ const posterImage = getShowImage(slug, false);
   }
   .speakers {
     font-size: 15px;
-  }
-  .showTitle {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--tx-2);
-  }
-
-  .media-content {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  .date {
-    font-size: 13px;
     color: var(--tx-3);
-  }
-
-  @media screen and (max-width: 768px) {
-    .media-link {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-    }
-    .duration {
-      bottom: 0.4rem;
-      right: 0.4rem;
-      font-size: 0.7rem;
-    }
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
   }
 </style>

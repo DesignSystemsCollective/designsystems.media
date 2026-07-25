@@ -5,7 +5,7 @@ import VideoCard from "./VideoCard.astro";
 const { media, layoutType = "grid", gridItemMinWidth = "600px" } = Astro.props;
 ---
 
-<ResponsiveGrid gridItemMinWidth={gridItemMinWidth}} gridType="grid">
+<ResponsiveGrid gridItemMinWidth={gridItemMinWidth} gridType="grid">
   {
     media.map((media, index) => (
       <VideoCard
