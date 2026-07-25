@@ -102,6 +102,21 @@ const isListLayout = layoutType === "list";
   .media-content {
     display: flex;
     flex-direction: column;
+    /* 2px, confirmed against live production DOM (pre-Phase-6 code):
+       VideoCard's original .media-content was `display: block` with NO
+       gap - its ~2px title->meta spacing came entirely from .title's own
+       `margin: 2px 0` collapsing in normal block flow (meta has no
+       margin). PodcastCard/ShowCard's original .media-content, by
+       contrast, WAS `display: flex; gap: 2px` - but their title had
+       `margin: 0`, so *their* spacing came entirely from the gap instead.
+       Two different mechanisms that both landed on 2px. Phase 6 merged
+       all three into this one flex-based component but kept BOTH
+       leftover pieces - .title's margin AND a gap - stacking them
+       instead of picking one, which is the actual "hard-to-pin-down
+       spacing diff" ADR 0009 references. Since this shared component is
+       flex-based (Podcast/ShowCard's original mechanism), gap:2px alone
+       now reproduces the correct 2px for every card type, provided
+       .title carries no margin of its own (see below). */
     gap: 2px;
   }
   .media-content a {
@@ -112,7 +127,12 @@ const isListLayout = layoutType === "list";
   .title {
     font-size: 17px;
     font-weight: 400;
-    margin: 2px 0;
+    /* No margin, deliberately - see .media-content's comment above. This
+       matches PodcastCard/ShowCard's original .title exactly (margin: 0,
+       confirmed live), and combined with gap:2px above also correctly
+       reproduces VideoCard's original 2px (which used margin instead of
+       gap) without double-counting it. */
+    margin: 0;
   }
   .media-show .title {
     font-size: 16px;
