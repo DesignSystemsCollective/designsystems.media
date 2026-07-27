@@ -84,7 +84,7 @@ const isListLayout = layoutType === "list";
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--space-16);
     transition: box-shadow 1s ease-out;
   }
 
@@ -117,7 +117,7 @@ const isListLayout = layoutType === "list";
        flex-based (Podcast/ShowCard's original mechanism), gap:2px alone
        now reproduces the correct 2px for every card type, provided
        .title carries no margin of its own (see below). */
-    gap: 2px;
+    gap: var(--space-2);
   }
   .media-content a {
     text-decoration: none;
@@ -125,8 +125,8 @@ const isListLayout = layoutType === "list";
   }
 
   .title {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: var(--font-size-17);
+    font-weight: var(--font-weight-regular);
     /* No margin, deliberately - see .media-content's comment above. This
        matches PodcastCard/ShowCard's original .title exactly (margin: 0,
        confirmed live), and combined with gap:2px above also correctly
@@ -135,7 +135,7 @@ const isListLayout = layoutType === "list";
     margin: 0;
   }
   .media-show .title {
-    font-size: 16px;
+    font-size: var(--font-size-16);
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -156,14 +156,14 @@ const isListLayout = layoutType === "list";
   .media-grid-layout {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--space-16);
   }
 
   /* List layout: fixed-width image column beside content */
   .media-list-layout {
     display: grid;
     grid-template-columns: minmax(80px, 100px) 1fr;
-    gap: 1rem;
+    gap: var(--space-16);
     align-items: center;
   }
   .media-list-align-start.media-list-layout {

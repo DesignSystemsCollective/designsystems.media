@@ -192,7 +192,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     overflow: hidden;
     height: auto;
     margin: 0 -1.5rem 0rem -1.5rem;
-    padding: 2rem 1rem 0;
+    padding: var(--space-32) var(--space-16) 0;
     min-height: 300px;
     z-index: 10;
   }
@@ -235,15 +235,15 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: var(--space-32);
     min-height: 250px;
-    gap: 1.5rem;
+    gap: var(--space-24);
   }
 
   .show-container img,
   .show-container :global(img) {
     box-shadow: 0 10px 30px var(--accent-glow);
-    border-radius: 6px;
+    border-radius: var(--radius-6);
     overflow: hidden;
     max-height: 506px;
     max-width: 900px;
@@ -274,13 +274,13 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     gap: 0rem;
   }
   h1.title {
-    padding: 1rem 0 0;
+    padding: var(--space-16) 0 0;
   }
   .page-title .show {
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
   }
   .speakers-container a {
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
   }
   audio {
     position: relative;
@@ -289,14 +289,14 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
-    margin: 1.5rem auto;
+    gap: var(--space-24);
+    margin: var(--space-24) auto;
   }
   .audio-embed {
     width: 100%;
     max-width: 900px;
     height: 54px;
-    border-radius: 8px;
+    border-radius: var(--radius-8);
     backdrop-filter: blur(10px);
   }
   .audio-embed::-webkit-media-controls-panel {
@@ -319,7 +319,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     }
 
     .show-container {
-      padding: 1.5rem;
+      padding: var(--space-24);
       min-height: 200px;
     }
 

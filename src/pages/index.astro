@@ -33,7 +33,7 @@ const [recentVideos, recentPodcasts] = await Promise.all([
     padding={true}
   />
   <PodcastGrid media={recentPodcasts}  eagerLoadCount={8} />
-  <ResponsiveGrid gridLayoutGap="1rem" gridColumnCount={3}>
+  <ResponsiveGrid gridLayoutGap="var(--space-16)" gridColumnCount={3}>
     <Card>
       <CardHeader
         title="Popular topics"

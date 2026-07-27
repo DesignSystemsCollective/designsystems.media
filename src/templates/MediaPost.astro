@@ -108,15 +108,15 @@ const {
   }
   .hero-image .video-embed {
     border-radius: 0px;
-    margin: 4rem auto 2rem;
+    margin: var(--space-64) auto var(--space-32);
     z-index: 100;
     aspect-ratio: auto 16/9;
     width: 100%;
     height: auto;
     max-width: 900px;
-    box-shadow: 0 4px 8px var(--image-shadow), 
+    box-shadow: 0 4px 8px var(--image-shadow),
    0 0px 0px var(--image-shadow);
-    border-radius: 6px;
+    border-radius: var(--radius-6);
   }
 
   @keyframes fadeIn {
@@ -142,12 +142,12 @@ const {
   }
   .meta-data {
     color: var(--meta-data);
-    padding: 1rem 0em;
+    padding: var(--space-16) 0;
     padding-left: 1.8rem;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 1rem 0;
+    gap: var(--space-16) 0;
     font-size: 1.1rem;
     justify-content: baseline;
   }
@@ -186,9 +186,9 @@ const {
     width: 100%;
     max-width: 900px;
     margin: auto;
-    padding: 1rem;
+    padding: var(--space-16);
     display: grid;
-    gap: 2rem;
+    gap: var(--space-32);
     justify-content: center;
     align-items: start;
     grid-template-columns: minmax(100px, 200px) 1fr;
@@ -208,7 +208,7 @@ const {
     .meta-data {
       padding-left: 0;
       flex-direction: row;
-      gap: 0em 2rem;
+      gap: 0em var(--space-32);
     }
     .meta-data [data-icon] {
       position: relative;

@@ -117,7 +117,7 @@ const layoutType = !showSlug ? "show" : "episode";
 <style>
   .title {
     margin: 0 auto 1em;
-    padding: 2.5rem 0rem 0.5rem;
+    padding: var(--space-40) 0 var(--space-8);
     width: 100%;
     max-width: 900px;
   }
@@ -129,13 +129,13 @@ const layoutType = !showSlug ? "show" : "episode";
   }
 
   .description {
-    margin: 0 0 2rem;
+    margin: 0 0 var(--space-32);
   }
 
   .prose p:first-of-type {margin-top: 0;}
 
   .prose .meta-data {
-    margin: 0 0 1rem;
+    margin: 0 0 var(--space-16);
   }
 
   :global(.prose h1),
@@ -148,7 +148,7 @@ const layoutType = !showSlug ? "show" : "episode";
   }
 
   :global(.prose .responsive-container){
-    padding: 1rem 0 1rem;
+    padding: var(--space-16) 0;
   }
 
   .show-content {
@@ -156,22 +156,22 @@ const layoutType = !showSlug ? "show" : "episode";
     width: 100%;
     max-width: 900px;
     margin: auto;
-    padding: 1rem;
+    padding: var(--space-16);
     z-index:20;
     display: grid;
-    gap: 2rem;
+    gap: var(--space-32);
     justify-content: center;
     align-items: start;
     grid-template-columns: minmax(100px, 200px) 1fr;
   }
   .show-content.show{
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: var(--space-16);
   }
 
   @media screen and (max-width: 768px) {
     .title {
-      padding: 2.5rem 1rem 0.5rem;
+      padding: var(--space-40) var(--space-16) var(--space-8);
     }
 
    .show-content  {

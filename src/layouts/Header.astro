@@ -160,10 +160,10 @@ const currentPage = pathname.replace(/\/$/, "");
         padding: 0;
         display: flex;
         align-items: center;
-        font-weight: 600;
+        font-weight: var(--font-weight-semibold);
 
         svg {
-          margin-right: 0.5rem;
+          margin-right: var(--space-8);
           margin-bottom: 0.2rem;
         }
       }
@@ -193,7 +193,7 @@ const currentPage = pathname.replace(/\/$/, "");
 
     .line {
       --nav-menu-button-span-width: 24px;
-      --nav-menu-button-span-gap: 8px;
+      --nav-menu-button-span-gap: var(--space-8);
       border-radius: 1px;
       background-color: var(--header-text);
       height: 2px;
@@ -246,7 +246,7 @@ const currentPage = pathname.replace(/\/$/, "");
 
   .nav-search-wrapper {
     flex-grow: 1;
-    padding: 0rem 1rem;
+    padding: 0 var(--space-16);
     --pagefind-ui-scale: 0.8;
     max-width: 600px;
     margin: 0 auto;
@@ -254,15 +254,15 @@ const currentPage = pathname.replace(/\/$/, "");
     .pagefind-ui__drawer {
       background-color: var(--header-background);
       box-shadow: 0 2px 8px rgb(var(--shadow) / 8%);
-      padding: calc(1rem * var(--pagefind-ui-scale));
+      padding: calc(var(--space-16) * var(--pagefind-ui-scale));
       border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
       border-radius: var(--pagefind-ui-border-radius);
       font-size: calc(21px * var(--pagefind-ui-scale));
-      max-height: calc(100vh - var(--header-height) - 4rem);
+      max-height: calc(100vh - var(--header-height) - var(--space-64));
       overflow: scroll;
       position: absolute;
       width: 100%;
-      top: 4rem;
+      top: var(--space-64);
     }
 
     .pagefind-ui__filter-panel {
@@ -311,7 +311,7 @@ const currentPage = pathname.replace(/\/$/, "");
     }
 
     .nav-search-wrapper {
-      padding: 0.5rem 0;
+      padding: var(--space-8) 0;
       flex-grow: 0;
       max-width: unset;
       width: 100%;

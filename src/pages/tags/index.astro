@@ -43,16 +43,16 @@ const { groupedItems: groupedTags } = await getTaxonomyIndex("tags");
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding: 1rem;
+    padding: var(--space-16);
     gap: 0.5em;
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-16);
   }
   .alphabet a {
-    font-size: 1.25rem;
+    font-size: var(--font-size-20);
     text-decoration: none;
     background: var(--tagCount-background);
     padding: 0.1em 0.6em 0em;
-    border-radius: 1rem;
+    border-radius: var(--radius-16);
   }
   .alphabet a:hover {
     outline: 1px solid var(--tagCount-count);

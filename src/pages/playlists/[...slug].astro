@@ -99,9 +99,9 @@ const hasImage = Boolean(playlist.data.image);
   .playlist-hero {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: var(--space-20);
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-32);
   }
 
   .playlist-hero.has-image .hero-image img {
@@ -109,13 +109,13 @@ const hasImage = Boolean(playlist.data.image);
   }
 
   .playlist-header h1 {
-    margin: 0 0 0.5rem;
-    line-height: 1.2;
+    margin: 0 0 var(--space-8);
+    line-height: var(--leading-120);
   }
 
   .playlist-header .description {
     color: var(--tx-2);
-    margin: 0 0 0.75rem;
+    margin: 0 0 var(--space-12);
   }
 
   .meta {
@@ -127,23 +127,23 @@ const hasImage = Boolean(playlist.data.image);
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--tx-3);
-    margin: 0 0 0.25rem;
+    margin: 0 0 var(--space-4);
     font-size: 0.85rem;
   }
 
   .playlist-items h2 {
-    margin: 0 0 1rem;
-    font-size: 1.25rem;
+    margin: 0 0 var(--space-16);
+    font-size: var(--font-size-20);
   }
 
   .playlist-list {
     display: grid;
-    gap: 1rem;
+    gap: var(--space-16);
   }
 
   @media screen and (max-width: 900px) {
     .playlist-hero {
-      gap: 1rem;
+      gap: var(--space-16);
     }
   }
 </style>

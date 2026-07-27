@@ -1,6 +1,6 @@
 ---
 const {
-  gridLayoutGap = "24px",
+  gridLayoutGap = "var(--space-24)",
   gridColumnCount = 6,
   gridItemMinWidth = "320px",
   gridType = "grid", // Default to 'grid'
@@ -34,7 +34,7 @@ const isList = gridType === "list";
 <style>
 
   .responsive-container {
-    padding: 1rem; /* This should apply to both grid and list */
+    padding: var(--space-16); /* This should apply to both grid and list */
     /* Add any other shared styles here, e.g., border, background */
   }
 
@@ -61,7 +61,7 @@ const isList = gridType === "list";
    .responsive-list {
     display: flex;
     flex-direction: column;
-    gap: var(--list-item-gap, 16px); /* Add a default gap for list items */
+    gap: var(--list-item-gap, var(--space-16)); /* Add a default gap for list items */
   }
 
   /* You might want to define custom properties for list layout if needed */
