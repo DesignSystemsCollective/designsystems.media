@@ -69,7 +69,7 @@ const {
 <style>
   :global(.title) {
     margin: 0 auto 1em;
-    padding: 2.5rem 0rem 0.5rem;
+    padding: var(--space-40) 0 var(--space-8);
     width: 100%;
     max-width: 900px;
   }
@@ -93,9 +93,9 @@ const {
     width: 100%;
     max-width: 900px;
     margin: auto;
-    padding: 1rem;
+    padding: var(--space-16);
     display: grid;
-    gap: 2rem;
+    gap: var(--space-32);
     justify-content: center;
     align-items: start;
     grid-template-columns: minmax(100px, 200px) 1fr;
@@ -103,7 +103,7 @@ const {
 
   @media screen and (max-width: 1024px) {
     :global(.title) {
-      padding: 2.5rem 1rem 0.5rem;
+      padding: var(--space-40) var(--space-16) var(--space-8);
     }
 
     .content {

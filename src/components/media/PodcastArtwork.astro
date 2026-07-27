@@ -64,9 +64,9 @@ const isImageMetadata = imageUrl && typeof imageUrl === 'object' && 'src' in ima
   .podcast-artwork {
     width: var(--size);
     height: var(--size);
-    border-radius: 12px;
+    border-radius: var(--radius-12);
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--shadow-lg);
   }
 
   .podcast-artwork img {

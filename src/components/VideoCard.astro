@@ -56,20 +56,20 @@ const href = `/video/${slug}/`;
 
 <style>
   .media-image img {
-    border-radius: 6px;
+    border-radius: var(--radius-6);
   }
 
   @media screen and (max-width: 768px) {
     .media-image {
-      border-radius: 2px;
+      border-radius: var(--radius-2);
     }
   }
 
   .meta {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     color: var(--tx-3);
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: var(--space-8);
   }
 </style>

@@ -116,9 +116,9 @@ const imageHeight = ratio === 'video'
    0 0px 0px var(--image-shadow);
   }
   .media-image img {
-    border-radius: 6px;
+    border-radius: var(--radius-6);
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: var(--radius-6);
     width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -156,7 +156,7 @@ const imageHeight = ratio === 'video'
 
   /* Special class for podcast artwork in hero */
   .podcast-artwork img{
-    border-radius: 12px;
+    border-radius: var(--radius-12);
   }
 
   .duration {

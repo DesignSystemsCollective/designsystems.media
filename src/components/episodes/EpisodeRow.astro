@@ -103,12 +103,12 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
 
 <style>
   .episodes-row {
-    padding: 12px 0px;
+    padding: var(--space-12) 0;
     border-bottom: 1px solid var(--hr);
     display: flex;
     align-items: center;
     min-height: 80px;
-    column-gap: 12px;
+    column-gap: var(--space-12);
     width: 100%;
     transition: background-color 0.2s ease;
     text-decoration: none;
@@ -117,7 +117,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
   .episode-meta {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: var(--space-8);
   }
   .episodes-row.even {
     background-color: transparent;
@@ -131,19 +131,19 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
     min-width: 0;
     flex: 1;
     display: flex;
-    row-gap: 8px;
+    row-gap: var(--space-8);
     flex-direction: column;
   }
 
   .episode-title {
-    padding: 0px 4px;
+    padding: 0 var(--space-4);
     color: var(--body-text);
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     text-decoration: none;
-    font-size: 17px;
-    line-height: 1.4;
+    font-size: var(--font-size-17);
+    line-height: var(--leading-140);
     display: flex;
-    gap: 8px;
+    gap: var(--space-8);
     flex-direction: column;
     transition: color 0.2s ease;
     align-items: flex-start;
@@ -155,7 +155,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
 
   .meta {
     color: var(--meta-data);
-    font-size: 14px;
+    font-size: var(--font-size-14);
   }
 
   .duration {
