@@ -41,8 +41,7 @@ const {
                   class="speaker"
                   data-pagefind-filter="speaker"
                   data-pagefind-weight="5"
-                >{speaker}</a>{/* Add a comma if it's not the last item */}
-                {index < speakers.length - 1 && <span>,</span> }
+                >{speaker}</a>{index < speakers.length - 1 && <span>,</span>}
               </>
             ))}
           </div>
@@ -62,8 +61,7 @@ const {
                   class="tag"
                   data-pagefind-filter="tag"
                   data-pagefind-weight="5"
-                >{tag}</a>{/* Add a comma if it's not the last item */}
-                {index < tags.length - 1 && <span>,</span> }
+                >{tag}</a>{index < tags.length - 1 && <span>,</span>}
               </>
             ))}
           </div>
