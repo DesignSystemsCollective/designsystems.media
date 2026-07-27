@@ -1,12 +1,11 @@
 import { getSiteStats } from "../../lib/content-domain";
+import { buildStatsSuccessBody, buildStatsErrorBody } from "../../utils/statsResponse";
 
 export async function GET() {
   try {
     const stats = await getSiteStats();
     return new Response(
-      JSON.stringify({
-        stats,
-      }),
+      JSON.stringify(buildStatsSuccessBody(stats)),
       {
         status: 200,
         headers: {
@@ -16,12 +15,9 @@ export async function GET() {
     );
   } catch (error) {
     console.error("Error generating library stats:", error);
-// 
+
     return new Response(
-      JSON.stringify({
-        error: "Failed to generate library stats",
-        message: error.message,
-      }),
+      JSON.stringify(buildStatsErrorBody(error)),
       {
         status: 500,
         headers: {
