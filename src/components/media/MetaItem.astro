@@ -11,11 +11,20 @@ export interface Props {
   class?: string;
   speakers?: string[];
   tags?: string[];
+  // ADR 0013: series/topics/tools render the same way tags does today
+  // (own icon, own MetaItem, own linked pill group) rather than being
+  // folded into it - each is a separate facet now, not one flat list.
+  series?: string[];
+  topics?: string[];
+  tools?: string[];
 }
 
 const {
   speakers,
   tags,
+  series,
+  topics,
+  tools,
   icon,
   iconSize = 20,
   label,
@@ -69,6 +78,58 @@ const {
       </>
       )
     }
+      {
+        // ADR 0013: series/topics/tools are additive, not a replacement
+        // for the tags block above - they render only once an entry
+        // actually has values in these new fields, which won't happen
+        // until the migration pass in ADR 0012's Open questions runs.
+        series && series.length > 0 && (
+          <div class="series-container">
+            {series.map((seriesName, index) => (
+              <>
+                <a
+                  href={`/series/${convertToSlug(seriesName)}/`}
+                  class="series"
+                  data-pagefind-filter="series"
+                  data-pagefind-weight="5"
+                >{seriesName}</a>{index < series.length - 1 && <span>,</span>}
+              </>
+            ))}
+          </div>
+        )
+      }
+      {
+        topics && topics.length > 0 && (
+          <div class="topics-container">
+            {topics.map((topic, index) => (
+              <>
+                <a
+                  href={`/topics/${convertToSlug(topic)}/`}
+                  class="topic"
+                  data-pagefind-filter="topic"
+                  data-pagefind-weight="5"
+                >{topic}</a>{index < topics.length - 1 && <span>,</span>}
+              </>
+            ))}
+          </div>
+        )
+      }
+      {
+        tools && tools.length > 0 && (
+          <div class="tools-container">
+            {tools.map((tool, index) => (
+              <>
+                <a
+                  href={`/tools/${convertToSlug(tool)}/`}
+                  class="tool"
+                  data-pagefind-filter="tool"
+                  data-pagefind-weight="5"
+                >{tool}</a>{index < tools.length - 1 && <span>,</span>}
+              </>
+            ))}
+          </div>
+        )
+      }
   </div>
 </div>
 

@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getTaxonomyIndex } from "../../lib/content-domain";
+
+// ADR 0013: /topics/ replaces the old /tags/ A-Z sprawl (521 near-
+// singleton tags needed an alphabet scrollbar to be browsable at all)
+// with a single usage-weighted view - at the curated ~45-55 term size
+// ADR 0012 targets, a cloud sized by how much content backs each term
+// is more useful than an alphabet index, and doesn't need one.
+const title = "Topics";
+const { items } = await getTaxonomyIndex("topics");
+const maxCount = Math.max(1, ...items.map((item) => item.count));
+
+function sizeTier(count: number): string {
+  const ratio = count / maxCount;
+  if (ratio > 0.66) return "xl";
+  if (ratio > 0.4) return "lg";
+  if (ratio > 0.2) return "md";
+  if (ratio > 0.08) return "sm";
+  return "xs";
+}
+
+const sortedByCount = [...items].sort((left, right) => right.count - left.count);
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  <h1>Topics</h1>
+  {
+    sortedByCount.length === 0 ? (
+      <p class="empty">
+        No topics tagged yet - this facet is new (see ADR 0012) and lights up
+        once existing content is migrated onto it.
+      </p>
+    ) : (
+      <div class="cloud">
+        {sortedByCount.map((topicItem) => (
+          <a
+            href={`${topicItem.slug}/`}
+            class={`pill ${sizeTier(topicItem.count)}`}
+          >
+            {topicItem.name} <span class="count">{topicItem.count}</span>
+          </a>
+        ))}
+      </div>
+    )
+  }
+</BaseLayout>
+
+<style>
+  h1 {
+    margin: 0 var(--space-16) var(--space-16);
+  }
+  .empty {
+    text-align: center;
+    color: var(--tx-2);
+    padding: var(--space-32) var(--space-16);
+  }
+  .cloud {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-12);
+    padding: var(--space-16) var(--space-24) var(--space-32);
+  }
+  .pill {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.4em;
+    text-decoration: none;
+    color: rgb(var(--accent));
+    background: var(--tagCount-background);
+    padding: 0.3em 0.8em;
+    border-radius: var(--radius-full);
+    line-height: 1.2;
+  }
+  .pill:hover {
+    color: var(--accent-hover);
+    outline: 1px solid var(--tagCount-count);
+  }
+  .pill .count {
+    color: var(--tx-2);
+    font-size: 0.75em;
+  }
+  .pill.xl { font-size: var(--font-size-20); font-weight: var(--font-weight-semibold); }
+  .pill.lg { font-size: 1.1rem; }
+  .pill.md { font-size: var(--font-size-16); }
+  .pill.sm { font-size: var(--font-size-14); }
+  .pill.xs { font-size: var(--font-size-13); }
+</style>

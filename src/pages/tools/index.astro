@@ -1,0 +1,80 @@
+---
+import LabelCount from "../../components/LabelCount.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
+import { getTaxonomyIndex } from "../../lib/content-domain";
+
+// ADR 0013: tools is a small (~12 term), dense closed list - no
+// usage-weighted cloud treatment the way /topics/ gets, an A-Z list is
+// plenty at this size, same layout /speakers/ already uses.
+const title = "Tools";
+const { groupedItems: groupedTools, items } = await getTaxonomyIndex("tools");
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  {
+    items.length === 0 ? (
+      <p class="empty">
+        No tools tagged yet - this facet is new (see ADR 0012) and lights up
+        once existing content is migrated onto it.
+      </p>
+    ) : (
+      <>
+        <div class="alphabet">
+          {Object.keys(groupedTools).map((letter) => (
+            <a href={`#${letter}`}>{letter}</a>
+          ))}
+        </div>
+        <ResponsiveGrid>
+          {Object.keys(groupedTools).map((letter) => (
+            <div>
+              <h2 id={letter}>{letter}</h2>
+              <div class="grid">
+                {groupedTools[letter].map((toolItem) => (
+                  <LabelCount
+                    link={`${toolItem.slug}/`}
+                    type="tools"
+                    name={toolItem.name}
+                    count={toolItem.count}
+                  />
+                ))}
+              </div>
+            </div>
+          ))}
+        </ResponsiveGrid>
+      </>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .empty {
+    text-align: center;
+    color: var(--tx-2);
+    padding: var(--space-32) var(--space-16);
+  }
+  .alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: var(--space-16);
+    gap: 0.5em;
+    margin-bottom: var(--space-16);
+  }
+  .alphabet a {
+    font-size: var(--font-size-20);
+    text-decoration: none;
+    background: var(--tagCount-background);
+    padding: 0.1em 0.6em 0em;
+    border-radius: var(--radius-16);
+  }
+  .alphabet a:hover {
+    outline: 1px solid var(--tagCount-count);
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+</style>

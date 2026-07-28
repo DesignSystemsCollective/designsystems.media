@@ -1,0 +1,110 @@
+// Single source of truth for the three closed taxonomies proposed in
+// ADR 0012 (SERIES / TOPICS / TOOLS, replacing the old freeform `tags`
+// field). content.config.ts imports these arrays to build the Zod
+// enums that gate what can land in content frontmatter; a future sync
+// script (see ADR 0012's Maintenance section) should generate
+// frontmatter.json's `customTaxonomy` entries from this same source so
+// the Front Matter CMS picker and the schema validator never drift
+// apart.
+//
+// These starter lists are the ADR's proposed values, not yet an
+// editorial-approved final cut (see ADR 0012's Open questions). Adding
+// a new term here is a deliberate PR, not something content authors
+// should be able to do by free-typing a value into a field.
+
+export const SERIES = [
+  "Design Systems London",
+  "Converge",
+  "Design Systems WTF",
+  "Coding Design Systems",
+  "Into Design Systems",
+  "Design System Social Club",
+  "Beyond The Button",
+  "The Future Of Design Systems",
+  "Design Systems Field Guide",
+  "UnConference",
+  "DSW Day",
+  "The Product Shipping Forecast",
+  "Design Systems Rodeo",
+  "Axe-Con",
+  "DesignOps Island Discs",
+  "Clarity",
+] as const;
+
+export const TOPICS = [
+  "Clarity",
+  "Design Tokens",
+  "Accessibility",
+  "Documentation",
+  "AI",
+  "Collaboration",
+  "Adoption",
+  "Governance",
+  "Atomic Design",
+  "Consistency",
+  "Contribution",
+  "Inclusivity",
+  "Automation",
+  "Best Practices",
+  "Career",
+  "Theming",
+  "Content",
+  "Component Libraries",
+  "Creativity",
+  "Flexibility",
+  "Measurement",
+  "Workflow",
+  "Culture",
+  "Color",
+  "Principles",
+  "Buy-In",
+  "Strategy",
+  "ROI",
+  "Patterns",
+  "Communication",
+  "Community",
+  "Process",
+  "Analytics",
+  "Burnout",
+  "Soft Skills",
+  "Typography",
+  "Management",
+  "Maintenance",
+  "Metrics",
+  "Cross-functional",
+  "Versioning",
+  "Impact",
+  "Leadership",
+  "Performance",
+  "Foundations",
+  "Scale",
+  "DesignOps",
+  "Maturity",
+  "Change Management",
+  "Naming Conventions",
+  "User Research",
+  "Quality",
+  "Advocacy",
+  "Diversity",
+  "Brand",
+  "Developer Experience",
+] as const;
+
+export const TOOLS = [
+  "Figma",
+  "Supernova",
+  "Zeroheight",
+  "Sketch",
+  "Figma Tokens",
+  "Tokens Studio",
+  "Specify",
+  "Figma Plugin",
+  "Figma Variables",
+  "Storybook",
+  "Backlight",
+  "Leonardo",
+] as const;
+
+export type Series = (typeof SERIES)[number];
+export type Topic = (typeof TOPICS)[number];
+export type Tool = (typeof TOOLS)[number];

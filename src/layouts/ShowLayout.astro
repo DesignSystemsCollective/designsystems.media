@@ -48,6 +48,9 @@ const {
   publishedAt,
   audioUrl,
   tags,
+  series,
+  topics,
+  tools,
   websiteUrl,
   // Add any other props that might come from the podcast collection
   // that aren't already listed above
@@ -86,6 +89,18 @@ const layoutType = !showSlug ? "show" : "episode";
       )}
       {tags && tags.length > 0 && !isShow && (
         <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
+        </MetaItem >
+      )}
+      {series && series.length > 0 && !isShow && (
+        <MetaItem icon="fluent:calendar-ltr-20-filled" series={series} label="Series">
+        </MetaItem >
+      )}
+      {topics && topics.length > 0 && !isShow && (
+        <MetaItem icon="fluent:tag-20-filled" topics={topics} label="Topics">
+        </MetaItem >
+      )}
+      {tools && tools.length > 0 && !isShow && (
+        <MetaItem icon="fluent:wrench-20-filled" tools={tools} label="Tools">
         </MetaItem >
       )}
       {websiteUrl && isShow && (
