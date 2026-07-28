@@ -1,5 +1,5 @@
 ---
-import AstroSearch from "astro-pagefind/components/Search.astro";
+import PagefindConfig from "astro-pagefind/components/PagefindConfig.astro";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import { SITE_TITLE } from "../consts";
 
@@ -37,16 +37,48 @@ const currentPage = pathname.replace(/\/$/, "");
       <span class="line"></span>
     </button>
     <div class="nav-menu">
-      <div class="nav-search-wrapper">
-        <AstroSearch
-          id="nav-search"
-          uiOptions={{
-            showSubResults: true,
-            showEmptyFilters: false,
-          }}
-        />
-      </div>
       <div class="rh-links">
+        {/*
+          Switched from <pagefind-searchbox> (the compact inline dropdown)
+          to the modal-trigger + modal composition so search results can
+          show thumbnail images. <pagefind-searchbox>'s default result
+          template has no <img> at all - no config option turns it on, it
+          just isn't in that component's markup (see
+          @pagefind/component-ui's DEFAULT_RESULT_TEMPLATE2). The image
+          support (show-images, --pf-image-width/height) lives on
+          <pagefind-results> instead, which is the modal's results list,
+          not the searchbox's.
+
+          <pagefind-modal> auto-builds a default header/body/footer if
+          given no children, but that default doesn't set show-images on
+          the <pagefind-results> it creates - so the structure below is
+          spelled out explicitly (mirroring what the default would have
+          built) purely to add that one attribute.
+
+          `compact` is deliberate: clicking anywhere on this trigger just
+          opens the modal - it's a <button>, not a real text input, you
+          can't type into it directly - so styling it as a wide fake
+          search bar (the first pass at this did, matching the old
+          <pagefind-searchbox>'s footprint) was misleading about what it
+          actually does. Compact renders icon + shortcut badge only, no
+          placeholder text, sized and placed like the other utility icons
+          here (Bluesky/X/theme toggle) rather than mimicking an input.
+        */}
+        <PagefindConfig />
+        <pagefind-modal-trigger compact placeholder="Search"
+        ></pagefind-modal-trigger>
+        <pagefind-modal reset-on-close>
+          <pagefind-modal-header>
+            <pagefind-input autofocus></pagefind-input>
+          </pagefind-modal-header>
+          <pagefind-modal-body>
+            <pagefind-summary></pagefind-summary>
+            <pagefind-results show-images></pagefind-results>
+          </pagefind-modal-body>
+          <pagefind-modal-footer>
+            <pagefind-keyboard-hints></pagefind-keyboard-hints>
+          </pagefind-modal-footer>
+        </pagefind-modal>
         <a
           href="https://bsky.app/profile/designsystems.media"
           target="_blank"
@@ -244,43 +276,36 @@ const currentPage = pathname.replace(/\/$/, "");
     }
   }
 
-  .nav-search-wrapper {
-    flex-grow: 1;
-    padding: 0 var(--space-16);
-    --pagefind-ui-scale: 0.8;
-    max-width: 600px;
-    margin: 0 auto;
-
-    .pagefind-ui__drawer {
-      background-color: var(--header-background);
-      box-shadow: var(--shadow-md);
-      padding: calc(var(--space-16) * var(--pagefind-ui-scale));
-      border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
-      border-radius: var(--pagefind-ui-border-radius);
-      font-size: calc(21px * var(--pagefind-ui-scale));
-      max-height: calc(100vh - var(--header-height) - var(--space-64));
-      overflow: scroll;
-      position: absolute;
-      width: 100%;
-      top: var(--space-64);
-    }
-
-    .pagefind-ui__filter-panel {
-      display: none !important;
-    }
-
-    .pagefind-ui__results-area {
-      margin-top: 0;
-    }
-  }
-
   .rh-links {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: var(--space-8);
+    /* Pushes this cluster to the right edge of .nav-menu now that it's
+       the only child there (the search trigger used to share that job
+       with .nav-search-wrapper's own flex-grow, before search moved
+       in here as a compact icon button alongside Bluesky/X/theme
+       toggle - see the comment above <pagefind-modal-trigger>). No-op
+       on mobile, where .nav-menu switches to flex-direction: column and
+       right-alignment already comes from align-items: flex-end there. */
+    margin-left: auto;
 
     a {
     display: flex;
     }
+  }
+
+  /* <pagefind-modal> renders nothing until opened - it's a native
+     <dialog>, positioned and sized via the --pf-modal-* tokens in
+     @pagefind/component-ui's CSS, entirely independent of where it sits
+     in the DOM - so it needs no layout rules here. <pagefind-modal-
+     trigger compact> already sizes itself reasonably as an icon button;
+     colors/radius/shadow for both it and the modal come from the --pf-*
+     tokens in tokens/semantic.css, staying in sync with the site's
+     light/dark theming. */
+  pagefind-modal-trigger {
+    display: flex;
+    align-items: center;
   }
 
   @media screen and (max-width: 425px) {
@@ -308,24 +333,6 @@ const currentPage = pathname.replace(/\/$/, "");
       flex-direction: column;
       flex-basis: 100%;
       align-items: flex-end;
-    }
-
-    .nav-search-wrapper {
-      padding: var(--space-8) 0;
-      flex-grow: 0;
-      max-width: unset;
-      width: 100%;
-
-      .pagefind-ui__drawer {
-        box-shadow: unset;
-        padding: unset;
-        border: unset;
-        border-radius: unset;
-        max-height: unset;
-        overflow: unset;
-        position: relative;
-        top: 0;
-      }
     }
   }
 </style>
