@@ -59,6 +59,30 @@ test.describe("visual regression coverage", () => {
     });
   });
 
+  // Guards against a regression where multiple two-word speaker names
+  // wrapped mid-name on narrow viewports, with the comma stranded on the
+  // wrong line (MetaItem.astro's .speakers-container needed
+  // flex-wrap + white-space: nowrap on the links).
+  test("video detail page with multiple multi-word speakers", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.videoDetailMultiSpeaker);
+
+    await expect(page).toHaveScreenshot("video-detail-multi-speaker.png", {
+      fullPage: true,
+    });
+  });
+
+  // Guards against a regression where whitespace inside the <a> in
+  // Hero.astro's speaker list rendered as a literal space before the
+  // comma ("Davy Fung , PJ Onori").
+  test("show detail page with multi-word speakers", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.showDetailMultiSpeaker);
+
+    await expect(page).toHaveScreenshot("show-detail-multi-speaker.png", {
+      fullPage: false,
+      mask: [page.locator(".responsive-container")],
+    });
+  });
+
   test("tag detail page", async ({ page }) => {
     await prepareVisualPage(page, VISUAL_ROUTES.tagDetail);
 

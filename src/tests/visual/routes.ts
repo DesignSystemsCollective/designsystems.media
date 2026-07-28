@@ -5,6 +5,12 @@ export const VISUAL_ROUTES = {
   videoDetail: "/video/clarity-2018-recap/",
   podcastDetail: "/podcast/26-dominic-nguyen-storybook-and-chromatic/",
   showDetail: "/show/design-systems-podcast/",
+  // Real content chosen specifically because it exercises the multi-word,
+  // multi-speaker metadata layout (MetaItem.astro's speakers-container
+  // wrap behavior, and Hero.astro's speaker-list comma spacing) - see the
+  // fix for the mobile comma/wrapping regression these routes now guard.
+  videoDetailMultiSpeaker: "/video/qanda-session-design-systems-london-14/",
+  showDetailMultiSpeaker: "/show/design-system-office-hours/",
   tagDetail: "/tags/design-tokens/",
   speakerDetail: "/speakers/jina-anne/",
   playlistDetail: "/playlists/ai-and-design-systems-starter/",

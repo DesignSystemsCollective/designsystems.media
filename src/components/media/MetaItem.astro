@@ -143,8 +143,13 @@ const {
 
     .speakers-container {
       display: flex;
-      flex-direction:row;
-      gap: 0rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.25em 0rem;
+    }
+
+    .speakers-container a {
+      white-space: nowrap;
     }
   }
 

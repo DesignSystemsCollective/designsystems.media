@@ -136,9 +136,7 @@ const isImageMetadata = imageToUse && typeof imageToUse === 'object' && 'src' in
                     class="speaker"
                     data-pagefind-filter="speaker"
                     data-pagefind-weight="5"
-                  >
-                    {speaker}
-                  </a>
+                  >{speaker}</a>
                   {/* Add a comma if it's not the last item */}
                   {index < speakers.length - 1 && ", "}
                 </>
