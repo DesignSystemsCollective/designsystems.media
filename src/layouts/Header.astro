@@ -130,7 +130,11 @@ const currentPage = pathname.replace(/\/$/, "");
 <a href="/podcast/" class:list={{ active: currentPage.startsWith("/podcast") || currentPage.includes("/show") }}>
   Podcasts
 </a>
-  <a href="/tags/" class:list={{ active: currentPage.startsWith("/tags") }}> Tags </a>
+  <!-- ADR 0013: Tags -> Topics. Tools stays out of primary nav (see
+       ADR 0013's Decision) - it's reachable via the sidebar and the
+       footer's browse row instead. -->
+  <a href="/topics/" class:list={{ active: currentPage.startsWith("/topics") }}> Topics </a>
+  <a href="/series/" class:list={{ active: currentPage.startsWith("/series") }}> Series </a>
   <a href="/speakers/" class:list={{ active: currentPage.startsWith("/speakers") }}>
     Speakers
   </a>

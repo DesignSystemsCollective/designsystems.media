@@ -20,6 +20,9 @@ const {
   tags,
   speakers,
   categories,
+  series,
+  topics,
+  tools,
 } = Astro.props;
 ---
 
@@ -39,6 +42,18 @@ const {
       )}
       {tags && (
         <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
+        </MetaItem >
+      )}
+      {series && (
+        <MetaItem icon="fluent:calendar-ltr-20-filled" series={series} label="Series">
+        </MetaItem >
+      )}
+      {topics && (
+        <MetaItem icon="fluent:tag-20-filled" topics={topics} label="Topics">
+        </MetaItem >
+      )}
+      {tools && (
+        <MetaItem icon="fluent:wrench-20-filled" tools={tools} label="Tools">
         </MetaItem >
       )}
       {publishedAt && (

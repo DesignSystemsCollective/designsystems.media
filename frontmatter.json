@@ -23,6 +23,21 @@
           "taxonomyId": "speakers"
         },
         {
+          "name": "series",
+          "type": "taxonomy",
+          "taxonomyId": "series"
+        },
+        {
+          "name": "topics",
+          "type": "taxonomy",
+          "taxonomyId": "topics"
+        },
+        {
+          "name": "tools",
+          "type": "taxonomy",
+          "taxonomyId": "tools"
+        },
+        {
           "name": "draft",
           "type": "draft",
           "required": true
@@ -157,6 +172,21 @@
           "name": "speakers",
           "type": "taxonomy",
           "taxonomyId": "speakers"
+        },
+        {
+          "name": "series",
+          "type": "taxonomy",
+          "taxonomyId": "series"
+        },
+        {
+          "name": "topics",
+          "type": "taxonomy",
+          "taxonomyId": "topics"
+        },
+        {
+          "name": "tools",
+          "type": "taxonomy",
+          "taxonomyId": "tools"
         },
         {
           "name": "type",
@@ -335,6 +365,9 @@
     "tags",
     "categories",
     "speakers",
+    "series",
+    "topics",
+    "tools",
     "podcastTitle"
   ],
   "frontMatter.content.sorting": [
@@ -932,6 +965,105 @@
         "Zero",
         "Zeroheight",
         "m4dz"
+      ]
+    },
+    {
+      "id": "series",
+      "options": [
+        "Design Systems London",
+        "Converge",
+        "Design Systems WTF",
+        "Coding Design Systems",
+        "Into Design Systems",
+        "Design System Social Club",
+        "Beyond The Button",
+        "The Future Of Design Systems",
+        "Design Systems Field Guide",
+        "UnConference",
+        "DSW Day",
+        "The Product Shipping Forecast",
+        "Design Systems Rodeo",
+        "Axe-Con",
+        "DesignOps Island Discs",
+        "Clarity"
+      ]
+    },
+    {
+      "id": "topics",
+      "options": [
+        "Clarity",
+        "Design Tokens",
+        "Accessibility",
+        "Documentation",
+        "AI",
+        "Collaboration",
+        "Adoption",
+        "Governance",
+        "Atomic Design",
+        "Consistency",
+        "Contribution",
+        "Inclusivity",
+        "Automation",
+        "Best Practices",
+        "Career",
+        "Theming",
+        "Content",
+        "Component Libraries",
+        "Creativity",
+        "Flexibility",
+        "Measurement",
+        "Workflow",
+        "Culture",
+        "Color",
+        "Principles",
+        "Buy-In",
+        "Strategy",
+        "ROI",
+        "Patterns",
+        "Communication",
+        "Community",
+        "Process",
+        "Analytics",
+        "Burnout",
+        "Soft Skills",
+        "Typography",
+        "Management",
+        "Maintenance",
+        "Metrics",
+        "Cross-functional",
+        "Versioning",
+        "Impact",
+        "Leadership",
+        "Performance",
+        "Foundations",
+        "Scale",
+        "DesignOps",
+        "Maturity",
+        "Change Management",
+        "Naming Conventions",
+        "User Research",
+        "Quality",
+        "Advocacy",
+        "Diversity",
+        "Brand",
+        "Developer Experience"
+      ]
+    },
+    {
+      "id": "tools",
+      "options": [
+        "Figma",
+        "Supernova",
+        "Zeroheight",
+        "Sketch",
+        "Figma Tokens",
+        "Tokens Studio",
+        "Specify",
+        "Figma Plugin",
+        "Figma Variables",
+        "Storybook",
+        "Backlight",
+        "Leonardo"
       ]
     }
   ]

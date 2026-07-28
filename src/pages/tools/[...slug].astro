@@ -1,0 +1,88 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import MediaGrid from "../../components/MediaGrid.astro";
+import PodcastGrid from "../../components/PodcastGrid.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
+import { getTaxonomyIndex, getTaxonomyPage } from "../../lib/content-domain";
+
+export async function getStaticPaths() {
+  const taxonomy = await getTaxonomyIndex("tools");
+
+  return Promise.all(
+    taxonomy.items.map(async (item) => ({
+      params: { slug: item.slug },
+      props: { page: await getTaxonomyPage("tools", item.slug) },
+    })),
+  );
+}
+
+const { page } = Astro.props;
+const { posts, item, podcastPosts, videoPosts } = page;
+const videoCount = videoPosts.length;
+const podcastCount = podcastPosts.length;
+const totalCount = posts.length;
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title: item.name }}>
+  <h1>{item.name}</h1>
+  <div class="header-links">
+    <span class="total">{totalCount} items</span>
+     {videoPosts && videoPosts.length > 0 && <a href="#video">{videoCount} videos</a>}
+     {podcastPosts && podcastPosts.length > 0 &&
+    <a href="#podcast">{podcastCount} podcasts</a>}
+  </div>
+  {videoPosts && videoPosts.length > 0 && (
+    <>
+      <SectionHeader
+        title={`${videoCount} videos`}
+        padding={true}
+        anchor="video"
+      />
+      <MediaGrid media={videoPosts} layoutType="list" />
+    </>
+  )}
+  {podcastPosts && podcastPosts.length > 0 && (
+    <>
+      <SectionHeader
+        title={`${podcastCount} podcasts`}
+        padding={true}
+        anchor="podcast"
+      />
+      <PodcastGrid media={podcastPosts} />
+    </>
+  )}
+</BaseLayout>
+
+<style>
+  h1 {
+    margin: 0 var(--space-16) 0;
+  }
+  h2 {
+    margin-block: 0 var(--space-32);
+  }
+  .container {
+    margin-bottom: var(--space-32);
+  }
+  .header-links {
+    margin: 0 var(--space-16) var(--space-32);
+    display: flex;
+    gap: 1em;
+    font-size: 0.9em;
+    font-weight: var(--font-weight-semibold);
+    color: var(--tx-3)
+  }
+  .header-links a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 1024px) {
+  h1 {
+    margin: var(--space-16) var(--space-16) 0;
+  }
+    h2,
+    .breadcrumb {
+      padding-left: var(--space-16);
+      margin: 0;
+    }
+  }
+</style>

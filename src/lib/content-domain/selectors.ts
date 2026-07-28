@@ -46,17 +46,30 @@ function groupTaxonomyItems(items: TaxonomyItem[]): Record<string, TaxonomyItem[
   }, {});
 }
 
+// One lookup per TaxonomyKind, each pointing at the matching frontmatter
+// field. "tags" and "speakers" are the pre-existing freeform/controlled
+// fields; "series"/"topics"/"tools" are ADR 0012's new controlled
+// facets - present on the schema, but empty on every entry until the
+// migration pass referenced in ADR 0012's Open questions runs.
+const TAXONOMY_FIELD: Record<TaxonomyKind, keyof MediaLikeEntry["data"]> = {
+  tags: "tags",
+  speakers: "speakers",
+  series: "series",
+  topics: "topics",
+  tools: "tools",
+};
+
 function buildTaxonomyIndex(
   kind: TaxonomyKind,
   items: MediaLikeEntry[],
 ): TaxonomyIndex {
   const grouped = new Map<string, TaxonomyItem>();
+  const field = TAXONOMY_FIELD[kind];
 
   for (const item of items) {
-    const values =
-      kind === "tags"
-        ? normalizeTaxonomyValues(item.data.tags)
-        : normalizeTaxonomyValues(item.data.speakers);
+    const values = normalizeTaxonomyValues(
+      item.data[field] as string[] | undefined,
+    );
 
     for (const value of values) {
       const slug = toTaxonomySlug(value);
@@ -197,6 +210,9 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
 
   const tagIndex = buildTaxonomyIndex("tags", media);
   const speakerIndex = buildTaxonomyIndex("speakers", media);
+  const seriesIndex = buildTaxonomyIndex("series", media);
+  const topicsIndex = buildTaxonomyIndex("topics", media);
+  const toolsIndex = buildTaxonomyIndex("tools", media);
   const resolvedPlaylists = buildResolvedPlaylists(
     allPlaylists,
     videosBySlug,
@@ -229,6 +245,9 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
     unsorted,
     tagIndex,
     speakerIndex,
+    seriesIndex,
+    topicsIndex,
+    toolsIndex,
     showsByRecentEpisode,
     latestEpisodeDateByShow,
     showsBySlug,
@@ -239,12 +258,20 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
   };
 }
 
+const TAXONOMY_INDEX: Record<TaxonomyKind, keyof ContentIndex> = {
+  tags: "tagIndex",
+  speakers: "speakerIndex",
+  series: "seriesIndex",
+  topics: "topicsIndex",
+  tools: "toolsIndex",
+};
+
 export function getTaxonomyPageData(
   index: ContentIndex,
   kind: TaxonomyKind,
   slug: string,
 ): TaxonomyPageData | null {
-  const taxonomy = kind === "tags" ? index.tagIndex : index.speakerIndex;
+  const taxonomy = index[TAXONOMY_INDEX[kind]] as TaxonomyIndex;
   const item = taxonomy.items.find((entry) => entry.slug === slug);
 
   if (!item) {

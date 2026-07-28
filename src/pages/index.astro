@@ -33,53 +33,58 @@ const [recentVideos, recentPodcasts] = await Promise.all([
     padding={true}
   />
   <PodcastGrid media={recentPodcasts}  eagerLoadCount={8} />
+  <!-- ADR 0013: three honestly-labeled facets, replacing the old
+       topics/speakers/"Popular events" row. "Popular events" used to
+       link to plain tag pages for conference names - the exact
+       series/topics/tools confusion ADR 0012 diagnoses. These links
+       point at the new /topics/, /series/, /tools/ taxonomies; they'll
+       show empty pages until the migration pass in ADR 0012's Open
+       questions actually re-tags content onto them. -->
   <ResponsiveGrid gridLayoutGap="var(--space-16)" gridColumnCount={3}>
     <Card>
       <CardHeader
         title="Popular topics"
-        link="/tags/"
-        linkLabel="View all tags"
+        link="/topics/"
+        linkLabel="View all topics"
       />
       <div class="home-content">
         <ul>
           <li>
-            <a href="/tags/design-tokens/">Design tokens</a>
-          </li><li><a href="/tags/components/">Components</a></li><li>
-            <a href="/tags/color/">Color</a>
-          </li><li><a href="/tags/atomic-design/">Atomic design</a></li>
+            <a href="/topics/design-tokens/">Design tokens</a>
+          </li><li><a href="/topics/accessibility/">Accessibility</a></li><li>
+            <a href="/topics/governance/">Governance</a>
+          </li><li><a href="/topics/adoption/">Adoption</a></li>
         </ul>
       </div>
     </Card>
     <Card>
       <CardHeader
-        title="Popular speakers"
-        link="/speakers/"
-        linkLabel="View all speakers"
+        title="Popular series"
+        link="/series/"
+        linkLabel="View all series"
       />
       <div class="home-content">
         <ul>
-          <li><a href="/speakers/jina-anne/">Jina Anne</a></li><li>
-            <a href="/speakers/dan-mall/">Dan Mall</a>
-          </li><li><a href="/speakers/brad-frost/">Brad Frost</a></li><li>
-            <a href="/speakers/nathan-curtis/">Nathan Curtis</a>
-          </li><li><a href="/speakers/amy-hupe/">Amy Hupe</a></li>
+          <li>
+            <a href="/series/design-systems-london/">Design Systems London</a>
+          </li><li><a href="/series/converge/">Converge</a></li><li>
+            <a href="/series/clarity/">Clarity</a>
+          </li><li><a href="/series/dsw-day/">DSW Day</a></li>
         </ul>
       </div>
     </Card>
     <Card>
-      <CardHeader title="Popular events" />
+      <CardHeader
+        title="Popular tools"
+        link="/tools/"
+        linkLabel="View all tools"
+      />
       <div class="home-content">
         <ul>
-          <li><a href="/tags/clarity/">Clarity</a></li><li>
-            <a href="/tags/design-systems-london/">Design Systems London</a>
-          </li><li>
-            <a href="/tags/the-future-of-design-systems/"
-              >The Future of Design Systems</a
-            >
-          </li><li>
-            <a href="/tags/dsw-day/">DSW Day</a>
-          </li><li>
-            <a href="/tags/smashing/">Smashing</a>
+          <li><a href="/tools/figma/">Figma</a></li><li>
+            <a href="/tools/supernova/">Supernova</a>
+          </li><li><a href="/tools/zeroheight/">Zeroheight</a></li><li>
+            <a href="/tools/storybook/">Storybook</a>
           </li>
         </ul>
       </div>
