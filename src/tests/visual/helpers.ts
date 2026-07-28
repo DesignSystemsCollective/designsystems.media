@@ -1,6 +1,14 @@
 import { expect, type Locator, type Page } from "@playwright/test";
 
 export async function prepareVisualPage(page: Page, route: string) {
+  // No search-dropdown guard needed here (there used to be one - see git
+  // history / PR #96 discussion): search moved from <pagefind-searchbox>,
+  // a CSS-only dropdown that could in principle be left open by a stray
+  // focus state, to <pagefind-modal-trigger> + a native <dialog>. A
+  // dialog only renders once something explicitly calls .showModal() -
+  // prepareVisualPage never does, so it's inert on every route here by
+  // construction, not by a display:none hack that has to be kept in sync
+  // with whatever class name the library happens to use this version.
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto(route, { waitUntil: "networkidle" });
   await expect(page.locator("header")).toBeVisible();
@@ -16,12 +24,22 @@ export async function prepareVisualPage(page: Page, route: string) {
         transition: none !important;
         caret-color: transparent !important;
       }
-      .pagefind-ui__drawer {
-        display: none !important;
-      }
     `,
   });
   await waitForVisibleImages(page);
+}
+
+// The search box lives inside Header.astro's collapsible mobile menu
+// (hidden by default under 768px, see Header.astro's .nav-menu CSS) - on
+// the visual-mobile project it has to be opened via the hamburger button
+// before the search input is visible/interactable at all. On
+// visual-desktop the button itself is hidden (display:none), so this is
+// a no-op there rather than needing two separate code paths per project.
+export async function openMobileMenuIfNeeded(page: Page) {
+  const menuButton = page.locator(".nav-menu-button");
+  if (await menuButton.isVisible()) {
+    await menuButton.click();
+  }
 }
 
 export async function maskHomeDynamicRegions(page: Page): Promise<Locator[]> {

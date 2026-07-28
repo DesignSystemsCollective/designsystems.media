@@ -14,6 +14,39 @@
   --tagCount-count: rgba(var(--accent), 80%);
   --tagCount-background: rgba(var(--accent), 5%);
 
+  /* Search (astro-pagefind v2 / @pagefind/component-ui). The old
+     --pagefind-ui-* tokens above this comment themed the classic
+     `pagefind-ui` widget - Header.astro now renders a
+     <pagefind-modal-trigger> + <pagefind-modal> pair (see Header.astro's
+     .nav-menu), which is a different package (@pagefind/component-ui)
+     with its own theming API (--pf-* custom properties, see
+     node_modules/@pagefind/component-ui/css). The two don't share
+     variable names, so the tokens below are the ones that actually
+     reach the rendered markup - mapped to the same underlying site
+     tokens the --pagefind-ui-* set already pointed at, so search keeps
+     following the light/dark theme toggle automatically. */
+  --pf-font: "Atkinson", sans-serif;
+  --pf-text: var(--tx);
+  --pf-text-secondary: var(--tx-2);
+  --pf-text-muted: var(--tx-3);
+  --pf-background: var(--bg);
+  --pf-border: var(--hr);
+  --pf-border-focus: rgb(var(--accent));
+  --pf-hover: rgba(var(--accent), 8%);
+  --pf-skeleton: var(--bg-2);
+  --pf-skeleton-shine: var(--ui-2);
+  --pf-mark: rgb(var(--accent));
+  --pf-scroll-shadow: rgba(var(--shadow), 8%);
+  --pf-shadow-sm: var(--shadow-sm);
+  --pf-shadow-md: var(--shadow-md);
+  --pf-shadow-lg: var(--shadow-lg);
+  --pf-outline-focus: var(--accent-hover);
+  --pf-border-radius: var(--radius-8);
+
+  /* Legacy classic-pagefind-ui tokens - unused by the current
+     <pagefind-searchbox> markup, kept only in case a future component
+     (e.g. the full-page results modal) reintroduces the classic
+     widget. Safe to delete once confirmed nothing references them. */
   --pagefind-ui-scale: 0.5;
   --pagefind-ui-text: var(--body-text);
   --pagefind-ui-background: transparent;
