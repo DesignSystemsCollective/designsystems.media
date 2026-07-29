@@ -18,6 +18,12 @@
 // enumeration - the migration script flagged the resulting orphaned
 // "Failure" tag as unmapped rather than guessing, which is what
 // surfaced the gap.
+//
+// "Web Components" and "CSS" were added after running the migration
+// on the full corpus (686 block-list-format entries the first pass
+// had silently skipped): both showed up as recurring unmapped tags
+// (3 entries each) that were clearly topic-shaped and just missing
+// from the starter list, not one-off noise.
 
 export const SERIES = [
   "Design Systems London",
@@ -96,6 +102,8 @@ export const TOPICS = [
   "Diversity",
   "Brand",
   "Developer Experience",
+  "Web Components",
+  "CSS",
 ] as const;
 
 export const TOOLS = [
