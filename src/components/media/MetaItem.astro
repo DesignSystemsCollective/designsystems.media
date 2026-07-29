@@ -62,34 +62,35 @@ const {
       </>
       )
     }
-      {(
-        // Otherwise (if showSlug does NOT exist)
-         <> {/* Use a fragment to group the speakers content */}
-        {tags && tags.length > 0 && (
-          <div class="tags-container">
-            {tags.map((tag, index) => (
-              <>
-                <a
-                  href={`/tags/${convertToSlug(tag)}/`}
-                  class="tag"
-                  data-pagefind-filter="tag"
-                  data-pagefind-weight="5"
-                >{tag}</a>{index < tags.length - 1 && <span>,</span>}
-              </>
+      {
+        // Tags render as the same pill chips as series/topics/tools/
+        // systems below - freeform vocabulary or not, it's still a
+        // clickable, browsable facet in the meta row, and having it
+        // sit next to Topics as the one plain-text holdout read like
+        // an unfinished corner rather than a deliberate distinction.
+        // Speakers (above) stays plain-link: it's a byline, not really
+        // a "facet" in the same browsable-taxonomy sense.
+        tags && tags.length > 0 && (
+          <div class="pill-group tags-container">
+            {tags.map((tag) => (
+              <a
+                href={`/tags/${convertToSlug(tag)}/`}
+                class="pill tag"
+                data-pagefind-filter="tag"
+                data-pagefind-weight="5"
+              >{tag}</a>
             ))}
           </div>
-        )}
-      </>
-      )
-    }
+        )
+      }
       {
         // ADR 0013/0014: series/topics/tools/systems render as pill
-        // chips (mockup "Screen 5"), not the comma-separated plain
-        // links tags/speakers use - they're closed-vocabulary facets,
-        // so each value reads better as a discrete, clickable badge
-        // than as flowing text. Reuses the same pill tokens as the
-        // /topics/ cloud page (--tagCount-background, --accent,
-        // --radius-full) for visual consistency across the site.
+        // chips (mockup "Screen 5"), same as tags above - each value
+        // reads better as a discrete, clickable badge than as flowing
+        // text. Reuses the same pill tokens as the /topics/ cloud page
+        // (--tagCount-background, --accent, --radius-full) for visual
+        // consistency across the site. Speakers stays a plain-link
+        // byline, not a pill facet.
         series && series.length > 0 && (
           <div class="pill-group series-container">
             {series.map((seriesName) => (
