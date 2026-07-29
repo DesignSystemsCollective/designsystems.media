@@ -79,6 +79,9 @@ export interface SiteStats {
   podcastEpisodes: number;
   tags: number;
   speakers: number;
+  topics: number;
+  series: number;
+  tools: number;
   underMinute: number;
   drafts: number;
   unsortedTag: number;
