@@ -6,6 +6,7 @@ import Title from "../components/Title.astro";
 import { formatDuration } from "../utils/formatDuration";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
+import { getResidualTags } from "../utils/residualTags";
 import type { BaseMediaProps } from "../types/media";
 
 const {
@@ -24,6 +25,10 @@ const {
   topics,
   tools,
 } = Astro.props;
+
+// ADR 0012/0013: don't show a legacy tag alongside its own migrated
+// series/topics/tools equivalent - see residualTags.ts.
+const residualTags = getResidualTags(tags, series, topics, tools);
 ---
 
 <article data-pagefind-body data-pagefind-sort>
@@ -40,8 +45,8 @@ const {
         <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
         </MetaItem >
       )}
-      {tags && (
-        <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
+      {residualTags.length > 0 && (
+        <MetaItem icon="fluent:tag-20-filled" tags={residualTags} label="Tags">
         </MetaItem >
       )}
       {series && (
