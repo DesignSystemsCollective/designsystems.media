@@ -62,6 +62,14 @@ export const SERIES = [
   "Axe-Con",
   "DesignOps Island Discs",
   "Clarity",
+  // The show already exists as a proper podcast (src/content/show/
+  // back-to-school-with-amy-hupe-and-geri-reid, 6 episodes correctly
+  // linked via showSlug). Two of those episodes were also uploaded as
+  // standalone YouTube videos (media collection, no showSlug), and
+  // picked up inconsistent freeform tags ("Back To School With Amy
+  // And Geri" / "back to school with amy hupe & geri reid") instead of
+  // a real series link. Canonical name matches the show's own title.
+  "Back to School with Amy Hupe and Geri Reid",
 ] as const;
 
 export const TOPICS = [
