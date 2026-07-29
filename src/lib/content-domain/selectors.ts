@@ -1,4 +1,5 @@
 import { isDurationOneMinuteOrUnder } from "../../utils/isDurationOneMinuteOrUnder.ts";
+import { convertToSlug } from "../../utils/convertToSlug.ts";
 import {
   normalizeDate,
   normalizeDraftFlag,
@@ -57,7 +58,22 @@ const TAXONOMY_FIELD: Record<TaxonomyKind, keyof MediaLikeEntry["data"]> = {
   series: "series",
   topics: "topics",
   tools: "tools",
+  systems: "systems",
 };
+
+// "tags" and "speakers" are freeform: different entries may spell the
+// same value with different casing ("AI" / "ai" / "Ai"), so
+// normalizeTaxonomyValues title-cases them to collapse variants into
+// one taxonomy entry. series/topics/tools/systems are closed
+// vocabularies enforced by a Zod enum (content.config.ts) - every
+// entry already carries the exact canonical casing from taxonomy.ts,
+// so running them through the same normalizer would corrupt
+// deliberately-cased acronyms and brand names (AI -> Ai, ROI -> Roi,
+// ADR 0014's GOV.UK -> Gov.uk, WhatsApp -> Whatsapp).
+const FREEFORM_TAXONOMY_KINDS: ReadonlySet<TaxonomyKind> = new Set([
+  "tags",
+  "speakers",
+]);
 
 function buildTaxonomyIndex(
   kind: TaxonomyKind,
@@ -65,14 +81,16 @@ function buildTaxonomyIndex(
 ): TaxonomyIndex {
   const grouped = new Map<string, TaxonomyItem>();
   const field = TAXONOMY_FIELD[kind];
+  const isFreeform = FREEFORM_TAXONOMY_KINDS.has(kind);
 
   for (const item of items) {
-    const values = normalizeTaxonomyValues(
-      item.data[field] as string[] | undefined,
-    );
+    const raw = (item.data[field] as string[] | undefined) ?? [];
+    const values = isFreeform
+      ? normalizeTaxonomyValues(raw)
+      : raw.filter(Boolean);
 
     for (const value of values) {
-      const slug = toTaxonomySlug(value);
+      const slug = isFreeform ? toTaxonomySlug(value) : convertToSlug(value);
       const current = grouped.get(slug);
 
       if (!current) {
@@ -213,6 +231,7 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
   const seriesIndex = buildTaxonomyIndex("series", media);
   const topicsIndex = buildTaxonomyIndex("topics", media);
   const toolsIndex = buildTaxonomyIndex("tools", media);
+  const systemsIndex = buildTaxonomyIndex("systems", media);
   const resolvedPlaylists = buildResolvedPlaylists(
     allPlaylists,
     videosBySlug,
@@ -229,6 +248,7 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
     topics: topicsIndex.items.length,
     series: seriesIndex.items.length,
     tools: toolsIndex.items.length,
+    systems: systemsIndex.items.length,
     underMinute: underOneMinute.length,
     drafts: drafts.length,
     unsortedTag: unsorted.length,
@@ -251,6 +271,7 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
     seriesIndex,
     topicsIndex,
     toolsIndex,
+    systemsIndex,
     showsByRecentEpisode,
     latestEpisodeDateByShow,
     showsBySlug,
@@ -267,6 +288,7 @@ const TAXONOMY_INDEX: Record<TaxonomyKind, keyof ContentIndex> = {
   series: "seriesIndex",
   topics: "topicsIndex",
   tools: "toolsIndex",
+  systems: "systemsIndex",
 };
 
 export function getTaxonomyPageData(
