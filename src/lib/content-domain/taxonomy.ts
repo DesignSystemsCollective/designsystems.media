@@ -11,6 +11,13 @@
 // editorial-approved final cut (see ADR 0012's Open questions). Adding
 // a new term here is a deliberate PR, not something content authors
 // should be able to do by free-typing a value into a field.
+//
+// "Failure & Lessons Learned" was added post-migration: ADR 0012's own
+// merge table names it (Failure/Fail/Fails -> Failure & Lessons
+// Learned) but it was missing from the ADR's ~50-term starter list
+// enumeration - the migration script flagged the resulting orphaned
+// "Failure" tag as unmapped rather than guessing, which is what
+// surfaced the gap.
 
 export const SERIES = [
   "Design Systems London",
@@ -63,6 +70,7 @@ export const TOPICS = [
   "Patterns",
   "Communication",
   "Community",
+  "Failure & Lessons Learned",
   "Process",
   "Analytics",
   "Burnout",
