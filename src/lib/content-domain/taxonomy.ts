@@ -24,6 +24,17 @@
 // had silently skipped): both showed up as recurring unmapped tags
 // (3 entries each) that were clearly topic-shaped and just missing
 // from the starter list, not one-off noise.
+//
+// "Challenges" was added as its own topic rather than folded into
+// "Failure & Lessons Learned": checking the 8 entries tagged with it
+// showed a mixed bag - some are genuinely about failure (Broken
+// Promises, The Ugly Truth), but others are about succeeding despite
+// friction (Secrets to a Successful Design System, Managing design
+// systems in the open) or making a business case. Merging all of them
+// into a failure-specific topic would have misrepresented the ones
+// that aren't about failure at all - "Challenges" as its own broader
+// topic (general friction/pitfalls, not necessarily failure) is the
+// more honest fit.
 
 export const SERIES = [
   "Design Systems London",
@@ -104,6 +115,7 @@ export const TOPICS = [
   "Developer Experience",
   "Web Components",
   "CSS",
+  "Challenges",
 ] as const;
 
 export const TOOLS = [
