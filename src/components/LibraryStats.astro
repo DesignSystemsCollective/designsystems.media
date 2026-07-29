@@ -3,7 +3,12 @@ import { Icon } from "astro-icon/components";
 import { getSiteStats } from "../lib/content-domain";
 import CountUp from "./CountUp";
 
-const { videos: videoCount, podcastEpisodes: podcastCount, speakers: speakerCount, tags: tagCount } =
+// ADR 0013: this tile used to be Tags/tagCount/href="/tags/" - swapped
+// for Topics now that /topics/ is the real curated successor. Left as
+// a single tile (not expanded to cover series/tools too) since the
+// grid is a hardcoded 4 columns and this is a scoped fix, not a
+// redesign - flag if a 5th/6th tile is wanted later.
+const { videos: videoCount, podcastEpisodes: podcastCount, speakers: speakerCount, topics: topicsCount } =
   await getSiteStats();
 
 function getStartNumber(finalTotal) {
@@ -68,20 +73,20 @@ function getStartNumber(finalTotal) {
       </div>
     </div>
   </a>
-  <a href="/tags/" class="stat">
+  <a href="/topics/" class="stat">
     <Icon name="fluent:tag-multiple-24-regular" />
     <div class="info">
-      <div data-type="label">Tags</div>
+      <div data-type="label">Topics</div>
       <div data-type="count">
         <CountUp
           client:load
-          from={getStartNumber(tagCount)}
-          to={tagCount}
+          from={getStartNumber(topicsCount)}
+          to={topicsCount}
           separator=","
           direction="up"
           delay={1.2}
           duration={1}
-          className="count-up-tag"
+          className="count-up-topics"
         />
       </div>
     </div>
@@ -168,7 +173,7 @@ function getStartNumber(finalTotal) {
   }
 </style>
 
-<script define:vars={{ videoCount, tagCount, speakerCount }}>
+<script define:vars={{ videoCount, topicsCount, speakerCount }}>
   // Cookie utility functions
   const CookieManager = {
     // Set a cookie with a name, value, and optional expiration days
@@ -209,7 +214,7 @@ function getStartNumber(finalTotal) {
     init() {
       // Load saved values from cookies
       this.updateDisplay("video-count", CookieManager.getNumber("videoCount"));
-      this.updateDisplay("tag-count", CookieManager.getNumber("tagCount"));
+      this.updateDisplay("topics-count", CookieManager.getNumber("topicsCount"));
       this.updateDisplay(
         "speaker-count",
         CookieManager.getNumber("speakerCount"),
@@ -230,7 +235,7 @@ function getStartNumber(finalTotal) {
       // Update display based on counter name
       const displayMap = {
         videoCount: "video-count",
-        tagCount: "tag-count",
+        topicsCount: "topics-count",
         speakerCount: "speaker-count",
       };
 
@@ -246,7 +251,7 @@ function getStartNumber(finalTotal) {
     Counters.init();
 
     Counters.updateCounter("videoCount", videoCount);
-    Counters.updateCounter("tagCount", tagCount);
+    Counters.updateCounter("topicsCount", topicsCount);
     Counters.updateCounter("speakerCount", speakerCount);
   });
 </script>
