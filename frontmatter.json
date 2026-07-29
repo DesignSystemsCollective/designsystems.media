@@ -38,6 +38,11 @@
           "taxonomyId": "tools"
         },
         {
+          "name": "systems",
+          "type": "taxonomy",
+          "taxonomyId": "systems"
+        },
+        {
           "name": "draft",
           "type": "draft",
           "required": true
@@ -187,6 +192,11 @@
           "name": "tools",
           "type": "taxonomy",
           "taxonomyId": "tools"
+        },
+        {
+          "name": "systems",
+          "type": "taxonomy",
+          "taxonomyId": "systems"
         },
         {
           "name": "type",
@@ -368,6 +378,7 @@
     "series",
     "topics",
     "tools",
+    "systems",
     "podcastTitle"
   ],
   "frontMatter.content.sorting": [
@@ -1067,7 +1078,28 @@
         "Figma Variables",
         "Storybook",
         "Backlight",
-        "Leonardo"
+        "Leonardo",
+        "Omlet"
+      ]
+    },
+    {
+      "id": "systems",
+      "options": [
+        "Skapa",
+        "Spectrum",
+        "Encore",
+        "Base",
+        "Lightning Design System",
+        "Primer",
+        "Fluent UI",
+        "Carbon",
+        "Canvas",
+        "Human Interface Guidelines",
+        "Atlassian Design System",
+        "GOV.UK Design System",
+        "Airbnb Design System",
+        "WhatsApp",
+        "Polaris"
       ]
     }
   ]

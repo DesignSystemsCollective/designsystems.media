@@ -17,6 +17,9 @@ export interface Props {
   series?: string[];
   topics?: string[];
   tools?: string[];
+  // ADR 0014: named design-system products (Skapa, Spectrum...), not
+  // companies - same treatment as series/topics/tools above.
+  systems?: string[];
 }
 
 const {
@@ -25,6 +28,7 @@ const {
   series,
   topics,
   tools,
+  systems,
   icon,
   iconSize = 20,
   label,
@@ -125,6 +129,22 @@ const {
                   data-pagefind-filter="tool"
                   data-pagefind-weight="5"
                 >{tool}</a>{index < tools.length - 1 && <span>,</span>}
+              </>
+            ))}
+          </div>
+        )
+      }
+      {
+        systems && systems.length > 0 && (
+          <div class="systems-container">
+            {systems.map((system, index) => (
+              <>
+                <a
+                  href={`/systems/${convertToSlug(system)}/`}
+                  class="system"
+                  data-pagefind-filter="system"
+                  data-pagefind-weight="5"
+                >{system}</a>{index < systems.length - 1 && <span>,</span>}
               </>
             ))}
           </div>

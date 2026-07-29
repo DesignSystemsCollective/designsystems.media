@@ -83,12 +83,13 @@ export async function getSiteStats(): Promise<SiteStats> {
   return (await getContentIndex()).stats;
 }
 
-const TAXONOMY_INDEX_KEY: Record<TaxonomyKind, "tagIndex" | "speakerIndex" | "seriesIndex" | "topicsIndex" | "toolsIndex"> = {
+const TAXONOMY_INDEX_KEY: Record<TaxonomyKind, "tagIndex" | "speakerIndex" | "seriesIndex" | "topicsIndex" | "toolsIndex" | "systemsIndex"> = {
   tags: "tagIndex",
   speakers: "speakerIndex",
   series: "seriesIndex",
   topics: "topicsIndex",
   tools: "toolsIndex",
+  systems: "systemsIndex",
 };
 
 export async function getTaxonomyIndex(kind: TaxonomyKind): Promise<TaxonomyIndex> {

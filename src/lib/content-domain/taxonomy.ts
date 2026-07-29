@@ -35,6 +35,15 @@
 // that aren't about failure at all - "Challenges" as its own broader
 // topic (general friction/pitfalls, not necessarily failure) is the
 // more honest fit.
+//
+// SYSTEMS (ADR 0014) is a fourth taxonomy, added later than the
+// original three: named design-system *products* (Skapa, Spectrum,
+// Encore...), not companies. ADR 0012 originally recommended against
+// a company taxonomy (open-ended, mostly one-off tag mentions) - this
+// is a narrower, deliberate reversal of that specific call once title
+// research showed a real recurring pattern of entries that are
+// actually about a specific named system, not just mentioning a
+// company. See ADR 0014 for the full reasoning.
 
 export const SERIES = [
   "Design Systems London",
@@ -131,8 +140,32 @@ export const TOOLS = [
   "Storybook",
   "Backlight",
   "Leonardo",
+  "Omlet",
+] as const;
+
+// Named design-system products, not companies (ADR 0014). Where a
+// company's system doesn't have its own distinct brand name, the
+// company name doubles as the value (Atlassian Design System,
+// Airbnb Design System, GOV.UK Design System, WhatsApp).
+export const SYSTEMS = [
+  "Skapa",
+  "Spectrum",
+  "Encore",
+  "Base",
+  "Lightning Design System",
+  "Primer",
+  "Fluent UI",
+  "Carbon",
+  "Canvas",
+  "Human Interface Guidelines",
+  "Atlassian Design System",
+  "GOV.UK Design System",
+  "Airbnb Design System",
+  "WhatsApp",
+  "Polaris",
 ] as const;
 
 export type Series = (typeof SERIES)[number];
 export type Topic = (typeof TOPICS)[number];
 export type Tool = (typeof TOOLS)[number];
+export type System = (typeof SYSTEMS)[number];
