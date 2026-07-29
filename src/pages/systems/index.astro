@@ -1,0 +1,82 @@
+---
+import LabelCount from "../../components/LabelCount.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
+import { getTaxonomyIndex } from "../../lib/content-domain";
+
+// ADR 0014: systems is a small (~15 term), dense closed list of named
+// design-system products (Skapa, Spectrum, Encore...), not companies -
+// same A-Z treatment as /tools/ rather than the usage-weighted cloud
+// /topics/ gets.
+const title = "Systems";
+const { groupedItems: groupedSystems, items } =
+  await getTaxonomyIndex("systems");
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  {
+    items.length === 0 ? (
+      <p class="empty">
+        No systems tagged yet - this facet is new (see ADR 0014) and lights
+        up once existing content is migrated onto it.
+      </p>
+    ) : (
+      <>
+        <div class="alphabet">
+          {Object.keys(groupedSystems).map((letter) => (
+            <a href={`#${letter}`}>{letter}</a>
+          ))}
+        </div>
+        <ResponsiveGrid>
+          {Object.keys(groupedSystems).map((letter) => (
+            <div>
+              <h2 id={letter}>{letter}</h2>
+              <div class="grid">
+                {groupedSystems[letter].map((systemItem) => (
+                  <LabelCount
+                    link={`${systemItem.slug}/`}
+                    type="systems"
+                    name={systemItem.name}
+                    count={systemItem.count}
+                  />
+                ))}
+              </div>
+            </div>
+          ))}
+        </ResponsiveGrid>
+      </>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .empty {
+    text-align: center;
+    color: var(--tx-2);
+    padding: var(--space-32) var(--space-16);
+  }
+  .alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: var(--space-16);
+    gap: 0.5em;
+    margin-bottom: var(--space-16);
+  }
+  .alphabet a {
+    font-size: var(--font-size-20);
+    text-decoration: none;
+    background: var(--tagCount-background);
+    padding: 0.1em 0.6em 0em;
+    border-radius: var(--radius-16);
+  }
+  .alphabet a:hover {
+    outline: 1px solid var(--tagCount-count);
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+</style>

@@ -11,7 +11,13 @@ export type MediaLikeEntry = MediaEntry | PodcastEntry;
 // still holds the real freeform data on every existing entry until the
 // migration pass described in ADR 0012's Open questions actually
 // re-tags content into the new facets.
-export type TaxonomyKind = "tags" | "speakers" | "series" | "topics" | "tools";
+export type TaxonomyKind =
+  | "tags"
+  | "speakers"
+  | "series"
+  | "topics"
+  | "tools"
+  | "systems";
 export type PlaylistItemRef = PlaylistEntry["data"]["items"][number];
 
 export interface ResolvedPlaylistItem {
@@ -82,6 +88,7 @@ export interface SiteStats {
   topics: number;
   series: number;
   tools: number;
+  systems: number;
   underMinute: number;
   drafts: number;
   unsortedTag: number;
@@ -108,6 +115,7 @@ export interface ContentIndex {
   seriesIndex: TaxonomyIndex;
   topicsIndex: TaxonomyIndex;
   toolsIndex: TaxonomyIndex;
+  systemsIndex: TaxonomyIndex;
   showsByRecentEpisode: ShowWithLatestEpisode[];
   latestEpisodeDateByShow: Map<string, Date>;
   showsBySlug: Map<string, ShowEntry>;

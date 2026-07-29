@@ -52,6 +52,7 @@ const {
   series,
   topics,
   tools,
+  systems,
   websiteUrl,
   // Add any other props that might come from the podcast collection
   // that aren't already listed above
@@ -60,9 +61,9 @@ const {
 
 const displayUrl = getDomainFromUrl(websiteUrl);
 
-// ADR 0012/0013: don't show a legacy tag alongside its own migrated
-// series/topics/tools equivalent - see residualTags.ts.
-const residualTags = getResidualTags(tags, series, topics, tools);
+// ADR 0012/0013/0014: don't show a legacy tag alongside its own
+// migrated series/topics/tools/systems equivalent - see residualTags.ts.
+const residualTags = getResidualTags(tags, series, topics, tools, systems);
 
 const isShow = showSlug ? false : true;
 const layoutType = !showSlug ? "show" : "episode";
@@ -106,6 +107,10 @@ const layoutType = !showSlug ? "show" : "episode";
       )}
       {tools && tools.length > 0 && !isShow && (
         <MetaItem icon="fluent:wrench-20-filled" tools={tools} label="Tools">
+        </MetaItem >
+      )}
+      {systems && systems.length > 0 && !isShow && (
+        <MetaItem icon="fluent:apps-20-filled" systems={systems} label="Systems">
         </MetaItem >
       )}
       {websiteUrl && isShow && (
