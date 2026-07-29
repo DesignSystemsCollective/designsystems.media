@@ -83,69 +83,64 @@ const {
       )
     }
       {
-        // ADR 0013: series/topics/tools are additive, not a replacement
-        // for the tags block above - they render only once an entry
-        // actually has values in these new fields, which won't happen
-        // until the migration pass in ADR 0012's Open questions runs.
+        // ADR 0013/0014: series/topics/tools/systems render as pill
+        // chips (mockup "Screen 5"), not the comma-separated plain
+        // links tags/speakers use - they're closed-vocabulary facets,
+        // so each value reads better as a discrete, clickable badge
+        // than as flowing text. Reuses the same pill tokens as the
+        // /topics/ cloud page (--tagCount-background, --accent,
+        // --radius-full) for visual consistency across the site.
         series && series.length > 0 && (
-          <div class="series-container">
-            {series.map((seriesName, index) => (
-              <>
-                <a
-                  href={`/series/${convertToSlug(seriesName)}/`}
-                  class="series"
-                  data-pagefind-filter="series"
-                  data-pagefind-weight="5"
-                >{seriesName}</a>{index < series.length - 1 && <span>,</span>}
-              </>
+          <div class="pill-group series-container">
+            {series.map((seriesName) => (
+              <a
+                href={`/series/${convertToSlug(seriesName)}/`}
+                class="pill series"
+                data-pagefind-filter="series"
+                data-pagefind-weight="5"
+              >{seriesName}</a>
             ))}
           </div>
         )
       }
       {
         topics && topics.length > 0 && (
-          <div class="topics-container">
-            {topics.map((topic, index) => (
-              <>
-                <a
-                  href={`/topics/${convertToSlug(topic)}/`}
-                  class="topic"
-                  data-pagefind-filter="topic"
-                  data-pagefind-weight="5"
-                >{topic}</a>{index < topics.length - 1 && <span>,</span>}
-              </>
+          <div class="pill-group topics-container">
+            {topics.map((topic) => (
+              <a
+                href={`/topics/${convertToSlug(topic)}/`}
+                class="pill topic"
+                data-pagefind-filter="topic"
+                data-pagefind-weight="5"
+              >{topic}</a>
             ))}
           </div>
         )
       }
       {
         tools && tools.length > 0 && (
-          <div class="tools-container">
-            {tools.map((tool, index) => (
-              <>
-                <a
-                  href={`/tools/${convertToSlug(tool)}/`}
-                  class="tool"
-                  data-pagefind-filter="tool"
-                  data-pagefind-weight="5"
-                >{tool}</a>{index < tools.length - 1 && <span>,</span>}
-              </>
+          <div class="pill-group tools-container">
+            {tools.map((tool) => (
+              <a
+                href={`/tools/${convertToSlug(tool)}/`}
+                class="pill tool"
+                data-pagefind-filter="tool"
+                data-pagefind-weight="5"
+              >{tool}</a>
             ))}
           </div>
         )
       }
       {
         systems && systems.length > 0 && (
-          <div class="systems-container">
-            {systems.map((system, index) => (
-              <>
-                <a
-                  href={`/systems/${convertToSlug(system)}/`}
-                  class="system"
-                  data-pagefind-filter="system"
-                  data-pagefind-weight="5"
-                >{system}</a>{index < systems.length - 1 && <span>,</span>}
-              </>
+          <div class="pill-group systems-container">
+            {systems.map((system) => (
+              <a
+                href={`/systems/${convertToSlug(system)}/`}
+                class="pill system"
+                data-pagefind-filter="system"
+                data-pagefind-weight="5"
+              >{system}</a>
             ))}
           </div>
         )
@@ -199,6 +194,31 @@ const {
       flex-direction:column;
       gap: var(--space-4);
     }
+
+  .pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-8);
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: baseline;
+    text-decoration: none;
+    color: rgb(var(--accent));
+    background: var(--tagCount-background);
+    padding: 0.3em 0.8em;
+    border-radius: var(--radius-full);
+    line-height: 1.2;
+    font-size: 0.95em;
+    white-space: nowrap;
+  }
+
+  .pill:hover {
+    color: var(--accent-hover);
+    outline: 1px solid var(--tagCount-count);
+  }
 
   @media screen and (max-width: 768px) {
     .show-content {
