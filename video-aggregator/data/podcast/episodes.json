@@ -1,5 +1,425 @@
 [
   {
+    "title": "Humans Over Hype w/ Christine Vallaure | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/vp0jl6rxpgjo13w9/yt_video_u_ParPwXAx0_nq3nuc.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/vp0jl6rxpgjo13w9/yt_video_u_ParPwXAx0_nq3nuc.mp3",
+    "publishedAt": "2026-07-28T20:34:11.000Z",
+    "duration": "0:59:50",
+    "durationSeconds": 3590,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6ea0fc2ddc0f139dd777e59871af3f9c.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6ea0fc2ddc0f139dd777e59871af3f9c.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 58306381671,
+    "guid": "yt:video:u_ParPwXAx0",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Iconic Work w/ Bonnie Kate Wolf | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/79rrk3wig8sulojt/yt_video_JaNP7tm6ff8_ty5man.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/79rrk3wig8sulojt/yt_video_JaNP7tm6ff8_ty5man.mp3",
+    "publishedAt": "2026-07-24T20:34:53.000Z",
+    "duration": "1:02:12",
+    "durationSeconds": 3732,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a1748c1fd8f3a05b35ffe0d86bf13ec1.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a1748c1fd8f3a05b35ffe0d86bf13ec1.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 58053626685,
+    "guid": "yt:video:JaNP7tm6ff8",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Ep 104: The Governance Junk Drawer",
+    "description": "<p>Davy and PJ debate how automation, visible chaos, and human judgment can help teams move fast without turning the design system into an expensive junk drawer.</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/123154371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-22%2F65c85fd2-b632-ca53-f02a-ce6ecda8fbd8.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/123154371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-22%2F65c85fd2-b632-ca53-f02a-ce6ecda8fbd8.mp3",
+    "publishedAt": "2026-07-22T07:01:00.000Z",
+    "duration": "0:35:25",
+    "durationSeconds": 2125,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 57943367994,
+    "guid": "ce85977e-5f93-4332-8236-ecf8661e5ee4",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Is Governance Just Theater?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Governance seems to be one of those fancy words that gets thrown around a lot by design system people - but what level of governance is actually worthwhile, and how much of it is theater? Michelle and Luke will dive into governance, what level is good enough, and what bits they think you should scrap.</p><p><b>Show notes</b></p><ul><li>Brad Frost's governance flowchart — the component approval flow Michelle borrowed and adapted:<a href='https://bradfrost.com/blog/post/a-design-system-governance-process/'> A Design System Governance Process</a>. Also available as a<a href='https://www.figma.com/community/file/1236334970777726108/design-system-governance-process'> Figma community file</a>, and his lighter-touch follow-up:<a href='https://bradfrost.com/blog/post/master-design-system-governance-with-this-one-weird-trick/'> Master design system governance with this one weird trick</a></li><li>Nathan Curtis on governance and contribution — his writing on contribution models referenced in the episode:<a href='https://medium.com/eightshapes-llc/contributions-to-design-systems-89261a9363d8'> Contributions to Design Systems</a> and<a href='https://medium.com/eightshapes-llc/team-models-for-scaling-a-design-system-2cf9d03be6a0'> Team Models for Scaling a Design System</a></li><li>Managing Chaos: Digital Governance by Design by Lisa Welchman — Michelle's book recommendation for adding process in a way that isn't \"gross\", with a historical look at how web governance emerged:<a href='https://rosenfeldmedia.com/books/managing-chaos/'> Rosenfeld Media</a></li><li>Org Design for Design Orgs by Peter Merholz & Kristin Skinner — Luke's companion-piece recommendation on ritual and process for design teams, transferable to design systems:<a href='https://www.petermerholz.com/org-design-for-design-orgs/'> petermerholz.com</a> /<a href='https://www.oreilly.com/library/view/org-design-for/9781491938393/'> O'Reilly</a></li><li>Big Vape: The Rise and Fall of Juul — the Netflix documentary on Juul and \"how not to do a startup\":<a href='https://www.netflix.com/title/81444184'> Netflix</a></li></ul><p><b><br/></b><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19519480-is-governance-just-theater.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19519480-is-governance-just-theater.mp3",
+    "publishedAt": "2026-07-21T03:00:00.000Z",
+    "duration": "0:47:50",
+    "durationSeconds": 2870,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 57865936228,
+    "guid": "Buzzsprout-19519480",
+    "season": 2,
+    "episode": 59,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Growing Community w/ Ben Callahan | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/mmxzje99ew081hbk/yt_video_K5HlrqFfdEc_9ba4mv.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/mmxzje99ew081hbk/yt_video_K5HlrqFfdEc_9ba4mv.mp3",
+    "publishedAt": "2026-07-16T20:35:20.000Z",
+    "duration": "1:01:38",
+    "durationSeconds": 3698,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7ef02c4d26208a588ffcc3203856d4f6.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/7ef02c4d26208a588ffcc3203856d4f6.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 57673257923,
+    "guid": "yt:video:K5HlrqFfdEc",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Reading as a System w/ Bram Adams | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/l93wuq8vicuu8f2q/yt_video_ijxATxqxv6s_9ggb3u.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/l93wuq8vicuu8f2q/yt_video_ijxATxqxv6s_9ggb3u.mp3",
+    "publishedAt": "2026-07-14T21:49:12.000Z",
+    "duration": "1:05:50",
+    "durationSeconds": 3950,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/1daa5391e5720e53570baa30a27a63b6.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/1daa5391e5720e53570baa30a27a63b6.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 57615716285,
+    "guid": "yt:video:ijxATxqxv6s",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "What do the Config 2026 announcements mean for design systems?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Config 2026 happened in San Francisco last week, so we got together straight after the announcements to discuss what the announcements mean for design systems folks - from code on the canvas, to agents, skills, and connectors, to Figma Motion. What will these announcements mean for the work we do day to day?</p><p><b>Show notes</b></p><ul><li><a href='https://zeroheight.com/blog/what-do-the-config-2026-announcements-mean-for-design-systems/'><b>Blog post - What do the Config 2026 announcements mean for design systems?</b></a></li></ul><p><b><br/></b><br/></p><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19474770-what-do-the-config-2026-announcements-mean-for-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19474770-what-do-the-config-2026-announcements-mean-for-design-systems.mp3",
+    "publishedAt": "2026-07-14T03:00:00.000Z",
+    "duration": "0:55:15",
+    "durationSeconds": 3315,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 57523374867,
+    "guid": "Buzzsprout-19474770",
+    "season": 2,
+    "episode": 58,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Ep 103: Config 2026 Recap",
+    "description": "<p>Davy returns from Config with a backpack full of new Figma features. Also our annual discussion of were these releases for us?</p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/122588619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F834b48a2-760d-3261-ca0c-00529e6ada2a.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/122588619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F834b48a2-760d-3261-ca0c-00529e6ada2a.mp3",
+    "publishedAt": "2026-07-09T07:03:00.000Z",
+    "duration": "0:36:35",
+    "durationSeconds": 2195,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 57317730642,
+    "guid": "a2ff6091-0d06-4ed2-b462-b64d177f0e15",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "31: TJ Pitre - AI & Design Systems",
+    "description": "<p>We're joined by TJ Pitre, who shares his experience as CEO of Southleft and Product Architect, AI & Design Systems at Figma.</p><p><br/><b>Episode links:</b></p><ul><li>AI & Design Systems: <a href='https://aianddesign.systems/'>https://aianddesign.systems/</a> </li><li>Sentient Design: <a href='https://www.amazon.com/Sentient-Design-Crafting-Intelligent-Interfaces/dp/1959029185'>https://www.amazon.com/Sentient-Design-Crafting-Intelligent-Interfaces/dp/1959029185</a> </li></ul><p><b>Socials:</b></p><ul><li>Website: <a href='https://southleft.com/'>https://southleft.com/</a> </li><li>Linkedin: <a href='https://www.linkedin.com/in/tpitre'>https://www.linkedin.com/in/tpitre</a> </li><li>Twitter: <a href='https://x.com/tpitre'>https://x.com/tpitre</a> </li><li>Substack: <a href='https://southleft.substack.com/'>https://southleft.substack.com/</a> </li></ul>",
+    "podcastTitle": "Code & Pixels",
+    "episodeUrl": "https://www.buzzsprout.com/1958356/episodes/19431662-31-tj-pitre-ai-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/1958356/episodes/19431662-31-tj-pitre-ai-design-systems.mp3",
+    "publishedAt": "2026-07-07T15:00:00.000Z",
+    "duration": "0:35:55",
+    "durationSeconds": 2155,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/1958356.rss",
+    "feedId": 5328591,
+    "episodeId": 57225444280,
+    "guid": "Buzzsprout-19431662",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "⁠⁠Is driving adoption just a polite way of begging",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Adoption has been the perennial curse of design systems. Always a problem, never quite fixed, and loads of opinions about how to do it. But are we approaching it in the right way? Michelle and Luke talk about the problem with how adoption has been positioned, whether it's a tactical or cultural thing, and whether the goal should sit with design systems teams or the wider org.</p><p><b>Show notes</b></p><ul><li><a href='https://zeroheight.com/blog/design-systems-are-dead-long-live-design-systems/'><b>Design Systems are Dead. Long Live Design Systems</b></a></li></ul><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19402131-is-driving-adoption-just-a-polite-way-of-begging.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19402131-is-driving-adoption-just-a-polite-way-of-begging.mp3",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "duration": "0:40:18",
+    "durationSeconds": 2418,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 57204165147,
+    "guid": "Buzzsprout-19402131",
+    "season": 2,
+    "episode": 57,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Theming Atproto | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/1isaegxho36sxiyu/yt_video_198IaNSqWjM_jtd4n4.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/1isaegxho36sxiyu/yt_video_198IaNSqWjM_jtd4n4.mp3",
+    "publishedAt": "2026-07-03T21:56:53.000Z",
+    "duration": "0:48:20",
+    "durationSeconds": 2900,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/889524c0bd014410604356894ffdf9fd.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/889524c0bd014410604356894ffdf9fd.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 57615716291,
+    "guid": "yt:video:198IaNSqWjM",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "About Atproto w/ Dan Abramov | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/e5fcqsrotjj39fy4/yt_video_5YCBWuMoti0_uknhgn.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/e5fcqsrotjj39fy4/yt_video_5YCBWuMoti0_uknhgn.mp3",
+    "publishedAt": "2026-07-03T20:36:25.000Z",
+    "duration": "0:55:15",
+    "durationSeconds": 3315,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/66ef40fd30c4b6778cbcdf88b2a0d30e.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/66ef40fd30c4b6778cbcdf88b2a0d30e.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 57084297452,
+    "guid": "yt:video:5YCBWuMoti0",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "World Wide Components w/ Michael Warren | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/jcrs72k3nqkvwi85/yt_video_sv1BYK5SgnI_ez9yd2.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/jcrs72k3nqkvwi85/yt_video_sv1BYK5SgnI_ez9yd2.mp3",
+    "publishedAt": "2026-07-01T22:01:56.000Z",
+    "duration": "1:01:35",
+    "durationSeconds": 3695,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/e1382c1b2fc3551577b98e87a19260ca.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/e1382c1b2fc3551577b98e87a19260ca.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 57084297453,
+    "guid": "yt:video:sv1BYK5SgnI",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Place of Craft w/ Caroline Horn | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/42rwh8tb5b88gab2/yt_video_CfIwbnio4ig_pj2cy6.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/42rwh8tb5b88gab2/yt_video_CfIwbnio4ig_pj2cy6.mp3",
+    "publishedAt": "2026-06-30T21:47:44.000Z",
+    "duration": "0:58:43",
+    "durationSeconds": 3523,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/4866c560d03db16d4783cbfce1f8fda9.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/4866c560d03db16d4783cbfce1f8fda9.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 57084297454,
+    "guid": "yt:video:CfIwbnio4ig",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Undefined Retro | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/90qmvbgbqee8yl9h/yt_video_ieYCp6jNa4Q_qfvujn.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/90qmvbgbqee8yl9h/yt_video_ieYCp6jNa4Q_qfvujn.mp3",
+    "publishedAt": "2026-06-30T20:39:38.000Z",
+    "duration": "0:46:42",
+    "durationSeconds": 2802,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/99a821b55033023495dc55df6759184e.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/99a821b55033023495dc55df6759184e.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 56967058571,
+    "guid": "yt:video:ieYCp6jNa4Q",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Config 2026 | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
