@@ -9,14 +9,35 @@ import { getTaxonomyIndex } from "../../lib/content-domain";
 // is more useful than an alphabet index, and doesn't need one.
 const title = "Topics";
 const { items } = await getTaxonomyIndex("topics");
-const maxCount = Math.max(1, ...items.map((item) => item.count));
+
+// Tier boundaries are percentiles of the actual count distribution, not a
+// fixed % of the max. Spacing (50/75/90/97) is deliberately uneven rather
+// than equal-width quantiles: most topics cluster at low counts (long
+// tail), so an even split would flatten the top into one oversized bucket
+// (e.g. count 13 rendering the same size as count 85). Skewing the cutoffs
+// toward the top keeps "xl" reserved for genuine outliers while still
+// spreading the crowded low end across more than one visible size.
+const countsAsc = items.map((item) => item.count).sort((left, right) => left - right);
+
+function quantile(q: number): number {
+  if (countsAsc.length === 0) return 0;
+  const pos = (countsAsc.length - 1) * q;
+  const base = Math.floor(pos);
+  const rest = pos - base;
+  const next = countsAsc[base + 1];
+  return next === undefined ? countsAsc[base] : countsAsc[base] + rest * (next - countsAsc[base]);
+}
+
+const q50 = quantile(0.5);
+const q75 = quantile(0.75);
+const q90 = quantile(0.9);
+const q97 = quantile(0.97);
 
 function sizeTier(count: number): string {
-  const ratio = count / maxCount;
-  if (ratio > 0.66) return "xl";
-  if (ratio > 0.4) return "lg";
-  if (ratio > 0.2) return "md";
-  if (ratio > 0.08) return "sm";
+  if (count > q97) return "xl";
+  if (count > q90) return "lg";
+  if (count > q75) return "md";
+  if (count > q50) return "sm";
   return "xs";
 }
 
@@ -81,9 +102,9 @@ const sortedByCount = [...items].sort((left, right) => right.count - left.count)
     color: var(--tx-2);
     font-size: 0.75em;
   }
-  .pill.xl { font-size: var(--font-size-20); font-weight: var(--font-weight-semibold); }
-  .pill.lg { font-size: 1.1rem; }
-  .pill.md { font-size: var(--font-size-16); }
-  .pill.sm { font-size: var(--font-size-14); }
-  .pill.xs { font-size: var(--font-size-13); }
+  .pill.xl { font-size: 1.9375rem; font-weight: var(--font-weight-semibold); }
+  .pill.lg { font-size: 1.5625rem; font-weight: var(--font-weight-medium); }
+  .pill.md { font-size: 1.3125rem; }
+  .pill.sm { font-size: var(--font-size-18); }
+  .pill.xs { font-size: var(--font-size-16); }
 </style>
