@@ -8,12 +8,29 @@ import SectionHeader from "../components/SectionHeader.astro";
 import Sponsors from "../components/Sponsors.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ResponsiveGrid from "../layouts/ResponsiveGrid.astro";
-import { getRecentPodcasts, getRecentVideos } from "../lib/content-domain";
+import { getRecentPodcasts, getRecentVideos, getTaxonomyIndex } from "../lib/content-domain";
+import type { TaxonomyItem } from "../lib/content-domain/types";
 
-const [recentVideos, recentPodcasts] = await Promise.all([
+const [recentVideos, recentPodcasts, topicsIndex, seriesIndex, toolsIndex] = await Promise.all([
   getRecentVideos(12),
   getRecentPodcasts(12),
+  getTaxonomyIndex("topics"),
+  getTaxonomyIndex("series"),
+  getTaxonomyIndex("tools"),
 ]);
+
+// "Popular" = most content behind it, not a hand-picked list - now that
+// series/topics/tools are real, migrated facets (ADR 0012/0013) rather
+// than empty placeholders, the homepage can surface whichever four
+// terms in each facet actually have the most videos/podcasts, and it
+// stays correct as new content is tagged instead of drifting stale.
+function topByCount(items: TaxonomyItem[], limit = 4): TaxonomyItem[] {
+  return [...items].sort((left, right) => right.count - left.count).slice(0, limit);
+}
+
+const popularTopics = topByCount(topicsIndex.items);
+const popularSeries = topByCount(seriesIndex.items);
+const popularTools = topByCount(toolsIndex.items);
 ---
 
 <BaseLayout sidebar={false} isHome={true}>
@@ -33,54 +50,54 @@ const [recentVideos, recentPodcasts] = await Promise.all([
     padding={true}
   />
   <PodcastGrid media={recentPodcasts}  eagerLoadCount={8} />
+  <!-- ADR 0013: three honestly-labeled facets, replacing the old
+       topics/speakers/"Popular events" row. "Popular events" used to
+       link to plain tag pages for conference names - the exact
+       series/topics/tools confusion ADR 0012 diagnoses. These link to
+       the /topics/, /series/, /tools/ taxonomies, and now that content
+       is migrated onto them, "popular" is computed from actual entry
+       counts per term (see topByCount above) rather than a hand-picked
+       list, so this row updates itself as tagging changes. -->
   <ResponsiveGrid gridLayoutGap="var(--space-16)" gridColumnCount={3}>
     <Card>
       <CardHeader
         title="Popular topics"
-        link="/tags/"
-        linkLabel="View all tags"
+        link="/topics/"
+        linkLabel="View all topics"
       />
       <div class="home-content">
         <ul>
-          <li>
-            <a href="/tags/design-tokens/">Design tokens</a>
-          </li><li><a href="/tags/components/">Components</a></li><li>
-            <a href="/tags/color/">Color</a>
-          </li><li><a href="/tags/atomic-design/">Atomic design</a></li>
+          {popularTopics.map((topic) => (
+            <li><a href={`/topics/${topic.slug}/`}>{topic.name}</a></li>
+          ))}
         </ul>
       </div>
     </Card>
     <Card>
       <CardHeader
-        title="Popular speakers"
-        link="/speakers/"
-        linkLabel="View all speakers"
+        title="Popular series"
+        link="/series/"
+        linkLabel="View all series"
       />
       <div class="home-content">
         <ul>
-          <li><a href="/speakers/jina-anne/">Jina Anne</a></li><li>
-            <a href="/speakers/dan-mall/">Dan Mall</a>
-          </li><li><a href="/speakers/brad-frost/">Brad Frost</a></li><li>
-            <a href="/speakers/nathan-curtis/">Nathan Curtis</a>
-          </li><li><a href="/speakers/amy-hupe/">Amy Hupe</a></li>
+          {popularSeries.map((series) => (
+            <li><a href={`/series/${series.slug}/`}>{series.name}</a></li>
+          ))}
         </ul>
       </div>
     </Card>
     <Card>
-      <CardHeader title="Popular events" />
+      <CardHeader
+        title="Popular tools"
+        link="/tools/"
+        linkLabel="View all tools"
+      />
       <div class="home-content">
         <ul>
-          <li><a href="/tags/clarity/">Clarity</a></li><li>
-            <a href="/tags/design-systems-london/">Design Systems London</a>
-          </li><li>
-            <a href="/tags/the-future-of-design-systems/"
-              >The Future of Design Systems</a
-            >
-          </li><li>
-            <a href="/tags/dsw-day/">DSW Day</a>
-          </li><li>
-            <a href="/tags/smashing/">Smashing</a>
-          </li>
+          {popularTools.map((tool) => (
+            <li><a href={`/tools/${tool.slug}/`}>{tool.name}</a></li>
+          ))}
         </ul>
       </div>
     </Card>

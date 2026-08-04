@@ -2,26 +2,31 @@
 import { Icon } from "astro-icon/components";
 import { getTaxonomyIndex } from "../lib/content-domain";
 
-const [tagIndex, speakerIndex] = await Promise.all([
-  getTaxonomyIndex("tags"),
+// ADR 0013: Tags -> Topics, plus a new Tools section. Topics/Tools will
+// render empty (no <li> entries) until the migration pass in ADR
+// 0012's Open questions runs, since the underlying data doesn't exist
+// on content yet - that's expected for this foundation pass, not a bug.
+const [topicsIndex, speakerIndex, toolsIndex] = await Promise.all([
+  getTaxonomyIndex("topics"),
   getTaxonomyIndex("speakers"),
+  getTaxonomyIndex("tools"),
 ]);
 ---
 
 <aside id="sidebar">
   <details>
     <summary>
-      <Icon name="fluent:tag-20-filled" size={20} /> Tags
+      <Icon name="fluent:lightbulb-20-filled" size={20} /> Topics
       <Icon name="fluent:chevron-down-24-filled" size={24} class="toggle" />
     </summary>
     <ul class="tags">
       {
-        tagIndex.items.map((tag) => {
+        topicsIndex.items.map((topic) => {
           return (
             <li>
-              <a href={`/tags/${tag.slug}/`} class="tag">
-                <span data-type="label">{tag.name}</span>{" "}
-                <span data-type="count">{tag.count}</span>
+              <a href={`/topics/${topic.slug}/`} class="tag">
+                <span data-type="label">{topic.name}</span>{" "}
+                <span data-type="count">{topic.count}</span>
               </a>
             </li>
           );
@@ -42,6 +47,26 @@ const [tagIndex, speakerIndex] = await Promise.all([
               <a href={`/speakers/${speaker.slug}/`} class="tag">
                 <span data-type="label">{speaker.name}</span>{" "}
                 <span data-type="count">{speaker.count}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </details>
+  <details>
+    <summary>
+      <Icon name="fluent:wrench-20-filled" size={20} /> Tools
+      <Icon name="fluent:chevron-down-24-filled" size={24} class="toggle" />
+    </summary>
+    <ul class="tags">
+      {
+        toolsIndex.items.map((tool) => {
+          return (
+            <li>
+              <a href={`/tools/${tool.slug}/`} class="tag">
+                <span data-type="label">{tool.name}</span>{" "}
+                <span data-type="count">{tool.count}</span>
               </a>
             </li>
           );

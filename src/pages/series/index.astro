@@ -1,0 +1,67 @@
+---
+import Card from "../../components/Card.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
+import { getTaxonomyIndex } from "../../lib/content-domain";
+
+// ADR 0013: series gets a curated card grid (Frontend Masters' "Paths"
+// pattern) rather than the A-Z list /tags/, /speakers/ and /tools/
+// use - at 15-16 items, alphabetising doesn't help the way it does at
+// hundreds, and a card per show/conference reads better than a
+// name+count line.
+const title = "Series";
+const { items } = await getTaxonomyIndex("series");
+const sortedByCount = [...items].sort((left, right) => right.count - left.count);
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  <h1>Series</h1>
+  {
+    sortedByCount.length === 0 ? (
+      <p class="empty">
+        No series tagged yet - this facet is new (see ADR 0012) and lights up
+        once existing content is migrated onto it.
+      </p>
+    ) : (
+      <ResponsiveGrid gridItemMinWidth="240px">
+        {sortedByCount.map((seriesItem) => (
+          <a href={`${seriesItem.slug}/`} class="series-link">
+            <Card>
+              <span class="name">{seriesItem.name}</span>
+              <span class="count">{seriesItem.count} episodes</span>
+            </Card>
+          </a>
+        ))}
+      </ResponsiveGrid>
+    )
+  }
+</BaseLayout>
+
+<style>
+  h1 {
+    margin: 0 var(--space-16) var(--space-16);
+  }
+  .empty {
+    text-align: center;
+    color: var(--tx-2);
+    padding: var(--space-32) var(--space-16);
+  }
+  .series-link {
+    text-decoration: none;
+    display: block;
+  }
+  .series-link .name {
+    display: block;
+    color: rgb(var(--accent));
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-18);
+    margin-bottom: var(--space-8);
+  }
+  .series-link .count {
+    color: var(--tx-2);
+    font-size: var(--font-size-14);
+  }
+  .series-link:hover .name {
+    color: var(--accent-hover);
+  }
+</style>

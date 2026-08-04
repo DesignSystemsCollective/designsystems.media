@@ -6,6 +6,7 @@ import Title from "../components/Title.astro";
 import { formatDuration } from "../utils/formatDuration";
 import MetaList from "../components/media/MetaList.astro";
 import MetaItem from "../components/media/MetaItem.astro";
+import { getResidualTags } from "../utils/residualTags";
 import type { BaseMediaProps } from "../types/media";
 
 const {
@@ -20,7 +21,15 @@ const {
   tags,
   speakers,
   categories,
+  series,
+  topics,
+  tools,
+  systems,
 } = Astro.props;
+
+// ADR 0012/0013/0014: don't show a legacy tag alongside its own
+// migrated series/topics/tools/systems equivalent - see residualTags.ts.
+const residualTags = getResidualTags(tags, series, topics, tools, systems);
 ---
 
 <article data-pagefind-body data-pagefind-sort>
@@ -37,8 +46,24 @@ const {
         <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
         </MetaItem >
       )}
-      {tags && (
-        <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
+      {residualTags.length > 0 && (
+        <MetaItem icon="fluent:tag-20-filled" tags={residualTags} label="Tags">
+        </MetaItem >
+      )}
+      {series && (
+        <MetaItem icon="fluent:collections-20-filled" series={series} label="Series">
+        </MetaItem >
+      )}
+      {topics && (
+        <MetaItem icon="fluent:lightbulb-20-filled" topics={topics} label="Topics">
+        </MetaItem >
+      )}
+      {tools && (
+        <MetaItem icon="fluent:wrench-20-filled" tools={tools} label="Tools">
+        </MetaItem >
+      )}
+      {systems && (
+        <MetaItem icon="fluent:apps-20-filled" systems={systems} label="Systems">
         </MetaItem >
       )}
       {publishedAt && (

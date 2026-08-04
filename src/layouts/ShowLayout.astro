@@ -6,6 +6,7 @@ import MetaItem from "../components/media/MetaItem.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import PodcastGrid from "../components/PodcastGrid.astro";
+import { getResidualTags } from "../utils/residualTags";
 import type { BaseShowProps } from "../types/media";
 
 export type Props = BaseShowProps;
@@ -48,6 +49,10 @@ const {
   publishedAt,
   audioUrl,
   tags,
+  series,
+  topics,
+  tools,
+  systems,
   websiteUrl,
   // Add any other props that might come from the podcast collection
   // that aren't already listed above
@@ -55,6 +60,10 @@ const {
 } = Astro.props;
 
 const displayUrl = getDomainFromUrl(websiteUrl);
+
+// ADR 0012/0013/0014: don't show a legacy tag alongside its own
+// migrated series/topics/tools/systems equivalent - see residualTags.ts.
+const residualTags = getResidualTags(tags, series, topics, tools, systems);
 
 const isShow = showSlug ? false : true;
 const layoutType = !showSlug ? "show" : "episode";
@@ -84,8 +93,24 @@ const layoutType = !showSlug ? "show" : "episode";
         <MetaItem icon="fluent:person-20-filled" speakers={speakers} label="Speakers">
         </MetaItem >
       )}
-      {tags && tags.length > 0 && !isShow && (
-        <MetaItem icon="fluent:tag-20-filled" tags={tags} label="Tags">
+      {residualTags.length > 0 && !isShow && (
+        <MetaItem icon="fluent:tag-20-filled" tags={residualTags} label="Tags">
+        </MetaItem >
+      )}
+      {series && series.length > 0 && !isShow && (
+        <MetaItem icon="fluent:collections-20-filled" series={series} label="Series">
+        </MetaItem >
+      )}
+      {topics && topics.length > 0 && !isShow && (
+        <MetaItem icon="fluent:lightbulb-20-filled" topics={topics} label="Topics">
+        </MetaItem >
+      )}
+      {tools && tools.length > 0 && !isShow && (
+        <MetaItem icon="fluent:wrench-20-filled" tools={tools} label="Tools">
+        </MetaItem >
+      )}
+      {systems && systems.length > 0 && !isShow && (
+        <MetaItem icon="fluent:apps-20-filled" systems={systems} label="Systems">
         </MetaItem >
       )}
       {websiteUrl && isShow && (

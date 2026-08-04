@@ -1,4 +1,5 @@
 import { isDurationOneMinuteOrUnder } from "../../utils/isDurationOneMinuteOrUnder.ts";
+import { convertToSlug } from "../../utils/convertToSlug.ts";
 import {
   normalizeDate,
   normalizeDraftFlag,
@@ -46,20 +47,50 @@ function groupTaxonomyItems(items: TaxonomyItem[]): Record<string, TaxonomyItem[
   }, {});
 }
 
+// One lookup per TaxonomyKind, each pointing at the matching frontmatter
+// field. "tags" and "speakers" are the pre-existing freeform/controlled
+// fields; "series"/"topics"/"tools" are ADR 0012's new controlled
+// facets - present on the schema, but empty on every entry until the
+// migration pass referenced in ADR 0012's Open questions runs.
+const TAXONOMY_FIELD: Record<TaxonomyKind, keyof MediaLikeEntry["data"]> = {
+  tags: "tags",
+  speakers: "speakers",
+  series: "series",
+  topics: "topics",
+  tools: "tools",
+  systems: "systems",
+};
+
+// "tags" and "speakers" are freeform: different entries may spell the
+// same value with different casing ("AI" / "ai" / "Ai"), so
+// normalizeTaxonomyValues title-cases them to collapse variants into
+// one taxonomy entry. series/topics/tools/systems are closed
+// vocabularies enforced by a Zod enum (content.config.ts) - every
+// entry already carries the exact canonical casing from taxonomy.ts,
+// so running them through the same normalizer would corrupt
+// deliberately-cased acronyms and brand names (AI -> Ai, ROI -> Roi,
+// ADR 0014's GOV.UK -> Gov.uk, WhatsApp -> Whatsapp).
+const FREEFORM_TAXONOMY_KINDS: ReadonlySet<TaxonomyKind> = new Set([
+  "tags",
+  "speakers",
+]);
+
 function buildTaxonomyIndex(
   kind: TaxonomyKind,
   items: MediaLikeEntry[],
 ): TaxonomyIndex {
   const grouped = new Map<string, TaxonomyItem>();
+  const field = TAXONOMY_FIELD[kind];
+  const isFreeform = FREEFORM_TAXONOMY_KINDS.has(kind);
 
   for (const item of items) {
-    const values =
-      kind === "tags"
-        ? normalizeTaxonomyValues(item.data.tags)
-        : normalizeTaxonomyValues(item.data.speakers);
+    const raw = (item.data[field] as string[] | undefined) ?? [];
+    const values = isFreeform
+      ? normalizeTaxonomyValues(raw)
+      : raw.filter(Boolean);
 
     for (const value of values) {
-      const slug = toTaxonomySlug(value);
+      const slug = isFreeform ? toTaxonomySlug(value) : convertToSlug(value);
       const current = grouped.get(slug);
 
       if (!current) {
@@ -197,6 +228,10 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
 
   const tagIndex = buildTaxonomyIndex("tags", media);
   const speakerIndex = buildTaxonomyIndex("speakers", media);
+  const seriesIndex = buildTaxonomyIndex("series", media);
+  const topicsIndex = buildTaxonomyIndex("topics", media);
+  const toolsIndex = buildTaxonomyIndex("tools", media);
+  const systemsIndex = buildTaxonomyIndex("systems", media);
   const resolvedPlaylists = buildResolvedPlaylists(
     allPlaylists,
     videosBySlug,
@@ -210,6 +245,10 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
     podcastEpisodes: podcasts.length,
     tags: tagIndex.items.length,
     speakers: speakerIndex.items.length,
+    topics: topicsIndex.items.length,
+    series: seriesIndex.items.length,
+    tools: toolsIndex.items.length,
+    systems: systemsIndex.items.length,
     underMinute: underOneMinute.length,
     drafts: drafts.length,
     unsortedTag: unsorted.length,
@@ -229,6 +268,10 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
     unsorted,
     tagIndex,
     speakerIndex,
+    seriesIndex,
+    topicsIndex,
+    toolsIndex,
+    systemsIndex,
     showsByRecentEpisode,
     latestEpisodeDateByShow,
     showsBySlug,
@@ -239,12 +282,21 @@ export function buildContentIndex(collections: ContentCollections): ContentIndex
   };
 }
 
+const TAXONOMY_INDEX: Record<TaxonomyKind, keyof ContentIndex> = {
+  tags: "tagIndex",
+  speakers: "speakerIndex",
+  series: "seriesIndex",
+  topics: "topicsIndex",
+  tools: "toolsIndex",
+  systems: "systemsIndex",
+};
+
 export function getTaxonomyPageData(
   index: ContentIndex,
   kind: TaxonomyKind,
   slug: string,
 ): TaxonomyPageData | null {
-  const taxonomy = kind === "tags" ? index.tagIndex : index.speakerIndex;
+  const taxonomy = index[TAXONOMY_INDEX[kind]] as TaxonomyIndex;
   const item = taxonomy.items.find((entry) => entry.slug === slug);
 
   if (!item) {

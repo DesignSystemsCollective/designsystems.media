@@ -10,17 +10,20 @@ import type { BasePodcastProps } from "../types/media";
 
 export type Props = BasePodcastProps;
 
-const { 
-  title, 
-  image, 
-  slug, 
-  speakers, 
-  episodeCount, 
+const {
+  title,
+  image,
+  slug,
+  speakers,
+  episodeCount,
   explicit,
   hasEpisodeImage,
   episodes,
   showSlug,
-  podcastTitle 
+  podcastTitle,
+  series,
+  topics,
+  tools,
 } = Astro.props;
 ---
 
@@ -49,7 +52,20 @@ const {
       {speakers && (
         <SpeakerList speakers={speakers} />
       )}
-      
+
+      {series && (
+        <MetaItem icon="fluent:collections-20-filled" series={series} label="Series" type="inline">
+        </MetaItem>
+      )}
+      {topics && (
+        <MetaItem icon="fluent:lightbulb-20-filled" topics={topics} label="Topics" type="inline">
+        </MetaItem>
+      )}
+      {tools && (
+        <MetaItem icon="fluent:wrench-20-filled" tools={tools} label="Tools" type="inline">
+        </MetaItem>
+      )}
+
       <MetaItem icon="fluent:edit-20-filled" type="inline">
         <a href={`${repository.url}/tree/main/src/content/media/${slug}/index.mdx`}>
           Edit on GitHub

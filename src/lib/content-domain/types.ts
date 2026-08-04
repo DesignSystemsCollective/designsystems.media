@@ -6,7 +6,18 @@ export type MediaEntry = CollectionEntry<"media">;
 export type PlaylistEntry = CollectionEntry<"playlists">;
 
 export type MediaLikeEntry = MediaEntry | PodcastEntry;
-export type TaxonomyKind = "tags" | "speakers";
+// ADR 0012 adds series/topics/tools as controlled taxonomies alongside
+// the existing tags/speakers. "tags" is kept around deliberately - it
+// still holds the real freeform data on every existing entry until the
+// migration pass described in ADR 0012's Open questions actually
+// re-tags content into the new facets.
+export type TaxonomyKind =
+  | "tags"
+  | "speakers"
+  | "series"
+  | "topics"
+  | "tools"
+  | "systems";
 export type PlaylistItemRef = PlaylistEntry["data"]["items"][number];
 
 export interface ResolvedPlaylistItem {
@@ -74,6 +85,10 @@ export interface SiteStats {
   podcastEpisodes: number;
   tags: number;
   speakers: number;
+  topics: number;
+  series: number;
+  tools: number;
+  systems: number;
   underMinute: number;
   drafts: number;
   unsortedTag: number;
@@ -97,6 +112,10 @@ export interface ContentIndex {
   unsorted: MediaLikeEntry[];
   tagIndex: TaxonomyIndex;
   speakerIndex: TaxonomyIndex;
+  seriesIndex: TaxonomyIndex;
+  topicsIndex: TaxonomyIndex;
+  toolsIndex: TaxonomyIndex;
+  systemsIndex: TaxonomyIndex;
   showsByRecentEpisode: ShowWithLatestEpisode[];
   latestEpisodeDateByShow: Map<string, Date>;
   showsBySlug: Map<string, ShowEntry>;

@@ -1,6 +1,22 @@
 import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
 import { z } from "astro/zod";
+import { SERIES, TOPICS, TOOLS, SYSTEMS } from "./lib/content-domain/taxonomy.ts";
+
+// ADR 0012: `series`/`topics`/`tools` are the new controlled taxonomies
+// replacing the old freeform `tags` field, enforced here as closed Zod
+// enums (z.enum requires a non-empty tuple type, hence the `as
+// [string, ...string[]]` casts - the arrays themselves stay defined
+// once in taxonomy.ts). They're additive and optional for now: `tags`
+// and `categories` are left in place untouched, and existing content
+// keeps validating as-is, until the migration pass referenced in ADR
+// 0012's Open questions actually re-tags the 1,331 existing entries.
+const seriesEnum = z.enum(SERIES as unknown as [string, ...string[]]);
+const topicsEnum = z.enum(TOPICS as unknown as [string, ...string[]]);
+const toolsEnum = z.enum(TOOLS as unknown as [string, ...string[]]);
+// ADR 0014: named design-system products (Skapa, Spectrum, Encore...),
+// not companies - see taxonomy.ts's SYSTEMS comment for the reasoning.
+const systemsEnum = z.enum(SYSTEMS as unknown as [string, ...string[]]);
 
 // Astro 6 removed the implicit "no loader = auto-scan src/content/<name>/"
 // fallback that Astro 5's legacy-collections compat kept alive - every
@@ -75,6 +91,10 @@ const mediaCollection = defineCollection({
       tags: z.array(z.string()).optional(),
       categories: z.array(z.string()).optional(),
       speakers: z.array(z.string()).optional(),
+      series: z.array(seriesEnum).optional(),
+      topics: z.array(topicsEnum).optional(),
+      tools: z.array(toolsEnum).optional(),
+      systems: z.array(systemsEnum).optional(),
       draft: z.boolean().default(false),
     }),
 });
@@ -115,6 +135,10 @@ const podcastCollection = defineCollection({
       tags: z.array(z.string()).optional(),
       categories: z.array(z.string()).optional(),
       speakers: z.array(z.string()).optional(),
+      series: z.array(seriesEnum).optional(),
+      topics: z.array(topicsEnum).optional(),
+      tools: z.array(toolsEnum).optional(),
+      systems: z.array(systemsEnum).optional(),
       type: z.literal('podcast').optional(),
       draft: z.boolean().default(false),
       showSlug: z.string(),

@@ -23,6 +23,26 @@
           "taxonomyId": "speakers"
         },
         {
+          "name": "series",
+          "type": "taxonomy",
+          "taxonomyId": "series"
+        },
+        {
+          "name": "topics",
+          "type": "taxonomy",
+          "taxonomyId": "topics"
+        },
+        {
+          "name": "tools",
+          "type": "taxonomy",
+          "taxonomyId": "tools"
+        },
+        {
+          "name": "systems",
+          "type": "taxonomy",
+          "taxonomyId": "systems"
+        },
+        {
           "name": "draft",
           "type": "draft",
           "required": true
@@ -157,6 +177,26 @@
           "name": "speakers",
           "type": "taxonomy",
           "taxonomyId": "speakers"
+        },
+        {
+          "name": "series",
+          "type": "taxonomy",
+          "taxonomyId": "series"
+        },
+        {
+          "name": "topics",
+          "type": "taxonomy",
+          "taxonomyId": "topics"
+        },
+        {
+          "name": "tools",
+          "type": "taxonomy",
+          "taxonomyId": "tools"
+        },
+        {
+          "name": "systems",
+          "type": "taxonomy",
+          "taxonomyId": "systems"
         },
         {
           "name": "type",
@@ -335,6 +375,10 @@
     "tags",
     "categories",
     "speakers",
+    "series",
+    "topics",
+    "tools",
+    "systems",
     "podcastTitle"
   ],
   "frontMatter.content.sorting": [
@@ -932,6 +976,131 @@
         "Zero",
         "Zeroheight",
         "m4dz"
+      ]
+    },
+    {
+      "id": "series",
+      "options": [
+        "Design Systems London",
+        "Converge",
+        "Design Systems WTF",
+        "Coding Design Systems",
+        "Into Design Systems",
+        "Design System Social Club",
+        "Beyond The Button",
+        "The Future Of Design Systems",
+        "Design Systems Field Guide",
+        "UnConference",
+        "DSW Day",
+        "The Product Shipping Forecast",
+        "Design Systems Rodeo",
+        "Axe-Con",
+        "DesignOps Island Discs",
+        "Clarity",
+        "Back to School with Amy Hupe and Geri Reid"
+      ]
+    },
+    {
+      "id": "topics",
+      "options": [
+        "Clarity",
+        "Design Tokens",
+        "Accessibility",
+        "Documentation",
+        "AI",
+        "Collaboration",
+        "Adoption",
+        "Governance",
+        "Atomic Design",
+        "Consistency",
+        "Contribution",
+        "Inclusivity",
+        "Automation",
+        "Best Practices",
+        "Career",
+        "Theming",
+        "Content",
+        "Component Libraries",
+        "Creativity",
+        "Flexibility",
+        "Measurement",
+        "Workflow",
+        "Culture",
+        "Color",
+        "Principles",
+        "Buy-In",
+        "Strategy",
+        "ROI",
+        "Patterns",
+        "Communication",
+        "Community",
+        "Failure & Lessons Learned",
+        "Process",
+        "Analytics",
+        "Burnout",
+        "Soft Skills",
+        "Typography",
+        "Management",
+        "Maintenance",
+        "Metrics",
+        "Cross-functional",
+        "Versioning",
+        "Impact",
+        "Leadership",
+        "Performance",
+        "Foundations",
+        "Scale",
+        "DesignOps",
+        "Maturity",
+        "Change Management",
+        "Naming Conventions",
+        "User Research",
+        "Quality",
+        "Advocacy",
+        "Diversity",
+        "Brand",
+        "Developer Experience",
+        "Web Components",
+        "CSS",
+        "Challenges"
+      ]
+    },
+    {
+      "id": "tools",
+      "options": [
+        "Figma",
+        "Supernova",
+        "Zeroheight",
+        "Sketch",
+        "Figma Tokens",
+        "Tokens Studio",
+        "Specify",
+        "Figma Plugin",
+        "Figma Variables",
+        "Storybook",
+        "Backlight",
+        "Leonardo",
+        "Omlet"
+      ]
+    },
+    {
+      "id": "systems",
+      "options": [
+        "Skapa",
+        "Spectrum",
+        "Encore",
+        "Base",
+        "Lightning Design System",
+        "Primer",
+        "Fluent UI",
+        "Carbon",
+        "Canvas",
+        "Human Interface Guidelines",
+        "Atlassian Design System",
+        "GOV.UK Design System",
+        "Airbnb Design System",
+        "WhatsApp",
+        "Polaris"
       ]
     }
   ]

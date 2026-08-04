@@ -3,6 +3,20 @@ const today = new Date();
 ---
 
 <footer>
+  <!-- ADR 0013: a viewport-independent "browse" row. The sidebar
+       (Sidebar.astro) is hidden below 1024px with no mobile
+       equivalent - this footer isn't gated by that breakpoint, so it's
+       the fallback that keeps every taxonomy reachable at every width,
+       including 768-1024px where the sidebar has already disappeared
+       but the header hasn't collapsed into its hamburger menu yet. -->
+  <nav class="browse-links" aria-label="Browse by">
+    <a href="/topics/">Topics</a>
+    <a href="/series/">Series</a>
+    <a href="/tools/">Tools</a>
+    <a href="/systems/">Systems</a>
+    <a href="/tags/">Tags</a>
+    <a href="/speakers/">Speakers</a>
+  </nav>
   <div class="social-links">
 
       <a href="/about/">
@@ -60,5 +74,20 @@ const today = new Date();
   .social-links button:hover {
     color: var(--accent-hover);
     fill: currentColor;
+  }
+  .browse-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-16);
+    margin: 0 auto var(--space-16);
+  }
+  .browse-links a {
+    text-decoration: none;
+    color: rgb(var(--accent));
+    font-weight: var(--font-weight-semibold);
+  }
+  .browse-links a:hover {
+    color: var(--accent-hover);
   }
 </style>

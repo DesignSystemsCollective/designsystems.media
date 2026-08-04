@@ -11,11 +11,24 @@ export interface Props {
   class?: string;
   speakers?: string[];
   tags?: string[];
+  // ADR 0013: series/topics/tools render the same way tags does today
+  // (own icon, own MetaItem, own linked pill group) rather than being
+  // folded into it - each is a separate facet now, not one flat list.
+  series?: string[];
+  topics?: string[];
+  tools?: string[];
+  // ADR 0014: named design-system products (Skapa, Spectrum...), not
+  // companies - same treatment as series/topics/tools above.
+  systems?: string[];
 }
 
 const {
   speakers,
   tags,
+  series,
+  topics,
+  tools,
+  systems,
   icon,
   iconSize = 20,
   label,
@@ -49,26 +62,90 @@ const {
       </>
       )
     }
-      {(
-        // Otherwise (if showSlug does NOT exist)
-         <> {/* Use a fragment to group the speakers content */}
-        {tags && tags.length > 0 && (
-          <div class="tags-container">
-            {tags.map((tag, index) => (
-              <>
-                <a
-                  href={`/tags/${convertToSlug(tag)}/`}
-                  class="tag"
-                  data-pagefind-filter="tag"
-                  data-pagefind-weight="5"
-                >{tag}</a>{index < tags.length - 1 && <span>,</span>}
-              </>
+      {
+        // Tags render as the same pill chips as series/topics/tools/
+        // systems below - freeform vocabulary or not, it's still a
+        // clickable, browsable facet in the meta row, and having it
+        // sit next to Topics as the one plain-text holdout read like
+        // an unfinished corner rather than a deliberate distinction.
+        // Speakers (above) stays plain-link: it's a byline, not really
+        // a "facet" in the same browsable-taxonomy sense.
+        tags && tags.length > 0 && (
+          <div class="pill-group tags-container">
+            {tags.map((tag) => (
+              <a
+                href={`/tags/${convertToSlug(tag)}/`}
+                class="pill tag"
+                data-pagefind-filter="tag"
+                data-pagefind-weight="5"
+              >{tag}</a>
             ))}
           </div>
-        )}
-      </>
-      )
-    }
+        )
+      }
+      {
+        // ADR 0013/0014: series/topics/tools/systems render as pill
+        // chips (mockup "Screen 5"), same as tags above - each value
+        // reads better as a discrete, clickable badge than as flowing
+        // text. Reuses the same pill tokens as the /topics/ cloud page
+        // (--tagCount-background, --accent, --radius-full) for visual
+        // consistency across the site. Speakers stays a plain-link
+        // byline, not a pill facet.
+        series && series.length > 0 && (
+          <div class="pill-group series-container">
+            {series.map((seriesName) => (
+              <a
+                href={`/series/${convertToSlug(seriesName)}/`}
+                class="pill series"
+                data-pagefind-filter="series"
+                data-pagefind-weight="5"
+              >{seriesName}</a>
+            ))}
+          </div>
+        )
+      }
+      {
+        topics && topics.length > 0 && (
+          <div class="pill-group topics-container">
+            {topics.map((topic) => (
+              <a
+                href={`/topics/${convertToSlug(topic)}/`}
+                class="pill topic"
+                data-pagefind-filter="topic"
+                data-pagefind-weight="5"
+              >{topic}</a>
+            ))}
+          </div>
+        )
+      }
+      {
+        tools && tools.length > 0 && (
+          <div class="pill-group tools-container">
+            {tools.map((tool) => (
+              <a
+                href={`/tools/${convertToSlug(tool)}/`}
+                class="pill tool"
+                data-pagefind-filter="tool"
+                data-pagefind-weight="5"
+              >{tool}</a>
+            ))}
+          </div>
+        )
+      }
+      {
+        systems && systems.length > 0 && (
+          <div class="pill-group systems-container">
+            {systems.map((system) => (
+              <a
+                href={`/systems/${convertToSlug(system)}/`}
+                class="pill system"
+                data-pagefind-filter="system"
+                data-pagefind-weight="5"
+              >{system}</a>
+            ))}
+          </div>
+        )
+      }
   </div>
 </div>
 
@@ -118,6 +195,31 @@ const {
       flex-direction:column;
       gap: var(--space-4);
     }
+
+  .pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-8);
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: baseline;
+    text-decoration: none;
+    color: rgb(var(--accent));
+    background: var(--tagCount-background);
+    padding: 0.3em 0.8em;
+    border-radius: var(--radius-full);
+    line-height: 1.2;
+    font-size: 0.95em;
+    white-space: nowrap;
+  }
+
+  .pill:hover {
+    color: var(--accent-hover);
+    outline: 1px solid var(--tagCount-count);
+  }
 
   @media screen and (max-width: 768px) {
     .show-content {
