@@ -1,5 +1,33 @@
 [
   {
+    "title": "32: Cohost Corner - Job Hunting in the AI Bubble",
+    "description": "<p>Join our cohosts as they share their thoughts on finding a job during all the AI hype.</p>",
+    "podcastTitle": "Code & Pixels",
+    "episodeUrl": "https://www.buzzsprout.com/1958356/episodes/19596045-32-cohost-corner-job-hunting-in-the-ai-bubble.mp3",
+    "audioUrl": "https://www.buzzsprout.com/1958356/episodes/19596045-32-cohost-corner-job-hunting-in-the-ai-bubble.mp3",
+    "publishedAt": "2026-08-04T15:00:00.000Z",
+    "duration": "0:23:52",
+    "durationSeconds": 1432,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/1958356.rss",
+    "feedId": 5328591,
+    "episodeId": 58526153784,
+    "guid": "Buzzsprout-19596045",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "How do you get research findings back to the design system team?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>We're all in agreement that UX Research and design systems should work hand in hand. But how do you actually get this to work in practice? How can UX Researchers and design systems folks work best together? What cadence should you be doing things? And should you be included research findings as part of your design system documentation?</p><p><b>Show notes</b></p><ul><li><a href='https://designsystemdocspec.org/'><b>Design System Documentation Spec (DSDS)</b></a></li><li><a href='https://zeroheight.com/mcp/'><b>zeroheight MCP</b></a></li><li><a href='https://help.zeroheight.com/hc/en-us/articles/48004395674011-zeroheight-MCP-overview'><b>zeroheight MCP overview (help docs)</b></a></li><li><a href='https://webinars.zeroheight.com/register/zeroheight-design-systems-wtf-39-should-designers-know-how-to-code'><b>Design Systems WTF #39 — Should designers know how to code?</b></a></li><li><a href='https://report.zeroheight.com/'><b>zeroheight Design Systems Report</b></a></li><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'><b>Luke on Bluesky</b></a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'><b>Michelle on Bluesky</b></a></li></ul>",
     "podcastTitle": "Design Systems WTF",
