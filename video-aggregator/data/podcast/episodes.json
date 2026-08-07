@@ -1,5 +1,33 @@
 [
   {
+    "title": "Design Breaktime w/ Guy Segal | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/lm7damlswjqbz0de/yt_video_6ARYTxUY_58_knnnan.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/lm7damlswjqbz0de/yt_video_6ARYTxUY_58_knnnan.mp3",
+    "publishedAt": "2026-08-05T20:34:43.000Z",
+    "duration": "1:00:49",
+    "durationSeconds": 3649,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d8e3c292795d7794dc062f02b3902782.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d8e3c292795d7794dc062f02b3902782.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 58606336636,
+    "guid": "yt:video:6ARYTxUY_58",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "32: Cohost Corner - Job Hunting in the AI Bubble",
     "description": "<p>Join our cohosts as they share their thoughts on finding a job during all the AI hype.</p>",
     "podcastTitle": "Code & Pixels",
