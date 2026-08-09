@@ -11,7 +11,7 @@ export const VISUAL_ROUTES = {
   // fix for the mobile comma/wrapping regression these routes now guard.
   videoDetailMultiSpeaker: "/video/qanda-session-design-systems-london-14/",
   showDetailMultiSpeaker: "/show/design-system-office-hours/",
-  tagDetail: "/tags/design-tokens/",
+  tagDetail: "/tags/design-systems/",
   speakerDetail: "/speakers/jina-anne/",
   playlistDetail: "/playlists/ai-and-design-systems-starter/",
   // Phase 6a: a deterministic, hard-coded-props route for VideoCard/
