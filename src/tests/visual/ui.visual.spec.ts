@@ -107,6 +107,49 @@ test.describe("visual regression coverage", () => {
     });
   });
 
+  // Percentile-tiered word cloud (ADR 0013 rework) - no ResponsiveGrid
+  // involved, so unlike the list/grid routes above this needs no mask.
+  test("topics index page", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.topicsIndex);
+
+    await expect(page).toHaveScreenshot("topics-index.png", {
+      fullPage: true,
+    });
+  });
+
+  // Curated card grid (ADR 0013) - structurally distinct from the A-Z
+  // list layout /tools/, /systems/ and /tags/ share.
+  test("series index page", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.seriesIndex);
+
+    await expect(page).toHaveScreenshot("series-index.png", {
+      fullPage: true,
+      mask: await maskAllResponsiveContainers(page),
+    });
+  });
+
+  // Stands in for /tools/ and /systems/ too - all three render the same
+  // alphabet-grouped LabelCount template, just with different data.
+  test("tags index page", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.tagsIndex);
+
+    await expect(page).toHaveScreenshot("tags-index.png", {
+      fullPage: false,
+      mask: await maskAllResponsiveContainers(page),
+    });
+  });
+
+  // Covers the shared taxonomy detail template used by series/topics/
+  // tools/systems ([...slug].astro in each dir - identical body markup).
+  test("topics detail page", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.topicsDetail);
+
+    await expect(page).toHaveScreenshot("topics-detail.png", {
+      fullPage: false,
+      mask: await maskAllResponsiveContainers(page),
+    });
+  });
+
   // Phase 6a: deterministic card fixtures (VideoCard/PodcastCard/ShowCard
   // in both grid and list layout, hard-coded props - no live-content
   // dependency). Deliberately unmasked, unlike the grid sections on
