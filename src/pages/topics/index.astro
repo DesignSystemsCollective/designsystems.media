@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicCloud from "../../components/TopicCloud.astro";
 import { getTaxonomyIndex } from "../../lib/content-domain";
 
 // ADR 0013: /topics/ replaces the old /tags/ A-Z sprawl (521 near-
@@ -9,60 +10,24 @@ import { getTaxonomyIndex } from "../../lib/content-domain";
 // is more useful than an alphabet index, and doesn't need one.
 const title = "Topics";
 const { items } = await getTaxonomyIndex("topics");
-
-// Tier boundaries are percentiles of the actual count distribution, not a
-// fixed % of the max. Spacing (50/75/90/97) is deliberately uneven rather
-// than equal-width quantiles: most topics cluster at low counts (long
-// tail), so an even split would flatten the top into one oversized bucket
-// (e.g. count 13 rendering the same size as count 85). Skewing the cutoffs
-// toward the top keeps "xl" reserved for genuine outliers while still
-// spreading the crowded low end across more than one visible size.
-const countsAsc = items.map((item) => item.count).sort((left, right) => left - right);
-
-function quantile(q: number): number {
-  if (countsAsc.length === 0) return 0;
-  const pos = (countsAsc.length - 1) * q;
-  const base = Math.floor(pos);
-  const rest = pos - base;
-  const next = countsAsc[base + 1];
-  return next === undefined ? countsAsc[base] : countsAsc[base] + rest * (next - countsAsc[base]);
-}
-
-const q50 = quantile(0.5);
-const q75 = quantile(0.75);
-const q90 = quantile(0.9);
-const q97 = quantile(0.97);
-
-function sizeTier(count: number): string {
-  if (count > q97) return "xl";
-  if (count > q90) return "lg";
-  if (count > q75) return "md";
-  if (count > q50) return "sm";
-  return "xs";
-}
-
-const sortedByCount = [...items].sort((left, right) => right.count - left.count);
 ---
 
 <BaseLayout sidebar={false} metadataProps={{ title }}>
   <h1>Topics</h1>
   {
-    sortedByCount.length === 0 ? (
+    items.length === 0 ? (
       <p class="empty">
         No topics tagged yet - this facet is new (see ADR 0012) and lights up
         once existing content is migrated onto it.
       </p>
     ) : (
-      <div class="cloud">
-        {sortedByCount.map((topicItem) => (
-          <a
-            href={`${topicItem.slug}/`}
-            class={`pill ${sizeTier(topicItem.count)}`}
-          >
-            {topicItem.name} <span class="count">{topicItem.count}</span>
-          </a>
-        ))}
-      </div>
+      <TopicCloud
+        items={items.map((item) => ({
+          name: item.name,
+          href: `${item.slug}/`,
+          count: item.count,
+        }))}
+      />
     )
   }
 </BaseLayout>
@@ -76,35 +41,4 @@ const sortedByCount = [...items].sort((left, right) => right.count - left.count)
     color: var(--tx-2);
     padding: var(--space-32) var(--space-16);
   }
-  .cloud {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: var(--space-12);
-    padding: var(--space-16) var(--space-24) var(--space-32);
-  }
-  .pill {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 0.4em;
-    text-decoration: none;
-    color: rgb(var(--accent));
-    background: var(--tagCount-background);
-    padding: 0.3em 0.8em;
-    border-radius: var(--radius-full);
-    line-height: 1.2;
-  }
-  .pill:hover {
-    color: var(--accent-hover);
-    outline: 1px solid var(--tagCount-count);
-  }
-  .pill .count {
-    color: var(--tx-2);
-    font-size: 0.75em;
-  }
-  .pill.xl { font-size: 1.9375rem; font-weight: var(--font-weight-semibold); }
-  .pill.lg { font-size: 1.5625rem; font-weight: var(--font-weight-medium); }
-  .pill.md { font-size: 1.3125rem; }
-  .pill.sm { font-size: var(--font-size-18); }
-  .pill.xs { font-size: var(--font-size-16); }
 </style>
