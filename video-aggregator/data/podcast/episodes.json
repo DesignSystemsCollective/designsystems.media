@@ -1,5 +1,33 @@
 [
   {
+    "title": "Love Letters w/ Dan Mall | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/t2l37m6e23jz4ylo/yt_video_XeHgLqshH2A_9uzg4d.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/t2l37m6e23jz4ylo/yt_video_XeHgLqshH2A_9uzg4d.mp3",
+    "publishedAt": "2026-08-06T20:29:18.000Z",
+    "duration": "1:05:46",
+    "durationSeconds": 3946,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/ac58f143be74f7957bb69a3170a078b7.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/ac58f143be74f7957bb69a3170a078b7.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 58713507683,
+    "guid": "yt:video:XeHgLqshH2A",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Design Breaktime w/ Guy Segal | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
