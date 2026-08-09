@@ -35,4 +35,10 @@ export const VISUAL_ROUTES = {
   // almost every content batch. Fixed counts here hit every size tier
   // (xs/sm/md/lg/xl) deterministically - see topic-cloud-fixture.astro.
   topicCloudFixture: "/dev/topic-cloud-fixture/",
+  // Same reasoning again, for PopularFacetCard.astro: the homepage's
+  // "Popular topics/series/tools" row is ranked by live entry counts
+  // (topByCount in index.astro), so it's masked on the home page test -
+  // this fixture gives it real coverage instead. See
+  // popular-facets-fixture.astro.
+  popularFacetsFixture: "/dev/popular-facets-fixture/",
 } as const;

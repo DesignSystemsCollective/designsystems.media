@@ -1,9 +1,8 @@
 ---
-import Card from "../components/Card.astro";
-import CardHeader from "../components/CardHeader.astro";
 import LibraryStats from "../components/LibraryStats.astro";
 import MediaGrid from "../components/MediaGrid.astro";
 import PodcastGrid from "../components/PodcastGrid.astro";
+import PopularFacetCard from "../components/PopularFacetCard.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import Sponsors from "../components/Sponsors.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
@@ -59,85 +58,26 @@ const popularTools = topByCount(toolsIndex.items);
        counts per term (see topByCount above) rather than a hand-picked
        list, so this row updates itself as tagging changes. -->
   <ResponsiveGrid gridLayoutGap="var(--space-16)" gridColumnCount={3}>
-    <Card>
-      <CardHeader
-        title="Popular topics"
-        link="/topics/"
-        linkLabel="View all topics"
-      />
-      <div class="home-content">
-        <ul>
-          {popularTopics.map((topic) => (
-            <li><a href={`/topics/${topic.slug}/`}>{topic.name}</a></li>
-          ))}
-        </ul>
-      </div>
-    </Card>
-    <Card>
-      <CardHeader
-        title="Popular series"
-        link="/series/"
-        linkLabel="View all series"
-      />
-      <div class="home-content">
-        <ul>
-          {popularSeries.map((series) => (
-            <li><a href={`/series/${series.slug}/`}>{series.name}</a></li>
-          ))}
-        </ul>
-      </div>
-    </Card>
-    <Card>
-      <CardHeader
-        title="Popular tools"
-        link="/tools/"
-        linkLabel="View all tools"
-      />
-      <div class="home-content">
-        <ul>
-          {popularTools.map((tool) => (
-            <li><a href={`/tools/${tool.slug}/`}>{tool.name}</a></li>
-          ))}
-        </ul>
-      </div>
-    </Card>
+    <PopularFacetCard
+      title="Popular topics"
+      link="/topics/"
+      linkLabel="View all topics"
+      basePath="/topics/"
+      items={popularTopics}
+    />
+    <PopularFacetCard
+      title="Popular series"
+      link="/series/"
+      linkLabel="View all series"
+      basePath="/series/"
+      items={popularSeries}
+    />
+    <PopularFacetCard
+      title="Popular tools"
+      link="/tools/"
+      linkLabel="View all tools"
+      basePath="/tools/"
+      items={popularTools}
+    />
   </ResponsiveGrid>
 </BaseLayout>
-
-<style>
-  .home-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0rem;
-  }
-
-  .home-content ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding: 0rem;
-    margin-block: 1em 0rem;
-  }
-
-  .home-content ul li {
-    line-height: 1.2rem;
-    margin-block-end: 0.6em;
-  }
-  .home-content ul:last-child {
-    margin-block-end: 0rem;
-  }
-
-  .home-content ul li a {
-    font-size: 1.2rem;
-    color: rgb(var(--accent));
-    text-decoration: none;
-    line-height: 1.1em;
-    border-bottom: 1px solid var(--accent-hover);
-    padding: 0.1em 0 0;
-  }
-
-  .home-content ul li a:hover {
-    color: var(--accent-hover);
-  }
-</style>

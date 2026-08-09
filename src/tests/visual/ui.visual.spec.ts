@@ -166,4 +166,15 @@ test.describe("visual regression coverage", () => {
       fullPage: true,
     });
   });
+
+  // Real coverage for the homepage's "Popular topics/series/tools" row,
+  // masked on the home page test since it's ranked by live entry counts -
+  // see popular-facets-fixture.astro.
+  test("popular facets fixture", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.popularFacetsFixture);
+
+    await expect(page).toHaveScreenshot("popular-facets-fixture.png", {
+      fullPage: true,
+    });
+  });
 });
