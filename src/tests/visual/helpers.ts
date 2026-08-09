@@ -45,8 +45,15 @@ export async function openMobileMenuIfNeeded(page: Page) {
 export async function maskHomeDynamicRegions(page: Page): Promise<Locator[]> {
   return [
     page.locator(".libraryStats [data-type='count']"),
-    page.locator(".responsive-container").nth(0),
-    page.locator(".responsive-container").nth(1),
+    page.locator(".responsive-container").nth(0), // Latest videos
+    page.locator(".responsive-container").nth(1), // Latest podcast episodes
+    // Popular topics/series/tools: ranked by live entry counts
+    // (topByCount in index.astro), so which four terms show up - and
+    // their order - shifts as content gets tagged. Real coverage of this
+    // card+list layout lives in the dedicated fixture instead (see
+    // popular-facets-fixture.astro), same split as the video/podcast
+    // grids above.
+    page.locator(".responsive-container").nth(2),
   ];
 }
 

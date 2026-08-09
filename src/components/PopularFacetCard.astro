@@ -1,0 +1,78 @@
+---
+// Extracted from index.astro's "Popular topics/series/tools" row so its
+// markup has a single source of truth shared with the deterministic
+// visual-fixture route at /dev/popular-facets-fixture/ (see docs/adr/
+// 0007-visual-fixture-route.md for why that route pattern exists) -
+// without this, the fixture would have to duplicate the card+list markup
+// and risk silently drifting from what the homepage actually renders.
+import Card from "./Card.astro";
+import CardHeader from "./CardHeader.astro";
+
+export interface PopularFacetItem {
+  name: string;
+  slug: string;
+}
+
+interface Props {
+  title: string;
+  link: string;
+  linkLabel: string;
+  basePath: string;
+  items: PopularFacetItem[];
+}
+
+const { title, link, linkLabel, basePath, items } = Astro.props;
+---
+
+<Card>
+  <CardHeader title={title} link={link} linkLabel={linkLabel} />
+  <div class="home-content">
+    <ul>
+      {
+        items.map((item) => (
+          <li>
+            <a href={`${basePath}${item.slug}/`}>{item.name}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Card>
+
+<style>
+  .home-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem;
+  }
+
+  .home-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0rem;
+    margin-block: 1em 0rem;
+  }
+
+  .home-content ul li {
+    line-height: 1.2rem;
+    margin-block-end: 0.6em;
+  }
+  .home-content ul:last-child {
+    margin-block-end: 0rem;
+  }
+
+  .home-content ul li a {
+    font-size: 1.2rem;
+    color: rgb(var(--accent));
+    text-decoration: none;
+    line-height: 1.1em;
+    border-bottom: 1px solid var(--accent-hover);
+    padding: 0.1em 0 0;
+  }
+
+  .home-content ul li a:hover {
+    color: var(--accent-hover);
+  }
+</style>

@@ -1,0 +1,88 @@
+---
+// /dev/popular-facets-fixture/ - a deterministic fixture route for
+// PopularFacetCard.astro, the component behind the homepage's "Popular
+// topics/series/tools" row.
+//
+// The real row is ranked by live entry counts (topByCount in
+// index.astro), so which four terms appear - and their order - shifts
+// as content gets tagged, the same live-data problem TopicCloud had (see
+// topic-cloud-fixture.astro). The homepage test masks this row for that
+// reason (maskHomeDynamicRegions in helpers.ts); this route gives it
+// real, deterministic pixel coverage instead of a mask covering it up.
+//
+// Same "borrow a real slug for the href" approach ADR 0007 uses for card
+// fixtures: the smoke suite (pages.smoke.spec.js) requests every internal
+// link on every built page, so invented slugs would 404 there even
+// though they'd render fine visually.
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PopularFacetCard from "../../components/PopularFacetCard.astro";
+import ResponsiveGrid from "../../layouts/ResponsiveGrid.astro";
+
+const REAL_TOPIC_SLUG = "accessibility";
+const REAL_SERIES_SLUG = "clarity";
+const REAL_TOOL_SLUG = "figma";
+
+const popularTopics = [
+  { name: "Design Tokens", slug: REAL_TOPIC_SLUG },
+  { name: "Accessibility", slug: REAL_TOPIC_SLUG },
+  { name: "A Considerably Longer Topic Name To Test Wrapping", slug: REAL_TOPIC_SLUG },
+  { name: "Adoption", slug: REAL_TOPIC_SLUG },
+];
+
+const popularSeries = [
+  { name: "Clarity", slug: REAL_SERIES_SLUG },
+  { name: "Design Systems Podcast", slug: REAL_SERIES_SLUG },
+  { name: "A Considerably Longer Series Name To Test Wrapping", slug: REAL_SERIES_SLUG },
+  { name: "Beyond The Button", slug: REAL_SERIES_SLUG },
+];
+
+const popularTools = [
+  { name: "Figma", slug: REAL_TOOL_SLUG },
+  { name: "Storybook", slug: REAL_TOOL_SLUG },
+  { name: "A Considerably Longer Tool Name To Test Wrapping", slug: REAL_TOOL_SLUG },
+  { name: "Zeroheight", slug: REAL_TOOL_SLUG },
+];
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title: "Popular facets fixture (dev)", noindex: true }}>
+  <h1>Popular facets visual fixture</h1>
+  <p>
+    Deterministic, hard-coded <code>PopularFacetCard</code> render used by
+    the visual regression suite (<code>test:visual</code>). The homepage's
+    equivalent row is masked there since it's ranked by live entry counts
+    - see helpers.ts. Not linked from navigation, excluded from the
+    sitemap.
+  </p>
+
+  <ResponsiveGrid gridLayoutGap="var(--space-16)" gridColumnCount={3}>
+    <PopularFacetCard
+      title="Popular topics"
+      link="/topics/"
+      linkLabel="View all topics"
+      basePath="/topics/"
+      items={popularTopics}
+    />
+    <PopularFacetCard
+      title="Popular series"
+      link="/series/"
+      linkLabel="View all series"
+      basePath="/series/"
+      items={popularSeries}
+    />
+    <PopularFacetCard
+      title="Popular tools"
+      link="/tools/"
+      linkLabel="View all tools"
+      basePath="/tools/"
+      items={popularTools}
+    />
+  </ResponsiveGrid>
+</BaseLayout>
+
+<style>
+  h1,
+  p {
+    padding: 0 var(--space-16);
+  }
+</style>
