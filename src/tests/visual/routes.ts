@@ -14,6 +14,17 @@ export const VISUAL_ROUTES = {
   tagDetail: "/tags/design-systems/",
   speakerDetail: "/speakers/jina-anne/",
   playlistDetail: "/playlists/ai-and-design-systems-starter/",
+  // Taxonomy facets (ADR 0012/0013/0014): /topics/ and /series/ each have a
+  // genuinely distinct index layout (percentile-tiered cloud vs curated
+  // card grid). /tools/ and /systems/ share the same A-Z/LabelCount
+  // template /tags/ also uses, so /tags/ stands in for all three here.
+  // Detail pages for series/topics/tools/systems share one template too
+  // (see [...slug].astro in each dir - identical body markup, differing
+  // only in which taxonomy key they query) - topicsDetail covers it.
+  topicsIndex: "/topics/",
+  seriesIndex: "/series/",
+  tagsIndex: "/tags/",
+  topicsDetail: "/topics/accessibility/",
   // Phase 6a: a deterministic, hard-coded-props route for VideoCard/
   // PodcastCard/ShowCard - see docs/adr/0007-visual-fixture-route.md.
   // Unlike every other route above, this one has no dependency on live
