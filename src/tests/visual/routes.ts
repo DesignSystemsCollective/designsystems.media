@@ -14,14 +14,13 @@ export const VISUAL_ROUTES = {
   tagDetail: "/tags/design-systems/",
   speakerDetail: "/speakers/jina-anne/",
   playlistDetail: "/playlists/ai-and-design-systems-starter/",
-  // Taxonomy facets (ADR 0012/0013/0014): /topics/ and /series/ each have a
-  // genuinely distinct index layout (percentile-tiered cloud vs curated
-  // card grid). /tools/ and /systems/ share the same A-Z/LabelCount
-  // template /tags/ also uses, so /tags/ stands in for all three here.
-  // Detail pages for series/topics/tools/systems share one template too
-  // (see [...slug].astro in each dir - identical body markup, differing
-  // only in which taxonomy key they query) - topicsDetail covers it.
-  topicsIndex: "/topics/",
+  // Taxonomy facets (ADR 0012/0013/0014): /series/ has a genuinely
+  // distinct index layout (curated card grid). /tools/ and /systems/
+  // share the same A-Z/LabelCount template /tags/ also uses, so /tags/
+  // stands in for all three here. Detail pages for series/topics/tools/
+  // systems share one template too (see [...slug].astro in each dir -
+  // identical body markup, differing only in which taxonomy key they
+  // query) - topicsDetail covers it.
   seriesIndex: "/series/",
   tagsIndex: "/tags/",
   topicsDetail: "/topics/accessibility/",
@@ -30,4 +29,10 @@ export const VISUAL_ROUTES = {
   // Unlike every other route above, this one has no dependency on live
   // content, so it can't drift as new videos/podcasts get published.
   cardFixtures: "/dev/visual-fixtures/",
+  // Same reasoning, but for TopicCloud.astro: /topics/'s pill sizes are
+  // computed from percentiles over the live count distribution, so
+  // testing the real page means the baseline needs re-capturing on
+  // almost every content batch. Fixed counts here hit every size tier
+  // (xs/sm/md/lg/xl) deterministically - see topic-cloud-fixture.astro.
+  topicCloudFixture: "/dev/topic-cloud-fixture/",
 } as const;

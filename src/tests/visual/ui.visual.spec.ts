@@ -107,12 +107,16 @@ test.describe("visual regression coverage", () => {
     });
   });
 
-  // Percentile-tiered word cloud (ADR 0013 rework) - no ResponsiveGrid
-  // involved, so unlike the list/grid routes above this needs no mask.
-  test("topics index page", async ({ page }) => {
-    await prepareVisualPage(page, VISUAL_ROUTES.topicsIndex);
+  // Percentile-tiered word cloud (ADR 0013 rework), via the deterministic
+  // fixture route rather than live /topics/ - pill sizes are computed
+  // from percentiles over the live count distribution, so testing the
+  // real page would mean re-capturing this baseline on almost every
+  // content batch. Fixed counts here hit every size tier (xs/sm/md/lg/xl)
+  // deterministically - see topic-cloud-fixture.astro.
+  test("topic cloud fixture", async ({ page }) => {
+    await prepareVisualPage(page, VISUAL_ROUTES.topicCloudFixture);
 
-    await expect(page).toHaveScreenshot("topics-index.png", {
+    await expect(page).toHaveScreenshot("topic-cloud-fixture.png", {
       fullPage: true,
     });
   });

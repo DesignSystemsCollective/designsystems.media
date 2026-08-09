@@ -1,0 +1,62 @@
+---
+// /dev/topic-cloud-fixture/ - a deterministic fixture route for
+// TopicCloud.astro, the shared component /topics/ renders through.
+//
+// Unlike the card fixtures at /dev/visual-fixtures/ (see docs/adr/0007-
+// visual-fixture-route.md), the problem here isn't just images/ordering
+// drifting - it's that TopicCloud's pill *sizes* are computed from
+// percentiles over the live count distribution, so a topic can jump size
+// tiers purely because unrelated content got tagged elsewhere. Testing
+// the real /topics/ page means the baseline needs re-capturing on almost
+// every content batch. Fixed counts below make every tier boundary
+// (xs/sm/md/lg/xl) deterministic regardless of what's actually tagged.
+//
+// Same "borrow a real slug for the href" approach ADR 0007 uses for card
+// fixtures: the smoke suite (pages.smoke.spec.js) requests every internal
+// link on every built page, so an invented slug would 404 there even
+// though it renders fine visually. Every pill links to the same real,
+// stable topic instead.
+//
+// Excluded from the sitemap (astro.config.mjs's /dev/ filter) and not
+// linked from nav, with noindex set via Metadata's noindex prop.
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicCloud from "../../components/TopicCloud.astro";
+
+const REAL_TOPIC_SLUG = "accessibility";
+
+// Fixed counts chosen (and verified) to land at least one item in every
+// sizeTier bucket TopicCloud computes (xs/sm/md/lg/xl), so the fixture
+// exercises every pill size the real page can ever render - not just
+// whatever tiers happen to be populated by today's live data.
+const fixtureCounts = [100, 82, 61, 47, 42, 38, 33, 29, 25, 22, 19, 16, 14, 12, 10, 9, 7, 5, 3, 2];
+
+const fixtureItems = fixtureCounts.map((count, index) => ({
+  name:
+    index === 0
+      ? "Fixture Topic One: A Considerably Longer Name To Test Pill Wrapping"
+      : `Fixture Topic ${index + 1}`,
+  href: `/topics/${REAL_TOPIC_SLUG}/`,
+  count,
+}));
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title: "Topic cloud fixture (dev)", noindex: true }}>
+  <h1>Topic cloud visual fixture</h1>
+  <p>
+    Deterministic, hard-coded <code>TopicCloud</code> render used by the
+    visual regression suite (<code>test:visual</code>). Counts are fixed so
+    every size tier (xs/sm/md/lg/xl) is always represented, regardless of
+    live tagging activity. Not linked from navigation, excluded from the
+    sitemap.
+  </p>
+
+  <TopicCloud items={fixtureItems} />
+</BaseLayout>
+
+<style>
+  h1,
+  p {
+    padding: 0 var(--space-16);
+  }
+</style>
