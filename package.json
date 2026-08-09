@@ -23,7 +23,8 @@
     "test:unit": "node --experimental-strip-types --test src/tests/unit/content-domain.test.ts src/tests/unit/content-domain-selectors.test.ts src/tests/unit/content-validation.test.mjs src/tests/unit/video-aggregator-duration.test.mjs src/tests/unit/video-aggregator-slugs.test.mjs src/tests/unit/video-aggregator-frontmatter.test.mjs src/tests/unit/video-aggregator-shared.test.mjs src/tests/unit/video-aggregator-images.test.mjs src/tests/unit/findFirstExistingImage.test.ts src/tests/unit/audio.test.ts src/tests/unit/convertToSlug.test.ts src/tests/unit/formatDate.test.ts src/tests/unit/convertToISO8601Duration.test.ts src/tests/unit/formatDuration.test.ts src/tests/unit/imageSizes.test.ts src/tests/unit/isDurationOneMinuteOrUnder.test.ts src/tests/unit/statsResponse.test.ts",
     "test:smoke": "npm run build && npx playwright test --project=smoke",
     "test:visual": "npm run build && npx playwright test --project=visual-desktop --project=visual-mobile",
-    "test:visual:update": "npm run build && npx playwright test --update-snapshots --project=visual-desktop --project=visual-mobile"
+    "test:visual:update": "npm run build && npx playwright test --update-snapshots --project=visual-desktop --project=visual-mobile",
+    "test:visual:report": "npx playwright show-report"
   },
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.5.6",
