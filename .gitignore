@@ -136,6 +136,9 @@ dist
 .DS_Store
 .vscode/
 
+# Claude Code local tooling config
+.claude/
+
 # netlify
 .netlify/
 
