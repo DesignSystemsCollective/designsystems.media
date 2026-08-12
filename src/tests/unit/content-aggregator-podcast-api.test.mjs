@@ -51,7 +51,18 @@ const {
   getEpisodesFromFeed,
   searchPodcastByTitle,
   getTrendingPodcasts,
+  getPodcastArtwork,
 } = await import("../../../content-aggregator/scripts/podcast/podcast.ts");
+
+test("getPodcastArtwork: returns '' instead of crashing when feed is null (the function's own declared default)", () => {
+  assert.equal(getPodcastArtwork(null), "");
+  assert.equal(getPodcastArtwork(undefined), "");
+});
+
+test("getPodcastArtwork: prefers artwork over image", () => {
+  assert.equal(getPodcastArtwork({ artwork: "a.jpg", image: "i.jpg" }), "a.jpg");
+  assert.equal(getPodcastArtwork({ image: "i.jpg" }), "i.jpg");
+});
 
 test("getPodcastByFeedUrl: returns episodes + showData when the feed resolves", async () => {
   state.get = async (url) => {
@@ -143,7 +154,7 @@ test("getEpisodesFromFeed: prefers the episode's own image over the podcast's ar
   assert.equal(episodes[0].thumbnails.high.url, "https://example.com/episode-art.jpg");
 });
 
-test("getEpisodesFromFeed: decodes HTML entities; both straight quotes become an opening fancy quote (known quirk, not fixed)", async () => {
+test("getEpisodesFromFeed: decodes HTML entities and pairs straight quotes into proper opening/closing fancy quotes", async () => {
   state.get = async () => ({
     data: {
       items: [
@@ -154,13 +165,25 @@ test("getEpisodesFromFeed: decodes HTML entities; both straight quotes become an
 
   const episodes = await getEpisodesFromFeed("feed1", [], {});
 
-  // replaceQuotesWithFancyQuotes runs title.replace(/"/g, "“").replace(/"/g, "”")
-  // - the first .replace already consumes every literal `"` (global regex),
-  // so the second .replace is always a no-op. Every quote becomes an
-  // opening curly quote; a proper closing quote is never produced. Same bug
-  // exists identically in youtube.ts's copy of this function - pinning the
-  // real behavior here rather than the intended-but-never-happening one.
-  assert.equal(episodes[0].title, `Design & the “Right“ Way`);
+  assert.equal(episodes[0].title, `Design & the “Right” Way`);
+});
+
+test("getEpisodesFromFeed: no longer crashes when called with its own declared feedInfo=null default", async () => {
+  state.get = async () => ({
+    data: {
+      items: [
+        { title: "No Feed Info Provided", enclosureUrl: "https://example.com/d.mp3", duration: 600, datePublished: 1700000000 },
+      ],
+    },
+  });
+
+  // Deliberately omitting the third argument - exercises getEpisodesFromFeed's
+  // own `feedInfo: any = null` default, which previously crashed inside
+  // getPodcastArtwork(null) reading `.artwork` off of null.
+  const episodes = await getEpisodesFromFeed("feed1", []);
+
+  assert.equal(episodes.length, 1);
+  assert.equal(episodes[0].podcastImageUrl, "");
 });
 
 test("getEpisodesFromFeed: returns [] and does not throw when the request fails", async () => {

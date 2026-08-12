@@ -105,18 +105,20 @@ test("generateMdxFile does not overwrite an existing file", () => {
   assert.equal(before, after);
 });
 
-test("generateMdxFile writes durationSeconds as null rather than crashing when absent (Vimeo case)", () => {
+test("generateMdxFile writes durationSeconds as null rather than crashing when absent", () => {
   const tmp = mkTmpDir("dsm-video-no-duration-");
-  const folderPath = path.join(tmp, "vimeo-video");
+  const folderPath = path.join(tmp, "no-duration-video");
 
-  // Mirrors what vimeo.js actually returns today: no durationSeconds field
-  // at all. gray-matter's YAML serializer throws on `undefined` (unlike
+  // youtube.ts only sets durationSeconds when contentDetails.duration is
+  // present in the API response - it's genuinely absent otherwise, not just
+  // a Vimeo-specific case (Vimeo support was removed, see ADR 0016).
+  // gray-matter's YAML serializer throws on `undefined` (unlike
   // JSON.stringify, which silently drops it), so this must not blow up.
   const video = {
-    title: "A Vimeo Video",
+    title: "A Video With No Duration Data",
     publishedAt: "2025-01-01T00:00:00Z",
     thumbnails: { high: { url: "https://img/hq.jpg" } },
-    videoUrl: "https://vimeo.com/123",
+    videoUrl: "https://www.youtube.com/watch?v=noduration",
     duration: "",
     privacyStatus: "public",
     description: "desc",

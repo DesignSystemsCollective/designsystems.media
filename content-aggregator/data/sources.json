@@ -91,13 +91,6 @@
     "url": "https://www.youtube.com/channel/UCeBXd1VEjbHYHdjqwkEHU_w"
   },
   {
-    "name": "DS Video Aggregator",
-    "platform": "vimeo",
-    "channelName": "DS Video Aggregator",
-    "type": "vimeo-channel",
-    "url": "https://vimeo.com/channels/1862150/"
-  },
-  {
     "name": "Design System Wednesdays",
     "platform": "youtube",
     "channelName": "@dsw.community",

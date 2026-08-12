@@ -18,6 +18,7 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const matter = require("gray-matter");
+const { writeContentFile } = require("./shared.ts");
 
 const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
 
@@ -175,19 +176,25 @@ async function processEpisodeMarkdownFile(filePath: string): Promise<void> {
   }
 }
 
-// Function to process the Markdown file with error handling and delays (legacy support)
-async function processMarkdownFile(filePath: string): Promise<void> {
+// Function to process media (video) Markdown files - handles the
+// poster/image download flow for anything that isn't a show or episode.
+//
+// This used to be inlined directly in processMarkdownFile under a "legacy
+// processing for files without type specified" comment, as if it were a
+// fallback for old content. It isn't: getVideos.ts's frontmatter has never
+// set a `type` field (see generateMdxFile), so every media/video file in
+// the site takes this path today - it's the live, primary handling for one
+// of the three content kinds this script processes, not a legacy fallback.
+// Named and extracted to match processShowMarkdownFile/
+// processEpisodeMarkdownFile's shape instead of staying an unlabeled `else`
+// branch. It still doubles as the generic catch-all for any file that
+// matches neither a show nor an episode, which is what makes it safe to
+// keep matching on the *absence* of a show/podcast signal rather than
+// requiring an explicit `type: "media"` (a defensive default, kept as-is).
+async function processMediaMarkdownFile(filePath: string): Promise<void> {
   const markdownContent = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(markdownContent);
 
-  // Check if this is a show or episode based on type field or path
-  if (data.type === "show" || filePath.includes("/show/")) {
-    return await processShowMarkdownFile(filePath);
-  } else if (data.type === "podcast" || filePath.includes("/podcast/")) {
-    return await processEpisodeMarkdownFile(filePath);
-  }
-
-  // Legacy processing for files without type specified
   // If localImages is already true, skip downloading.
   if (data.localImages === true) {
     return;
@@ -249,19 +256,39 @@ async function processMarkdownFile(filePath: string): Promise<void> {
   }
 }
 
+// Dispatches a Markdown file to its content-kind-specific handler, based on
+// an explicit `type` field first and a path-based fallback second (older
+// show/episode content predates the `type` field being written).
+async function processMarkdownFile(filePath: string): Promise<void> {
+  const markdownContent = fs.readFileSync(filePath, "utf8");
+  const { data } = matter(markdownContent);
+
+  if (data.type === "show" || filePath.includes("/show/")) {
+    return await processShowMarkdownFile(filePath);
+  } else if (data.type === "podcast" || filePath.includes("/podcast/")) {
+    return await processEpisodeMarkdownFile(filePath);
+  }
+
+  return await processMediaMarkdownFile(filePath);
+}
+
 // Helper function to introduce a delay
 function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Function to update the Markdown file with new front matter and content
+//
+// Previously hand-built frontmatter with `${key}: ${JSON.stringify(value)}`
+// per line - the exact bug class ADR 0003 fixed in getVideos.ts/
+// getPodcasts.ts (ordinary JSON.stringify doesn't produce valid YAML for
+// every string - e.g. a title containing a literal newline or a YAML
+// special character at the start of the value). This was the one remaining
+// writer in the codebase not going through the canonical serializer. Now
+// delegates to shared.ts's writeContentFile (gray-matter's real YAML
+// stringify), same as every other frontmatter writer here.
 function updateMarkdownFile(filePath: string, data: Frontmatter, content: string): void {
-  const updatedFrontMatter = Object.entries(data)
-    .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
-    .join("\n");
-
-  const updatedMarkdown = `---\n${updatedFrontMatter}\n---\n${content}`;
-  fs.writeFileSync(filePath, updatedMarkdown);
+  fs.writeFileSync(filePath, writeContentFile(data, content));
 }
 
 // Function to recursively process Markdown files in a directory
@@ -319,6 +346,7 @@ if (require.main === module) {
 module.exports = {
   processShowMarkdownFile,
   processEpisodeMarkdownFile,
+  processMediaMarkdownFile,
   processMarkdownFile,
   updateMarkdownFile,
 };

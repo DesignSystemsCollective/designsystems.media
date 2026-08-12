@@ -17,11 +17,9 @@ import path from "path";
 //
 // youtube.ts is mocked the same way content-aggregator-youtube-api.test.mjs
 // mocks googleapis, so these tests exercise routing rather than the real
-// YouTube API. vimeo.ts is deliberately NOT mocked: videoHandlers["vimeo"]
-// calls a function (getAllVideosFromVimeo) that vimeo.ts has never actually
-// exported (see vimeo.ts's own top-of-file note and ADR 0006) - that's a
-// real, currently-inert bug, and mocking it away here would hide it rather
-// than pin it.
+// YouTube API. vimeo.ts and its "vimeo" handler were removed entirely (see
+// ADR 0016) rather than fixed - there's nothing to mock or test here for it
+// anymore.
 
 const state = {
   getAllVideosFromChannel: async () => [],
@@ -133,9 +131,6 @@ test("videoHandlers['youtube-playlist']: extracts the playlist ID from the `list
   assert.equal(capturedPlaylistId, "PLxyz789");
 });
 
-test("videoHandlers['vimeo']: still broken as documented - calls a function vimeo.ts never exports (known quirk, not fixed)", async () => {
-  await assert.rejects(
-    () => videoHandlers["vimeo"]({ type: "vimeo", url: "https://vimeo.com/channels/anything/" }, []),
-    /getAllVideosFromVimeo is not a function/,
-  );
+test("videoHandlers: no longer has a 'vimeo' entry (removed, not fixed - see ADR 0016)", () => {
+  assert.deepEqual(Object.keys(videoHandlers).sort(), ["youtube-channel", "youtube-playlist"]);
 });
