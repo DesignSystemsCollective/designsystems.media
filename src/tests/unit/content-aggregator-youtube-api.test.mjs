@@ -57,6 +57,24 @@ function useUploadsPlaylist(playlistId) {
   });
 }
 
+// Simulates a real videos.list response for the batched call fetchVideoDetailsBatch
+// makes: given `id` as a comma-separated list, returns one item per known
+// ID, each tagged with its own `id` field (as the real API does) so
+// fetchVideoDetailsBatch's Map lookup can match responses back to the
+// video that requested them. An ID with no entry in `detailsById` is
+// simply omitted, matching how a real response would drop a removed/
+// invalid ID rather than erroring.
+function videosListResponder(detailsById) {
+  return async ({ id }) => ({
+    data: {
+      items: id
+        .split(",")
+        .filter((videoId) => detailsById[videoId])
+        .map((videoId) => ({ id: videoId, ...detailsById[videoId] })),
+    },
+  });
+}
+
 // getUploadsPlaylistId
 
 test("getUploadsPlaylistId: reads the uploads playlist ID out of channels.list's response", async () => {
@@ -91,8 +109,8 @@ test("getAllVideosFromChannel: looks up the uploads playlist, then delegates to 
       nextPageToken: undefined,
     },
   });
-  state.videos = async () => ({
-    data: { items: [{ snippet: { description: "Full description" }, contentDetails: { duration: "PT10M5S" } }] },
+  state.videos = videosListResponder({
+    vid1: { snippet: { description: "Full description" }, contentDetails: { duration: "PT10M5S" } },
   });
 
   const videos = await getAllVideosFromChannel("channel1", []);
@@ -147,8 +165,8 @@ test("getAllVideosFromPlaylist: reads videoId/publishedAt/privacyStatus from pla
       nextPageToken: undefined,
     },
   });
-  state.videos = async () => ({
-    data: { items: [{ snippet: { description: "Desc" }, contentDetails: { duration: "PT3M" } }] },
+  state.videos = videosListResponder({
+    plvid1: { snippet: { description: "Desc" }, contentDetails: { duration: "PT3M" } },
   });
 
   const videos = await getAllVideosFromPlaylist("playlist1", []);
@@ -171,13 +189,9 @@ test("getAllVideosFromPlaylist: skips Shorts and already-imported videos", async
       nextPageToken: undefined,
     },
   });
-  state.videos = async ({ id }) => ({
-    data: {
-      items: [{
-        snippet: {},
-        contentDetails: { duration: id === "short1" ? "PT10S" : "PT5M" },
-      }],
-    },
+  state.videos = videosListResponder({
+    short1: { snippet: {}, contentDetails: { duration: "PT10S" } },
+    keep1: { snippet: {}, contentDetails: { duration: "PT5M" } },
   });
 
   const videos = await getAllVideosFromPlaylist("playlist1", [
@@ -185,6 +199,39 @@ test("getAllVideosFromPlaylist: skips Shorts and already-imported videos", async
   ]);
 
   assert.deepEqual(videos.map((v) => v.videoUrl), ["https://www.youtube.com/watch?v=keep1"]);
+});
+
+test("getAllVideosFromPlaylist: batches multiple new videos on one page into a single videos.list call", async () => {
+  state.playlistItems = async () => ({
+    data: {
+      items: [
+        { snippet: { resourceId: { videoId: "batch1" }, title: "One", thumbnails: {} }, contentDetails: { videoPublishedAt: "2025-01-01T00:00:00Z" }, status: { privacyStatus: "public" } },
+        { snippet: { resourceId: { videoId: "batch2" }, title: "Two", thumbnails: {} }, contentDetails: { videoPublishedAt: "2025-01-01T00:00:00Z" }, status: { privacyStatus: "public" } },
+        { snippet: { resourceId: { videoId: "batch3" }, title: "Three", thumbnails: {} }, contentDetails: { videoPublishedAt: "2025-01-01T00:00:00Z" }, status: { privacyStatus: "public" } },
+      ],
+      nextPageToken: undefined,
+    },
+  });
+  const videosListCalls = [];
+  const respond = videosListResponder({
+    batch1: { snippet: {}, contentDetails: { duration: "PT5M" } },
+    batch2: { snippet: {}, contentDetails: { duration: "PT6M" } },
+    batch3: { snippet: {}, contentDetails: { duration: "PT7M" } },
+  });
+  state.videos = async (params) => {
+    videosListCalls.push(params.id);
+    return respond(params);
+  };
+
+  const videos = await getAllVideosFromPlaylist("playlist1", []);
+
+  assert.equal(videosListCalls.length, 1, "three new videos on one page should cost a single videos.list call, not three");
+  assert.deepEqual(videosListCalls[0].split(","), ["batch1", "batch2", "batch3"]);
+  assert.deepEqual(videos.map((v) => v.videoUrl), [
+    "https://www.youtube.com/watch?v=batch1",
+    "https://www.youtube.com/watch?v=batch2",
+    "https://www.youtube.com/watch?v=batch3",
+  ]);
 });
 
 test("getAllVideosFromPlaylist: follows nextPageToken across multiple pages", async () => {
@@ -206,8 +253,9 @@ test("getAllVideosFromPlaylist: follows nextPageToken across multiple pages", as
       },
     };
   };
-  state.videos = async () => ({
-    data: { items: [{ snippet: {}, contentDetails: { duration: "PT5M" } }] },
+  state.videos = videosListResponder({
+    page1vid: { snippet: {}, contentDetails: { duration: "PT5M" } },
+    page2vid: { snippet: {}, contentDetails: { duration: "PT5M" } },
   });
 
   const videos = await getAllVideosFromPlaylist("playlist1", []);
