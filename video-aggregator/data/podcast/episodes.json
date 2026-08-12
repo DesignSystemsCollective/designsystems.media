@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 105: What's an AI-Native DS?",
+    "description": "<p>We discuss, you guess it, whatever ai-native means in the world of design systems, including that start of a new phase of PJ and Davy's design system spec that originated from this episode!</p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/124053295/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-11%2F447ee1b7-a0bc-4173-da58-6dba602749e3.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/124053295/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-11%2F447ee1b7-a0bc-4173-da58-6dba602749e3.mp3",
+    "publishedAt": "2026-08-11T07:00:00.000Z",
+    "duration": "0:34:24",
+    "durationSeconds": 2064,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 58858154199,
+    "guid": "e6ca35c1-15ea-4d27-8d90-4e2ed3aafcba",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Love Letters w/ Dan Mall | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
