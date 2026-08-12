@@ -52,86 +52,51 @@ function applyDuration(videoData: Video, rawDuration: unknown): number {
   return durationSeconds;
 }
 
+// Looks up a channel's "uploads" playlist ID - every channel has one
+// automatically, containing every video it's ever publicly uploaded. Used
+// by getAllVideosFromChannel below instead of the search endpoint. Costs 1
+// quota unit, once per channel per run.
+async function getUploadsPlaylistId(channelId: string): Promise<string | null> {
+  const response: any = await youtube.channels.list({
+    auth: API_KEY,
+    id: channelId,
+    part: "contentDetails",
+  });
+
+  const channel = response.data.items?.[0];
+  return channel?.contentDetails?.relatedPlaylists?.uploads ?? null;
+}
+
 // Function to retrieve all video data from a channel
+//
+// Previously enumerated a channel's videos via youtube.search.list, YouTube
+// Data API's most expensive list endpoint at 100 quota units per page (up
+// to 50 videos) - and paged through the *entire* channel history on every
+// run, skipping already-imported videos one at a time rather than stopping
+// early, so the cost only grew as each channel accumulated more videos.
+// Every channel has a hidden "uploads" playlist containing the exact same
+// videos, readable via playlistItems.list at 1 quota unit per page instead
+// - a 100x reduction with no change to which videos are found. This now
+// looks that playlist ID up (getUploadsPlaylistId, 1 quota unit) and
+// delegates to getAllVideosFromPlaylist, reusing its pagination/dedup/Shorts
+// filtering rather than duplicating it. See ADR 0017.
+//
+// Bonus: search.list is index-based and can lag behind a channel's actual
+// upload history; the uploads playlist reflects a new upload immediately,
+// so this is also more reliable, not just cheaper.
 async function getAllVideosFromChannel(
   channelId: string,
   importedVideoData: Video[],
 ): Promise<Video[]> {
   try {
-    const videos: Video[] = [];
-    let nextPageToken: string | null = null;
+    const uploadsPlaylistId = await getUploadsPlaylistId(channelId);
 
-    do {
-      const response: any = await youtube.search.list({
-        // TODO: Think we can replace this with another call that uses less quota. We could pull the channels playlist IDs and then run those through the other function? https://developers.google.com/youtube/v3/docs/channels
-        auth: API_KEY,
-        channelId: channelId,
-        maxResults: 50,
-        pageToken: nextPageToken,
-        order: "date",
-        part: "snippet",
-        type: "video",
-      });
+    if (!uploadsPlaylistId) {
+      console.error(`Could not find an uploads playlist for channel ${channelId}`);
+      return [];
+    }
 
-      const videoItems = response.data.items;
-      nextPageToken = response.data.nextPageToken;
-
-      if (videoItems) {
-        for (const item of videoItems) {
-          const videoId = item.id.videoId;
-
-          // Check if the video ID has already been imported
-          if (
-            importedVideoData.some((video) => video.videoUrl.includes(videoId))
-          ) {
-            // console.log(`Skipping video with ID ${videoId} (already imported)`);
-            continue; // Skip this video and continue to the next one
-          }
-
-          const videoData: Video = {
-            title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
-            description: "", // Initialize description as an empty string
-            thumbnails: item.snippet.thumbnails,
-            videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
-            publishedAt: item.snippet.publishedAt,
-            privacyStatus: "", // Initialize duration as an empty string
-            duration: "", // Initialize duration as an empty string
-          };
-
-          // Retrieve the full video description
-          const videoDetailsResponse: any = await youtube.videos.list({
-            auth: API_KEY,
-            id: videoId,
-            part: "snippet,contentDetails,status", // Include contentDetails
-          });
-
-          const videoDetails = videoDetailsResponse.data.items[0].snippet;
-          const contentDetails =
-            videoDetailsResponse.data.items[0].contentDetails;
-          const statusDetails = videoDetailsResponse.data.items[0].status;
-
-          if (statusDetails && statusDetails.privacyStatus) {
-            videoData.privacyStatus = statusDetails.privacyStatus;
-          }
-
-          if (videoDetails && videoDetails.description) {
-            videoData.description = videoDetails.description;
-          }
-
-          if (contentDetails && contentDetails.duration) {
-            const totalSeconds = applyDuration(videoData, contentDetails.duration);
-            // Skip Shorts (videos 60 seconds or shorter)
-            if (totalSeconds <= 60) {
-              continue; // Skip shorts
-            }
-          }
-
-          videos.push(videoData);
-        }
-      }
-    } while (nextPageToken);
-
-    return videos;
+    return await getAllVideosFromPlaylist(uploadsPlaylistId, importedVideoData);
   } catch (error: any) {
     console.error(
       `Error retrieving channel videos for channel ${channelId}:`,
@@ -225,6 +190,7 @@ async function getAllVideosFromPlaylist(
 module.exports = {
   getAllVideosFromChannel,
   getAllVideosFromPlaylist,
+  getUploadsPlaylistId,
   getPosterUrl,
   formatDuration,
   calculateTotalSeconds,
