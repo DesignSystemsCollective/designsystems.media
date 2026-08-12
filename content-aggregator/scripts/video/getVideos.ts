@@ -11,7 +11,14 @@ const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
 const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube.ts");
-const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl, writeContentFile } = require("../shared/shared.ts");
+const {
+  loadJsonFile,
+  createDirectory,
+  sanitizeTitle,
+  getPosterUrl,
+  writeContentFile,
+  mapWithConcurrency,
+} = require("../shared/shared.ts");
 
 // Constants
 const DATA_DIR = path.join(__dirname, "../../data");
@@ -19,6 +26,14 @@ const OUTPUT_DIR = path.join(__dirname, "../../../src/content/media/");
 const SOURCES_FILE = path.join(DATA_DIR, "sources.json");
 const IGNORE_FILE = path.join(DATA_DIR, "ignore.json");
 const OUTPUT_FILE = path.join(DATA_DIR, "output.json");
+
+// How many sources to fetch concurrently in main() below. Each source is an
+// independent network round trip to YouTube, and they used to run one at a
+// time, so total run time was the sum of every source's latency instead of
+// roughly the slowest one. Capped rather than unbounded to stay reasonably
+// polite to the API instead of firing every configured source's requests at
+// once.
+const SOURCE_FETCH_CONCURRENCY = 4;
 
 const SLUGIFY_OPTIONS = {
   lower: true,
@@ -140,17 +155,32 @@ const main = async (): Promise<void> => {
     const allVideos: Video[] = [];
     let totalIgnoredCount = 0;
 
-    // Process each source
-    for (const source of sourcesData) {
-      const handler = videoHandlers[source.type];
-      if (!handler) {
-        console.warn(`Unknown source type: ${source.type}`);
-        continue;
-      }
+    // Fetch every source concurrently (bounded by SOURCE_FETCH_CONCURRENCY)
+    // - the network round trip to YouTube is the actual bottleneck, not the
+    // local file-writing that follows. mapWithConcurrency returns results
+    // in the same order as sourcesData regardless of which source's fetch
+    // finishes first, so applying them below - writing each source's .mdx
+    // files - happens sequentially in the same fixed order the fully
+    // sequential version used, keeping output identical (just fetched
+    // faster). Safe to fetch concurrently because each source's videos are
+    // independent of every other source's: unlike getPodcasts.ts's
+    // ShowManager, there's no shared dedup state across sources here that
+    // fetch order could affect.
+    const videosPerSource = await mapWithConcurrency(
+      sourcesData,
+      SOURCE_FETCH_CONCURRENCY,
+      async (source) => {
+        const handler = videoHandlers[source.type];
+        if (!handler) {
+          console.warn(`Unknown source type: ${source.type}`);
+          return [];
+        }
+        return await handler(source, importedVideoData);
+      },
+    );
 
-      const videos = await handler(source, importedVideoData);
+    for (const videos of videosPerSource) {
       const { processedVideos, ignoredCount } = await processVideos(videos, videosToIgnore);
-
       allVideos.push(...processedVideos);
       totalIgnoredCount += ignoredCount;
     }

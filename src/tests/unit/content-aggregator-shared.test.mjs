@@ -5,7 +5,11 @@ import os from "os";
 import path from "path";
 import shared from "../../../content-aggregator/scripts/shared/shared.ts";
 
-const { loadJsonFile, createDirectory, sanitizeTitle, replaceQuotesWithFancyQuotes, getPosterUrl } = shared;
+const { loadJsonFile, createDirectory, sanitizeTitle, replaceQuotesWithFancyQuotes, getPosterUrl, mapWithConcurrency } = shared;
+
+function delay(ms, value) {
+  return new Promise((resolve) => setTimeout(() => resolve(value), ms));
+}
 
 test("loadJsonFile returns [] when the file does not exist", () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "dsm-shared-"));
@@ -54,6 +58,45 @@ test("replaceQuotesWithFancyQuotes alternates open/close across multiple quoted 
 
 test("replaceQuotesWithFancyQuotes leaves a title with no quotes untouched", () => {
   assert.equal(replaceQuotesWithFancyQuotes("Design Systems 101"), "Design Systems 101");
+});
+
+test("mapWithConcurrency: returns results in input order even when they resolve out of order", async () => {
+  const items = [
+    { id: "slow", ms: 30 },
+    { id: "fast", ms: 0 },
+  ];
+
+  const results = await mapWithConcurrency(items, 2, async (item) => {
+    await delay(item.ms, item.id);
+    return item.id;
+  });
+
+  assert.deepEqual(results, ["slow", "fast"], "order must match input order, not completion order");
+});
+
+test("mapWithConcurrency: never runs more than `concurrency` workers at once", async () => {
+  let active = 0;
+  let maxActive = 0;
+
+  await mapWithConcurrency([1, 2, 3, 4, 5, 6], 2, async (item) => {
+    active++;
+    maxActive = Math.max(maxActive, active);
+    await delay(5, null);
+    active--;
+    return item;
+  });
+
+  assert.equal(maxActive, 2);
+});
+
+test("mapWithConcurrency: a concurrency higher than the item count doesn't spawn extra workers", async () => {
+  const results = await mapWithConcurrency([1, 2], 10, async (item) => item * 2);
+  assert.deepEqual(results, [2, 4]);
+});
+
+test("mapWithConcurrency: returns [] for an empty input array", async () => {
+  const results = await mapWithConcurrency([], 4, async (item) => item);
+  assert.deepEqual(results, []);
 });
 
 test("getPosterUrl prefers maxres, falls back to an upscaled high thumbnail, then empty string", () => {

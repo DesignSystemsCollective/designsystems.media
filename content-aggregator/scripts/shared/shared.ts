@@ -132,6 +132,40 @@ function parseISO8601DurationToSeconds(rawDuration: unknown): number {
   return hours * 3600 + minutes * 60 + seconds;
 }
 
+// Runs `worker` over `items` with at most `concurrency` in flight at once,
+// returning results in the same order as `items` regardless of which
+// finishes first - a small worker-pool: `concurrency` loops each pull the
+// next unclaimed index and run `worker` on it until none are left. No new
+// dependency (no p-limit) added for this, consistent with this codebase's
+// existing preference for small in-house helpers over pulling in a package
+// for something this contained.
+//
+// Written for getVideos.ts's per-source fetching (each source is an
+// independent network round trip to YouTube/Vimeo; running them one at a
+// time made total run time the sum of every source's latency instead of
+// roughly the slowest one) - kept generic and here in shared.ts rather than
+// inlined there, the same reasoning as every other helper in this file.
+async function mapWithConcurrency<T, R>(
+  items: T[],
+  concurrency: number,
+  worker: (item: T, index: number) => Promise<R>,
+): Promise<R[]> {
+  const results: R[] = new Array(items.length);
+  let nextIndex = 0;
+
+  async function runNext(): Promise<void> {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      results[index] = await worker(items[index], index);
+    }
+  }
+
+  const workerCount = Math.min(Math.max(concurrency, 1), items.length);
+  await Promise.all(Array.from({ length: workerCount }, runNext));
+
+  return results;
+}
+
 // Formats a total-seconds duration as "H:MM:SS". Canonical formatter -
 // previously duplicated as youtube.js's own ISO-8601-parsing formatDuration
 // and podcast.js's raw-seconds formatDuration (see ADR 0004). Both
@@ -166,4 +200,5 @@ module.exports = {
   writeContentFile,
   parseISO8601DurationToSeconds,
   formatSecondsAsDuration,
+  mapWithConcurrency,
 };

@@ -106,7 +106,40 @@ async function getAllVideosFromChannel(
   }
 }
 
+// Fetches description+duration for up to 50 video IDs in a single
+// videos.list call - it accepts a comma-separated `id` list for the same 1
+// quota unit as a single-ID call, so this collapses what used to be one
+// call per new video into (usually) one call per page. Chunks defensively
+// at 50 even though every caller here only ever passes a single page's
+// worth of IDs (already capped at 50 by playlistItems.list's maxResults).
+async function fetchVideoDetailsBatch(videoIds: string[]): Promise<Map<string, any>> {
+  const detailsById = new Map<string, any>();
+
+  for (let i = 0; i < videoIds.length; i += 50) {
+    const chunk = videoIds.slice(i, i + 50);
+    const response: any = await youtube.videos.list({
+      auth: API_KEY,
+      id: chunk.join(","),
+      part: "snippet,contentDetails",
+    });
+
+    for (const item of response.data.items ?? []) {
+      detailsById.set(item.id, item);
+    }
+  }
+
+  return detailsById;
+}
+
 // Function to retrieve all video data from a playlist
+//
+// Description/duration used to be fetched with one videos.list call per new
+// video found on a page. Now every new video ID on a page is collected
+// first, then fetched in one batched call via fetchVideoDetailsBatch - same
+// 1 quota unit either way, just for up to 50 videos instead of 1. A video ID
+// missing from the batched response (e.g. removed between the two calls)
+// resolves to `undefined` via the Map lookup below rather than crashing, an
+// incidental robustness improvement over the previous `items[0]` access.
 async function getAllVideosFromPlaylist(
   playlistId: string,
   importedVideoData: Video[],
@@ -128,11 +161,12 @@ async function getAllVideosFromPlaylist(
       nextPageToken = response.data.nextPageToken;
 
       if (videoItems) {
+        const candidates: Array<{ videoId: string; videoData: Video }> = [];
+
         for (const item of videoItems) {
           const videoId = item.snippet.resourceId.videoId;
 
           // Check if the video ID has already been imported
-          // TODO - 20 October. I wonder if this could be earlier somewhere, to reduce API calls?
           if (
             importedVideoData.some((video) => video.videoUrl.includes(videoId))
           ) {
@@ -140,39 +174,41 @@ async function getAllVideosFromPlaylist(
             continue; // Skip this video and continue to the next one
           }
 
-          const videoData: Video = {
-            title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
-            description: "", // Initialize description as an empty string
-            thumbnails: item.snippet.thumbnails,
-            videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
-            publishedAt: item.contentDetails.videoPublishedAt,
-            privacyStatus: item.status.privacyStatus, // Initialize duration as an empty string
-            duration: "", // Initialize duration as an empty string
-          };
-
-          // Retrieve the full video description
-          const videoDetailsResponse: any = await youtube.videos.list({
-            auth: API_KEY,
-            id: videoId,
-            part: "snippet,contentDetails",
+          candidates.push({
+            videoId,
+            videoData: {
+              title: replaceQuotesWithFancyQuotes(he.decode(item.snippet.title)),
+              description: "", // Initialize description as an empty string
+              thumbnails: item.snippet.thumbnails,
+              videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
+              publishedAt: item.contentDetails.videoPublishedAt,
+              privacyStatus: item.status.privacyStatus,
+              duration: "", // Initialize duration as an empty string
+            },
           });
+        }
 
-          const videoDetails = videoDetailsResponse.data.items[0].snippet;
-          const contentDetails =
-            videoDetailsResponse.data.items[0].contentDetails;
+        if (candidates.length > 0) {
+          const detailsById = await fetchVideoDetailsBatch(candidates.map((c) => c.videoId));
 
-          if (videoDetails && videoDetails.description) {
-            videoData.description = videoDetails.description;
-          }
-          if (contentDetails && contentDetails.duration) {
-            const totalSeconds = applyDuration(videoData, contentDetails.duration);
-            // Skip Shorts (videos 60 seconds or shorter)
-            if (totalSeconds <= 60) {
-              continue; // Skip shorts
+          for (const { videoId, videoData } of candidates) {
+            const details = detailsById.get(videoId);
+            const videoDetails = details?.snippet;
+            const contentDetails = details?.contentDetails;
+
+            if (videoDetails && videoDetails.description) {
+              videoData.description = videoDetails.description;
             }
-          }
+            if (contentDetails && contentDetails.duration) {
+              const totalSeconds = applyDuration(videoData, contentDetails.duration);
+              // Skip Shorts (videos 60 seconds or shorter)
+              if (totalSeconds <= 60) {
+                continue; // Skip shorts
+              }
+            }
 
-          videos.push(videoData);
+            videos.push(videoData);
+          }
         }
       }
     } while (nextPageToken);
