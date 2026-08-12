@@ -5,7 +5,7 @@ import { formatDuration } from "../../utils/formatDuration.ts";
 // Phase 7 of the refactor plan: pinning formatDuration's current behavior.
 // Note this is src/utils/formatDuration.ts - a *display* formatter that
 // expects an "hh:mm:ss" string - and is a distinct implementation from
-// video-aggregator's shared.ts formatSecondsAsDuration (unified in Phase 3).
+// content-aggregator's shared/shared.ts formatSecondsAsDuration (unified in Phase 3).
 // The two were never in scope to unify; this one's input contract is a
 // preformatted string, not raw seconds.
 

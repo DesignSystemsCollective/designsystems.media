@@ -106,9 +106,12 @@ Decision records for the major refactors live under [docs/adr/](./docs/adr/READM
 │   ├── templates/           # Content templates for posts
 │   ├── tests/               # Unit, smoke, and visual regression tests
 │   └── utils/               # General helpers
-├── video-aggregator/        # Content ingestion automation
+├── content-aggregator/      # Content ingestion automation (video + podcast)
 │   ├── data/                # Source configurations and generated outputs
-│   └── scripts/             # Collection and processing scripts
+│   └── scripts/
+│       ├── video/           # YouTube/Vimeo collection scripts
+│       ├── podcast/         # Podcast Index collection scripts
+│       └── shared/          # Shared types, helpers, and image fetching
 ├── docs/
 │   └── adr/                 # Architecture decision records
 ├── astro.config.mjs         # Astro framework configuration
@@ -153,14 +156,14 @@ Validation currently checks for:
 
 The ingestion scripts collect data from:
 
-- `video-aggregator/data/sources.json` for YouTube channels and playlists to monitor
-- `video-aggregator/data/ignoreID.json` for YouTube videos to ignore
+- `content-aggregator/data/sources.json` for YouTube channels and playlists to monitor
+- `content-aggregator/data/ignoreID.json` for YouTube videos to ignore
 
 Adding new sources:
 
-1. Edit the appropriate JSON file in `video-aggregator/data/`
+1. Edit the appropriate JSON file in `content-aggregator/data/`
 2. Run `npm run aggregate`
-3. Review the generated output in `video-aggregator/data/output.json`
+3. Review the generated output in `content-aggregator/data/output.json`
 
 ## Testing
 

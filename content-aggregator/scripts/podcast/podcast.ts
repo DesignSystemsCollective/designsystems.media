@@ -6,12 +6,12 @@
 // API response traversal (`feed`, `episode`, `response.data`) is
 // deliberately left as `any` - same reasoning as youtube.ts.
 
-import type { Episode, PodcastFetchResult } from "./types";
+import type { Episode, PodcastFetchResult } from "../shared/types";
 
 const he = require("he");
 const axios = require("axios");
 const crypto = require('crypto'); // Ensure crypto is imported here
-const { formatSecondsAsDuration } = require("./shared.ts");
+const { formatSecondsAsDuration } = require("../shared/shared.ts");
 
 // Podcast Index API credentials (you'll need to get these from https://podcastindex.org/)
 // Asserted as string rather than left `string | undefined`: these are

@@ -2,12 +2,12 @@
 //
 // Converted to TypeScript in Phase 4 - see the accompanying ADR.
 
-import type { Episode, PodcastSource, PodcastFeedSource, Show } from "./types";
+import type { Episode, PodcastSource, PodcastFeedSource, Show } from "../shared/types";
 
 const path = require("path");
 // dotenv 17 logs a "injecting env..." message on every config() call by
 // default - quiet it to keep this script's output limited to its own logs.
-require("dotenv").config({ path: path.join(__dirname, '../../.env'), quiet: true });
+require("dotenv").config({ path: path.join(__dirname, '../../../.env'), quiet: true });
 
 const fs = require("fs");
 const slugify = require("slugify");
@@ -22,7 +22,7 @@ const {
   createDirectory: sharedCreateDirectory,
   sanitizeTitle,
   writeContentFile,
-} = require("./shared.ts");
+} = require("../shared/shared.ts");
 
 // Configuration
 const CONFIG = {
@@ -30,13 +30,13 @@ const CONFIG = {
   // files directly, and require()'s return is untyped (`any`) regardless
   // of what it's assigned to - same reasoning as getVideos.ts's
   // loadJsonFile() casts.
-  sources: require(path.join(__dirname, "../data/podcast-sources.json")) as PodcastSource[],
-  ignored: require(path.join(__dirname, "../data/podcast-ignore.json")) as string[],
+  sources: require(path.join(__dirname, "../../data/podcast-sources.json")) as PodcastSource[],
+  ignored: require(path.join(__dirname, "../../data/podcast-ignore.json")) as string[],
   paths: {
-    episodes: path.join(__dirname, "../data/podcast/episodes.json"),
-    shows: path.join(__dirname, "../data/podcast/shows.json"),
-    episodesDir: path.join(__dirname, "../../src/content/podcast/"),
-    showsDir: path.join(__dirname, "../../src/content/show/")
+    episodes: path.join(__dirname, "../../data/podcast/episodes.json"),
+    shows: path.join(__dirname, "../../data/podcast/shows.json"),
+    episodesDir: path.join(__dirname, "../../../src/content/podcast/"),
+    showsDir: path.join(__dirname, "../../../src/content/show/")
   },
   slugify: {
     lower: true,
@@ -490,4 +490,5 @@ module.exports = {
   utils,
   ShowManager,
   fileGenerators,
+  dataProcessors,
 };

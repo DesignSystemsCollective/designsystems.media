@@ -40,6 +40,6 @@ jobs:
       run: |
         git config --local user.email "josh@noworries.nz"
         git config --local user.name "NoWorries"
-        git add src/content/**/* video-aggregator/data/podcast/*
+        git add src/content/**/* content-aggregator/data/podcast/*
         git diff --staged --quiet || git commit -m "Github action add new podcasts"
         git push

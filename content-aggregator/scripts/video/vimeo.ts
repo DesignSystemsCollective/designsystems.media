@@ -21,7 +21,7 @@
 // rather than Video to reflect that honestly instead of inventing values
 // that were never actually there.
 
-import type { Video } from "./types";
+import type { Video } from "../shared/types";
 
 const axios = require("axios");
 const fs = require("fs");

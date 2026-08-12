@@ -1,4 +1,4 @@
-import ignoreData from "../../../video-aggregator/data/ignoreID.json";
+import ignoreData from "../../../content-aggregator/data/ignoreID.json";
 import { getVideoEntries } from "../../lib/content-domain";
 
 // Helper function to extract YouTube ID from a URL

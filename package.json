@@ -9,9 +9,9 @@
     "url": "https://github.com/DesignSystemsCollective/designsystems.media"
   },
   "scripts": {
-    "videos": "node --experimental-strip-types video-aggregator/scripts/getVideos.ts",
-    "podcasts": "node --experimental-strip-types video-aggregator/scripts/getPodcasts.ts",
-    "images": "node --experimental-strip-types video-aggregator/scripts/getImages.ts",
+    "videos": "node --experimental-strip-types content-aggregator/scripts/video/getVideos.ts",
+    "podcasts": "node --experimental-strip-types content-aggregator/scripts/podcast/getPodcasts.ts",
+    "images": "node --experimental-strip-types content-aggregator/scripts/shared/getImages.ts",
     "aggregate": "npm run videos && npm run images",
     "validate:content": "node scripts/validate-content.mjs",
     "dev": "astro dev",
@@ -20,7 +20,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "serve": "npx serve -l 4321 dist",
-    "test:unit": "node --experimental-strip-types --test src/tests/unit/content-domain.test.ts src/tests/unit/content-domain-selectors.test.ts src/tests/unit/content-validation.test.mjs src/tests/unit/video-aggregator-duration.test.mjs src/tests/unit/video-aggregator-slugs.test.mjs src/tests/unit/video-aggregator-frontmatter.test.mjs src/tests/unit/video-aggregator-shared.test.mjs src/tests/unit/video-aggregator-images.test.mjs src/tests/unit/findFirstExistingImage.test.ts src/tests/unit/audio.test.ts src/tests/unit/convertToSlug.test.ts src/tests/unit/formatDate.test.ts src/tests/unit/convertToISO8601Duration.test.ts src/tests/unit/formatDuration.test.ts src/tests/unit/imageSizes.test.ts src/tests/unit/isDurationOneMinuteOrUnder.test.ts src/tests/unit/statsResponse.test.ts",
+    "test:unit": "node --experimental-strip-types --experimental-test-module-mocks --test src/tests/unit/content-domain.test.ts src/tests/unit/content-domain-selectors.test.ts src/tests/unit/content-validation.test.mjs src/tests/unit/content-aggregator-duration.test.mjs src/tests/unit/content-aggregator-slugs.test.mjs src/tests/unit/content-aggregator-frontmatter.test.mjs src/tests/unit/content-aggregator-shared.test.mjs src/tests/unit/content-aggregator-images.test.mjs src/tests/unit/content-aggregator-youtube-api.test.mjs src/tests/unit/content-aggregator-podcast-api.test.mjs src/tests/unit/content-aggregator-podcast-orchestration.test.mjs src/tests/unit/content-aggregator-video-orchestration.test.mjs src/tests/unit/findFirstExistingImage.test.ts src/tests/unit/audio.test.ts src/tests/unit/convertToSlug.test.ts src/tests/unit/formatDate.test.ts src/tests/unit/convertToISO8601Duration.test.ts src/tests/unit/formatDuration.test.ts src/tests/unit/imageSizes.test.ts src/tests/unit/isDurationOneMinuteOrUnder.test.ts src/tests/unit/statsResponse.test.ts",
     "test:smoke": "npm run build && npx playwright test --project=smoke",
     "test:visual": "npm run build && npx playwright test --project=visual-desktop --project=visual-mobile",
     "test:visual:update": "npm run build && npx playwright test --update-snapshots --project=visual-desktop --project=visual-mobile",
