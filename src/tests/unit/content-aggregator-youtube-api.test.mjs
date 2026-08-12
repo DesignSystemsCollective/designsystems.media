@@ -19,12 +19,18 @@ import { mock } from "node:test";
 // restore/re-mock cycles, even when youtube.ts itself is re-imported via a
 // cache-busting specifier). So instead of re-mocking per test, the fake
 // client's methods are stable functions that delegate to a mutable `state`
-// object - each test swaps `state.search`/`state.playlistItems`/
+// object - each test swaps `state.channels`/`state.playlistItems`/
 // `state.videos` before calling into youtube.ts, rather than swapping the
 // mock itself.
+//
+// getAllVideosFromChannel no longer calls search.list at all (see ADR
+// 0017) - it looks up the channel's uploads playlist via channels.list,
+// then delegates to getAllVideosFromPlaylist. So its tests below mock
+// channels.list + playlistItems.list/videos.list, the same shapes the
+// playlist tests use, rather than a search.list response shape.
 
 const state = {
-  search: async () => ({ data: { items: [] } }),
+  channels: async () => ({ data: { items: [] } }),
   playlistItems: async () => ({ data: { items: [] } }),
   videos: async () => ({ data: { items: [] } }),
 };
@@ -33,7 +39,7 @@ mock.module("googleapis", {
   exports: {
     google: {
       youtube: () => ({
-        search: { list: (...args) => state.search(...args) },
+        channels: { list: (...args) => state.channels(...args) },
         playlistItems: { list: (...args) => state.playlistItems(...args) },
         videos: { list: (...args) => state.videos(...args) },
       }),
@@ -41,33 +47,52 @@ mock.module("googleapis", {
   },
 });
 
-const { getAllVideosFromChannel, getAllVideosFromPlaylist } = await import(
+const { getAllVideosFromChannel, getAllVideosFromPlaylist, getUploadsPlaylistId } = await import(
   "../../../content-aggregator/scripts/video/youtube.ts"
 );
 
-// A single-page search.list response plus a videos.list responder keyed by
-// video ID - covers the common single-page case without needing real
-// pagination bookkeeping in every test.
-function useSinglePageChannel({ items, videoDetailsById }) {
-  state.search = async () => ({ data: { items, nextPageToken: undefined } });
-  state.videos = async ({ id }) => ({ data: { items: [videoDetailsById[id]] } });
+function useUploadsPlaylist(playlistId) {
+  state.channels = async () => ({
+    data: { items: [{ contentDetails: { relatedPlaylists: { uploads: playlistId } } }] },
+  });
 }
 
-test("getAllVideosFromChannel: builds a Video from search + videos.list, applying duration/privacy/description", async () => {
-  useSinglePageChannel({
-    items: [
-      {
-        id: { videoId: "vid1" },
-        snippet: { title: "A Talk", thumbnails: { high: { url: "https://img/hq.jpg" } }, publishedAt: "2025-01-01T00:00:00Z" },
-      },
-    ],
-    videoDetailsById: {
-      vid1: {
-        snippet: { description: "Full description" },
-        contentDetails: { duration: "PT10M5S" },
-        status: { privacyStatus: "public" },
-      },
+// getUploadsPlaylistId
+
+test("getUploadsPlaylistId: reads the uploads playlist ID out of channels.list's response", async () => {
+  useUploadsPlaylist("UUabc123uploads");
+
+  const playlistId = await getUploadsPlaylistId("channel1");
+
+  assert.equal(playlistId, "UUabc123uploads");
+});
+
+test("getUploadsPlaylistId: returns null for a channel ID that doesn't resolve to anything", async () => {
+  state.channels = async () => ({ data: { items: [] } });
+
+  const playlistId = await getUploadsPlaylistId("nonexistent-channel");
+
+  assert.equal(playlistId, null);
+});
+
+// getAllVideosFromChannel
+
+test("getAllVideosFromChannel: looks up the uploads playlist, then delegates to the playlist-fetching path", async () => {
+  useUploadsPlaylist("UUuploads1");
+  state.playlistItems = async () => ({
+    data: {
+      items: [
+        {
+          snippet: { resourceId: { videoId: "vid1" }, title: "A Talk", thumbnails: { high: { url: "https://img/hq.jpg" } } },
+          contentDetails: { videoPublishedAt: "2025-01-01T00:00:00Z" },
+          status: { privacyStatus: "public" },
+        },
+      ],
+      nextPageToken: undefined,
     },
+  });
+  state.videos = async () => ({
+    data: { items: [{ snippet: { description: "Full description" }, contentDetails: { duration: "PT10M5S" } }] },
   });
 
   const videos = await getAllVideosFromChannel("channel1", []);
@@ -81,82 +106,22 @@ test("getAllVideosFromChannel: builds a Video from search + videos.list, applyin
   assert.equal(videos[0].durationSeconds, 605);
 });
 
-test("getAllVideosFromChannel: skips Shorts (duration 60s or under)", async () => {
-  useSinglePageChannel({
-    items: [
-      { id: { videoId: "short1" }, snippet: { title: "A Short", thumbnails: {}, publishedAt: "2025-01-01T00:00:00Z" } },
-      { id: { videoId: "long1" }, snippet: { title: "A Real Video", thumbnails: {}, publishedAt: "2025-01-01T00:00:00Z" } },
-    ],
-    videoDetailsById: {
-      short1: { snippet: {}, contentDetails: { duration: "PT45S" }, status: {} },
-      long1: { snippet: {}, contentDetails: { duration: "PT2M" }, status: {} },
-    },
-  });
-
-  const videos = await getAllVideosFromChannel("channel1", []);
-
-  assert.deepEqual(videos.map((v) => v.videoUrl), ["https://www.youtube.com/watch?v=long1"]);
-});
-
-test("getAllVideosFromChannel: skips already-imported videos without calling videos.list for them", async () => {
-  const videosListCalls = [];
-  useSinglePageChannel({
-    items: [
-      { id: { videoId: "already-imported" }, snippet: { title: "Old", thumbnails: {}, publishedAt: "2025-01-01T00:00:00Z" } },
-      { id: { videoId: "new1" }, snippet: { title: "New", thumbnails: {}, publishedAt: "2025-01-01T00:00:00Z" } },
-    ],
-    videoDetailsById: {
-      new1: { snippet: {}, contentDetails: { duration: "PT5M" }, status: {} },
-    },
-  });
-  const originalVideos = state.videos;
-  state.videos = async (params) => {
-    videosListCalls.push(params.id);
-    return originalVideos(params);
+test("getAllVideosFromChannel: returns [] without calling playlistItems.list when the channel has no uploads playlist", async () => {
+  state.channels = async () => ({ data: { items: [] } });
+  let playlistItemsCalled = false;
+  state.playlistItems = async () => {
+    playlistItemsCalled = true;
+    return { data: { items: [] } };
   };
 
-  const videos = await getAllVideosFromChannel("channel1", [
-    { videoUrl: "https://www.youtube.com/watch?v=already-imported" },
-  ]);
+  const videos = await getAllVideosFromChannel("bad-channel", []);
 
-  assert.deepEqual(videos.map((v) => v.videoUrl), ["https://www.youtube.com/watch?v=new1"]);
-  assert.deepEqual(videosListCalls, ["new1"], "should never call videos.list for an already-imported video");
+  assert.deepEqual(videos, []);
+  assert.equal(playlistItemsCalled, false);
 });
 
-test("getAllVideosFromChannel: follows nextPageToken across multiple pages", async () => {
-  let call = 0;
-  state.search = async () => {
-    call += 1;
-    if (call === 1) {
-      return {
-        data: {
-          items: [{ id: { videoId: "page1vid" }, snippet: { title: "Page 1", thumbnails: {}, publishedAt: "2025-01-01T00:00:00Z" } }],
-          nextPageToken: "page2",
-        },
-      };
-    }
-    return {
-      data: {
-        items: [{ id: { videoId: "page2vid" }, snippet: { title: "Page 2", thumbnails: {}, publishedAt: "2025-01-02T00:00:00Z" } }],
-        nextPageToken: undefined,
-      },
-    };
-  };
-  state.videos = async () => ({
-    data: { items: [{ snippet: {}, contentDetails: { duration: "PT5M" }, status: {} }] },
-  });
-
-  const videos = await getAllVideosFromChannel("channel1", []);
-
-  assert.equal(call, 2, "should have paged through both responses");
-  assert.deepEqual(videos.map((v) => v.videoUrl), [
-    "https://www.youtube.com/watch?v=page1vid",
-    "https://www.youtube.com/watch?v=page2vid",
-  ]);
-});
-
-test("getAllVideosFromChannel: returns [] and does not throw when the API call fails", async () => {
-  state.search = async () => {
+test("getAllVideosFromChannel: returns [] and does not throw when the uploads-playlist lookup fails", async () => {
+  state.channels = async () => {
     throw new Error("quota exceeded");
   };
 
@@ -165,7 +130,11 @@ test("getAllVideosFromChannel: returns [] and does not throw when the API call f
   assert.deepEqual(videos, []);
 });
 
-test("getAllVideosFromPlaylist: reads videoId/publishedAt/privacyStatus from playlistItems shape, not search shape", async () => {
+// getAllVideosFromPlaylist - also exercised indirectly above via
+// getAllVideosFromChannel's delegation, but tested directly here for the
+// pagination/Shorts/dedup rules that both entry points now share.
+
+test("getAllVideosFromPlaylist: reads videoId/publishedAt/privacyStatus from playlistItems shape", async () => {
   state.playlistItems = async () => ({
     data: {
       items: [
@@ -191,7 +160,7 @@ test("getAllVideosFromPlaylist: reads videoId/publishedAt/privacyStatus from pla
   assert.equal(videos[0].description, "Desc");
 });
 
-test("getAllVideosFromPlaylist: skips Shorts and already-imported videos, same as the channel path", async () => {
+test("getAllVideosFromPlaylist: skips Shorts and already-imported videos", async () => {
   state.playlistItems = async () => ({
     data: {
       items: [
@@ -216,6 +185,38 @@ test("getAllVideosFromPlaylist: skips Shorts and already-imported videos, same a
   ]);
 
   assert.deepEqual(videos.map((v) => v.videoUrl), ["https://www.youtube.com/watch?v=keep1"]);
+});
+
+test("getAllVideosFromPlaylist: follows nextPageToken across multiple pages", async () => {
+  let call = 0;
+  state.playlistItems = async () => {
+    call += 1;
+    if (call === 1) {
+      return {
+        data: {
+          items: [{ snippet: { resourceId: { videoId: "page1vid" }, title: "Page 1", thumbnails: {} }, contentDetails: { videoPublishedAt: "2025-01-01T00:00:00Z" }, status: { privacyStatus: "public" } }],
+          nextPageToken: "page2",
+        },
+      };
+    }
+    return {
+      data: {
+        items: [{ snippet: { resourceId: { videoId: "page2vid" }, title: "Page 2", thumbnails: {} }, contentDetails: { videoPublishedAt: "2025-01-02T00:00:00Z" }, status: { privacyStatus: "public" } }],
+        nextPageToken: undefined,
+      },
+    };
+  };
+  state.videos = async () => ({
+    data: { items: [{ snippet: {}, contentDetails: { duration: "PT5M" } }] },
+  });
+
+  const videos = await getAllVideosFromPlaylist("playlist1", []);
+
+  assert.equal(call, 2, "should have paged through both responses");
+  assert.deepEqual(videos.map((v) => v.videoUrl), [
+    "https://www.youtube.com/watch?v=page1vid",
+    "https://www.youtube.com/watch?v=page2vid",
+  ]);
 });
 
 test("getAllVideosFromPlaylist: returns [] and does not throw when the API call fails", async () => {
