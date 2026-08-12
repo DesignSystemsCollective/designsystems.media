@@ -30,17 +30,17 @@ export interface VideoThumbnails {
 }
 
 // A subset of Thumbnail-shaped input that getPosterUrl actually reads.
-// Deliberately narrower than VideoThumbnails so callers with a
-// differently-shaped thumbnails object (e.g. Vimeo's) can still use it
-// without needing to conform to YouTube's full shape.
+// Deliberately narrower than VideoThumbnails so a caller with a
+// differently-shaped thumbnails object doesn't need to conform to YouTube's
+// full shape just to reuse this helper.
 export interface PosterThumbnailSource {
   maxres?: { url: string };
   high?: { url: string };
 }
 
-// A video as produced by youtube.js/vimeo.js and consumed by getVideos.js.
-// `durationSeconds` is optional/undefined for sources that don't compute a
-// duration (Vimeo, currently) - see ADR 0004 on why generateMdxFile guards
+// A video as produced by youtube.js and consumed by getVideos.js.
+// `durationSeconds` is optional/undefined for any video whose source API
+// didn't return a duration - see ADR 0004 on why generateMdxFile guards
 // this rather than assuming it's always present.
 export interface Video {
   title: string;
@@ -92,18 +92,18 @@ export interface PodcastFetchResult {
 }
 
 // A configured ingestion source, as read from content-aggregator/data/
-// sources.json. `type` is intentionally `string`, not a literal union of
-// known handler keys: getVideos.js's handler lookup already treats unknown
-// types as a soft "skip with a warning" case at runtime (see main()), and
-// sources.json currently has a live entry ("vimeo-channel") that doesn't
-// match any registered handler key ("vimeo") - a real, pre-existing gap.
-// A literal union here would either have to include that mismatch (wrong)
-// or exclude it (hiding a bug this conversion deliberately isn't fixing).
+// sources.json. `type` is a literal union of the registered videoHandlers
+// keys in getVideos.ts - every entry in sources.json matches one of these
+// today (see ADR 0016: the one entry that didn't, a "vimeo-channel" source
+// with no matching handler, was removed rather than fixed). getVideos.js's
+// handler lookup still treats an unrecognized type as a soft "skip with a
+// warning" at runtime (see main()) as defense against sources.json drifting
+// again, even though the type no longer allows constructing one statically.
 export interface Source {
   name: string;
   platform: string;
   channelName: string;
-  type: string;
+  type: "youtube-channel" | "youtube-playlist";
   url: string;
 }
 

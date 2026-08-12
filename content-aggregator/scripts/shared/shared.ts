@@ -48,6 +48,24 @@ function sanitizeTitle(title: string): string {
   return title.replace(/[:"""#'''!?@_^%()]/gi, "");
 }
 
+// Replaces straight double quotes with paired curly ("smart") quotes,
+// alternating open/close on each occurrence. Previously duplicated
+// identically as youtube.js's and podcast.js's own copies of this exact
+// function, both with the same bug: `.replace(/"/g, "“").replace(/"/g,
+// "”")` - two passes over the *same* global match. The first pass
+// already consumes every literal `"` in the string, so the second pass is
+// always a no-op; every quote silently became an opening curly quote, and a
+// closing one was never produced. Fixed here as the single canonical copy,
+// alternating per match instead of running two independent global replaces.
+function replaceQuotesWithFancyQuotes(title: string): string {
+  let openNext = true;
+  return title.replace(/"/g, () => {
+    const quote = openNext ? "“" : "”";
+    openNext = !openNext;
+    return quote;
+  });
+}
+
 // Picks the best available thumbnail/poster URL, preferring maxres and
 // falling back to an upscaled high-quality thumbnail URL. Previously
 // duplicated as getVideos.js's getPosterUrl and youtube.js's getPosterUrl -
@@ -143,6 +161,7 @@ module.exports = {
   loadJsonFile,
   createDirectory,
   sanitizeTitle,
+  replaceQuotesWithFancyQuotes,
   getPosterUrl,
   writeContentFile,
   parseISO8601DurationToSeconds,

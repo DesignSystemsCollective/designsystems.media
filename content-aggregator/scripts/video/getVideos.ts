@@ -11,7 +11,6 @@ const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
 const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube.ts");
-const { getAllVideosFromVimeo } = require("./vimeo.ts");
 const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl, writeContentFile } = require("../shared/shared.ts");
 
 // Constants
@@ -67,8 +66,9 @@ const generateMdxFile = (video: Video, folderPath: string): void => {
     duration: video.duration,
     // gray-matter's YAML serializer throws on `undefined` (unlike
     // JSON.stringify, which silently drops it) - durationSeconds is
-    // undefined for Vimeo videos and any video where the source API never
-    // returned a duration, so this must be a real value, not undefined.
+    // undefined for any video where the source API never returned a
+    // duration (youtube.ts only sets it when contentDetails.duration is
+    // present), so this must be a real value, not undefined.
     durationSeconds: video.durationSeconds ?? null,
     privacyStatus: video.privacyStatus,
     draft: true,
@@ -82,12 +82,11 @@ const generateMdxFile = (video: Video, folderPath: string): void => {
 // Video processing handlers
 type VideoHandler = (source: Source, importedData: Video[]) => Promise<Video[]>;
 
-// The "vimeo" handler's signature doesn't match VideoHandler (it takes no
-// arguments and calls a function - getAllVideosFromVimeo - that vimeo.ts
-// doesn't actually export). Preserved exactly as-is; see the note in
-// vimeo.ts and types.ts's Source comment for the pre-existing bug this
-// reflects. TypeScript doesn't catch it here because `require()`'s return
-// value is untyped (`any`), same as it was in the original JS.
+// Vimeo support was removed (not fixed) - see ADR 0016. vimeo.ts called a
+// function it never exported, and this handler map never had a "vimeo-
+// channel" key matching sources.json's actual entry, so the source was
+// silently skipped on every run. Rather than build real Vimeo channel
+// listing, the dead code and the sources.json entry were both deleted.
 const videoHandlers: Record<string, VideoHandler> = {
   "youtube-channel": async (source, importedData) => {
     const channelId = source.url.split("/").pop() as string;
@@ -98,10 +97,6 @@ const videoHandlers: Record<string, VideoHandler> = {
     const playlistId = source.url.split("list=")[1];
     return await getAllVideosFromPlaylist(playlistId, importedData);
   },
-
-  "vimeo": async () => {
-    return await getAllVideosFromVimeo();
-  }
 };
 
 const processVideos = async (

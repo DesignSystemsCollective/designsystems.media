@@ -109,7 +109,7 @@ Decision records for the major refactors live under [docs/adr/](./docs/adr/READM
 ├── content-aggregator/      # Content ingestion automation (video + podcast)
 │   ├── data/                # Source configurations and generated outputs
 │   └── scripts/
-│       ├── video/           # YouTube/Vimeo collection scripts
+│       ├── video/           # YouTube collection scripts
 │       ├── podcast/         # Podcast Index collection scripts
 │       └── shared/          # Shared types, helpers, and image fetching
 ├── docs/

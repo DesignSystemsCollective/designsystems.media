@@ -129,7 +129,7 @@ test("processEpisodeMarkdownFile: falls back to null when there's no showSlug to
   assert.equal(data.localImages, false);
 });
 
-test("processMarkdownFile (media/legacy): on poster download failure, deletes image and poster, leaves localImages false", async (t) => {
+test("processMarkdownFile (media): on poster download failure, deletes image and poster, leaves localImages false", async (t) => {
   freshMatterCache();
   const tmp = mkTmpDir("dsm-media-img-poster-");
   const filePath = path.join(tmp, "media-item", "index.mdx");
@@ -148,7 +148,7 @@ test("processMarkdownFile (media/legacy): on poster download failure, deletes im
   assert.equal(data.localImages, false);
 });
 
-test("processMarkdownFile (media/legacy): when no poster, and the image-as-poster fallback download fails, deletes both fields", async (t) => {
+test("processMarkdownFile (media): when no poster, and the image-as-poster fallback download fails, deletes both fields", async (t) => {
   freshMatterCache();
   const tmp = mkTmpDir("dsm-media-img-imagefallback-");
   const filePath = path.join(tmp, "media-item", "index.mdx");
@@ -185,4 +185,19 @@ test("updateMarkdownFile: omits deleted keys and writes explicit null cleanly", 
   assert.equal(written.title, "A Title");
   assert.equal(written.image, null);
   assert.equal(content.trim(), "body content");
+});
+
+test("updateMarkdownFile: a title containing quotes round-trips correctly (previously used JSON.stringify per key, not real YAML)", () => {
+  freshMatterCache();
+  const tmp = mkTmpDir("dsm-update-frontmatter-quotes-");
+  const filePath = path.join(tmp, "index.mdx");
+  fs.writeFileSync(filePath, "---\ntitle: placeholder\n---\n");
+
+  const data = { title: `Design Systems: The "Right" Way`, categories: ["Uncategorized"] };
+
+  updateMarkdownFile(filePath, data, "body");
+
+  const { data: written } = readFrontmatter(filePath);
+  assert.equal(written.title, `Design Systems: The "Right" Way`);
+  assert.deepEqual(written.categories, ["Uncategorized"]);
 });

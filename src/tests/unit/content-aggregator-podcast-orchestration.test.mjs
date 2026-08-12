@@ -41,7 +41,7 @@ mock.module(podcastTsUrl, {
   },
 });
 
-const { CONFIG, ShowManager, dataProcessors } = await import(
+const { CONFIG, ShowManager, dataProcessors, utils } = await import(
   "../../../content-aggregator/scripts/podcast/getPodcasts.ts"
 );
 
@@ -184,4 +184,26 @@ test("processTrendingSource: skips entries with no show data without dropping th
   );
 
   assert.deepEqual(results.map((r) => r.show.title), ["Good Show One", "Good Show Two"]);
+});
+
+// utils.removeDuplicatesById
+
+test("removeDuplicatesById: keeps the first occurrence of each id and drops later repeats", () => {
+  const items = [
+    { id: "a", title: "A v1" },
+    { id: "b", title: "B" },
+    { id: "a", title: "A v2 (duplicate, should be dropped)" },
+  ];
+
+  const result = utils.removeDuplicatesById(items);
+
+  assert.deepEqual(result.map((i) => i.title), ["A v1", "B"]);
+});
+
+test("removeDuplicatesById: keeps every item that has no id, even if otherwise identical", () => {
+  const items = [{ title: "No ID One" }, { title: "No ID Two" }];
+
+  const result = utils.removeDuplicatesById(items);
+
+  assert.equal(result.length, 2);
 });

@@ -11,7 +11,7 @@ import type { Episode, PodcastFetchResult } from "../shared/types";
 const he = require("he");
 const axios = require("axios");
 const crypto = require('crypto'); // Ensure crypto is imported here
-const { formatSecondsAsDuration } = require("../shared/shared.ts");
+const { formatSecondsAsDuration, replaceQuotesWithFancyQuotes } = require("../shared/shared.ts");
 
 // Podcast Index API credentials (you'll need to get these from https://podcastindex.org/)
 // Asserted as string rather than left `string | undefined`: these are
@@ -21,12 +21,6 @@ const { formatSecondsAsDuration } = require("../shared/shared.ts");
 // assertion doesn't change the value at all, just how TS treats its type.
 const API_KEY = process.env.PODCAST_API_KEY as string;
 const API_SECRET = process.env.PODCAST_API_SECRET as string;
-
-// Function to replace plain quotes with fancy quotes
-function replaceQuotesWithFancyQuotes(title: string): string {
-  const fancyTitle = title.replace(/"/g, "“").replace(/"/g, "”");
-  return fancyTitle;
-}
 
 // Thin wrapper kept under its original name so nothing importing
 // podcast.js's public API has to change. As of Phase 3 this delegates to
@@ -40,13 +34,14 @@ function formatDuration(durationInSeconds: unknown): string {
 
 // Function to get podcast artwork URL (already good, but keeping for completeness)
 function getPodcastArtwork(feed: any): string {
-  // Try to get the highest quality artwork available
-  if (feed.artwork) {
-    return feed.artwork;
-  } else if (feed.image) {
-    return feed.image;
-  }
-  return "";
+  // Optional chaining, not a direct `feed.artwork` read: getEpisodesFromFeed
+  // (this function's only caller) declares its own `feedInfo` parameter
+  // with a `null` default, and previously called this unconditionally -
+  // so the declared default was never actually safe to use, only ever
+  // reachable in practice because every production call site happens to
+  // pass a real feed object. Guarding here (rather than only at the call
+  // site) fixes it for any future caller too, not just the current one.
+  return feed?.artwork || feed?.image || "";
 }
 
 // Function to generate podcast API headers with debugging

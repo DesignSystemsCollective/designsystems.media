@@ -26,12 +26,22 @@ const {
 
 // Configuration
 const CONFIG = {
-  // `as` casts, not typed generics: these come from require()-ing JSON
-  // files directly, and require()'s return is untyped (`any`) regardless
-  // of what it's assigned to - same reasoning as getVideos.ts's
-  // loadJsonFile() casts.
-  sources: require(path.join(__dirname, "../../data/podcast-sources.json")) as PodcastSource[],
-  ignored: require(path.join(__dirname, "../../data/podcast-ignore.json")) as string[],
+  // sharedLoadJsonFile, not a raw require(): getVideos.ts already loads its
+  // equivalent sources.json this way (loadJsonFile(SOURCES_FILE) as
+  // Source[]) rather than require()-ing it directly - using require() here
+  // was the one inconsistency between the two scripts' otherwise-identical
+  // "load essential config" pattern. The behavior difference is real, not
+  // just style: require() throws if the file is missing, while
+  // loadJsonFile() silently returns [] - matching getVideos.ts's existing
+  // (already-established) precedent of treating a missing sources file as
+  // "nothing configured" rather than a fatal error.
+  //
+  // `as` casts, not typed generics: sharedLoadJsonFile's return is untyped
+  // (`any`) across the require() boundary that loads shared.ts itself, so a
+  // generic type argument can't flow through - same reasoning as
+  // getVideos.ts's own loadJsonFile() casts.
+  sources: sharedLoadJsonFile(path.join(__dirname, "../../data/podcast-sources.json")) as PodcastSource[],
+  ignored: sharedLoadJsonFile(path.join(__dirname, "../../data/podcast-ignore.json")) as string[],
   paths: {
     episodes: path.join(__dirname, "../../data/podcast/episodes.json"),
     shows: path.join(__dirname, "../../data/podcast/shows.json"),
@@ -95,15 +105,13 @@ const utils = {
 
   createDirectory: sharedCreateDirectory,
 
+  // Keeps every item that has no id (nothing to dedupe an id-less item
+  // against), and the first occurrence of each id seen - dropping the rest.
   removeDuplicatesById<T extends { id?: unknown }>(items: T[]): T[] {
     const seenIds = new Set<unknown>();
     return items.filter(item => {
-      if (!item.id || seenIds.has(item.id)) {
-        if (item.id && seenIds.has(item.id)) {
-          // console.log(`Removing duplicate: ${item.title} (ID: ${item.id})`);
-        }
-        return !item.id || !seenIds.has(item.id); // Keep items without IDs
-      }
+      if (!item.id) return true;
+      if (seenIds.has(item.id)) return false;
       seenIds.add(item.id);
       return true;
     });

@@ -5,7 +5,7 @@ import os from "os";
 import path from "path";
 import shared from "../../../content-aggregator/scripts/shared/shared.ts";
 
-const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl } = shared;
+const { loadJsonFile, createDirectory, sanitizeTitle, replaceQuotesWithFancyQuotes, getPosterUrl } = shared;
 
 test("loadJsonFile returns [] when the file does not exist", () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "dsm-shared-"));
@@ -36,6 +36,24 @@ test("sanitizeTitle strips quotes, colons, and other punctuation", () => {
     sanitizeTitle(`DS: The "Right" Way #1 (v2)`),
     "DS The Right Way 1 v2",
   );
+});
+
+test("replaceQuotesWithFancyQuotes pairs quotes into proper opening/closing curly quotes", () => {
+  assert.equal(
+    replaceQuotesWithFancyQuotes(`Design Systems: The "Right" Way`),
+    `Design Systems: The “Right” Way`,
+  );
+});
+
+test("replaceQuotesWithFancyQuotes alternates open/close across multiple quoted phrases", () => {
+  assert.equal(
+    replaceQuotesWithFancyQuotes(`"First" and "Second"`),
+    `“First” and “Second”`,
+  );
+});
+
+test("replaceQuotesWithFancyQuotes leaves a title with no quotes untouched", () => {
+  assert.equal(replaceQuotesWithFancyQuotes("Design Systems 101"), "Design Systems 101");
 });
 
 test("getPosterUrl prefers maxres, falls back to an upscaled high thumbnail, then empty string", () => {

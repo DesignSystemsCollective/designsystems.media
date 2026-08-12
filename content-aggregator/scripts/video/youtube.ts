@@ -18,6 +18,7 @@ const he = require("he");
 const { google } = require("googleapis");
 const {
   getPosterUrl,
+  replaceQuotesWithFancyQuotes,
   parseISO8601DurationToSeconds,
   formatSecondsAsDuration,
 } = require("../shared/shared.ts");
@@ -27,13 +28,6 @@ const youtube = google.youtube("v3");
 
 // Set your YouTube API key or OAuth 2.0 credentials
 const API_KEY = process.env.API_KEY;
-
-// Function to replace plain quotes with fancy quotes
-function replaceQuotesWithFancyQuotes(title: string): string {
-  // Replace straight quotes with fancy quotes
-  const fancyTitle = title.replace(/"/g, "“").replace(/"/g, "”");
-  return fancyTitle;
-}
 
 // Thin wrappers kept under their original names so nothing importing
 // youtube.js's public API has to change. As of Phase 3 both delegate to
