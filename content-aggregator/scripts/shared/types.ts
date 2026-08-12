@@ -1,6 +1,6 @@
-// Shared types for the video-aggregator ingestion layer.
+// Shared types for the content-aggregator ingestion layer.
 //
-// These describe the shapes flowing through video-aggregator itself - raw
+// These describe the shapes flowing through content-aggregator itself - raw
 // API responses and the frontmatter objects built from them - as opposed to
 // src/types/media.ts, which describes the site's already-validated content
 // collection entries (post-Zod-schema, with Astro's `image()` transform
@@ -12,7 +12,7 @@
 // one side or require it to model states that don't apply to it.
 //
 // Added in Phase 4 of the refactor plan (TypeScript conversion) - see the
-// accompanying ADR. Fields are additive as more of video-aggregator gets
+// accompanying ADR. Fields are additive as more of content-aggregator gets
 // converted; this isn't meant to be exhaustive on day one.
 
 export interface Thumbnail {
@@ -57,7 +57,7 @@ export interface Video {
 // by getPodcasts.js. `feed`/`feedInfo` (the raw Podcast Index API feed
 // object) is deliberately left untyped (`any`) at call sites, same
 // reasoning as youtube.ts's raw API response traversal - it's a large,
-// only-partially-used external shape, and typing video-aggregator's own
+// only-partially-used external shape, and typing content-aggregator's own
 // output objects is what actually catches bugs here.
 export interface Episode {
   title: string;
@@ -91,7 +91,7 @@ export interface PodcastFetchResult {
   showData: any;
 }
 
-// A configured ingestion source, as read from video-aggregator/data/
+// A configured ingestion source, as read from content-aggregator/data/
 // sources.json. `type` is intentionally `string`, not a literal union of
 // known handler keys: getVideos.js's handler lookup already treats unknown
 // types as a soft "skip with a warning" case at runtime (see main()), and
@@ -136,7 +136,7 @@ export interface Show {
   locked: number;
 }
 
-// A configured podcast ingestion source, as read from video-aggregator/
+// A configured podcast ingestion source, as read from content-aggregator/
 // data/podcast-sources.json. Discriminated on `type` so getPodcasts.ts's
 // switch statement narrows correctly (source.url only makes sense for
 // "podcast-feed", source.term only for "podcast-search", etc.) - unlike
@@ -169,7 +169,7 @@ export type PodcastSource = PodcastFeedSource | PodcastSearchSource | TrendingPo
 // tight union of the media/show/episode schemas in src/content/config.ts -
 // those are enforced by Astro/Zod at build time; this type exists only to
 // catch typos and obviously-wrong types at the point frontmatter objects
-// are constructed in video-aggregator, not to duplicate the full schema.
+// are constructed in content-aggregator, not to duplicate the full schema.
 export interface Frontmatter {
   [key: string]: unknown;
 }

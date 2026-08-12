@@ -2,7 +2,7 @@
 //
 // Converted to TypeScript in Phase 4 - see the accompanying ADR.
 
-import type { Source, Video } from "./types";
+import type { Source, Video } from "../shared/types";
 
 // dotenv 17 logs a "injecting env..." message on every config() call by
 // default - quiet it to keep this script's output limited to its own logs.
@@ -12,11 +12,11 @@ const path = require("path");
 const slugify = require("slugify");
 const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube.ts");
 const { getAllVideosFromVimeo } = require("./vimeo.ts");
-const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl, writeContentFile } = require("./shared.ts");
+const { loadJsonFile, createDirectory, sanitizeTitle, getPosterUrl, writeContentFile } = require("../shared/shared.ts");
 
 // Constants
-const DATA_DIR = path.join(__dirname, "../data");
-const OUTPUT_DIR = path.join(__dirname, "../../src/content/media/");
+const DATA_DIR = path.join(__dirname, "../../data");
+const OUTPUT_DIR = path.join(__dirname, "../../../src/content/media/");
 const SOURCES_FILE = path.join(DATA_DIR, "sources.json");
 const IGNORE_FILE = path.join(DATA_DIR, "ignore.json");
 const OUTPUT_FILE = path.join(DATA_DIR, "output.json");
@@ -107,6 +107,7 @@ const videoHandlers: Record<string, VideoHandler> = {
 const processVideos = async (
   videos: Video[],
   videosToIgnore: string[],
+  outputDir: string = OUTPUT_DIR,
 ): Promise<{ processedVideos: Video[]; ignoredCount: number }> => {
   const processedVideos: Video[] = [];
   let ignoredCount = 0;
@@ -118,7 +119,7 @@ const processVideos = async (
     }
 
     const folderName = createFolderName(video.title);
-    const folderPath = path.join(OUTPUT_DIR, folderName);
+    const folderPath = path.join(outputDir, folderName);
 
     generateMdxFile(video, folderPath);
     processedVideos.push(video);
@@ -191,4 +192,6 @@ module.exports = {
   createFolderName,
   getPosterUrl,
   generateMdxFile,
+  processVideos,
+  videoHandlers,
 };

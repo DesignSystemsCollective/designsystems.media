@@ -23,9 +23,9 @@ const MAX_RETRY_COUNT = 3; // Number of times to retry a failed download
 
 // Define your folder paths
 const folderPaths = [
-  path.join(__dirname, "../../src/content/media/"),
-  path.join(__dirname, "../../src/content/podcast/"),
-  path.join(__dirname, "../../src/content/show/"), // New show folder
+  path.join(__dirname, "../../../src/content/media/"),
+  path.join(__dirname, "../../../src/content/podcast/"),
+  path.join(__dirname, "../../../src/content/show/"), // New show folder
 ];
 
 // Helper function to download an image with retries
@@ -283,7 +283,7 @@ async function processMarkdownFiles(directory: string): Promise<void> {
 // Process shows first, then episodes
 async function processInOrder(): Promise<void> {
   console.log("Processing show images first...");
-  const showsPath = path.join(__dirname, "../../src/content/show/");
+  const showsPath = path.join(__dirname, "../../../src/content/show/");
   if (fs.existsSync(showsPath)) {
     await processMarkdownFiles(showsPath);
   }
@@ -292,7 +292,7 @@ async function processInOrder(): Promise<void> {
   await delay(1000);
 
   console.log("Processing episode images...");
-  const episodesPath = path.join(__dirname, "../../src/content/podcast/");
+  const episodesPath = path.join(__dirname, "../../../src/content/podcast/");
   if (fs.existsSync(episodesPath)) {
     await processMarkdownFiles(episodesPath);
   }

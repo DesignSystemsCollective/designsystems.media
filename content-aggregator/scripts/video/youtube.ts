@@ -12,7 +12,7 @@
 // is that the *output* of this file (the Video objects it builds and
 // hands to getVideos.js) is properly typed, which it now is.
 
-import type { Video } from "./types";
+import type { Video } from "../shared/types";
 
 const he = require("he");
 const { google } = require("googleapis");
@@ -20,7 +20,7 @@ const {
   getPosterUrl,
   parseISO8601DurationToSeconds,
   formatSecondsAsDuration,
-} = require("./shared.ts");
+} = require("../shared/shared.ts");
 
 // Initialize the YouTube Data API client
 const youtube = google.youtube("v3");

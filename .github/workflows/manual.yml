@@ -30,7 +30,7 @@ jobs:
           branch: github-action-new-media
           add-paths: |
             src/content/**/*
-            video-aggregator/data/output.json
+            content-aggregator/data/output.json
           commit-message: "Github action add new media"
           title: "Github action add new media"
           body: |

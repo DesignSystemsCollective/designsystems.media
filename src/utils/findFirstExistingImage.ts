@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 
 // poster.jpg is the only filename the current pipeline ever produces (see
-// video-aggregator/scripts/getImages.js); maxresdefault.jpg and hqdefault.jpg
+// content-aggregator/scripts/shared/getImages.ts); maxresdefault.jpg and hqdefault.jpg
 // are legacy artifacts from an older pipeline that always co-occur with
 // poster.jpg in this repo (verified: 0 folders have either legacy file
 // without poster.jpg). They're kept here only as a last-resort fallback, not

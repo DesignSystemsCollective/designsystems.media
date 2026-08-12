@@ -1,7 +1,7 @@
 // shared.ts
 //
 // Common fs/JSON helpers and title/thumbnail utilities used across the
-// video-aggregator scripts. Extracted in Phase 1 of the refactor plan from
+// content-aggregator scripts. Extracted in Phase 1 of the refactor plan from
 // duplicated (and, in getPosterUrl's case, slightly differently-written but
 // behaviorally identical) copies that had drifted apart across
 // getVideos.js, getPodcasts.js, and youtube.js. Pure code motion - no
