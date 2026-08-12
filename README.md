@@ -31,6 +31,7 @@ DesignSystems.media aggregates and showcases the best design system content from
 
 - Node.js v20 or higher
 - Google API key for YouTube Data API v3 ([Get one here](https://developers.google.com/youtube/v3/getting-started))
+- Podcast Index API key and secret ([Get one here](https://api.podcastindex.org/)), required for `npm run podcasts`
 
 ### Installation
 
@@ -85,7 +86,7 @@ The site now uses a shared content-domain layer so content collections are loade
 
 This keeps Astro `getCollection()` access inside a single boundary and removes duplicated route logic for tags, speakers, shows, playlists, stats, and sitemap generation.
 
-Decision records for the major refactors live under [docs/adr/](./docs/adr/README.md).
+Decision records for the major refactors live under [docs/adr/](./docs/adr/).
 
 ## Project Structure
 
@@ -157,12 +158,14 @@ Validation currently checks for:
 The ingestion scripts collect data from:
 
 - `content-aggregator/data/sources.json` for YouTube channels and playlists to monitor
-- `content-aggregator/data/ignoreID.json` for YouTube videos to ignore
+- `content-aggregator/data/ignore.json` for YouTube videos to ignore
+- `content-aggregator/data/podcast-sources.json` for podcasts to monitor
+- `content-aggregator/data/podcast-ignore.json` for podcast episodes to ignore
 
 Adding new sources:
 
 1. Edit the appropriate JSON file in `content-aggregator/data/`
-2. Run `npm run aggregate`
+2. Run `npm run aggregate` (videos) or `npm run podcasts`
 3. Review the generated output in `content-aggregator/data/output.json`
 
 ## Testing
