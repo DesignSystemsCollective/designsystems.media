@@ -57,6 +57,19 @@ const href = `/video/${slug}/`;
 <style>
   .media-image img {
     border-radius: var(--radius-6);
+    /* The Image branch above (used for every already-downloaded local
+       poster) had no aspect-ratio/crop enforcement, unlike MediaImage's
+       ratio="video" branch below it - it silently relied on every source
+       poster already being 1280x720. A 4:3 YouTube hqdefault.jpg fallback
+       (used when maxresdefault isn't available) exposed that: its real
+       16:9 video content is letterboxed with black bars top/bottom inside
+       the 4:3 canvas. Cropping to this card's actual aspect ratio, centered,
+       cuts off almost exactly those bars instead of stretching or padding
+       around them - a true 16:9 source is unaffected (nothing to crop).*/
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
   }
 
   @media screen and (max-width: 768px) {
