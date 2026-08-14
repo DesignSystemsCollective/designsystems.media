@@ -1,5 +1,33 @@
 [
   {
+    "title": "Design Unfiltered w/ Joanne Weaver | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/rmoq2n7cnog1uzze/yt_video_c49g9jRHr4I_7gd4gz.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/rmoq2n7cnog1uzze/yt_video_c49g9jRHr4I_7gd4gz.mp3",
+    "publishedAt": "2026-08-11T20:34:56.000Z",
+    "duration": "1:03:26",
+    "durationSeconds": 3806,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/8bee9738344e9a26edef898cadffb15c.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/8bee9738344e9a26edef898cadffb15c.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 58940852053,
+    "guid": "yt:video:c49g9jRHr4I",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 105: What's an AI-Native DS?",
     "description": "<p>We discuss, you guess it, whatever ai-native means in the world of design systems, including that start of a new phase of PJ and Davy's design system spec that originated from this episode!</p>",
     "podcastTitle": "Design System Office Hours",
