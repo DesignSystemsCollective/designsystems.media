@@ -78,16 +78,24 @@ async function processShowMarkdownFile(filePath: string): Promise<void> {
   const newPosterFileName = "poster.jpg";
   const posterOutputPath = path.join(path.dirname(filePath), newPosterFileName);
 
-  // Check if data.image exists and localImages is false
-  if (data.image && data.title) {
+  // The URL to attempt: the normal case is data.image, freshly written by
+  // the aggregator and not yet downloaded. sourceImageUrl is the fallback -
+  // the same URL saved from a previous failed attempt, after data.image was
+  // cleared below to keep Astro's image() schema from fatally erroring on
+  // an unresolvable remote URL. Without it, a failed download had nothing
+  // left to retry from on the next run.
+  const sourceUrl = data.image || data.sourceImageUrl;
+
+  if (sourceUrl && data.title) {
     try {
-      // console.log(`Attempting to download show image: ${data.image}`);
-      await downloadImageWithRetry(data.image, posterOutputPath);
+      // console.log(`Attempting to download show image: ${sourceUrl}`);
+      await downloadImageWithRetry(sourceUrl, posterOutputPath);
       console.log(`✅ ${data.title}`);
 
       // Update image reference to local file
       data.image = `./${newPosterFileName}`;
       data.localImages = true; // Mark as locally handled
+      delete data.sourceImageUrl;
 
       updateMarkdownFile(filePath, data, content);
     } catch (err: any) {
@@ -96,11 +104,13 @@ async function processShowMarkdownFile(filePath: string): Promise<void> {
       // if it can't be resolved - so we must not point it at a file that
       // doesn't exist (as the old `./hqdefault.jpg` placeholder did).
       // Instead, remove the field and leave localImages false so a future
-      // run retries the download.
+      // run retries the download - stashing the URL in sourceImageUrl so
+      // that future run actually has something to retry with.
       console.error(
-        `Error downloading show image "${data.image}": ${err.message}. Leaving image unset for retry on next run.`
+        `Error downloading show image "${sourceUrl}": ${err.message}. Leaving image unset for retry on next run.`
       );
       delete data.image;
+      data.sourceImageUrl = sourceUrl;
       data.localImages = false;
       updateMarkdownFile(filePath, data, content);
     }
@@ -117,20 +127,29 @@ async function processEpisodeMarkdownFile(filePath: string): Promise<void> {
     return;
   }
 
+  // The episode-specific URL to attempt: the normal case is data.image
+  // (freshly written and not yet pointing at the show's shared poster).
+  // sourceImageUrl is the fallback - the same URL saved from a previous
+  // failed attempt where neither the episode image nor a show poster
+  // fallback was available yet, so it could otherwise never be retried.
+  const episodeImageUrl =
+    data.image && !data.image.startsWith('../show/') ? data.image : data.sourceImageUrl;
+
   // Check if this episode has a custom episode image
-  if (data.hasEpisodeImage && data.image && data.title && !data.image.startsWith('../show/')) {
+  if (data.hasEpisodeImage && episodeImageUrl && data.title) {
     // This episode has its own custom image, download it
     const newPosterFileName = "poster.jpg";
     const posterOutputPath = path.join(path.dirname(filePath), newPosterFileName);
 
     try {
-     // console.log(`Attempting to download episode-specific image: ${data.image}`);
-      await downloadImageWithRetry(data.image, posterOutputPath);
+     // console.log(`Attempting to download episode-specific image: ${episodeImageUrl}`);
+      await downloadImageWithRetry(episodeImageUrl, posterOutputPath);
       console.log(`✅ ${data.title}`);
 
       // Update image reference to local file
       data.image = `./${newPosterFileName}`;
       data.localImages = true;
+      delete data.sourceImageUrl;
 
       updateMarkdownFile(filePath, data, content);
     } catch (err: any) {
@@ -138,7 +157,7 @@ async function processEpisodeMarkdownFile(filePath: string): Promise<void> {
       // fails. Only use it if the show's poster.jpg genuinely exists on
       // disk - otherwise this trades one broken reference for another (e.g.
       // if the show's own image download also failed).
-      console.error(`Error downloading episode image "${data.image}": ${err.message}. Falling back to show image.`);
+      console.error(`Error downloading episode image "${episodeImageUrl}": ${err.message}. Falling back to show image.`);
 
       const showPosterRelativePath = data.showSlug ? `../show/${data.showSlug}/poster.jpg` : null;
       const showPosterAbsolutePath = showPosterRelativePath
@@ -148,15 +167,21 @@ async function processEpisodeMarkdownFile(filePath: string): Promise<void> {
       if (showPosterAbsolutePath && fs.existsSync(showPosterAbsolutePath)) {
         data.image = showPosterRelativePath;
         data.localImages = true;
+        data.hasEpisodeImage = false; // Mark that we're not using episode-specific image
+        delete data.sourceImageUrl;
       } else {
-        // No usable fallback. Astro's image() schema requires this field to
-        // resolve to a real local file when present, so we can't point it
+        // No usable fallback yet. Astro's image() schema requires this field
+        // to resolve to a real local file when present, so we can't point it
         // at a nonexistent placeholder - leave it unset for retry instead.
+        // Keep hasEpisodeImage true and stash the URL in sourceImageUrl so a
+        // future run retries the episode-specific download (or picks up the
+        // show poster once that download succeeds) instead of abandoning it
+        // permanently.
         data.image = null;
+        data.sourceImageUrl = episodeImageUrl;
         data.localImages = false;
       }
 
-      data.hasEpisodeImage = false; // Mark that we're not using episode-specific image
       updateMarkdownFile(filePath, data, content);
     }
   } else {
@@ -204,54 +229,43 @@ async function processMediaMarkdownFile(filePath: string): Promise<void> {
   const newPosterFileName = "poster.jpg";
   const posterOutputPath = path.join(path.dirname(filePath), newPosterFileName);
 
-  // Check if data.poster exists and localImages is false
-  if (data.poster) {
+  // The URL to attempt: poster is preferred over image (matching the
+  // original poster-then-image-fallback order), falling back to
+  // sourceImageUrl - the same URL saved from a previous failed attempt,
+  // after image/poster were cleared below to keep Astro's image() schema
+  // from fatally erroring on an unresolvable remote URL. Without this
+  // fallback, a failed download had nothing left to retry from on the next
+  // run - it would silently stay broken forever.
+  const sourceUrl = data.poster || data.image || data.sourceImageUrl;
+
+  if (sourceUrl) {
     try {
-      //console.log(`Attempting to download poster: ${data.poster}`);
-      await downloadImageWithRetry(data.poster, posterOutputPath);
-      console.log(`Successfully downloaded poster: ${data.poster}`);
+      //console.log(`Attempting to download poster: ${sourceUrl}`);
+      await downloadImageWithRetry(sourceUrl, posterOutputPath);
+      console.log(`Successfully downloaded poster: ${sourceUrl}`);
 
       // Update both 'image' and 'poster' to point to the newly downloaded 'poster.jpg'
       data.image = `./${newPosterFileName}`;
       data.poster = `./${newPosterFileName}`;
       data.localImages = true; // Mark as locally handled
+      delete data.sourceImageUrl;
 
       updateMarkdownFile(filePath, data, content);
     } catch (err: any) {
       // Download failed after retries. Astro's image() schema throws a
       // fatal build error if this field can't be resolved to a real local
       // file, so we must not point it at a nonexistent placeholder - remove
-      // both fields and leave localImages false so a future run retries.
+      // both fields and leave localImages false so a future run retries -
+      // stashing the URL in sourceImageUrl so that future run actually has
+      // something to retry with.
       console.error(
-        `Error downloading poster image "${data.poster}": ${err.message}. Leaving image unset for retry on next run.`
+        `Error downloading poster image "${sourceUrl}": ${err.message}. Leaving image unset for retry on next run.`
       );
       delete data.image;
       delete data.poster;
+      data.sourceImageUrl = sourceUrl;
       data.localImages = false;
       updateMarkdownFile(filePath, data, content);
-    }
-  } else {
-    // If data.poster doesn't exist but data.image does, we can still attempt to download 'image'
-    // and rename it to poster.jpg, then set both to that.
-    if (data.image) {
-      try {
-        console.log(`Poster not found, attempting to download image as poster: ${data.image}`);
-        await downloadImageWithRetry(data.image, posterOutputPath);
-        console.log(`Successfully downloaded image as poster: ${data.image}`);
-
-        data.image = `./${newPosterFileName}`;
-        data.poster = `./${newPosterFileName}`;
-        data.localImages = true;
-        updateMarkdownFile(filePath, data, content);
-      } catch (err: any) {
-        console.error(
-          `Error downloading image for poster fallback "${data.image}": ${err.message}. Leaving image unset for retry on next run.`
-        );
-        delete data.image;
-        delete data.poster;
-        data.localImages = false;
-        updateMarkdownFile(filePath, data, content);
-      }
     }
   }
 }
