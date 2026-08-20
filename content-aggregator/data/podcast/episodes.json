@@ -1,5 +1,33 @@
 [
   {
+    "title": "14,000,605 Sidequests w/ Jacob Miller | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/0u2vvv7hmuffz296/yt_video_VvIhIteUWtc_vtbxh6.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/0u2vvv7hmuffz296/yt_video_VvIhIteUWtc_vtbxh6.mp3",
+    "publishedAt": "2026-08-19T20:37:11.000Z",
+    "duration": "0:05:39",
+    "durationSeconds": 339,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a5067393b2e41481a41ec0e1dbba71f1.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a5067393b2e41481a41ec0e1dbba71f1.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 59236776853,
+    "guid": "yt:video:VvIhIteUWtc",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "What is the future of agentic design systems?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Agentic is the buzz word of the moment - but what does it actually mean for design systems? Luke and Michelle have a real conversation about what's hype, what's possible, and where they see it all going.</p><p>Show notes</p><ul><li><a href='https://watch.getcontrast.io/register/zeroheight-zeroheight-deep-dive-automating-documentation-markdown-syncing'>Luke's webinar on automating documentation</a> — the session covering the facts / distilled / authored buckets</li><li><a href='https://southleft.com/'>TJ Pitre / Southleft</a> — doing agentic design system work (also behind FigmaLint with Brad and Ian Frost)</li><li><a href='https://www.silbormueller.com/'>Sil Bormüller</a> — founder of<a href='https://www.intodesignsystems.com/'> Into Design Systems</a></li><li><a href='https://www.linkedin.com/posts/rominakavcic_designsystem-agentic-productdesign-ugcPost-7487861895970885633-jtOu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIkzFoB8Ob8xzWQePdGmqL3wMietQdIq3w'>Romina Kavčič — The Design System Guide</a> — the knowledge-graph-to-pattern work Luke describes</li><li><a href='https://designsystemdocspec.org/'>Design System Documentation Spec (DSDS)</a> — what you're auditing zeroheight docs against</li><li><a href='https://obsidian.md/'>Obsidian</a> and<a href='https://roamresearch.com/'> Roam Research</a> — knowledge-graph tools mentioned by Michelle</li><li><a href='https://www.theiaconference.com/'>The Information Architecture Conference</a> — Michelle's conference, which usually runs a knowledge graphs workshop</li><li><a href='https://n8n.io/'>n8n</a> — Luke's stacked-agents automation instance</li><li><a href='https://claude.com/claude-code'>Claude Code</a> — used in Luke's Figma-MCP-to-code component flow</li><li><a href='https://zeroheight.com/mcp/'>zeroheight MCP</a> — for the docs-as-context part of that flow</li><li><a href='https://paper.design/'>Paper</a> — mentioned by Mark in chat for better HTML output</li><li><a href='https://www.pencil.dev/'>Pencil</a> — design-as-code tool with .pen files</li><li><a href='https://penpot.app/'>Penpot</a> — the open-source, web-dev-structured design tool</li></ul><p>Get in touch</p><ul><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li></ul>",
     "podcastTitle": "Design Systems WTF",
