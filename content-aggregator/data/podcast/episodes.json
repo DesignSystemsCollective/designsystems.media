@@ -1,5 +1,61 @@
 [
   {
+    "title": "Whole New World w/ Cristian Morales | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/vzohb20bqln7v9xx/yt_video_fayLAjPChHM_x2rhnn.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/vzohb20bqln7v9xx/yt_video_fayLAjPChHM_x2rhnn.mp3",
+    "publishedAt": "2026-08-21T20:34:47.000Z",
+    "duration": "0:05:57",
+    "durationSeconds": 357,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/b47e737c506133a693775a6f72ffb92e.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/b47e737c506133a693775a6f72ffb92e.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 59331089938,
+    "guid": "yt:video:fayLAjPChHM",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Teaching Style w/ Kevin Powell | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/yxep5179v1zenk76/yt_video_meGZ0jGPbzY_rqn6n7.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/yxep5179v1zenk76/yt_video_meGZ0jGPbzY_rqn6n7.mp3",
+    "publishedAt": "2026-08-20T20:32:08.000Z",
+    "duration": "0:09:23",
+    "durationSeconds": 563,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/9ae5025e8e76570cbeb4de8250247282.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/9ae5025e8e76570cbeb4de8250247282.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 59331089939,
+    "guid": "yt:video:meGZ0jGPbzY",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "14,000,605 Sidequests w/ Jacob Miller | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
