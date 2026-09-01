@@ -1,5 +1,33 @@
 [
   {
+    "title": "What should we call design systems?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>We really screwed the pooch when it came to naming design systems. Why is the name so bad? And should we call it something else? Or should we bin the whole concept of design systems and start over in a completely decommodified way?</p><p>Show notes</p><ul><li><a href='https://standardsmanual.com/products/nasa-graphics-standards-manual'>NASA Graphics Standards Manual</a> — the classic design handbook Luke references</li><li><a href='https://en.wikipedia.org/wiki/A_Pattern_Language'>A Pattern Language</a> — Christopher Alexander's town planning/architecture book</li><li><a href='https://developer.apple.com/design/human-interface-guidelines'>Apple Human Interface Guidelines</a></li><li><a href='https://bradfrost.com/blog/post/atomic-web-design/'>Atomic Design</a> — Brad Frost's original article, which credits the earlier pattern library work</li><li><a href='https://maban.co.uk/'>Anna Debenham</a> and<a href='https://laurakalbag.com/'> Laura Kalbag</a> — referenced in that article as part of the origins</li><li><a href='https://digitalblog.coop.co.uk/2021/11/08/introducing-the-co-op-experience-library/'>Co-op Experience Library</a> — Co-op's renamed design system; their follow-up post explains they changed the name because \"design system\" implies it's only for designers, which backs up the whole episode thesis<a href='https://digitalblog.coop.co.uk/2022/03/28/its-an-experience-library-because-design-system-implies-its-only-for-designers/'> Co-op Digital Blog</a></li><li><a href='https://media.steampowered.com/apps/valve/Valve_Handbook_LowRes.pdf'>Valve's Handbook for New Employees</a> — the famously flat, no-job-titles structure Luke half-remembers (it was Valve, not Epic)</li><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li></ul><p><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19710699-what-should-we-call-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19710699-what-should-we-call-design-systems.mp3",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "duration": "0:41:33",
+    "durationSeconds": 2493,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 59779741649,
+    "guid": "Buzzsprout-19710699",
+    "season": 2,
+    "episode": 62,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Whole New World w/ Cristian Morales | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
