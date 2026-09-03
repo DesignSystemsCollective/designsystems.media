@@ -1,5 +1,33 @@
 [
   {
+    "title": "Release Week | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a><br>\n</p>\n<p><br>\n</p>\n<p>---<br>\n</p>\n<p>Summary:<br>\n</p>\n<p>Donnie D'Amato hosts a solo episode of Wireframe Live to recap recent projects and announcements from his \"Release Week\" initiative. He introduces new resources like \"Artificially\" for accessible AI applications, a workshop on \"Creativity within Constraints,\" and a new theming standard for the \"atmosphere\" platforms, along with updates to his personal website and newsletter. Donnie also addresses audio podcast issues, seeks a new venue for Undefined events, and announces his upcoming speaking engagement at the Evolve Digital conference, while teasing a future book project.<br>\n</p>\n<p><br>\n</p>\n<p>Chapters:<br>\n</p>\n<p>0:00 Intro and Release Week Overview<br>\n</p>\n<p>0:01:59 Artificially: AI & Accessibility Reference<br>\n</p>\n<p>0:06:12 \"Creativity within Constraints\" Workshop<br>\n</p>\n<p>0:09:20 Mison Mode Theming Standard<br>\n</p>\n<p>0:13:15 Design Systems House Newsletter<br>\n</p>\n<p>0:15:58 \"Super Primary\" Blog Post<br>\n</p>\n<p>0:17:21 Personal Website Update<br>\n</p>\n<p>0:27:11 Wireframe Live Audio Podcast Issues<br>\n</p>\n<p>0:29:44 Undefined Events: Seeking New Venue<br>\n</p>\n<p>0:31:16 Speaking at Evolve Digital Conference<br>\n</p>\n<p>0:35:25 Future Plans: Workshop & New Book<br>\n</p>\n<p>0:37:29 Join the Design Systems House Discord<br>\n</p>\n<p>0:38:56 Conclusion</p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/h7ho234in7zzrwg3/yt_video_e6HL1YLszas_t6cvya.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/h7ho234in7zzrwg3/yt_video_e6HL1YLszas_t6cvya.mp3",
+    "publishedAt": "2026-09-01T09:45:54.000Z",
+    "duration": "0:40:09",
+    "durationSeconds": 2409,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/2ee77181fea4cf6ae2ecf4ed3e00ae1f.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/2ee77181fea4cf6ae2ecf4ed3e00ae1f.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 59838220856,
+    "guid": "yt:video:e6HL1YLszas",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 106: Design Isn’t Dead. It’s Just Working With Agents.",
     "description": "<p>Are designers working in code, or directing agents that write it for them? Davy and PJ dig into the shifting role of Figma, the skills designers need to guide AI-assisted work, and why changing one color token can turn into an afternoon of CI, docs, and downstream consequences.</p>",
     "podcastTitle": "Design System Office Hours",
@@ -52,6 +80,34 @@
     "guid": "Buzzsprout-19710699",
     "season": 2,
     "episode": 62,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Design and AI w/ TJ Pitre | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/gwtkag5j3yk7sdtw/yt_video_zyHeHb4BbDw_wssqgi.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/gwtkag5j3yk7sdtw/yt_video_zyHeHb4BbDw_wssqgi.mp3",
+    "publishedAt": "2026-08-28T20:34:27.000Z",
+    "duration": "1:05:57",
+    "durationSeconds": 3957,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/f4b86508eddafa05d8813bf1ab186756.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/f4b86508eddafa05d8813bf1ab186756.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 59838220860,
+    "guid": "yt:video:zyHeHb4BbDw",
+    "season": null,
+    "episode": null,
     "explicit": false,
     "type": "full"
   },
