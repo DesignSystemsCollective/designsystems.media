@@ -1,5 +1,658 @@
 [
   {
+    "title": "Design Systems WTF #49 - Are we delighting enough in our design systems?",
+    "description": "Design systems kill creativity, right? We've heard that said so many times. But are we actually taking the time to inject joy into the system itself? Not only considering it as a part of the process for what we include in the system, but also in how we do documentation, release notes, and general communication around the design system? Or controversially... is it even important?\n\nLuke and Michelle discuss. \n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/g2IeVii63MU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/g2IeVii63MU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/g2IeVii63MU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/g2IeVii63MU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/g2IeVii63MU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=g2IeVii63MU",
+    "publishedAt": "2026-09-02T16:13:11Z",
+    "privacyStatus": "public",
+    "duration": "0:41:18",
+    "durationSeconds": 2478
+  },
+  {
+    "title": "Design Systems WTF #50 - Do MCPs care more about patterns or components?",
+    "description": "Now we're in the business of creating context for AI, what is actually important when we're creating documentation that will be used by machines AND humans? Are detailed component guidelines important? Are the foundations essential to get right? Or can we rely on top-level patterns and vague guidance?\n\nLuke and Michelle discuss. \n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/X1fMThTcKjQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/X1fMThTcKjQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/X1fMThTcKjQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/X1fMThTcKjQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/X1fMThTcKjQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=X1fMThTcKjQ",
+    "publishedAt": "2026-09-02T15:53:07Z",
+    "privacyStatus": "public",
+    "duration": "0:46:55",
+    "durationSeconds": 2815
+  },
+  {
+    "title": "Design Systems WTF #63 - Is generative UI ever going to happen?",
+    "description": "In this episode of Design Systems WTF, Luke Murphy and Michelle Chin dive deep into the world of Generative UI, Declarative UI, and Probabilistic UX. They explore whether we’re heading toward a world where we stop designing fixed interfaces and start designing the \"guardrails\" that allow AI to build them in real-time.\n\nIn this episode, Luke and Michelle discuss:\n\n- What is Generative UI? Defining the shift from fixed screens to AI-assembled components\n- The Death of the Browser: Could hyper-personalised, conversational interfaces replace the apps and websites we use today?\n- Seeding Control: Why the hardest part of AI design isn't the technology - it’s the \"uncomfortable\" shift for designers to let go of the pixels\n- Design Systems as the Backbone: Why a robust design system is the only way to make Generative UI work reliably\n\nWhether you're curious about AI in design systems, looking to optimise your design tokens, or wondering how systems thinking will evolve in an AI world, this episode covers it all. \n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I1t0Kc1NJp8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I1t0Kc1NJp8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I1t0Kc1NJp8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/I1t0Kc1NJp8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/I1t0Kc1NJp8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=I1t0Kc1NJp8",
+    "publishedAt": "2026-08-27T16:20:37Z",
+    "privacyStatus": "public",
+    "duration": "0:50:48",
+    "durationSeconds": 3048
+  },
+  {
+    "title": "National Insurance explained",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CSPpTQyKw6c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CSPpTQyKw6c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CSPpTQyKw6c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/CSPpTQyKw6c/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/CSPpTQyKw6c/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=CSPpTQyKw6c",
+    "publishedAt": "2026-08-27T11:00:12Z",
+    "privacyStatus": "public",
+    "duration": "0:01:01",
+    "durationSeconds": 61
+  },
+  {
+    "title": "The Kickoff Meeting Strategy That Wows Every Client",
+    "description": "You win the project after you’ve won the sale. The most critical moment is the kickoff call. Nick redesigned his entire process to deliver a massive amount of value before that first meeting, which leads to instant client buy-in and alignment from day one. #agencylife #clientmanagement #businessstrategy #shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Lq5wVBdXLq0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Lq5wVBdXLq0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Lq5wVBdXLq0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Lq5wVBdXLq0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Lq5wVBdXLq0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Lq5wVBdXLq0",
+    "publishedAt": "2026-08-26T13:00:22Z",
+    "privacyStatus": "public",
+    "duration": "0:01:18",
+    "durationSeconds": 78
+  },
+  {
+    "title": "What you need to know about registering a birth",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9XtoyWa4TE8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9XtoyWa4TE8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9XtoyWa4TE8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9XtoyWa4TE8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9XtoyWa4TE8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9XtoyWa4TE8",
+    "publishedAt": "2026-08-22T11:00:28Z",
+    "privacyStatus": "public",
+    "duration": "0:01:28",
+    "durationSeconds": 88
+  },
+  {
+    "title": "Design Systems WTF #51 - What do you actually test?",
+    "description": "Once you've done a first pass on anything in your design system, how do you validate it? \n\nDo you create complicated automated tests to ensure absolute consistency? Or do you even put it in front of real people to make sure it works?\n\nLuke and Michelle discuss their thoughts. \n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WnAfgbA3V1I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WnAfgbA3V1I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WnAfgbA3V1I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/WnAfgbA3V1I/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/WnAfgbA3V1I/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=WnAfgbA3V1I",
+    "publishedAt": "2026-08-19T15:57:09Z",
+    "privacyStatus": "public",
+    "duration": "0:35:14",
+    "durationSeconds": 2114
+  },
+  {
+    "title": "Design Systems WTF #52 - Does your design system need a PM?",
+    "description": "Do design systems need product management? Or is it something that just gets in the way and stops work happening?\n\nLuke and Amy discuss their hot takes. \n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/v7tqov7MJ9w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/v7tqov7MJ9w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/v7tqov7MJ9w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/v7tqov7MJ9w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/v7tqov7MJ9w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=v7tqov7MJ9w",
+    "publishedAt": "2026-08-19T15:43:41Z",
+    "privacyStatus": "public",
+    "duration": "0:40:06",
+    "durationSeconds": 2406
+  },
+  {
+    "title": "Design Systems WTF #53 - Is a design system mandate worth fighting for?",
+    "description": "The Design System Report this year suggested that the number one thing design system teams with low adoption rates were missing was a company mandate. \n\nHowever, is that really the thing you should be fighting for? Or is your time better spent focusing on something else? \n\nLuke and Michelle dive into what actually drives good adoption, and whether a mandate is just a wolf in sheep's clothing.\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ANFHQmdL2hg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ANFHQmdL2hg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ANFHQmdL2hg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/ANFHQmdL2hg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/ANFHQmdL2hg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=ANFHQmdL2hg",
+    "publishedAt": "2026-08-14T15:04:00Z",
+    "privacyStatus": "public",
+    "duration": "0:39:40",
+    "durationSeconds": 2380
+  },
+  {
+    "title": "Design Systems WTF #54 - How do you make developers care about the design system?",
+    "description": "Getting developers interested in the design system still seems to be a challenge for a lot of design system teams in 2026. \n\nSo how do you get them interested in what you're doing? Do you need to bribe them with snacks? \n\nLuke and Michelle discuss ways to get engineers on board, why it's essential, and common pitfalls with design systems sans developers.\n\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DjbA9TGJNhc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DjbA9TGJNhc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DjbA9TGJNhc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/DjbA9TGJNhc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/DjbA9TGJNhc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DjbA9TGJNhc",
+    "publishedAt": "2026-08-14T14:55:15Z",
+    "privacyStatus": "public",
+    "duration": "0:36:53",
+    "durationSeconds": 2213
+  },
+  {
+    "title": "Design Systems WTF #62 - What should we call design systems?",
+    "description": "We really screwed the pooch when it came to naming design systems. Why is the name so bad? And should we call it something else? Or should we bin the whole concept of design systems and start over in a completely decommodified way?\n\nLuke and Michelle discuss in the latest episode of the Design Systems WTF podcast. \n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/koccCw2SN54/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/koccCw2SN54/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/koccCw2SN54/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/koccCw2SN54/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/koccCw2SN54/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=koccCw2SN54",
+    "publishedAt": "2026-08-13T09:20:11Z",
+    "privacyStatus": "public",
+    "duration": "0:41:20",
+    "durationSeconds": 2480
+  },
+  {
+    "title": "Ready for Results Day? Use the GOV.UK app for your next steps",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zTkPx9NftUQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zTkPx9NftUQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zTkPx9NftUQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/zTkPx9NftUQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/zTkPx9NftUQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=zTkPx9NftUQ",
+    "publishedAt": "2026-08-13T07:00:19Z",
+    "privacyStatus": "public",
+    "duration": "0:01:34",
+    "durationSeconds": 94
+  },
+  {
+    "title": "License to Build: Briefing agents to scaffold components in code",
+    "description": "Getting an agent to generate component code is easy. Getting it to build yours — production-ready, on-system, with Storybook stories and the right implementation details — takes a proper briefing.\n\nLicense to Build is a webinar series from zeroheight covering real use cases for briefing AI agents with your design system context. Practical and tools-first.\n\nDispatch #3: Briefing agents to build production-ready components in code\n\nIn this session, we cover:\n\n- How to brief an agent to build a production-ready component using your zeroheight documentation as the source of truth — including Storybook stories and Code Connect snippets\n- From Figma to implementation: taking a designed, documented component all the way to working code using the zeroheight MCP and Claude Code\n- Keep agents from going rogue: what good input looks like, the common pitfalls, and what still needs a human in the loop\n\nTools covered: zeroheight MCP and Claude Code\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/RALVUWdq4gA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/RALVUWdq4gA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/RALVUWdq4gA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/RALVUWdq4gA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/RALVUWdq4gA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "uhd": {
+        "url": "https://i.ytimg.com/vi/RALVUWdq4gA/uhddefault.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=RALVUWdq4gA",
+    "publishedAt": "2026-08-12T10:50:57Z",
+    "privacyStatus": "public",
+    "duration": "1:01:39",
+    "durationSeconds": 3699
+  },
+  {
+    "title": "Design Systems WTF #55 - ⁠⁠Is Figma holding design systems back?",
+    "description": "We're diving into a spicy topic - is Figma helping or hindering design systems? Is the future of design systems a world where Figma doesn't exist? Or are design tools like Figma essential for the work we do in design systems day to day?\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/whDwdaRR3aQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/whDwdaRR3aQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/whDwdaRR3aQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/whDwdaRR3aQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/whDwdaRR3aQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=whDwdaRR3aQ",
+    "publishedAt": "2026-08-11T15:06:46Z",
+    "privacyStatus": "public",
+    "duration": "0:46:10",
+    "durationSeconds": 2770
+  },
+  {
+    "title": "Design Systems WTF #56 - If AI can generate your docs, how valuable were they to begin with?",
+    "description": "The State of AI in Design Systems report came out recently, and it shows that everyone is using AI to create documentation.Is this a good thing? \n\nLuke and this week's special guest, Seb dive into the question of what good documentation is, whether it's even relevant anymore and what parts we should let AI own, and the parts we need to protect.\n\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FEZNTdCZ4d0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FEZNTdCZ4d0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FEZNTdCZ4d0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FEZNTdCZ4d0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FEZNTdCZ4d0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FEZNTdCZ4d0",
+    "publishedAt": "2026-08-11T14:51:26Z",
+    "privacyStatus": "public",
+    "duration": "0:42:01",
+    "durationSeconds": 2521
+  },
+  {
+    "title": "Wanna see how I coach agency owners on positioning?",
+    "description": "If your brand feels scattered, this is for you. I hopped on the Design Systems House podcast and coached Donnie through his positioning live on air. This is the work I do every day.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/SeSX44ELehI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/SeSX44ELehI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/SeSX44ELehI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/SeSX44ELehI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/SeSX44ELehI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=SeSX44ELehI",
+    "publishedAt": "2026-08-11T13:00:17Z",
+    "privacyStatus": "public",
+    "duration": "0:01:30",
+    "durationSeconds": 90
+  },
+  {
+    "title": "Design Systems WTF #57 - Driving adoption",
+    "description": "Adoption has been the perennial curse of design systems. Always a problem, never quite fixed, and loads of opinions about how to do it. \n\nBut are we approaching it in the right way? Michelle and Luke talk about the problem with how adoption has been positioned, whether it's a tactical or cultural thing, and whether the goal should sit with design systems teams or the wider org.\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9jJV__hbOK8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9jJV__hbOK8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9jJV__hbOK8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/9jJV__hbOK8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/9jJV__hbOK8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=9jJV__hbOK8",
+    "publishedAt": "2026-08-07T09:03:57Z",
+    "privacyStatus": "public",
+    "duration": "0:39:43",
+    "durationSeconds": 2383
+  },
+  {
+    "title": "Design Systems WTF #58 - What do the Config 2026 announcements mean for design systems?",
+    "description": "Luke and Michelle catch up on Config 2026 and talk through what the new Figma features mean for design systems folks. \n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dPwjfYjuAXw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dPwjfYjuAXw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dPwjfYjuAXw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/dPwjfYjuAXw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/dPwjfYjuAXw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=dPwjfYjuAXw",
+    "publishedAt": "2026-08-07T08:35:02Z",
+    "privacyStatus": "public",
+    "duration": "0:54:44",
+    "durationSeconds": 3284
+  },
+  {
     "title": "Design Systems WTF #59 - Is governance just theatre?",
     "description": "Governance seems to be one of those fancy words that gets thrown around a lot by design system people - but what level of governance is actually worthwhile, and how much of it is theatre? Michelle and Luke dive into governance, what level is good enough, and what bits they think you should scrap.\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
