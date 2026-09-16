@@ -1,5 +1,33 @@
 [
   {
+    "title": "33: Steven Wakabayashi - Designing Intelligent Interfaces for Everyone",
+    "description": "<p>We're joined by Steven Wakabayashi, who shares his experience as Founder and Managing Partner of Stranger Creative.</p><p><b>Episode links:</b></p><ul><li><a href='https://strangercreative.com/'>Stranger Creative</a></li><li><a href='https://qtbipoc.design/'>QTBIPOC Design</a></li></ul><p><b>Socials:</b></p><ul><li>Website: <a href='https://stevenwakabayashi.com '>stevenwakabayashi.com </a></li><li>LinkedIn: <a href='https://linkedin.com/in/stevenwakabayashi'>linkedin.com/in/stevenwakabayashi</a><br/><br/></li></ul>",
+    "podcastTitle": "Code & Pixels",
+    "episodeUrl": "https://www.buzzsprout.com/1958356/episodes/19805220-33-steven-wakabayashi-designing-intelligent-interfaces-for-everyone.mp3",
+    "audioUrl": "https://www.buzzsprout.com/1958356/episodes/19805220-33-steven-wakabayashi-designing-intelligent-interfaces-for-everyone.mp3",
+    "publishedAt": "2026-09-15T15:00:00.000Z",
+    "duration": "0:34:43",
+    "durationSeconds": 2083,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/q06cmoj3i1qfh0umta895zfwxs86?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/1958356.rss",
+    "feedId": 5328591,
+    "episodeId": 60415612090,
+    "guid": "Buzzsprout-19805220",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Is generative UI ever going to happen?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>A few years ago everyone started talking about how AI-powered interfaces are going to start generating UI on the fly. But how close is that from being a reality? Have there been any advances towards it being a mainstream thing? And what do we need to know from a design systems perspective to cater towards it?</p><p><b>Show notes</b></p><ul><li><a href='https://www.youtube.com/watch?v=9IT5druV0qM'>Rachel-Lee Nabors — \"Death of the Browser\"</a> — the talk that sparked the topic</li><li><a href='https://developers.openai.com/apps-sdk/'>ChatGPT Apps SDK</a> — the plugin-style generative UI route, with Booking.com among the launch partners</li><li><a href='https://claude.com/blog/interactive-tools-in-claude'>Interactive apps in Claude (MCP Apps)</a> — the Anthropic equivalent </li><li><a href='https://a2ui.org/'>A2UI</a> — Google's declarative spec letting agents send UI as component descriptions rather than executing code</li><li><a href='https://medium.com/@akshaychame2/the-complete-guide-to-generative-ui-frameworks-in-2026-fde71c4fa8cc'>The Complete Guide to Generative UI Frameworks in 2026</a> — a rundown of the generative UI framework landscape, covering A2UI, CopilotKit/AG-UI, MCP Apps and more</li><li><a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>NN/g's 10 Usability Heuristics</a> — the \"codified best practice\" comparison</li><li><a href='https://www.youtube.com/watch?v=QjwqMlcn2Vo'>Geri Reid — the Converge US talk</a> — Geri’s talk about flexibility and NewsKit</li></ul><p><b>Get in touch</b></p><ul><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li></ul>",
     "podcastTitle": "Design Systems WTF",
@@ -25,6 +53,62 @@
     "season": 2,
     "episode": 63,
     "explicit": 1,
+    "type": "full"
+  },
+  {
+    "title": "Position Yourself w/ Justine Montgomery | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/2e5umj27ecyijosz/yt_video_LdmK8KwCIFs_svmcmt.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/2e5umj27ecyijosz/yt_video_LdmK8KwCIFs_svmcmt.mp3",
+    "publishedAt": "2026-09-10T20:35:46.000Z",
+    "duration": "0:59:05",
+    "durationSeconds": 3545,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d147591f768f354a0b8a563e007c3ee6.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d147591f768f354a0b8a563e007c3ee6.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 60437978151,
+    "guid": "yt:video:LdmK8KwCIFs",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "What’s Up Docs? w/ PJ Onori | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/7u3oerh720hr25sm/yt_video_vqTsebHYeH4_8i98m8.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/7u3oerh720hr25sm/yt_video_vqTsebHYeH4_8i98m8.mp3",
+    "publishedAt": "2026-09-09T20:34:20.000Z",
+    "duration": "0:59:43",
+    "durationSeconds": 3583,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/758334aece0c2ee0b9a7532db003d327.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/758334aece0c2ee0b9a7532db003d327.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 60437978153,
+    "guid": "yt:video:vqTsebHYeH4",
+    "season": null,
+    "episode": null,
+    "explicit": false,
     "type": "full"
   },
   {
