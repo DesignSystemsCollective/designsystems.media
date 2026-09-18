@@ -1,5 +1,128 @@
 [
   {
+    "title": "Teaching AI Your Design System | Victor Nystad, Equinor",
+    "description": "AI needs explicit design rules to reproduce a design system reliably. In Equinor’s experiments, DESIGN.md files and Claude skills supplied context and methods, but agents still guessed. Adding component contracts made expectations precise enough to reproduce the tested components in code and Figma.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DfQhO-VUDg8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DfQhO-VUDg8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DfQhO-VUDg8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/DfQhO-VUDg8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/DfQhO-VUDg8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/DfQhO-VUDg8/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DfQhO-VUDg8",
+    "publishedAt": "2026-09-12T05:16:55Z",
+    "privacyStatus": "public",
+    "duration": "0:33:38",
+    "durationSeconds": 2018
+  },
+  {
+    "title": "Why You Shouldn't Build Your Own Design System | Eirik Backer",
+    "description": "Brand and domain-specific interactions belong in your own design system. Common accessibility and interaction patterns can be shared. Designsystemet separates styling from behavior and builds on web standards, so teams can reuse building blocks across frameworks and spend more time on product-specific needs.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/tfAnZ4E2YRE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/tfAnZ4E2YRE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/tfAnZ4E2YRE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/tfAnZ4E2YRE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/tfAnZ4E2YRE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/tfAnZ4E2YRE/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=tfAnZ4E2YRE",
+    "publishedAt": "2026-09-11T14:00:26Z",
+    "privacyStatus": "public",
+    "duration": "0:28:35",
+    "durationSeconds": 1715
+  },
+  {
+    "title": "Designing the Multimodal Industrial Workplace — OpenBridge",
+    "description": "OpenBridge applies one design language across screens, instruments and physical controls in industrial workplaces. Reusable components and shared rules for colors, alerts and interaction help reduce inconsistencies between equipment from different vendors. The system is informed by field research in maritime environments and is available as open source.",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mJPeCEbJw4k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mJPeCEbJw4k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mJPeCEbJw4k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/mJPeCEbJw4k/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/mJPeCEbJw4k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/mJPeCEbJw4k/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=mJPeCEbJw4k",
+    "publishedAt": "2026-09-11T14:00:05Z",
+    "privacyStatus": "public",
+    "duration": "0:27:47",
+    "durationSeconds": 1667
+  },
+  {
     "title": "Design Systems WTF #64 - Are we doing motion right in design systems?",
     "description": "With the release of Figma Motion, we finally have a tool that talks to our design systems that do motion. \n\nSo now it's time to ask the question - are we covering motion within our design systems in the right way?\n\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
     "thumbnails": {
