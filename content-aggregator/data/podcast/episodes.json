@@ -1,5 +1,61 @@
 [
   {
+    "title": "Data in Design w/ Nate Baldwin | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/xrp231zg9csfon65/yt_video_cfi_Jx1JFkE_xg2vd5.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/xrp231zg9csfon65/yt_video_cfi_Jx1JFkE_xg2vd5.mp3",
+    "publishedAt": "2026-09-15T21:23:10.000Z",
+    "duration": "0:59:20",
+    "durationSeconds": 3560,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a621206c8b294128bf49dd80652fdb10.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/a621206c8b294128bf49dd80652fdb10.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 60719828667,
+    "guid": "yt:video:cfi_Jx1JFkE",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "The Next Event | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a><br>\n</p>\n<p><br>\n</p>\n<p>Undefined + EvolveDigital on October 22nd, 2026: <a href='https://luma.com/undefined-20261022'>https://luma.com/undefined-20261022</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/ggevb5jrrq1x36nq/yt_video__CJrjqR6lrU_fne7jg.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/ggevb5jrrq1x36nq/yt_video__CJrjqR6lrU_fne7jg.mp3",
+    "publishedAt": "2026-09-15T20:48:35.000Z",
+    "duration": "0:22:16",
+    "durationSeconds": 1336,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d54d9395c25b79d4f7c3981d65098573.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d54d9395c25b79d4f7c3981d65098573.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 60719828668,
+    "guid": "yt:video:_CJrjqR6lrU",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "33: Steven Wakabayashi - Designing Intelligent Interfaces for Everyone",
     "description": "<p>We're joined by Steven Wakabayashi, who shares his experience as Founder and Managing Partner of Stranger Creative.</p><p><b>Episode links:</b></p><ul><li><a href='https://strangercreative.com/'>Stranger Creative</a></li><li><a href='https://qtbipoc.design/'>QTBIPOC Design</a></li></ul><p><b>Socials:</b></p><ul><li>Website: <a href='https://stevenwakabayashi.com '>stevenwakabayashi.com </a></li><li>LinkedIn: <a href='https://linkedin.com/in/stevenwakabayashi'>linkedin.com/in/stevenwakabayashi</a><br/><br/></li></ul>",
     "podcastTitle": "Code & Pixels",
