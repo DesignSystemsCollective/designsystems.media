@@ -1,5 +1,33 @@
 [
   {
+    "title": "Subscriber Special | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/4ylksych69ex886c/yt_video_L3jS-ROvdo0_kbi9e3.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/4ylksych69ex886c/yt_video_L3jS-ROvdo0_kbi9e3.mp3",
+    "publishedAt": "2026-09-25T21:23:40.000Z",
+    "duration": "0:14:54",
+    "durationSeconds": 894,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d455ff80009e07bc1cf70362386dbefd.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/d455ff80009e07bc1cf70362386dbefd.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 60874423110,
+    "guid": "yt:video:L3jS-ROvdo0",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 107: Skills, Scripts, and Quality",
     "description": "<p>Davy and PJ dig into the messy state of software quality in 2026… from visual regression tests that look wrong to the growing need for shared skills, layered checks, and actual human judgment when everyone is shipping faster than they can review.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
