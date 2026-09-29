@@ -1,5 +1,33 @@
 [
   {
+    "title": "Are we doing motion right in design systems?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>With the release of Figma Motion, we finally have a tool that talks to our design systems that do motion. So now it's time to ask the question - are we covering motion within our design systems in the right way?</p><p><b>Show notes</b></p><ul><li><a href='https://www.figma.com/blog/introducing-figma-motion/'>Introducing Figma Motion</a> — the Config 2026 launch (24 June) that kicked this topic off: timeline on the canvas, animated components, and motion variables with modes</li><li><a href='https://atlassian.design/foundations/motion'>Atlassian Design System — Motion</a> — the foundations page Luke screen-shares, with the four principles and the semantic token bundles like motion.popup.enter; the<a href='https://atlassian.design/foundations/motion/applying-motion'> Applying motion</a> page covers composing custom motion, and the<a href='https://atlassian.design/components/motion/motion-primitive'> motion primitive component</a> is the componentised bit</li><li><a href='https://base.uber.com/6d2425e9f/p/116184-motion'>Uber Base — Motion</a> — Michelle's pick, with the accessibility-first guidelines,<a href='https://base.uber.com/6d2425e9f/p/77fcaf-timing'> timing and easing</a>,<a href='https://base.uber.com/6d2425e9f/p/312fab-transitions'> transitions</a>, the atomic animation patterns, and the motion office hours</li><li><a href='https://carbondesignsystem.com/elements/motion/overview/'>Carbon — Motion</a> and<a href='https://m3.material.io/styles/motion/overview'> Material — Motion</a> — the other tokenised examples</li><li><a href='https://en.wikipedia.org/wiki/The_Animator%27s_Survival_Kit'>The Animator's Survival Kit</a> — book by Richard Williams </li><li><a href='https://rosenfeldmedia.com/books/designing-interface-animation/'>Designing Interface Animation</a> — book by Val Head</li><li><a href='https://www.youtube.com/watch?v=jq6WYJ4Mra4'>Val Head at Converge US 2023 — \"Animation, Your Design System, and You!\"</a> </li><li><a href='https://gsap.com/'>GSAP</a> (now owned by Webflow) and<a href='https://lottiefiles.com/'> Lottie</a> — the dev-side enablers</li><li><a href='https://smashingconf.com/freiburg-2025/speakers/cassie-evans'>Cassie Evans' live-coded GSAP game talk</a> — (SmashingConf Freiburg 2025, and<a href='https://2026.stateofthebrowser.com/speaker/cassie-evans/'> State of the Browser 2026</a> has a recording with transcript)</li><li><a href='https://www.bonniekatewolf.com/'>Bonnie Kate Wolf</a> — the illustration systems work</li><li><a href='https://blush.design/'>Blush</a> — Pablo Stanley's composable illustration tool</li><li><a href='https://en.wikipedia.org/wiki/Kano_model'>Kano model</a> — the \"emotional connection has been pro",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19875272-are-we-doing-motion-right-in-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19875272-are-we-doing-motion-right-in-design-systems.mp3",
+    "publishedAt": "2026-09-29T03:00:00.000Z",
+    "duration": "0:49:09",
+    "durationSeconds": 2949,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 60987820653,
+    "guid": "Buzzsprout-19875272",
+    "season": 2,
+    "episode": 64,
+    "explicit": 1,
+    "type": "full"
+  },
+  {
     "title": "Subscriber Special | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
