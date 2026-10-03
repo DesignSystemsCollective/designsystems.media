@@ -1,5 +1,61 @@
 [
   {
+    "title": "Navigating Complexity w/ Medhaswi Paturu | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/jwptswbaagg2ye3e/yt_video_7x2KPCYZZzw_uwiem9.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/jwptswbaagg2ye3e/yt_video_7x2KPCYZZzw_uwiem9.mp3",
+    "publishedAt": "2026-10-02T20:35:42.000Z",
+    "duration": "0:58:21",
+    "durationSeconds": 3501,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6a5be869bb60b204c01a4030c8930fb9.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/6a5be869bb60b204c01a4030c8930fb9.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 61188574173,
+    "guid": "yt:video:7x2KPCYZZzw",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Frontend Rebirth w/ Angela J. Holden | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/y7akaweg6yb8u7t7/yt_video_5ClE2ygTfbM_jx9mfm.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/y7akaweg6yb8u7t7/yt_video_5ClE2ygTfbM_jx9mfm.mp3",
+    "publishedAt": "2026-09-30T20:26:40.000Z",
+    "duration": "1:01:07",
+    "durationSeconds": 3667,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/ff2e6a9f54f7e3fb83a4a0001f9586fb.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/ff2e6a9f54f7e3fb83a4a0001f9586fb.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 61142798196,
+    "guid": "yt:video:5ClE2ygTfbM",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Career Progression w/ Catt Small | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
