@@ -1,5 +1,33 @@
 [
   {
+    "title": "Token Thinking w/ Garth Braithwaite| Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/nfgcfqcphl3wfatv/yt_video_fwCCFglHgxQ_vzzqqz.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/nfgcfqcphl3wfatv/yt_video_fwCCFglHgxQ_vzzqqz.mp3",
+    "publishedAt": "2026-10-06T20:39:27.000Z",
+    "duration": "1:04:26",
+    "durationSeconds": 3866,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/5617a713433bf192d2509be7baf04d9c.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/5617a713433bf192d2509be7baf04d9c.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 61417776943,
+    "guid": "yt:video:fwCCFglHgxQ",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Navigating Complexity w/ Medhaswi Paturu | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
