@@ -1,5 +1,611 @@
 [
   {
+    "title": "Supernova Documentation: From a Figma Change to Approved Docs, with Agents",
+    "description": "When a designer changes a component in Figma, the documentation never hears about it. Someone has to update the page by hand, and the docs go stale one decision at a time.\n\nIn this under-2.5-minute walkthrough, we show you how Supernova keeps your documentation up to date. Pages are built from your design data, agents write the words, from Figma or right in Supernova, and your team reviews and approves every change before it goes live.\n\nYou'll see how to:\n✦ Ask the Supernova connector from the Figma agent to document a new variant over MCP\n✦ See documentation built from your design data, with the variants coming straight from Figma\n✦ Ask the Supernova Agent to edit several pages in one go\n✦ Review what the agent changed in page history, and roll back to an earlier snapshot\n✦ Request a review and mark pages ready for publish with the approval workflow\n✦ Edit the same page together with your team, live\n✦ See which pages people actually read with Docs analytics\n\n⏱ Chapters\n0:00 The problem\n0:15 How it works\n0:36 Step 1: Ask from Figma\n0:50 Step 2: Docs built from your data\n1:00 Step 3: Ask the Supernova Agent\n1:19 Step 4: Review changes or roll back\n1:39 Step 5: Approval workflow\n1:52 Steps 6 and 7: Edit together, then Docs analytics\n2:08 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you keep your docs as current as your design.\n\n#DesignSystems #Documentation #AIAgents #MCP #Figma #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/14t10OqyQhM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/14t10OqyQhM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/14t10OqyQhM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/14t10OqyQhM/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/14t10OqyQhM/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=14t10OqyQhM",
+    "publishedAt": "2026-10-06T19:40:25Z",
+    "privacyStatus": "public",
+    "duration": "0:02:21",
+    "durationSeconds": 141
+  },
+  {
+    "title": "Supernova Analytics: From Docs Views to Unused Props, Measured in One Place",
+    "description": "You shipped the design system, and now leadership asks if it's working. Without numbers, you can't say which docs people read, which components ship in code, or what agents do with it.\n\nIn this under-3-minute walkthrough, we show you how Supernova measures design system adoption across people, code, and agents. Docs analytics, Code adoption, and MCP analytics show where your system earns its place, and where to focus next.\n\nYou'll see how to:\n✦ Track docs views, top pages, and when people read\n✦ Measure adoption in code and spot components nobody uses\n✦ Open a component to see usage by repository and the props nobody uses\n✦ Let your agents audit Figma and code parity on a schedule\n✦ See agent tool calls, reads and writes, in MCP analytics\n\n⏱ Chapters\n0:00 The problem\n0:23 How it works\n0:48 Step 1: Docs analytics\n1:09 Step 2: Code adoption\n2:03 Step 3: MCP analytics\n2:27 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you prove your design system's impact.\n\n#DesignSystems #DesignSystemAdoption #Analytics #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Z_d5sR16Xao/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Z_d5sR16Xao/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Z_d5sR16Xao/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Z_d5sR16Xao/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Z_d5sR16Xao/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Z_d5sR16Xao",
+    "publishedAt": "2026-10-06T19:40:20Z",
+    "privacyStatus": "public",
+    "duration": "0:02:42",
+    "durationSeconds": 162
+  },
+  {
+    "title": "Supernova MCP: From Your Design System to Every AI Agent, Filtered per Team",
+    "description": "AI agents build UI with hardcoded colors and hand-built components, because they can't see your design system. And handing every team the whole system only adds noise.\n\nIn this under-4-minute walkthrough, we show you how Supernova connects your design system to every AI agent through MCP. Agents do the work in Supernova through the Editor MCP, and each team's agents read an MCP server filtered to what that team needs.\n\nYou'll see how to:\n✦ Connect Cursor, Claude Code, Codex, ChatGPT, or Figma to Supernova\n✦ Let agents update docs and tokens for you, with publishing that asks first\n✦ Create an MCP server for a team, filter its data, and publish it\n✦ Share one URL, mcp.supernova.io/mcp, and let people pick their MCP server when they sign in\n✦ See what agents read and write in MCP analytics\n\n⏱ Chapters\n0:00 The problem\n0:20 How it works\n0:45 Step 1: Connect your agent\n1:03 Step 2: Agents do the work\n1:27 Step 3: Create MCP servers\n2:14 Step 4: Connect your team\n2:53 Step 5: See what agents use\n3:08 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you give every agent exactly the part of your design system it needs.\n\n#DesignSystems #MCP #AIAgents #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3zD2AEeM3-w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3zD2AEeM3-w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3zD2AEeM3-w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3zD2AEeM3-w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3zD2AEeM3-w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=3zD2AEeM3-w",
+    "publishedAt": "2026-10-06T19:40:16Z",
+    "privacyStatus": "public",
+    "duration": "0:03:21",
+    "durationSeconds": 201
+  },
+  {
+    "title": "Supernova Platform Walkthrough: The Agentic Design System Platform",
+    "description": "Your design system lives in Figma, in code, in documentation, and now in every AI agent your teams use. Keeping all of it in sync by hand doesn't scale.\n\nIn this 5-minute walkthrough, we show you the fundamentals of Supernova, the agentic design system platform. It brings your design and code data into one place, documents it, and delivers it to your teams and their agents. Then feedback from people and agents flows back, so your system keeps getting better.\n\nYou'll see how to:\n✦ Connect Figma, Figma variables, Tokens Studio, Storybook and your codebase\n✦ Manage design tokens with values for every theme and the CSS names your code already uses\n✦ Keep icons, illustrations and components in one linked record across design and code\n✦ Write documentation with live blocks, and publish it publicly or behind sign-in\n✦ Turn design changes into code with exporters and pull requests\n✦ Track docs analytics, code adoption and MCP usage\n✦ Ask the Supernova agent to write and update your docs, or connect Cursor, Claude Code and Codex\n✦ Deliver scoped contexts to each team over MCP, and collect feedback from their agents\n\n⏱ Chapters\n0:00 Welcome\n0:10 The problem\n0:22 What Supernova does\n0:30 How it works\n0:49 Connect your data\n1:16 Design tokens\n1:34 Assets\n1:46 Components\n2:03 Write documentation\n2:23 Publish documentation\n2:36 Code automation\n3:03 Analytics and adoption\n3:29 Supernova with agents\n4:08 Contexts and MCP\n4:38 Recap\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you get your design system ready for the future.\n\n#DesignSystems #DesignTokens #MCP #AIAgents #Figma #Storybook #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LjrOFON8IGw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LjrOFON8IGw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LjrOFON8IGw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LjrOFON8IGw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/LjrOFON8IGw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/LjrOFON8IGw/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LjrOFON8IGw",
+    "publishedAt": "2026-10-06T19:40:06Z",
+    "privacyStatus": "public",
+    "duration": "0:04:58",
+    "durationSeconds": 298
+  },
+  {
+    "title": "Supernova Code Automation: From Design Tokens to Pull Requests, Automatically",
+    "description": "When designers change a token in Figma, someone still has to copy that change into code by hand. It's slow, and design and code drift apart.\n\nIn this under-3-minute walkthrough, we show you how Supernova code automation fixes that. You change a token in Figma, Supernova pulls the change in, an exporter turns it into code, and Supernova opens a pull request in your repository, ready to merge.\n\nYou'll see how to:\n✦ Open Code automation in your design system and create a new pipeline\n✦ Pick an exporter: use a predefined one like CSS, or build your own\n✦ Name the pipeline, add a theme, and preview the generated code\n✦ Decide when it runs, for example every time a new version is released\n✦ Choose where the code goes: GitHub repository, branch and folder\n✦ Create the pipeline and let every release open a pull request with the new tokens\n\n⏱ Chapters\n0:00 The problem\n0:10 How code automation works\n0:30 Step 1: Create a new pipeline\n0:43 Step 2: Pick an exporter\n1:00 Step 3: Name, theme and code preview\n1:29 Step 4: Choose when it runs\n1:39 Step 5: Choose where the code goes\n2:01 Step 6: Create the pipeline\n2:13 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you keep design and code in sync.\n\n#DesignSystems #DesignTokens #CodeAutomation #Figma #GitHub #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/E9Mr7ZFnmPE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/E9Mr7ZFnmPE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/E9Mr7ZFnmPE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/E9Mr7ZFnmPE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/E9Mr7ZFnmPE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=E9Mr7ZFnmPE",
+    "publishedAt": "2026-10-06T19:21:12Z",
+    "privacyStatus": "public",
+    "duration": "0:02:30",
+    "durationSeconds": 150
+  },
+  {
+    "title": "Briefing agents to build on-system code, then audit it | MCP use case demo",
+    "description": "Every agent needs a briefing. See how zeroheight's MCP gives AI agents your design system context, so they build prototypes and POCs on system code.\n\nLuke Murphy, Principal Design Advocate at zeroheight, demonstrates how it works in practice:\n\n- Briefing an AI agent with context from your zeroheight documentation via MCP \n- The agent building a prototype on your system code \n- Auditing what it built against your design system\n\n\nWatch the full webinar here: https://watch.getcontrast.io/register/zeroheight-license-to-build-briefing-agents-to-build-on-system-code-then-audit-it\n\nCheck out the use case: https://zeroheight.com/mcp/use-cases/building-prototypes-and-pocs-with-your-design-system/\n\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/w_Hcv4SzWa4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/w_Hcv4SzWa4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/w_Hcv4SzWa4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/w_Hcv4SzWa4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/w_Hcv4SzWa4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=w_Hcv4SzWa4",
+    "publishedAt": "2026-10-01T07:56:53Z",
+    "privacyStatus": "public",
+    "duration": "0:06:00",
+    "durationSeconds": 360
+  },
+  {
+    "title": "What you need to know about registering for online Self Assessment",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/un3RSknKfgI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/un3RSknKfgI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/un3RSknKfgI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/un3RSknKfgI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/un3RSknKfgI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=un3RSknKfgI",
+    "publishedAt": "2026-09-30T11:00:30Z",
+    "privacyStatus": "public",
+    "duration": "0:01:01",
+    "durationSeconds": 61
+  },
+  {
+    "title": "Design Systems WTF #65 - What should you automate in design systems?",
+    "description": "Everyone talks about how you should automate as much as possible in design systems - but what can you actually automate? \n\nIn this episode of Design Systems WTF, Luke and Michelle go through all the things that they've had success automating and things that are better with a human touch. From script-based automation to tool-based automation and AI-based automation.\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/i8mY4HoIY_Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/i8mY4HoIY_Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/i8mY4HoIY_Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/i8mY4HoIY_Y/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/i8mY4HoIY_Y/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=i8mY4HoIY_Y",
+    "publishedAt": "2026-09-25T08:13:24Z",
+    "privacyStatus": "public",
+    "duration": "0:54:42",
+    "durationSeconds": 3282
+  },
+  {
+    "title": "Why Nobody Hires Junior Designers Anymore (It’s Not AI)",
+    "description": "📄 Free: one idea a week that helps designers level up, including how to hire, delegate, and lead a team. Read by 70,000 designers and agency owners:  https://danmall.com/go/newsletter--juniors-seniors\n\nA junior designer DM’d me and asked if people like them are still needed in this industry. The honest answer is that they’re not needed because we’re not hiring them—and we're missing a massive opportunity. I ran a design agency for 10 years, and at our peak we had 700 contractors and freelancers in our network. In this video: why nobody hires junior designers anymore, what my first design job actually was, and the list that tells you exactly who to hire first.\n\nChapters\n\n0:00 The DM\n0:37 Here’s what they sent\n1:36 Side doors over front doors\n2:25 My first design job\n5:57 It’s not your job\n6:56 Two books that changed this\n7:47 Quadrants of work\n8:55 The stuff I’d hire for today\n12:19 Who I hired first\n12:53 One thing to do this month\n\n—\n\nHi, I'm Dan Mall. I help design agency owners make more money without burning out. I founded, scaled, and sold SuperFriendly, wrote Pricing Design and Design That Scales, and my clients have included Nike, Apple, Google, and The New York Times.\n\nLearn my money-making systems today at your own pace → the Field Guide: https://danmall.com/go/fieldguide--juniors-seniors\nRun those systems with me in your corner every week → Quest: https://danmall.com/go/quest--juniors-seniors\nOne idea a week that makes your agency more money → my newsletter, read by 70,000 people: https://danmall.com/go/newsletter--juniors-seniors\n\nLinkedIn: https://linkedin.com/in/danmall\nX: https://x.com/danmall\nInstagram: https://instagram.com/danmallteaches\nhttps://danmall.com?ref=yt",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XGZIaOWF6Rk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XGZIaOWF6Rk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XGZIaOWF6Rk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/XGZIaOWF6Rk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/XGZIaOWF6Rk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=XGZIaOWF6Rk",
+    "publishedAt": "2026-09-24T15:45:15Z",
+    "privacyStatus": "public",
+    "duration": "0:13:18",
+    "durationSeconds": 798
+  },
+  {
+    "title": "5 facts about annual leave",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/obvAeGvE1YQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/obvAeGvE1YQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/obvAeGvE1YQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/obvAeGvE1YQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/obvAeGvE1YQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=obvAeGvE1YQ",
+    "publishedAt": "2026-09-22T11:00:18Z",
+    "privacyStatus": "public",
+    "duration": "0:01:18",
+    "durationSeconds": 78
+  },
+  {
+    "title": "Q&A session - Design Systems London #17",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/A8mPePRWfyE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/A8mPePRWfyE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/A8mPePRWfyE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/A8mPePRWfyE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/A8mPePRWfyE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "uhd": {
+        "url": "https://i.ytimg.com/vi/A8mPePRWfyE/uhddefault.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=A8mPePRWfyE",
+    "publishedAt": "2026-09-21T08:24:16Z",
+    "privacyStatus": "public",
+    "duration": "0:26:25",
+    "durationSeconds": 1585
+  },
+  {
+    "title": "“Design Systems are dead. Long live Design Systems” by Luke Murphy",
+    "description": "Please note: this recording contains some strong language.\n\n\"Design Systems are dead. Long live Design Systems\" with Luke Murphy (Principal Design Advocate, zeroheight).",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/G5Jmk_lvX44/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/G5Jmk_lvX44/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/G5Jmk_lvX44/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/G5Jmk_lvX44/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/G5Jmk_lvX44/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "uhd": {
+        "url": "https://i.ytimg.com/vi/G5Jmk_lvX44/uhddefault.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=G5Jmk_lvX44",
+    "publishedAt": "2026-09-21T08:24:12Z",
+    "privacyStatus": "public",
+    "duration": "0:35:07",
+    "durationSeconds": 2107
+  },
+  {
+    "title": "Workflows at Scale: Design Systems, Platform Engineering, and the AI Workflows that scale",
+    "description": "\"Workflows at Scale: Design Systems, Platform Engineering, and the AI Workflows that scale\" with Aobakwe Anti (Design System Engineer)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pI12krTC5n8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pI12krTC5n8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pI12krTC5n8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/pI12krTC5n8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/pI12krTC5n8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "uhd": {
+        "url": "https://i.ytimg.com/vi/pI12krTC5n8/uhddefault.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pI12krTC5n8",
+    "publishedAt": "2026-09-21T08:24:08Z",
+    "privacyStatus": "public",
+    "duration": "0:16:00",
+    "durationSeconds": 960
+  },
+  {
+    "title": "100% Design System adoption. Dream, cost and reality? by Tadej Razboršek",
+    "description": "\"100% Design System adoption. Dream, cost and reality?\" with Tadej Razboršek (Lead Platform Engineer, Revolut)",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_PpnGGJ4JgQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_PpnGGJ4JgQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_PpnGGJ4JgQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/_PpnGGJ4JgQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/_PpnGGJ4JgQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "uhd": {
+        "url": "https://i.ytimg.com/vi/_PpnGGJ4JgQ/uhddefault.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=_PpnGGJ4JgQ",
+    "publishedAt": "2026-09-21T08:24:06Z",
+    "privacyStatus": "public",
+    "duration": "0:19:57",
+    "durationSeconds": 1197
+  },
+  {
+    "title": "Design Systems London#17 - Full recording",
+    "description": "Full recording of our DSL #16 event, organised by YLD and sponsored by Revolut.\nPlease note: this recording contains some strong language used by the speaker during the third talk.\n\n00:00 Intros\n13:13 \"100% Design System adoption. Dream, cost and reality?\" with Tadej Razboršek (Lead Platform Engineer, Revolut)\n34:31 \"Workflows at Scale: Design Systems, Platform Engineering, and the AI Workflows that scale\" with Aobakwe Anti (Design System Engineer)\n52:38 \"Design Systems are dead. Long live Design Systems\" with Luke Murphy (Principal Design Advocate, zeroheight)\nPlease note: this recording contains some strong language\n1:29:29 Q&A session\n1:56:33 Outros",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-zATW_gebB4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-zATW_gebB4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-zATW_gebB4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/-zATW_gebB4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/-zATW_gebB4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "uhd": {
+        "url": "https://i.ytimg.com/vi/-zATW_gebB4/uhddefault.jpg",
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=-zATW_gebB4",
+    "publishedAt": "2026-09-21T08:24:01Z",
+    "privacyStatus": "public",
+    "duration": "2:01:39",
+    "durationSeconds": 7299
+  },
+  {
+    "title": "British passport facts",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CME7P1AExBY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CME7P1AExBY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CME7P1AExBY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/CME7P1AExBY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/CME7P1AExBY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=CME7P1AExBY",
+    "publishedAt": "2026-09-18T11:00:14Z",
+    "privacyStatus": "public",
+    "duration": "0:01:02",
+    "durationSeconds": 62
+  },
+  {
     "title": "Teaching AI Your Design System | Victor Nystad, Equinor",
     "description": "AI needs explicit design rules to reproduce a design system reliably. In Equinor’s experiments, DESIGN.md files and Claude skills supplied context and methods, but agents still guessed. Adding component contracts made expectations precise enough to reproduce the tested components in code and Figma.",
     "thumbnails": {
