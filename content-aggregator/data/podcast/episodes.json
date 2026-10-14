@@ -1,5 +1,33 @@
 [
   {
+    "title": "What should you automate in design systems?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Everyone talks about how you should automate as much as possible in design systems... but what can you actually automate? Luke and Michelle go through all the things that they've had success automating and things that are better with a human touch. From script-based automation, to tool-based automation, to AI-based automation.</p><p>Show notes</p><ul><li><a href='https://watch.getcontrast.io/register/zeroheight-zeroheight-deep-dive-automating-documentation-markdown-syncing'>Automating your documentation webinar</a> and accompanying <a href='https://github.com/zeroheight-demos/automated-md-docs'>github repo</a></li><li><a href='https://designsystemdocspec.org/'>Design System Documentation Spec</a> — what the AI audited its own output against</li><li><a href='https://zeroheight.com/blog/design-tokens-and-a-source-of-truth/'>Design Tokens and a Source of Truth</a> — your first zeroheight article (March 2021), the \"docs in the middle\" future that still hasn't arrived</li></ul><p>Get in touch</p><ul><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li><li>Email: community@zeroheight.com</li></ul>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/19947802-what-should-you-automate-in-design-systems.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/19947802-what-should-you-automate-in-design-systems.mp3",
+    "publishedAt": "2026-10-13T14:00:00.000Z",
+    "duration": "0:55:27",
+    "durationSeconds": 3327,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 61676057430,
+    "guid": "Buzzsprout-19947802",
+    "season": 2,
+    "episode": 65,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Token Thinking w/ Garth Braithwaite| Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
