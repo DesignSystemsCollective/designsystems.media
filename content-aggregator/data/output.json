@@ -1,5 +1,46 @@
 [
   {
+    "title": "Supernova MCP Setup: From One URL to Cursor, Claude Code, Codex, Claude and ChatGPT",
+    "description": "Every AI tool adds MCP servers in a different place: a settings page in one, a terminal command in another. So people get stuck before their agent ever reads the design system.\n\nIn this under-3-minute walkthrough, we show you how to connect the Supernova MCP to Cursor, Claude Code, Codex, Claude and ChatGPT. It works the same way everywhere: you add one URL, sign in with Supernova, and choose a design system to read and write with the Editor MCP, or an MCP server made for your team.\n\nYou'll see how to:\n✦ Copy the Supernova MCP URL, mcp.supernova.io/mcp, from the MCP tab on your Overview\n✦ Install it in Cursor in one click, or add it in Cursor Settings › Tools & MCPs\n✦ Sign in and choose the Editor MCP or a Consumer MCP server for your team\n✦ Add it to Claude Code with claude mcp add, then authenticate with /mcp\n✦ Add it to Codex with codex mcp add\n✦ Add it as a custom connector in Claude and as a custom MCP server in ChatGPT\n\n⏱ Chapters\n0:00 Welcome\n0:11 How it works\n0:27 Step 1: Get the URL\n0:39 Step 2: Cursor\n1:19 Step 3: Claude Code\n1:38 Step 4: Codex\n1:53 Step 5: Claude\n2:10 Step 6: ChatGPT\n2:24 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you get your design system into every tool your team uses.\n\n#DesignSystems #MCP #AIAgents #Cursor #ClaudeCode #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/sJnRt9Nt7Mw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/sJnRt9Nt7Mw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/sJnRt9Nt7Mw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/sJnRt9Nt7Mw/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/sJnRt9Nt7Mw/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/sJnRt9Nt7Mw/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=sJnRt9Nt7Mw",
+    "publishedAt": "2026-10-09T16:38:41Z",
+    "privacyStatus": "public",
+    "duration": "0:02:38",
+    "durationSeconds": 158
+  },
+  {
     "title": "Supernova Documentation: From a Figma Change to Approved Docs, with Agents",
     "description": "When a designer changes a component in Figma, the documentation never hears about it. Someone has to update the page by hand, and the docs go stale one decision at a time.\n\nIn this under-2.5-minute walkthrough, we show you how Supernova keeps your documentation up to date. Pages are built from your design data, agents write the words, from Figma or right in Supernova, and your team reviews and approves every change before it goes live.\n\nYou'll see how to:\n✦ Ask the Supernova connector from the Figma agent to document a new variant over MCP\n✦ See documentation built from your design data, with the variants coming straight from Figma\n✦ Ask the Supernova Agent to edit several pages in one go\n✦ Review what the agent changed in page history, and roll back to an earlier snapshot\n✦ Request a review and mark pages ready for publish with the approval workflow\n✦ Edit the same page together with your team, live\n✦ See which pages people actually read with Docs analytics\n\n⏱ Chapters\n0:00 The problem\n0:15 How it works\n0:36 Step 1: Ask from Figma\n0:50 Step 2: Docs built from your data\n1:00 Step 3: Ask the Supernova Agent\n1:19 Step 4: Review changes or roll back\n1:39 Step 5: Approval workflow\n1:52 Steps 6 and 7: Edit together, then Docs analytics\n2:08 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you keep your docs as current as your design.\n\n#DesignSystems #Documentation #AIAgents #MCP #Figma #DesignOps #Supernova",
     "thumbnails": {
