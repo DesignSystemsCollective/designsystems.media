@@ -1,0 +1,172 @@
+---
+// Header auth entry point. Same pattern as ThemeToggle.astro - a plain
+// Astro component with its own inline script doing direct DOM work, no
+// framework/state library. Session state comes from supabase-js, which
+// persists it in localStorage, so this can resolve signed-in/out state
+// on hydration without a server round trip.
+---
+
+<div class="account-widget">
+  <a href="/account/sign-in/" class="account-signin-link" data-signed-out-only>
+    Sign in
+  </a>
+  <div class="account-menu" data-signed-in-only hidden>
+    <button
+      type="button"
+      class="account-menu-trigger"
+      aria-haspopup="true"
+      aria-expanded="false"
+      aria-label="Account menu"
+    >
+      <span class="account-avatar" data-account-initial>?</span>
+    </button>
+    <div class="account-menu-dropdown" role="menu">
+      <a href="/account/profile/" role="menuitem">Profile</a>
+      <a href="/account/watch-later/" role="menuitem">Watch Later</a>
+      <button type="button" class="account-signout" role="menuitem" data-signout>
+        Sign out
+      </button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .account-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .account-signin-link {
+    white-space: nowrap;
+  }
+
+  .account-menu {
+    position: relative;
+  }
+
+  .account-menu-trigger {
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .account-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-full);
+    background: rgb(var(--accent));
+    color: var(--pure-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+  }
+
+  .account-menu-dropdown {
+    position: absolute;
+    top: calc(100% + var(--space-8));
+    right: 0;
+    min-width: 160px;
+    background: var(--bg);
+    border: 1px solid var(--layout-border);
+    border-radius: var(--radius-8);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-8);
+    display: none;
+    flex-direction: column;
+    z-index: 200;
+  }
+
+  .account-menu.is-open .account-menu-dropdown {
+    display: flex;
+  }
+
+  .account-menu-dropdown a,
+  .account-menu-dropdown button {
+    appearance: none;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: var(--space-8);
+    border-radius: var(--radius-4);
+    color: var(--header-text);
+    font-size: var(--font-size-14);
+    cursor: pointer;
+  }
+
+  .account-menu-dropdown a:hover,
+  .account-menu-dropdown button:hover {
+    background: rgba(var(--accent), 10%);
+    color: var(--accent-hover);
+  }
+</style>
+
+<script>
+  import { supabase } from "../lib/supabase/client";
+  import type { Session } from "@supabase/supabase-js";
+
+  const widget = document.querySelector<HTMLElement>(".account-widget");
+  const signedOutEl = widget?.querySelector<HTMLElement>("[data-signed-out-only]");
+  const signedInEl = widget?.querySelector<HTMLElement>("[data-signed-in-only]");
+  const initialEl = widget?.querySelector<HTMLElement>("[data-account-initial]");
+  const trigger = widget?.querySelector<HTMLButtonElement>(".account-menu-trigger");
+  const menu = widget?.querySelector<HTMLElement>(".account-menu");
+  const signOutBtn = widget?.querySelector<HTMLButtonElement>("[data-signout]");
+
+  function render(session: Session | null) {
+    if (!signedOutEl || !signedInEl) return;
+    if (session) {
+      signedOutEl.hidden = true;
+      signedInEl.hidden = false;
+      if (initialEl) {
+        const label = session.user.email ?? session.user.id;
+        initialEl.textContent = label.charAt(0);
+      }
+    } else {
+      signedOutEl.hidden = false;
+      signedInEl.hidden = true;
+      menu?.classList.remove("is-open");
+    }
+  }
+
+  trigger?.addEventListener("click", () => {
+    const isOpen = menu?.classList.toggle("is-open");
+    trigger.setAttribute("aria-expanded", String(Boolean(isOpen)));
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!menu || !menu.classList.contains("is-open")) return;
+    if (!(event.target instanceof Node) || !menu.contains(event.target)) {
+      menu.classList.remove("is-open");
+      trigger?.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  signOutBtn?.addEventListener("click", async () => {
+    try {
+      await supabase.auth.signOut();
+    } catch (err) {
+      console.error("Failed to sign out", err);
+    }
+    window.location.href = "/";
+  });
+
+  supabase.auth
+    .getSession()
+    .then(({ data }) => render(data.session))
+    .catch((err) => {
+      // Network-level failure (e.g. Supabase unreachable) - fall back to
+      // the signed-out state, which is already the widget's default markup.
+      console.error("Failed to check session", err);
+      render(null);
+    });
+  supabase.auth.onAuthStateChange((_event, session) => render(session));
+</script>

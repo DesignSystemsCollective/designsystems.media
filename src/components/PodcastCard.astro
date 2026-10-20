@@ -5,6 +5,7 @@ import { formatDuration } from "../utils/formatDuration";
 import { getShowImage } from "../utils/images";
 import MediaImage from "./media/MediaImage.astro";
 import MediaCard from "./media/MediaCard.astro";
+import WatchLaterButton from "./media/WatchLaterButton.astro";
 
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & {
@@ -36,16 +37,19 @@ const href = `/podcast/${slug}/`;
 ---
 
 <MediaCard title={title} titleHref={href} layoutType={layoutType} listAlign="start">
-  <a href={href} slot="image" class="media-podcast-image">
-    <MediaImage
-      src={imageToUse}
-      alt={title}
-      duration={duration.toString()}
-      variant="podcast-duration"
-      showDuration={!isListLayout}
-      loading={loading}
-    />
-  </a>
+  <div slot="image" class="media-image-wrapper">
+    <a href={href} class="media-podcast-image">
+      <MediaImage
+        src={imageToUse}
+        alt={title}
+        duration={duration.toString()}
+        variant="podcast-duration"
+        showDuration={!isListLayout}
+        loading={loading}
+      />
+    </a>
+    <WatchLaterButton contentType="podcast" slug={slug ?? ""} />
+  </div>
   <a href={`/show/${showSlug}/`} slot="subtitle" class="meta showTitle">{podcastTitle}</a>
   <div slot="meta" class="meta">
     <span><FormattedDate date={publishedAt} /></span> {isListLayout &&
@@ -55,6 +59,10 @@ const href = `/podcast/${slug}/`;
 </MediaCard>
 
 <style>
+  .media-image-wrapper {
+    position: relative;
+  }
+
   /* MediaImage defaults to a square (1:1) image, but podcast episode
      artwork/thumbnails render at 16:9 here - override it. This targets
      an <img> rendered by the nested MediaImage component, not by this

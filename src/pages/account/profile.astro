@@ -1,0 +1,204 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Title from "../../components/Title.astro";
+
+const title = "Profile";
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  <Title>{title}</Title>
+  <div class="account-form-wrapper" id="profile-wrapper" hidden>
+    <form id="profile-form" class="account-form">
+      <label for="handle">Handle</label>
+      <input id="handle" name="handle" type="text" pattern="[a-z0-9-]+" required />
+
+      <label for="display_name">Display name</label>
+      <input id="display_name" name="display_name" type="text" />
+
+      <label for="bio">Bio</label>
+      <textarea id="bio" name="bio" rows="4"></textarea>
+
+      <p class="account-form-error" id="profile-error" hidden></p>
+      <p class="account-form-success" id="profile-success" hidden></p>
+
+      <button type="submit">Save</button>
+    </form>
+    <p class="account-form-switch">
+      Public profile: <a id="profile-public-link" href="/">/u/...</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .account-form-wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: var(--space-32) var(--space-16);
+  }
+  .account-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+  }
+  .account-form label {
+    font-size: var(--font-size-14);
+    color: var(--tx-2);
+  }
+  .account-form input,
+  .account-form textarea {
+    padding: var(--space-8);
+    border: 1px solid var(--layout-border);
+    border-radius: var(--radius-6);
+    background: var(--bg);
+    color: var(--body-text);
+    font-size: var(--font-size-16);
+    font-family: inherit;
+    resize: vertical;
+  }
+  .account-form button {
+    margin-top: var(--space-8);
+    padding: var(--space-8) var(--space-16);
+    border: none;
+    border-radius: var(--radius-6);
+    background: rgb(var(--accent));
+    color: var(--pure-white);
+    font-size: var(--font-size-16);
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  .account-form button:hover {
+    background: var(--accent-hover);
+  }
+  .account-form-error {
+    color: #e5484d;
+    font-size: var(--font-size-14);
+    margin: 0;
+  }
+  .account-form-success {
+    color: var(--tx-2);
+    font-size: var(--font-size-14);
+    margin: 0;
+  }
+  .account-form-switch {
+    margin-top: var(--space-16);
+    font-size: var(--font-size-14);
+    color: var(--tx-2);
+  }
+</style>
+
+<script>
+  import { supabase } from "../../lib/supabase/client";
+
+  const wrapper = document.querySelector<HTMLElement>("#profile-wrapper");
+  const form = document.querySelector<HTMLFormElement>("#profile-form");
+  const errorEl = document.querySelector<HTMLElement>("#profile-error");
+  const successEl = document.querySelector<HTMLElement>("#profile-success");
+  const publicLink = document.querySelector<HTMLAnchorElement>(
+    "#profile-public-link"
+  );
+
+  async function init() {
+    let session;
+    try {
+      const { data: sessionData } = await supabase.auth.getSession();
+      session = sessionData.session;
+    } catch (err) {
+      console.error("Failed to check session", err);
+      if (errorEl) {
+        errorEl.textContent = "Couldn't reach the account service.";
+        errorEl.hidden = false;
+      }
+      return;
+    }
+
+    if (!session) {
+      window.location.href = `/account/sign-in/?redirect=${encodeURIComponent(
+        window.location.pathname
+      )}`;
+      return;
+    }
+
+    try {
+      const { data: profile, error } = await supabase
+        .from("profiles")
+        .select("handle, display_name, bio")
+        .eq("id", session.user.id)
+        .single();
+
+      if (error) {
+        if (errorEl) {
+          errorEl.textContent = "Couldn't load your profile.";
+          errorEl.hidden = false;
+        }
+        return;
+      }
+
+      if (form) {
+        (form.elements.namedItem("handle") as HTMLInputElement).value =
+          profile.handle ?? "";
+        (form.elements.namedItem("display_name") as HTMLInputElement).value =
+          profile.display_name ?? "";
+        (form.elements.namedItem("bio") as HTMLTextAreaElement).value =
+          profile.bio ?? "";
+      }
+      if (publicLink) {
+        publicLink.href = `/u/${profile.handle}/`;
+        publicLink.textContent = `/u/${profile.handle}/`;
+      }
+      if (wrapper) wrapper.hidden = false;
+    } catch (err) {
+      console.error("Failed to load profile", err);
+      if (errorEl) {
+        errorEl.textContent = "Couldn't reach the account service.";
+        errorEl.hidden = false;
+      }
+      return;
+    }
+
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (errorEl) errorEl.hidden = true;
+      if (successEl) successEl.hidden = true;
+
+      const handle = (form.elements.namedItem("handle") as HTMLInputElement)
+        .value;
+      const display_name = (
+        form.elements.namedItem("display_name") as HTMLInputElement
+      ).value;
+      const bio = (form.elements.namedItem("bio") as HTMLTextAreaElement)
+        .value;
+
+      try {
+        const { error: updateError } = await supabase
+          .from("profiles")
+          .update({ handle, display_name, bio })
+          .eq("id", session.user.id);
+
+        if (updateError) {
+          if (errorEl) {
+            errorEl.textContent = updateError.message;
+            errorEl.hidden = false;
+          }
+          return;
+        }
+
+        if (publicLink) {
+          publicLink.href = `/u/${handle}/`;
+          publicLink.textContent = `/u/${handle}/`;
+        }
+        if (successEl) {
+          successEl.textContent = "Saved.";
+          successEl.hidden = false;
+        }
+      } catch (err) {
+        console.error("Failed to save profile", err);
+        if (errorEl) {
+          errorEl.textContent = "Couldn't reach the account service.";
+          errorEl.hidden = false;
+        }
+      }
+    });
+  }
+
+  init();
+</script>

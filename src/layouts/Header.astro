@@ -1,5 +1,6 @@
 ---
 import PagefindConfig from "astro-pagefind/components/PagefindConfig.astro";
+import AccountWidget from "../components/AccountWidget.astro";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import { SITE_TITLE } from "../consts";
 
@@ -122,6 +123,7 @@ const currentPage = pathname.replace(/\/$/, "");
           >
         </a>
         <ThemeToggle />
+        <AccountWidget />
       </div>
     </div>
   </nav>
