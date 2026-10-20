@@ -4,6 +4,8 @@
 // later). All instances on a page share one delegated click handler and
 // one watch-later-list fetch (see the script below) rather than each
 // button querying Supabase on its own.
+import { Icon } from "astro-icon/components";
+
 export interface Props {
   contentType: "media" | "podcast";
   slug: string;
@@ -20,16 +22,8 @@ const { contentType, slug } = Astro.props;
   aria-label="Save to watch later"
   title="Save to watch later"
 >
-  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-    <path
-      d="M6 3h12v18l-6-4-6 4V3z"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    ></path>
-  </svg>
+  <Icon name="fluent:bookmark-20-regular" size={16} class="icon-unsaved" />
+  <Icon name="fluent:bookmark-20-filled" size={16} class="icon-saved" />
 </button>
 
 <style>
@@ -53,11 +47,17 @@ const { contentType, slug } = Astro.props;
   .watch-later-btn:hover {
     background: rgb(var(--accent));
   }
-  .watch-later-btn.is-saved svg path {
-    fill: currentColor;
-  }
   .watch-later-btn.is-saved {
     background: rgb(var(--accent));
+  }
+  .icon-saved {
+    display: none;
+  }
+  .watch-later-btn.is-saved .icon-unsaved {
+    display: none;
+  }
+  .watch-later-btn.is-saved .icon-saved {
+    display: block;
   }
   .watch-later-btn:disabled {
     opacity: 0.6;
