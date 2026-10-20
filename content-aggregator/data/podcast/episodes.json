@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ep 108: Agents on Canvas",
+    "description": "<p>Davy and PJ try Figma’s on-canvas agent and compared to a quick gut check with Paper. and get into what these tools still need to do to fit into our daily work.</p><p><br></p>",
+    "podcastTitle": "Design System Office Hours",
+    "episodeUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/127696624/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F5522b6fd-8907-c3db-1d13-728b63de413b.mp3",
+    "audioUrl": "https://anchor.fm/s/7e0ce6ac/podcast/play/127696624/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F5522b6fd-8907-c3db-1d13-728b63de413b.mp3",
+    "publishedAt": "2026-10-19T07:01:00.000Z",
+    "duration": "0:33:58",
+    "durationSeconds": 2038,
+    "episodeImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "podcastImageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      },
+      "maxres": {
+        "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/21047747/21047747-1699427880984-48d6ab24edbb5.jpg"
+      }
+    },
+    "feedUrl": "https://anchor.fm/s/7e0ce6ac/podcast/rss",
+    "feedId": 4813998,
+    "episodeId": 61972187040,
+    "guid": "1df985ae-b2fe-4092-b497-a3efdab8347f",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "What should you automate in design systems?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Everyone talks about how you should automate as much as possible in design systems... but what can you actually automate? Luke and Michelle go through all the things that they've had success automating and things that are better with a human touch. From script-based automation, to tool-based automation, to AI-based automation.</p><p>Show notes</p><ul><li><a href='https://watch.getcontrast.io/register/zeroheight-zeroheight-deep-dive-automating-documentation-markdown-syncing'>Automating your documentation webinar</a> and accompanying <a href='https://github.com/zeroheight-demos/automated-md-docs'>github repo</a></li><li><a href='https://designsystemdocspec.org/'>Design System Documentation Spec</a> — what the AI audited its own output against</li><li><a href='https://zeroheight.com/blog/design-tokens-and-a-source-of-truth/'>Design Tokens and a Source of Truth</a> — your first zeroheight article (March 2021), the \"docs in the middle\" future that still hasn't arrived</li></ul><p>Get in touch</p><ul><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li><li>Email: community@zeroheight.com</li></ul>",
     "podcastTitle": "Design Systems WTF",
