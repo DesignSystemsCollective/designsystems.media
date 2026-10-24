@@ -1,5 +1,61 @@
 [
   {
+    "title": "Keeping the big picture in view, with James McElroy",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/887923/fan_mail/new\">Send us feedback or episode suggestions.</a></p><p>AI makes it easier than ever to build the wrong thing quickly. Zooming out to see the whole system is one way teams notice. In this episode of Patterns, Chris Strahl talks with James McElroy, a designer and design leader who started in mechanical engineering, about keeping the big picture in view while the tools get faster.<br/><br/>James traces a systems mindset from childhood terminals at home to a first design job at Bose, where a handheld home theater remote with a 128-segment display forced James to be frugal with every segment. From there the conversation moves through Monster.com in the dot-com era, architects at Autodesk, the pendulum problem of AI hype, and how to help colleagues at companies that are not tech native understand what AI can and can't do.<br/><br/>We'll explore:</p><ul><li>Why the ability to zoom out and see every screen, flow, or piece of hardware is still one of the most compelling things a designer can show a team</li><li>What designing for a 128-segment display taught James about frugal, systems-level design</li><li>Why happy paths are largely a myth in complex products, and what the miserable path shows</li><li>How to help people at companies that are not tech native understand AI, starting with using it daily until its limits show</li><li>Why agreeing on goals matters more than deciding who owns the screen when everyone can make a mockup</li></ul>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/20002034-keeping-the-big-picture-in-view-with-james-mcelroy.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/20002034-keeping-the-big-picture-in-view-with-james-mcelroy.mp3",
+    "publishedAt": "2026-10-23T16:00:00.000Z",
+    "duration": "0:48:35",
+    "durationSeconds": 2915,
+    "episodeImageUrl": "https://storage.buzzsprout.com/4sozdf0hqn1vaokutt8lvkuaehce?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/4sozdf0hqn1vaokutt8lvkuaehce?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 62171730301,
+    "guid": "Buzzsprout-20002034",
+    "season": 2,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Design judgment in the era of AI, with Alexis Puchek",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/887923/fan_mail/new\">Send us feedback or episode suggestions.</a></p><p>AI can generate a screen in seconds. Deciding whether that screen is right still takes someone who has seen enough of them. In this episode of Patterns, Chris Strahl talks with design leader Alexis Puchek about what design judgment means when agents do more of the building.<br/><br/>Drawing on about 20 years at frog, Hudl, and Procore, in fields where the screen often isn't the point, Alexis explains why judgment gets more valuable as systems get better. The conversation moves from enterprise design systems to job sites, wearables, and interfaces with no screen at all.<br/><br/>We'll explore:</p><ul><li>Why teams using the same components still ship \"consistently inconsistent\" products, and the layer of patterns and principles that belongs above a design system</li><li>Why judgment is built through reps, and why better systems concentrate judgment instead of replacing it</li><li>Why metrics in field software can mislead: when people can't quit a tool, endurance looks like adoption</li><li>What changes when you don't control the canvas, from heads-up displays to an exoskeleton that only vibrates near its limit</li><li>Why content design, information architecture, and service design are moving from polish to the first decision</li></ul>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/20002032-design-judgment-in-the-era-of-ai-with-alexis-puchek.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/20002032-design-judgment-in-the-era-of-ai-with-alexis-puchek.mp3",
+    "publishedAt": "2026-10-23T16:00:00.000Z",
+    "duration": "0:48:42",
+    "durationSeconds": 2922,
+    "episodeImageUrl": "https://storage.buzzsprout.com/mkoqjxmey3ix2c72swfpdswr3lax?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/mkoqjxmey3ix2c72swfpdswr3lax?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 62171730302,
+    "guid": "Buzzsprout-20002032",
+    "season": 2,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 108: Agents on Canvas",
     "description": "<p>Davy and PJ try Figma’s on-canvas agent and compared to a quick gut check with Paper. and get into what these tools still need to do to fit into our daily work.</p><p><br></p>",
     "podcastTitle": "Design System Office Hours",
