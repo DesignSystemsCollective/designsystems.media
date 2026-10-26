@@ -24,6 +24,7 @@ import path from "path";
 const state = {
   getAllVideosFromChannel: async () => [],
   getAllVideosFromPlaylist: async () => [],
+  fetchTranscript: async () => null,
 };
 
 const youtubeTsUrl = new URL(
@@ -37,6 +38,20 @@ mock.module(youtubeTsUrl, {
     getPosterUrl: () => "",
     formatDuration: () => "0:00:00",
     calculateTotalSeconds: () => 0,
+  },
+});
+
+// transcript.ts hits YouTube's caption endpoint over the network - mocked
+// here for the same reason youtube.ts is: no network calls in a unit test.
+// Defaults to null (no captions) so existing tests above are unaffected;
+// the transcript-specific tests below swap this per test.
+const transcriptTsUrl = new URL(
+  "../../../content-aggregator/scripts/video/transcript.ts",
+  import.meta.url,
+);
+mock.module(transcriptTsUrl, {
+  exports: {
+    fetchTranscript: (...args) => state.fetchTranscript(...args),
   },
 });
 
@@ -89,6 +104,30 @@ test("processVideos: writes an .mdx file per non-ignored video under the given o
   const folders = fs.readdirSync(tmp);
   assert.equal(folders.length, 1);
   assert.equal(fs.existsSync(path.join(tmp, folders[0], "index.mdx")), true);
+});
+
+test("processVideos: writes transcript.txt alongside index.mdx when a transcript is available", async () => {
+  const tmp = mkTmpDir("dsm-process-videos-transcript-");
+  state.fetchTranscript = async () => "Hello, this is the talk.";
+  const video = makeVideo({ title: "Has Captions" });
+
+  await processVideos([video], [], tmp);
+
+  const folders = fs.readdirSync(tmp);
+  const transcriptPath = path.join(tmp, folders[0], "transcript.txt");
+  assert.equal(fs.existsSync(transcriptPath), true);
+  assert.equal(fs.readFileSync(transcriptPath, "utf-8"), "Hello, this is the talk.");
+});
+
+test("processVideos: writes no transcript.txt when fetchTranscript returns null", async () => {
+  const tmp = mkTmpDir("dsm-process-videos-no-transcript-");
+  state.fetchTranscript = async () => null;
+  const video = makeVideo({ title: "No Captions" });
+
+  await processVideos([video], [], tmp);
+
+  const folders = fs.readdirSync(tmp);
+  assert.equal(fs.existsSync(path.join(tmp, folders[0], "transcript.txt")), false);
 });
 
 test("processVideos: defaults outputDir to the real content directory when not given (signature preserved)", () => {

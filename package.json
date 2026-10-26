@@ -20,7 +20,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "serve": "npx serve -l 4321 dist",
-    "test:unit": "node --experimental-strip-types --experimental-test-module-mocks --test src/tests/unit/content-domain.test.ts src/tests/unit/content-domain-selectors.test.ts src/tests/unit/content-validation.test.mjs src/tests/unit/content-aggregator-duration.test.mjs src/tests/unit/content-aggregator-slugs.test.mjs src/tests/unit/content-aggregator-frontmatter.test.mjs src/tests/unit/content-aggregator-shared.test.mjs src/tests/unit/content-aggregator-images.test.mjs src/tests/unit/content-aggregator-youtube-api.test.mjs src/tests/unit/content-aggregator-podcast-api.test.mjs src/tests/unit/content-aggregator-podcast-orchestration.test.mjs src/tests/unit/content-aggregator-video-orchestration.test.mjs src/tests/unit/findFirstExistingImage.test.ts src/tests/unit/audio.test.ts src/tests/unit/convertToSlug.test.ts src/tests/unit/formatDate.test.ts src/tests/unit/convertToISO8601Duration.test.ts src/tests/unit/formatDuration.test.ts src/tests/unit/imageSizes.test.ts src/tests/unit/isDurationOneMinuteOrUnder.test.ts src/tests/unit/statsResponse.test.ts",
+    "test:unit": "node --experimental-strip-types --experimental-test-module-mocks --test src/tests/unit/content-domain.test.ts src/tests/unit/content-domain-selectors.test.ts src/tests/unit/content-validation.test.mjs src/tests/unit/content-aggregator-duration.test.mjs src/tests/unit/content-aggregator-slugs.test.mjs src/tests/unit/content-aggregator-frontmatter.test.mjs src/tests/unit/content-aggregator-shared.test.mjs src/tests/unit/content-aggregator-images.test.mjs src/tests/unit/content-aggregator-youtube-api.test.mjs src/tests/unit/content-aggregator-transcript.test.mjs src/tests/unit/content-aggregator-podcast-api.test.mjs src/tests/unit/content-aggregator-podcast-orchestration.test.mjs src/tests/unit/content-aggregator-video-orchestration.test.mjs src/tests/unit/findFirstExistingImage.test.ts src/tests/unit/audio.test.ts src/tests/unit/convertToSlug.test.ts src/tests/unit/formatDate.test.ts src/tests/unit/convertToISO8601Duration.test.ts src/tests/unit/formatDuration.test.ts src/tests/unit/imageSizes.test.ts src/tests/unit/isDurationOneMinuteOrUnder.test.ts src/tests/unit/statsResponse.test.ts",
     "test:smoke": "npm run build && npx playwright test --project=smoke",
     "test:visual": "npm run build && npx playwright test --project=visual-desktop --project=visual-mobile",
     "test:visual:update": "npm run build && npx playwright test --update-snapshots --project=visual-desktop --project=visual-mobile",
@@ -55,7 +55,8 @@
     "sharp": "0.35.3",
     "slugify": "^1.6.6",
     "turndown": "^7.2.0",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "youtube-captions-scraper": "^2.0.3"
   },
   "overrides": {
     "sharp": "0.35.3"

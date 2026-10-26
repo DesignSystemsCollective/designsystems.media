@@ -11,6 +11,7 @@ const fs = require("fs");
 const path = require("path");
 const slugify = require("slugify");
 const { getAllVideosFromChannel, getAllVideosFromPlaylist } = require("./youtube.ts");
+const { fetchTranscript } = require("./transcript.ts");
 const {
   loadJsonFile,
   createDirectory,
@@ -54,7 +55,7 @@ const createFolderName = (title: string): string => {
     .join("-");
 };
 
-const generateMdxFile = (video: Video, folderPath: string): void => {
+const generateMdxFile = (video: Video, folderPath: string, transcript: string | null = null): void => {
   const indexPath = path.join(folderPath, "index.mdx");
 
   // Skip if file already exists
@@ -64,6 +65,17 @@ const generateMdxFile = (video: Video, folderPath: string): void => {
 
   // Create folder if it doesn't exist
   createDirectory(folderPath);
+
+  // Written as a plain sibling file (next to poster.jpg), not a frontmatter
+  // field: output.json already holds every video's full description and is
+  // committed to the repo, so adding full transcript text to that same
+  // per-video record would multiply its size many times over across ~1,100
+  // entries. Keeping it out of the Zod-validated content collection schema
+  // too means it's available on disk for later tooling (classification,
+  // search) without the full-site build having to parse it on every run.
+  if (transcript) {
+    fs.writeFileSync(path.join(folderPath, "transcript.txt"), transcript);
+  }
 
   const frontmatter = {
     title: video.title,
@@ -131,7 +143,13 @@ const processVideos = async (
     const folderName = createFolderName(video.title);
     const folderPath = path.join(outputDir, folderName);
 
-    generateMdxFile(video, folderPath);
+    // Only fetch a transcript for videos actually about to be written -
+    // generateMdxFile no-ops for an existing folder, so fetching first would
+    // waste a network call on every already-processed video re-encountered.
+    const indexPath = path.join(folderPath, "index.mdx");
+    const transcript = fs.existsSync(indexPath) ? null : await fetchTranscript(video.videoUrl);
+
+    generateMdxFile(video, folderPath, transcript);
     processedVideos.push(video);
   }
 
