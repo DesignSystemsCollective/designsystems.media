@@ -1,5 +1,61 @@
 [
   {
+    "title": "Is structured content important for design systems in the age of AI?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Luke's already rabbited on about structured content in previous episodes, but now the landscape has changed, is structured content still important? Or have LLMs changed the game and made it a moot point? In this episode, we dive into structured content, where the limits are, and what you should do to make sure your content is as readable as possible.</p><p><b>Show notes</b></p><ul><li><a href='https://chsmc.org/2021/08/systems-as-knowledge-graphs/'>Design systems as knowledge graphs</a> </li><li><a href='https://roamresearch.com/'>Roam Research</a> and<a href='https://obsidian.md/'> Obsidian</a> — the structured-content note tools referenced</li><li><a href='https://designsystemdocspec.org/'>Design System Documentation Spec</a> </li><li><a href='https://www.w3.org/community/designsystemdocs/'>W3C Design System Documentation Community Group</a> </li><li><a href='https://www.w3.org/community/design-tokens/'>Design Tokens Community Group</a> — the precedent Guillaume referenced</li><li><a href='https://zeroheight.com/arc/'>DS ARC</a> </li><li><a href='https://zeroheight.com/mcp/'>zeroheight MCP</a> </li><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li><li>Email: community@zeroheight.com</li></ul><p><b><br/></b><br/></p><p><b><br/><br/></b><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/20021693-is-structured-content-important-for-design-systems-in-the-age-of-ai.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/20021693-is-structured-content-important-for-design-systems-in-the-age-of-ai.mp3",
+    "publishedAt": "2026-10-27T04:00:00.000Z",
+    "duration": "1:00:07",
+    "durationSeconds": 3607,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 62329305445,
+    "guid": "Buzzsprout-20021693",
+    "season": 2,
+    "episode": 66,
+    "explicit": false,
+    "type": "full"
+  },
+  {
+    "title": "Agents are the new users of design systems, with Mike Kamminga",
+    "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/887923/fan_mail/new\">Send us feedback or episode suggestions.</a></p><p>Design systems were built to close the gap between a brand and the products that express it. Now an agent sits in that gap, and it arrives at every task like a new hire who has never seen the system. In this episode of Patterns, Chris Strahl talks with Mike Kamminga, CEO and founder of Tokens Studio, about what that changes for tokens, components, and the context teams hand to their agents.<br/><br/>Mike describes a design system as component definitions, design tokens, and translation rules, then explains why agents lean on what they learned in training, like Tailwind, over what a team intends. The conversation covers source of truth, guardrails built for slower release cycles, design.md, and what Mike calls an experience system.<br/><br/>We'll explore:</p><ul><li>Why an agent is \"the new guy on the job\" every time, and what that means for how a design system is documented and delivered</li><li>Why models lean on what they saw in training, and what it takes to steer an agent toward something different</li><li>Why Mike has yet to hear a good argument for code or design alone being the source of truth, and why a design system is a prescriptive ideal state</li><li>Whether guardrails built for slow release cycles still pay off when an agent can fix a mistake in minutes</li><li>Why a five-minute style guide is a good start for prototypes, and why Mike calls the next step an experience system</li></ul>",
+    "podcastTitle": "Patterns Podcast",
+    "episodeUrl": "https://www.buzzsprout.com/887923/episodes/20009355-agents-are-the-new-users-of-design-systems-with-mike-kamminga.mp3",
+    "audioUrl": "https://www.buzzsprout.com/887923/episodes/20009355-agents-are-the-new-users-of-design-systems-with-mike-kamminga.mp3",
+    "publishedAt": "2026-10-26T16:00:00.000Z",
+    "duration": "0:43:47",
+    "durationSeconds": 2627,
+    "episodeImageUrl": "https://storage.buzzsprout.com/5ktvynbfqh4l7rpcyt9quyy2fmip?.jpg",
+    "podcastImageUrl": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/5ktvynbfqh4l7rpcyt9quyy2fmip?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/ry84v4f5cubh6l9hapbx152np1l0?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/887923.rss",
+    "feedId": 650204,
+    "episodeId": 62302997189,
+    "guid": "Buzzsprout-20009355",
+    "season": 2,
+    "episode": 7,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Keeping the big picture in view, with James McElroy",
     "description": "<p><a target=\"_blank\" href=\"https://www.buzzsprout.com/887923/fan_mail/new\">Send us feedback or episode suggestions.</a></p><p>AI makes it easier than ever to build the wrong thing quickly. Zooming out to see the whole system is one way teams notice. In this episode of Patterns, Chris Strahl talks with James McElroy, a designer and design leader who started in mechanical engineering, about keeping the big picture in view while the tools get faster.<br/><br/>James traces a systems mindset from childhood terminals at home to a first design job at Bose, where a handheld home theater remote with a 128-segment display forced James to be frugal with every segment. From there the conversation moves through Monster.com in the dot-com era, architects at Autodesk, the pendulum problem of AI hype, and how to help colleagues at companies that are not tech native understand what AI can and can't do.<br/><br/>We'll explore:</p><ul><li>Why the ability to zoom out and see every screen, flow, or piece of hardware is still one of the most compelling things a designer can show a team</li><li>What designing for a 128-segment display taught James about frugal, systems-level design</li><li>Why happy paths are largely a myth in complex products, and what the miserable path shows</li><li>How to help people at companies that are not tech native understand AI, starting with using it daily until its limits show</li><li>Why agreeing on goals matters more than deciding who owns the screen when everyone can make a mockup</li></ul>",
     "podcastTitle": "Patterns Podcast",
