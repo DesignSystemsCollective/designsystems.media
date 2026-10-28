@@ -1,5 +1,33 @@
 [
   {
+    "title": "Tricks & Treats w/ Geoff Graham | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/1dp6v20gll4hc6os/yt_video_4O8_H9uoWvY_iusaip.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/1dp6v20gll4hc6os/yt_video_4O8_H9uoWvY_iusaip.mp3",
+    "publishedAt": "2026-10-27T19:28:22.000Z",
+    "duration": "1:04:40",
+    "durationSeconds": 3880,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/c00fc12552ad3804df64292dcf21b2ee.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/c00fc12552ad3804df64292dcf21b2ee.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 62377290894,
+    "guid": "yt:video:4O8_H9uoWvY",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Is structured content important for design systems in the age of AI?",
     "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>Luke's already rabbited on about structured content in previous episodes, but now the landscape has changed, is structured content still important? Or have LLMs changed the game and made it a moot point? In this episode, we dive into structured content, where the limits are, and what you should do to make sure your content is as readable as possible.</p><p><b>Show notes</b></p><ul><li><a href='https://chsmc.org/2021/08/systems-as-knowledge-graphs/'>Design systems as knowledge graphs</a> </li><li><a href='https://roamresearch.com/'>Roam Research</a> and<a href='https://obsidian.md/'> Obsidian</a> — the structured-content note tools referenced</li><li><a href='https://designsystemdocspec.org/'>Design System Documentation Spec</a> </li><li><a href='https://www.w3.org/community/designsystemdocs/'>W3C Design System Documentation Community Group</a> </li><li><a href='https://www.w3.org/community/design-tokens/'>Design Tokens Community Group</a> — the precedent Guillaume referenced</li><li><a href='https://zeroheight.com/arc/'>DS ARC</a> </li><li><a href='https://zeroheight.com/mcp/'>zeroheight MCP</a> </li><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li><li>Email: community@zeroheight.com</li></ul><p><b><br/></b><br/></p><p><b><br/><br/></b><br/></p>",
     "podcastTitle": "Design Systems WTF",
