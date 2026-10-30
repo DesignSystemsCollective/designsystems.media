@@ -1,5 +1,272 @@
 [
   {
+    "title": "Design Systems WTF #67 - Do designers need to code NOW?",
+    "description": "Do designers, especially designers on design systems, need to know how to code? Or at least know enough to understand what they're looking at? \n\nLuke and Michelle dive into everyone's favorite topic, which has probably changed quite a bit in the age of AI. So, do you need to open VS Code right now?\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LQ35Mb1ChQI",
+    "publishedAt": "2026-10-29T13:28:23Z",
+    "privacyStatus": "public",
+    "duration": "0:48:52",
+    "durationSeconds": 2932
+  },
+  {
+    "title": "Using the zeroheight MCP to automatically update your design system documentation",
+    "description": "Docs are usually the last bit of a component to get done, and they’re the bit that actually helps people (and agents) use it. In this video I document a brand new component, Metric Card, in our Baseline design system with one prompt, using the zeroheight MCP, Claude Code, the Figma MCP and our codebase.\n\nThe agent pulls the template and tone of voice from zeroheight, reads the component in code and the design in Figma, then builds the page with native zeroheight blocks. Then it audits the page against the Design System Documentation Spec. It scores 69% on the first pass and 97% once it’s fixed the gaps. It also flags anything it can’t resolve, and everything stays a hidden draft until a human signs off. You can also set the whole flow to run on a schedule, so your docs keep up with Figma and the repo without anyone having to remember.\n\nChapters\n0:00 Intro\n0:14 Why docs get left behind\n0:30 How the pieces connect\n0:42 The prompt and the context\n1:08 The finished page\n1:24 Auditing against DSDS\n1:50 Fixing the gaps and flagging drift\n2:14 Hidden drafts and publishing\n2:29 Running it on a schedule\n2:43 Getting started\n\nLinks\nzeroheight MCP: https://zeroheight.com/mcp/\nSet up MCP access (help docs): https://help.zeroheight.com/hc/en-us/articles/51467311835803-Set-up-MCP-access-via-login\nMCP use cases: https://zeroheight.com/mcp/use-cases/\nAuditing your documentation in zeroheight: https://zeroheight.com/mcp/use-cases/auditing-your-documentation-in-zeroheight/\nDrafting documentation automatically when design or code changes: https://zeroheight.com/mcp/use-cases/drafting-documentation-automatically-when-design-or-code-changes/\nDesign System Documentation Spec: https://designsystemdocspec.org/\nFigma MCP server: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server\nClaude Code: https://claude.com/claude-code\nClaude Code routines (for scheduled runs): https://code.claude.com/docs/en/routines\n\nThe zeroheight MCP works with Claude Code, Cursor, VS Code, Codex and Kiro (or any other AI tool that supports MCP).\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=u0REHT111v4",
+    "publishedAt": "2026-10-29T11:05:23Z",
+    "privacyStatus": "public",
+    "duration": "0:03:04",
+    "durationSeconds": 184
+  },
+  {
+    "title": "Design Systems WTF #66 - Is structured content important for design systems in the age of AI?",
+    "description": "Now the landscape has changed, is structured content still important? \n\nOr have LLMs changed the game and made it a moot point? \n\nIn this episode, Luke and Michelle dive into structured content, where the limits are, and what you should do to make sure your content is as readable as possible.\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=uiBZMHinzkg",
+    "publishedAt": "2026-10-28T12:07:08Z",
+    "privacyStatus": "public",
+    "duration": "0:58:56",
+    "durationSeconds": 3536
+  },
+  {
+    "title": "Supernova at a Glance: The Agentic Design System Platform in 3 Minutes",
+    "description": "Your teams now ship with AI agents, and every agent has to know how your product should look and work. That knowledge lives in your design system, spread across Figma, Storybook, code and docs and kept in sync by hand, so agents guess and teams drift.\n\nIn this under-3-minute walkthrough, we show you how Supernova, the agentic design system platform, turns your design system into one source of truth for your teams and their AI agents. It does four jobs: manage your design data, document it, deliver it to code and to agents, and improve it from how it's used.\n\nYou'll see how to:\n✦ Connect Figma, Storybook, Tokens Studio and your codebase into one design system\n✦ Keep every token and component in sync across themes and brands\n✦ Build documentation from live data, and let the Supernova Agent write the pages for review\n✦ Turn a token change into pull requests for web, iOS and Android\n✦ Give Cursor, Claude Code and Copilot your design system through per-team MCP servers\n✦ See how the system is used, and fix the gaps agents report\n\n⏱ Chapters\n0:00 The problem\n0:29 What Supernova does\n0:45 Manage\n1:14 Document\n1:40 Deliver\n2:04 Improve\n2:25 Why it matters\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you get your design system ready for, and built by, the agents.\n\n#DesignSystems #AIAgents #MCP #DesignTokens #Figma #ClaudeCode #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=t70xprgWY6o",
+    "publishedAt": "2026-10-28T11:41:28Z",
+    "privacyStatus": "public",
+    "duration": "0:02:49",
+    "durationSeconds": 169
+  },
+  {
+    "title": "Supernova Agent: Five Ways to Automate Your Daily Design System Operations",
+    "description": "A design system is never finished. Keeping it up to date while it supports the whole organization means an endless list of docs, tokens, components, and requests from every team.\n\nIn this under-3-minute walkthrough, we show you how the Supernova Agent automates your daily design system operations, with five examples to spark ideas. The agent works with everything in Supernova, knows the page you're on, and asks before it publishes or deletes anything.\n\nYou'll see how to:\n✦ Ask the agent for a health check and see what's missing in your design system\n✦ Document the components that have no docs, with dos and don'ts, linked and kept in draft\n✦ Find tokens nothing uses and fill in missing descriptions, with deletes waiting for your approval\n✦ Tell the agent what your teams build and get a dedicated MCP server for each team\n✦ Turn the feedback agents leave on your MCP servers into doc, token, and component fixes\n\n⏱ Chapters\n0:00 Welcome\n0:12 What the Supernova Agent can do\n0:37 Example 1: Get a health check\n0:57 Example 2: Document what's missing\n1:17 Example 3: Clean up your tokens\n1:38 Example 4: MCP servers for your teams\n2:00 Example 5: Turn agent feedback into fixes\n2:22 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you spend less time keeping your design system up to date.\n\n#DesignSystems #AIAgents #DesignTokens #MCP #Documentation #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qB9Jh8fNPpE",
+    "publishedAt": "2026-10-26T17:56:37Z",
+    "privacyStatus": "public",
+    "duration": "0:02:37",
+    "durationSeconds": 157
+  },
+  {
+    "title": "Supernova Agent: From Endless Design System Maintenance to Work Done in Minutes",
+    "description": "Your design system is never done. Docs need writing, tokens need cleaning up, and the same small fixes come back every week, so your team spends its time on maintenance instead of new work.\n\nMeet the Supernova Agent. Ask it in plain words: it reads your design system, writes and updates your documentation, and cleans up design system data in bulk. Publishing and deleting always wait for your approval, and you can run several tasks at once.\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you let agents do the heavy lifting.\n\n#DesignSystems #AIAgents #Documentation #DesignTokens #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FyoDqMJTGaQ",
+    "publishedAt": "2026-10-26T15:10:03Z",
+    "privacyStatus": "public",
+    "duration": "0:01:03",
+    "durationSeconds": 63
+  },
+  {
+    "title": "My floor sanding business made me famous | How I Did It",
+    "description": "Growing up on a council estate and living with ADHD, Danny Stenhouse never imagined he’d end up where he is today.\n\nHe had many different jobs in his twenties and thirties before eventually finding his calling: running a floor sanding business and posting flooring transformation videos that are watched by millions of people.\n\nThis is Danny’s story – and how he did it.\n\n- \n\nHow I Did It is a series from GOV.UK introducing people in the UK who have turned their ideas, passions and skills into careers on their own terms.\n\nMeet the business owners, freelancers and self-employed people who have taken the leap to work for themselves. From starting out in a spare room to building a multi-million-pound business, they share how they got started, the challenges they faced and what they’ve learned along the way.\n\nWhether you’re just starting out or looking to take your business to the next level, find practical advice and support on GOV.UK. For more information about starting your own business, go to www.gov.uk/browse/business\n\nFor information about being self-employed and working for yourself, go to www.gov.uk/working-for-yourself\n\nGOV.UK is the home of the United Kingdom government, providing a single point of access to government services and information.\n\nFollow GOV.UK on social media:\nThreads: https://www.threads.com/govuk\nInstagram: https://www.instagram.com/govuk/\nFacebook: https://www.facebook.com/p/GOVUK-61556546057412/\nX: https://x.com/govuk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ysj0v2YcC94",
+    "publishedAt": "2026-10-25T10:00:05Z",
+    "privacyStatus": "public",
+    "duration": "0:09:44",
+    "durationSeconds": 584
+  },
+  {
     "title": "Supernova at WaysConf 2026: What Designers Told Us About Design Systems and AI",
     "description": "Design systems used to be a niche topic. Now that AI agents build so much of our UI, they've become a crucial part of how product teams work, and our booth at WaysConf 2026 in Kraków was busy for two days straight.\n\nIn this 2-minute look-back, we share what we heard from the designers and design system teams who stopped by, including Supernova customers who run their design system on it every day.\n\nYou'll hear:\n✦ Why design systems matter more now that AI agents are everywhere\n✦ How Supernova brings together data from Figma, Storybook and code, and turns it into documentation for your teams and their agents\n✦ Why teams use Supernova as their single source of truth\n✦ How Supernova works as a bridge between design and development\n✦ How a UX writer keeps rules, guidelines and a glossary in Supernova, and connects it to Claude through the Supernova MCP\n✦ Why keeping big teams aligned is still the hardest part\n\n⏱ Chapters\n0:00 WaysConf 2026 in Kraków\n0:14 Why design systems matter now\n0:38 What we heard: a single source of truth\n0:54 A bridge between design and development\n1:11 Rules, glossary and the Supernova MCP\n1:31 Keeping big teams aligned\n1:52 Thank you, see you next time\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nThank you to everyone who stopped by our booth, and to the WaysConf team for two great days. We're happy to help you keep every team, and every agent, aligned with your design system.\n\n#DesignSystems #WaysConf #AIAgents #MCP #UXDesign #DesignOps #Supernova",
     "thumbnails": {
