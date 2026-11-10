@@ -1,5 +1,33 @@
 [
   {
+    "title": "Do designers need to code NOW?",
+    "description": "<p>Live recording of the fortnightly podcast Design Systems WTF (back for season two!), where Luke Murphy and Michelle Chin attempt to combat all the amazing wtf in design systems. In each episode, they answer a single question around design system troubles with a Q&A from the live audience.</p><p>The eternal question is back... do designers, especially designers on design systems, need to know how to code? Or at least know enough to be dangerous and understand what they're looking at? Luke and Michelle dive into everyone's favorite topic, which has probably changed quite a bit in the age of AI. So, do you need to open VS Code right now?</p><p>Show notes</p><ul><li><a href='https://www.theiaconference.com/'>Information Architecture Conference</a> is in Philadelphia in April, and <a href='https://www.theiaconference.com/poster-night/'>Poster Night</a> (hosted by Michelle) has its call for posters open for a couple more weeks</li><li><a href='https://report.zeroheight.com'>Design System Report</a> — the annual state of design systems survey, open until December</li><li><a href='https://zeroheight.com/arc/'>DS ARC</a> — the AI readiness checker for your design system docs</li><li><a href='https://piccalil.li'>Piccalilli</a> — front-end courses, and the people who make them get paid</li><li><a href='https://www.joshwcomeau.com'>Josh W. Comeau</a> — tutorials and courses on good front-end practice</li><li><a href='https://css-tricks.com'>CSS-Tricks</a> — back in community hands</li><li><a href='https://www.frontendmentor.io'>Frontend Mentor</a> — recommended in the chat</li><li><a href='https://www.w3schools.com'>W3Schools</a> — the classic reference</li><li><a href='https://bradfrost.com/blog/post/a-global-design-system/'>A Global Design System</a> — Brad Frost's proposal for standardised components</li><li><a href='https://bsky.app/profile/lurkmurphy.bsky.social'>Luke on Bluesky</a></li><li><a href='https://bsky.app/profile/soysaucechin.bsky.social'>Michelle on Bluesky</a></li><li>Email: community@zeroheight.com</li></ul><p><b><br/></b><br/></p>",
+    "podcastTitle": "Design Systems WTF",
+    "episodeUrl": "https://www.buzzsprout.com/2254397/episodes/20098057-do-designers-need-to-code-now.mp3",
+    "audioUrl": "https://www.buzzsprout.com/2254397/episodes/20098057-do-designers-need-to-code-now.mp3",
+    "publishedAt": "2026-11-10T04:00:00.000Z",
+    "duration": "0:47:54",
+    "durationSeconds": 2874,
+    "episodeImageUrl": null,
+    "podcastImageUrl": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg",
+    "thumbnails": {
+      "high": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      },
+      "maxres": {
+        "url": "https://storage.buzzsprout.com/lfy7n364re5jkxhdfkrgeyersyrv?.jpg"
+      }
+    },
+    "feedUrl": "https://rss.buzzsprout.com/2254397.rss",
+    "feedId": 6628981,
+    "episodeId": 62995367698,
+    "guid": "Buzzsprout-20098057",
+    "season": 2,
+    "episode": 67,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Motion Systems w/ Ryan Smith | Wireframe Live",
     "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
     "podcastTitle": "Wireframe by Design Systems House",
