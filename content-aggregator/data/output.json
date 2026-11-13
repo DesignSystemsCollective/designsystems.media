@@ -1,5 +1,645 @@
 [
   {
+    "title": "Design Tokens workflow in Figma: A practical guide",
+    "description": "Building design tokens without a plan can cause more harm than good. Philipp Jeroma shows how to plan a design token system before you build it: with five pillars of planning, a design token starter canvas in FigJam and a starter set in Figma that turns the plan into variables.\n\nThis is the recording of Philipp Jeroma's session at the Into Design Systems Conference 2025. Philipp (Design Lead / Global HMI Coordinator at STULZ Digital Solutions, ex Europace AG) walks through a fictional cyberpunk corporation whose product director demands design tokens now. He explains why a Figma or CSS variable is not a design token but the outcome of one. Then he answers the planning questions live in his canvas and builds the first token version in Figma.\n\nYou will learn:\n→ Why design tokens and variables are not the same thing and when variables are enough\n→ The five pillars of planning: strategic alignment, organization and governance, architecture and scaling, infrastructure and maintenance\n→ How to define an MVP for your tokens, turn values into decisions and name them so your users understand them\n→ When to export variables with a plugin and when to automate with Tokens Studio\n→ How library metrics in Figma showed 20k button instances before a breaking change\n\nChapters:\n0:00 A product director demands design tokens\n1:06 Design tokens are not variables\n3:25 Know your resources: a lesson from historical fencing\n5:38 Make a plan: the five pillars of planning\n8:18 Challenges you will face with design tokens\n10:08 The Design Token Starter Canvas in FigJam\n14:56 Start small and iterate\n16:17 Step 1: define the MVP\n17:39 Step 2: turn values into decisions\n19:51 Step 3: naming conventions for design tokens\n22:23 SCALES: a design token starter set in Figma\n29:22 Live demo: building the MVP with Figma variables\n34:04 Variables or automated design tokens with Tokens Studio\n36:40 Automation and integration: work close with your devs\n38:39 Step 5: continuous discovery\n39:44 Summary and free resources\n41:40 Q&A\n43:00 Q&A: tracking component usage with Figma library metrics\n45:13 Q&A: version control for design tokens\n47:56 Q&A: design tokens for a design team of one\n\n------\n\nLearn the AI workflows top designers use\nJoin our AI Design Systems Conference 2027 on March 10 and 11 2027 online with speakers from OpenAI, Anthropic and Netflix: https://www.intodesignsystems.com/\n\nFIND US ON SOCIAL\nLinkedIn: https://www.linkedin.com/company/into-design-systems/\n\nFIND PHILIPP ON SOCIAL\nLinkedIn: https://www.linkedin.com/in/philipp-jeroma-b1651459/\n\n#designtokens #figma #designsystems",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2mwL6D0jXjo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2mwL6D0jXjo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2mwL6D0jXjo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/2mwL6D0jXjo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/2mwL6D0jXjo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2mwL6D0jXjo",
+    "publishedAt": "2026-11-11T22:29:14Z",
+    "privacyStatus": "public",
+    "duration": ""
+  },
+  {
+    "title": "Prototyping for the unknown: design tokens with AI",
+    "description": "Nate Baldwin's team had thousands of design tokens and only two people to manage them. Most of the tokens were component-specific. Nate did not want to build a new token system blind. So he used AI prototyping with Claude, Copilot and Cursor to explore it first. In about eight weeks he built a working prototype of a token authoring ecosystem with a taxonomy system for token names, GitHub-based extensibility and multi-dimensional token values that map to Figma variables.\n\nThis is the recording of Nate Baldwin's session at the Into Design Systems AI Conference 2026. Nate (Sr Staff Experience Designer at Adobe) shows why complex systems need discovery before validation. He shares two methods that made his prototype work. Branch and burn is for throwaway AI explorations. The four-step structured prompting method gets near-production quality code.\n\nYou will learn:\n→ Why complex systems need discovery before you validate a solution\n→ How branch and burn lets AI fail safely in throwaway Git branches\n→ The 4 steps of structured prompting: context priming, detailed planning, plan refinement and implementation\n→ Why a prototype can be wrong but should never be fragile\n→ How a taxonomy system generates token names instead of hand typing them\n\nChapters:\n0:00 Complex systems are like uncharted terrain\n1:49 Nate Baldwin: find the path before you pave the road\n3:29 When a design token system hits a breaking point\n5:17 Taxonomy, token authorship and multidimensionality\n7:12 Turning to AI prototyping: the token data model\n8:25 Building a JSON schema with Claude and Copilot\n10:03 Vibe coding a web app in Cursor and why progress stalled\n12:31 Learning requirements from AI slop\n13:34 Method 1: branch and burn\n15:55 A prototype can be wrong but shouldn't be fragile\n17:22 Method 2: 4-step structured prompting\n17:46 Step 1: context priming\n18:49 Step 2: detailed planning\n21:10 Step 3: plan refinement\n22:30 Step 4: implementation\n23:59 What 8 weeks of AI prototyping built\n25:00 A taxonomy system for token names\n26:09 Extending tokens across teams with GitHub\n27:28 Multi-dimensional tokens and Figma variables\n29:37 Taking your team on a journey\n30:07 Takeaways\n31:50 Q&A: models, prototypes in production, human judgment and team size\n\n------\n\nWatch all 15 sessions of the AI Conference 2026\nThis talk is one of 15 sessions from the Into Design Systems AI Conference 2026. Get all recordings with slides, templates and prompts for $599 with lifetime access: https://www.intodesignsystems.com/conference-2026\n\n------\n\nLearn the AI workflows top designers use\nJoin our AI Design Systems Conference 2027 on March 10 and 11 2027 online with speakers from OpenAI, Anthropic and Netflix: https://www.intodesignsystems.com/\n\nFIND US ON SOCIAL\nLinkedIn: https://www.linkedin.com/company/into-design-systems/\n\nFIND NATE ON SOCIAL\nLinkedIn: https://www.linkedin.com/in/natebaldwindesign/\n\n#designsystems #designtokens #vibecoding",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lxzZ2Gbbg6k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lxzZ2Gbbg6k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lxzZ2Gbbg6k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/lxzZ2Gbbg6k/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/lxzZ2Gbbg6k/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lxzZ2Gbbg6k",
+    "publishedAt": "2026-11-11T21:35:32Z",
+    "privacyStatus": "public",
+    "duration": ""
+  },
+  {
+    "title": "How to: Draft your design system docs automatically when Figma or code changes | zeroheight MCP",
+    "description": "When a component changes in Figma or in your code, two agents can draft the docs update in zeroheight for you. This walkthrough covers setting them up and running them, first by hand and then on a schedule. It uses Claude Code with the zeroheight MCP and the Figma MCP.\n\nGet the setup guide and both skill files: https://hubs.li/Q04DTx5w0\n\n-- The watcher checks Figma and your code for changes and logs them in a hidden ledger page in zeroheight. It never touches your docs.\n-- The writer picks up the changes where design and code agree and drafts the documentation update for a person to review and publish.\n\nWhen only one side changes, it’s flagged as drift for your team to sort out rather than be documented.\n\nThis is the follow-up to License to Build Dispatch #4. Watch the full session for the best practices and the gotchas we hit along the way:  https://hubs.li/Q04DTC2S0\n\nChapters\n0:00 Intro\n0:11 Set up: connect zeroheight, Figma and your code\n0:55 Run the watcher\n1:43 Run the writer\n2:26 Review and publish the draft\n2:51 Put it on a schedule\n\nzeroheight: https://zeroheight.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qWG4sYdaAuE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qWG4sYdaAuE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qWG4sYdaAuE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qWG4sYdaAuE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qWG4sYdaAuE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qWG4sYdaAuE",
+    "publishedAt": "2026-11-10T16:02:58Z",
+    "privacyStatus": "public",
+    "duration": "0:03:22",
+    "durationSeconds": 202
+  },
+  {
+    "title": "Going freelance landed me my dream job in radio | How I Did It",
+    "description": "Fee Mak knew from an early age that a career in the media industry was what she wanted to do. Over the past 10 years, she has built a successful freelance media career, navigating the highs and lows of working for herself and continually finding ways to get her foot in the door.\n\nShe now regularly presents her own show every week on a national radio station, with thousands of people tuning in each week.\n\nThis is Fee’s story – and how she did it.\n\n-\n\nHow I Did It is a series from GOV.UK introducing people in the UK who have turned their ideas, passions and skills into careers on their own terms.\n\nMeet the business owners, freelancers and self-employed people who have taken the leap to work for themselves. From starting out in a spare room to building a multi-million-pound business, they share how they got started, the challenges they faced and what they’ve learned along the way.\n\nWhether you’re just starting out or looking to take your business to the next level, find practical advice and support on GOV.UK. For more information about starting your own business, go to www.gov.uk/browse/business\n\nFor information about being self-employed and working for yourself, go to www.gov.uk/working-for-yourself\n\nGOV.UK is the home of the United Kingdom government, providing a single point of access to government services and information.\n\nFollow GOV.UK on social media:\nThreads: https://www.threads.com/govuk\nInstagram: https://www.instagram.com/govuk/\nFacebook: https://www.facebook.com/p/GOVUK-61556546057412/\nX: https://x.com/govuk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4F60LD236Pg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4F60LD236Pg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4F60LD236Pg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/4F60LD236Pg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/4F60LD236Pg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=4F60LD236Pg",
+    "publishedAt": "2026-11-10T15:00:20Z",
+    "privacyStatus": "public",
+    "duration": "0:09:29",
+    "durationSeconds": 569
+  },
+  {
+    "title": "How NY State uses AI with its Design System",
+    "description": "New York State fed a 5-page foster and adoptive parent application PDF into Claude Code. About 13 minutes later it had a multi-step web form built with the New York State Design System. It worked because Claude Code queried the design system MCP server for tested components, tokens and validation patterns instead of guessing.\n\nThis is the recording of Jesse Gardner's session at the Into Design Systems AI Conference 2026. Jesse (Director of Accessibility and Design Systems at the New York State Office of Information Technology Services) walks through two demos built with Claude Code. The first turns a PDF into a web form. The second generates 40 interaction patterns plus a gap analysis that his team reviewed in FigJam. Then he shows how Figma Code Connect, a custom MCP server and JSDoc usage guidance give AI the context to build accessible interfaces.\n\nYou will learn:\n→ Why AI without context builds the average of the internet\n→ How Figma Code Connect and the Figma MCP server return real design system code\n→ How JSDoc usage guidance in your components becomes guidance for AI\n→ Why an MCP server beats pointing AI at 50,000 to 80,000 tokens of raw component code\n→ Which work still needs designers after AI builds the form\n\nChapters:\n0:00 Jesse Gardner and the New York State Design System\n0:40 Demo 1: turning a 5-page PDF into a web form with Claude Code\n3:14 Demo 2: 40 interaction patterns and a gap analysis\n7:03 Is this good? Accessibility vs. the most probable answer\n8:02 Why large organizations end up with dozens of different buttons\n10:03 AI is like hiring a new contractor\n11:39 How AI compounds fragmentation: speed and access\n14:45 The 3 pillars of the New York State Design System\n16:12 Consistency, connected tokens and accessibility built in\n21:30 Figma MCP server vs. a custom design system MCP server\n22:44 Figma Code Connect: design to code like a mail merge\n24:40 JSDoc usage guidance as context for AI\n27:56 DTCG design tokens and the custom element manifest\n29:31 Where the hard work still lives: policy and design review\n32:21 From responsive design to rules for AI interfaces\n34:35 Code generation is a commodity, trustworthy implementation is not\n35:50 Takeaways for designers, developers and leaders\n38:16 A word to AI skeptics\n39:59 Q&A: keeping sources in sync, privacy and accessibility\n\n------\n\nWatch all 15 sessions of the AI Conference 2026\nThis talk is one of 15 sessions from the Into Design Systems AI Conference 2026. Get all recordings with slides, templates and prompts for $599 with lifetime access: https://www.intodesignsystems.com/conference-2026\n\n------\n\nLearn the AI workflows top designers use\nJoin our AI Design Systems Conference 2027 on March 10 and 11 2027 online with speakers from OpenAI, Anthropic and Netflix: https://www.intodesignsystems.com/\n\nFIND US ON SOCIAL\nLinkedIn: https://www.linkedin.com/company/into-design-systems/\n\nFIND JESSE ON SOCIAL\nLinkedIn: https://www.linkedin.com/in/plasticmind/\n\n#designsystems #claudecode #accessibility",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/r-ndKlKNRqk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/r-ndKlKNRqk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/r-ndKlKNRqk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/r-ndKlKNRqk/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/r-ndKlKNRqk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=r-ndKlKNRqk",
+    "publishedAt": "2026-11-10T14:15:10Z",
+    "privacyStatus": "public",
+    "duration": "0:53:51",
+    "durationSeconds": 3231
+  },
+  {
+    "title": "Supernova Figma Variables Sync: From Variables to Design Tokens, with Themes and Brands",
+    "description": "Your design decisions live as variables in Figma, but your design system needs them as tokens, with every mode and brand intact. Copying them over by hand is slow, and they drift the moment someone changes a color.\n\nIn this under-3-minute walkthrough, we show you how to bring your Figma variables into Supernova with the Figma Variables Sync plugin. You choose a design system, select your collections, set up modes as themes, push, and push again whenever a variable changes.\n\nYou'll see how to:\n✦ Find Supernova Figma Variables Sync in the Figma Community and sign in with your Supernova account\n✦ Choose the workspace and design system your tokens go to\n✦ Select your collections, with referenced ones like Base brought along automatically\n✦ Set the base token value and bring every mode in as a theme\n✦ Click Push collections to Supernova and find your tokens in Design Tokens\n✦ Click Push updates to Supernova whenever a variable changes in Figma\n✦ Map each brand to its own dataset, with extended collections or brands as modes\n\n⏱ Chapters\n0:00 Welcome\n0:13 Start in Figma: the plugin and your variables\n0:41 Steps 1 and 2: Choose the design system, then select collections\n1:06 Step 3: Set up your modes as themes\n1:24 Step 4: Push to Supernova\n1:50 Step 5: Push updates\n2:03 Advanced: Brand mapping\n2:32 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you keep your Figma variables and design tokens in sync.\n\n#DesignSystems #Figma #DesignTokens #FigmaVariables #Theming #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2ZvE3920G5U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2ZvE3920G5U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2ZvE3920G5U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/2ZvE3920G5U/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/2ZvE3920G5U/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/2ZvE3920G5U/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=2ZvE3920G5U",
+    "publishedAt": "2026-11-05T07:38:11Z",
+    "privacyStatus": "public",
+    "duration": "0:02:49",
+    "durationSeconds": 169
+  },
+  {
+    "title": "How Zalando Built Its Own AI Prototyping Tool With Claude Code",
+    "description": "Figma Make didn't give the Zalando Design System team on-brand prototypes. So they built their own AI prototyping tool with Claude Code. It turns a Figma design or a prompt into a working Zalando prototype with real product data.\n\nDana Baddad (Senior Product Designer at Zalando) and Gonzalo Vásquez Correa (Senior Product Designer, AI enabler and builder on the Design Systems ZDS team at Zalando) show the ZDS Capsule live at the Into Design Systems meetup at Zalando in Berlin. Gonzalo runs a Claude Code skill that starts agents in parallel and uses the Figma MCP to rebuild a Figma design as a prototype. Dana shows what happened when they rolled it out to the designers at Zalando and why the biggest failure came before the first workshop started.\n\nYou will learn:\n→ The 5 foundations that make a design system AI-ready\n→ Why you should split guidelines into many small design.md files with an index\n→ How a Claude Code skill builds a prototype from a Figma design with the Figma MCP\n→ Why skills should run scripts at the critical step\n→ What an engineer said about AI-generated motion specs\n\nRead the full write-up: https://www.intodesignsystems.com/blog/zalando-design-system-ai-prototyping-tool\n\nChapters:\n0:00 The Zalando Design System team\n1:19 Figma plugins, a migration skill and a Chrome extension\n3:07 Why Figma Make didn't make it\n4:37 ZDS agentic foundations: 5 steps to an AI-ready design system\n5:55 How to write design.md guidelines for AI agents\n7:03 What the first AI prototyping workshops showed\n8:29 Live demo: building a prototype from Figma with Claude Code\n12:31 Real Zalando product data in prototypes\n16:09 Why Claude Code skills should run scripts\n17:47 The biggest failure in AI enablement\n21:02 20+ designers and 98 PRs\n21:39 Prototyping a sticker burst for kids shopping\n23:37 What an engineer said about AI-generated motion specs\n25:06 Machine-ready but human-first\n27:10 Q&A\n\n------\n\nLearn the AI workflows top designers use\nJoin our AI Design Systems Conference 2027 on March 10 and 11 2027 online with speakers from OpenAI, Anthropic and Netflix: https://www.intodesignsystems.com/\n\nFIND US ON SOCIAL\nLinkedIn: https://www.linkedin.com/company/into-design-systems/\n\nFIND DANA ON SOCIAL\nLinkedIn: https://www.linkedin.com/in/danakhb/\n\nFIND GONZALO ON SOCIAL\nLinkedIn: https://www.linkedin.com/in/gonzalovc/\n\n#designsystems #claudecode #zalando",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/e6RJWpAOhxc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/e6RJWpAOhxc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/e6RJWpAOhxc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/e6RJWpAOhxc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/e6RJWpAOhxc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/e6RJWpAOhxc/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=e6RJWpAOhxc",
+    "publishedAt": "2026-11-04T15:00:23Z",
+    "privacyStatus": "public",
+    "duration": "0:37:17",
+    "durationSeconds": 2237
+  },
+  {
+    "title": "Testing whether AI can read your design system docs",
+    "description": "Our State of AI in Design Systems report found that just 17% of teams rate their docs as “very AI-ready”.\n\nWhich means most agents are working from docs their own teams aren’t sure about. 🤯\n\nDS ARC shows you where yours fall short, in minutes.\n\nHere’s how it works.\n\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CSkS44jb_mA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CSkS44jb_mA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CSkS44jb_mA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/CSkS44jb_mA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/CSkS44jb_mA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=CSkS44jb_mA",
+    "publishedAt": "2026-11-04T14:53:32Z",
+    "privacyStatus": "public",
+    "duration": "0:02:05",
+    "durationSeconds": 125
+  },
+  {
+    "title": "Student budgeting tips",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/HrNQUZl8W5s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/HrNQUZl8W5s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/HrNQUZl8W5s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/HrNQUZl8W5s/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/HrNQUZl8W5s/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "shortsAspectRatio": {
+        "url": "https://i.ytimg.com/vi/HrNQUZl8W5s/sardefault.jpg",
+        "width": 1080,
+        "height": 1920
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=HrNQUZl8W5s",
+    "publishedAt": "2026-11-03T16:30:27Z",
+    "privacyStatus": "public",
+    "duration": "0:01:10",
+    "durationSeconds": 70
+  },
+  {
+    "title": "How I turned my passion for fitness into a business",
+    "description": "Lewis Pratten spent years building his experience in the fitness industry as a personal trainer and rugby player. But after coaching an entrepreneur, he saw an opportunity to take his passion for fitness further.\n\nTogether, they built Lewis’s dream business: Hyre, a Bristol-based gym centred on group exercise and community.\n\nThere was just one problem: they launched the gym just as COVID-19 was around the corner.\n\nThis is Lewis’s story – and how he did it.\n\n-\n\nHow I Did It is a series from GOV.UK introducing people in the UK who have turned their ideas, passions and skills into careers on their own terms.\n\nMeet the business owners, freelancers and self-employed people who have taken the leap to work for themselves. From starting out in a spare room to building a multi-million-pound business, they share how they got started, the challenges they faced and what they’ve learned along the way.\n\nWhether you’re just starting out or looking to take your business to the next level, find practical advice and support on GOV.UK. For more information about starting your own business, go to www.gov.uk/browse/business\n\nFor information about being self-employed and working for yourself, go to www.gov.uk/working-for-yourself\n\nGOV.UK is the home of the United Kingdom government, providing a single point of access to government services and information.\n\nFollow GOV.UK on social media:\nThreads: https://www.threads.com/govuk\nInstagram: https://www.instagram.com/govuk/\nFacebook: https://www.facebook.com/p/GOVUK-61556546057412/\nX: https://x.com/govuk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BCEc1g9TiHE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BCEc1g9TiHE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BCEc1g9TiHE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/BCEc1g9TiHE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/BCEc1g9TiHE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=BCEc1g9TiHE",
+    "publishedAt": "2026-11-01T10:00:32Z",
+    "privacyStatus": "public",
+    "duration": "0:10:01",
+    "durationSeconds": 601
+  },
+  {
+    "title": "Design Systems WTF #67 - Do designers need to code NOW?",
+    "description": "Do designers, especially designers on design systems, need to know how to code? Or at least know enough to understand what they're looking at? \n\nLuke and Michelle dive into everyone's favorite topic, which has probably changed quite a bit in the age of AI. So, do you need to open VS Code right now?\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/LQ35Mb1ChQI/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=LQ35Mb1ChQI",
+    "publishedAt": "2026-10-29T13:28:23Z",
+    "privacyStatus": "public",
+    "duration": "0:48:52",
+    "durationSeconds": 2932
+  },
+  {
+    "title": "Using the zeroheight MCP to automatically update your design system documentation",
+    "description": "Docs are usually the last bit of a component to get done, and they’re the bit that actually helps people (and agents) use it. In this video I document a brand new component, Metric Card, in our Baseline design system with one prompt, using the zeroheight MCP, Claude Code, the Figma MCP and our codebase.\n\nThe agent pulls the template and tone of voice from zeroheight, reads the component in code and the design in Figma, then builds the page with native zeroheight blocks. Then it audits the page against the Design System Documentation Spec. It scores 69% on the first pass and 97% once it’s fixed the gaps. It also flags anything it can’t resolve, and everything stays a hidden draft until a human signs off. You can also set the whole flow to run on a schedule, so your docs keep up with Figma and the repo without anyone having to remember.\n\nChapters\n0:00 Intro\n0:14 Why docs get left behind\n0:30 How the pieces connect\n0:42 The prompt and the context\n1:08 The finished page\n1:24 Auditing against DSDS\n1:50 Fixing the gaps and flagging drift\n2:14 Hidden drafts and publishing\n2:29 Running it on a schedule\n2:43 Getting started\n\nLinks\nzeroheight MCP: https://zeroheight.com/mcp/\nSet up MCP access (help docs): https://help.zeroheight.com/hc/en-us/articles/51467311835803-Set-up-MCP-access-via-login\nMCP use cases: https://zeroheight.com/mcp/use-cases/\nAuditing your documentation in zeroheight: https://zeroheight.com/mcp/use-cases/auditing-your-documentation-in-zeroheight/\nDrafting documentation automatically when design or code changes: https://zeroheight.com/mcp/use-cases/drafting-documentation-automatically-when-design-or-code-changes/\nDesign System Documentation Spec: https://designsystemdocspec.org/\nFigma MCP server: https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server\nClaude Code: https://claude.com/claude-code\nClaude Code routines (for scheduled runs): https://code.claude.com/docs/en/routines\n\nThe zeroheight MCP works with Claude Code, Cursor, VS Code, Codex and Kiro (or any other AI tool that supports MCP).\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/u0REHT111v4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=u0REHT111v4",
+    "publishedAt": "2026-10-29T11:05:23Z",
+    "privacyStatus": "public",
+    "duration": "0:03:04",
+    "durationSeconds": 184
+  },
+  {
+    "title": "Design Systems WTF #66 - Is structured content important for design systems in the age of AI?",
+    "description": "Now the landscape has changed, is structured content still important? \n\nOr have LLMs changed the game and made it a moot point? \n\nIn this episode, Luke and Michelle dive into structured content, where the limits are, and what you should do to make sure your content is as readable as possible.\n\n\nzeroheight: https://zeroheight.com\n\nFind us on social:\nTwitter: https://twitter.com/zeroheight\nhttps://www.linkedin.com/company/zeroheight/\nInstagram: https://www.instagram.com/zeroheighthq",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/uiBZMHinzkg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=uiBZMHinzkg",
+    "publishedAt": "2026-10-28T12:07:08Z",
+    "privacyStatus": "public",
+    "duration": "0:58:56",
+    "durationSeconds": 3536
+  },
+  {
+    "title": "Supernova at a Glance: The Agentic Design System Platform in 3 Minutes",
+    "description": "Your teams now ship with AI agents, and every agent has to know how your product should look and work. That knowledge lives in your design system, spread across Figma, Storybook, code and docs and kept in sync by hand, so agents guess and teams drift.\n\nIn this under-3-minute walkthrough, we show you how Supernova, the agentic design system platform, turns your design system into one source of truth for your teams and their AI agents. It does four jobs: manage your design data, document it, deliver it to code and to agents, and improve it from how it's used.\n\nYou'll see how to:\n✦ Connect Figma, Storybook, Tokens Studio and your codebase into one design system\n✦ Keep every token and component in sync across themes and brands\n✦ Build documentation from live data, and let the Supernova Agent write the pages for review\n✦ Turn a token change into pull requests for web, iOS and Android\n✦ Give Cursor, Claude Code and Copilot your design system through per-team MCP servers\n✦ See how the system is used, and fix the gaps agents report\n\n⏱ Chapters\n0:00 The problem\n0:29 What Supernova does\n0:45 Manage\n1:14 Document\n1:40 Deliver\n2:04 Improve\n2:25 Why it matters\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you get your design system ready for, and built by, the agents.\n\n#DesignSystems #AIAgents #MCP #DesignTokens #Figma #ClaudeCode #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/t70xprgWY6o/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=t70xprgWY6o",
+    "publishedAt": "2026-10-28T11:41:28Z",
+    "privacyStatus": "public",
+    "duration": "0:02:49",
+    "durationSeconds": 169
+  },
+  {
+    "title": "Supernova Agent: Five Ways to Automate Your Daily Design System Operations",
+    "description": "A design system is never finished. Keeping it up to date while it supports the whole organization means an endless list of docs, tokens, components, and requests from every team.\n\nIn this under-3-minute walkthrough, we show you how the Supernova Agent automates your daily design system operations, with five examples to spark ideas. The agent works with everything in Supernova, knows the page you're on, and asks before it publishes or deletes anything.\n\nYou'll see how to:\n✦ Ask the agent for a health check and see what's missing in your design system\n✦ Document the components that have no docs, with dos and don'ts, linked and kept in draft\n✦ Find tokens nothing uses and fill in missing descriptions, with deletes waiting for your approval\n✦ Tell the agent what your teams build and get a dedicated MCP server for each team\n✦ Turn the feedback agents leave on your MCP servers into doc, token, and component fixes\n\n⏱ Chapters\n0:00 Welcome\n0:12 What the Supernova Agent can do\n0:37 Example 1: Get a health check\n0:57 Example 2: Document what's missing\n1:17 Example 3: Clean up your tokens\n1:38 Example 4: MCP servers for your teams\n2:00 Example 5: Turn agent feedback into fixes\n2:22 The result\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you spend less time keeping your design system up to date.\n\n#DesignSystems #AIAgents #DesignTokens #MCP #Documentation #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/qB9Jh8fNPpE/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=qB9Jh8fNPpE",
+    "publishedAt": "2026-10-26T17:56:37Z",
+    "privacyStatus": "public",
+    "duration": "0:02:37",
+    "durationSeconds": 157
+  },
+  {
+    "title": "Supernova Agent: From Endless Design System Maintenance to Work Done in Minutes",
+    "description": "Your design system is never done. Docs need writing, tokens need cleaning up, and the same small fixes come back every week, so your team spends its time on maintenance instead of new work.\n\nMeet the Supernova Agent. Ask it in plain words: it reads your design system, writes and updates your documentation, and cleans up design system data in bulk. Publishing and deleting always wait for your approval, and you can run several tasks at once.\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nWe're happy to help you let agents do the heavy lifting.\n\n#DesignSystems #AIAgents #Documentation #DesignTokens #DesignOps #Supernova",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "qhd": {
+        "url": "https://i.ytimg.com/vi/FyoDqMJTGaQ/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FyoDqMJTGaQ",
+    "publishedAt": "2026-10-26T15:10:03Z",
+    "privacyStatus": "public",
+    "duration": "0:01:03",
+    "durationSeconds": 63
+  },
+  {
+    "title": "My floor sanding business made me famous | How I Did It",
+    "description": "Growing up on a council estate and living with ADHD, Danny Stenhouse never imagined he’d end up where he is today.\n\nHe had many different jobs in his twenties and thirties before eventually finding his calling: running a floor sanding business and posting flooring transformation videos that are watched by millions of people.\n\nThis is Danny’s story – and how he did it.\n\n- \n\nHow I Did It is a series from GOV.UK introducing people in the UK who have turned their ideas, passions and skills into careers on their own terms.\n\nMeet the business owners, freelancers and self-employed people who have taken the leap to work for themselves. From starting out in a spare room to building a multi-million-pound business, they share how they got started, the challenges they faced and what they’ve learned along the way.\n\nWhether you’re just starting out or looking to take your business to the next level, find practical advice and support on GOV.UK. For more information about starting your own business, go to www.gov.uk/browse/business\n\nFor information about being self-employed and working for yourself, go to www.gov.uk/working-for-yourself\n\nGOV.UK is the home of the United Kingdom government, providing a single point of access to government services and information.\n\nFollow GOV.UK on social media:\nThreads: https://www.threads.com/govuk\nInstagram: https://www.instagram.com/govuk/\nFacebook: https://www.facebook.com/p/GOVUK-61556546057412/\nX: https://x.com/govuk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Ysj0v2YcC94/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=Ysj0v2YcC94",
+    "publishedAt": "2026-10-25T10:00:05Z",
+    "privacyStatus": "public",
+    "duration": "0:09:44",
+    "durationSeconds": 584
+  },
+  {
     "title": "Supernova at WaysConf 2026: What Designers Told Us About Design Systems and AI",
     "description": "Design systems used to be a niche topic. Now that AI agents build so much of our UI, they've become a crucial part of how product teams work, and our booth at WaysConf 2026 in Kraków was busy for two days straight.\n\nIn this 2-minute look-back, we share what we heard from the designers and design system teams who stopped by, including Supernova customers who run their design system on it every day.\n\nYou'll hear:\n✦ Why design systems matter more now that AI agents are everywhere\n✦ How Supernova brings together data from Figma, Storybook and code, and turns it into documentation for your teams and their agents\n✦ Why teams use Supernova as their single source of truth\n✦ How Supernova works as a bridge between design and development\n✦ How a UX writer keeps rules, guidelines and a glossary in Supernova, and connects it to Claude through the Supernova MCP\n✦ Why keeping big teams aligned is still the hardest part\n\n⏱ Chapters\n0:00 WaysConf 2026 in Kraków\n0:14 Why design systems matter now\n0:38 What we heard: a single source of truth\n0:54 A bridge between design and development\n1:11 Rules, glossary and the Supernova MCP\n1:31 Keeping big teams aligned\n1:52 Thank you, see you next time\n\n🚀 Try Supernova for free: https://app.supernova.io/signup\n📅 Book a demo: https://www.supernova.io/request-a-demo\n📚 Docs: https://learn.supernova.io\n🌐 Website: https://www.supernova.io\n\nThank you to everyone who stopped by our booth, and to the WaysConf team for two great days. We're happy to help you keep every team, and every agent, aligned with your design system.\n\n#DesignSystems #WaysConf #AIAgents #MCP #UXDesign #DesignOps #Supernova",
     "thumbnails": {
