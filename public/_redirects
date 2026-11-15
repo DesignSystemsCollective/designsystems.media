@@ -725,8 +725,3 @@
 /design-systems-when-and-how-much-diana/ /video/design-systems-when-and-how-much-diana/
 /uxpin-webinars-on-design-systems-dan-mall/ /video/uxpin-webinars-on-design-systems-dan-mall/
 /jina-bolton-designing-a-design-system/ /video/jina-bolton-designing-a-design-system/
-# User accounts: client-rendered public profile. Any /u/<handle>/ path
-# serves the same static shell; AccountWidget/profile.astro resolve the
-# handle from the URL client-side against Supabase. Status 200 = rewrite
-# (keeps the original URL in the browser), not a redirect.
-/u/*  /u/profile/index.html  200
