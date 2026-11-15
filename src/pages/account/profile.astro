@@ -1,11 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AccountSidebar from "../../components/AccountSidebar.astro";
 import Title from "../../components/Title.astro";
 
 const title = "Profile";
 ---
 
-<BaseLayout sidebar={false} metadataProps={{ title }}>
+<BaseLayout sidebar={true} metadataProps={{ title }}>
+  <Fragment slot="sidebar"><AccountSidebar active="profile" /></Fragment>
   <Title>{title}</Title>
   <div class="account-form-wrapper" id="profile-wrapper" hidden>
     <form id="profile-form" class="account-form">

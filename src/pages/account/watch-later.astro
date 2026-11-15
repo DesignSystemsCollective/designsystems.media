@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AccountSidebar from "../../components/AccountSidebar.astro";
 import Title from "../../components/Title.astro";
 import { getVideoEntries, getPodcastEntries } from "../../lib/content-domain";
 import { formatDuration } from "../../utils/formatDuration";
@@ -41,7 +42,8 @@ const lookup = [
 ];
 ---
 
-<BaseLayout sidebar={false} metadataProps={{ title }}>
+<BaseLayout sidebar={true} metadataProps={{ title }}>
+  <Fragment slot="sidebar"><AccountSidebar active="watch-later" /></Fragment>
   <Title>{title}</Title>
   <p id="watch-later-empty" class="watch-later-empty" hidden>
     Nothing saved yet - the bookmark icon on any video or podcast card adds it here.

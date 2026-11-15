@@ -36,7 +36,7 @@ const { sidebar, fullWidth, metadataProps } = Astro.props;
     <Header title={SITE_TITLE} />
     <main class:list={{ "full-width": fullWidth }}>
       <section class:list={["site-wrapper", { "with-sidebar": sidebar }]}>
-        {sidebar && <Sidebar />}
+        {sidebar && (Astro.slots.has("sidebar") ? <slot name="sidebar" /> : <Sidebar />)}
         <section class="main-page">
           <div class="content">
             <slot />
