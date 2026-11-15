@@ -35,7 +35,15 @@ export default defineConfig({
   // benefit to the on-the-fly CDN transform anyway - opt back into
   // Astro's built-in (sharp-based) image service, which processes and
   // embeds final images at build time like it always has.
-  adapter: netlify({ imageCDN: false }),
+  adapter: netlify({
+    imageCDN: false,
+    // The adapter's local Edge Functions emulation spawns a Deno subprocess
+    // with a `--allow-scripts` flag that newer Deno CLIs (2.x) reject on
+    // `deno eval`, breaking `astro dev` with an unhandled rejection. Nothing
+    // in this project uses custom edge functions or Astro sessions, so
+    // there's no emulation to lose by turning it off locally.
+    devFeatures: { edgeFunctions: false },
+  }),
   trailingSlash: "always",
   exclude: ["src/pages/generate-social-mosaics.astro"],
   // Astro 7 changes the default from `true` (HTML-aware compression, which
