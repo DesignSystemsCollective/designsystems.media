@@ -37,6 +37,16 @@
     align-items: center;
   }
 
+  /* Header.astro's `.rh-links a { display: flex }` is an author-origin
+     rule, so it beats the browser's own `[hidden] { display: none }`
+     UA rule outright regardless of specificity - the signed-out link
+     stayed visible even after JS set its `hidden` attribute. Reassert
+     `display: none` as an author rule of our own so hiding it actually
+     works. */
+  .account-widget [hidden] {
+    display: none;
+  }
+
   .account-signin-link {
     white-space: nowrap;
   }
