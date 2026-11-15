@@ -8,6 +8,7 @@ import MediaCard from "./media/MediaCard.astro";
 import WatchLaterButton from "./media/WatchLaterButton.astro";
 import { formatDuration } from "../utils/formatDuration";
 import { IMAGE_WIDTHS, IMAGE_SIZES } from "../utils/imageSizes";
+import { ACCOUNTS_ENABLED } from "../lib/flags";
 
 type Media = CollectionEntry<"media">;
 type Props = Media["data"] & {
@@ -49,7 +50,7 @@ const href = `/video/${slug}/`;
         <MediaImage src={poster} alt={title} ratio="video" loading={loading} />
       )}
     </a>
-    <WatchLaterButton contentType="media" slug={slug ?? ""} />
+    {ACCOUNTS_ENABLED && <WatchLaterButton contentType="media" slug={slug ?? ""} />}
   </div>
   <div slot="meta" class="meta">
     <span><FormattedDate date={publishedAt} /></span>

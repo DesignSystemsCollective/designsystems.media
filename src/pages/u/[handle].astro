@@ -11,6 +11,11 @@ export const prerender = false;
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { supabase } from "../../lib/supabase/client";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
 
 const { handle } = Astro.params;
 

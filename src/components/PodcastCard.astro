@@ -6,6 +6,7 @@ import { getShowImage } from "../utils/images";
 import MediaImage from "./media/MediaImage.astro";
 import MediaCard from "./media/MediaCard.astro";
 import WatchLaterButton from "./media/WatchLaterButton.astro";
+import { ACCOUNTS_ENABLED } from "../lib/flags";
 
 type Media = CollectionEntry<"podcast">;
 type Props = Media["data"] & {
@@ -48,7 +49,7 @@ const href = `/podcast/${slug}/`;
         loading={loading}
       />
     </a>
-    <WatchLaterButton contentType="podcast" slug={slug ?? ""} />
+    {ACCOUNTS_ENABLED && <WatchLaterButton contentType="podcast" slug={slug ?? ""} />}
   </div>
   <a href={`/show/${showSlug}/`} slot="subtitle" class="meta showTitle">{podcastTitle}</a>
   <div slot="meta" class="meta">

@@ -5,6 +5,13 @@ import Title from "../../components/Title.astro";
 import { getVideoEntries, getPodcastEntries } from "../../lib/content-domain";
 import { formatDuration } from "../../utils/formatDuration";
 import { getShowImage } from "../../utils/images";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+export const prerender = false;
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
 
 const title = "Watch Later";
 

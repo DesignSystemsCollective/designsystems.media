@@ -1,6 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Title from "../../components/Title.astro";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+export const prerender = false;
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
 
 const title = "Sign up";
 ---
