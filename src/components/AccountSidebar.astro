@@ -166,11 +166,17 @@ const { active } = Astro.props;
 <script>
   import { supabase } from "../lib/supabase/client";
 
-  const identityEl = document.querySelector<HTMLElement>(".account-sidebar-identity");
-  const initialEl = document.querySelector<HTMLElement>("[data-account-initial]");
-  const nameEl = document.querySelector<HTMLElement>("[data-account-name]");
-  const handleEl = document.querySelector<HTMLElement>("[data-account-handle]");
-  const signOutBtn = document.querySelector<HTMLButtonElement>("[data-signout]");
+  // Scoped to this component's own root - AccountWidget.astro (the header
+  // dropdown) reuses the same [data-account-initial]/[data-signout]
+  // attribute names on its own avatar/sign-out button, so an unscoped
+  // document.querySelector here was grabbing the header's elements
+  // instead of the sidebar's (first match in document order wins).
+  const root = document.querySelector<HTMLElement>("#account-sidebar");
+  const identityEl = root?.querySelector<HTMLElement>(".account-sidebar-identity");
+  const initialEl = root?.querySelector<HTMLElement>("[data-account-initial]");
+  const nameEl = root?.querySelector<HTMLElement>("[data-account-name]");
+  const handleEl = root?.querySelector<HTMLElement>("[data-account-handle]");
+  const signOutBtn = root?.querySelector<HTMLButtonElement>("[data-signout]");
 
   async function loadIdentity() {
     try {
