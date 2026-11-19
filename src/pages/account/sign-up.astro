@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Title from "../../components/Title.astro";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+export const prerender = false;
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
+
+const title = "Sign up";
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  <Title>{title}</Title>
+  <div class="account-form-wrapper">
+    <form id="sign-up-form" class="account-form">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required />
+
+      <label for="password">Password</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        autocomplete="new-password"
+        minlength="8"
+        required
+      />
+
+      <p class="account-form-error" id="sign-up-error" hidden></p>
+      <p class="account-form-success" id="sign-up-success" hidden></p>
+
+      <button type="submit">Sign up</button>
+    </form>
+    <p class="account-form-switch">
+      Already have an account? <a href="/account/sign-in/">Sign in</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .account-form-wrapper {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: var(--space-32) var(--space-16);
+  }
+  .account-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+  }
+  .account-form label {
+    font-size: var(--font-size-14);
+    color: var(--tx-2);
+  }
+  .account-form input {
+    padding: var(--space-8);
+    border: 1px solid var(--layout-border);
+    border-radius: var(--radius-6);
+    background: var(--bg);
+    color: var(--body-text);
+    font-size: var(--font-size-16);
+  }
+  .account-form button {
+    margin-top: var(--space-8);
+    padding: var(--space-8) var(--space-16);
+    border: none;
+    border-radius: var(--radius-6);
+    background: rgb(var(--accent));
+    color: var(--pure-white);
+    font-size: var(--font-size-16);
+    cursor: pointer;
+  }
+  .account-form button:hover {
+    background: var(--accent-hover);
+  }
+  .account-form-error {
+    color: #e5484d;
+    font-size: var(--font-size-14);
+    margin: 0;
+  }
+  .account-form-success {
+    color: var(--tx-2);
+    font-size: var(--font-size-14);
+    margin: 0;
+  }
+  .account-form-switch {
+    margin-top: var(--space-16);
+    font-size: var(--font-size-14);
+    color: var(--tx-2);
+    text-align: center;
+  }
+</style>
+
+<script>
+  import { supabase } from "../../lib/supabase/client";
+
+  const form = document.querySelector<HTMLFormElement>("#sign-up-form");
+  const errorEl = document.querySelector<HTMLElement>("#sign-up-error");
+  const successEl = document.querySelector<HTMLElement>("#sign-up-success");
+
+  form?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (errorEl) errorEl.hidden = true;
+    if (successEl) successEl.hidden = true;
+
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const password = (form.elements.namedItem("password") as HTMLInputElement)
+      .value;
+
+    try {
+      const { data, error } = await supabase.auth.signUp({ email, password });
+      if (error) {
+        if (errorEl) {
+          errorEl.textContent = error.message;
+          errorEl.hidden = false;
+        }
+        return;
+      }
+
+      // Email confirmation is required, so there's no session yet - tell
+      // the user to check their inbox instead of redirecting as if
+      // signed in.
+      if (!data.session && successEl) {
+        successEl.textContent = "Check your email to confirm your account.";
+        successEl.hidden = false;
+        form.reset();
+        return;
+      }
+
+      window.location.href = "/account/profile/";
+    } catch (err) {
+      console.error("Sign up failed", err);
+      if (errorEl) {
+        errorEl.textContent = "Couldn't reach the account service.";
+        errorEl.hidden = false;
+      }
+    }
+  });
+</script>
