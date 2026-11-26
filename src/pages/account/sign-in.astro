@@ -1,0 +1,132 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Title from "../../components/Title.astro";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+export const prerender = false;
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
+
+const title = "Sign in";
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  <Title>{title}</Title>
+  <div class="account-form-wrapper">
+    <form id="sign-in-form" class="account-form">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required />
+
+      <label for="password">Password</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        autocomplete="current-password"
+        required
+      />
+
+      <p class="account-form-error" id="sign-in-error" hidden></p>
+
+      <button type="submit">Sign in</button>
+    </form>
+    <p class="account-form-switch">
+      Don't have an account? <a href="/account/sign-up/">Sign up</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .account-form-wrapper {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: var(--space-32) var(--space-16);
+  }
+  .account-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+  }
+  .account-form label {
+    font-size: var(--font-size-14);
+    color: var(--tx-2);
+  }
+  .account-form input {
+    padding: var(--space-8);
+    border: 1px solid var(--layout-border);
+    border-radius: var(--radius-6);
+    background: var(--bg);
+    color: var(--body-text);
+    font-size: var(--font-size-16);
+  }
+  .account-form button {
+    margin-top: var(--space-8);
+    padding: var(--space-8) var(--space-16);
+    border: none;
+    border-radius: var(--radius-6);
+    background: rgb(var(--accent));
+    color: var(--pure-white);
+    font-size: var(--font-size-16);
+    cursor: pointer;
+  }
+  .account-form button:hover {
+    background: var(--accent-hover);
+  }
+  .account-form-error {
+    color: #e5484d;
+    font-size: var(--font-size-14);
+    margin: 0;
+  }
+  .account-form-switch {
+    margin-top: var(--space-16);
+    font-size: var(--font-size-14);
+    color: var(--tx-2);
+    text-align: center;
+  }
+</style>
+
+<script>
+  import { supabase } from "../../lib/supabase/client";
+
+  const form = document.querySelector<HTMLFormElement>("#sign-in-form");
+  const errorEl = document.querySelector<HTMLElement>("#sign-in-error");
+
+  form?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (errorEl) errorEl.hidden = true;
+
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const password = (form.elements.namedItem("password") as HTMLInputElement)
+      .value;
+
+    try {
+      const { error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+      if (error) {
+        if (errorEl) {
+          errorEl.textContent = error.message;
+          errorEl.hidden = false;
+        }
+        return;
+      }
+    } catch (err) {
+      console.error("Sign in failed", err);
+      if (errorEl) {
+        errorEl.textContent = "Couldn't reach the account service.";
+        errorEl.hidden = false;
+      }
+      return;
+    }
+
+    // Only ever redirect to a local path - "redirect" comes from the URL's
+    // query string, so treat it as untrusted (an attacker-crafted link
+    // could otherwise bounce a signed-in user to an external site).
+    const redirect = new URLSearchParams(window.location.search).get("redirect");
+    const isSafeLocalPath = redirect?.startsWith("/") && !redirect.startsWith("//");
+    window.location.href = isSafeLocalPath ? redirect : "/account/profile/";
+  });
+</script>

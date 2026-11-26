@@ -97,9 +97,16 @@ p {
 textarea {
   width: 100%;
   font-size: var(--font-size-16);
+  font-family: inherit;
 }
-input {
+input,
+button,
+select {
+  /* Browsers don't inherit font-family into form controls by default -
+     without this they fall back to the system UI font instead of
+     Atkinson. */
   font-size: var(--font-size-16);
+  font-family: inherit;
 }
 table {
   width: 100%;

@@ -1,0 +1,90 @@
+---
+// Public profile page. The site is otherwise fully static (output:
+// "static"), but new handles can't be enumerated at build time via
+// getStaticPaths - new signups happen after the build. Opting this one
+// route out of prerendering (supported because an adapter is configured)
+// makes it a real Netlify Function instead, resolved per-request against
+// Supabase - unlike a client-only shell, this also works in `astro dev`
+// and `astro preview` without depending on Netlify's own `_redirects`
+// rewrite layer, which only exists once deployed.
+export const prerender = false;
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { supabase } from "../../lib/supabase/client";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
+
+const { handle } = Astro.params;
+
+const { data: profile } = handle
+  ? await supabase
+      .from("profiles")
+      .select("handle, display_name, bio")
+      .eq("handle", handle)
+      .maybeSingle()
+  : { data: null };
+
+if (!profile) {
+  Astro.response.status = 404;
+}
+
+const title = profile ? profile.display_name || profile.handle : "Profile not found";
+---
+
+<BaseLayout sidebar={false} metadataProps={{ title }}>
+  {
+    profile ? (
+      <div class="public-profile">
+        <div class="public-profile-avatar">
+          {(profile.display_name || profile.handle).charAt(0).toUpperCase()}
+        </div>
+        <h1 class="public-profile-name">{profile.display_name || profile.handle}</h1>
+        <p class="public-profile-handle">@{profile.handle}</p>
+        {profile.bio && <p class="public-profile-bio">{profile.bio}</p>}
+      </div>
+    ) : (
+      <p class="public-profile-not-found">No profile found for this handle.</p>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .public-profile {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: var(--space-32) var(--space-16);
+    text-align: center;
+  }
+  .public-profile-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto var(--space-16);
+    border-radius: var(--radius-full);
+    background: rgb(var(--accent));
+    color: var(--pure-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+  }
+  .public-profile-name {
+    margin: 0;
+  }
+  .public-profile-handle {
+    color: var(--tx-3);
+    margin: 0 0 var(--space-16);
+  }
+  .public-profile-bio {
+    color: var(--tx-2);
+  }
+  .public-profile-not-found {
+    text-align: center;
+    color: var(--tx-2);
+    padding: var(--space-32) var(--space-16);
+  }
+</style>

@@ -1,0 +1,213 @@
+---
+// Account section nav - passed into BaseLayout's "sidebar" slot on
+// account/profile.astro and account/watch-later.astro (sign-in/sign-up
+// stay sidebar-less: there's no account context before auth). Owns its
+// own session/profile fetch rather than reading it from the page, same
+// pattern as AccountWidget.astro and WatchLaterButton.astro - each
+// account-aware component hydrates independently.
+import { Icon } from "astro-icon/components";
+
+export interface Props {
+  active: "profile" | "watch-later";
+}
+
+const { active } = Astro.props;
+---
+
+<aside id="account-sidebar">
+  <div class="account-sidebar-identity" data-signed-in-only hidden>
+    <span class="account-sidebar-avatar" data-account-initial>?</span>
+    <div class="account-sidebar-who">
+      <div class="account-sidebar-name" data-account-name></div>
+      <div class="account-sidebar-handle" data-account-handle></div>
+    </div>
+  </div>
+
+  <ul class="account-sidebar-nav">
+    <li>
+      <a href="/account/profile/" aria-current={active === "profile" ? "page" : undefined}>
+        <Icon name="fluent:person-20-regular" size={18} />
+        Profile
+      </a>
+    </li>
+    <li>
+      <a
+        href="/account/watch-later/"
+        aria-current={active === "watch-later" ? "page" : undefined}
+      >
+        <Icon name="fluent:bookmark-20-regular" size={18} />
+        Watch Later
+      </a>
+    </li>
+  </ul>
+
+  <div class="account-sidebar-foot">
+    <button type="button" data-signout>
+      <Icon name="fluent:sign-out-20-regular" size={18} />
+      Sign out
+    </button>
+  </div>
+</aside>
+
+<style>
+  #account-sidebar {
+    width: 100%;
+    background: var(--sidebar-background);
+    border-right: 1px solid var(--layout-border);
+    height: calc(100dvh - var(--header-height));
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-16) 0 0;
+  }
+
+  .account-sidebar-identity {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    padding: 0 var(--space-16) var(--space-16);
+    margin-bottom: var(--space-8);
+    border-bottom: 1px solid var(--layout-border);
+  }
+  .account-sidebar-who {
+    min-width: 0;
+  }
+  .account-sidebar-avatar {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-full);
+    background: rgb(var(--accent));
+    color: var(--pure-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+  }
+  .account-sidebar-name {
+    color: var(--tx);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-semibold);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .account-sidebar-handle {
+    color: var(--tx-3);
+    font-size: var(--font-size-13);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .account-sidebar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0 var(--space-8);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .account-sidebar-nav a {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    padding: var(--space-8);
+    border-radius: var(--radius-6);
+    color: var(--body-text);
+    text-decoration: none;
+    font-size: var(--font-size-16);
+  }
+  .account-sidebar-nav a:hover {
+    background: var(--ui-2);
+  }
+  .account-sidebar-nav a[aria-current="page"] {
+    background: rgba(var(--accent), 16%);
+    color: var(--accent-hover);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .account-sidebar-foot {
+    margin-top: auto;
+    border-top: 1px solid var(--layout-border);
+    padding: var(--space-8);
+  }
+  .account-sidebar-foot button {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    width: 100%;
+    appearance: none;
+    background: none;
+    border: none;
+    border-radius: var(--radius-6);
+    color: var(--tx-2);
+    font: inherit;
+    font-size: var(--font-size-16);
+    padding: var(--space-8);
+    cursor: pointer;
+  }
+  .account-sidebar-foot button:hover {
+    background: var(--ui-2);
+    color: var(--body-text);
+  }
+
+  @media screen and (max-width: 1024px) {
+    #account-sidebar {
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--layout-border);
+    }
+  }
+</style>
+
+<script>
+  import { supabase } from "../lib/supabase/client";
+
+  // Scoped to this component's own root - AccountWidget.astro (the header
+  // dropdown) reuses the same [data-account-initial]/[data-signout]
+  // attribute names on its own avatar/sign-out button, so an unscoped
+  // document.querySelector here was grabbing the header's elements
+  // instead of the sidebar's (first match in document order wins).
+  const root = document.querySelector<HTMLElement>("#account-sidebar");
+  const identityEl = root?.querySelector<HTMLElement>(".account-sidebar-identity");
+  const initialEl = root?.querySelector<HTMLElement>("[data-account-initial]");
+  const nameEl = root?.querySelector<HTMLElement>("[data-account-name]");
+  const handleEl = root?.querySelector<HTMLElement>("[data-account-handle]");
+  const signOutBtn = root?.querySelector<HTMLButtonElement>("[data-signout]");
+
+  async function loadIdentity() {
+    try {
+      const { data: sessionData } = await supabase.auth.getSession();
+      const session = sessionData.session;
+      if (!session || !identityEl) return;
+
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("handle, display_name")
+        .eq("id", session.user.id)
+        .maybeSingle();
+
+      const name = profile?.display_name || profile?.handle || session.user.email || "Account";
+      if (nameEl) nameEl.textContent = name;
+      if (handleEl) handleEl.textContent = profile?.handle ? `@${profile.handle}` : "";
+      if (initialEl) initialEl.textContent = name.charAt(0);
+      identityEl.hidden = false;
+    } catch (err) {
+      console.error("Failed to load account identity", err);
+    }
+  }
+
+  signOutBtn?.addEventListener("click", async () => {
+    try {
+      await supabase.auth.signOut();
+    } catch (err) {
+      console.error("Failed to sign out", err);
+    }
+    window.location.href = "/";
+  });
+
+  loadIdentity();
+</script>

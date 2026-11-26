@@ -1,0 +1,276 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AccountSidebar from "../../components/AccountSidebar.astro";
+import Title from "../../components/Title.astro";
+import { getVideoEntries, getPodcastEntries } from "../../lib/content-domain";
+import { formatDuration } from "../../utils/formatDuration";
+import { getShowImage } from "../../utils/images";
+import { ACCOUNTS_ENABLED } from "../../lib/flags";
+
+export const prerender = false;
+
+if (!ACCOUNTS_ENABLED) {
+  return new Response(null, { status: 404 });
+}
+
+const title = "Watch Later";
+
+// Built once at build time, not per-user: a lookup from every
+// saveable item's (type, slug) to the display data the watch-later list
+// needs. The client only has the signed-in user's list of (type, slug)
+// pairs (from Supabase) - this map is what turns those into titles,
+// images and hrefs without a second backend.
+const videos = await getVideoEntries();
+const podcasts = await getPodcastEntries();
+
+const lookup = [
+  ...videos.map((entry) => ({
+    type: "media" as const,
+    slug: entry.id,
+    title: entry.data.title,
+    href: `/video/${entry.id}/`,
+    image: entry.data.poster?.src ?? entry.data.image?.src ?? "",
+    duration: formatDuration(entry.data.duration),
+  })),
+  ...podcasts.map((entry) => {
+    const image =
+      entry.data.hasEpisodeImage && entry.data.image
+        ? entry.data.image.src
+        : getShowImage(entry.data.showSlug, false)?.src ?? "";
+    return {
+      type: "podcast" as const,
+      slug: entry.id,
+      title: entry.data.title,
+      href: `/podcast/${entry.id}/`,
+      image,
+      duration: formatDuration(entry.data.duration ?? ""),
+    };
+  }),
+];
+---
+
+<BaseLayout sidebar={true} metadataProps={{ title }}>
+  <Fragment slot="sidebar"><AccountSidebar active="watch-later" /></Fragment>
+  <Title>{title}</Title>
+  <p id="watch-later-empty" class="watch-later-empty" hidden>
+    Nothing saved yet - the bookmark icon on any video or podcast card adds it here.
+  </p>
+  <ul id="watch-later-list" class="watch-later-list"></ul>
+
+  <script
+    type="application/json"
+    id="watch-later-lookup"
+    set:html={JSON.stringify(lookup).replace(/<\/script/gi, "<\\/script")}
+  />
+</BaseLayout>
+
+<style>
+  .watch-later-empty {
+    color: var(--tx-2);
+    padding: var(--space-32) var(--space-16);
+    text-align: center;
+  }
+  .watch-later-list {
+    list-style: none;
+    margin: 0;
+    padding: var(--space-16);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-16);
+  }
+  .watch-later-item {
+    display: grid;
+    grid-template-columns: 160px 1fr auto;
+    gap: var(--space-16);
+    align-items: center;
+  }
+  .watch-later-item img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: var(--radius-6);
+  }
+  .watch-later-item a.title {
+    color: var(--body-text);
+    font-size: var(--font-size-16);
+    text-decoration: none;
+  }
+  .watch-later-item a.title:hover {
+    color: var(--accent-hover);
+  }
+  .watch-later-item .duration {
+    font-size: var(--font-size-14);
+    color: var(--tx-3);
+  }
+  .watch-later-item button {
+    appearance: none;
+    border: 1px solid var(--layout-border);
+    background: var(--bg);
+    color: var(--tx-2);
+    border-radius: var(--radius-6);
+    padding: var(--space-8) var(--space-16);
+    cursor: pointer;
+  }
+  .watch-later-item button:hover {
+    border-color: rgb(var(--accent));
+    color: var(--accent-hover);
+  }
+
+  @media screen and (max-width: 600px) {
+    .watch-later-item {
+      grid-template-columns: 96px 1fr;
+    }
+    .watch-later-item button {
+      grid-column: 1 / -1;
+      justify-self: start;
+    }
+  }
+</style>
+
+<script>
+  import { supabase } from "../../lib/supabase/client";
+
+  type LookupItem = {
+    type: "media" | "podcast";
+    slug: string;
+    title: string;
+    href: string;
+    image: string;
+    duration: string;
+  };
+
+  const listEl = document.querySelector<HTMLElement>("#watch-later-list");
+  const emptyEl = document.querySelector<HTMLElement>("#watch-later-empty");
+  const lookupEl = document.querySelector<HTMLScriptElement>(
+    "#watch-later-lookup"
+  );
+  const lookup: LookupItem[] = lookupEl ? JSON.parse(lookupEl.textContent || "[]") : [];
+
+  function render(items: LookupItem[]) {
+    if (!listEl) return;
+    listEl.innerHTML = "";
+    if (items.length === 0) {
+      if (emptyEl) emptyEl.hidden = false;
+      return;
+    }
+    if (emptyEl) emptyEl.hidden = true;
+
+    for (const item of items) {
+      // Built via DOM APIs rather than innerHTML - item.title ultimately
+      // comes from creator-supplied YouTube/podcast metadata, not content
+      // this repo controls, so it's treated as untrusted text.
+      const li = document.createElement("li");
+      li.className = "watch-later-item";
+
+      const imageLink = document.createElement("a");
+      imageLink.href = item.href;
+      const img = document.createElement("img");
+      img.src = item.image;
+      img.alt = "";
+      img.loading = "lazy";
+      imageLink.appendChild(img);
+
+      const info = document.createElement("div");
+      const titleLink = document.createElement("a");
+      titleLink.className = "title";
+      titleLink.href = item.href;
+      titleLink.textContent = item.title;
+      const duration = document.createElement("div");
+      duration.className = "duration";
+      duration.textContent = item.duration;
+      info.append(titleLink, duration);
+
+      const removeBtn = document.createElement("button");
+      removeBtn.type = "button";
+      removeBtn.textContent = "Remove";
+      removeBtn.dataset.contentType = item.type;
+      removeBtn.dataset.contentSlug = item.slug;
+
+      li.append(imageLink, info, removeBtn);
+      listEl.appendChild(li);
+    }
+  }
+
+  async function init() {
+    let session;
+    try {
+      const { data: sessionData } = await supabase.auth.getSession();
+      session = sessionData.session;
+    } catch (err) {
+      console.error("Failed to check session", err);
+      if (emptyEl) {
+        emptyEl.hidden = false;
+        emptyEl.textContent = "Couldn't reach the account service.";
+      }
+      return;
+    }
+
+    if (!session) {
+      window.location.href = `/account/sign-in/?redirect=${encodeURIComponent(
+        window.location.pathname
+      )}`;
+      return;
+    }
+
+    try {
+      const { data, error } = await supabase
+        .from("watch_later")
+        .select("content_type, content_slug")
+        .eq("user_id", session.user.id)
+        .order("created_at", { ascending: false });
+
+      if (error) {
+        if (emptyEl) {
+          emptyEl.hidden = false;
+          emptyEl.textContent = "Couldn't load your watch later list.";
+        }
+        return;
+      }
+
+      const bySlug = new Map(
+        lookup.map((item) => [`${item.type}:${item.slug}`, item])
+      );
+      const items = (data ?? [])
+        .map((row) => bySlug.get(`${row.content_type}:${row.content_slug}`))
+        .filter((item): item is LookupItem => Boolean(item));
+
+      render(items);
+    } catch (err) {
+      console.error("Failed to load watch later list", err);
+      if (emptyEl) {
+        emptyEl.hidden = false;
+        emptyEl.textContent = "Couldn't reach the account service.";
+      }
+      return;
+    }
+
+    listEl?.addEventListener("click", async (event) => {
+      const button = (event.target as HTMLElement)?.closest<HTMLButtonElement>(
+        "button[data-content-type]"
+      );
+      if (!button) return;
+
+      const contentType = button.dataset.contentType ?? "";
+      const contentSlug = button.dataset.contentSlug ?? "";
+
+      try {
+        await supabase
+          .from("watch_later")
+          .delete()
+          .eq("user_id", session.user.id)
+          .eq("content_type", contentType)
+          .eq("content_slug", contentSlug);
+      } catch (err) {
+        console.error("Failed to remove item", err);
+        return;
+      }
+
+      button.closest(".watch-later-item")?.remove();
+      if (listEl && listEl.children.length === 0 && emptyEl) {
+        emptyEl.hidden = false;
+      }
+    });
+  }
+
+  init();
+</script>
