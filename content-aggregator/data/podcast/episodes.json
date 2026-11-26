@@ -1,5 +1,33 @@
 [
   {
+    "title": "Enabling Brands w/ Dimitri Otero | Wireframe Live",
+    "description": "<p><a href='https://youtube.com/@designsyshouse'>https://youtube.com/@designsyshouse</a></p>\n",
+    "podcastTitle": "Wireframe by Design Systems House",
+    "episodeUrl": "https://mcdn.podbean.com/mf/web/oe0hxr18mrzocqb9/yt_video_Nzm-htcskU4_xivii9.mp3",
+    "audioUrl": "https://mcdn.podbean.com/mf/web/oe0hxr18mrzocqb9/yt_video_Nzm-htcskU4_xivii9.mp3",
+    "publishedAt": "2026-11-24T21:37:34.000Z",
+    "duration": "1:01:09",
+    "durationSeconds": 3669,
+    "episodeImageUrl": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/e8d91216bf8e14a8c6fffd8cf707055e.jpg",
+    "podcastImageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png",
+    "thumbnails": {
+      "high": {
+        "url": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog20951198/e8d91216bf8e14a8c6fffd8cf707055e.jpg"
+      },
+      "maxres": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/20951198/album-cover.png"
+      }
+    },
+    "feedUrl": "https://feed.podbean.com/designsyshouse/feed.xml",
+    "feedId": 7394197,
+    "episodeId": 63719602305,
+    "guid": "yt:video:Nzm-htcskU4",
+    "season": null,
+    "episode": null,
+    "explicit": false,
+    "type": "full"
+  },
+  {
     "title": "Ep 109: One Button, Eighteen Sources of Truth",
     "description": "<p>Davy and PJ revisit how they build components across Figma, code, and prototype sandboxes. When every platform has its own version, what’s the source of truth?</p>",
     "podcastTitle": "Design System Office Hours",
